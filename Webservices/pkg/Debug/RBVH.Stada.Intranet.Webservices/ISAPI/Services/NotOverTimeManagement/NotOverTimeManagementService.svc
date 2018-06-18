@@ -1,6 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true"
-    Service="RBVH.Stada.Intranet.Webservices.ISAPI.Services.NotOverTimeManagement.NotOverTimeManagementService, RBVH.Stada.Intranet.Webservices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=471ff5a4bce2e937"
-    CodeBehind="PresidentsService.svc.cs"
-    Factory="Microsoft.SharePoint.Client.Services.MultipleBaseAddressWebServiceHostFactory,
-    Microsoft.SharePoint.Client.ServerRuntime, Version=15.0.0.0, Culture=neutral,
-    PublicKeyToken=71e9bce111e9429c" %>

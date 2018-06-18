@@ -1,1 +1,0 @@
-bin\Debug\RBVH.Stada.Intranet.Webservices.wsp
