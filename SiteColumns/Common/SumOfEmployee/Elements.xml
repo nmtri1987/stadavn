@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c656f9e7-b326-4f43-8843-0f3a35fb22db}"
+       Name="SumOfEmployee"
+       DisplayName="Sum Of Employee"
+       Type="Number"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

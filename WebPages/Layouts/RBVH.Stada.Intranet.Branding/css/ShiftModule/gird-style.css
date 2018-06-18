@@ -1,0 +1,94 @@
+﻿.cell-title {
+    font-weight: bold;
+}
+
+.cell-effort-driven {
+    text-align: center;
+}
+
+.cell-selection {
+    border-right-color: silver;
+    border-right-style: solid;
+    background: #f5f5f5;
+    color: gray;
+    text-align: right;
+    font-size: 10px;
+}
+
+.slick-row.selected .cell-selection {
+    background-color: transparent; /*show default selected row background */
+}
+
+.slick-header-column {
+    height: 24px !important;
+    text-align: center !important;
+}
+
+#shiftRequestGrid {
+    border: solid 1px #ADAAAD !important;
+}
+
+#myShiftGrid {
+    border: solid 1px #ADAAAD !important;
+}
+
+.state-default {
+    background: #c5dbec !important;
+}
+
+#ViewShiftRequestGrid {
+    border: solid 1px #ADAAAD !important;
+}
+
+#overTimeRequestGrid {
+    border: solid 1px #ADAAAD !important;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+    /* style icon */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.r3{
+    padding-left: 3px !important;
+    text-align: center !important;
+}
+
+.slick-header > .slick-header-columns > .slick-header-column {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+
+ 
+.reallyHidden {
+    display: none !important;
+}
+.shift-time-valid{
+    background-color:#c6ffcc;
+}
+    

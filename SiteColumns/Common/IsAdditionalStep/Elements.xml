@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}"
+       Name="IsAdditionalStep"
+       DisplayName="Is Additional Step"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01005C0EBC082C1C45C88FD034780FAB3774" Name="News" Group="Stada Content Types" Description="News Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" DisplayName="$Resources:cmscore,column_pageimage_displayname;" Required="FALSE" Description="$Resources:cmscore,column_pageimage_description;" Name="PublishingPageImage" Sealed="TRUE" />
+      <FieldRef ID="{f220d70e-1502-4491-9a7d-f1fd12b8fce7}" DisplayName="Short Content" Required="FALSE" Name="NewsShortContent" />
+      <FieldRef ID="{554cb3b0-277d-43ef-a09a-d223a1567232}" DisplayName="Body" Required="FALSE" Name="NewsBody" NumLines="24" />
+      <FieldRef ID="{b7efa5d1-63a4-4ce2-b102-0474187344fb}" DisplayName="News Priority" Required="FALSE" Name="NewsPriority" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

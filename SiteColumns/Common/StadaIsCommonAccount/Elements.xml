@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{bbdba43a-e788-461c-b6b9-34e5ade32793}"
+       Name="StadaIsCommonAccount"
+       DisplayName="Is Common Account"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

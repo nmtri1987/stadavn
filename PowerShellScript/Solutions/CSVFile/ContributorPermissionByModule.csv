@@ -1,0 +1,38 @@
+Model,ListName,DepartmentGroup,PermissionLevel,Department
+Shift Management,Shift Management,Administrators;Contributors;Members,Contribute,
+Shift Management,Shift Management Detail,Administrators;Contributors;Members,Contribute,
+Change Shift Management,Change Shift Management,Administrators;Contributors;Members,Contribute,
+Overtime Management,Overtime Management,Administrators;Contributors;Members,Contribute,
+Overtime Management,Overtime Employee Details,Administrators;Contributors;Members,Contribute,
+Overtime Management,Overtime Workflow Task List,Administrators;Contributors;Members,Edit,
+Leave of Absense Management,Leave Of Absence For Overtime Management,Administrators;Contributors;Members,Edit,
+Leave of Absense Management,Leave Of Absence For Overtime Worklow Task List,Administrators;Contributors;Members,Edit,
+Workflow,Workflow History List,Administrators;Contributors;Members,Edit,
+Change Shift Management,Change Shift Management,Administrators;Members;Contributors,Edit,
+Change Shift Management,Change Shift Workflow Task List,Administrators;Members;Contributors,Edit,
+Leave Management,Leave Management,Administrators;Members;Contributors,Contribute,
+Vehicle Management,Vehicle Management,Administrators;Members;Contributors,Contribute,
+Requests,Requests,Administrators;Members;Contributors,Contribute,
+Requests,Request buy details,Administrators;Members;Contributors,Contribute,
+Requests,Request other details,Administrators;Members;Contributors,Contribute,
+Requests,Request repair details,Administrators;Members;Contributors,Contribute,
+Freight,Freight Management,Administrators;Members;Contributors,Contribute,
+Freight,Freight Details,Administrators;Members;Contributors,Contribute,
+,Documents,Administrators;Members;Contributors,Contribute,
+,Company Calendar - Location 1,Administrators,Contribute,HR & Administration
+,Company Calendar - Location 2,Administrators,Contribute,HR & Administration
+,Company Announcements,Administrators,Contribute,HR & Administration
+,Links,Administrators,Contribute,HR & Administration
+,Site Collection Documents,Administrators,Contribute,HR & Administration
+,Pictures,Administrators,Contribute,HR & Administration
+Task List Management,Task List,Administrators;Contributors;Members,Edit,
+Recruitment Management,Employee requirement sheets,Administrators;Contributors;Members,Contribute,
+Diploma Supplement Request Management,Request diploma details,Administrators;Contributors;Members,Contribute,
+Diploma Supplement Request Management,Request for diploma supplies,Administrators;Contributors;Members,Contribute,
+Business Trip Management,Business Trip Management,Administrators;Members;Contributors,Contribute,
+Business Trip Management,Business Trip Employee Details,Administrators;Members;Contributors,Contribute,
+Business Trip Management,Business Trip Schedule,Administrators;Members;Contributors,Contribute,
+Delegation Management,Delegations,Administrators;Members;Contributors,Contribute,
+Delegation Management,Delegations of new task,Administrators;Members;Contributors,Contribute,
+Requisition of meeting room,Requisition of meeting room,Administrators;Members;Contributors,Contribute,
+Requirement For Guest Reception,Requirement For Guest Reception,Administrators;Members;Contributors,Contribute,

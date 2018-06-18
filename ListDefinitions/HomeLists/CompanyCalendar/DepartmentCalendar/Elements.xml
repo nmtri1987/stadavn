@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,DepartmentCalendar_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="106"
+                FeatureId="daa42646-bd4b-472c-9dae-5cbddfb09afb"
+                Url="Lists/DepartmentCalendar"
+                Description="$Resources:RBVHStadaLists,DepartmentCalendar_Description;">
+  </ListInstance>
+</Elements>

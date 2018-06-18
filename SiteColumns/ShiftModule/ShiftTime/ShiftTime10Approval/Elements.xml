@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a23dc310-c282-4e53-b306-a13299b9144d}"
+       Name="ShiftTime10Approval"
+       DisplayName="Shift Time 10 Approval"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

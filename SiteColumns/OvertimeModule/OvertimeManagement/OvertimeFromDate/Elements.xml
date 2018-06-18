@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d05735e8-a3e1-43f8-a8da-0591b8e03e03}"
+       Name="OvertimeFromDate"
+       DisplayName="From Date"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

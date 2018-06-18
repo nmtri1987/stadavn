@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{bf5db12a-4e0a-4f72-a374-edc85fb8998f}"
+       Name="PickupCarDateTime"
+       DisplayName="Pickup Car Date"
+       Type="DateTime"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

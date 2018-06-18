@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a062e9aa-7231-4c17-9cd6-438bcbb86f68}"
+       Name="Action"
+       DisplayName="Action"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

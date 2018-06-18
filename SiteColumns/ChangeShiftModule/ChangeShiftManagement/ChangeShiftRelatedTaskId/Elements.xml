@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1aa97cae-0c92-42e8-abea-c94a616fa7bb}"
+       Name="ChangeShiftRelatedTaskId"
+       DisplayName="Related Task Id"
+       Type="MultiChoice" FillInChoice="TRUE" Mult="TRUE" 
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

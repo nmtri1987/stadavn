@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4eedb0a3-c3e6-4b75-b48e-708430075336}"
+       Name="SortOrder"
+       DisplayName="Sort Order"
+       Type="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

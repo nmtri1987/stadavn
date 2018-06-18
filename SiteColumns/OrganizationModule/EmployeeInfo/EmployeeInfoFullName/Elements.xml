@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{2a768b71-f8ac-4689-88ff-6bbb82851b36}"
+       Name="EmployeeInfoFullName"
+       DisplayName="Full Name"
+       Type="Calculated" ResultType="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+    <Formula>=FirstName&amp;&quot; &quot;&amp;LastName</Formula>
+    <FieldRefs>
+      <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" />
+      <FieldRef ID="{5d7610f3-0aaa-4338-a6c7-35ac6646f4f5}" Name="LastName" />
+    </FieldRefs>
+  </Field>
+</Elements>

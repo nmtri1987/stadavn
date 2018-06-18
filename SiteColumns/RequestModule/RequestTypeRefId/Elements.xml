@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{92dcf80f-101f-449c-918c-e687a9d96ae6}"
+       Name="RequestTypeRefId"
+       DisplayName="Request Type Ref Id"
+       Type="Number"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

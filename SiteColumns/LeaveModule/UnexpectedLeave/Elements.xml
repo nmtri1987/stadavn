@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{034a42a9-13f1-47bd-b7f7-9293cd8e63db}"
+       Name="UnexpectedLeave"
+       DisplayName="Unexpected Leave"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

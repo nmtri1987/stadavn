@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,GuestPickupCar_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/GuestPickupCar" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{8197702C-4420-4AAF-AAB3-F185553ED25A}" Name="GuestReceptionManagementID" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestReceptionManagementID;" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" Required="FALSE" Type="Lookup" List="Lists/GuestReceptionManagement" ShowField="ID"/>
+      <Field ID="{E641255E-0BCC-4755-8CD5-49D7859C79B3}" Name="DateTime" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestPickupCarDatetimeTitle;" Type="DateTime" Required="TRUE"></Field>
+      <Field ID="{5B6E9911-5978-4C45-BEEF-66DEED6BB11A}" Name="WorkingPlace" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestPickupCarWorkingPlaceTitle;" Type="Note"></Field>
+      <Field ID="{EF22C07A-B826-43F5-9838-3DC33759179B}" Name="Attendant" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestPickupCarAttendantTitle;" Type="Note"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="DateTime"></FieldRef>
+          <FieldRef Name="WorkingPlace"></FieldRef>
+          <FieldRef Name="Attendant"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="DateTime"></FieldRef>
+          <FieldRef Name="WorkingPlace"></FieldRef>
+          <FieldRef Name="Attendant"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

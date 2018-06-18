@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9921760c-60c5-4e01-842b-2bf75cb4a084}"
+       Name="DepartDate"
+       DisplayName="Depart Date"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

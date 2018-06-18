@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01007EE6923DCAD949C18F7F8E757A6EC16B" Name="$Resources:RBVHStadaLists,EmployeeInfo_EmployeeInfo;" Group="RBVH Content Types" Description="$Resources:RBVHStadaLists,EmployeeInfo_EmployeeInfo;" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{f400afb9-1b9e-4a4b-9608-e6a6fe52852f}" Name="ADAccount"/>
+      <FieldRef ID="{22ab38e3-8503-4b67-bf9a-562778d150cd}" Name="EmployeeID" />
+      <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName"/>
+      <FieldRef ID="{5d7610f3-0aaa-4338-a6c7-35ac6646f4f5}" Name="LastName" />
+      <FieldRef ID="{2a768b71-f8ac-4689-88ff-6bbb82851b36}" Name="EmployeeInfoFullName" />
+      <FieldRef ID="{0f23bf7f-a26a-4217-bdde-4a273a83a12d}" Name="EmployeeDisplayName" />
+      <FieldRef ID="{C4C7D925-BC1B-4f37-826D-AC49B4FB1BC1}" Name="Birthday" />
+      <FieldRef ID="{4959039d-b2eb-429a-8c11-8517eb9c520c}" Name="HomeTown" />
+      <FieldRef ID="{a4351b41-d853-419b-8785-43ec9ad2b3e7}" Name="HomeAddress" />
+      <FieldRef ID="{30764d0d-60ad-4e08-8698-7a87437db61f}" Name="Password" />
+      <FieldRef ID="{291d8c8c-03f5-4052-9201-450b3b7286d4}" Name="EmployeeInfoDepartment" />
+      <FieldRef ID="{aa0db260-5456-40df-96a1-2294aa98bff2}" Name="EmployeeInfoManager" />
+      <FieldRef ID="{351cfd03-0f40-4dc7-ba55-0494b5ad604e}" Name="DepartmentPermission"/>
+      <FieldRef ID="{d42eb341-54f7-4d2f-9373-c88889211487}" Name="Email" />
+      <FieldRef ID="{23550288-91B5-4e7f-81F9-1A92661C4838}" Name="Gender" />
+      <FieldRef ID="{7edd9e09-2c2e-4a05-adc3-ea822859e3c6}" Name="Position" />
+      <FieldRef ID="{1fb8cef0-672e-465a-82b7-b15397fbfd86}" Name="JoinedDate" />
+      <FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" Name="PublishingPageImage"/>
+      <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" />
+      <FieldRef ID="{4fd557c4-92be-48e4-a47e-183b739b757b}" Name="EmployeeType" />
+      <FieldRef ID="{09ED8D57-9C55-4A24-968D-99B1BA5AD0EE}" Name="IsActive"/>
+      <FieldRef ID="{18a99830-576c-4039-b6aa-e350d5ab8692}" Name="DelegatedBy" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

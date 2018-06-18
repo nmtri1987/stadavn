@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{6e8df9a6-3c4b-4734-8bc1-0e0d7b7fbcde}"
+       Name="CommonMonth"
+       DisplayName="Common Month"
+       Type="Number"
+       Required="TRUE"
+       Min="1"
+       Max="12"
+       Group="Stada Columns">
+  </Field>
+</Elements>

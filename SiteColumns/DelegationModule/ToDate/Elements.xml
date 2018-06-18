@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cd75252b-9b88-408e-811e-ba61222dc6bb}"
+       Name="ToDate"
+       DisplayName="To Date"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

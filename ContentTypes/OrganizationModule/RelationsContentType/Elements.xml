@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100B156F80D66F04B64B2ED5185F87FCA1F" Name="Relations" Group="Stada Content Types" Description="Relations Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" DisplayName="$Resources:core,First_Name;" Required="TRUE" Name="FirstName" />
+      <FieldRef ID="{5d7610f3-0aaa-4338-a6c7-35ac6646f4f5}" DisplayName="Last Name" Required="TRUE" Name="LastName" />
+      <FieldRef ID="{C4C7D925-BC1B-4f37-826D-AC49B4FB1BC1}" DisplayName="$Resources:core,Birthday_OL;" Name="Birthday" Format="DateOnly" Sealed="TRUE" />
+      <FieldRef ID="{2a768b71-f8ac-4689-88ff-6bbb82851b36}" DisplayName="Full Name" Required="FALSE" Name="EmployeeInfoFullName" />
+      <FieldRef ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" DisplayName="Employee" Required="TRUE" Name="Employee" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

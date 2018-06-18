@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accounting_TopMenu" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="AdminHR_TopMenu" xml:space="preserve">
+    <value>Administration &amp; Human Resource</value>
+  </data>
+  <data name="AnalyticalDevelopment_TopMenu" xml:space="preserve">
+    <value>Analytical Development</value>
+  </data>
+  <data name="Departments_TopMenu" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Engineering_TopMenu" xml:space="preserve">
+    <value>Engineering</value>
+  </data>
+  <data name="Forms_TopMenu" xml:space="preserve">
+    <value>Forms</value>
+  </data>
+  <data name="FormulationDevelopment_TopMenu" xml:space="preserve">
+    <value>Formulation Development</value>
+  </data>
+  <data name="ImportExport_TopMenu" xml:space="preserve">
+    <value>Import - Export</value>
+  </data>
+  <data name="InternalNews_TopMenu" xml:space="preserve">
+    <value>Internal News</value>
+  </data>
+  <data name="IT_TopMenu" xml:space="preserve">
+    <value>IT</value>
+  </data>
+  <data name="LiquidWorkshop_TopMenu" xml:space="preserve">
+    <value>Liquid Workshop</value>
+  </data>
+  <data name="Planning_TopMenu" xml:space="preserve">
+    <value>Planning</value>
+  </data>
+  <data name="Policies_TopMenu" xml:space="preserve">
+    <value>Policies</value>
+  </data>
+  <data name="Procurement_TopMenu" xml:space="preserve">
+    <value>Procurement</value>
+  </data>
+  <data name="QuanlityAssurance_TopMenu" xml:space="preserve">
+    <value>Quality Assurance</value>
+  </data>
+  <data name="QuanlityControl_TopMenu" xml:space="preserve">
+    <value>Quality Control</value>
+  </data>
+  <data name="RegulatoryAffair_TopMenu" xml:space="preserve">
+    <value>Regulatory Affair</value>
+  </data>
+  <data name="RnD_TopMenu" xml:space="preserve">
+    <value>Research &amp; Development</value>
+  </data>
+  <data name="Solidworkshop_TopMenu" xml:space="preserve">
+    <value>Solid workshop</value>
+  </data>
+  <data name="TechnologyTransfer_TopMenu" xml:space="preserve">
+    <value>Technology Transfer</value>
+  </data>
+  <data name="Warehouse_TopMenu" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="BusinessTrip_LeftMenu" xml:space="preserve">
+    <value>Business Trip</value>
+  </data>
+  <data name="ChangeShiftRequest_LeftMenu" xml:space="preserve">
+    <value>Change Shift Request</value>
+  </data>
+  <data name="DesignRequest_LeftMenu" xml:space="preserve">
+    <value>Design Request</value>
+  </data>
+  <data name="DiplomaSupplementRequest_LeftMenu" xml:space="preserve">
+    <value>Diploma Supplement Request</value>
+  </data>
+  <data name="DissoierForDomesticRequest_LeftMenu" xml:space="preserve">
+    <value>Information of Domestic Dossier</value>
+  </data>
+  <data name="DissoierForExportingRequest_LeftMenu" xml:space="preserve">
+    <value>Information of Exporting Dossier</value>
+  </data>
+  <data name="GuessWelcomingRequest_LeftMenu" xml:space="preserve">
+    <value>Guess Welcoming Request</value>
+  </data>
+  <data name="InformationUpdateRequest_LeftMenu" xml:space="preserve">
+    <value>Information Update Request</value>
+  </data>
+  <data name="LeaveRequest_LeftMenu" xml:space="preserve">
+    <value>Leave Request</value>
+  </data>
+  <data name="LicenseToTransport_LeftMenu" xml:space="preserve">
+    <value>License To Transport</value>
+  </data>
+  <data name="MeetingRoomBooking_LeftMenu" xml:space="preserve">
+    <value>Meeting Room Booking</value>
+  </data>
+  <data name="NotConfirmingRequest_LeftMenu" xml:space="preserve">
+    <value>Non conforming Report</value>
+  </data>
+  <data name="OvertimeRequest_LeftMenu" xml:space="preserve">
+    <value>Overtime Request</value>
+  </data>
+  <data name="RecruitmentRequest_LeftMenu" xml:space="preserve">
+    <value>Recruitment Request</value>
+  </data>
+  <data name="RegisterForTransportation_LeftMenu" xml:space="preserve">
+    <value>Register For Transportation</value>
+  </data>
+  <data name="RequestForm_LeftMenu" xml:space="preserve">
+    <value>Request Form</value>
+  </data>
+  <data name="RequesttoNotOvertime_LeftMenu" xml:space="preserve">
+    <value>Request Leave of Absense For Overtime Work</value>
+  </data>
+  <data name="RequisitionOfDocuments_LeftMenu" xml:space="preserve">
+    <value>Requisition Of Documents</value>
+  </data>
+  <data name="RnD_LeftMenu" xml:space="preserve">
+    <value>R&amp;D</value>
+  </data>
+  <data name="ShiftRequest_LeftMenu" xml:space="preserve">
+    <value>Shift Request</value>
+  </data>
+  <data name="StationaryRequest_LeftMenu" xml:space="preserve">
+    <value>Stationary Request</value>
+  </data>
+  <data name="SupplierMeetingRequest_LeftMenu" xml:space="preserve">
+    <value>Supplier Meeting Request</value>
+  </data>
+  <data name="TimeSheet_LeftMenu" xml:space="preserve">
+    <value>Timesheet</value>
+  </data>
+  <data name="EmployeeShiftTime_LeftMenu" xml:space="preserve">
+    <value>Employee Shift Time</value>
+  </data>
+  <data name="Forms_Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="OvertimeApprovalList_LeftMenu" xml:space="preserve">
+    <value>Overtime Approval List</value>
+  </data>
+  <data name="ShiftApprovalList_LeftMenu" xml:space="preserve">
+    <value>Shift Approval List</value>
+  </data>
+  <data name="ChangeShiftRequestTaskList_LeftMenu" xml:space="preserve">
+    <value>Change Shift Request Task List</value>
+  </data>
+  <data name="RequesttoNotOvertimeTaskList_LeftMenu" xml:space="preserve">
+    <value>Request Leave of Absense For Overtime Work Task List</value>
+  </data>
+  <data name="ShiftManagement_MShiftRequestTitle" xml:space="preserve">
+    <value>My Shift Request</value>
+  </data>
+  <data name="MyOverTime_LeftMenu" xml:space="preserve">
+    <value>My Overtime</value>
+  </data>
+  <data name="TransportRequest_LeftMenu" xml:space="preserve">
+    <value>Vehicle  Request</value>
+  </data>
+  <data name="TransportTaskList_LeftMenu" xml:space="preserve">
+    <value>Vehicle  Work Task List</value>
+  </data>
+  <data name="LeaveApprovalList_LeftMenu" xml:space="preserve">
+    <value>Leave Approval List</value>
+  </data>
+</root>

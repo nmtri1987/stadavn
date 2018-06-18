@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,EmployeeRequirementSheets_ListTitle" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/EmployeeRequirementSheets" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100BD37BA55506E4E0BA7635D927FD0DE9D" />
+      <ContentTypeRef ID="0x01004595BF9C5D9144D4B63D251E745A462F" />
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{a1ce62c0-c553-4ab8-acfc-64bfb7aac862}" Name="RecruitmentDepartment" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_Department" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="FALSE" Group="Stada Columns">
+      </Field>
+      <Field ID="{7edd9e09-2c2e-4a05-adc3-ea822859e3c6}" Name="Position" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_Position" Type="Text"/>
+      <Field ID="{b7bda11b-0675-4ed5-900c-6ff1e09258d9}" Name="Quantity" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_Quantity" Type="Number" Min="0" />
+      <Field ID="{fc7a2fda-4116-4ea7-8304-cb060378168a}" Name="ReasonsForRecruitment" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_ReasonsForRecruitment" Type="Note" Required="FALSE" NumLines="6" Group="Stada Columns"></Field>
+      <Field ID="{bdece9ef-1603-4ca4-9065-9c1d5409aca9}" Name="Sex" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_Sex" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Nam/Male</CHOICE>
+          <CHOICE>Nữ/Female</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{cb2e33f3-563e-4b4c-ba86-95e57fbe4158}" Name="FromAge" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_FromAge" Type="Number" Required="TRUE" Group="Stada Columns" Min="0" Max="100"></Field>
+      <Field ID="{cc40ecb1-630d-4800-8cbc-7fbe415d4e57}" Name="ToAge" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_ToAge" Type="Number" Required="TRUE" Group="Stada Columns" Min="0" Max="100"></Field>
+      <Field ID="{99731040-6fb3-4370-8d71-b2cbe739d231}" Name="AvailableTime" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_AvailableTime" Type="DateTime" Format="DateOnly" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{ff55137c-f282-41c6-b50e-87a20453061d}" Name="MaritalStatus" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_MaritalStatus" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Độc thân/Single</CHOICE>
+          <CHOICE>Đã lập gia đình/Married</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{2edb4217-bc68-4964-b84a-97781b1f2ad6}" Name="WorkingTime" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_WorkingTime" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Toàn thời gian/Full - Time</CHOICE>
+          <CHOICE>Theo ca/Work in shift</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{e47ea53b-d0b5-4cf2-8ebd-233490e41107}" Name="EducationLevel" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_EducationLevel" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>12/12/High School</CHOICE>
+          <CHOICE>Trung cấp/Middle Level School</CHOICE>
+          <CHOICE>Cao đẳng/College</CHOICE>
+          <CHOICE>Đại học/University</CHOICE>
+          <CHOICE>Trên đại học/Postgraduate</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{5ceb8e29-964f-4ade-a746-6c865f7cf68e}" Name="Appearance" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_Appearance" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Cần/Necessary</CHOICE>
+          <CHOICE>Tương đối/Uncertain</CHOICE>
+          <CHOICE>Không cần/Unnecessary</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{c478f685-bf32-48b4-8a19-ba714a0f23be}" Name="WorkingExperience" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_WorkingExperience" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Dưới 1 năm/Under 1 year</CHOICE>
+          <CHOICE>Từ 1 đến dưới 2 năm/From 1 to 2 years</CHOICE>
+          <CHOICE>Không cần/Unnecessary</CHOICE>
+          <CHOICE>Khác/Others</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{8df5300b-5c0b-408f-8cc0-4d77501ff7d0}" Name="Specialities" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_Specialities" Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{f5c9a28a-3158-4fd0-8fdb-3b570736f66f}" Name="DescriptionOfBasicWork" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_DescriptionOfBasicWork" Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{e3e1fe57-1e16-471a-b91c-f3adc34a195e}" Name="MoralVocations" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_MoralVocations" Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{2c78cfe5-c44c-4ca9-a9df-9230e7b85814}" Name="WorkingAbilities" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_WorkingAbilities" Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns">
+      </Field>
+      <Field ID="{25ca16e8-df61-4cf5-af63-efba72263285}" Name="EnglishSkills" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_EnglishSkills" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Level A</CHOICE>
+          <CHOICE>Level B</CHOICE>
+          <CHOICE>Level C</CHOICE>
+          <CHOICE>Unnecessary</CHOICE>
+          <CHOICE>Khác/Others</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{ab0f2b5c-6181-48f3-a977-44e0116f9f9f}" Name="ComputerSkills" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_ComputerSkills" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Word</CHOICE>
+          <CHOICE>Power point</CHOICE>
+          <CHOICE>Excel</CHOICE>
+          <CHOICE>Internet</CHOICE>
+          <CHOICE>Khác/Others</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{ab5e2361-4e82-465a-ba6d-89450c8d4323}" Name="OtherSkills" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_OtherSkills" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Tính sáng tạo/Creative</CHOICE>
+          <CHOICE>Năng lực lãnh đạo/Ability to lead</CHOICE>
+          <CHOICE>Khả năng giải quyết công việc/Ability to solve problem</CHOICE>
+          <CHOICE>Khả năng ra quyết định/Ability to make decision</CHOICE>
+          <CHOICE>Khả năng thuyết phục/Ability to persuade</CHOICE>
+          <CHOICE>Hiểu biết, nắm bắt công việc/Comprehensive</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{b8a1885c-e6cf-419f-be84-0718ccc9879c}" Name="OtherRequirement" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_OtherRequirement" Type="Choice" Required="FALSE" Group="Stada Columns">
+        <CHOICES>
+          <CHOICE>Sức khỏe/Health</CHOICE>
+          <CHOICE>Giao tiếp, ứng xử/communication</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{422cbc57-0501-4af5-b56b-22804de69fd5}" Name="DepartmentCode" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_DepartmentCode" Type="Text" Required="FALSE" Group="Stada Columns">
+      </Field>
+      <Field ID="{727e82f1-1157-41ab-a418-2a8e641158d0}" Name="IsValidRequest" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_IsValidRequest" Type="Boolean" >
+        <Default>1</Default>
+      </Field>
+      <Field ID="{088adaa1-4f85-4091-a6de-8df676cf3d30}" Name="IsTemplate" DisplayName="$Resources:RBVHStadaLists,EmployeeRequirementSheets_IsTemplate" Type="Boolean" >
+        <Default>0</Default>
+      </Field>
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{04f9da1b-4283-4ad9-a240-6953ab1d8213}" DisplayName="$Resources:RBVHStadaLists,RequestList_StatusOrder" Type="Calculated" ResultType="Number" Name="StatusOrder" Required="FALSE">
+        <Formula>
+          =IF([Workflow status]="Approved","7",IF([Workflow status]="Rejected","8",IF([Workflow status]="Cancelled","9","0")))
+        </Formula>
+      </Field>
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" DisplayName="$Resources:RBVHStadaLists,Common_LastRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" DisplayName="$Resources:RBVHStadaLists,Common_NextRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" DisplayName="$Resources:RBVHStadaLists,Common_RemindedAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" DisplayName="$Resources:RBVHStadaLists,Common_MaxRemindAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RecruitmentDepartment"></FieldRef>
+          <FieldRef Name="Position"></FieldRef>
+          <FieldRef Name="Quantity"></FieldRef>
+          <FieldRef Name="ReasonsForRecruitment"></FieldRef>
+          <FieldRef Name="Sex"></FieldRef>
+          <FieldRef Name="FromAge"></FieldRef>
+          <FieldRef Name="ToAge"></FieldRef>
+          <FieldRef Name="AvailableTime"></FieldRef>
+          <FieldRef Name="MaritalStatus"></FieldRef>
+          <FieldRef Name="WorkingTime"></FieldRef>
+          <FieldRef Name="EducationLevel"></FieldRef>
+          <FieldRef Name="Appearance"></FieldRef>
+          <FieldRef Name="WorkingExperience"></FieldRef>
+          <FieldRef Name="Specialities"></FieldRef>
+          <FieldRef Name="DescriptionOfBasicWork"></FieldRef>
+          <FieldRef Name="MoralVocations"></FieldRef>
+          <FieldRef Name="WorkingAbilities"></FieldRef>
+          <FieldRef Name="EnglishSkills"></FieldRef>
+          <FieldRef Name="ComputerSkills"></FieldRef>
+          <FieldRef Name="OtherSkills"></FieldRef>
+          <FieldRef Name="OtherRequirement"></FieldRef>
+          <FieldRef Name="IsValidRequest"></FieldRef>
+          <FieldRef Name="IsTemplate"></FieldRef>
+          <FieldRef Name="Creator"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+          <FieldRef Name="PendingAt"></FieldRef>
+          <FieldRef Name="CurrentStep"></FieldRef>
+          <FieldRef Name="NextStep"></FieldRef>
+          <FieldRef Name="CommonLocation"></FieldRef>
+          <FieldRef Name="CommonDepartment"></FieldRef>
+          <FieldRef Name="IsAdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalNextStep"></FieldRef>
+          <FieldRef Name="AdditionalDepartment"></FieldRef>
+          <FieldRef Name="AssignFrom"></FieldRef>
+          <FieldRef Name="AssignTo"></FieldRef>
+          <FieldRef Name="CommonDueDate"></FieldRef>
+          <FieldRef Name="WFStatus"></FieldRef>
+          <FieldRef Name="StatusOrder"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

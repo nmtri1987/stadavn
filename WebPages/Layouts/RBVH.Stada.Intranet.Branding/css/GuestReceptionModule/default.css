@@ -1,0 +1,53 @@
+﻿.ms-h2 {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+hr {
+    margin-top: 0px;
+    border: solid 1px #d0d4db;
+
+}
+
+.ms-dttimeinput select {
+    padding: 3px !important;
+    width: 50px;
+}
+
+td.ms-dtinput input[type="text"] {
+    width: 90px;
+}
+
+.spacing-right label {
+    margin-right: 10px;
+}
+
+#grid-guest, #grid-company-pick-up {
+    overflow: visible;
+}
+
+.guest-reception-container .note {
+    font-style: italic;
+}
+
+.guest-reception-container .jsgrid-table .jsgrid-button {
+    min-width: 16px;
+}
+
+/* Customize Grid */
+.jsgrid-header-row>.jsgrid-header-cell {
+    white-space: normal;
+}
+
+span.ms-standardheader {
+    white-space: normal;
+}
+
+.guest-reception-container input[type='text'].require-error, .guest-reception-container select.require-error{
+    border: solid 1px red !important;
+}
+
+.ms-formvalidation {
+    display: block;
+    margin-top: 5px;
+}

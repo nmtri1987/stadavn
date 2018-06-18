@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="LeaveRequestApproval" Url="wfsvc/3546c1e048734abfaaf77d51aa04f861">
+    <File Url="Workflow.xaml" Type="GhostableInLibrary" Path="LeaveRequestApproval\Workflow.xaml" DoGUIDFixUp="TRUE" ReplaceContent="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="LeaveRequestApproval" />
+      <Property Name="WSDescription" Value="My 'LeaveRequestApproval' Workflow" />
+      <!-- If you change the name or Url of your custom initiation or association form, 
+           remember to update the corresponding property value (InitiationUrl or AssociationUrl) to match the new web relative url.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/LeaveRequests;}" />
+    </File>
+    <File Url="WorkflowStartAssociation" Path="LeaveRequestApproval\WorkflowStartAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="LeaveRequestApproval - Workflow Start" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="WorkflowStart" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="c754ac86-9fe1-4701-ad17-51c22d30c8b6" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/LeaveRequests;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/LeaveRequests;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/WorkflowTaskList;}" />
+    </File>
+    <File Url="ItemAddedAssociation" Path="LeaveRequestApproval\ItemAddedAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="LeaveRequestApproval - Item Added" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="ItemAdded" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="5cc395f4-e721-4e25-959d-2e6a66a69998" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/LeaveRequests;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/LeaveRequests;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/WorkflowTaskList;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+</Elements>

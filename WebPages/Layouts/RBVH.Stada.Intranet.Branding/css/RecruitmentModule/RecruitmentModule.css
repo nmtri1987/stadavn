@@ -1,0 +1,15 @@
+﻿#tbRequestContainer {
+    border-collapse: separate;
+}
+.leftColumnWidth {
+    width: 400px;
+}
+.customSelect {
+    width: inherit;
+}
+.customInput {
+    width: inherit;
+}
+.custom-form input[type=submit].ms-ButtonHeightWidth {
+    font-size: 14px !important;
+}

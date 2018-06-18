@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{90180452-1f23-43ae-9387-ae28ee3410d3}"
+       Name="MeetingRoomLocation"
+       DisplayName="Location"
+       Type="Lookup" List="Lists/MeetingRooms" ShowField="Title"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{51d39514-1b70-48b2-a2b1-bb8538750a3a}"
+       Name="GuestHotelRoomType"
+       DisplayName="Room Type"
+       Type="Choice"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100CF3D6707D0C6486482E56BC798A0788D"
+               Name="Freight Details"
+               Group="Stada Content Types"
+               Description="$Resources:RBVHStadaLists,FreightDetails_ContentType_Description;"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{9cb1a1a3-aef7-4256-8c94-6c0e12f95415}" Name="FreightManagementID" Required="TRUE" />
+      <FieldRef ID="{b3c8cac6-4311-436a-b851-e5bd27836544}" Name="GoodsName" Required="TRUE" />
+      <FieldRef ID="{dfd9f9c0-eb5e-495d-a177-de3401fba0fd}" Name="Unit" Required="FALSE" />
+      <FieldRef ID="{b7bda11b-0675-4ed5-900c-6ff1e09258d9}" Name="Quantity" Required="FALSE" />
+      <FieldRef ID="{b03a0578-ba80-4ac0-9fea-6d077be7171e}" Name="Remarks" Required="FALSE" />
+      <FieldRef ID="{5ed44549-dead-4501-8fc4-a4199449accc}" Name="ShippingIn" Required="FALSE" />
+      <FieldRef ID="{ae1255d8-f8ae-4737-87c2-e0a419c8e607}" Name="ShippingOut" Required="FALSE" />
+      <FieldRef ID="{4B706809-A81F-427E-836C-D2C434D3155D}" Name="CheckInBy" Required="FALSE" />
+      <FieldRef ID="{FD97F010-A920-46D9-97C7-60A666E2042E}" Name="CheckOutBy" Required="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

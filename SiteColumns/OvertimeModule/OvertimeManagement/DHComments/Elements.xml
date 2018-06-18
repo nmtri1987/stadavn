@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ab348a94-ac03-499a-860f-fedfb5ff3f0a}"
+       Name="DHComments"
+       DisplayName="DH Comments"
+       Type="Note"
+       NumLines="3"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

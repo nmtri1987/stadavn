@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2d140086-b0f4-4928-8869-62bedf6c29fe}"
+       Name="GuestHotelBooking"
+       DisplayName="Hotel Booking"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

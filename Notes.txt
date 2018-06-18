@@ -1,0 +1,88 @@
+Module Employees
+10001	Departments
+10002	Relations
+10003	Employee Info
+10043	Factories
+
+Module Leave
+10004	Leave Management
+10010	Leave Workflow Task List
+
+Module Shift
+12121	Shift Workflow Task List
+
+Module Overtime
+10005	Overtime Employee Details
+10006	Overtime Management
+
+MailTemplate
+12081	MailTemplate
+
+News
+12082	InternalNews
+12083	MedicalNews
+
+Announcement
+12151	Announcement
+
+Request Module
+10130	RequestTypes
+10131	Requests
+10135	RequestReceivedDepartmentViewers
+
+EmployeePosition
+
+10017 EmployeePosition
+
+Task Module
+StepList 10200
+
+Freight Module:
+Freight Management: 10015
+
+Permision
+
+groups 10118
+
+permissionPage 10119
+
+Module Category 10120
+WorkflowSteps 13001
+WorkflowHistory 13001
+
+Meeting Room
+MeetingRooms 13801
+
+RequisitionOfMeetingRoom 13802
+
+
+
+Recruiment Module
+EmployeeRequirementSheets 14051
+Calendar: 20 -> Create seperated items
+2,2017-05-20,0:00:00,2017-05-20,23:59:00,Nghi Cuoi Tuan,Weekend,Description47
+
+When add new department:
++ Add one item in file DepartmentList.csv
++ Modify GroupPermission.csv: add groups that can access to some pages
++ Run script import employee for new department (if any)
+
+http://windev3:81/_vti_bin/services/shiftmanagement/shiftmanagementservice.svc/exportshifts/1#2#5
+
+--------------------------------Leave Management Test Links----------------------------------------
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-21T00:00:00.000/2017-06-22T00:00:00.000
+
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-20T00:00:00.000/2017-06-20T00:00:00.000
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-20T00:00:00.000/2017-06-21T00:00:00.000
+
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-21T00:00:00.000/2017-06-22T00:00:00.000
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-22T00:00:00.000/2017-06-23T00:00:00.000
+
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-22T00:00:00.000/2017-06-27T00:00:00.000
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-24T00:00:00.000/2017-06-29T00:00:00.000
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-26T00:00:00.000/2017-06-29T00:00:00.000
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-26T00:00:00.000/2017-07-01T00:00:00.000
+
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-06-23T00:00:00.000/2017-06-29T00:00:00.000
+http://rbvhspdev01:81/_vti_bin/services/leavemanagement/leavemanagementservice.svc/GetAllLeaveInfo/125/2017-07-06T00:00:00.000/2017-07-12T00:00:00.000
+---------------------------------------------------------------------------------------------------

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{803d5d82-8435-47c7-a652-c664bbb32fab}"
+       Name="MeetingRoomSeat"
+       DisplayName="Meeting Room Seat"
+       Type="Number"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

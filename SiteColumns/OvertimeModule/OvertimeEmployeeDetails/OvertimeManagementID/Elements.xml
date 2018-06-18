@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{878e2996-150c-4e63-b632-ba90dec566a0}"
+       Name="OvertimeManagementID"
+       DisplayName="Overtime Management ID"
+       Type="Lookup" List="Lists/OvertimeManagement" ShowField="ID"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

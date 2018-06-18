@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}"
+       Name="CommonReqDueDate"
+       DisplayName="Request Due Date"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

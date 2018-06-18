@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{17d909e0-78dc-4a8e-b979-55ee93672c8c}"
+       Name="To"
+       DisplayName="To"
+       Type="DateTime"
+       Required="TRUE"
+       Group="Stada Columns">
+    <Validation Message="Must be greater than From.">=To&gt;=CommonFrom</Validation>
+    <Default>[today]</Default>
+  </Field>
+</Elements>

@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Task List" FolderCreation="FALSE" Direction="$Resources:Direction;" EnableContentTypes="TRUE" Url="Lists/TaskList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <!--<ContentType ID="0x0108003365C4474CAE8C42BCE396314E88E51F00B3B665719D9645DE92C926A2E7946D86" Name="CustomTaskListContentType" Group="Custom Content Types" Description="My Content Type" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Name="AssignedTo" />
+          <FieldRef ID="{a52f84da-be4e-4eb2-9759-310721578ed9}" Name="NextAssign"  />
+          <FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" Name="Status" />
+          <FieldRef ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" Name="TaskOutcome" />
+          <FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Name="StartDate" />
+          <FieldRef ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" Name="DueDate" />
+          <FieldRef ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" Name="Priority" />
+          <FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" />
+          <FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" />
+          <FieldRef ID="{fd447db5-3908-4b47-8f8c-a5895ed0aa6a}" Name="ParentID" />
+          <FieldRef ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" Name="RelatedItems" />
+          <FieldRef ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" />
+          <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" />
+          <FieldRef ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}" Name="ListURL" />
+          <FieldRef ID="{0f16145f-72f4-4b08-a174-13ae8422237e}" Name="ItemId" />
+          <FieldRef ID="{0d03bfb6-d868-4647-8f3b-843b35e5e32a}" Name="ItemURL" />
+          <FieldRef ID="{0189e6f0-2f82-447a-b826-2eec198639f8}" Name="CurrentStepStatus" />
+          <FieldRef ID="{746e2329-408d-4a5e-845a-84f503578aaa}" Name="RelatedTasks" />
+          <FieldRef ID="{9bbd6a27-377d-4b2f-89a2-0f01b8afe82b}" Name="StepModule" />
+        </FieldRefs>
+      </ContentType>-->
+      <ContentTypeRef ID="0x0108003365C4474CAE8C42BCE396314E88E51F00B3B665719D9645DE92C926A2E7946D86" />
+    </ContentTypes>
+    <Fields>
+      <Field  ID="{a52f84da-be4e-4eb2-9759-310721578ed9}" Name="NextAssign" DisplayName="$Resources:RBVHStadaLists,TaskList_NextAssignTo;" Type="User" UserSelectionMode="PeopleOnly" Required="FALSE" Group="Stada Columns">
+      </Field>
+      <Field ID="{746e2329-408d-4a5e-845a-84f503578aaa}" Name="RelatedTasks"  DisplayName="$Resources:RBVHStadaLists,TaskList_RelatedTasks;" Required="FALSE" Group="Stada Columns" Type="LookupMulti" Mult="TRUE" List="Lists/TaskList" ShowField="Title" >
+      </Field>
+      <Field Name="Title" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" Type="Text" />
+      <Field ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" Type="Choice" Name="Priority" DisplayName="$Resources:core,Priority;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Priority">
+        <CHOICES>
+          <CHOICE>$Resources:core,Priority_High;</CHOICE>
+          <CHOICE>$Resources:core,Priority_Normal;</CHOICE>
+          <CHOICE>$Resources:core,Priority_Low;</CHOICE>
+        </CHOICES>
+        <MAPPINGS>
+          <MAPPING Value="1">$Resources:core,Priority_High;</MAPPING>
+          <MAPPING Value="2">$Resources:core,Priority_Normal;</MAPPING>
+          <MAPPING Value="3">$Resources:core,Priority_Low;</MAPPING>
+        </MAPPINGS>
+        <Default>$Resources:core,Priority_Normal;</Default>
+      </Field>
+      <Field Type="Choice" ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" Name="Status" DisplayName="$Resources:core,TaskStatus;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Status">
+        <CHOICES>
+          <CHOICE>$Resources:core,Tasks_NotStarted;</CHOICE>
+          <CHOICE>$Resources:core,Tasks_InProgress</CHOICE>
+          <CHOICE>$Resources:core,Tasks_Completed</CHOICE>
+          <CHOICE>$Resources:core,Tasks_Deferred</CHOICE>
+          <CHOICE>$Resources:core,Tasks_Waiting</CHOICE>
+        </CHOICES>
+        <MAPPINGS>
+          <MAPPING Value="1">$Resources:core,Tasks_NotStarted;</MAPPING>
+          <MAPPING Value="2">$Resources:core,Tasks_InProgress</MAPPING>
+          <MAPPING Value="3">$Resources:core,Tasks_Completed</MAPPING>
+          <MAPPING Value="4">$Resources:core,Tasks_Deferred</MAPPING>
+          <MAPPING Value="5">$Resources:core,Tasks_Waiting</MAPPING>
+        </MAPPINGS>
+        <Default>$Resources:core,Tasks_NotStarted;</Default>
+      </Field>
+      <Field Type="Number" Name="PercentComplete" ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Percentage="TRUE" Min="0" Max="1" DisplayName="$Resources:core,Percent_Complete;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PercentComplete">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Type="User" UserSelectionMode="PeopleOnly" Name="AssignedTo" Mult="FALSE" Sortable="FALSE" ShowField="ImnName" DisplayName="$Resources:core,Assigned_To;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AssignedTo"></Field>
+      <Field ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Type="Note" RichText="TRUE" RestrictedMode="TRUE" RichTextMode="FullHtml" Name="Body" DisplayName="$Resources:core,Description;" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Body"></Field>
+      <Field ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Type="DateTime" Name="StartDate" DisplayName="$Resources:core,Start_Date;" Format="DateOnly" FriendlyDisplayFormat="Relative" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="StartDate"></Field>
+      <Field Type="DateTime" ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" Name="DueDate" DisplayName="$Resources:core,Due_Date;" Format="DateTime" FriendlyDisplayFormat="Disabled" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DueDate"></Field>
+      <Field Type="Lookup" Indexed="TRUE" Name="ParentID" ID="{fd447db5-3908-4b47-8f8c-a5895ed0aa6a}" Hidden="TRUE" Required="FALSE" List="Self" RelationshipDeleteBehavior="Cascade" ShowField="ID" DisplayName="$Resources:core,Parent_ID;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ParentID"></Field>
+      <Field Type="Calculated" Name="Checkmark" ID="{ebf1c037-47eb-4355-998d-47ce9f2cc047}" Required="FALSE" ResultType="Boolean" ReadOnly="TRUE" DisplayName="$Resources:core,Check_Mark_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Checkmark">
+        <Formula>=PercentComplete&gt;=1</Formula>
+        <FieldRefs>
+          <FieldRef Name="PercentComplete" />
+        </FieldRefs>
+      </Field>
+      <Field Type="RelatedItems" Name="RelatedItems" ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="$Resources:core,Related_Links_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RelatedItems"></Field>
+      <Field Type="UserMulti" List="UserInfo" ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" Mult="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Previously_Assigned_To_Field;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PreviouslyAssignedTo"></Field>
+      <Field ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" DisplayName="$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_DisplayName;" Name="TaskOutcome" Type="OutcomeChoice" Sealed="FALSE">
+        <CHOICES>
+          <CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Approved;</CHOICE>
+          <CHOICE>$Resources:_FeatureId57311b7a-9afd-4ff0-866e-9393ad6647b1,TaskOutcomeField_Rejected;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,TaskList_Department;" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}" Name="ListURL" DisplayName="$Resources:RBVHStadaLists,TaskList_ListURL;" Type="Text" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{0f16145f-72f4-4b08-a174-13ae8422237e}" Name="ItemId" DisplayName="$Resources:RBVHStadaLists,TaskList_ItemId;" Type="Number" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{0d03bfb6-d868-4647-8f3b-843b35e5e32a}" Name="ItemURL" DisplayName="$Resources:RBVHStadaLists,TaskList_ItemURL;" Type="Text" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{9bbd6a27-377d-4b2f-89a2-0f01b8afe82b}" Name="StepModule" DisplayName="$Resources:RBVHStadaLists,TaskList_StepModule;" Type="Choice" Required="TRUE" Group="Stada Columns" >
+        <CHOICES>
+          <CHOICE>LeaveManagement</CHOICE>
+          <CHOICE>VehicleManagement</CHOICE>
+          <CHOICE>ShiftManagement</CHOICE>
+          <CHOICE>OvertimeManagement</CHOICE>
+          <CHOICE>ChangeShiftManagement</CHOICE>
+          <CHOICE>NotOvertimeManagement</CHOICE>
+          <CHOICE>RequestManagement</CHOICE>
+          <CHOICE>FreightManagement</CHOICE>
+          <CHOICE>BusinessTripManagement</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{0189e6f0-2f82-447a-b826-2eec198639f8}" Name="CurrentStepStatus" DisplayName="$Resources:RBVHStadaLists,TaskList_StepStatus;" Type="Choice" Required="TRUE" Group="Stada Columns">
+        <Default>Waiting TLE Approval/Chờ tổ trưởng duyệt</Default>
+        <CHOICES>
+          <CHOICE>Waiting TLE Approval/Chờ tổ trưởng duyệt</CHOICE>
+          <CHOICE>Waiting SLD Approval/Chờ trưởng ca duyệt</CHOICE>
+          <CHOICE>Waiting DH Approval/Chờ trưởng phòng duyệt</CHOICE>
+          <CHOICE>Waiting BOD Approval/Chờ BGD duyệt</CHOICE>
+          <CHOICE>Approved/Đã được duyệt</CHOICE>
+          <CHOICE>Rejected/Đã từ chối</CHOICE>
+          <CHOICE>Waiting Admin Aproval/Chờ phòng HC duyệt</CHOICE>
+          <CHOICE>Waiting Admin Director Aproval/Chờ GĐ HC duyệt</CHOICE>
+          <CHOICE>Waiting Direct Manager Aproval/Chờ tổ trưởng duyệt</CHOICE>
+          <CHOICE>Waiting Security Aproval/Chờ bảo vệ duyệt</CHOICE>
+          <CHOICE>Waiting Shift Leader Aproval/Chờ trưởng ca duyệt</CHOICE>
+          <CHOICE>Waiting Foreman Aproval/Chờ quản đốc duyệt</CHOICE>
+        </CHOICES>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="GANTT">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="PercentComplete"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+          <FieldRef Name="GUID"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="Title" Type="GanttTitle"></FieldRef>
+          <FieldRef Name="StartDate" Type="GanttStartDate"></FieldRef>
+          <FieldRef Name="DueDate" Type="GanttEndDate"></FieldRef>
+          <FieldRef Name="PercentComplete" Type="GanttPercentComplete"></FieldRef>
+          <FieldRef Name="ParentID" Type="HierarchyParentID"></FieldRef>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,All_Tasks;" MobileView="True" MobileDefaultView="True" Url="AllItems.aspx" SetupPath="pages\viewpage.aspx" DefaultView="TRUE" ImageUrl="/_layouts/15/images/issuelst.png?rev=23">
+        <Toolbar Type="Standard" />
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Checkmark"></FieldRef>-->
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+          <FieldRef Name="TaskOutcome" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="ListURL" />
+          <FieldRef Name="ItemId" />
+          <FieldRef Name="ItemURL" />
+          <FieldRef Name="StepModule" />
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="PercentComplete" Type="StrikeThroughPercentComplete"></FieldRef>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+        <Query />
+      </View>
+      <View BaseViewID="2" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,Late_Tasks;" MobileView="True" MobileDefaultView="False" Url="late.aspx" ReqAuth="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/issuelst.png?rev=23">
+        <Toolbar Type="Standard" />
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Checkmark"></FieldRef>-->
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="PercentComplete" Type="StrikeThroughPercentComplete"></FieldRef>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+        <Query>
+          <Where>
+            <And>
+              <Or>
+                <IsNull>
+                  <FieldRef Name="PercentComplete" />
+                </IsNull>
+                <Neq>
+                  <FieldRef Name="PercentComplete"></FieldRef>
+                  <Value Type="Number">1</Value>
+                </Neq>
+              </Or>
+              <Lt>
+                <FieldRef Name="DueDate"></FieldRef>
+                <Value Type="DateTime">
+                  <Today></Today>
+                </Value>
+              </Lt>
+            </And>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="DueDate"></FieldRef>
+            <FieldRef Name="Priority"></FieldRef>
+          </OrderBy>
+        </Query>
+      </View>
+      <View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,Incomplete_Tasks;" MobileView="True" MobileDefaultView="False" Url="Upcoming.aspx" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/issuelst.png?rev=23">
+        <Toolbar Type="Standard" />
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Checkmark"></FieldRef>-->
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="PercentComplete" Type="StrikeThroughPercentComplete"></FieldRef>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+        <Query>
+          <Where>
+            <And>
+              <Or>
+                <IsNull>
+                  <FieldRef Name="PercentComplete" />
+                </IsNull>
+                <Neq>
+                  <FieldRef Name="PercentComplete"></FieldRef>
+                  <Value Type="Number">1</Value>
+                </Neq>
+              </Or>
+              <Geq>
+                <FieldRef Name="DueDate"></FieldRef>
+                <Value Type="DateTime">
+                  <Today></Today>
+                </Value>
+              </Geq>
+            </And>
+          </Where>
+        </Query>
+      </View>
+      <View BaseViewID="4" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,Completed_Tasks;" MobileView="True" MobileDefaultView="False" Url="completed.aspx" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/issuelst.png?rev=23">
+        <Toolbar Type="Standard" />
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Checkmark"></FieldRef>-->
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+        <Query>
+          <Where>
+            <Geq>
+              <FieldRef Name="PercentComplete"></FieldRef>
+              <Value Type="Number">1.0</Value>
+            </Geq>
+          </Where>
+        </Query>
+      </View>
+      <View BaseViewID="5" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,My_Tasks;" MobileView="True" MobileDefaultView="False" Url="MyItems.aspx" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/issues.png?rev=23" ReqAuth="TRUE">
+        <Toolbar Type="Standard" />
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <JSLink>~sitecollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TaskModule/JSLink_TaskList_TransportationView_Approval.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="PercentComplete" Type="StrikeThroughPercentComplete"></FieldRef>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+      </View>
+      <View BaseViewID="7" Type="HTML" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Checkmark"></FieldRef>-->
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+      </View>
+      <View BaseViewID="8" Type="GANTT" WebPartZoneID="Main" DisplayName="$Resources:core,ganttChart;" Url="gantt.aspx" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/issuelst.png?rev=23">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">100</RowLimit>
+        <ViewFields>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="PercentComplete"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+          <FieldRef Name="GUID"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="Title" Type="GanttTitle"></FieldRef>
+          <FieldRef Name="StartDate" Type="GanttStartDate"></FieldRef>
+          <FieldRef Name="DueDate" Type="GanttEndDate"></FieldRef>
+          <FieldRef Name="PercentComplete" Type="GanttPercentComplete"></FieldRef>
+          <FieldRef Name="ParentID" Type="HierarchyParentID"></FieldRef>
+          <FieldRef Name="DueDate" Type="TimelineDueDate"></FieldRef>
+        </ViewData>
+        <Query />
+      </View>
+      <View BaseViewID="9" Type="CALENDAR" WebPartZoneID="Main" DisplayName="$Resources:core,userinfo_schema_calendarview;" MobileView="FALSE" MobileDefaultView="FALSE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/events.png?rev=23" TabularView="FALSE" Url="calendar.aspx" MobileUrl="_layouts/15/mobile/viewdaily.aspx">
+        <Toolbar Type="Standard" />
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+        <ViewFields>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="Title"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="Title" Type="CalendarMonthTitle"></FieldRef>
+          <FieldRef Name="Title" Type="CalendarWeekTitle"></FieldRef>
+          <FieldRef Name="Location" Type="CalendarWeekLocation"></FieldRef>
+          <FieldRef Name="Title" Type="CalendarDayTitle"></FieldRef>
+          <FieldRef Name="Location" Type="CalendarDayLocation"></FieldRef>
+        </ViewData>
+        <Query>
+          <Where>
+            <DateRangesOverlap>
+              <FieldRef Name="StartDate"></FieldRef>
+              <FieldRef Name="DueDate"></FieldRef>
+              <Value Type="DateTime">
+                <Month></Month>
+              </Value>
+            </DateRangesOverlap>
+          </Where>
+        </Query>
+      </View>
+      <View TabularView="FALSE" BaseViewID="10" Type="HTML" WebPartZoneID="Main" DisplayName="Approval Tasks" MobileView="True" MobileDefaultView="False" Url="ApprovalTasks.aspx" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/issues.png?rev=23" ReqAuth="TRUE">
+        <JSLink>hierarchytaskslist.js</JSLink>
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="DueDate"></FieldRef>
+          <FieldRef Name="AssignedTo"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="False" />
+          </OrderBy>
+        </Query>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TaskModule/JSLink_TaskList_NewForm.js"   />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TaskModule/JSLink_TaskList_NewForm.js" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TaskModule/JSLink_TaskList_NewForm.js" />
+    </Forms>
+  </MetaData>
+</List>

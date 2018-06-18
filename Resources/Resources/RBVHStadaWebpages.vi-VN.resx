@@ -1,0 +1,2355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDeniedMessage" xml:space="preserve">
+    <value>Bạn không có quyền truy cập trang này</value>
+  </data>
+  <data name="AddButton" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="AddEmployeeButton" xml:space="preserve">
+    <value>Thêm nhân viên</value>
+  </data>
+  <data name="AddEmployee_ModalTitle" xml:space="preserve">
+    <value>Thêm nhân viên</value>
+  </data>
+  <data name="AddNewEmployeeButton" xml:space="preserve">
+    <value>Thêm tên</value>
+  </data>
+  <data name="AdminPage_Department" xml:space="preserve">
+    <value>Danh sách phòng ban</value>
+  </data>
+  <data name="AdminPage_Employees" xml:space="preserve">
+    <value>Danh sách nhân viên</value>
+  </data>
+  <data name="AdminPage_ErrorLabel" xml:space="preserve">
+    <value>Bạn không có quyền truy cập trang này.</value>
+  </data>
+  <data name="AdminPage_PageTitle" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="AdminPage_PageTitleArea" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="AdminPage_ResetPassword" xml:space="preserve">
+    <value>Đặt lại mật khẩu</value>
+  </data>
+  <data name="ApproveButton" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="BackButton" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Huỷ bỏ</value>
+  </data>
+  <data name="CancelLink_ConfirmCancel" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn hủy yêu cầu này?</value>
+  </data>
+  <data name="CancelLink_ErrorOccurre" xml:space="preserve">
+    <value>Có lỗi xảy ra trong quá trình thực hiện. Vui lòng thử lại sau!</value>
+  </data>
+  <data name="CancelLink_RequestCancelledSuccess" xml:space="preserve">
+    <value>Yêu cầu đã được hủy thành công</value>
+  </data>
+  <data name="CannotCancelApprovedRequest" xml:space="preserve">
+    <value>Không thể hủy yêu cầu đã được duyệt</value>
+  </data>
+  <data name="CannotCancelCancelledRequest" xml:space="preserve">
+    <value>Không thể hủy yêu cầu đã được hủy</value>
+  </data>
+  <data name="ChangeConfirmationDialogTitle" xml:space="preserve">
+    <value>Xác nhận thay đổi</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword" xml:space="preserve">
+    <value>Nhập lại Mật khẩu</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_Enter" xml:space="preserve">
+    <value>Nhập lại Mật khẩu</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_IsTheSame" xml:space="preserve">
+    <value>Mật khẩu phải giống nhau</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_Required" xml:space="preserve">
+    <value>Nhập lại Mật khẩu là trường bắt buộc.</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>Mật khẩu Hiện tại</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_Enter" xml:space="preserve">
+    <value>Nhập Mật khẩu Hiện tại</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_IsInvalid" xml:space="preserve">
+    <value>Mật khẩu Hiện tại không hợp lệ</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_Required" xml:space="preserve">
+    <value>Mật khẩu Hiện tại là trường bắt buộc.</value>
+  </data>
+  <data name="ChangePassword_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="ChangePassword_Message_Success" xml:space="preserve">
+    <value>Thay đổi mật khẩu thành công!</value>
+  </data>
+  <data name="ChangePassword_Message_Unsuccess" xml:space="preserve">
+    <value>Thay đổi mật khẩu không thành công!</value>
+  </data>
+  <data name="ChangePassword_NewPassword" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="ChangePassword_NewPassword_Enter" xml:space="preserve">
+    <value>Nhập Mật khẩu mới</value>
+  </data>
+  <data name="ChangePassword_NewPassword_Required" xml:space="preserve">
+    <value>Mật khẩu mới là trường bắt buộc</value>
+  </data>
+  <data name="ChangePassword_PageTitle" xml:space="preserve">
+    <value>Thay đổi Mật khẩu</value>
+  </data>
+  <data name="ChangePassword_PageTitleArea" xml:space="preserve">
+    <value>Thay đổi Mật khẩu</value>
+  </data>
+  <data name="ChangeShiftManagement_AddNew" xml:space="preserve">
+    <value>Xin đổi ca</value>
+  </data>
+  <data name="ChangeShiftManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Đổi Ca</value>
+  </data>
+  <data name="ChangeShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản Lý Đổi Ca</value>
+  </data>
+  <data name="ChangeShiftTaskListManagement_PageTitle" xml:space="preserve">
+    <value>Quản lý danh sách đổi ca cần duyệt</value>
+  </data>
+  <data name="ChangeShiftTaskListManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản lý danh sách đổi ca cần duyệt</value>
+  </data>
+  <data name="ChangeShift_RequestToApprove" xml:space="preserve">
+    <value>Các đơn xin đổi ca cần duyệt</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="CommonDepartment" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="CommonID" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="ConfirmQuickApproveMessage" xml:space="preserve">
+    <value>Bạn có chắc chắn cập nhật kết quả của các nhiệm vụ đã chọn sang 'Approved'?</value>
+  </data>
+  <data name="ConfirmQuickRejectMessage" xml:space="preserve">
+    <value>Bạn có chắc chắn cập nhật kết quả của các nhiệm vụ đã chọn sang 'Rejected'?</value>
+  </data>
+  <data name="DeleleConfirmationDialogTitle" xml:space="preserve">
+    <value>Xác nhận xóa</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Xoá</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xoá không?</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="EmployeeDepartmentName" xml:space="preserve">
+    <value>Tên bộ phận</value>
+  </data>
+  <data name="EmployeeManagement_PageTitle" xml:space="preserve">
+    <value>Quản lý nhân viên</value>
+  </data>
+  <data name="EmployeeManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản lý nhân viên</value>
+  </data>
+  <data name="FromDateToDateValidateMessage" xml:space="preserve">
+    <value>Vui lòng chọn ngày trong khoảng từ ngày 21 của tháng này đến ngày 20 của tháng sau</value>
+  </data>
+  <data name="General_Message_Error" xml:space="preserve">
+    <value>Lỗi xảy ra! Vui lòng thử lại hoặc liên hệ quản trị viên!</value>
+  </data>
+  <data name="General_Prefix_Error" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="General_Prefix_Info" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="General_Prefix_Success" xml:space="preserve">
+    <value>Thành công</value>
+  </data>
+  <data name="General_Prefix_Warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="General_Text_Enter" xml:space="preserve">
+    <value>Nhập</value>
+  </data>
+  <data name="GoBackToHomePage" xml:space="preserve">
+    <value>Quay trở lại trang chủ</value>
+  </data>
+  <data name="InformationDialogTitle" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="LeaveManagement_ErrorOccurre" xml:space="preserve">
+    <value>Có lỗi xảy ra trong khi tải dữ liệu từ máy chủ. Vui lòng thử lại sau!</value>
+  </data>
+  <data name="LeaveManagement_MyLeaveRequestTitle" xml:space="preserve">
+    <value>Đơn Nghỉ Phép Của Tôi</value>
+  </data>
+  <data name="LeaveManagement_PageTitle" xml:space="preserve">
+    <value>Quản lý nghỉ phép</value>
+  </data>
+  <data name="LeaveManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản Lý Ngày Nghỉ</value>
+  </data>
+  <data name="LeaveManagement_Shifts" xml:space="preserve">
+    <value>Các ca sẽ nghỉ</value>
+  </data>
+  <data name="LeaveManagement_TodayLeaveButton" xml:space="preserve">
+    <value>Danh sách nhân viên nghỉ hôm nay</value>
+  </data>
+  <data name="LeavePage_Day" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="LeavePage_ShiftName" xml:space="preserve">
+    <value>Ca</value>
+  </data>
+  <data name="Login_AuthorizationCode" xml:space="preserve">
+    <value>Mã chứng thực</value>
+  </data>
+  <data name="Login_AuthorizationCode_Enter" xml:space="preserve">
+    <value>Nhập Mã chứng thực</value>
+  </data>
+  <data name="Login_AuthorizationCode_Required" xml:space="preserve">
+    <value>Mã chứng thực là trường bắt buộc.</value>
+  </data>
+  <data name="Login_Button_Verify" xml:space="preserve">
+    <value>Kiểm tra</value>
+  </data>
+  <data name="Login_EmployeeID" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="Login_EmployeeID_Enter" xml:space="preserve">
+    <value>Nhập mã nhân viên</value>
+  </data>
+  <data name="Login_EmployeeID_Required" xml:space="preserve">
+    <value>Mã nhân viên là trường bắt buộc.</value>
+  </data>
+  <data name="Login_Message_Fail" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không hợp lệ!</value>
+  </data>
+  <data name="Login_PageTitle" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Login_PageTitleArea" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Logout_PageTitle" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="Logout_PageTitleArea" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="MyOverTime_InMonth" xml:space="preserve">
+    <value>Giờ làm thêm trong tháng của tôi</value>
+  </data>
+  <data name="MyOverTime_PageTitle" xml:space="preserve">
+    <value>Giờ làm thêm của tôi</value>
+  </data>
+  <data name="MyShiftTime_InMonth" xml:space="preserve">
+    <value>Ca trong tháng của tôi</value>
+  </data>
+  <data name="Message_MustBeDifferent" xml:space="preserve">
+    <value>phải khác nhau</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="NoDataText" xml:space="preserve">
+    <value>(Không có dữ liệu)</value>
+  </data>
+  <data name="NotOvertimeManagement_AddNew" xml:space="preserve">
+    <value>Xin nghỉ tăng ca</value>
+  </data>
+  <data name="NotOvertimeManagement_MyLeaveRequestTitle" xml:space="preserve">
+    <value>Đơn xin nghỉ tăng ca của tôi</value>
+  </data>
+  <data name="NotOvertimeManagement_PageTitle" xml:space="preserve">
+    <value>Xin nghỉ tăng ca</value>
+  </data>
+  <data name="NotOvertimeManagement_PageTitleArea" xml:space="preserve">
+    <value>Xin nghỉ tăng ca</value>
+  </data>
+  <data name="NotOvertimeManagement_RequestToApprove" xml:space="preserve">
+    <value>Các đơn xin nghỉ tăng ca cần duyệt</value>
+  </data>
+  <data name="NotOvertimeTaskListManagement_PageTitle" xml:space="preserve">
+    <value>Xin nghỉ tăng ca cần duyệt</value>
+  </data>
+  <data name="NotOvertimeTaskListManagement_PageTitleArea" xml:space="preserve">
+    <value>Xin nghỉ tăng ca cần duyệt</value>
+  </data>
+  <data name="NotOvertime_CannotLoadCurrentUser" xml:space="preserve">
+    <value>Không thể lấy được thông tin của nhân viên hiện tại. Vui lòng thử lại!</value>
+  </data>
+  <data name="NotOvertime_DontHaveAnyShiftRequest" xml:space="preserve">
+    <value>Bạn không có Đăng ký làm thêm giờ nào trong ngày đã chọn</value>
+  </data>
+  <data name="NotOvertime_InvalidDate" xml:space="preserve">
+    <value>Ngày phải lớn hơn hoặc bằng ngày hiện tại</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OvertimeManagement_AddNew" xml:space="preserve">
+    <value>Xin làm thêm giờ</value>
+  </data>
+  <data name="OvertimeManagement_AddNewLeaveButton" xml:space="preserve">
+    <value>Xin tăng ca</value>
+  </data>
+  <data name="OvertimeManagement_ApprovedBy" xml:space="preserve">
+    <value>Duyệt bởi</value>
+  </data>
+  <data name="OvertimeManagement_MyChangeShiftRequestTitle" xml:space="preserve">
+    <value>Yêu Cầu Đổi Ca Của Tôi</value>
+  </data>
+  <data name="OvertimeManagement_MyOvertimeTitle" xml:space="preserve">
+    <value>Tăng Ca Của Tôi</value>
+  </data>
+  <data name="OvertimeManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Tăng Ca</value>
+  </data>
+  <data name="OvertimeManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản Lý Tăng Ca</value>
+  </data>
+  <data name="OvertimeRequest_PageTitle" xml:space="preserve">
+    <value>Đăng Ký Làm Thêm Giờ</value>
+  </data>
+  <data name="OvertimeRequest_PageTitleArea" xml:space="preserve">
+    <value>Đăng Ký Làm Thêm Giờ</value>
+  </data>
+  <data name="Overtime_CannotGetData" xml:space="preserve">
+    <value>Không thể tải dữ liệu từ máy chủ. Vui lòng thử lại!</value>
+  </data>
+  <data name="Overtime_DeleteRow" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa dòng này?</value>
+  </data>
+  <data name="Overtime_ErrorOccurred" xml:space="preserve">
+    <value>Đã có lỗi xảy ra, vui lòng thử lại!</value>
+  </data>
+  <data name="Overtime_FieldMustBeNotBlank" xml:space="preserve">
+    <value>Bạn không thể bỏ trống cái này</value>
+  </data>
+  <data name="Overtime_FieldMustBeNumber" xml:space="preserve">
+    <value>Ở đây chỉ có thể chứa số</value>
+  </data>
+  <data name="Overtime_Modal_UserExist" xml:space="preserve">
+    <value>Nhân viên này đã có trong danh sách rồi. Vui lòng chọn nhân viên khác!</value>
+  </data>
+  <data name="Overtime_ValidateHour" xml:space="preserve">
+    <value>Giờ phải lớn hơn 0 và nhỏ hơn 24</value>
+  </data>
+  <data name="Overtime_ValidateTwoHour" xml:space="preserve">
+    <value>Giờ sau phải lớn hơn giờ trước</value>
+  </data>
+  <data name="Overview_PageTitle" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="Overview_PageTitleArea" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="PasswordLengthValidate" xml:space="preserve">
+    <value>Mật khẩu tối thiểu phải 6 ký tự và tối đa là 50 kí tự</value>
+  </data>
+  <data name="QuickApproveItemUpdateExist" xml:space="preserve">
+    <value>Các mục không thể cập nhật</value>
+  </data>
+  <data name="QuickApproveItemUpdateFail" xml:space="preserve">
+    <value>Các mục cập nhật không thành công</value>
+  </data>
+  <data name="QuickApproveItemUpdateSuccess" xml:space="preserve">
+    <value>Các mục được cập nhật thành công</value>
+  </data>
+  <data name="RejectButton" xml:space="preserve">
+    <value>Không duyệt</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>Đây là trường bắt buộc.</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword" xml:space="preserve">
+    <value>Nhập lại Mật khẩu</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_Enter" xml:space="preserve">
+    <value>Nhập lại Mật khẩu</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_IsTheSame" xml:space="preserve">
+    <value>Nhập lại Mật khẩu phải giống nhau.</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_Required" xml:space="preserve">
+    <value>Nhập lại Mật khẩu là trường bắt buộc.</value>
+  </data>
+  <data name="ResetPassword_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="ResetPassword_Employee_Choose" xml:space="preserve">
+    <value>Vui lòng chọn Nhân viên!</value>
+  </data>
+  <data name="ResetPassword_Employee_IsInvalid" xml:space="preserve">
+    <value>Nhân viên không hợp lệ.</value>
+  </data>
+  <data name="ResetPassword_Message_Success" xml:space="preserve">
+    <value>Đặt lại Mật khẩu Thành công!</value>
+  </data>
+  <data name="ResetPassword_Message_Unsuccess" xml:space="preserve">
+    <value>Đặt lại Mật khẩu Không Thành công!</value>
+  </data>
+  <data name="ResetPassword_NewPassword" xml:space="preserve">
+    <value>Mật khẩu Mới</value>
+  </data>
+  <data name="ResetPassword_NewPassword_Enter" xml:space="preserve">
+    <value>Nhập Mật khẩu Mới</value>
+  </data>
+  <data name="ResetPassword_NewPassword_Required" xml:space="preserve">
+    <value>Mật khẩu Mới là trường bắt buộc</value>
+  </data>
+  <data name="ResetPassword_PageTitle" xml:space="preserve">
+    <value>Đặt lại Mật khẩu</value>
+  </data>
+  <data name="ResetPassword_PageTitleArea" xml:space="preserve">
+    <value>Đặt lại Mật khẩu</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="SaveErrorMessage" xml:space="preserve">
+    <value>Đã có lỗi xảy ra trong quá trình lưu dữ liệu. Vui lòng thử lại!</value>
+  </data>
+  <data name="SaveSuccessfullMessage" xml:space="preserve">
+    <value>Dữ liệu đã được lưu thành công!</value>
+  </data>
+  <data name="SecurityLeaveManagement_PageTitle" xml:space="preserve">
+    <value>Bảo vệ quản lý nghỉ phép</value>
+  </data>
+  <data name="SecurityLeaveManagement_PageTitleArea" xml:space="preserve">
+    <value>Bảo vệ quản lý nghỉ phép</value>
+  </data>
+  <data name="SecurityLeave_DontHavePermission" xml:space="preserve">
+    <value>Bạn không có quyền truy cập trang này</value>
+  </data>
+  <data name="SecurityLeave_TodayLeave" xml:space="preserve">
+    <value>Danh sách nhân viên nghỉ hôm nay</value>
+  </data>
+  <data name="SelectAtLeastToApprove" xml:space="preserve">
+    <value>Vui lòng đánh dấu ít nhất 1 mục để Chấp thuận!</value>
+  </data>
+  <data name="SelectAtLeastToReject" xml:space="preserve">
+    <value>Vui lòng đánh dấu ít nhất 1 mục để Từ chối!</value>
+  </data>
+  <data name="ShiftApprovalForLabel" xml:space="preserve">
+    <value>Duyệt đăng ký ca</value>
+  </data>
+  <data name="ShiftApproval_PageTitle" xml:space="preserve">
+    <value>Duyệt ca</value>
+  </data>
+  <data name="ShiftManagement_AddNew" xml:space="preserve">
+    <value>Đăng ký đi ca</value>
+  </data>
+  <data name="ShiftManagement_AddShiftRequestButton" xml:space="preserve">
+    <value>Đăng ký đi ca</value>
+  </data>
+  <data name="ShiftManagement_ApprovedBy" xml:space="preserve">
+    <value>Trưởng phòng</value>
+  </data>
+  <data name="ShiftManagement_DataLoadFailError" xml:space="preserve">
+    <value>Không thể lấy dữ liệu từ máy chủ. Vui lòng thử lại!</value>
+  </data>
+  <data name="ShiftManagement_MyShiftRequestTitle" xml:space="preserve">
+    <value>Đăng Ký Đi Ca Của Tôi</value>
+  </data>
+  <data name="ShiftManagement_MyShift" xml:space="preserve">
+    <value>Ca Của Tôi</value>
+  </data>
+  <data name="ShiftManagement_MyShiftTitle" xml:space="preserve">
+    <value>Đi Ca Của Tôi</value>
+  </data>
+  <data name="ShiftManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Đi Ca</value>
+  </data>
+  <data name="ShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản Lý Đi Ca</value>
+  </data>
+  <data name="ShiftManagement_ShiftToBeApproved" xml:space="preserve">
+    <value>Đăng ký đi ca chờ duyệt</value>
+  </data>
+  <data name="ShiftRequestConfirmMessage" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thay đổi thông tin hiện tại? Nếu có, toàn bộ thông tin sẽ bị mất.</value>
+  </data>
+  <data name="ShiftRequestExistedEmployeeMessage" xml:space="preserve">
+    <value>Nhân viên đã tồn tại, vui lòng chọn nhân viên khác</value>
+  </data>
+  <data name="ShiftRequestForLabel" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="ShiftRequest_CancelConfirm" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn hủy bỏ? Nếu có, toàn bộ dữ liệu chưa lưu sẽ bị mất</value>
+  </data>
+  <data name="ShiftRequest_CancelConfirmationDialogTitle" xml:space="preserve">
+    <value>Xác nhận hủy bỏ</value>
+  </data>
+  <data name="ShiftRequest_DeleteButton" xml:space="preserve">
+    <value>Xóa tên</value>
+  </data>
+  <data name="ShiftRequest_DuplicateConfirmationDialogTitle" xml:space="preserve">
+    <value>Thông tin bị trùng lắp</value>
+  </data>
+  <data name="ShiftRequest_DuplicateMessage" xml:space="preserve">
+    <value>Ca cho nhân viên này đã được tạo bởi quản lý khác</value>
+  </data>
+  <data name="ShiftRequest_EmployeeIdGridColumn" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="ShiftRequest_EmployeeNameGridColumn" xml:space="preserve">
+    <value>Tên nhân viên</value>
+  </data>
+  <data name="ShiftRequest_GridNoData" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="ShiftRequest_NoDataToSaveMessage" xml:space="preserve">
+    <value>Không có dòng dữ liệu nào để lưu</value>
+  </data>
+  <data name="ShiftRequest_NoItemDeleteMessage" xml:space="preserve">
+    <value>Không có dòng dữ liệu nào để xóa</value>
+  </data>
+  <data name="ShiftRequest_PageTitle" xml:space="preserve">
+    <value>Đăng ký ca</value>
+  </data>
+  <data name="ShiftRequest_PageTitleArea" xml:space="preserve">
+    <value>Đăng Ký Đi Ca</value>
+  </data>
+  <data name="ShiftRequest_SaveCurrentDataConfirm" xml:space="preserve">
+    <value>Bạn có muốn lưu dữ liệu hiện tại không?</value>
+  </data>
+  <data name="ShiftRequest_SubmitOK" xml:space="preserve">
+    <value>Cập nhật dữ liệu thành công</value>
+  </data>
+  <data name="ToDateGreaterThanFromDate" xml:space="preserve">
+    <value>Ngày sau phải lớn hơn ngày trước</value>
+  </data>
+  <data name="TransportationManagement_MyTransportationTitle" xml:space="preserve">
+    <value>Yêu cầu đi xe của tôi</value>
+  </data>
+  <data name="TransportationManagement_PageTitle" xml:space="preserve">
+    <value>Quản lý đi xe</value>
+  </data>
+  <data name="TransportationManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản lý đi xe</value>
+  </data>
+  <data name="VehicleManagement_AddNew" xml:space="preserve">
+    <value>Thêm yêu cầu</value>
+  </data>
+  <data name="ViewShiftManagement_PageTitle" xml:space="preserve">
+    <value>Xem quản lý ca</value>
+  </data>
+  <data name="ViewShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Xem quản lý ca</value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="LeaveTask_PageTitle" xml:space="preserve">
+    <value>Đơn xin nghỉ phép cần duyệt</value>
+  </data>
+  <data name="LeaveTask_PageTitleArea" xml:space="preserve">
+    <value>Đơn xin nghỉ phép cần duyệt</value>
+  </data>
+  <data name="Additional_Approver" xml:space="preserve">
+    <value>Người duyệt phụ</value>
+  </data>
+  <data name="AdminPage_ModulePermission" xml:space="preserve">
+    <value>Quyền theo module</value>
+  </data>
+  <data name="PrintButton" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="ShiftRequest_FactoryLocationTitle" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="CalendarDay" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="CalendarMonth" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="CalendarWeek" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="DepartmentNameRequired" xml:space="preserve">
+    <value>Tên bộ phận Trường được Yêu cầu</value>
+  </data>
+  <data name="ChangeShift_DontHaveShift" xml:space="preserve">
+    <value>Bạn không có ca làm việc nào trong ngày đã chọn</value>
+  </data>
+  <data name="ChangeShift_ItemExist" xml:space="preserve">
+    <value>Ngày này đã được xin đổi ca</value>
+  </data>
+  <data name="NotOvertime_ItemExist" xml:space="preserve">
+    <value>Ngày này đã được xin nghỉ tăng ca</value>
+  </data>
+  <data name="ShiftManagement_MyApprovalTitle" xml:space="preserve">
+    <value>Đăng Ký Đi Ca Cần Duyệt</value>
+  </data>
+  <data name="ShiftManagement_ShiftsInDepartmentTitle" xml:space="preserve">
+    <value>Đăng Ký Đi Ca Theo Phòng Ban</value>
+  </data>
+  <data name="OvertimeApproval_PageTitleArea" xml:space="preserve">
+    <value>Danh sách duyệt tăng ca</value>
+  </data>
+  <data name="OvertimeDepartment_PageTitleArea" xml:space="preserve">
+    <value>Danh sách làm thêm của các phòng ban</value>
+  </data>
+  <data name="ChangeShift_ChangeShiftByDepartment" xml:space="preserve">
+    <value>Xin Đổi Ca Theo Phòng Ban</value>
+  </data>
+  <data name="ChangeShift_MyChangeShiftRequestTitle" xml:space="preserve">
+    <value>Xin Đổi Ca Của Tôi</value>
+  </data>
+  <data name="LeaveOfAbsenceManagement_PageTile" xml:space="preserve">
+    <value>Quản Lý Xin Không Tăng Ca</value>
+  </data>
+  <data name="NotOvertimeOfDepartment_PageTitle" xml:space="preserve">
+    <value>Danh sách xin không tăng ca của các phòng ban</value>
+  </data>
+  <data name="NotOvertimeRequest_PageTitle" xml:space="preserve">
+    <value>Yêu cầu xin không tăng ca</value>
+  </data>
+  <data name="ChangeShift_MyApprovalList" xml:space="preserve">
+    <value>Xin Đổi Ca Cần Duyệt</value>
+  </data>
+  <data name="NotOvertimeManagement_MyApprovalList" xml:space="preserve">
+    <value>Xin Không Tăng Ca Cần Duyệt</value>
+  </data>
+  <data name="ShiftRequest_ExportButton" xml:space="preserve">
+    <value>Xuất đăng ký ca</value>
+  </data>
+  <data name="ApprovalStatusFieldDisplayName" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="ChangeShiftList_ToShift" xml:space="preserve">
+    <value>Đến ca</value>
+  </data>
+  <data name="ChangeShiftManagement_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="CantLeaveTheBlank" xml:space="preserve">
+    <value>Bạn không thể bỏ trống cái này.</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Ngày nhập vào không đúng</value>
+  </data>
+  <data name="AdminPage_InputMonth" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="AdminPage_InputSupport" xml:space="preserve">
+    <value>Hỗ trợ nhập ca theo:</value>
+  </data>
+  <data name="AdminPage_InputWeek" xml:space="preserve">
+    <value>Tuần</value>
+  </data>
+  <data name="ShiftManagement_MyShiftInMonthTitle" xml:space="preserve">
+    <value>Ca Của Tôi</value>
+  </data>
+  <data name="OvertimeManagement_MyApprovalTitle" xml:space="preserve">
+    <value>Xin Tăng Ca Cần Duyệt</value>
+  </data>
+  <data name="OvertimeManagement_MyOvertimeRequestTitle" xml:space="preserve">
+    <value>Xin Tăng Ca Của Tôi</value>
+  </data>
+  <data name="OvertimeManagement_OvertimesInDepartmentTitle" xml:space="preserve">
+    <value>Xin Tăng Ca Theo Phòng Ban</value>
+  </data>
+  <data name="NotOvertimeManagement_MyRequestsTitle" xml:space="preserve">
+    <value>Xin Không Tăng Ca Của Tôi</value>
+  </data>
+  <data name="NotOvertimeManagement_RequestsInDepartmentTitle" xml:space="preserve">
+    <value>Xin Không Tăng Ca Theo Phòng Ban</value>
+  </data>
+  <data name="Transportation_MyTransportationRequestTitle" xml:space="preserve">
+    <value>Yêu Cầu Đi Xe Của Tôi</value>
+  </data>
+  <data name="Transportation_TranspotationByDepartment" xml:space="preserve">
+    <value>Yêu Cầu Đi Xe Theo Phòng Ban</value>
+  </data>
+  <data name="Transpotation_MyApprovalList" xml:space="preserve">
+    <value>Yêu Cầu Đi Xe Cần Duyệt</value>
+  </data>
+  <data name="ChangeShiftList_FromShift" xml:space="preserve">
+    <value>Từ ca</value>
+  </data>
+  <data name="ViewDetail" xml:space="preserve">
+    <value>Xem chi tiết</value>
+  </data>
+  <data name="AllDepartments" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="LeaveRequest_Modal_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="LeaveRequest_WrongPolicies" xml:space="preserve">
+    <value>Ngày đã chọn không đúng theo quy định</value>
+  </data>
+  <data name="LeaveRequest_Confirm" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_FromDateIsNoneWorkingDay" xml:space="preserve">
+    <value>"Từ Ngày" trùng với ngày {0}</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_FromDateRelateToDate" xml:space="preserve">
+    <value>"Đến Ngày" phải lớn hơn "Từ Ngày"</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_InvalidUserID" xml:space="preserve">
+    <value>Không tìm thấy người dùng với ID = {0}</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_Policy_1" xml:space="preserve">
+    <value>Bạn phải xin phép trước ít nhất {1} ngày khi bạn muốn nghỉ {0} ngày</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_Policy_2" xml:space="preserve">
+    <value>Bạn phải xin phép trước ít nhất {1} ngày khi bạn muốn nghỉ {0} ngày</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_Policy_3" xml:space="preserve">
+    <value>Bạn phải xin phép trước ít nhất {1} ngày khi bạn muốn nghỉ {0} ngày</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_ToDateIsNoneWorkingDay" xml:space="preserve">
+    <value>"Đến Ngày" trùng với ngày {0}</value>
+  </data>
+  <data name="LeaveRequest_Modal_SeeMorePolicy" xml:space="preserve">
+    <value>Xem quy định</value>
+  </data>
+  <data name="LeaveManagement_AddNew" xml:space="preserve">
+    <value>Xin nghỉ phép</value>
+  </data>
+  <data name="TransferWorkToInvalid" xml:space="preserve">
+    <value>Người nhận bàn giao phải khác với người được làm đơn</value>
+  </data>
+  <data name="LeaveManagement_LeaveApprovalTitle" xml:space="preserve">
+    <value>Đơn Xin Nghỉ Phép Cần Duyệt</value>
+  </data>
+  <data name="LeaveManagement_LeaveByDepartmentTitle" xml:space="preserve">
+    <value>Đơn Xin Nghỉ Phép Theo Phòng Ban</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_OverlapDates" xml:space="preserve">
+    <value>Đã tạo đơn cho ngày này</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_FromDateInvalid" xml:space="preserve">
+    <value>Ngày bắt đầu nghỉ không được nhỏ hơn ngày hiện tại</value>
+  </data>
+  <data name="LeaveRequest_SeeMorePoliciesButton" xml:space="preserve">
+    <value>Xem thêm quy định</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_SequenceLeave" xml:space="preserve">
+    <value>Nghỉ phép liên tục từ 40 giờ trở lên chỉ được tạo 1 yêu cầu</value>
+  </data>
+  <data name="AdditionApproversInValid" xml:space="preserve">
+    <value>Người duyệt thay thế và người duyệt phải khác nhau</value>
+  </data>
+  <data name="LeaveRequest_PageTitle" xml:space="preserve">
+    <value>Xin Nghỉ Phép</value>
+  </data>
+  <data name="LeaveRequest_PageTitleArea" xml:space="preserve">
+    <value>Xin Nghỉ Phép</value>
+  </data>
+  <data name="ShiftRequest_LeavePopupContent" xml:space="preserve">
+    <value>Nhấn vào &lt;a id='leave-link'&gt;đây&lt;/a&gt; để xem chi tiết</value>
+  </data>
+  <data name="ShiftRequest_LeavePopupTitle" xml:space="preserve">
+    <value>Thông Tin Nghỉ Phép</value>
+  </data>
+  <data name="LeaveManagement_LeaveSecurityTitle" xml:space="preserve">
+    <value>Quản Lý Nghỉ Phép Cho Bảo Vệ</value>
+  </data>
+  <data name="ShiftRequest_ImportButton" xml:space="preserve">
+    <value>Nhập</value>
+  </data>
+  <data name="ShiftManagement_ImportFromExcel" xml:space="preserve">
+    <value>Nhập từ excel</value>
+  </data>
+  <data name="ShiftRequest_SelectExcelFile" xml:space="preserve">
+    <value>Vui lòng chọn file excel để nhập dữ liệu</value>
+  </data>
+  <data name="RequestForms_RequiredBODApprove" xml:space="preserve">
+    <value>Cần duyệt bởi ban giám đốc</value>
+  </data>
+  <data name="RequestsForm_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="RequestsForm_EmployeeID" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="RequestsForm_FinishDate" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
+  <data name="RequestsForm_Requester" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
+  <data name="Request_RadioText_BuyMaterialEquipment" xml:space="preserve">
+    <value>Yêu cầu mua trang thiết bị</value>
+  </data>
+  <data name="Request_RadioText_Others" xml:space="preserve">
+    <value>Yêu cầu khác</value>
+  </data>
+  <data name="Request_RadioText_Repair" xml:space="preserve">
+    <value>Yêu cầu sửa chữa</value>
+  </data>
+  <data name="RequestsForm_Comments" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="RequestsForm_ReceivedBy" xml:space="preserve">
+    <value>Bộ phận tiếp nhận</value>
+  </data>
+  <data name="ShiftManagement_EditTitle" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="ShiftManagement_ViewTitle" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="RequestsForm_ReferTo" xml:space="preserve">
+    <value>Liên quan đến</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Unit" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="RequestForm_Grid_OrderNumber" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Unit" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="RequestForm_PleaseInputData" xml:space="preserve">
+    <value>Vui lòng nhập dữ liệu cho phần nội dung</value>
+  </data>
+  <data name="RequestForm_RepairGrid_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="RequestForm_RepairGrid_From" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="RequestForm_RepairGrid_Place" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="RequestForm_RepairGrid_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequestForm_RepairGrid_To" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="RequestsForm_RequestType" xml:space="preserve">
+    <value>Loại phiếu đề nghị</value>
+  </data>
+  <data name="RequestsForm_DueDate" xml:space="preserve">
+    <value>Ngày tới hạn</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Form" xml:space="preserve">
+    <value>Quy cách</value>
+  </data>
+  <data name="RequestForm_FromLessThanToDate" xml:space="preserve">
+    <value>Ngày sau phải lớn hơn hoặc bằng ngày trước</value>
+  </data>
+  <data name="RequestForm_InputQuantityError" xml:space="preserve">
+    <value>Số lượng nhập không đúng</value>
+  </data>
+  <data name="FreightManagement_FreightByDepartmentTitle" xml:space="preserve">
+    <value>Đơn Vận Chuyển Hàng Hóa Theo Phòng Ban</value>
+  </data>
+  <data name="FreightManagement_FreightSecurityTitle" xml:space="preserve">
+    <value>Đơn Vận Chuyển Hàng Hóa Cho Bảo Vệ</value>
+  </data>
+  <data name="FreightManagement_MyFreightRequestTitle" xml:space="preserve">
+    <value>Đơn Vận Chuyển Hàng Hóa Của Tôi</value>
+  </data>
+  <data name="FreightManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Vận Chuyển Hàng Hóa</value>
+  </data>
+  <data name="FreightManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản Lý Vận Chuyển Hàng Hóa</value>
+  </data>
+  <data name="RequestForm_PleaseInputGridDetail" xml:space="preserve">
+    <value>Vui lòng nhập dữ liệu cho bảng chi tiết</value>
+  </data>
+  <data name="SelectedDateMustGreaterThanCurrentDate" xml:space="preserve">
+    <value>Ngày chọn không được nhỏ hơn ngày hiện tại</value>
+  </data>
+  <data name="FormButtonsControl" xml:space="preserve">
+    <value>Lưu Nháp</value>
+  </data>
+  <data name="FormButtonsControl_Approve" xml:space="preserve">
+    <value>Duyệt</value>
+  </data>
+  <data name="FormButtonsControl_Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="FormButtonsControl_ReAssign" xml:space="preserve">
+    <value>Chuyển Việc</value>
+  </data>
+  <data name="FormButtonsControl_Reject" xml:space="preserve">
+    <value>Không Duyệt</value>
+  </data>
+  <data name="FormButtonsControl_SaveAndSubmit" xml:space="preserve">
+    <value>Lưu &amp; Nộp</value>
+  </data>
+  <data name="FormButtonsControl_SaveDraft" xml:space="preserve">
+    <value>Lưu Nháp</value>
+  </data>
+  <data name="FormButtonsControl_TerminateProcess" xml:space="preserve">
+    <value>Hủy Yêu Cầu</value>
+  </data>
+  <data name="LeaveRequest_RequestForDateInvalid" xml:space="preserve">
+    <value>Đơn tạo dùm phải trong cùng ngày</value>
+  </data>
+  <data name="LeaveRequest_LeaveHoursInvalid" xml:space="preserve">
+    <value>Số giờ nghỉ phép phải lớn hơn 0</value>
+  </data>
+  <data name="AddNewRequests" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="MyRequests" xml:space="preserve">
+    <value>Phiếu Đề Nghị Của Tôi</value>
+  </data>
+  <data name="RequestManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Phiếu Đề Nghị</value>
+  </data>
+  <data name="RequestManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Quản Lý Phiếu Đề Nghị</value>
+  </data>
+  <data name="RequestsToBeApproved" xml:space="preserve">
+    <value>Các Đề Nghị Cần Duyệt</value>
+  </data>
+  <data name="WorkflowHistoryControl_ApprovalStatus" xml:space="preserve">
+    <value>Trạng thái duyệt</value>
+  </data>
+  <data name="WorkflowHistoryControl_Comment" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="WorkflowHistoryControl_Date" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="WorkflowHistoryControl_PostedBy" xml:space="preserve">
+    <value>Đăng bởi</value>
+  </data>
+  <data name="PleaseAddRequestBuyingDetails" xml:space="preserve">
+    <value>Vui lòng thêm chi tiết mua hàng</value>
+  </data>
+  <data name="PleaseAddRequestOtherDetails" xml:space="preserve">
+    <value>Vui lòng thêm vào bảng chi tiết</value>
+  </data>
+  <data name="PleaseAddRequestRepairDetails" xml:space="preserve">
+    <value>Vui lòng thêm vào bảng sửa chữa chi tiết </value>
+  </data>
+  <data name="PleaseSelectDueDate" xml:space="preserve">
+    <value>Vui lòng chọn ngày tới hạn</value>
+  </data>
+  <data name="PleaseSelectFinishDate" xml:space="preserve">
+    <value>Vui lòng chọn ngày kết thúc</value>
+  </data>
+  <data name="PleaseSelectReceivedBy" xml:space="preserve">
+    <value>Vui lòng chọn bộ phận tiếp nhận</value>
+  </data>
+  <data name="PleaseSelectRequestType" xml:space="preserve">
+    <value>Vui lòng chọn loại đề nghị</value>
+  </data>
+  <data name="RequestsForm_SupportingDocument" xml:space="preserve">
+    <value>Tài liệu đính kèm</value>
+  </data>
+  <data name="RequestForm_InvalidFileName" xml:space="preserve">
+    <value>Chọn tên file không chứa ký tự '#'</value>
+  </data>
+  <data name="CommentControl_EnterComment" xml:space="preserve">
+    <value>Vui lòng nhập ý kiến</value>
+  </data>
+  <data name="ReAssignTask_AssignTask" xml:space="preserve">
+    <value>Chuyển Việc</value>
+  </data>
+  <data name="ReAssignTask_AssignTo" xml:space="preserve">
+    <value>Chuyển việc đến</value>
+  </data>
+  <data name="ReAssignTask_Cancel" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="ReAssignTask_PageTitleArea" xml:space="preserve">
+    <value>Chuyển Việc</value>
+  </data>
+  <data name="ReAssignTask_PleaseSelectEmployee" xml:space="preserve">
+    <value>Vui lòng chọn người để chuyển việc</value>
+  </data>
+  <data name="FreightRequestForm_GoodsDescription" xml:space="preserve">
+    <value>Tên hàng hóa</value>
+  </data>
+  <data name="FreightRequestForm_OrderNumber" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="FreightRequestForm_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="FreightRequestForm_Remarks" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="FreightRequestForm_Unit" xml:space="preserve">
+    <value>Đơn vị tính</value>
+  </data>
+  <data name="FreightRequest_CompanyName" xml:space="preserve">
+    <value>Tên công ty</value>
+  </data>
+  <data name="FreightRequest_ConfirmDeleteMessage" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa?</value>
+  </data>
+  <data name="FreightRequest_Date" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="FreightRequest_EmployeeBelongToCompany" xml:space="preserve">
+    <value>Người mang hàng là người trong công ty</value>
+  </data>
+  <data name="FreightRequest_EmployeeNotBelongToCompany" xml:space="preserve">
+    <value>Người mang hàng không phải là người trong công ty</value>
+  </data>
+  <data name="FreightRequest_PageTitle" xml:space="preserve">
+    <value>Yêu Cầu Vận Chuyển Hàng Hóa</value>
+  </data>
+  <data name="FreightRequest_PageTitleArea" xml:space="preserve">
+    <value>Yêu Cầu Vận Chuyển Hàng Hóa</value>
+  </data>
+  <data name="FreightRequest_RadioNo" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="FreightRequest_RadioYes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="FreightRequest_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="FreightRequest_ReturnedGoods" xml:space="preserve">
+    <value>Mang hàng vào/ra</value>
+  </data>
+  <data name="FrieghtRequest_Bringer" xml:space="preserve">
+    <value>Người mang hàng</value>
+  </data>
+  <data name="FrieghtRequest_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="FrieghtRequest_EmployeeID" xml:space="preserve">
+    <value>MSNV</value>
+  </data>
+  <data name="FreightRequest_Others" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="FreightRequest_PhoneContact" xml:space="preserve">
+    <value>Điện thoại liên hệ</value>
+  </data>
+  <data name="FrieghtRequest_ReceivedBy" xml:space="preserve">
+    <value>Tên người nhận</value>
+  </data>
+  <data name="FrieghtRequest_ReceivedDepartment" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="FrieghtRequest_SendGoods" xml:space="preserve">
+    <value>Gửi hàng/Khác</value>
+  </data>
+  <data name="RecruitmentManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Yêu Cầu Tuyển Dụng</value>
+  </data>
+  <data name="RecruitmentManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Quản Lý Yêu Cầu Tuyển Dụng</value>
+  </data>
+  <data name="FreightRequest_PleaseInputDataMessage" xml:space="preserve">
+    <value>Vui lòng nhập dữ liệu!</value>
+  </data>
+  <data name="FreightRequest_QuantityIsWrongMessage" xml:space="preserve">
+    <value>Số lượng nhập không đúng</value>
+  </data>
+  <data name="RequestsForm_RequestTitle" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="PleaseInputRequestTitle" xml:space="preserve">
+    <value>Vui lòng nhập tiêu đề yêu cầu</value>
+  </data>
+  <data name="RequestsByDepartment" xml:space="preserve">
+    <value>Các Đề Nghị Theo Phòng Ban</value>
+  </data>
+  <data name="FreightManagement_AddNew" xml:space="preserve">
+    <value>Xin chuyển hàng hóa</value>
+  </data>
+  <data name="FreightManagement_MyFreightRequestsTabTitle" xml:space="preserve">
+    <value>Yêu Cầu Vận Chuyển Của Tôi</value>
+  </data>
+  <data name="DataMustBeDifferentAfterEdit" xml:space="preserve">
+    <value>Dữ liệu sau khi sửa phải khác dữ liệu trước</value>
+  </data>
+  <data name="RequestForm_PleaseInputReasonData" xml:space="preserve">
+    <value>Vui lòng nhập dữ liệu cho phần lý do</value>
+  </data>
+  <data name="FreightManagement_FreightApprovalTitle" xml:space="preserve">
+    <value>Đơn Vận Chuyển Hàng Hóa Cần Duyệt</value>
+  </data>
+  <data name="CheckInButton" xml:space="preserve">
+    <value>Cho vào</value>
+  </data>
+  <data name="CheckOutButton" xml:space="preserve">
+    <value>Cho ra</value>
+  </data>
+  <data name="GridViewItem_ViewDetail" xml:space="preserve">
+    <value>Xem chi tiết</value>
+  </data>
+  <data name="CommentControl_PostCommentButton" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="FreightRequest_radioOtherReason" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="FreightRequest_radioSendGoods" xml:space="preserve">
+    <value>Gửi hàng</value>
+  </data>
+  <data name="RecruimentForm_Age" xml:space="preserve">
+    <value>Tuổi</value>
+  </data>
+  <data name="RecruimentForm_Anothers" xml:space="preserve">
+    <value>Yêu cầu khác</value>
+  </data>
+  <data name="RecruimentForm_AnotherSkills" xml:space="preserve">
+    <value>Khả năng khác</value>
+  </data>
+  <data name="RecruimentForm_Appearance" xml:space="preserve">
+    <value>Ngoại hình</value>
+  </data>
+  <data name="RecruimentForm_AvailableTime" xml:space="preserve">
+    <value>Ngày cần nhân sự</value>
+  </data>
+  <data name="RecruimentForm_BasicWork" xml:space="preserve">
+    <value>Mô tả công việc cơ bản</value>
+  </data>
+  <data name="RecruimentForm_Comments" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="RecruimentForm_ComputerSkills" xml:space="preserve">
+    <value>Trình độ vi tính</value>
+  </data>
+  <data name="RecruimentForm_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="RecruimentForm_EducationLevel" xml:space="preserve">
+    <value>Trình độ học vấn</value>
+  </data>
+  <data name="RecruimentForm_EnglishSkills" xml:space="preserve">
+    <value>Trình độ tiếng Anh</value>
+  </data>
+  <data name="RecruimentForm_Gender" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="RecruimentForm_General" xml:space="preserve">
+    <value>Yêu cầu chung</value>
+  </data>
+  <data name="RecruimentForm_MartialStatus" xml:space="preserve">
+    <value>Tình trạng hôn nhân</value>
+  </data>
+  <data name="RecruimentForm_MoralVocations" xml:space="preserve">
+    <value>Phẩm chất cá nhân</value>
+  </data>
+  <data name="RecruimentForm_Necessary" xml:space="preserve">
+    <value>Yêu cầu cần thiết</value>
+  </data>
+  <data name="RecruimentForm_Position" xml:space="preserve">
+    <value>Vị trí tuyển dụng</value>
+  </data>
+  <data name="RecruimentForm_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="RecruimentForm_ReasonForRecruitment" xml:space="preserve">
+    <value>Lý do tuyển dụng</value>
+  </data>
+  <data name="RecruimentForm_Skill" xml:space="preserve">
+    <value>Yêu cầu về kỹ năng</value>
+  </data>
+  <data name="RecruimentForm_Specialities" xml:space="preserve">
+    <value>Chuyên môn</value>
+  </data>
+  <data name="RecruimentForm_SupportingDocuments" xml:space="preserve">
+    <value>Tài liệu đính kèm</value>
+  </data>
+  <data name="RecruimentForm_WorkingAbilities" xml:space="preserve">
+    <value>Năng lực làm việc</value>
+  </data>
+  <data name="RecruimentForm_WorkingExperience" xml:space="preserve">
+    <value>Kinh nghiệm làm việc</value>
+  </data>
+  <data name="RecruimentForm_WorkingTime" xml:space="preserve">
+    <value>Thời gian làm việc</value>
+  </data>
+  <data name="RecruitmentList_CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="RecruitmentList_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="RecruitmentList_Position" xml:space="preserve">
+    <value>Vị trí tuyển dụng</value>
+  </data>
+  <data name="RecruitmentList_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="RecruitmentList_RequestFrom" xml:space="preserve">
+    <value>Yêu cầu từ</value>
+  </data>
+  <data name="RecruitmentList_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Age_Empty" xml:space="preserve">
+    <value>Vui lòng nhập tuổi.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Age_InValid" xml:space="preserve">
+    <value>Vui lòng nhập tuổi hợp lệ.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_AvailableTime_Empty" xml:space="preserve">
+    <value>Vui lòng nhập ngày cần nhân sự.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_AvailableTime_Invalid" xml:space="preserve">
+    <value>Vui lòng nhập ngày cần nhân sự hợp lệ.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_EmptyPosition" xml:space="preserve">
+    <value>Vui lòng nhập vị trí tuyển dụng.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_EmptyReasonForRecruitment" xml:space="preserve">
+    <value>Vui lòng nhập lý do tuyển dụng.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Quantity_Empty" xml:space="preserve">
+    <value>Vui lòng nhập số lượng.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Quantity_InValid" xml:space="preserve">
+    <value>Vui lòng nhập số lượng hợp lệ.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_UnSelectedDepartment" xml:space="preserve">
+    <value>Vui lòng chọn bộ phận.</value>
+  </data>
+  <data name="RecruimentForm_LanguageSkills" xml:space="preserve">
+    <value>Trình độ ngoại ngữ</value>
+  </data>
+  <data name="Recruiment_WrongNumber" xml:space="preserve">
+    <value>Vui lòng nhập số lớn hơn 0</value>
+  </data>
+  <data name="RequestStatusCancelled" xml:space="preserve">
+    <value>Yêu cầu này đã được hủy bởi người yêu cầu</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_FromAge_Empty" xml:space="preserve">
+    <value>Vui lòng nhập tuổi từ.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_FromAge_InValid" xml:space="preserve">
+    <value>Vui lòng nhập tuổi từ hợp lệ.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_FromAge_LessThan_ToAge" xml:space="preserve">
+    <value>Vui lòng nhập tuổi từ nhỏ hơn hoặc bằng tuổi đến.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_ToAge_Empty" xml:space="preserve">
+    <value>Vui lòng nhập tuổi đến.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_ToAge_InValid" xml:space="preserve">
+    <value>Vui lòng nhập tuổi đến hợp lệ.</value>
+  </data>
+  <data name="RequestStatusApproved" xml:space="preserve">
+    <value>Yêu cầu này đã được duyệt bởi một người khác</value>
+  </data>
+  <data name="RequestStatusRejected" xml:space="preserve">
+    <value>Yêu cầu này đã bị từ chối bởi một người khác</value>
+  </data>
+  <data name="FreightManagement_MyFreightTitle" xml:space="preserve">
+    <value>Đơn Mang Hàng Của Tôi</value>
+  </data>
+  <data name="LanguageSkillGrid_ForeignLanguage" xml:space="preserve">
+    <value>Ngoại ngữ</value>
+  </data>
+  <data name="LanguageSkillGrid_InputOtherMessage" xml:space="preserve">
+    <value>Chỉ có thể nhập trình độ khác khi chọn trình độ là 'Khác/Others'</value>
+  </data>
+  <data name="LanguageSkillGrid_Level" xml:space="preserve">
+    <value>Trình độ</value>
+  </data>
+  <data name="LanguageSkillGrid_No" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="LanguageSkillGrid_OtherLevel" xml:space="preserve">
+    <value>Trình độ khác</value>
+  </data>
+  <data name="RecruimentForm_FromAge" xml:space="preserve">
+    <value>Tuổi từ</value>
+  </data>
+  <data name="RecruimentForm_ToAge" xml:space="preserve">
+    <value>Tuổi đến</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_AvailabelDateWrong" xml:space="preserve">
+    <value>Ngày nhập chọn không được nhỏ hơn ngày hiện tại</value>
+  </data>
+  <data name="DiplomaManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Phiếu Đề Nghị Bổ Sung Bằng Cấp</value>
+  </data>
+  <data name="DiplomaManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Quản Lý Phiếu Đề Nghị Bổ Sung Bằng Cấp</value>
+  </data>
+  <data name="DiplomaRequestForm_DateOfEmp" xml:space="preserve">
+    <value>Ngày vào công ty</value>
+  </data>
+  <data name="DiplomaRequestForm_Department" xml:space="preserve">
+    <value>Bộ phận yêu cầu</value>
+  </data>
+  <data name="DiplomaRequestForm_EmployeeCode" xml:space="preserve">
+    <value>Mã số nhân viên</value>
+  </data>
+  <data name="DiplomaRequestForm_FullName" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="DiplomaRequestForm_NewSuggestions" xml:space="preserve">
+    <value>Đề nghị/Đóng góp/Thành quả hoặc ý tưởng mới hiệu quả tại Phòng ban</value>
+  </data>
+  <data name="DiplomaRequestForm_Postion" xml:space="preserve">
+    <value>Vị trí phân công</value>
+  </data>
+  <data name="DiplomaRequestForm_ReceivedDiploma" xml:space="preserve">
+    <value>Văn bằng đạt được</value>
+  </data>
+  <data name="DiplomaRequestForm_SupportingDocument" xml:space="preserve">
+    <value>Tập tin đính kèm</value>
+  </data>
+  <data name="DiplomaRequestForm_ToTheDailyWorks" xml:space="preserve">
+    <value>Hiệu quả công việc hiện tại</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_CurrentDiploma" xml:space="preserve">
+    <value>Bằng cấp hiện tại</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_Faculty" xml:space="preserve">
+    <value>Chuyên ngành</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_GraduationYear" xml:space="preserve">
+    <value>Năm tốt nghiệp</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_IssuedPlace" xml:space="preserve">
+    <value>Nơi cấp</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_NewDiploma" xml:space="preserve">
+    <value>Bằng cấp bổ sung</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_TrainingDuration" xml:space="preserve">
+    <value>Thời gian đào tạo</value>
+  </data>
+  <data name="DiplomaRequestForm_DiplomaRevision" xml:space="preserve">
+    <value>Điều chỉnh bằng cấp</value>
+  </data>
+  <data name="DiplomaRequestForm_From" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="DiplomaRequestForm_SalaryRevision" xml:space="preserve">
+    <value>Điều chỉnh lương</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_PleaseInputData" xml:space="preserve">
+    <value>Vui lòng nhập đầy đủ thông tin</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_FromDate" xml:space="preserve">
+    <value>Ngày chọn không được nhỏ hơn ngày hiện tại</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_PleaseInputDetailGrid" xml:space="preserve">
+    <value>Vui lòng nhập dữ liệu cho bảng chi tiết</value>
+  </data>
+  <data name="SuppotingDoc_InvalidFileName" xml:space="preserve">
+    <value>Tên file không được chứa dấu #</value>
+  </data>
+  <data name="DiplomaRequestForm_Position" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="DiplomaRequestForm_Requester" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_EmptyNewSuggestions" xml:space="preserve">
+    <value>Vui lòng nhập thông tin đề nghị/đóng góp/thành quả hoặc ý tưởng mới hiệu quả tại phòng ban.</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_EmptyPosition" xml:space="preserve">
+    <value>Vui lòng nhập thông tin vị trí phân công.</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_EmptyToTheDailyWorks" xml:space="preserve">
+    <value>Vui lòng nhập thông tin hiệu quả công việc hiện tại.</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_UnSelectedEmployee" xml:space="preserve">
+    <value>Vui lòng chọn nhân viên.</value>
+  </data>
+  <data name="RequestDiplomaList_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="RequestDiplomaList_EmployeeName" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="RequestDiplomaList_CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="RequestDiplomaList_Position" xml:space="preserve">
+    <value>Vị trí phân công</value>
+  </data>
+  <data name="RequestDiplomaList_RequestFrom" xml:space="preserve">
+    <value>Yêu cầu từ</value>
+  </data>
+  <data name="RequestDiplomaList_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_InvalidFromDate" xml:space="preserve">
+    <value>Vui lòng nhập từ ngày hợp lệ.</value>
+  </data>
+  <data name="SupportingDoc_EmptyFile" xml:space="preserve">
+    <value>File không có nội dung</value>
+  </data>
+  <data name="BusinessTripRequest_PageTitle" xml:space="preserve">
+    <value>Yêu Cầu Đi Công Tác</value>
+  </data>
+  <data name="BusinessTripRequest_PageTitleArea" xml:space="preserve">
+    <value>Yêu Cầu Đi Công Tác</value>
+  </data>
+  <data name="BusinessTripManagement_AddNew" xml:space="preserve">
+    <value>Xin Đi Công Tác</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripApprovalTitle" xml:space="preserve">
+    <value>Đơn Đi Công Tác Cần Duyệt</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripByDepartmentTitle" xml:space="preserve">
+    <value>Đơn Đi Công Tác Theo Phòng Ban</value>
+  </data>
+  <data name="BusinessTripManagement_MyBusinessTripRequestTitle" xml:space="preserve">
+    <value>Đơn Đi Công Tác Của Tôi</value>
+  </data>
+  <data name="BusinessTripManagement_MyBusinessTripTitle" xml:space="preserve">
+    <value>Đi Công Tác Của Tôi</value>
+  </data>
+  <data name="BusinessTripManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Đi Công Tác</value>
+  </data>
+  <data name="BusinessTripManagement_PageTitleArea" xml:space="preserve">
+    <value>Quản Lý Đi Công Tác</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_DataMustBeDiffrent" xml:space="preserve">
+    <value>Dữ liệu chỉnh sửa lại phải khác so với dữ liệu hiện tại</value>
+  </data>
+  <data name="CannotUpdateRequest" xml:space="preserve">
+    <value>Có lỗi trong quá trình cập nhật</value>
+  </data>
+  <data name="MyRecruitmentRequests" xml:space="preserve">
+    <value>Yêu Cầu Tuyển Dụng Của Tôi</value>
+  </data>
+  <data name="RecruitmentRequestsApproval" xml:space="preserve">
+    <value>Phiếu Yêu Cầu Tuyển Dụng Cần Duyệt</value>
+  </data>
+  <data name="RecruitmentRequestsByDepartment" xml:space="preserve">
+    <value>Phiếu Yêu Cầu Tuyển Dụng Theo Phòng Ban</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_DataMustBeDiffrent" xml:space="preserve">
+    <value>Dữ liệu chỉnh sửa lại phải khác so với dữ liệu hiện tại</value>
+  </data>
+  <data name="MyRequestsForDiplomaSupply" xml:space="preserve">
+    <value>Phiếu Đề Nghị Bổ Sung Bằng Cấp Của Tôi</value>
+  </data>
+  <data name="RequestsForDiplomaSupplyApproval" xml:space="preserve">
+    <value>Phiếu Đề Nghị Bổ Sung Bằng Cấp Cần Duyệt</value>
+  </data>
+  <data name="RequestsForDiplomaSupplyByDepartment" xml:space="preserve">
+    <value>Phiếu Đề Nghị Bổ Sung Bằng Cấp Theo Phòng Ban</value>
+  </data>
+  <data name="LanguageSkillGrid_ErrorMessage_PleaseInputData" xml:space="preserve">
+    <value>Vui lòng nhập đầy đủ thông tin</value>
+  </data>
+  <data name="BusinessTripManagement_ApprovalListTitle" xml:space="preserve">
+    <value>Yêu Cầu Đi Công Tác Cần Duyệt</value>
+  </data>
+  <data name="BusinessTripManagement_RequestByDepartmentTitle" xml:space="preserve">
+    <value>Yêu Cầu Đi Công Tác Theo Phòng Ban</value>
+  </data>
+  <data name="RecruitmentList_IsValid" xml:space="preserve">
+    <value>Phiếu yêu cầu đúng quy định</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_WrongPolicy" xml:space="preserve">
+    <value>Xác nhận: Ngày cần nhân sự phải lớn hơn ngày hiện tại {0} ngày. Nếu click OK  yêu cầu này vẫn được lưu lại nhưng sẽ sai so với quy định của công ty</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripForDriver" xml:space="preserve">
+    <value>Quản Lý Đi Công Tác Cho Tài Xế</value>
+  </data>
+  <data name="BusinessTripManagement_BusniessTripForCashier" xml:space="preserve">
+    <value>Quản Lý Đi Công Tác Cho Thu Ngân</value>
+  </data>
+  <data name="BusinessTripManagement_MyBusniessTrip" xml:space="preserve">
+    <value>Yêu Cầu Đi Công Tác Của Tôi</value>
+  </data>
+  <data name="RecruimentForm_lbtnDeleteTemplate" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="RecruimentForm_SavingTemplate" xml:space="preserve">
+    <value>Lưu mẫu</value>
+  </data>
+  <data name="RecruimentForm_Template" xml:space="preserve">
+    <value>Mẫu đề nghị</value>
+  </data>
+  <data name="RecruimentForm_TemplateName" xml:space="preserve">
+    <value>Tên mẫu</value>
+  </data>
+  <data name="RecruitmentForm_DeleteTemplateConfirmationMessage" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa mãu này không?</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_EmptyTemplateName" xml:space="preserve">
+    <value>Vui lòng nhập tên mẫu.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_ExistedTemplateName" xml:space="preserve">
+    <value>Tên mẫu đã tồn tại.</value>
+  </data>
+  <data name="FreightRequest_CompanyVehicle" xml:space="preserve">
+    <value>Xe công ty</value>
+  </data>
+  <data name="FreightManagement_VehicleOperatorTitle" xml:space="preserve">
+    <value>Quản Lý Đơn Mang Hàng Cho Người Điều Hành Xe</value>
+  </data>
+  <data name="FreightRequest_BringIn" xml:space="preserve">
+    <value>Vào</value>
+  </data>
+  <data name="FreightRequest_BringOut" xml:space="preserve">
+    <value>Ra</value>
+  </data>
+  <data name="FormButtonsControl_CompleteWorkflow" xml:space="preserve">
+    <value>Hoàn Thành</value>
+  </data>
+  <data name="FreightRequest_Confirm" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="FreightRequest_Modal_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="FreightRequest_WrongPolicies" xml:space="preserve">
+    <value>Yêu cầu này nên được gởi trước %7B0%7D</value>
+  </data>
+  <data name="FreightManagement_UpdateVehicleSuccess" xml:space="preserve">
+    <value>Cập nhật xe thành công!</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="FreightRequestForm_CheckIn" xml:space="preserve">
+    <value>Mang hàng vào</value>
+  </data>
+  <data name="FreightRequestForm_CheckOut" xml:space="preserve">
+    <value>Mang hàng ra</value>
+  </data>
+  <data name="FreightRequestForm_ShippingInBy" xml:space="preserve">
+    <value>Người cho vào</value>
+  </data>
+  <data name="FreightRequestForm_ShippingInTime" xml:space="preserve">
+    <value>Thời gian vào</value>
+  </data>
+  <data name="FreightRequestForm_ShippingOutBy" xml:space="preserve">
+    <value>Người cho ra</value>
+  </data>
+  <data name="FreightRequestForm_ShippingOutTime" xml:space="preserve">
+    <value>Thời gian ra</value>
+  </data>
+  <data name="DelegationManagement_FormTitle" xml:space="preserve">
+    <value>Tạo Ủy Quyền</value>
+  </data>
+  <data name="DelegationManagement_PageTitle" xml:space="preserve">
+    <value>Quản Lý Ủy Quyền</value>
+  </data>
+  <data name="DelegationManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Quản Lý Ủy Quyền</value>
+  </data>
+  <data name="AddNewDelegation" xml:space="preserve">
+    <value>Thêm ủy quyền</value>
+  </data>
+  <data name="AddNewDelegationOfNewTask" xml:space="preserve">
+    <value>Thêm ủy quyền công việc mới</value>
+  </data>
+  <data name="DelegationsApproval" xml:space="preserve">
+    <value>Ủy Quyền Công Việc Cần Duyệt</value>
+  </data>
+  <data name="MyDelegations" xml:space="preserve">
+    <value>Ủy Quyền Công Việc Của Tôi</value>
+  </data>
+  <data name="MyDelegationsOfNewTask" xml:space="preserve">
+    <value>Ủy Quyền Công Việc Mới Của Tôi</value>
+  </data>
+  <data name="DelegationForm_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="DelegationForm_DelegateButton" xml:space="preserve">
+    <value>Ủy Quyền</value>
+  </data>
+  <data name="DelegationForm_DelegationOfNewTask" xml:space="preserve">
+    <value>Ủy quyền công việc mới</value>
+  </data>
+  <data name="DelegationForm_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="DelegationForm_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="DelegationForm_FromEmployee" xml:space="preserve">
+    <value>Người ủy quyền</value>
+  </data>
+  <data name="DelegationForm_gridTasks_CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="DelegationForm_gridTasks_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="DelegationForm_gridTasks_Module" xml:space="preserve">
+    <value>Phân hệ</value>
+  </data>
+  <data name="DelegationForm_gridTasks_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="DelegationForm_gridTasks_ViewDetails" xml:space="preserve">
+    <value>Xem chi tiết</value>
+  </data>
+  <data name="DelegationForm_Module" xml:space="preserve">
+    <value>Phân hệ</value>
+  </data>
+  <data name="DelegationForm_SearchButton" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="DelegationForm_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="DelegationForm_ToEmployee" xml:space="preserve">
+    <value>Người được ủy quyền</value>
+  </data>
+  <data name="DiplomaRequestForm_gridTasks_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Delegation_FromDateErrorMessage" xml:space="preserve">
+    <value>Ngày chọn không được nhỏ hơn ngày hiện tại</value>
+  </data>
+  <data name="Delegation_ToDateErrorMessage" xml:space="preserve">
+    <value>Ngày chọn không được nhỏ hơn ngày hiện tại và Từ ngày</value>
+  </data>
+  <data name="DelegationsList_CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="DelegationsList_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="DelegationsList_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="DelegationsList_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="DelegationsList_Module" xml:space="preserve">
+    <value>Phân hệ</value>
+  </data>
+  <data name="DelegationsList_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="DelegationsList_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="GridViewItem_DeleteLink" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_ToDate_InValid" xml:space="preserve">
+    <value>"Đến Ngày" phải lớn hơn hoặc bằng "Từ Ngày"</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_FromDate_Empty" xml:space="preserve">
+    <value>"Từ ngày" không thể bỏ trống.</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_ToDate_Empty" xml:space="preserve">
+    <value>"Đến ngày" không thể bỏ trống.</value>
+  </data>
+  <data name="DelegationsList_FromEmployee" xml:space="preserve">
+    <value>Người ủy quyền</value>
+  </data>
+  <data name="DelegationsList_ToEmployee" xml:space="preserve">
+    <value>Người được ủy quyền</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_DontChooseDelegation" xml:space="preserve">
+    <value>Vui lòng chọn ủy quyền công việc mới hoặc công việc cụ thể cần ủy quyền.</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_FromDate_Invalid" xml:space="preserve">
+    <value>"Từ Ngày" phải lơn hơn hoặc bằng hôm nay</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_FromEmployee_InValid" xml:space="preserve">
+    <value>Vui lòng chọn người ủy quyền</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_ToEmployee_InValid" xml:space="preserve">
+    <value>Vui lòng chọn người được ủy quyền</value>
+  </data>
+  <data name="Delegation_DelegateTaskCheckBoxErrorMessage" xml:space="preserve">
+    <value>Bạn phải chọn ít nhất 1 mục cần ủy quyền hoặc chọn Ủy quyền công việc mới</value>
+  </data>
+  <data name="GridViewItem_ConfirmDeleteItem" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa mục này?</value>
+  </data>
+  <data name="Delegation_Select" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="DeleteDelegation" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DelegationManagement_ConfirmDelete" xml:space="preserve">
+    <value>Bạn có chắc muốn xóa các mục đã chọn?</value>
+  </data>
+  <data name="DelegationManagement_SelectOneItem" xml:space="preserve">
+    <value>Vui lòng chọn ít nhất 1 khoản mục để xóa!</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_Module_InValid" xml:space="preserve">
+    <value>Vui lòng chọn phân hệ</value>
+  </data>
+  <data name="DelegationManagement_FilterToDateFromDate" xml:space="preserve">
+    <value>Ngày sau phải lớn hơn hoặc bằng ngày trước</value>
+  </data>
+  <data name="Delegation_BtnView" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Delegation_CreatedDelegationDateFrom" xml:space="preserve">
+    <value>Ngày ủy quyền từ</value>
+  </data>
+  <data name="Delegation_CreatedDelegationDateTo" xml:space="preserve">
+    <value>Ngày ủy quyền đến</value>
+  </data>
+  <data name="DelegationsList_DelegatedDate" xml:space="preserve">
+    <value>Ngày ủy quyền</value>
+  </data>
+  <data name="CalendarFromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="CalendarToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="RequestsForm_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="RecruimentForm_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="DiplomaRequestForm_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="CannotCancelRejectedRequest" xml:space="preserve">
+    <value>Không thể hủy yêu cầu đã bị từ chối</value>
+  </data>
+  <data name="RequestStatusInProgress" xml:space="preserve">
+    <value>Yêu cầu này đang trong quá trình duyệt</value>
+  </data>
+  <data name="LeaveManagement_LeaveHistoryTitle" xml:space="preserve">
+    <value>Lịch sử nghỉ phép</value>
+  </data>
+  <data name="ShiftManagement_LatestApprovedBy" xml:space="preserve">
+    <value>Duyệt bởi</value>
+  </data>
+  <data name="SearchButton" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="FreightSecurity_BasicSearch" xml:space="preserve">
+    <value>Tìm kiếm cơ bản</value>
+  </data>
+  <data name="FreightSecurity_SearchByReqNumber" xml:space="preserve">
+    <value>Tìm kiếm theo mã đơn</value>
+  </data>
+  <data name="ApprovalHistoryButton" xml:space="preserve">
+    <value>Lịch sử duyệt</value>
+  </data>
+  <data name="ApprovalHistory_ApprovalStatusTitle" xml:space="preserve">
+    <value>Trạng thái duyệt</value>
+  </data>
+  <data name="ApprovalHistory_CommentTitle" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="ApprovalHistory_DateTitle" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="ApprovalHistory_NoDataAvaibleMsg" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="ApprovalHistory_PostedByTitle" xml:space="preserve">
+    <value>Đăng bởi</value>
+  </data>
+  <data name="Overview_Chart_ApprovedTodayTitle" xml:space="preserve">
+    <value>Đơn đã duyệt TRONG NGÀY</value>
+  </data>
+  <data name="Overview_Chart_InProcessTitle" xml:space="preserve">
+    <value>Đơn đang thực hiện</value>
+  </data>
+  <data name="Overview_Chart_LeftColumnTitle" xml:space="preserve">
+    <value>Số lượng đơn</value>
+  </data>
+  <data name="Overview_Chart_Title" xml:space="preserve">
+    <value>Tổng quan danh sách công việc</value>
+  </data>
+  <data name="Overview_Chart_WaitingApprovalTitle" xml:space="preserve">
+    <value>Đơn chờ duyệt</value>
+  </data>
+  <data name="Overview_Chart_WaitingApprovalTodayTitle" xml:space="preserve">
+    <value>Đơn TRONG NGÀY</value>
+  </data>
+  <data name="Overview_Grid_Column_ApprovalStatusTitle" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Overview_Grid_Column_CreatedDateTitle" xml:space="preserve">
+    <value>Ngày lập</value>
+  </data>
+  <data name="Overview_Grid_Column_DepartmentTitle" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="Overview_Grid_Column_DescriptionTitle" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Overview_Grid_Column_DueDateTitle" xml:space="preserve">
+    <value>Ngày đến hạn</value>
+  </data>
+  <data name="Overview_Grid_Column_ModuleTitle" xml:space="preserve">
+    <value>Phân hệ</value>
+  </data>
+  <data name="Overview_Grid_Column_RequesterTitle" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="Overview_Grid_Title" xml:space="preserve">
+    <value>Chi tiết danh sách công việc</value>
+  </data>
+  <data name="Overview_Grid_EmptyDataTitle" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="Overview_Grid_LoadMessageTitle" xml:space="preserve">
+    <value>Vui lòng chờ...</value>
+  </data>
+  <data name="Overview_Grid_PagerFormat" xml:space="preserve">
+    <value>Trang: {first} {prev} {pages} {next} {last}   |        {pageIndex} of {pageCount}</value>
+  </data>
+  <data name="Overview_Chart_Label" xml:space="preserve">
+    <value>Đơn</value>
+  </data>
+  <data name="Notification_Tooltip" xml:space="preserve">
+    <value>Bạn có {0} đơn phải duyệt HÔM NAY</value>
+  </data>
+  <data name="FormButtonsControl_Print" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="ViewOvertimeRequest_PageTitle" xml:space="preserve">
+    <value>Xem yêu cầu tăng ca</value>
+  </data>
+  <data name="ViewOvertimeRequest_PageTitleArea" xml:space="preserve">
+    <value>Xem yêu cầu tăng ca</value>
+  </data>
+  <data name="RequestForm_PleaseSelectReceivedDepartment" xml:space="preserve">
+    <value>Vui lòng chọn bộ phận tiếp nhận</value>
+  </data>
+  <data name="OvertimeRequest_RegisteredEmployeeMessage" xml:space="preserve">
+    <value>Nhân viên đã được đăng kí tăng ca trong ngày này</value>
+  </data>
+  <data name="FreightRequest_Save_CloseButton" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="FreightRequest_Modal_SaveButton" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Requests_ExportExcel" xml:space="preserve">
+    <value>Xuất</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab" xml:space="preserve">
+    <value>Các Phiếu Đề Nghị Phòng Tiếp Nhận</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="Requests_btnView" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="ApprovedMessage" xml:space="preserve">
+    <value>Đơn đã được duyệt hoặc từ chối phê duyệt hoặc bị hủy.</value>
+  </data>
+  <data name="Requests_ExportExcel_Message" xml:space="preserve">
+    <value>Không có dữ liệu để xuất báo cáo</value>
+  </data>
+  <data name="TransportTimeErrorMessage_1" xml:space="preserve">
+    <value>Ngày vận chuyển phải lớn hơn ngày hiện tại %7B0%7D ngày</value>
+  </data>
+  <data name="RequestExpiredMsgFormat" xml:space="preserve">
+    <value>Yêu cầu đã hết hạn vào ngày %7B0%7D</value>
+  </data>
+  <data name="NotOvertimeDateErrorMessage" xml:space="preserve">
+    <value>Ngày xin không tăng ca phải lớn hơn ngày hiện tại {0} ngày</value>
+  </data>
+  <data name="Overtime_DateErrorMsgFormat" xml:space="preserve">
+    <value>Ngày xin tăng ca phải lớn hơn ngày hiện tại %7B0%7D ngày</value>
+  </data>
+  <data name="BusinessTripManagement_LoadMoreEmployeesButton" xml:space="preserve">
+    <value>Nhân viên phòng ban khác</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeExistedMsg" xml:space="preserve">
+    <value>Nhân viên này đã tồn tại</value>
+  </data>
+  <data name="BusinessTripManagement_NoEmployeeInDepartmentMsg" xml:space="preserve">
+    <value>Không có nhân viên nào trong phòng ban của bạn đi công tác. Xin hãy kiểm tra lại!</value>
+  </data>
+  <data name="MeetingRoom_PageTitle" xml:space="preserve">
+    <value>Phiếu Yêu Cầu Sử Dụng Phòng Họp</value>
+  </data>
+  <data name="MeetingRoom_TitleInTitleArea" xml:space="preserve">
+    <value>Phiếu Yêu Cầu Sử Dụng Phòng Họp</value>
+  </data>
+  <data name="MeetingRoomByDepartment" xml:space="preserve">
+    <value>Các Yêu Cầu Phòng Họp Theo Phòng Ban</value>
+  </data>
+  <data name="MeetingRoomToBeApproved" xml:space="preserve">
+    <value>Các Yêu Cầu Phòng Họp Cần Duyệt</value>
+  </data>
+  <data name="MyMeetingRoomRequests" xml:space="preserve">
+    <value>Yêu Cầu Phòng Họp Của Tôi</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_RequestFrom" xml:space="preserve">
+    <value>Yêu cầu từ</value>
+  </data>
+  <data name="RequiredField_WithParam" xml:space="preserve">
+    <value>{0} là trường bắt buộc.</value>
+  </data>
+  <data name="Invalid_WithParam" xml:space="preserve">
+    <value>{0} không hợp lệ.</value>
+  </data>
+  <data name="LessThan_WithParam" xml:space="preserve">
+    <value>{0} phải nhỏ hơn {1}.</value>
+  </data>
+  <data name="MeetingRoomManagement_DepartmentTitle" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="MeetingRoomManagement_DiscussionMeetingTitle" xml:space="preserve">
+    <value>Nội dung vấn đề cần giải quyết hoặc thương lượng</value>
+  </data>
+  <data name="MeetingRoomManagement_EndTimeTitle" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="MeetingRoomManagement_FullNameTitle" xml:space="preserve">
+    <value>Họ tên người đăng ký</value>
+  </data>
+  <data name="MeetingRoomManagement_GeneralInfoTitle" xml:space="preserve">
+    <value>Thông tin chung</value>
+  </data>
+  <data name="MeetingRoomManagement_LocationTitle" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="MeetingRoomManagement_OthersTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="MeetingRoomManagement_ParticipationTitle" xml:space="preserve">
+    <value>Thành phần tham dự</value>
+  </data>
+  <data name="MeetingRoomManagement_RegisteredEquipmentTitle" xml:space="preserve">
+    <value>Đăng ký danh mục sử dụng thiết bị</value>
+  </data>
+  <data name="MeetingRoomManagement_RequestedDateTitle" xml:space="preserve">
+    <value>Ngày sử dụng</value>
+  </data>
+  <data name="MeetingRoomManagement_SeatsTitle" xml:space="preserve">
+    <value>Số ghế sử dụng</value>
+  </data>
+  <data name="MeetingRoomManagement_StartTimeTitle" xml:space="preserve">
+    <value>Bắt đầu từ</value>
+  </data>
+  <data name="MeetingRoomManagement_EquipmentTitle" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="StartDateLessThanEndDate" xml:space="preserve">
+    <value>Ngày bắt đầu phải nhỏ hơn ngày kết thúc</value>
+  </data>
+  <data name="GuestReceptionManagement_CarToTheAirportDatetimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagement_CarToTheAirportTitle" xml:space="preserve">
+    <value>Xe đưa ra sân bay</value>
+  </data>
+  <data name="GuestReceptionManagement_CompanyNameTitle" xml:space="preserve">
+    <value>Tên Công ty</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfArrivalTitle" xml:space="preserve">
+    <value>Ngày đến</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfIssueTitle" xml:space="preserve">
+    <value>Ngày cấp</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderTitle" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestInformationTitle" xml:space="preserve">
+    <value>Thông tin về khách</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestJobTitle" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNameTitle" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNationalityTitle" xml:space="preserve">
+    <value>Quốc tịch</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPassportNoTitle" xml:space="preserve">
+    <value>Số passport</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaRequiredFieldsTitle" xml:space="preserve">
+    <value>Các thông tin có đánh dấu (*) cần sử dụng trong thụ tục xin cấp visa</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaValidityTitle" xml:space="preserve">
+    <value>Hiệu lực visa</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingClothSetTitle" xml:space="preserve">
+    <value>bộ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingClothTitle" xml:space="preserve">
+    <value>Trang phục vào xưởng:</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingContentTitle" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEntranceTitle" xml:space="preserve">
+    <value>Lối đi vào xưởng</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEquipmentTitle" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingMeetingRoomSeatsTitle" xml:space="preserve">
+    <value>người</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingMeetingRoomTitle" xml:space="preserve">
+    <value>Phòng họp</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingPlaceTitle" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingRequirementTitle" xml:space="preserve">
+    <value>Yêu cầu chuẩn bị</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingRoutineTitle" xml:space="preserve">
+    <value>Lộ trình tham quan nhà máy (nếu có)</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingScheduleFromTitle" xml:space="preserve">
+    <value>Thời gian từ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingScheduleTitle" xml:space="preserve">
+    <value>Lịch làm việc của khách tại công ty</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingScheduleToTitle" xml:space="preserve">
+    <value>đến</value>
+  </data>
+  <data name="GuestReceptionManagement_HasHotelBookingTitle" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelAddressTitle" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelBookingTitle" xml:space="preserve">
+    <value>Đặt khách sạn</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelCheckinDateTitle" xml:space="preserve">
+    <value>Ngày vào</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelCheckoutDateTitle" xml:space="preserve">
+    <value>Ngày ra</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelDoubleRoomTitle" xml:space="preserve">
+    <value>Phòng đôi</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelMinibarPaidByTitle" xml:space="preserve">
+    <value>Người trả minibar</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelNameTitle" xml:space="preserve">
+    <value>Tên khách sạn</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelOtherRequirement" xml:space="preserve">
+    <value>Yêu cầu đặc biệt</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelOtherServicePaidByTitle" xml:space="preserve">
+    <value>Các dịch vụ khác</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelRoomPaidByTitle" xml:space="preserve">
+    <value>Người trả tiền phòng</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelSingleRoomTitle" xml:space="preserve">
+    <value>Phòng đơn</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceAtCompanyTitle" xml:space="preserve">
+    <value>Tại công ty</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceAtOtherPlaceTitle" xml:space="preserve">
+    <value>Địa điểm khác</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceSpecialRequirement" xml:space="preserve">
+    <value>Yêu cầu đặc biệt của thức ăn</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceTitle" xml:space="preserve">
+    <value>Phục vụ cơm trưa</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupAttendantTitle" xml:space="preserve">
+    <value>Người cần liên hệ</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarDatetimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarFlightNoTitle" xml:space="preserve">
+    <value>Số chuyến bay</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarTitle" xml:space="preserve">
+    <value>Xe đón tại sân bay</value>
+  </data>
+  <data name="GuestReceptionManagement_DatetimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupDateTitle" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupTimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupTitle" xml:space="preserve">
+    <value>Xe đi làm việc</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupWorkingPlaceTitle" xml:space="preserve">
+    <value>Địa điểm làm việc</value>
+  </data>
+  <data name="GuestReceptionManagement_CasualTitle" xml:space="preserve">
+    <value>Thông thường</value>
+  </data>
+  <data name="GuestReceptionManagement_FormalTitle" xml:space="preserve">
+    <value>Quan trọng</value>
+  </data>
+  <data name="GuestReceptionManagement_HighlyFormalTitle" xml:space="preserve">
+    <value>Trân trọng</value>
+  </data>
+  <data name="GuestReceptionManagement_ReceptionTitle" xml:space="preserve">
+    <value>Mức độ tiếp đón</value>
+  </data>
+  <data name="GuestReceptionManagement_VisaApplicationInfomationTitle" xml:space="preserve">
+    <value>Nếu có xin visa, vui lòng điền đầy đủ thông tin có đánh dấu (*) ở bảng trên hoặc gửi kèm bản photo hộ chiếu.</value>
+  </data>
+  <data name="GuestReceptionManagement_VisaApplicationTitle" xml:space="preserve">
+    <value>Xin visa</value>
+  </data>
+  <data name="GuestReceptionManagement_BlackBoardTitle" xml:space="preserve">
+    <value>Bảng viết</value>
+  </data>
+  <data name="GuestReceptionManagement_CakeTitle" xml:space="preserve">
+    <value>Bánh ngọt</value>
+  </data>
+  <data name="GuestReceptionManagement_FaceClothTitle" xml:space="preserve">
+    <value>Khăn lạnh</value>
+  </data>
+  <data name="GuestReceptionManagement_FruitsTitle" xml:space="preserve">
+    <value>Trái cây</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEntranceStaffTitle" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEntranceVisitors" xml:space="preserve">
+    <value>Khách</value>
+  </data>
+  <data name="GuestReceptionManagement_LaserPenTitle" xml:space="preserve">
+    <value>Bút laser</value>
+  </data>
+  <data name="GuestReceptionManagement_MeetingRoomTitle" xml:space="preserve">
+    <value>Phòng họp</value>
+  </data>
+  <data name="GuestReceptionManagement_MicroTitle" xml:space="preserve">
+    <value>Micro</value>
+  </data>
+  <data name="GuestReceptionManagement_OtherTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="GuestReceptionManagement_PageTitle" xml:space="preserve">
+    <value>Phiếu yêu cầu đón tiếp khách</value>
+  </data>
+  <data name="GuestReceptionManagement_PageTitleArea" xml:space="preserve">
+    <value>Phiếu yêu cầu đón tiếp khách</value>
+  </data>
+  <data name="GuestReceptionManagement_PersonsTitle" xml:space="preserve">
+    <value>người</value>
+  </data>
+  <data name="GuestReceptionManagement_ProjectorTitle" xml:space="preserve">
+    <value>Máy chiếu</value>
+  </data>
+  <data name="GuestReceptionManagement_RequirementsTitle" xml:space="preserve">
+    <value>Yêu cầu chuẩn bị</value>
+  </data>
+  <data name="GuestReceptionManagement_SouvenirTitle" xml:space="preserve">
+    <value>Quà tặng cho khách</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupDatetimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagementByDepartment" xml:space="preserve">
+    <value>Các Yêu Cầu Đón Tiếp Khách Theo Phòng Ban</value>
+  </data>
+  <data name="GuestReceptionManagementRequests" xml:space="preserve">
+    <value>Yêu Cầu Đón Tiếp Khách Của Tôi</value>
+  </data>
+  <data name="GuestReceptionManagementToBeApproved" xml:space="preserve">
+    <value>Các Yêu Cầu Đón Tiếp Khách Cần Duyệt</value>
+  </data>
+  <data name="NotGreaterThan_WithParam" xml:space="preserve">
+    <value>{0} không được lớn hơn {1}</value>
+  </data>
+  <data name="DataChanged_Msg" xml:space="preserve">
+    <value>Dữ liệu đã bị thay đổi bởi người khác trong quá trình bạn thao tác. Bạn có muốn xem dữ liệu mới nhất hoặc ghi đè những thay đổi đó?</value>
+  </data>
+  <data name="OvertimeDataChanged_Confirm" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="ShiftDataChanged_Confirm" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="OvertimeDataChanged_Modal_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="OvertimeDataChanged_Modal_SaveButton" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="ShiftDataChanged_Modal_CloseButton" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="ShiftDataChanged_Modal_SaveButton" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="OvertimeDataChanged_Modal_ReloadButton" xml:space="preserve">
+    <value>Lấy mới</value>
+  </data>
+  <data name="ShiftDataChanged_Modal_ReloadButton" xml:space="preserve">
+    <value>Lấy mới</value>
+  </data>
+</root>

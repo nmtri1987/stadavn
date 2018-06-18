@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint"  Title="$Resources:RBVHStadaLists,FreightDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/FreightDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100CF3D6707D0C6486482E56BC798A0788D" />
+    </ContentTypes>
+    <Fields>
+      <Field ID="{9cb1a1a3-aef7-4256-8c94-6c0e12f95415}" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" DisplayName="$Resources:RBVHStadaLists,FreightDetails_FreightManagementID;"  Required="TRUE" Name="FreightManagementID"  Type="Lookup" List="Lists/FreightManagement" ShowField="ID"/>
+      <Field ID="{b3c8cac6-4311-436a-b851-e5bd27836544}" Name="GoodsName" DisplayName="$Resources:RBVHStadaLists,FreightDetails_GoodsName;" Type="Text" Required="TRUE"></Field>
+      <Field ID="{dfd9f9c0-eb5e-495d-a177-de3401fba0fd}" Name="Unit" DisplayName="$Resources:RBVHStadaLists,FreightDetails_Unit;" Type="Choice" Required="FALSE" >
+        <CHOICES>
+          <CHOICE>Cột</CHOICE>
+          <CHOICE>Cái</CHOICE>
+        </CHOICES>
+        <Default></Default>
+      </Field>
+      <Field ID="{b7bda11b-0675-4ed5-900c-6ff1e09258d9}" Name="Quantity" DisplayName="$Resources:RBVHStadaLists,FreightDetails_Quantity;" Type="Number" Required="FALSE"></Field>
+      <Field ID="{b03a0578-ba80-4ac0-9fea-6d077be7171e}" Name="Remarks" DisplayName="$Resources:RBVHStadaLists,FreightDetails_Remarks;" Type="Text" Required="FALSE"></Field>
+      <Field ID="{5ed44549-dead-4501-8fc4-a4199449accc}" Name="ShippingIn" DisplayName="$Resources:RBVHStadaLists,FreightManagement_ShippingIn;" Type="DateTime" Required="FALSE" />
+      <Field ID="{ae1255d8-f8ae-4737-87c2-e0a419c8e607}" Name="ShippingOut" DisplayName="$Resources:RBVHStadaLists,FreightManagement_ShippingOut;" Type="DateTime" Required="FALSE" />
+      <Field ID="{4B706809-A81F-427E-836C-D2C434D3155D}" Name="CheckInBy" DisplayName="$Resources:RBVHStadaLists,FreightManagement_CheckInBy;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="FALSE" />
+      <Field ID="{FD97F010-A920-46D9-97C7-60A666E2042E}" Name="CheckOutBy" DisplayName="$Resources:RBVHStadaLists,FreightManagement_CheckOutBy;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="FALSE" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE" >
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+
+      <View BaseViewID="1"  Type="HTML"  WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="FreightManagementID" />
+          <FieldRef Name="GoodsName" />
+          <FieldRef Name="Unit" />
+          <FieldRef Name="Quantity" />
+          <FieldRef Name="Remarks" />
+          <FieldRef Name="ShippingIn" />
+          <FieldRef Name="ShippingOut" />
+          <FieldRef Name="CheckInBy" />
+          <FieldRef Name="CheckOutBy" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

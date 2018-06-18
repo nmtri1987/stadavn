@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}"
+       Name="CommonLastRemind"
+       DisplayName="Last Remind"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{cf75cef9-4a71-48c3-a3af-9364399ee5fb}"
+       Name="CommonFrom"
+       DisplayName="From"
+       Type="DateTime"
+       Required="TRUE"
+       Group="Stada Columns">
+    <Default>[today]</Default>
+  </Field>
+</Elements>

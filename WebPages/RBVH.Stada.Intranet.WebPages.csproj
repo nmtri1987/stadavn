@@ -1,0 +1,1609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52AFD9CB-E01E-4FC8-89E7-8655700664F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.WebPages</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.WebPages</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <AssemblyDeploymentTarget>GlobalAssemblyCache</AssemblyDeploymentTarget>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.5</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>14.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+    <IncludeAssemblyInPackage>True</IncludeAssemblyInPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.1\lib\net45\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\ApprovalBaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\FormBaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\ListBaseUserUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\PageEventHandlingBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripApprovalControl.ascx.cs">
+      <DependentUpon>BusinessTripApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripApprovalControl.ascx.designer.cs">
+      <DependentUpon>BusinessTripApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripByExtAdminControl.ascx.cs">
+      <DependentUpon>BusinessTripByExtAdminControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripByExtAdminControl.ascx.designer.cs">
+      <DependentUpon>BusinessTripByExtAdminControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripByDepartmentControl.ascx.cs">
+      <DependentUpon>BusinessTripByDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripByDepartmentControl.ascx.designer.cs">
+      <DependentUpon>BusinessTripByDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripCashierControl.ascx.cs">
+      <DependentUpon>BusinessTripCashierControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripCashierControl.ascx.designer.cs">
+      <DependentUpon>BusinessTripCashierControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripDriverControl.ascx.cs">
+      <DependentUpon>BusinessTripDriverControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripDriverControl.ascx.designer.cs">
+      <DependentUpon>BusinessTripDriverControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripRequestControl.ascx.cs">
+      <DependentUpon>BusinessTripRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripRequestControl.ascx.designer.cs">
+      <DependentUpon>BusinessTripRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\MyBusinessTripControl.ascx.cs">
+      <DependentUpon>MyBusinessTripControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\MyBusinessTripControl.ascx.designer.cs">
+      <DependentUpon>MyBusinessTripControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftApprovalControl.ascx.cs">
+      <DependentUpon>ChangeShiftApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftApprovalControl.ascx.designer.cs">
+      <DependentUpon>ChangeShiftApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftByDepartmentControl.ascx.cs">
+      <DependentUpon>ChangeShiftByDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftByDepartmentControl.ascx.designer.cs">
+      <DependentUpon>ChangeShiftByDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftRequestControl.ascx.cs">
+      <DependentUpon>ChangeShiftRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftRequestControl.ascx.designer.cs">
+      <DependentUpon>ChangeShiftRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\CheckPermission.ascx.cs">
+      <DependentUpon>CheckPermission.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\CheckPermission.ascx.designer.cs">
+      <DependentUpon>CheckPermission.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\CommentControl.ascx.cs">
+      <DependentUpon>CommentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\CommentControl.ascx.designer.cs">
+      <DependentUpon>CommentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\FormButtonsControl.ascx.cs">
+      <DependentUpon>FormButtonsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\FormButtonsControl.ascx.designer.cs">
+      <DependentUpon>FormButtonsControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\SupportingDocumentControl.ascx.cs">
+      <DependentUpon>SupportingDocumentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\SupportingDocumentControl.ascx.designer.cs">
+      <DependentUpon>SupportingDocumentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\WorkflowHistoryControl.ascx.cs">
+      <DependentUpon>WorkflowHistoryControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\WorkflowHistoryControl.ascx.designer.cs">
+      <DependentUpon>WorkflowHistoryControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\DelegationManagementControl\DelegationFormUserControl.ascx.cs">
+      <DependentUpon>DelegationFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\DelegationManagementControl\DelegationFormUserControl.ascx.designer.cs">
+      <DependentUpon>DelegationFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\DelegationManagementControl\DelegationListUserControl.ascx.cs">
+      <DependentUpon>DelegationListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\DelegationManagementControl\DelegationListUserControl.ascx.designer.cs">
+      <DependentUpon>DelegationListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\VehicleOperatorControl.ascx.cs">
+      <DependentUpon>VehicleOperatorControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\VehicleOperatorControl.ascx.designer.cs">
+      <DependentUpon>VehicleOperatorControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequirementForGuestReceptionManagementControl\GuestReceptionFormUserControl.ascx.cs">
+      <DependentUpon>GuestReceptionFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequirementForGuestReceptionManagementControl\GuestReceptionFormUserControl.ascx.designer.cs">
+      <DependentUpon>GuestReceptionFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveHistoryControl.ascx.cs">
+      <DependentUpon>LeaveHistoryControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveHistoryControl.ascx.designer.cs">
+      <DependentUpon>LeaveHistoryControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\MeetingRoomManagementControl\MeetingRoomFormUserControl.ascx.cs">
+      <DependentUpon>MeetingRoomFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\MeetingRoomManagementControl\MeetingRoomFormUserControl.ascx.designer.cs">
+      <DependentUpon>MeetingRoomFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\MeetingRoomManagementControl\MeetingRoomListUserControl.ascx.cs">
+      <DependentUpon>MeetingRoomListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\MeetingRoomManagementControl\MeetingRoomListUserControl.ascx.designer.cs">
+      <DependentUpon>MeetingRoomListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestForDiplomaSupplyManagementControl\RequestForDiplomaSuppliesFormUserControl.ascx.cs">
+      <DependentUpon>RequestForDiplomaSuppliesFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestForDiplomaSupplyManagementControl\RequestForDiplomaSuppliesFormUserControl.ascx.designer.cs">
+      <DependentUpon>RequestForDiplomaSuppliesFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestForDiplomaSupplyManagementControl\RequestForDiplomaSuppliesListUserControl.ascx.cs">
+      <DependentUpon>RequestForDiplomaSuppliesListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestForDiplomaSupplyManagementControl\RequestForDiplomaSuppliesListUserControl.ascx.designer.cs">
+      <DependentUpon>RequestForDiplomaSuppliesListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightApprovalControl.ascx.cs">
+      <DependentUpon>FreightApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightApprovalControl.ascx.designer.cs">
+      <DependentUpon>FreightApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightByDepartmentControl.ascx.cs">
+      <DependentUpon>FreightByDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightByDepartmentControl.ascx.designer.cs">
+      <DependentUpon>FreightByDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\MyFreightControl.ascx.cs">
+      <DependentUpon>MyFreightControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\MyFreightControl.ascx.designer.cs">
+      <DependentUpon>MyFreightControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightRequestControl.ascx.cs">
+      <DependentUpon>FreightRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightRequestControl.ascx.designer.cs">
+      <DependentUpon>FreightRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightSecurityGuardControl.ascx.cs">
+      <DependentUpon>FreightSecurityGuardControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightSecurityGuardControl.ascx.designer.cs">
+      <DependentUpon>FreightSecurityGuardControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveApprovalControl.ascx.cs">
+      <DependentUpon>LeaveApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveApprovalControl.ascx.designer.cs">
+      <DependentUpon>LeaveApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveByDepartmentControl.ascx.cs">
+      <DependentUpon>LeaveByDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveByDepartmentControl.ascx.designer.cs">
+      <DependentUpon>LeaveByDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveRequestControl.ascx.cs">
+      <DependentUpon>LeaveRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveRequestControl.ascx.designer.cs">
+      <DependentUpon>LeaveRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveSecurityGuardControl.ascx.cs">
+      <DependentUpon>LeaveSecurityGuardControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveSecurityGuardControl.ascx.designer.cs">
+      <DependentUpon>LeaveSecurityGuardControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceApprovalControl.ascx.cs">
+      <DependentUpon>LeaveOfAbsenceApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceApprovalControl.ascx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceDepartmentControl.ascx.cs">
+      <DependentUpon>LeaveOfAbsenceDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceDepartmentControl.ascx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceRequestControl.ascx.cs">
+      <DependentUpon>LeaveOfAbsenceRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceRequestControl.ascx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeftMenu.ascx.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeftMenu.ascx.designer.cs">
+      <DependentUpon>LeftMenu.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\MyovertimeControl.ascx.cs">
+      <DependentUpon>MyovertimeControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\MyovertimeControl.ascx.designer.cs">
+      <DependentUpon>MyovertimeControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeApprovalListControl.ascx.cs">
+      <DependentUpon>OvertimeApprovalListControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeApprovalListControl.ascx.designer.cs">
+      <DependentUpon>OvertimeApprovalListControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeByDepartmentControl.ascx.cs">
+      <DependentUpon>OvertimeByDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeByDepartmentControl.ascx.designer.cs">
+      <DependentUpon>OvertimeByDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeRequestManagementControl.ascx.cs">
+      <DependentUpon>OvertimeRequestManagementControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeRequestManagementControl.ascx.designer.cs">
+      <DependentUpon>OvertimeRequestManagementControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RecruitmentManagementControl\RecruitmentFormUserControl.ascx.cs">
+      <DependentUpon>RecruitmentFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RecruitmentManagementControl\RecruitmentFormUserControl.ascx.designer.cs">
+      <DependentUpon>RecruitmentFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RecruitmentManagementControl\RecruitmentListUserControl.ascx.cs">
+      <DependentUpon>RecruitmentListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RecruitmentManagementControl\RecruitmentListUserControl.ascx.designer.cs">
+      <DependentUpon>RecruitmentListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestManagementControl\RequestFormUserControl.ascx.cs">
+      <DependentUpon>RequestFormUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestManagementControl\RequestFormUserControl.ascx.designer.cs">
+      <DependentUpon>RequestFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestManagementControl\RequestListUserControl.ascx.cs">
+      <DependentUpon>RequestListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestManagementControl\RequestListUserControl.ascx.designer.cs">
+      <DependentUpon>RequestListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequirementForGuestReceptionManagementControl\GuestReceptionListUserControl.ascx.cs">
+      <DependentUpon>GuestReceptionListUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequirementForGuestReceptionManagementControl\GuestReceptionListUserControl.ascx.designer.cs">
+      <DependentUpon>GuestReceptionListUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\MyShiftControl.ascx.cs">
+      <DependentUpon>MyShiftControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\MyShiftControl.ascx.designer.cs">
+      <DependentUpon>MyShiftControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftApproveControl.ascx.cs">
+      <DependentUpon>ShiftApproveControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftApproveControl.ascx.designer.cs">
+      <DependentUpon>ShiftApproveControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftForDepartmentControl.ascx.cs">
+      <DependentUpon>ShiftForDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftForDepartmentControl.ascx.designer.cs">
+      <DependentUpon>ShiftForDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftRequestControl.ascx.cs">
+      <DependentUpon>ShiftRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftRequestControl.ascx.designer.cs">
+      <DependentUpon>ShiftRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\TaskApprovalControl.ascx.cs">
+      <DependentUpon>TaskApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\TaskApprovalControl.ascx.designer.cs">
+      <DependentUpon>TaskApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationApprovalControl.ascx.cs">
+      <DependentUpon>TransportationApprovalControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationApprovalControl.ascx.designer.cs">
+      <DependentUpon>TransportationApprovalControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationByDepartmentControl.ascx.cs">
+      <DependentUpon>TransportationByDepartmentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationByDepartmentControl.ascx.designer.cs">
+      <DependentUpon>TransportationByDepartmentControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationRequestControl.ascx.cs">
+      <DependentUpon>TransportationRequestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationRequestControl.ascx.designer.cs">
+      <DependentUpon>TransportationRequestControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\WelcomeCommonUser.ascx.cs">
+      <DependentUpon>WelcomeCommonUser.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTROLTEMPLATES\RBVH.Stada.Controls\WelcomeCommonUser.ascx.designer.cs">
+      <DependentUpon>WelcomeCommonUser.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Extensions\WebControlsExtensions.cs" />
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ApprovalPageBase.aspx.cs">
+      <DependentUpon>ApprovalPageBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ApprovalPageBase.aspx.designer.cs">
+      <DependentUpon>ApprovalPageBase.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementAdmin.aspx.cs">
+      <DependentUpon>BusinessTripManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementAdmin.aspx.designer.cs">
+      <DependentUpon>BusinessTripManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementBOD.aspx.cs">
+      <DependentUpon>BusinessTripManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementBOD.aspx.designer.cs">
+      <DependentUpon>BusinessTripManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementManager.aspx.cs">
+      <DependentUpon>BusinessTripManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementManager.aspx.designer.cs">
+      <DependentUpon>BusinessTripManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementMember.aspx.cs">
+      <DependentUpon>BusinessTripManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementMember.aspx.designer.cs">
+      <DependentUpon>BusinessTripManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementAdmin.aspx.cs">
+      <DependentUpon>ChangeShiftManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementAdmin.aspx.designer.cs">
+      <DependentUpon>ChangeShiftManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementBOD.aspx.cs">
+      <DependentUpon>ChangeShiftManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementBOD.aspx.designer.cs">
+      <DependentUpon>ChangeShiftManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftApprovalDelegation.aspx.cs">
+      <DependentUpon>ChangeShiftApprovalDelegation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftApprovalDelegation.aspx.designer.cs">
+      <DependentUpon>ChangeShiftApprovalDelegation.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementManager.aspx.cs">
+      <DependentUpon>ChangeShiftManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementManager.aspx.designer.cs">
+      <DependentUpon>ChangeShiftManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementMember.aspx.cs">
+      <DependentUpon>ChangeShiftManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementMember.aspx.designer.cs">
+      <DependentUpon>ChangeShiftManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\DelegationManagement\DelegationForm.aspx.cs">
+      <DependentUpon>DelegationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\DelegationManagement\DelegationForm.aspx.designer.cs">
+      <DependentUpon>DelegationForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\DelegationManagement\DelegationList.aspx.cs">
+      <DependentUpon>DelegationList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\DelegationManagement\DelegationList.aspx.designer.cs">
+      <DependentUpon>DelegationList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementAdmin.aspx.cs">
+      <DependentUpon>FreightManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementAdmin.aspx.designer.cs">
+      <DependentUpon>FreightManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementBOD.aspx.cs">
+      <DependentUpon>FreightManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementBOD.aspx.designer.cs">
+      <DependentUpon>FreightManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementManager.aspx.cs">
+      <DependentUpon>FreightManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementManager.aspx.designer.cs">
+      <DependentUpon>FreightManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementMember.aspx.cs">
+      <DependentUpon>FreightManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementMember.aspx.designer.cs">
+      <DependentUpon>FreightManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagementApprovalTask.aspx.cs">
+      <DependentUpon>LeaveManagementApprovalTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagementApprovalTask.aspx.designer.cs">
+      <DependentUpon>LeaveManagementApprovalTask.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementAdmin.aspx.cs">
+      <DependentUpon>LeaveManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementAdmin.aspx.designer.cs">
+      <DependentUpon>LeaveManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementBOD.aspx.cs">
+      <DependentUpon>LeaveManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementBOD.aspx.designer.cs">
+      <DependentUpon>LeaveManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveHistory.aspx.cs">
+      <DependentUpon>LeaveHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveHistory.aspx.designer.cs">
+      <DependentUpon>LeaveHistory.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementManager.aspx.cs">
+      <DependentUpon>LeaveManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementManager.aspx.designer.cs">
+      <DependentUpon>LeaveManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementMember.aspx.cs">
+      <DependentUpon>LeaveManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementMember.aspx.designer.cs">
+      <DependentUpon>LeaveManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementAdmin.aspx.cs">
+      <DependentUpon>LeaveOfAbsenceManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementAdmin.aspx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementBOD.aspx.cs">
+      <DependentUpon>LeaveOfAbsenceManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementBOD.aspx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceApprovalDelegation.aspx.cs">
+      <DependentUpon>LeaveOfAbsenceApprovalDelegation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceApprovalDelegation.aspx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceApprovalDelegation.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementManager.aspx.cs">
+      <DependentUpon>LeaveOfAbsenceManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementManager.aspx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementMember.aspx.cs">
+      <DependentUpon>LeaveOfAbsenceManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementMember.aspx.designer.cs">
+      <DependentUpon>LeaveOfAbsenceManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MeetingRoomManagement\MeetingRoomForm.aspx.cs">
+      <DependentUpon>MeetingRoomForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MeetingRoomManagement\MeetingRoomForm.aspx.designer.cs">
+      <DependentUpon>MeetingRoomForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MeetingRoomManagement\MeetingRoomList.aspx.cs">
+      <DependentUpon>MeetingRoomList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MeetingRoomManagement\MeetingRoomList.aspx.designer.cs">
+      <DependentUpon>MeetingRoomList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MyOverTime.aspx.cs">
+      <DependentUpon>MyOverTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MyOverTime.aspx.designer.cs">
+      <DependentUpon>MyOverTime.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MyShiftTime.aspx.cs">
+      <DependentUpon>MyShiftTime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\MyShiftTime.aspx.designer.cs">
+      <DependentUpon>MyShiftTime.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementAdmin.aspx.cs">
+      <DependentUpon>OvertimeManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementAdmin.aspx.designer.cs">
+      <DependentUpon>OvertimeManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementBOD.aspx.cs">
+      <DependentUpon>OvertimeManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementBOD.aspx.designer.cs">
+      <DependentUpon>OvertimeManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementManager.aspx.cs">
+      <DependentUpon>OvertimeManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementManager.aspx.designer.cs">
+      <DependentUpon>OvertimeManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementMember.aspx.cs">
+      <DependentUpon>OvertimeManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementMember.aspx.designer.cs">
+      <DependentUpon>OvertimeManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\Overview.aspx.cs">
+      <DependentUpon>Overview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\Overview.aspx.designer.cs">
+      <DependentUpon>Overview.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ReAssignTask.aspx.cs">
+      <DependentUpon>ReAssignTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ReAssignTask.aspx.designer.cs">
+      <DependentUpon>ReAssignTask.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RecruitmentManagement\RecruitmentForm.aspx.cs">
+      <DependentUpon>RecruitmentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RecruitmentManagement\RecruitmentForm.aspx.designer.cs">
+      <DependentUpon>RecruitmentForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RecruitmentManagement\RecruitmentList.aspx.cs">
+      <DependentUpon>RecruitmentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RecruitmentManagement\RecruitmentList.aspx.designer.cs">
+      <DependentUpon>RecruitmentList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestForDiplomaSupplyManagement\RequestForDiplomaSupplyForm.aspx.cs">
+      <DependentUpon>RequestForDiplomaSupplyForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestForDiplomaSupplyManagement\RequestForDiplomaSupplyForm.aspx.designer.cs">
+      <DependentUpon>RequestForDiplomaSupplyForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestForDiplomaSupplyManagement\RequestForDiplomaSupplyList.aspx.cs">
+      <DependentUpon>RequestForDiplomaSupplyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestForDiplomaSupplyManagement\RequestForDiplomaSupplyList.aspx.designer.cs">
+      <DependentUpon>RequestForDiplomaSupplyList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestManagement\RequestForm.aspx.cs">
+      <DependentUpon>RequestForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestManagement\RequestForm.aspx.designer.cs">
+      <DependentUpon>RequestForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestManagement\RequestList.aspx.cs">
+      <DependentUpon>RequestList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestManagement\RequestList.aspx.designer.cs">
+      <DependentUpon>RequestList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequirementForGuestReceptionManagement\GuestReceptionForm.aspx.cs">
+      <DependentUpon>GuestReceptionForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequirementForGuestReceptionManagement\GuestReceptionForm.aspx.designer.cs">
+      <DependentUpon>GuestReceptionForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequirementForGuestReceptionManagement\GuestReceptionList.aspx.cs">
+      <DependentUpon>GuestReceptionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\RequirementForGuestReceptionManagement\GuestReceptionList.aspx.designer.cs">
+      <DependentUpon>GuestReceptionList.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\SecurityLeaveManagement.aspx.cs">
+      <DependentUpon>SecurityLeaveManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\SecurityLeaveManagement.aspx.designer.cs">
+      <DependentUpon>SecurityLeaveManagement.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementAdmin.aspx.cs">
+      <DependentUpon>ShiftManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementAdmin.aspx.designer.cs">
+      <DependentUpon>ShiftManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementBOD.aspx.cs">
+      <DependentUpon>ShiftManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementBOD.aspx.designer.cs">
+      <DependentUpon>ShiftManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementManager.aspx.cs">
+      <DependentUpon>ShiftManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementManager.aspx.designer.cs">
+      <DependentUpon>ShiftManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementMember.aspx.cs">
+      <DependentUpon>ShiftManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementMember.aspx.designer.cs">
+      <DependentUpon>ShiftManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementAdmin.aspx.cs">
+      <DependentUpon>TransportationManagementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementAdmin.aspx.designer.cs">
+      <DependentUpon>TransportationManagementAdmin.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementBOD.aspx.cs">
+      <DependentUpon>TransportationManagementBOD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementBOD.aspx.designer.cs">
+      <DependentUpon>TransportationManagementBOD.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementManager.aspx.cs">
+      <DependentUpon>TransportationManagementManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementManager.aspx.designer.cs">
+      <DependentUpon>TransportationManagementManager.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementMember.aspx.cs">
+      <DependentUpon>TransportationManagementMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementMember.aspx.designer.cs">
+      <DependentUpon>TransportationManagementMember.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CodeMessageResult.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\DepartmentEmployee.cs" />
+    <Compile Include="Models\DropdownItem.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\EmployeeAutoCompleteResult.cs" />
+    <Compile Include="Models\EmployeeShiftTime.cs" />
+    <Compile Include="Models\EmployeeShiftTimeResult.cs" />
+    <Compile Include="Models\LeaveManagementApprover.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\MonthYear.cs" />
+    <Compile Include="Models\MyShiftGirdData.cs" />
+    <Compile Include="Models\OvertimeDataResult.cs" />
+    <Compile Include="Models\OvertimeEmployeeModal.cs" />
+    <Compile Include="Models\OvertimeManagement.cs" />
+    <Compile Include="Models\OvertimePage.cs" />
+    <Compile Include="Models\RootMenu.cs" />
+    <Compile Include="Models\SaveOvertimeResult.cs" />
+    <Compile Include="Models\SaveShiftRequestResult.cs" />
+    <Compile Include="Models\ShiftManagementQueryResult.cs" />
+    <Compile Include="Models\ShiftRequestGridData.cs" />
+    <Compile Include="Models\ViewShiftManagement.cs" />
+    <Compile Include="PageModels\ChangePasswordModel.cs" />
+    <Compile Include="PageModels\LoginModel.cs" />
+    <Compile Include="PageModels\OverviewModel.cs" />
+    <Compile Include="PageModels\ResetPasswordModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ControlExtensions.cs" />
+    <Compile Include="Utils\URLHelper.cs" />
+    <Compile Include="Utils\UserHelper.cs" />
+    <Compile Include="Utils\WebPagesResourceHelper.cs" />
+    <Compile Include="Utils\SplitStrings.cs" />
+    <Compile Include="Utils\UserPermission.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CONTROLTEMPLATES\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8682dfdd-f78e-4b9f-846b-4fea0356ee9a}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\FeatureWeb\FeatureWeb.feature">
+      <FeatureId>{8d0e02bc-5b62-46bc-a62e-6d68b57c36c7}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\fonts\Roboto-Light.ttf" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap-theme.css.map" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap-theme.min.css.map" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap.css.map" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap.min.css.map" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\fonts\fontawesome-webfont.eot" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\fonts\fontawesome-webfont.woff" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\fonts\FontAwesome.otf" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d7d69dfc-fa65-425a-a875-a1fcf31008e9}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{21aaf811-9054-4426-8a3a-76ed2fba6966}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PermissionControl\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99ffee1f-c862-4f4f-bcdc-81a8523b95e1}</SharePointProjectItemId>
+    </None>
+    <None Include="SitePages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c412dda9-229e-4ca5-b666-e595716270ba}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripByExtAdminControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripByDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripCashierControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripDriverControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\BusinessTripRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\BusinessTripManagementControl\MyBusinessTripControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftByDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ChangeShiftManagementControl\ChangeShiftRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\CheckPermission.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\CommentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\FormButtonsControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\SupportingDocumentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\WorkflowHistoryControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\DelegationManagementControl\DelegationFormUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\DelegationManagementControl\DelegationListUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\VehicleOperatorControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequirementForGuestReceptionManagementControl\GuestReceptionFormUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveHistoryControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\MeetingRoomManagementControl\MeetingRoomFormUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\MeetingRoomManagementControl\MeetingRoomListUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestForDiplomaSupplyManagementControl\RequestForDiplomaSuppliesFormUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestForDiplomaSupplyManagementControl\RequestForDiplomaSuppliesListUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightByDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\MyFreightControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\FreightManagementControl\FreightSecurityGuardControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveByDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveManagementControl\LeaveSecurityGuardControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeaveOfAbsenceManagementControl\LeaveOfAbsenceRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\LeftMenu.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\MyovertimeControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeApprovalListControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeByDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\OvertimeManagementControl\OvertimeRequestManagementControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RecruitmentManagementControl\RecruitmentFormUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RecruitmentManagementControl\RecruitmentListUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestManagementControl\RequestFormUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequestManagementControl\RequestListUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\RequirementForGuestReceptionManagementControl\GuestReceptionListUserControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\MyShiftControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftApproveControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftForDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\ShiftManagement\ShiftRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\Common\TaskApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationApprovalControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationByDepartmentControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\TransportationManagementControl\TransportationRequestControl.ascx" />
+    <Content Include="CONTROLTEMPLATES\RBVH.Stada.Controls\WelcomeCommonUser.ascx" />
+    <Content Include="Features\FeatureWeb\FeatureWeb.Template.xml">
+      <DependentUpon>FeatureWeb.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\BusinessTripModule\BusinessTripRequestForm.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\calendar\minicalendar.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\Common\BaseListPage.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\GuestReceptionModule\default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\MeetingRoomModule\default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\DelegationModule\DelegationList.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\FreightModule\FreightRequestForm.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\OverviewModule\default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\peoplePicker\peoplepickercontrol.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\LeaveModule\default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\RecruitmentModule\RecruitmentModule.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\RequestModule\RequestsForm.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\collapse.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\DefaultAvatar.jpg" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\excel.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\expand.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\loading_spinner.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\bootstrap-datetimepicker\bootstrap-datetimepicker.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\bootstrap-datetimepicker\bootstrap-datetimepicker.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\bootstrap-datetimepicker\moment-with-locales.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\highchart\data.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\highchart\exporting.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\highchart\highcharts.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jQueryConfirm\jquery-confirm.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jQueryConfirm\jquery-confirm.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\images\ui-icons_444444_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\images\ui-icons_555555_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\images\ui-icons_777777_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\modernizr\modernizr.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\select2\select2.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\select2\select2.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\select2\select2.multi-checkboxes.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\IPv6.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\jquery.URI.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\jquery.URI.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\punycode.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\SecondLevelDomains.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\URI.fragmentQuery.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\URI.fragmentURI.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\URI.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\URI.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\URI\URITemplate.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\BusinessTripByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\BusinessTripRequest.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_BusinessTrip_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_BusinessTrip_ByExtAdmin.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_BusinessTrip_ByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_BusinessTrip_Cashier.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_MyBusinessTrip.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_BusinessTrip_Driver.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\BusinessTripModule\JSLink_BusinessTrip_List.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Calendar\CalendarCustomLayout.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ChangeShiftModule\ChangeShiftByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ChangeShiftModule\JSLink_ChangeShiftRequest_ByDepartment_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Common\Constant.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Common\ListBasePage.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Common\ListBasePage.v2.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Common\SupportingDocument.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\DelegationModule\DelegationForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\DelegationModule\DelegationList.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\FreightSecurityGuard.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\FreightRequest.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\JSLink_FreightRequest_VehicleOparator.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\JSLink_FreightRequest_SecurityGuard.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\JSLink_FreightRequest_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\JSLink_MyFreight_List.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\JSLink_FreightRequest_List.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\JSLink_FreightRequest_ByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\FreightModule\FreightByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\GuestReceptionModule\GuestReceptionForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\HandleCalendarView.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\HomeList\JSLink_AnnouncementForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_LeaveManagement_Form.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_LeaveHistory.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_LeaveRequest_SecurityGuard.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_LeaveRequest_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_LeaveRequest_ByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_LeaveRequest_List.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\LeaveSecurityGuard.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\LeaveHistory.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\LeaveByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\LeaveRequest.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\LeavePeoplePicker.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\MeetingRoomModule\MeetingRoomForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSlink_NewsForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NotOvertimeModule\JSLink_TaskList_NotOvertime_Department.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NotOvertimeModule\NotOvertimeByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\JSLink_OvertimeDepartments.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\MyOvertime.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\OvertimeByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OverviewModule\Overview.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\PeoplePicker\peoplepickercontrol_resources.vi.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\PeoplePicker\peoplepickercontrol_resources.en.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JsLink_LeaveApprovalTaskList_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\JSLink_MyOverTime_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\PeoplePicker\peoplepickercontrol.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\RecruitmentModule\RecruitmentForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\RequestForDiplomaSupplyModule\RequestForDiplomaSupplyForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\RequestModule\RequestForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\RequestModule\RequestList.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\JSLink_Management_Department.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\JSLink_MyShift_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\ShiftByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\ShiftPeoplePicker.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\MyShift.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\SiteTemplate\SetTitleForDepartmentSite.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TaskModule\JSLink_TaksList_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TaskModule\JSLink_TaskList_NewForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TransportationModule\JSLink_VehicleManagementForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TransportationModule\JSLink_VehicleRequest_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TransportationModule\JSLink_VehicleRequest_ByDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TransportationModule\VehicleDepartment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TaskNotification.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.ReportTemplates\XML\freighttabletemplate.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Layouts\RBVH.Stada.Intranet.ReportTemplates\XML\overtimetabletemplate.xml" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ApprovalPageBase.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\BusinessTripManagement\BusinessTripManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftApprovalDelegation.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangeShiftManagement\ChangeShiftManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\DelegationManagement\DelegationForm.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\DelegationManagement\DelegationList.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\FreightManagement\FreightManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveHistory.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceApprovalDelegation.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\MeetingRoomManagement\MeetingRoomForm.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\MeetingRoomManagement\MeetingRoomList.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestForDiplomaSupplyManagement\RequestForDiplomaSupplyForm.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestForDiplomaSupplyManagement\RequestForDiplomaSupplyList.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RequirementForGuestReceptionManagement\GuestReceptionForm.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RequirementForGuestReceptionManagement\GuestReceptionList.aspx" />
+    <Content Include="SitePages\BusinessTripRequest.aspx" />
+    <Content Include="SitePages\LeaveOfAbsenceApproval.aspx" />
+    <Content Include="SitePages\FreightRequest.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagementApprovalTask.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveManagement\LeaveManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LeaveOfAbsenceManagement\LeaveOfAbsenceManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ReAssignTask.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RecruitmentManagement\RecruitmentForm.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RecruitmentManagement\RecruitmentList.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestManagement\RequestForm.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\RequestManagement\RequestList.aspx" />
+    <Content Include="SitePages\LeaveRequest.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\MyOverTime.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\MyShiftTime.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\IdealImageSlider\ideal-default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\IdealImageSlider\ideal-image-slider.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\IdealImageSlider\normalize.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\jgallery\font-awesome.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\jgallery\jgallery.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\LoginPage\Login_form.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\main.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\OvertimeModule\default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\ShiftModule\gird-style.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\ShiftModule\default.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\css\ShiftModule\shift-request-style.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\favicon.ico" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\icon_caution.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Icon_news.jpg" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\language_flag\en.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\language_flag\vn.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Logo_STADA_small.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\bar\arrows.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\bar\bullets.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\bar\loading.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\dark\arrows.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\dark\bullets.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\dark\loading.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\default\arrows.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\default\bullets.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\default\loading.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\light\arrows.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\light\bullets.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\Nivo_imageslider\light\loading.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\images\STADA_image.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\angular\1.3.9\angular-resource.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\angular\1.3.9\angular-route.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\angular\1.3.9\angular-sanitize.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\angular\1.3.9\angular.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\bootstrap-datepicker.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\bootstrap-datepicker3.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\bootstrap-iso.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\css\bootstrap.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\css\datepicker.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\font-awesome.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\js\bootstrap-datepicker.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\js\jquery.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\DatePicker\js\prettify.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\css\bootstrap-theme.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\css\bootstrap-theme.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\css\bootstrap.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\css\bootstrap.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\js\bootstrap.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.5\js\bootstrap.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap-theme.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap-theme.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\css\bootstrap.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\js\bootstrap.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\js\bootstrap.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Bootstrap\v3.3.7\js\npm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\css\font-awesome.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\css\font-awesome.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_dots-small_65_a6a6a6_2x2.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_flat_0_333333_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_flat_55_fbec88_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_flat_65_ffffff_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_glass_55_fbf8ee_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_glass_75_d0e5f5_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_glass_85_dfeffc_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_gloss-wave_55_5c9ccc_500x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_highlight-soft_15_cc0000_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_inset-hard_100_f5f8f9_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_004276_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_217bc0_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_469bdd_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_6da8d5_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_f9bd01_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jquery-1.11.3.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jquery-ui.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jquery-ui.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jqueryUI\jquery-ui.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jquery\jqueryUI\jquery-ui.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jquery-ui.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jquery-ui.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jsgrid.cust.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jsgrid-theme.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jsgrid.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jsgrid.min.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\jsGrid\jsgrid.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\moment\moment-2.10.6.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\moment\moment.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls1\slick.columnpicker.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls1\slick.columnpicker.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls1\slick.pager.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls1\slick.pager.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls\slick.columnpicker.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls\slick.columnpicker.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls\slick.pager.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\controls\slick.pager.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\css\slick-default-theme.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\css\slick.grid.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\examples.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick-default-theme.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.core.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.dataview.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.editors.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.formatters.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.grid.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.grid.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.groupitemmetadataprovider.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.remotemodel-yahoo.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\slick.remotemodel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\actions.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ajax-loader-small.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\arrow_redo.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\arrow_right_peppermint.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\arrow_right_spearmint.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\arrow_undo.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\bullet_blue.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\bullet_star.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\bullet_toggle_minus.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\bullet_toggle_plus.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\calendar.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\collapse.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\comment_yellow.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\down.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\drag-handle.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\editor-helper-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\expand.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\header-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\header-columns-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\header-columns-over-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\help.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\info.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\listview.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\pencil.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\row-over-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\sort-asc.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\sort-asc.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\sort-desc.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\sort-desc.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\stripes.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\tag_red.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\tick.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-icons_222222_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-icons_454545_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-icons_888888_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\user_identity.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\images\user_identity_plus.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick-default-theme.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.core.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.dataview.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.dataview1.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.editors.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.formatters.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.grid.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.grid.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.groupitemmetadataprovider.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js\slick.remotemodel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\firebugx.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery-1.7.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery-ui-1.8.24.custom.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery.event.drag-2.2.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery.event.drop-2.2.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery.jsonp-2.4.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery.mousewheel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery.simulate.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\jquery.sparkline.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\qunit.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\lib\qunit.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.autotooltips.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.cellcopymanager.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.cellrangedecorator.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.cellrangeselector.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.cellselectionmodel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.checkboxselectcolumn.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.headerbuttons.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.headerbuttons.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.headermenu.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.headermenu.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.rowmovemanager.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins1\slick.rowselectionmodel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.autotooltips.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.cellcopymanager.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.cellrangedecorator.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.cellrangeselector.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.cellselectionmodel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.checkboxselectcolumn.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.headerbuttons.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.headerbuttons.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.headermenu.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.headermenu.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.rowmovemanager.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\plugins\slick.rowselectionmodel.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\actions.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ajax-loader-small.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\arrow_redo.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\arrow_right_peppermint.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\arrow_right_spearmint.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\arrow_undo.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\bullet_blue.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\bullet_star.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\bullet_toggle_minus.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\bullet_toggle_plus.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\calendar.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\collapse.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\comment_yellow.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\down.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\drag-handle.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\editor-helper-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\expand.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\header-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\header-columns-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\header-columns-over-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\help.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\info.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\listview.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\pencil.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\row-over-bg.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\sort-asc.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\sort-asc.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\sort-desc.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\sort-desc.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\stripes.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\tag_red.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\tick.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\user_identity.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\images\user_identity_plus.gif" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\smoothness\jquery-ui-1.8.24.custom.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\toaster\jquery.toaster.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\toastr\toastr-save.png" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\toastr\toastr.css" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\toastr\toastr.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\libs\twbsPagination\jquery.twbsPagination.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Calendar\JSLinkCalendar.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Calendar\JSLinkCalendar_2.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ChangeShiftModule\JSLink_ChangeShiftRequest_NewForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ChangeShiftModule\JSLink_ChangeShiftRequest_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ChangeShiftModule\JSLink_TaskList_ChangeShift_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\CommonForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Common\Utilities.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Cookies.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\DepartmentMenu.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\EmployeeInfo\JSLink_EmployeeInfo_NewForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\EmployeeInfo\ResetPasswordPage.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\HideLeftMenu.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\HomeList\JSLink_Announcement_DisplayForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\HomeList\JSLink_Announncement_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\HomeList\JsLink_Links.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\IdealImageSlider\ideal-image-slider.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\IdealImageSlider\iis-bullet-nav.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\IdealImageSlider\JsLink_IdealImageSlider.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\jgallery\jgallery.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\jgallery\touchswipe.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\jquery.SPServices-2014.02.min.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\JSLinkCommon\WorkflowTaskList\JSLink_WorkflowTaskList_DisplayForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\JSLinkCommon\WorkflowTaskList\JSLink_WorkflowTaskList_EditForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\Language_flags.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\LeaveModule\JSLink_TodayLeave.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\MenuItemActive.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSLink_InternalNews.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSLink_InternalNewsHome.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSLink_MedicalNews.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSLink_MedicalNewsHome.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSLink_ViewInternalNews.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NewsModule\JSLink_ViewMedicalNews.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NotOvertimeModule\JSLink_NotOvertimeView.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NotOvertimeModule\JSLink_TaskList_NotOvertime_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\JSLink_ApprovalView.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\NotOvertimeModule\JSLink_NotOvertimeForm.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\JSLink_Management.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\JSLink_OvertimeEmployeeDetail.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\JSLink_OvertimeEmployeeDetail_View.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\OvertimeModule\OvertimeRequest.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\pQuery.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\JSLink_ApprovalView.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\JSLink_Management.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\JSLink_ShiftTime.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\ShiftManagementPage.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\ShiftRequest.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\ShiftModule\ViewShiftManagementPage.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TopMenuItemActive.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TransportationModule\JSLink_TaskList_TransportationView_Approval.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\TransportationModule\JSLink_VehicleRequest_List.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.Branding\scripts\WelcomeComonUser.js" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ChangePassword.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\Login.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\LogOut.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\OvertimeManagement\OvertimeManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\Overview.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ResetPassword.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\SecurityLeaveManagement.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\ShiftManagement\ShiftManagementMember.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementAdmin.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementBOD.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementManager.aspx" />
+    <Content Include="Layouts\RBVH.Stada.Intranet.WebPages\TransportationManagement\TransportationManagementMember.aspx" />
+    <Content Include="PermissionControl\Elements.xml" />
+    <Content Include="SitePages\ChangeShiftApproval.aspx" />
+    <Content Include="SitePages\TransportationManagementTaskList.aspx" />
+    <Content Include="SitePages\TransportationManagement.aspx" />
+    <Content Include="SitePages\ChangeShiftManagementTaskList.aspx" />
+    <Content Include="SitePages\LeaveOfAbsenceManagementTaskList.aspx" />
+    <Content Include="SitePages\LeaveOfAbsenceManagement.aspx" />
+    <Content Include="SitePages\OvertimeApproval.aspx" />
+    <Content Include="SitePages\OvertimeApprovalList.aspx" />
+    <Content Include="SitePages\ShiftApproval.aspx" />
+    <Content Include="SitePages\ShiftApprovalList.aspx" />
+    <Content Include="SitePages\ViewOvertimeRequest.aspx" />
+    <Content Include="SitePages\OvertimeManagement.aspx" />
+    <Content Include="SitePages\OvertimeRequest.aspx" />
+    <Content Include="SitePages\ChangeShiftManagement.aspx" />
+    <Content Include="SitePages\ViewShiftManagement.aspx" />
+    <Content Include="SitePages\ShiftManagement.aspx" />
+    <Content Include="SitePages\ShiftRequest.aspx" />
+    <Content Include="SitePages\EmployeeManegement.aspx" />
+    <Content Include="SitePages\Overview.aspx" />
+    <Content Include="SitePages\News.aspx" />
+    <Content Include="SitePages\Home.aspx" />
+    <Content Include="SitePages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\RBVH.Stada.Intranet.Biz.csproj">
+      <Project>{0973A244-0020-4D1A-84F2-B1BFC7F906F9}</Project>
+      <Name>RBVH.Stada.Intranet.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreSharePoint\RBVH.Core.SharePoint.csproj">
+      <Project>{7a0211a8-a1c7-4166-b36b-5f3a8cc546e6}</Project>
+      <Name>RBVH.Core.SharePoint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Layouts\RBVH.Stada.Intranet.Branding\libs\googlechart\" />
+    <Folder Include="Layouts\RBVH.Stada.Intranet.Branding\libs\Slickgrid\js1\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

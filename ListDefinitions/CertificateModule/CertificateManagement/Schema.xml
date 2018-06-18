@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="CertificateManagement" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/CertificateManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100cf7e56a485124b49bf4e4160c876a873" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{6b3af248-4dba-43e9-a7c6-a69e2e6fc892}" Name="Requester" /><FieldRef ID="{dad07a7f-670e-4957-bd99-2433a5cdf85d}" Name="Department1" /><FieldRef ID="{1bb24f88-8ad7-4ff7-a7a7-f09d19d29347}" Name="RequestFor" /><FieldRef ID="{99ab34f8-dfc0-4f6f-bcee-ce72f89261f2}" Name="CurrentDiploma" /><FieldRef ID="{148aa6f5-de56-467d-987d-67710817b378}" Name="NewDiploma" /><FieldRef ID="{81941bab-ba9b-4c23-8b34-935a4f923c10}" Name="DailyEffective" /><FieldRef ID="{1362c29d-27eb-4334-b221-8274368878f4}" Name="NewSuggestion" /><FieldRef ID="{564a3808-53be-4924-8b9b-01c9036d4cd6}" Name="ProbationFrom" /><FieldRef ID="{cbe18588-b7e9-477f-a20f-d93c6f0b6925}" Name="ProbationTo" /><FieldRef ID="{de3dc59a-3496-4df9-bc78-e1c28a765c22}" Name="ProbationResult" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentTypeRef ID="0x0100F2F91D97C1B3400E9498BFBFEF73825D" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Requester" ID="{6b3af248-4dba-43e9-a7c6-a69e2e6fc892}" DisplayName="Requester" Type="Lookup" List="Lists/EmployeeInfo" ShowField="FullName" /><Field Name="Department1" ID="{dad07a7f-670e-4957-bd99-2433a5cdf85d}" DisplayName="Department" Type="Lookup" List="Lists/Departments" ShowField="Title" /><Field Name="RequestFor" ID="{1bb24f88-8ad7-4ff7-a7a7-f09d19d29347}" DisplayName="RequestFor" Type="Lookup" List="Lists/EmployeeInfo" ShowField="FullName" /><Field Name="CurrentDiploma" ID="{99ab34f8-dfc0-4f6f-bcee-ce72f89261f2}" DisplayName="CurrentDiploma" Type="LookupMulti" List="Lists/CurrentCertificate" ShowField="Title" Mult="TRUE" /><Field Name="NewDiploma" ID="{148aa6f5-de56-467d-987d-67710817b378}" DisplayName="NewDiploma" Type="LookupMulti" List="Lists/NewCertificate" ShowField="Title" Mult="TRUE" /><Field Name="DailyEffective" ID="{81941bab-ba9b-4c23-8b34-935a4f923c10}" DisplayName="DailyEffective" Type="Note" /><Field Name="NewSuggestion" ID="{1362c29d-27eb-4334-b221-8274368878f4}" DisplayName="NewSuggestion" Type="Note" /><Field Name="ProbationFrom" ID="{564a3808-53be-4924-8b9b-01c9036d4cd6}" DisplayName="ProbationFrom" Type="DateTime" Format="DateOnly" /><Field Name="ProbationTo" ID="{cbe18588-b7e9-477f-a20f-d93c6f0b6925}" DisplayName="ProbationTo" Type="DateTime" Format="DateOnly" /><Field Name="ProbationResult" ID="{de3dc59a-3496-4df9-bc78-e1c28a765c22}" DisplayName="ProbationResult" Type="Note" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Requester" /><FieldRef Name="Department1" /><FieldRef Name="RequestFor" /><FieldRef Name="CurrentDiploma" /><FieldRef Name="NewDiploma" /><FieldRef Name="DailyEffective" /><FieldRef Name="NewSuggestion" /><FieldRef Name="ProbationFrom" /><FieldRef Name="ProbationTo" /><FieldRef Name="ProbationResult" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

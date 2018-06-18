@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{fc93acaa-59d5-49ef-9ab6-83cd8e4457e5}"
+       Name="UpperDepartment"
+       DisplayName="Upper Department"
+       Type="Lookup" List="Lists/Departments" ShowField="CommonName"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

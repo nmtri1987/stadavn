@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{6da5d39c-9670-4612-9220-03808a292946}"
+       Name="TransferworkTo"
+       DisplayName="Transferwork To"
+       Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

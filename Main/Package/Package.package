@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e355b7a3-e588-4a85-8183-806f0ae40643" solutionId="e355b7a3-e588-4a85-8183-806f0ae40643" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.Main" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="RBVH.Core.SharePoint.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\CoreSharePoint\RBVH.Core.SharePoint.csproj" />
+    <projectOutputAssembly location="RBVH.Stada.Intranet.Biz.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Commons\RBVH.Stada.Intranet.Biz.csproj" />
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\packages\iTextSharp.5.5.11\lib\itextsharp.dll" />
+    <customAssembly location="DocumentFormat.OpenXml.dll" deploymentTarget="WebApplication" sourcePath="..\packages\OpenXMLSDK-MOT.2.7.1\lib\net45\DocumentFormat.OpenXml.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="70e2df39-0ac8-4345-921a-218dea52f02d" projectPath="..\SiteColumns\RBVH.Stada.Intranet.SiteColumns.csproj" />
+    <featureReference itemId="25ef0a28-7a3b-4aed-b828-4db1a56d6327" projectPath="..\ContentTypes\RBVH.Stada.Intranet.ContentTypes.csproj" />
+    <featureReference itemId="a656db57-db9f-40ba-b0b9-ec8d31a092fd" projectPath="..\ListDefinitions\RBVH.Stada.Intranet.ListDefinitions.csproj" />
+    <featureReference itemId="822a54fe-d2b5-44f3-a25f-98556a3dc284" projectPath="..\ListDefinitions\RBVH.Stada.Intranet.ListDefinitions.csproj" />
+    <featureReference itemId="d1158145-aa6a-4feb-a39f-900054acd2f2" projectPath="..\ListDefinitions\RBVH.Stada.Intranet.ListDefinitions.csproj" />
+    <featureReference itemId="8d0e02bc-5b62-46bc-a62e-6d68b57c36c7" projectPath="..\WebPages\RBVH.Stada.Intranet.WebPages.csproj" />
+    <featureReference itemId="7bc2dbbc-1ee9-4895-a094-a78f6f1e558f" projectPath="..\Resources\RBVH.Stada.Intranet.Resources.csproj" />
+    <featureReference itemId="83d19896-61ab-4dca-9f9a-4412a1479a81" projectPath="..\Branding\RBVH.Stada.Intranet.Branding.csproj" />
+    <featureReference itemId="8828255e-5abb-4f62-9769-8e44d2a8b8fd" projectPath="..\Branding\RBVH.Stada.Intranet.Branding.csproj" />
+    <featureReference itemId="0fb560c3-9b48-43de-8eef-301e4b732faf" projectPath="..\ListEventReceiver\RBVH.Stada.Intranet.ListEventReceiver.csproj" />
+    <featureReference itemId="7aea3052-aef5-480c-84b2-6ce9b3dc9374" projectPath="..\SiteTemplate\RBVH.Stada.Intranet.SiteTemplate.csproj" />
+    <featureReference itemId="eab2dd5e-aff2-419a-ae27-3960020c2e92" projectPath="..\SiteTemplate\RBVH.Stada.Intranet.SiteTemplate.csproj" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="d7d69dfc-fa65-425a-a875-a1fcf31008e9" projectPath="..\WebPages\RBVH.Stada.Intranet.WebPages.csproj" />
+    <projectItemReference itemId="7ba279ac-2744-4ae2-92bc-40206f6f6bc6" projectPath="..\Resources\RBVH.Stada.Intranet.Resources.csproj" />
+    <projectItemReference itemId="8682dfdd-f78e-4b9f-846b-4fea0356ee9a" projectPath="..\WebPages\RBVH.Stada.Intranet.WebPages.csproj" />
+    <projectItemReference itemId="481db74a-5ce7-4018-a31d-95ea0852ab48" projectPath="..\Webservices\RBVH.Stada.Intranet.Webservices.csproj" />
+    <projectItemReference itemId="4725f60f-a8ef-4959-8894-883fd5433884" projectPath="..\SiteTemplate\RBVH.Stada.Intranet.SiteTemplate.csproj" />
+  </projectItems>
+</package>

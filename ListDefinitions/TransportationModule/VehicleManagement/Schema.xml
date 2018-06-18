@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="VehicleManagement" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/VehicleManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x010082E089E14651466B88E738D1D3CEB541"
+                   Name="VehicleManagement"
+                   Group="Stada Content Types"
+                   Description="My Content Type"
+                   Inherits="FALSE"
+                   Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" Required="TRUE" />
+          <FieldRef ID="{46108902-2e7a-4e86-816d-0145e8e2fc3a}" Name="VehicleType" Required="TRUE" />
+          <FieldRef ID="{cf75cef9-4a71-48c3-a3af-9364399ee5fb}" Name="CommonFrom" Required="TRUE" />
+          <FieldRef ID="{17d909e0-78dc-4a8e-b979-55ee93672c8c}" Name="To" Required="TRUE" />
+          <FieldRef ID="{2c0fb35f-388b-4c7b-8dfd-ff1cb4d177c0}" Name="Reason" NumLines="6" Required="FALSE" />
+          <FieldRef ID="{7ffddd76-035f-4ea7-9511-5a859b0f47d3}" Name="CompanyPickup" Required="FALSE" />
+          <FieldRef ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" Required="FALSE" />
+          <FieldRef ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="CommonApprover2" Required="FALSE" />
+          <FieldRef ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" Required="FALSE" />
+          <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" Required="TRUE" />
+          <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" Required="FALSE" />
+          <FieldRef ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}" Name="CommonComment" Required="FALSE" />
+          <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" Required="FALSE" />
+          <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" Required="FALSE" />
+          <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" Required="FALSE" />
+          <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" Required="FALSE" />
+          <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" Required="FALSE" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,NotOverTimeManagement_DepartmentName;"></Field>
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,ShiftManagement_Location;" Type="Lookup" List="Lists/Factories" ShowField="CommonName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_Requester" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{46108902-2e7a-4e86-816d-0145e8e2fc3a}" Name="VehicleType" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_VehicleType;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons" >
+        <Default>$Resources:RBVHStadaLists,VehicleManagement_VehicleType_Choice_Private;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,VehicleManagement_VehicleType_Choice_Private;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,VehicleManagement_VehicleType_Choice_Company;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{cf75cef9-4a71-48c3-a3af-9364399ee5fb}" Name="CommonFrom" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_CommonFrom" Type="DateTime" Required="TRUE" Group="Stada Columns">
+        <Default>[today]</Default>
+      </Field>
+      <Field ID="{17d909e0-78dc-4a8e-b979-55ee93672c8c}" Name="To" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_CommonTo" Type="DateTime" Required="TRUE" Group="Stada Columns">
+        <Validation Message="$Resources:RBVHStadaLists,VehicleManagement_ToDateValidationMessage;">=To&gt;=CommonFrom</Validation>
+        <Default>[today]</Default>
+      </Field>
+      <Field ID="{2c0fb35f-388b-4c7b-8dfd-ff1cb4d177c0}" Name="Reason" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_Reason" Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{7ffddd76-035f-4ea7-9511-5a859b0f47d3}" Name="CompanyPickup" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_CompanyPickup" Type="Lookup" List="Lists/CompanyVehicles" ShowField="Place" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_ApprovalStatus" Type="Text" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="CommonApprover2" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_BOD" Type="User" Required="TRUE" Group="Custom Site Columns" />
+      <Field ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" DisplayName="$Resources:RBVHStadaLists,VehicleManagement_HOD" Type="User" Required="TRUE" Group="Custom Site Columns" />
+      <Field ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}"  Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns" DisplayName="$Resources:RBVHStadaLists,CommonComment;"  Name="CommonComment" ></Field>
+      <Field ID="{ac566d89-8a25-4d1f-842d-20c30ad09d33}" Name="ColForSort" StaticName="ColForSort" DisplayName="$Resources:RBVHStadaLists,Common_ColForSort;" Type="Calculated" Required="FALSE" ResultType="Number" ReadOnly="TRUE" Decimals="0">
+        <Formula>=IF(ApprovalStatus="Approved",INT("7"),IF(ApprovalStatus="Rejected",INT("8"),IF(ApprovalStatus="Cancelled",INT("9"),INT("0"))))</Formula>
+        <FormulaDisplayNames>=IF([Approval Status]="Approved",INT("7"),IF([Approval Status]="Rejected",INT("8"),IF([Approval Status]="Cancelled",INT("9"),INT("0"))))</FormulaDisplayNames>
+        <FieldRefs>
+          <FieldRef Name="ApprovalStatus" />
+        </FieldRefs>
+      </Field>
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" DisplayName="$Resources:RBVHStadaLists,Common_LastRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" DisplayName="$Resources:RBVHStadaLists,Common_NextRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" DisplayName="$Resources:RBVHStadaLists,Common_RemindedAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" DisplayName="$Resources:RBVHStadaLists,Common_MaxRemindAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="LinkTitle"/>-->
+          <FieldRef Name="Requester"/>
+          <FieldRef Name="VehicleType"/>
+          <FieldRef Name="CommonFrom" />
+          <FieldRef Name="To"/>
+          <FieldRef Name="Reason"/>
+          <FieldRef Name="CompanyPickup"/>
+          <FieldRef Name="ApprovalStatus"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonComment"/>
+          <FieldRef Name="CommonDepartment"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="2" Type="HTML" WebPartZoneID="Main" DisplayName="Transpotation Management View 2"  SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="TranspotationManagementView2.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="LinkTitle"/>-->
+          <FieldRef Name="Requester"/>
+          <FieldRef Name="VehicleType"/>
+          <FieldRef Name="CommonFrom"/>
+          <FieldRef Name="To"/>
+          <FieldRef Name="Reason" />
+          <FieldRef Name="CompanyPickup"/>
+          <FieldRef Name="ApprovalStatus"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonComment"/>
+          <FieldRef Name="CommonDepartment" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="Transpotation Management View 3" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="TranspotationManagementView3.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="LinkTitle"/>-->
+          <FieldRef Name="Requester"/>
+          <FieldRef Name="VehicleType"/>
+          <FieldRef Name="CommonFrom"/>
+          <FieldRef Name="To"/>
+          <FieldRef Name="Reason"/>
+          <FieldRef Name="CompanyPickup"/>
+          <FieldRef Name="ApprovalStatus"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonComment"/>
+          <FieldRef Name="CommonDepartment"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Template="CSRListForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TransportationModule/JSLink_VehicleManagementForm.js?v=1.2"/>
+      <Form Type="EditForm" Template="CSRListForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main"  JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TransportationModule/JSLink_VehicleManagementForm.js?v=1.2"/>
+      <Form Type="NewForm" Template="CSRListForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/TransportationModule/JSLink_VehicleManagementForm.js?v=1.2"/>
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,456 @@
+body {
+    font-size: 13px;
+    /*background-color:#e6f5ff ;*/
+}
+
+.ms-ButtonHeightWidth {
+    background-color: #45a14d !important;
+    color:white !important;
+   font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif !important;
+   font-size: 12px !important;
+}
+/**
+    Custom Master CSS #s4-titlerow  / #searchInputBox
+*/
+#s4-titlerow {
+    padding-top: 0px;
+}
+
+#searchInputBox {
+    padding-top: 10px;
+}
+/* Hide top navigation */
+.ms-breadcrumb-top {
+    display: none;
+}
+/* fix box-sizing - site bar and ribbon */
+#suiteBar, div[id="suiteBar"] * {
+    box-sizing: content-box !important;
+}
+
+#RibbonContainer, div[id="RibbonContainer"] * {
+    box-sizing: content-box !important;
+}
+
+/* Fix list item popup */
+.ms-dlgTitleBtns {
+    width: 34px;
+}
+
+/*-----------------------------*/
+/** Custom bootstrap navigation */
+.navbar-custom {
+    border-top-color: #005dbd !important;
+    border-top-width: 2px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #005dbd;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #555;
+        /*color: #7fa516;*/
+        background-color: #e7e7e7;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+/** Dropdown menu*/
+.dropdown-menu {
+    font-size: 13px;
+}
+
+/* Dropdown submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu > .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-submenu > a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #ccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+
+    .dropdown-submenu:hover > a:after {
+        border-left-color: #fff;
+    }
+
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+        .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+
+.menu-custom {
+    z-index: 1;
+    position: relative;
+}
+
+/*Employee Managemnt Page */
+.employee-management-btn-add-new {
+    border-radius: 1px;
+    color: white;
+    font-weight: bold;
+    background-color: #4AAE52;
+    float: right;
+}
+
+/*Policies - Wiki page - Remove Update Pages*/
+.ms-quicklaunchouter {
+    display: none;
+}
+
+/**Leave Managemt Page*/
+.leave-management-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    margin-left: 0px !important;
+}
+
+.shift-request-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    float: right;
+}
+
+
+.add-new-shift-request-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    margin-left: 0px !important;
+    font-size: inherit;
+}
+
+
+.add-new-change-shift-request-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+}
+
+
+btn-left {
+    float: left !important;
+}
+
+/*/*border for left menu*/
+/*.ms-core-sideNavBox-removeLeftMargin
+{
+    border: solid 1px #e6e0e0
+}*/
+
+/*Common button color*/
+.button-success
+{
+    background-color: #4AAE52 !important;
+    color: white !important;
+}
+
+ 
+.button-success:hover {
+   background-color: #70c277!important;
+   color: white;
+}
+
+.button-primary
+{
+    color: white;
+    background-color: #337ab7;
+}
+
+.button-primary:hover
+{
+    color: white;
+    background-color: #4c91cd !important;
+}
+/**Confirm pop-up**/
+
+.ui-corner-all {
+    border-top-right-radius: 1px !important;
+    border-bottom-right-radius: 1px !important;
+    border-top-left-radius: 1px !important;
+    border-bottom-left-radius: 1px !important;
+}
+
+.slick-cell {
+    z-index: 0 !important;
+}
+
+
+.ms-tl-timescale {
+    z-index: 0 !important;
+}
+
+.ms-tl-todayLabel {
+    z-index: 0 !important;
+}
+
+.ms-tl-today {
+    z-index: 0 !important;
+}
+
+.ms-cui-img-cont-float {
+    z-index: 0 !important;
+}
+
+
+.ms-promlink-button {
+    /* display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-width: 1px;
+    border-style: solid;*/
+    padding: 0px !important;
+}
+
+/* Fix Search */
+.ms-inlineSearch-searchImgSpanBase {
+    margin: -2px 0px 0px -1px !important;
+}
+
+/* Fix Calendar */
+.divCalendarUL {
+    min-width: 150px;
+}
+
+/*JSLINK STYLE*/
+.span_createdate_news {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #dba70a;
+    font-weight: normal;
+}
+
+.img-thumbnail-custom {
+    border-radius: 1px;
+}
+
+.list-group-item-custom {
+    margin-bottom: 5px !important;
+}
+
+.container-custom {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.list-group-item-announ {
+    border-radius: 4px;
+    margin-bottom: 10px !important;
+    /*background: #e6f3ff;*/
+    /*background: #f2f2f2;*/
+    background: #D9E2F3;
+    margin-right: 20px !important;
+    padding-left: 10px;
+}
+
+.ms-webpart-zone {
+    background-color: white !important;
+}
+
+.ContentDiv {
+    /*background-color: #f5f5f5!important;*/
+    padding-bottom: 0px;
+    position: fixed;
+}
+
+.navbar-nav {
+    font-size: 15px !important;
+    /*font-weight: bold;*/
+}
+
+.ms-core-pageTitle {
+    color: #f72431;
+    font-weight: bold;
+}
+
+    .ms-core-pageTitle > span > span > span > a, .ms-core-pageTitle > span > a {
+        color: #f72431;
+        font-weight: bold;
+    }
+
+.btn-quick-approve {
+    border: 1px solid #ababab;
+    border-radius: 2px;
+    color: white;
+    margin-right: 10px;
+    background-color: #4AAE52 !important;
+}
+
+.btn-quick-reject {
+    border-radius: 2px;
+    border: 1px solid #ababab;
+    color: white;
+}
+
+/*Calendar*/
+ul.divCalendarUL {
+    font-size: 12px;
+}
+
+.eventPopUpDiv {
+    Z-INDEX: 9002;
+    PADDING-RIGHT: 10px;
+    POSITION: absolute;
+    /*box-shadow: 2px 2px rgb(255, 242, 204);*/
+    /*BACKGROUND-COLOR: rgb(255, 242, 204);
+    border-color: rgb(191, 143, 0);*/
+    /*BACKGROUND-COLOR: rgb(222, 234, 246);
+    border-color: rgb(31, 78, 121);*/
+    BACKGROUND-COLOR: rgb(252, 253, 253);
+    border-color: rgb(166, 201, 226);
+    color: rgb(46, 110, 158);
+    min-width : 200px;
+}
+
+.CalendarLI {
+    MARGIN-LEFT: -23px;
+    FONT-WEIGHT: normal;
+}
+
+.divCalendarLI {
+    MARGIN-LEFT: -23px;
+}
+
+.calHead {
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px;
+    FONT-SIZE: 10pt !important;
+    FONT-WEIGHT: bold !important;
+}
+
+.anchCalLi {
+    TEXT-ALIGN: left !important;
+}
+
+    .anchCalLi:hover {
+        BORDER-RIGHT-WIDTH: 0px;
+        BACKGROUND: none transparent scroll repeat 0% 0%;
+        BORDER-TOP-WIDTH: 0px;
+        BORDER-BOTTOM-WIDTH: 0px;
+        BORDER-LEFT-WIDTH: 0px;
+        FONT-WEIGHT: normal !important;
+    }
+
+    .anchCalLi:visited {
+        text-decoration: none;
+        color: rgb(0, 114, 188) !important;
+    }
+
+.ui-state-default:visited {
+    text-decoration: none;
+    color: rgb(0, 114, 188) !important;
+}
+
+/*Layout*/
+div.required label.control-label:after {
+    content: " *";
+    color: red;
+}
+
+/*Modal CSS*/
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+    .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.cancel-link:hover
+{
+  text-decoration:underline;
+}
+
+.cancel-link { 
+  outline: none;
+  padding: 5px; 
+  border: 0px; 
+  color:#069;
+  background-color: transparent !important; 
+  cursor:pointer;
+  padding-left: 0px;
+}
+
+#welcomeCommonMenuBox {
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+}
+
+
+/*Shift Page*/
+.shift-calendar {
+    border-radius: 1px !important; 
+    width: 250px; 
+    cursor: pointer;
+    background-color: white;
+}
+
+.shift-delete-btn {
+    float: right; 
+    min-width: 0px !important;
+    background-color: #d9534f !important;
+}
+
+.shift-cancel-btn {
+    margin-right: 10px! important;
+    font-weight: normal!important;
+}

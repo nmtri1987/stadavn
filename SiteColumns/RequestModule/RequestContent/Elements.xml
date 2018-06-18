@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{618ad8df-ec43-468a-8389-18d37a8332d9}"
+       Name="RequestContent"
+       DisplayName="Request Content"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

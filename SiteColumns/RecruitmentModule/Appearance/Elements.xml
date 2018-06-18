@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5ceb8e29-964f-4ade-a746-6c865f7cf68e}"
+       Name="Appearance"
+       DisplayName="Appearance"
+       Type="Choice"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010052A62B10446B496CB920972038A6B81A"
+               Name="$Resources:RBVHStadaLists,RequestRepairDetailsList_ContentTypeTitle"
+               Group="RBVH Content Types"
+               Description="RequestRepairDetailsList_ContentTypeDescription"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{618ad8df-ec43-468a-8389-18d37a8332d9}" DisplayName="Content" Required="TRUE" Name="RequestContent" />
+      <FieldRef ID="{2c0fb35f-388b-4c7b-8dfd-ff1cb4d177c0}" DisplayName="Reason" Required="TRUE" Name="Reason" />
+      <FieldRef ID="{1bb368a4-fb2b-4c7f-ab9a-04c5d5eb72f0}" DisplayName="Place" Required="TRUE" Name="Place" />
+      <FieldRef ID="{c704128b-fa76-4e41-853b-331975beacd4}" Name="CommonFrom"  DisplayName="From" />
+      <FieldRef ID="{5c932bdc-9816-4c51-9f16-6812b05fb998}" DisplayName="To" Required="TRUE" Name="To" />
+      <FieldRef ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" DisplayName="Request" Required="TRUE" Name="Request" />
+      <FieldRef ID="{183a3f78-4e28-4de5-9127-5d71e33e16a2}" DisplayName="Temp Id" Required="TRUE" Name="TempId" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

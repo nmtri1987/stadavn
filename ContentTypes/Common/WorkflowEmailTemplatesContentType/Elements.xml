@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100ED5F1C942553406991D6484721E7F648" Name="WorkflowEmailTemplatesContentType" Group="Custom Content Types" Description="My Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{9c9289e9-16a0-43bf-abf7-95b64b5e5aab}" Name="Key" DisplayName="Key" />
+      <FieldRef ID="{4e8922ea-f305-4567-822c-cbba86b72c3e}" Name="ListName" DisplayName="List Name" />
+      <FieldRef ID="{a062e9aa-7231-4c17-9cd6-438bcbb86f68}" Name="Action" DisplayName="Action" />
+      <FieldRef ID="{76A81629-44D4-4ce1-8D4D-6D7EBCD885FC}" DisplayName="$Resources:core,Subject;" Name="Subject" Sealed="TRUE" ShowInFileDlg="FALSE" />
+      <FieldRef ID="{dc9da24f-20b6-4201-9309-3a6b2d34d5aa}" DisplayName="Description" Required="FALSE" Name="Description" Sealed="TRUE" />
+      <FieldRef ID="{554cb3b0-277d-43ef-a09a-d223a1567232}" DisplayName="Body" Required="FALSE" Name="NewsBody" NumLines="6" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

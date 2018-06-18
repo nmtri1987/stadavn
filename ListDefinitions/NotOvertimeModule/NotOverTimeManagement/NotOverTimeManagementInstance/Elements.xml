@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,NotOverTimeManagement_ListTitle;" OnQuickLaunch="TRUE" TemplateType="10007" Url="Lists/NotOverTimeManagement" Description="$Resources:RBVHStadaLists,NotOverTimeManagement_ListDescription;"></ListInstance>
+</Elements>

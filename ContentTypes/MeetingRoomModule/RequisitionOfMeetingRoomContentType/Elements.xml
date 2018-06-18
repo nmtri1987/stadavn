@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Event (0x0102) -->
+  <ContentType ID="0x0102003AE39D680B104AA3A5017BEF29E055F8"
+               Name="RequisitionOfMeetingRoomContentType"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{de2c4d8f-b7d3-46b6-bc8f-30a97422fbaf}" DisplayName="Discussion Meeting" Required="TRUE" Name="DiscussionMeeting" />
+      <FieldRef ID="{a3b5d06c-52df-439d-bb7c-51533a6618ff}" DisplayName="Participation" Required="TRUE" Name="Participation" />
+      <FieldRef ID="{90180452-1f23-43ae-9387-ae28ee3410d3}" DisplayName="Location" Required="TRUE" Name="MeetingRoomLocation" />
+      <FieldRef ID="{feaf487e-2313-413d-953e-3d2d361be795}" DisplayName="Equipment" Required="TRUE" Name="Equipment" />
+      <FieldRef ID="{d2b585d2-5147-4092-9896-2b3f2ae352d0}" DisplayName="Equipment VN" Required="TRUE" Name="EquipmentVN" />
+      <FieldRef ID="{3f47770f-f268-4bdf-b2c1-8838fa9e6c09}" DisplayName="Seats" Required="TRUE" Name="Seats" />
+      <FieldRef ID="{d65baca6-bd66-4ad7-8231-6bb80e97fdb8}" DisplayName="Others" Required="TRUE" Name="Others" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <Display>_layouts/15/RBVH.Stada.Intranet.WebPages/MeetingRoomManagement/MeetingRoomForm.aspx?mode=display</Display>
+          <Edit>_layouts/15/RBVH.Stada.Intranet.WebPages/MeetingRoomManagement/MeetingRoomForm.aspx?mode=edit</Edit>
+          <New>_layouts/15/RBVH.Stada.Intranet.WebPages/MeetingRoomManagement/MeetingRoomForm.aspx?mode=new</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

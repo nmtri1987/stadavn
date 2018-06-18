@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{92a37c96-fa1c-424e-990e-c1137ac91bfd}"
+       Name="GuestReceptionDate"
+       DisplayName="Guest Reception Date"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

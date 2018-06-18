@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Title="Department Site" Revision="2" ListDir="" xmlns:ows="Microsoft SharePoint" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <NavBars>
+  </NavBars>
+  <Configurations>
+    <Configuration ID="0" Name="DepartmentSite" MasterUrl="../_catalogs/masterpage/stada.master" >
+      <Lists/>
+      <SiteFeatures>
+      </SiteFeatures>
+      <WebFeatures>
+        <Feature  ID="b4ca1a7a-6e0b-4776-92f2-a2018605ff08" Name="Lists of Department"></Feature>
+        <Feature  ID="1A6925A5-AF92-449B-8C6C-DD16C54A498E"></Feature>
+      </WebFeatures>
+      <Modules>
+      </Modules>
+    </Configuration>
+  </Configurations>
+  <Modules>
+    <Module Name="SitePages" Url="SitePages" Path="SitePages\Home.aspx">
+      <File Url="Home.aspx" NavBarHome="True" Type="Ghostable">
+      </File>
+    </Module>
+    <Module Name="MasterPage" List="116" Url="_catalogs/masterpage" RootWebOnly="FALSE">
+      <File Url="stada.master" Type="GhostableInLibrary" IgnoreIfAlreadyExists="TRUE" />
+    </Module>
+  </Modules>
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0228a267-993a-4f83-a7a3-beffc8956788}"
+       Name="CancelLink"
+       DisplayName="Cancel Link"
+       Type="Link"
+       Required="FALSE"
+       Format="Hyperlink"
+       Group="Stada Columns">
+  </Field>
+</Elements>

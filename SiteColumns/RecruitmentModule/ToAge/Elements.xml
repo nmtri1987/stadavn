@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cc40ecb1-630d-4800-8cbc-7fbe415d4e57}"
+       Name="ToAge"
+       DisplayName="To Age"
+       Type="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cc2d235c-8d31-4bfc-a356-640bcb7df5aa}"
+       Name="WorkingHours"
+       DisplayName="Working Hours"
+       Type="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+    <Validation Message="0 &lt;= Working Hours &gt; 24">=AND(WorkingHours&gt;=0, WorkingHours&lt;24)</Validation>
+  </Field>
+</Elements>

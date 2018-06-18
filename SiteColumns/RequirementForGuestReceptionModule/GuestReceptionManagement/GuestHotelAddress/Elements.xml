@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ccbd72e8-0569-48ea-b43f-fb4c8af37619}"
+       Name="GuestHotelAddress"
+       DisplayName="Hotel Address"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

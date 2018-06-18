@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SitePages" Url="SitePages">
+    <File Path="SitePages\Home.aspx" Url="Home.aspx"  Type="GhostableInLibrary" ReplaceContent="FALSE" >
+      <View BaseViewID="1" WebPartZoneID="Row1" List="Lists/CompanyAnnouncements"></View>
+      <View BaseViewID="1" WebPartZoneID="Row2" List="Lists/CompanyDocuments"></View>
+      <!--<View BaseViewID="5"  WebPartZoneID="Row_right"  List="Lists/CompanyCalendar"  Type="CALENDAR"   Name="Mini" ReadOnly="TRUE"  ></View>
+      <View BaseViewID="5"  WebPartZoneID="Row1_right"  List="Lists/CompanyCalendar2"  Type="CALENDAR"  Name="Mini" ReadOnly="TRUE" ></View>-->
+      <View BaseViewID="1" WebPartZoneID="LinkID" List="Lists/Links" WebPartOrder="3" ></View>
+      <!--<View BaseViewID="3" WebPartZoneID="DiscussionID" List="Lists/CompanyDiscussion" ></View>-->
+    </File>
+    <File Path="SitePages\News.aspx" Url="News.aspx" Type="GhostableInLibrary" ReplaceContent="FALSE">
+      <View BaseViewID="1" WebPartZoneID="Row1" List="Lists/InternalNews"></View>
+      <View BaseViewID="1" WebPartZoneID="Row1_right" List="Lists/MedicalNews" ></View>
+      <View BaseViewID="4" WebPartZoneID="Row2" List="Lists/Pictures" ></View>
+    </File>
+    <File Path="SitePages\Overview.aspx" Url="Overview.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\EmployeeManegement.aspx" Url="EmployeeManegement.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE">
+      <View BaseViewID="1" WebPartZoneID="Row1" List="Lists/EmployeeInfo"></View>
+    </File>
+    <File Path="SitePages\ShiftManagement.aspx" Url="ShiftManagement.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\ShiftRequest.aspx" Url="ShiftRequest.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\ViewShiftManagement.aspx" Url="ViewShiftManagement.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\ChangeShiftManagement.aspx" Url="ChangeShiftManagement.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\ChangeShiftManagementTaskList.aspx" Url="ChangeShiftManagementTaskList.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\OvertimeRequest.aspx" Url="OvertimeRequest.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\OvertimeManagement.aspx" Url="OvertimeManagement.aspx"  Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\ViewOvertimeRequest.aspx" Url="ViewOvertimeRequest.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\ShiftApprovalList.aspx" Url="ShiftApprovalList.aspx"  Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\OvertimeApprovalList.aspx" Url="OvertimeApprovalList.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\OvertimeApproval.aspx" Url="OvertimeApproval.aspx"  Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\ShiftApproval.aspx" Url="ShiftApproval.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\LeaveOfAbsenceManagement.aspx" Url="LeaveOfAbsenceManagement.aspx"  Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\LeaveOfAbsenceManagementTaskList.aspx" Url="LeaveOfAbsenceManagementTaskList.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\TransportationManagement.aspx" Url="TransportationManagement.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\TransportationManagementTaskList.aspx" Url="TransportationManagementTaskList.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\LeaveRequest.aspx" Url="LeaveRequest.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="SitePages\FreightRequest.aspx" Url="FreightRequest.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\BusinessTripRequest.aspx" Url="BusinessTripRequest.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\ChangeShiftApproval.aspx" Url="ChangeShiftApproval.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+    <File Path="SitePages\LeaveOfAbsenceApproval.aspx" Url="LeaveOfAbsenceApproval.aspx" Type="GhostableInLibrary" ReplaceContent="TRUE"/>
+  </Module>
+</Elements>

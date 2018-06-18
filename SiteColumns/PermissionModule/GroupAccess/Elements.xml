@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{7ccbe600-514b-49f6-9e7f-b98554119b84}"
+       Name="GroupAccess"
+       DisplayName="Group Access"
+       Type="LookupMulti" Mult="TRUE" List="Lists/Groups" ShowField="CommonName"
+       Required="FALSE"
+       Group="Stada Columns" >
+  </Field>
+</Elements>

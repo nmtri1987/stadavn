@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{02c4c0d3-0854-48c2-bbbf-0db598e3d13e}"
+       Name="GuestScheduleTo"
+       DisplayName="Guest Schedule To"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

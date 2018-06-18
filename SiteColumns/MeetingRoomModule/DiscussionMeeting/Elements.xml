@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{de2c4d8f-b7d3-46b6-bc8f-30a97422fbaf}"
+       Name="DiscussionMeeting"
+       DisplayName="Discussion Meeting"
+       Type="Note"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

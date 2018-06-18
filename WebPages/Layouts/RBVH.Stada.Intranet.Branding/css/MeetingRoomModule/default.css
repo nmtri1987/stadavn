@@ -1,0 +1,28 @@
+﻿.ms-h2 {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+hr {
+    margin-top: 0px;
+    border: solid 1px #d0d4db;
+
+}
+
+.ms-dttimeinput select {
+    padding: 3px !important;
+    width: 50px;
+}
+
+td.ms-dtinput input[type="text"] {
+    width: 100px;
+}
+
+table.wrap-item label{
+    white-space: normal;
+    width: 90%;
+}
+
+.meeting-room-container span.wrap {
+    white-space: normal;
+}

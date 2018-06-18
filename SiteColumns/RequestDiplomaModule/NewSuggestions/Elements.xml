@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c7223c34-a9ff-4693-80e7-200289137aa1}"
+       Name="NewSuggestions"
+       DisplayName="New Suggestions"
+       Type="Note" NumLines="6"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

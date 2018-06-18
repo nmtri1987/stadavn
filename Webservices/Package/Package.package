@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1fdbe9b8-01cb-40f8-aa4d-1f2362b68768" solutionId="1fdbe9b8-01cb-40f8-aa4d-1f2362b68768" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.Webservices" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="DocumentFormat.OpenXml.dll" deploymentTarget="WebApplication" sourcePath="..\packages\OpenXMLSDK-MOT.2.7.1\lib\net45\DocumentFormat.OpenXml.dll" />
+    <projectOutputAssembly location="RBVH.Core.SharePoint.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\CoreSharePoint\RBVH.Core.SharePoint.csproj" />
+    <projectOutputAssembly location="RBVH.Stada.Intranet.Biz.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Commons\RBVH.Stada.Intranet.Biz.csproj" />
+  </assemblies>
+  <projectItems>
+    <projectItemReference itemId="481db74a-5ce7-4018-a31d-95ea0852ab48" />
+  </projectItems>
+</package>

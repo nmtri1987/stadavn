@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Id="{0938F80B-EA66-4E8A-B771-66514104DD71}" FeatureId="{f9ce21f8-f437-4f7e-8bc6-946378c850f0}" TemplateType="171" Title="Workflow Task List" Description="This list instance is used for workflow Task items." Url="Lists/WorkflowTaskList" RootWebOnly="FALSE" />
+  <ContentTypeBinding ListUrl="Lists/WorkflowTaskList" RootWebOnly="FALSE" ContentTypeId="0x0108003365C4474CAE8C42BCE396314E88E51F" />
+</Elements>

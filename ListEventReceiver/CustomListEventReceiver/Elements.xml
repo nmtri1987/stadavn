@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Requests List -->
+  <Receivers ListTemplateId="10131">
+      <Receiver>
+        <Name>CustomListEventReceiverItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>CustomListEventReceiverItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+  <!-- Recruitments List -->
+  <Receivers ListTemplateId="14051">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <!-- RequestForDiplomaSupplies List -->
+  <Receivers ListTemplateId="14061">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <!--ShiftManagement List-->
+  <Receivers ListTemplateId="10010">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <!--ChangeShiftManagement List-->
+  <Receivers ListTemplateId="10011">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <!--OverTimeManagement List-->
+  <Receivers ListTemplateId="10006">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <!--NotOverTimeManagement List-->
+  <Receivers ListTemplateId="10007">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+    </Receiver>
+  </Receivers>
+  <!--VehicleManagement List-->
+  <Receivers ListTemplateId="10013">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10001</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+  </Receivers>
+  <!--LeaveManagement List-->
+  <Receivers ListTemplateId="10004">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+  </Receivers>
+  <!--FreightManagement List-->
+  <Receivers ListTemplateId="10015">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+  </Receivers>
+  <!--BusinessTripManagement List-->
+  <Receivers ListTemplateId="10059">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+      <Synchronization>Synchronous</Synchronization>
+    </Receiver>
+  </Receivers>
+  <!-- RequisitionOfMeetingRoom List -->
+  <Receivers ListTemplateId="13802">
+    <Receiver>
+      <Name>CustomListEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>CustomListEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.CustomListEventReceiver.CustomListEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>

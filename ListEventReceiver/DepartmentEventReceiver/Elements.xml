@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10001">
+      <Receiver>
+        <Name>DepartmentEventReceiverItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>RBVH.Stada.Intranet.ListEventReceiver.DepartmentEventReceiver.DepartmentEventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+    <Receiver>
+      <Name>DepartmentEventReceiverItemDeleting</Name>
+      <Type>ItemDeleting</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.DepartmentEventReceiver.DepartmentEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>DepartmentEventReceiverItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.DepartmentEventReceiver.DepartmentEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>

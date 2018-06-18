@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ab5e2361-4e82-465a-ba6d-89450c8d4323}"
+       Name="OtherSkills"
+       DisplayName="Other Skills"
+       Type="Choice"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

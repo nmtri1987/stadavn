@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a3b5d06c-52df-439d-bb7c-51533a6618ff}"
+       Name="Participation"
+       DisplayName="Participation"
+       Type="Note"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,1314 @@
+﻿body {
+    font-size: 13px;
+    /*background-color:#e6f5ff ;*/
+}
+
+.ms-ButtonHeightWidth {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 1px;
+}
+
+    .ms-ButtonHeightWidth[value=Save], .ms-ButtonHeightWidth[value=Lưu], .ms-ButtonHeightWidth[value='Lưu & Nộp'], .ms-ButtonHeightWidth[value='Save & Submit'] {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+
+    .ms-ButtonHeightWidth.btn-info {
+        color: #ffffff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+    }
+    .ms-ButtonHeightWidth.btn-info:hover {
+        color: #ffffff;
+        background-color: #31b0d5;
+        border-color: #269abc;
+    }
+
+    .ms-ButtonHeightWidth.btn-success {
+        color: #fff;
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+    }
+    .ms-ButtonHeightWidth.btn-success:hover {
+        color: #fff;
+        background-color: #449d44;
+        border-color: #398439;
+    }
+
+    .ms-ButtonHeightWidth.btn-primary {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+    .ms-ButtonHeightWidth.btn-primary:hover {
+      color: #fff;
+      background-color: #286090;
+      border-color: #204d74;
+    }
+    .ms-ButtonHeightWidth.btn-default {
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+    }
+    .ms-ButtonHeightWidth.btn-default:hover {
+        color: #333;
+        background-color: #e6e6e6;
+        border-color: #adadad;
+    }
+    .ms-ButtonHeightWidth.btn-warning {
+        color: #fff;
+        background-color: #f0ad4e;
+        border-color: #eea236;
+    }
+    .ms-ButtonHeightWidth.btn-warning:hover {
+        color: #fff;
+        background-color: #ec971f;
+        border-color: #d58512;
+    }
+    .ms-ButtonHeightWidth[value=Cancel] {
+        color: #333;
+        background-color: #fff;
+        border-color: #ccc;
+    }
+
+    .ms-ButtonHeightWidth[value=Save], .ms-ButtonHeightWidth[value=Lưu], .ms-ButtonHeightWidth[value='Lưu & Nộp'], .ms-ButtonHeightWidth[value='Save & Submit'] {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+
+        .ms-ButtonHeightWidth[value=Save]:focus,
+        .ms-ButtonHeightWidth[value=Save].focus, .ms-ButtonHeightWidth[value=Lưu]:focus, .ms-ButtonHeightWidth[value=Lưu].focus, .ms-ButtonHeightWidth[value='Lưu & Nộp'].focus, .ms-ButtonHeightWidth[value='Save & Submit'].focus {
+            color: #fff;
+            background-color: #286090;
+            border-color: #122b40;
+        }
+
+        .ms-ButtonHeightWidth[value=Save]:hover, .ms-ButtonHeightWidth[value=Lưu]:hover, .ms-ButtonHeightWidth[value='Lưu & Nộp']:hover, .ms-ButtonHeightWidth[value='Save & Submit']:hover {
+            color: #fff;
+            background-color: #286090;
+            border-color: #204d74;
+        }
+
+        .ms-ButtonHeightWidth[value=Save]:active, .ms-ButtonHeightWidth[value=Lưu]:active, .ms-ButtonHeightWidth[value='Lưu & Nộp']:active, .ms-ButtonHeightWidth[value='Save & Submit']:active,
+        .ms-ButtonHeightWidth[value=Save].active,
+        .open > .dropdown-toggle.ms-ButtonHeightWidth[value=Save] {
+            color: #fff;
+            background-color: #286090;
+            border-color: #204d74;
+        }
+
+            .ms-ButtonHeightWidth[value=Save]:active:hover,
+            .ms-ButtonHeightWidth[value=Save].active:hover,
+            .open > .dropdown-toggle.ms-ButtonHeightWidth[value=Save]:hover,
+            .ms-ButtonHeightWidth[value=Save]:active:focus,
+            .ms-ButtonHeightWidth[value=Save].active:focus,
+            .open > .dropdown-toggle.ms-ButtonHeightWidth[value=Save]:focus,
+            .ms-ButtonHeightWidth[value=Save]:active.focus,
+            .ms-ButtonHeightWidth[value=Save].active.focus,
+            .open > .dropdown-toggle.ms-ButtonHeightWidth[value=Save].focus {
+                color: #fff;
+                background-color: #204d74;
+                border-color: #122b40;
+            }
+
+        .ms-ButtonHeightWidth[value=Save]:active,
+        .ms-ButtonHeightWidth[value=Save].active,
+        .open > .dropdown-toggle.ms-ButtonHeightWidth[value=Save] {
+            background-image: none;
+        }
+
+        .ms-ButtonHeightWidth[value=Save].disabled:hover,
+        .ms-ButtonHeightWidth[value=Save][disabled]:hover,
+        fieldset[disabled] .ms-ButtonHeightWidth[value=Save]:hover,
+        .ms-ButtonHeightWidth[value=Save].disabled:focus,
+        .ms-ButtonHeightWidth[value=Save][disabled]:focus,
+        fieldset[disabled] .ms-ButtonHeightWidth[value=Save]:focus,
+        .ms-ButtonHeightWidth[value=Save].disabled.focus,
+        .ms-ButtonHeightWidth[value=Save][disabled].focus,
+        fieldset[disabled] .ms-ButtonHeightWidth[value=Save].focus {
+            background-color: #337ab7;
+            border-color: #2e6da4;
+        }
+
+.ms-input, .ms-long, select, .sp-peoplepicker-topLevel {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem !important;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c !important;
+    background-color: #fff !important;
+    background-image: none;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+    border: 1px solid rgba(0,0,0,.15) !important;
+    border-radius: .25rem;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    font-size: 14px;
+}
+
+.ms-dttimeinput {
+    display: flex;
+}
+
+.btn {
+    border-radius: 1px !important;
+}
+/**
+
+    Custom Master CSS #s4-titlerow  / #searchInputBox
+*/
+#s4-titlerow {
+    padding-top: 0px;
+}
+
+#searchInputBox {
+    padding-top: 10px;
+}
+/* Hide top navigation */
+.ms-breadcrumb-top {
+    display: none;
+}
+/* fix box-sizing - site bar and ribbon */
+#suiteBar, div[id="suiteBar"] * {
+    box-sizing: content-box !important;
+}
+
+#RibbonContainer, div[id="RibbonContainer"] * {
+    box-sizing: content-box !important;
+}
+
+/* Fix list item popup */
+.ms-dlgTitleBtns {
+    width: 34px;
+}
+
+/*-----------------------------*/
+/** Custom bootstrap navigation */
+.navbar-custom {
+    border-top-color: #005dbd !important;
+    border-top-width: 2px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #005dbd;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #555;
+        /*color: #7fa516;*/
+        background-color: #e7e7e7;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+/** Dropdown menu*/
+.dropdown-menu {
+    font-size: 13px;
+}
+
+/* Dropdown submenu */
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu > .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -6px;
+        margin-left: -1px;
+        -webkit-border-radius: 0 6px 6px 6px;
+        -moz-border-radius: 0 6px 6px;
+        border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-submenu > a:after {
+        display: block;
+        content: " ";
+        float: right;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 5px 0 5px 5px;
+        border-left-color: #ccc;
+        margin-top: 5px;
+        margin-right: -10px;
+    }
+
+    .dropdown-submenu:hover > a:after {
+        border-left-color: #fff;
+    }
+
+    .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+        .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+            -webkit-border-radius: 6px 0 6px 6px;
+            -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+        }
+
+.menu-custom {
+    z-index: 1;
+    position: relative;
+}
+
+/*Employee Managemnt Page */
+.employee-management-btn-add-new {
+    border-radius: 1px;
+    color: white;
+    font-weight: bold;
+    background-color: #4AAE52;
+    float: right;
+}
+
+/*Policies - Wiki page - Remove Update Pages*/
+.ms-quicklaunchouter {
+    display: none;
+}
+
+/**Leave Managemt Page*/
+.leave-management-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    margin-left: 0px !important;
+}
+
+.shift-request-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    float: right;
+}
+
+
+.add-new-shift-request-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    margin-left: 0px !important;
+    font-size: inherit;
+}
+
+
+.add-new-change-shift-request-btn {
+    border-radius: 1px;
+    color: white !important;
+    font-weight: bold;
+    background-color: #4AAE52 !important;
+    margin-left: 0px !important;
+    margin-bottom: 10px;
+}
+
+
+btn-left {
+    float: left !important;
+}
+
+/*/*border for left menu*/
+/*.ms-core-sideNavBox-removeLeftMargin
+{
+    border: solid 1px #e6e0e0
+}*/
+
+/*Common button color*/
+.button-success {
+    background-color: #4AAE52 !important;
+    color: white !important;
+}
+
+
+    .button-success:hover {
+        background-color: #70c277 !important;
+        color: white;
+    }
+
+.button-primary {
+    color: white;
+    background-color: #337ab7;
+}
+
+    .button-primary:hover {
+        color: white;
+        background-color: #4c91cd !important;
+    }
+/**Confirm pop-up**/
+
+.ui-corner-all {
+    border-top-right-radius: 1px !important;
+    border-bottom-right-radius: 1px !important;
+    border-top-left-radius: 1px !important;
+    border-bottom-left-radius: 1px !important;
+}
+
+.slick-cell {
+    z-index: 0 !important;
+}
+
+
+.ms-tl-timescale {
+    z-index: 0 !important;
+}
+
+.ms-tl-todayLabel {
+    z-index: 0 !important;
+}
+
+.ms-tl-today {
+    z-index: 0 !important;
+}
+
+.ms-cui-img-cont-float {
+    z-index: 0 !important;
+}
+
+
+.ms-promlink-button {
+    /* display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-width: 1px;
+    border-style: solid;*/
+    padding: 0px !important;
+}
+
+/* Fix Search */
+.ms-inlineSearch-searchImgSpanBase {
+    margin: -2px 0px 0px -1px !important;
+}
+
+/* Fix Calendar */
+.divCalendarUL {
+    min-width: 150px;
+}
+
+/*JSLINK STYLE*/
+.span_createdate_news {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #dba70a;
+    font-weight: normal;
+}
+
+.img-thumbnail-custom {
+    border-radius: 1px;
+}
+
+.list-group-item-custom {
+    margin-bottom: 5px !important;
+}
+
+.container-custom {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.list-group-item-announ {
+    border-radius: 4px;
+    margin-bottom: 10px !important;
+    /*background: #e6f3ff;*/
+    /*background: #f2f2f2;*/
+    background: #D9E2F3;
+    margin-right: 20px !important;
+    padding-left: 15px;
+}
+
+.ms-webpart-zone {
+    background-color: white !important;
+}
+
+.ContentDiv {
+    /*background-color: #f5f5f5!important;*/
+    padding-bottom: 0px;
+    position: fixed;
+}
+
+.navbar-nav {
+    font-size: 15px !important;
+    /*font-weight: bold;*/
+}
+
+.ms-core-pageTitle {
+    color: #f72431;
+    font-weight: bold;
+}
+
+.ms-core-pageTitle > span > span > span > a, .ms-core-pageTitle > span > a {
+    color: #f72431;
+    font-weight: bold;
+}
+.die > a{
+    color: #f72431;
+    font-weight: bold;
+}
+
+.btn-quick-approve {
+    border: 1px solid #ababab;
+    border-radius: 2px;
+    color: white;
+    margin-right: 10px;
+    background-color: #4AAE52 !important;
+}
+
+.btn-quick-reject {
+    border-radius: 2px;
+    border: 1px solid #ababab;
+    color: white;
+}
+
+/*Calendar*/
+ul.divCalendarUL {
+    font-size: 12px;
+}
+
+.eventPopUpDiv {
+    Z-INDEX: 9002;
+    PADDING-RIGHT: 10px;
+    POSITION: absolute;
+    /*box-shadow: 2px 2px rgb(255, 242, 204);*/
+    /*BACKGROUND-COLOR: rgb(255, 242, 204);
+    border-color: rgb(191, 143, 0);*/
+    /*BACKGROUND-COLOR: rgb(222, 234, 246);
+    border-color: rgb(31, 78, 121);*/
+    BACKGROUND-COLOR: rgb(252, 253, 253);
+    border-color: rgb(166, 201, 226);
+    color: rgb(46, 110, 158);
+    min-width: 200px;
+}
+
+.CalendarLI {
+    MARGIN-LEFT: -23px;
+    FONT-WEIGHT: normal;
+}
+
+.divCalendarLI {
+    MARGIN-LEFT: -23px;
+}
+
+.calHead {
+    PADDING-LEFT: 4px;
+    PADDING-RIGHT: 4px;
+    FONT-SIZE: 10pt !important;
+    FONT-WEIGHT: bold !important;
+}
+
+.anchCalLi {
+    TEXT-ALIGN: left !important;
+}
+
+    .anchCalLi:hover {
+        BORDER-RIGHT-WIDTH: 0px;
+        BACKGROUND: none transparent scroll repeat 0% 0%;
+        BORDER-TOP-WIDTH: 0px;
+        BORDER-BOTTOM-WIDTH: 0px;
+        BORDER-LEFT-WIDTH: 0px;
+        FONT-WEIGHT: normal !important;
+    }
+
+    .anchCalLi:visited {
+        text-decoration: none;
+        color: rgb(0, 114, 188) !important;
+    }
+
+.ui-state-default:visited {
+    text-decoration: none;
+    color: rgb(0, 114, 188) !important;
+}
+
+/*Layout*/
+div.required label.control-label:after {
+    content: " *";
+    color: red;
+}
+
+/*Modal CSS*/
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.cancel-link:hover {
+    text-decoration: underline;
+}
+
+.cancel-link {
+    outline: none;
+    padding: 5px;
+    border: 0px;
+    color: #069;
+    background-color: transparent !important;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+#welcomeCommonMenuBox {
+    font-size: 1em;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+}
+
+
+/*Shift Page*/
+.shift-calendar {
+    border-radius: 1px !important;
+    width: 250px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.shift-delete-btn {
+    float: right;
+    min-width: 0px !important;
+    background-color: #d9534f !important;
+}
+
+.shift-cancel-btn {
+    margin-right: 10px !important;
+    font-weight: normal !important;
+}
+
+
+.custom-table-cell {
+    padding-left: 25px;
+}
+
+
+input:disabled, select:disabled {
+    color: graytext !important;
+}
+
+.table-action {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.table-action {
+    color: #286090 !important;
+}
+
+    .table-action:visited {
+        color: #286090 !important;
+    }
+
+.js-webpart-titleCell, .ms-webpart-controlBox, .js-webpart-menuCell, .ms-webpart-checkboxTd {
+    display: inline-block;
+}
+
+.ms-webpart-titleText {
+    font-size: 1.46em;
+    margin-top: 0px;
+}
+
+    .ms-webpart-titleText a {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+.text-left {
+    text-align: left;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #DDDDDD;
+    margin: 0px 0px 10px 5px;
+    width: 32%;
+}
+
+.flex-row {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-block {
+    padding: 0px 15px;
+}
+
+.card-footer {
+    padding: 15px;
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto-Light";
+}
+
+#taskDetail {
+    padding: 20px 30px;
+    border: 1px solid #D9D9D9;
+    margin-left: 30px;
+}
+
+#myshift > tbody > tr > td {
+    width: 40px !important;
+}
+
+#myshift > thead > tr th {
+    width: 40px !important;
+    background: #dfeffc 50% 50% repeat-x;
+    font-weight: bold;
+    color: #2e6e9e;
+    border: 1px solid #c5dbec;
+}
+
+.shift-time-valid {
+    background-color: #c6ffcc !important;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+    /* style icon */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+.txtCalendar {
+    width: 100px;
+    /*margin: 10px 0px;*/
+}
+/*#contentBox {
+    margin:initial; 
+    width: 80%;
+    float: left;
+}
+#sideNavBox {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 15%;
+
+}*/
+
+.ms-RadioText input[type="radio"] {
+    margin: -4px 5px 0px 0px !important;
+}
+
+.custom-table-td {
+    padding-left: 25px;
+}
+
+.customImageAvatar img {
+    max-width: 100px;
+    max-height: 150px;
+}
+
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin: -3px 5px 0px 0px;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+
+.row {
+    margin: 0px -15px;
+}
+
+.ui-datepicker-inline {
+    width: 100% !important;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    padding: .4em;
+}
+
+.img-thumbnail {
+    padding: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    /* max-width: 100%; */
+    /* height: auto; */
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 1px;
+}
+/**Calendar**/
+.ms-acal-apanel-item span, .ms-acal-sdiv, .ms-acal-sdiv a {
+    color: #000 !important;
+}
+
+.ms-acal-apanel-color1, .ms-acal-color1 {
+    color: black;
+    border: 1px solid #548235;
+    background-color: #E2EFDA;
+}
+
+.ms-acal-apanel-color2, .ms-acal-color2 {
+    color: black;
+    border: 1px solid #bf8f00;
+    background-color: #fff2cc;
+}
+
+.ms-acal-apanel-color3, .ms-acal-color3 {
+    color: black;
+    border: 1px solid #4A442A;
+    background-color: #fc3424;
+}
+
+.ms-acal-apanel-color4, .ms-acal-color4 {
+    color: black;
+    border: 1px solid #49DF5D;
+    background-color: #49DF5D;
+}
+
+.ms-acal-apanel-color5, .ms-acal-color5 {
+    color: black;
+    border: 1px solid #49DF5D;
+    background-color: #F5EB67;
+}
+
+.ms-acal-apanel-outer {
+    padding-top: 0px;
+    margin: 0px 0px 20px 20px;
+}
+
+.ms-acal-apanel-item {
+    display: block;
+}
+
+.ms-acal-apanel-title {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    background-color: #0072c6;
+    border: 1px solid #ddd;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #0072c6;
+}
+
+/* Custome menu */
+.stada-leftmenu .menu-item-root{
+    /*background-color: #0072c6 !important;
+    color: #fff !important;*/
+    color: #333;
+    background-color: #e7e7e7 !important;
+    border-color: #ddd;
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    height: 40px;
+    font-size: 15px !important;
+    border-bottom: solid 1px #ddd;
+    font-weight: 600;
+}
+
+.stada-leftmenu .menu-item-child {
+    padding-left: 30px !important;
+    padding-right: 5px !important;
+    padding-top: 10px !important;
+    border-bottom: solid 1px #ddd;
+    min-height: 40px;
+}
+
+.default-leftmenu > div > ul > li > a.ms-core-listMenu-selected{
+    /*background-color: #0072c6 !important;
+    color: #fff !important;*/
+    /*color: #333;*/
+    background-color: #e7e7e7 !important;
+    border-color: #ddd;
+    /*padding-left: 10px !important;*/
+    padding-top: 10px !important;
+    height: 40px;
+    font-size: 15px !important;
+    border-bottom: solid 1px #ddd;
+    font-weight: 600;
+}
+
+.default-leftmenu .ms-core-listMenu-item {
+    padding-left: 30px !important;
+    padding-right: 5px !important;
+    padding-top: 10px !important;
+    border-bottom: solid 1px #ddd;
+    min-height: 40px;
+}
+/*.default-leftmenu > div > ul > li > a.ms-core-listMenu-item{
+    
+    color: #333;
+    background-color: #e7e7e7 !important;
+    border-color: #ddd;
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    height: 40px;
+    font-size: 15px !important;
+    border-bottom: solid 1px #ddd;
+    font-weight: 600;
+}*/
+
+.stada-leftmenu {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.default-leftmenu {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+    .stada-leftmenu .ms-core-listMenu-selected, .default-leftmenu > div > ul > li > ul > li > a.ms-core-listMenu-selected{
+        background-color: #f5f5f5 !important;
+    }
+
+.panel-body {
+    overflow-x: auto;
+}
+
+#DeltaPlaceHolderMain .nav-tabs {
+    height: 40px;
+}
+
+.nav-tabs > li > a {
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.panel-primary {
+    border-color: #ddd;
+}
+
+.lbl-fixed-width {
+    width: 150px;
+    padding-left: 20px;
+}
+
+.border-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.txtCalendar input {
+    cursor: pointer;
+}
+
+.ms-formlabel h3.ms-standardheader {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.ms-picker-body {
+    width: 200px;
+}
+
+.ms-acal-apanel ul {
+    width: 1000px;
+}
+
+    .ms-acal-apanel ul li {
+        float: left;
+    }
+
+.ms-acal-sdiv a, .ms-acal-mdiv a, .ms-acal-ddiv a {
+    color: #000 !important;
+}
+
+    .ms-acal-sdiv a:hover, .ms-acal-mdiv a:hover, .ms-acal-ddiv a:hover {
+        color: #000 !important;
+    }
+
+.fa-eye, .navigate-page, .txtCalendar input {
+    cursor: pointer;
+}
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/loading_spinner.gif') center no-repeat #fff;
+}
+
+.embeddedView {
+    display: block;
+    padding-left: 50px !important;
+}
+
+.custom-table-view .ms-listviewtable {
+    width: 100%;
+}
+
+    .custom-table-view .ms-listviewtable > thead > tr > th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd;
+        border-top: 1px solid #ddd;
+        font-weight: 600 !important;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 13px;
+        line-height: 1.42857143;
+        color: #333;
+    }
+
+    .custom-table-view .ms-listviewtable > thead > tr > th, .custom-table-view .ms-listviewtable > tbody > tr > th, .custom-table-view .ms-listviewtable > tfoot > tr > th, .custom-table-view .ms-listviewtable > thead > tr > td, .custom-table-view .ms-listviewtable > tbody > tr > td, .custom-table-view .ms-listviewtable > tfoot > tr > td {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+    }
+
+    .custom-table-view .ms-listviewtable > caption + thead > tr:first-child > th, .custom-table-view .ms-listviewtable > colgroup + thead > tr:first-child > th, .custom-table-view .ms-listviewtable > thead:first-child > tr:first-child > th, .custom-table-view .ms-listviewtable > caption + thead > tr:first-child > td, .custom-table-view .ms-listviewtable > colgroup + thead > tr:first-child > td, .custom-table-view .ms-listviewtable > thead:first-child > tr:first-child > td {
+        border-top: 0;
+    }
+
+.jconfirm-white.jconfirm .jconfirm-box .jconfirm-buttons button, .jconfirm-light.jconfirm .jconfirm-box .jconfirm-buttons button {
+    text-transform: none;
+}
+
+#txtReason:disabled, #txtOldComment:disabled, #txtComment:disabled, #txtSecurityNotes:disabled {
+    background-color: white;
+    color: #555;
+}
+
+.leavemanagement-item-ok {
+    margin-left: 25%;
+    color: darkgreen;
+}
+
+.jconfirm.jconfirm-white .jconfirm-box .jconfirm-buttons button, .jconfirm.jconfirm-light .jconfirm-box .jconfirm-buttons button {
+    text-transform: none !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 2px !important;
+}
+
+
+table[class='table.gridView'] {
+    border-color: #ddd;
+}
+
+.table.gridView > thead > tr > th, .table.gridView > tbody > tr > th, .table.gridView > tfoot > tr > th, .table.gridView > thead > tr > td, .table.gridView > tbody > tr > td, .table.gridView > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-left: none;
+    border-right: none;
+    border-color: #ddd;
+}
+
+.table.gridView > tbody > tr > th {
+    border-top: none !important;
+    border-bottom: 2px #ddd solid;
+}
+
+.table.gridView > tbody > tr:last-child > td {
+    border-bottom: transparent !important;
+}
+
+
+.GridPager a, .GridPager span {
+    display: block;
+    height: 15px;
+    width: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.GridPager a {
+    color: #969696;
+    width: 25px;
+}
+
+.GridPager span {
+    color: #000;
+}
+
+.glyphicon.glyphicon-plus.addmorefile {
+    color: green;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.glyphicon.glyphicon-trash.span-remove, .glyphicon.glyphicon-trash.span-delete {
+    color: crimson;
+    cursor: pointer;
+    font-size: larger;
+    margin-left: 5px;
+}
+
+
+.custom-form .ms-standardheader
+{
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-form input[type="checkbox"]+label
+{
+    font-weight: normal;
+}
+
+.custom-form input[type='text'], .custom-form textarea
+{
+    border: 1px solid #ababab !important;
+}
+.custom-form input[type='text']:disabled, .custom-form textarea:disabled {
+    color: #444 !important;
+    border-color: #e1e1e1 !important;
+}
+
+.leftColumnWidth {
+    width: 400px;
+}
+
+.customSelect {
+    width: inherit;
+}
+.customInput {
+    width: inherit;
+}
+
+/* Common padding, margin */
+.mr10{
+    margin-right: 10px;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+
+.pl10{
+    padding-left: 10px;
+}
+
+.pr10{
+    padding-right: 10px;
+}
+
+.pt10{
+    padding-top: 10px;
+}
+
+.require-error{
+    border: solid 1px red !important;
+}
+
+.jsgrid-hide-column
+{
+    display: none;
+}
+
+.jsgrid-delete-button,.jsgrid-insert-button
+{
+    min-width:16px !important;
+}
+.jsgrid .jsgrid-cell{
+    word-wrap:break-word;
+}
+
+.select2-selection.select2-selection--multiple
+{
+border-radius: 2px	
+
+}
+/*.select2-selection.select2-selection--multiple:focus
+{
+     border: 1px solid #005dbd !important
+}*/
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid #bbb 1px !important;
+    outline: 0;
+}
+
+.filter-delegation label
+{
+    margin-right: 15px;
+}
+
+.filter-delegation div[class='form-group']
+{
+     margin-right: 25px;
+}
+
+.filter-delegation label
+{
+ margin-bottom: 0px;
+}
+
+/* Notification - Bell */
+/*#notifycation-bell
+{
+    display: inline-block; 
+    cursor:pointer; 
+    height: 30px; 
+    vertical-align: top;
+    background-color: #0072c6;
+    color: white;
+    padding-left: 7px;
+}
+
+#notifycation-bell i.fa-bell-o
+{
+    font-size: 20px; 
+    position: relative; 
+    top: 5px;
+}
+
+#notifycation-bell span.notification-counter
+{
+    background-color: #fa3e3e; 
+    border-radius: 2px; 
+    color: white; 
+    padding: 1px 3px; 
+    font-size: 10px; 
+    position: relative; 
+    right: 8px; 
+    top: -5px;
+}*/
+#notifycation-bell
+{
+    display: table-cell; 
+    cursor: pointer; 
+    height: 30px; 
+    vertical-align: top;
+    background-color: #0072c6;
+    color: white;
+    padding-right: 12px;
+    position: relative;
+}
+
+#notifycation-bell i.fa-bell-o
+{
+    font-size: 20px; 
+    position: relative; 
+    top: 5px;
+}
+
+#notifycation-bell span.notification-counter
+{
+    background-color: #fa3e3e; 
+    border-radius: 2px; 
+    color: white; 
+    padding: 1px 3px; 
+    font-size: 10px; 
+    position: absolute; 
+    left: 15px; 
+    top: 0;
+}
+
+.notification-tooltip{
+    background:#e7e7e7 !important;
+    color: #333 !important;
+	opacity: 1 !important;
+	font-family: 'Segoe UI','Segoe',Tahoma,Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	width: 270px;
+	text-align: center;
+}
+
+#DeltaPlaceHolderPageTitleInTitleArea
+{
+    text-transform:capitalize;
+}
+.ms-rtestate-write
+{
+    outline:0;
+}

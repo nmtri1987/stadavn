@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1fb8cef0-672e-465a-82b7-b15397fbfd86}"
+       Name="JoinedDate"
+       DisplayName="Joined Date"
+       Type="DateTime" Format="DateOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

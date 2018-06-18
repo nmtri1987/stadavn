@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,RequestDiplomaDetails_ListTitle" FolderCreation="FALSE" Direction="$Resources:Direction;"
+      Url="Lists/RequestDiplomaDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x01002EC1360DE01A4D6FB9B8D961AF3A2D6A"/>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{a2e3638b-7a37-404e-ab20-b38eab04ccd5}" Name="CurrentDiploma" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_CurrentDiploma" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{72072eac-7427-4b80-9c67-e6c9d4512708}" Name="GraduationYear" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_GraduationYear" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{f928ebdb-f871-48b3-b706-92f7ab4f727d}" Name="NewDiploma" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_NewDiploma" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{2289b9fa-8917-4038-8cfe-684ff8b3b498}" Name="Faculty" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_Faculty" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{cf056fdd-8b0a-4c38-8588-da99c318481b}" Name="IssuedPlace" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_IssuedPlace" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{81e8bf58-e6da-467c-bae0-4fb6f300822c}" Name="TrainingDuration" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_TrainingDuration" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" Name="Request" DisplayName="$Resources:RBVHStadaLists,RequestDiplomaDetails_Request" Type="Lookup" List="Lists/RequestForDiplomaSupplies" ShowField="ID" Required="TRUE" Group="Stada Columns"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="CurrentDiploma"></FieldRef>
+          <FieldRef Name="GraduationYear"></FieldRef>
+          <FieldRef Name="NewDiploma"></FieldRef>
+          <FieldRef Name="Faculty"></FieldRef>
+          <FieldRef Name="IssuedPlace"></FieldRef>
+          <FieldRef Name="TrainingDuration"></FieldRef>
+          <FieldRef Name="Request"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

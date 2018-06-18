@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{131baddb-3068-4c0f-936b-e0e57eb1ae9a}"
+       Name="GuestPickupTime"
+       DisplayName="Guest Pickyp Time"
+       Type="DateTime"
+       Format="DateTime"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

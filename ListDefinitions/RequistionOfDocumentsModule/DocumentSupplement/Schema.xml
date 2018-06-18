@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,DocumentSupplement_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RequisitionForms" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{31BDCE9E-DB2B-49B1-B9F6-8005665B46CC}" Name="RequisitionForm" DisplayName="$Resources:RBVHStadaLists,DocumentSupplement_RequisitionForm" Type="Lookup" List="Lists/RequisitionForms" ShowField="ID" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{FF95C2CB-E866-499A-9F69-4F32B71875D4}" Name="DocumentName" DisplayName="$Resources:RBVHStadaLists,DocumentSupplement_DocumentNameTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{99A79086-4595-4CB1-94D9-69F152C1CBC0}" Name="Form" DisplayName="$Resources:RBVHStadaLists,DocumentSupplement_FormTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{7CAE998D-8E6E-4216-AB5A-0B4FDE2143DF}" Name="BorrowedDate" DisplayName="$Resources:RBVHStadaLists,DocumentSupplement_BorrowedDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{4FA4B8AD-3B4E-4485-A351-B64440D82CD2}" Name="ReturnedDate" DisplayName="$Resources:RBVHStadaLists,DocumentSupplement_ReturnedDateDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RequisitionForm"></FieldRef>
+          <FieldRef Name="DocumentName"></FieldRef>
+          <FieldRef Name="Form"></FieldRef>
+          <FieldRef Name="BorrowedDate"></FieldRef>
+          <FieldRef Name="ReturnedDate"></FieldRef>
+         
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

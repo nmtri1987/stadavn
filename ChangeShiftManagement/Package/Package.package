@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="55196969-f210-4764-bea6-8c0fc3359329" solutionId="55196969-f210-4764-bea6-8c0fc3359329" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.ChangeShiftManagement" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="4eed231e-5aa5-4081-a25f-7096ae1ef845" />
+  </features>
+</package>

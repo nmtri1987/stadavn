@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{56f95a45-68b0-47d2-a3d9-744470a51f02}"
+       Name="FactoryVisitingRoutine"
+       DisplayName="Factory Visiting Routine"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

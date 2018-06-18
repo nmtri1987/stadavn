@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2edb4217-bc68-4964-b84a-97781b1f2ad6}"
+       Name="WorkingTime"
+       DisplayName="Working Time"
+       Type="Choice"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

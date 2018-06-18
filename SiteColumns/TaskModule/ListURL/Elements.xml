@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}"
+       Name="ListURL"
+       DisplayName="List URL"
+       Type="Text"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

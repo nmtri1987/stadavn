@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62B10463-7A95-446F-AEF8-3FEFD20C27FE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.ListEventReceiver</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.ListEventReceiver</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.6</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>14.0</OldToolsVersion>
+    <AssemblyDeploymentTarget>GlobalAssemblyCache</AssemblyDeploymentTarget>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangeShiftEventReceiver\ChangeShiftEventReceiver.cs" />
+    <Compile Include="CustomListEventReceiver\CustomListEventReceiver.cs" />
+    <Compile Include="DepartmentEventReceiver\DepartmentEventReceiver.cs" />
+    <Compile Include="EmployeeInfoEventReceiver\EmployeeInfoEventReceiver.cs" />
+    <Compile Include="NotOvertimeEventReceiver\NotOvertimeEventReceiver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShiftManagementEventReceiver\ShiftManagementEventReceiver.cs" />
+    <Compile Include="TransportationEventReceiver\TransportationEventReceiver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ChangeShiftEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{edc4836e-bb92-4e7a-b456-15cc007ad7c4}</SharePointProjectItemId>
+    </None>
+    <None Include="CustomListEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{74557869-7748-47b9-a242-83238756b7ec}</SharePointProjectItemId>
+    </None>
+    <None Include="DepartmentEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f45553e-eea1-4bf4-98fa-8e6b8a7ab885}</SharePointProjectItemId>
+    </None>
+    <None Include="EmployeeInfoEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9aec24e4-b9ea-4a18-a314-c64d1f2ae51f}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\ListEventReceiver\ListEventReceiver.feature">
+      <FeatureId>{0fb560c3-9b48-43de-8eef-301e4b732faf}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="NotOvertimeEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{03ebe660-536b-4f4d-89de-510e4d00df88}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{8419965a-e4aa-4139-8845-5cb9aced13d3}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="ShiftManagementEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d0dd3b31-ded3-4078-9f48-833ea3419025}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8fa76f2e-f4eb-459c-9357-c7ae511de986}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\RBVH.Stada.Intranet.Biz.csproj">
+      <Project>{0973A244-0020-4D1A-84F2-B1BFC7F906F9}</Project>
+      <Name>RBVH.Stada.Intranet.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreSharePoint\RBVH.Core.SharePoint.csproj">
+      <Project>{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}</Project>
+      <Name>RBVH.Core.SharePoint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChangeShiftEventReceiver\Elements.xml" />
+    <Content Include="CustomListEventReceiver\Elements.xml" />
+    <Content Include="DepartmentEventReceiver\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EmployeeInfoEventReceiver\Elements.xml" />
+    <Content Include="Features\ListEventReceiver\ListEventReceiver.Template.xml">
+      <DependentUpon>ListEventReceiver.feature</DependentUpon>
+    </Content>
+    <Content Include="NotOvertimeEventReceiver\Elements.xml" />
+    <Content Include="ShiftManagementEventReceiver\Elements.xml" />
+    <Content Include="TransportationEventReceiver\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

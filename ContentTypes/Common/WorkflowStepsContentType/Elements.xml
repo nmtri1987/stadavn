@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100890AE7853B4B45FC9083C59FDF4B7F7B"
+               Name="WorkflowStepsContentType"
+               Group="Stada Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{4e8922ea-f305-4567-822c-cbba86b72c3e}" Name="ListName"/>
+      <FieldRef ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep"/>
+      <FieldRef ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep"/>
+      <FieldRef ID="{6d477c26-e2a5-49c3-8ef6-abe7b71c7707}" Name="NotificationEmailToRoles"/>
+      <FieldRef ID="{0ed6572d-212a-48cc-bddb-0392a7b00113}" Name="NotificationEmailToEmployees"/>
+      <FieldRef ID="{8b49271f-687a-4c6f-a74b-8cb24fd06e4f}" Name="NotificationEmailCcRoles"/>
+      <FieldRef ID="{31c21333-d062-4153-9f2b-4bc23f345d37}" Name="NotificationEmailCcEmployees"/>
+      <FieldRef ID="{82843d93-2400-4f40-840f-5e01c248b93a}" Name="AllowReject"/>
+      <FieldRef ID="{c023e8b1-8049-49e3-94ef-899e5c23d396}" Name="ConditionalExpression"/>
+      <FieldRef ID="{19f1a291-ac90-4e54-9839-6913520158f5}" Name="OrderStep"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

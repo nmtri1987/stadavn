@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,LunchServiceLocation_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="22006"
+                Url="Lists/LunchServiceLocation"
+                Description="$Resources:RBVHStadaLists,LunchServiceLocation_ListTitle;">
+  </ListInstance>
+</Elements>

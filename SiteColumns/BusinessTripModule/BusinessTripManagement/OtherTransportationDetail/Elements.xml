@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f83d8e20-fae0-47f8-8a8e-e9751be9d65a}"
+       Name="OtherTransportationDetail"
+       DisplayName="Other Transportation Detail"
+       Type="Note"
+       NumLines="3"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

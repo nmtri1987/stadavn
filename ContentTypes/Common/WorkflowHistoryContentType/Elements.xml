@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100A1988A33F06A49559385CE063ABB4130"
+               Name="WorkflowHistoryContentType"
+               Group="Custom Content Types"
+               Description="Workflow History Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status"/>
+      <FieldRef ID="{c948c9fc-e443-4f83-ace6-0c7049154b9b}" Name="VietnameseStatus"/>
+      <FieldRef ID="{3df06b8a-a0d2-49dc-b109-5d5a3758c3a7}" Name="PostedBy"/>
+      <FieldRef ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}" Name="CommonDate"/>
+      <FieldRef ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}" Name="CommonComment"/>
+      <FieldRef ID="{4e8922ea-f305-4567-822c-cbba86b72c3e}" Name="ListName"/>
+      <FieldRef ID="{e2932f67-9d09-4bb3-9299-5656ad62dfd8}" Name="CommonItemID"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

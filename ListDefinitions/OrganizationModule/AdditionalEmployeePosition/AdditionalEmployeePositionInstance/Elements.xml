@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,AdditionalEmployeePosition_ListTitle"
+                OnQuickLaunch="TRUE"
+                TemplateType="10062"
+                Url="Lists/AdditionalEmployeePosition"
+                Description="$Resources:RBVHStadaLists,AdditionalEmployeePosition_ListDesc">
+  </ListInstance>
+</Elements>

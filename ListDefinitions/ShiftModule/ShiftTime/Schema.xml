@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,ShiftTime_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ShiftTime" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x01009D19FF843B634C8CA73B14F325F59752" Name="$Resources:RBVHStadaLists,ShiftTime_ListTitle;" Group="Stada Content Types" Description="$Resources:RBVHStadaLists,ShiftTime_ListDescription;" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Name="CommonName" />
+          <FieldRef ID="{cb87319d-24fb-42cd-a06f-c770e498168b}" Name="Code" />
+          <FieldRef ID="{fd844b38-bbb4-42fa-978b-be2e4967099e}" Name="ShiftTimeWorkingHourFrom" />
+          <FieldRef ID="{2b169116-f672-411f-8c4a-85f443238158}" Name="ShiftTimeWorkingHourTo" />
+          <FieldRef ID="{ab1ffaed-289e-4440-a243-b6c42422abc3}" Name="ShiftTimeWorkingHourMid" />
+          <FieldRef ID="{b8881622-5697-45d3-9562-e0a57ee14872}" Name="ShiftTimeBreakingHourFrom" />
+          <FieldRef ID="{f6723a45-05be-4f77-8578-bad3392b05c7}" Name="ShiftTimeBreakingHourTo" />
+          <FieldRef ID="{8669dcba-8999-4e13-b3ff-aaf6f5cf511a}" Name="ShiftTimeWorkingHour" />
+          <FieldRef ID="{8c929ef0-cc96-4d65-860c-e2a745a47d06}" Name="ShiftTimeBreakingHour" />
+          <FieldRef ID="{dc9da24f-20b6-4201-9309-3a6b2d34d5aa}" Name="StadaDescription" />
+          <FieldRef ID="{79092138-6698-4c1d-97d6-81c16ed737f0}" Name="UnexpectedLeaveFirstApprovalRole" />
+          <FieldRef ID="{303c765f-20ea-40d4-830a-9916fd56575c}" Name="ShiftRequired" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+
+      <Field ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Name="CommonName" DisplayName="Name" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{cb87319d-24fb-42cd-a06f-c770e498168b}" Name="Code" DisplayName="Code" Type="Text" Required="TRUE" Group="Stada Columns" />
+
+      <Field ID="{fd844b38-bbb4-42fa-978b-be2e4967099e}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeHourFrom;" Required="TRUE" Name="ShiftTimeWorkingHourFrom"  Type="DateTime">
+        <Default>[Today]</Default>
+      </Field>
+
+      <Field ID="{2b169116-f672-411f-8c4a-85f443238158}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeHourTo;" Required="TRUE" Name="ShiftTimeWorkingHourTo"  Type="DateTime">
+        <Default>[Today]</Default>
+      </Field>
+      <Field ID="{ab1ffaed-289e-4440-a243-b6c42422abc3}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeWorkingHourMid;" Required="FALSE" Name="ShiftTimeWorkingHourMid" Type="DateTime" >
+      </Field>
+      <Field ID="{b8881622-5697-45d3-9562-e0a57ee14872}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeBreakHourFrom;" Required="FALSE" Name="ShiftTimeBreakingHourFrom" Type="DateTime" >
+      </Field>
+      <Field ID="{f6723a45-05be-4f77-8578-bad3392b05c7}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeBreakHourTo;" Required="FALSE" Name="ShiftTimeBreakingHourTo"  Type="DateTime">
+      </Field>
+      <Field ID="{8669dcba-8999-4e13-b3ff-aaf6f5cf511a}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeWorkingHour;" Required="TRUE" Name="ShiftTimeWorkingHour" Type="Number">
+        <Default>8</Default>
+      </Field>
+      <Field ID="{8c929ef0-cc96-4d65-860c-e2a745a47d06}" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftTimeBreakHour;" Required="FALSE" Name="ShiftTimeBreakingHour" Type="Number">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{dc9da24f-20b6-4201-9309-3a6b2d34d5aa}" Name="StadaDescription" DisplayName="$Resources:RBVHStadaLists,ShiftTime_Description;" Type="Note" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{79092138-6698-4c1d-97d6-81c16ed737f0}" Name="UnexpectedLeaveFirstApprovalRole" DisplayName="$Resources:RBVHStadaLists,ShiftTime_UnexpLeaveFirstApprovalRole;" Type="Lookup" List="Lists/EmployeePosition" ShowField="CommonName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{303c765f-20ea-40d4-830a-9916fd56575c}" Name="ShiftRequired" DisplayName="$Resources:RBVHStadaLists,ShiftTime_ShiftRequired;" Type="Boolean" Required="FALSE" Group="Stada Columns"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="CommonName" />
+          <FieldRef Name="Code" />
+          <FieldRef Name="ShiftTimeWorkingHourFrom" />
+          <FieldRef  Name="ShiftTimeWorkingHourTo" />
+          <FieldRef Name="ShiftTimeBreakingHourFrom" />
+          <FieldRef Name="ShiftTimeBreakingHourTo" />
+          <FieldRef  Name="ShiftTimeWorkingHour" />
+          <FieldRef  Name="ShiftTimeBreakingHour" />
+          <FieldRef  Name="StadaDescription" />
+          <FieldRef  Name="UnexpectedLeaveFirstApprovalRole" />
+          <FieldRef  Name="ShiftRequired" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/ShiftModule/JSLink_ShiftTime.js?v=1.0"/>
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/ShiftModule/JSLink_ShiftTime.js?v=1.0" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/ShiftModule/JSLink_ShiftTime.js?v=1.0" />
+    </Forms>
+  </MetaData>
+</List>

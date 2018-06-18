@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="LeaveOfAbsenceWorkflowItemUpdate" Url="wfsvc/bd478ba3405740e2b76ed7e8669756d1">
+    <File Url="Workflow.xaml" Type="GhostableInLibrary" Path="LeaveOfAbsenceWorkflowItemUpdate\Workflow.xaml" DoGUIDFixUp="TRUE" ReplaceContent="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="LeaveOfAbsenceWorkflowItemUpdate" />
+      <Property Name="WSDescription" Value="My 'LeaveOfAbsenceWorkflowItemUpate' Workflow" />
+      <!-- If you change the name or Url of your custom initiation or association form, 
+           remember to update the corresponding property value (InitiationUrl or AssociationUrl) to match the new web relative url.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/NotOverTimeManagement;}" />
+    </File>
+    <File Url="ItemUpdatedAssociation" Path="LeaveOfAbsenceWorkflowItemUpate\ItemUpdatedAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="LeaveOfAbsenceWorkflowItemUpdate" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="ItemUpdated" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="a9ce1ec2-bf6b-42b4-ab4d-010e9495a2ff" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/NotOverTimeManagement;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/NotOverTimeManagement;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/NotOvertimeWorkflowTaskList;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+</Elements>

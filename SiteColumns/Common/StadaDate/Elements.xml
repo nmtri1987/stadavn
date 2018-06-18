@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{788d6c23-546d-4379-9357-f679ca415e1c}"
+       Name="StadaDate"
+       DisplayName="Date"
+       Type="DateTime" Format="DateOnly"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDeniedMessage" xml:space="preserve">
+    <value>You don't have permission to access this page.</value>
+  </data>
+  <data name="AddButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddEmployeeButton" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="AddEmployee_ModalTitle" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="AddNewEmployeeButton" xml:space="preserve">
+    <value>Add New Employee</value>
+  </data>
+  <data name="ApproveButton" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="BackButton" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelLink_ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel this request?</value>
+  </data>
+  <data name="CancelLink_ErrorOccurre" xml:space="preserve">
+    <value>An error occurred while performing this action. Please try again!</value>
+  </data>
+  <data name="CancelLink_RequestCancelledSuccess" xml:space="preserve">
+    <value>The request has been successfully cancelled</value>
+  </data>
+  <data name="CannotCancelRequestApproved" xml:space="preserve">
+    <value>Can not cancel the request that has been approved</value>
+  </data>
+  <data name="CannotCancelRequestCancelled" xml:space="preserve">
+    <value>Can not cancel the request that has been cancelled</value>
+  </data>
+  <data name="ChangeConfirmationDialogTitle" xml:space="preserve">
+    <value>Change confirmation</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_Enter" xml:space="preserve">
+    <value>Enter Confirm Password</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_IsTheSame" xml:space="preserve">
+    <value>Confirm Password must be the same.</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_Required" xml:space="preserve">
+    <value>Confirm Password is required.</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_Enter" xml:space="preserve">
+    <value>Enter Current Password</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_IsInvalid" xml:space="preserve">
+    <value>Current Password is invalid</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_Required" xml:space="preserve">
+    <value>Current Password is required.</value>
+  </data>
+  <data name="ChangePassword_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="ChangePassword_Message_Success" xml:space="preserve">
+    <value>Change Password is succesful!</value>
+  </data>
+  <data name="ChangePassword_Message_Unsuccess" xml:space="preserve">
+    <value>Change Password is unsuccesful!</value>
+  </data>
+  <data name="ChangePassword_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="ChangePassword_NewPassword_Enter" xml:space="preserve">
+    <value>Enter New Password</value>
+  </data>
+  <data name="ChangePassword_NewPassword_Required" xml:space="preserve">
+    <value>New Password is required.</value>
+  </data>
+  <data name="ChangePassword_PageTitle" xml:space="preserve">
+    <value>STADA - Change Password</value>
+  </data>
+  <data name="ChangePassword_PageTitleArea" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangeShiftManagement_PageTitle" xml:space="preserve">
+    <value>STADA - Change Shift Management</value>
+  </data>
+  <data name="ChangeShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Change Shift Management</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CommonDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="CommonID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ConfirmQuickApproveMessage" xml:space="preserve">
+    <value>Are you sure you want to update the status of selected items to 'Approved'?</value>
+  </data>
+  <data name="ConfirmQuickRejectMessage" xml:space="preserve">
+    <value>Are you sure you want to update the status of selected items to 'Rejected'?</value>
+  </data>
+  <data name="DeleleConfirmationDialogTitle" xml:space="preserve">
+    <value>Delele Confirmation</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Are you sure you want to delele selected items?</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="EmployeeManagement_PageTitle" xml:space="preserve">
+    <value>STADA - Employee Management</value>
+  </data>
+  <data name="EmployeeManagement_PageTitleArea" xml:space="preserve">
+    <value>Employee Management</value>
+  </data>
+  <data name="General_Message_Error" xml:space="preserve">
+    <value>Something went wrong! Please try again or contact administrator.</value>
+  </data>
+  <data name="General_Prefix_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="General_Prefix_Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="General_Prefix_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="General_Prefix_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="General_Text_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="GoBackToHomePage" xml:space="preserve">
+    <value>Go back to Home Page</value>
+  </data>
+  <data name="InformationDialogTitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LeaveManagement_AddNewLeaveButton" xml:space="preserve">
+    <value>Add New Leave Request</value>
+  </data>
+  <data name="LeaveManagement_ErrorOccurre" xml:space="preserve">
+    <value>An error occurred while loading data from server. Please try again!</value>
+  </data>
+  <data name="LeaveManagement_FromDateAlert" xml:space="preserve">
+    <value>Leave request must be raised before 15 days</value>
+  </data>
+  <data name="LeaveManagement_LeaveRequestToBeApprovedTitle" xml:space="preserve">
+    <value>Leave Requests To Be Approved</value>
+  </data>
+  <data name="LeaveManagement_MyLeaveRequestTitle" xml:space="preserve">
+    <value>My Leave Requests</value>
+  </data>
+  <data name="LeaveManagement_PageTitle" xml:space="preserve">
+    <value>STADA - Leave Management</value>
+  </data>
+  <data name="LeaveManagement_PageTitleArea" xml:space="preserve">
+    <value>Leave Management</value>
+  </data>
+  <data name="LeaveManagement_TodayLeaveButton" xml:space="preserve">
+    <value>Today Leave</value>
+  </data>
+  <data name="Login_AuthorizationCode" xml:space="preserve">
+    <value>Authorization Code</value>
+  </data>
+  <data name="Login_AuthorizationCode_Enter" xml:space="preserve">
+    <value>Enter Authorization Code</value>
+  </data>
+  <data name="Login_AuthorizationCode_Required" xml:space="preserve">
+    <value>Authorization Code is a required field.</value>
+  </data>
+  <data name="Login_Button_Verify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="Login_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Login_EmployeeID_Enter" xml:space="preserve">
+    <value>Enter Employee ID</value>
+  </data>
+  <data name="Login_EmployeeID_Required" xml:space="preserve">
+    <value>Employee ID is a required field.</value>
+  </data>
+  <data name="Login_Message_Fail" xml:space="preserve">
+    <value>Username or password is invalid!</value>
+  </data>
+  <data name="Login_PageTitle" xml:space="preserve">
+    <value>STADA - Login</value>
+  </data>
+  <data name="Login_PageTitleArea" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logout_PageTitle" xml:space="preserve">
+    <value>STADA - Logout</value>
+  </data>
+  <data name="Logout_PageTitleArea" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoDataText" xml:space="preserve">
+    <value>(No data)</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OvertimeRequest_PageTitle" xml:space="preserve">
+    <value>STADA - Overtime Request</value>
+  </data>
+  <data name="OvertimeRequest_PageTitleArea" xml:space="preserve">
+    <value>Overtime Request</value>
+  </data>
+  <data name="Overtime_CannotGetData" xml:space="preserve">
+    <value>Can not get data from server. Please try again!</value>
+  </data>
+  <data name="Overtime_DeleteRow" xml:space="preserve">
+    <value>Are you sure you want to delete this row?</value>
+  </data>
+  <data name="Overtime_ErrorOccurred" xml:space="preserve">
+    <value>An error occurred. Please try again!</value>
+  </data>
+  <data name="Overtime_FieldMustBeNotBlank" xml:space="preserve">
+    <value>You can't leave this blank</value>
+  </data>
+  <data name="Overtime_FieldMustBeNumber" xml:space="preserve">
+    <value>Only numbers can go here</value>
+  </data>
+  <data name="Overtime_Modal_UserExist" xml:space="preserve">
+    <value>This employee already exists. Please select another one!</value>
+  </data>
+  <data name="Overtime_ValidateHour" xml:space="preserve">
+    <value>Hour must be greater than 0 and less than 24</value>
+  </data>
+  <data name="Overtime_ValidateTwoHour" xml:space="preserve">
+    <value>To Hour must greater than From Hour</value>
+  </data>
+  <data name="Overview_PageTitle" xml:space="preserve">
+    <value>STADA - Overview</value>
+  </data>
+  <data name="Overview_PageTitleArea" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="QuickApproveItemUpdateExist" xml:space="preserve">
+    <value>Item(s) could not change status</value>
+  </data>
+  <data name="QuickApproveItemUpdateFail" xml:space="preserve">
+    <value>Item(s) updated fail</value>
+  </data>
+  <data name="QuickApproveItemUpdateSuccess" xml:space="preserve">
+    <value>Item(s) updated success</value>
+  </data>
+  <data name="RejectButton" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_Enter" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_IsTheSame" xml:space="preserve">
+    <value>Confirm Password must be the same.</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_Required" xml:space="preserve">
+    <value>Confirm Password is required.</value>
+  </data>
+  <data name="ResetPassword_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="ResetPassword_Employee_Choose" xml:space="preserve">
+    <value>Please choose employee!</value>
+  </data>
+  <data name="ResetPassword_Employee_IsInvalid" xml:space="preserve">
+    <value>Employee is invalid.</value>
+  </data>
+  <data name="ResetPassword_Message_Success" xml:space="preserve">
+    <value>Reset Password is succesful!</value>
+  </data>
+  <data name="ResetPassword_Message_Unsuccess" xml:space="preserve">
+    <value>Reset Password is unsuccesful!</value>
+  </data>
+  <data name="ResetPassword_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="ResetPassword_NewPassword_Enter" xml:space="preserve">
+    <value>Enter New Password</value>
+  </data>
+  <data name="ResetPassword_NewPassword_Required" xml:space="preserve">
+    <value>New Password is required.</value>
+  </data>
+  <data name="ResetPassword_PageTitle" xml:space="preserve">
+    <value>STADA - Reset Password</value>
+  </data>
+  <data name="ResetPassword_PageTitleArea" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveErrorMessage" xml:space="preserve">
+    <value>An error occurred while saving data. Please try again!</value>
+  </data>
+  <data name="SaveSuccessfullMessage" xml:space="preserve">
+    <value>Data was saved successfully!</value>
+  </data>
+  <data name="SecurityLeaveManagement_PageTitle" xml:space="preserve">
+    <value>STADA - Security Leave Management</value>
+  </data>
+  <data name="SecurityLeaveManagement_PageTitleArea" xml:space="preserve">
+    <value>Security Leave Management</value>
+  </data>
+  <data name="SelectAtLeastToApprove" xml:space="preserve">
+    <value>Please select at least 1 item to Approve!</value>
+  </data>
+  <data name="SelectAtLeastToReject" xml:space="preserve">
+    <value>Please select at least 1 item to Reject!</value>
+  </data>
+  <data name="ShiftManagement_AddShiftRequestButton" xml:space="preserve">
+    <value>Add Shift Request</value>
+  </data>
+  <data name="ShiftManagement_DataLoadFailError" xml:space="preserve">
+    <value>Failed to load data from server. Please try again!</value>
+  </data>
+  <data name="ShiftManagement_MyShift" xml:space="preserve">
+    <value>My Shift</value>
+  </data>
+  <data name="ShiftManagement_PageTitle" xml:space="preserve">
+    <value>STADA - Shift Management</value>
+  </data>
+  <data name="ShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Shift Management</value>
+  </data>
+  <data name="ShiftManagement_ShiftToBeApproved" xml:space="preserve">
+    <value>Shift Requests To Be Approved</value>
+  </data>
+  <data name="ShiftRequestConfirmMessage" xml:space="preserve">
+    <value>Are you sure you want to change current item? If Yes, the current item data will be lost.</value>
+  </data>
+  <data name="ShiftRequestExistedEmployeeMessage" xml:space="preserve">
+    <value>The current employee is already exists. Please try another employee!</value>
+  </data>
+  <data name="ShiftRequestForLabel" xml:space="preserve">
+    <value>Shift Request For</value>
+  </data>
+  <data name="ShiftRequest_CancelConfirm" xml:space="preserve">
+    <value>Are you sure you want to Cancel? Once you click Yes, all unsaved data will be lost.</value>
+  </data>
+  <data name="ShiftRequest_CancelConfirmationDialogTitle" xml:space="preserve">
+    <value>Cancel Confirmation</value>
+  </data>
+  <data name="ShiftRequest_DuplicateConfirmationDialogTitle" xml:space="preserve">
+    <value>Duplicate Confirmation</value>
+  </data>
+  <data name="ShiftRequest_DuplicateMessage" xml:space="preserve">
+    <value>Can not create shift for this user because this user was created shift by another manager.</value>
+  </data>
+  <data name="ShiftRequest_EmployeeIdGridColumn" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="ShiftRequest_EmployeeNameGridColumn" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="ShiftRequest_NoDataToSaveMessage" xml:space="preserve">
+    <value>No data to save</value>
+  </data>
+  <data name="ShiftRequest_NoItemDeleteMessage" xml:space="preserve">
+    <value>No item to delete</value>
+  </data>
+  <data name="ShiftRequest_PageTitle" xml:space="preserve">
+    <value>STADA - Shift Request</value>
+  </data>
+  <data name="ShiftRequest_PageTitleArea" xml:space="preserve">
+    <value>Shift Request</value>
+  </data>
+  <data name="ToDateGreaterThanFromDate" xml:space="preserve">
+    <value>To Date must be greater than From Date </value>
+  </data>
+  <data name="ViewShiftManagement_PageTitle" xml:space="preserve">
+    <value>STADA - View Shift Management</value>
+  </data>
+  <data name="ViewShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>View Shift Management</value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

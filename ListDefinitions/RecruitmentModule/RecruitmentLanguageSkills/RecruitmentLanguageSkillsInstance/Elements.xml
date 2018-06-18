@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,RecruitmentLanguageSkills_ListTitle"
+                OnQuickLaunch="TRUE"
+                TemplateType="14054"
+                Url="Lists/RecruitmentLanguageSkills"
+                Description="$Resources:RBVHStadaLists,RecruitmentLanguageSkills_ListTile">
+  </ListInstance>
+</Elements>

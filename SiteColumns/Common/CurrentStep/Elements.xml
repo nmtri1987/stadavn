@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}"
+       Name="CurrentStep"
+       DisplayName="Current Step"
+       Type="Lookup" List="Lists/EmployeePosition" ShowField="Code"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

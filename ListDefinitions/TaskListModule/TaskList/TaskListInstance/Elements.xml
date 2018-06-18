@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,TaskList_Name;" OnQuickLaunch="TRUE" TemplateType="171" Url="Lists/TaskList" Description="My List Instance"></ListInstance>
+  <!--<ContentTypeBinding ListUrl="Lists/TaskList" RootWebOnly="FALSE" ContentTypeId="0x0108003365C4474CAE8C42BCE396314E88E51F00B3B665719D9645DE92C926A2E7946D86" />-->
+</Elements>

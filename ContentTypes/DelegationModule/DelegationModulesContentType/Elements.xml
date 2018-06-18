@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100ED2F598D3C99495C9A875B6DBBAD7378"
+               Name="DelegationModulesContentType"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}" Name="ListURL" />
+      <FieldRef ID="{23f40eba-3702-4acf-ac4f-5185a4dfab34}" Name="ModuleName" />
+      <FieldRef ID="{cc4bc589-5246-4a05-b746-37b2c6204f45}" Name="VietnameseModuleName" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
+

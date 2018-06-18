@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c948c9fc-e443-4f83-ace6-0c7049154b9b}"
+       Name="VietnameseStatus"
+       DisplayName="Vietnamese Status"
+       Type="Calculated"
+       ResultType="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

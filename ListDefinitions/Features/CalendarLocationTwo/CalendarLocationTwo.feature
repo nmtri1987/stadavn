@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b393c84b-9e9f-43c2-9c03-f0fe249083d1" featureId="b393c84b-9e9f-43c2-9c03-f0fe249083d1" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="RBVH.Stada.Intranet.ListDefinitions Calendar Location 2" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

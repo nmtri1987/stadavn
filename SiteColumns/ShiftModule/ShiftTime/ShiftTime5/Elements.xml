@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cb080b98-4491-445c-9ace-a37711b073a7}"
+       Name="ShiftTime5"
+       DisplayName="ShiftTime5"
+   Type="Lookup" List="Lists/ShiftTime" ShowField="CommonName"
+       Required="False"
+       Group="Stada Columns">
+  </Field>
+</Elements>

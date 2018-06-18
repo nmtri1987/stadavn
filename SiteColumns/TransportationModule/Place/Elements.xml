@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{576cbeba-0ad4-4d51-9d5a-6d3da64b47dc}"
+       Name="Place"
+       DisplayName="Place"
+       Type="Text"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

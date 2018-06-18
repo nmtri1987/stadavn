@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{feaf487e-2313-413d-953e-3d2d361be795}"
+       Name="Equipment"
+       DisplayName="Equipment"
+       Type="LookupMulti" List="Lists/Equipments" ShowField="CommonName" Mult="TRUE"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

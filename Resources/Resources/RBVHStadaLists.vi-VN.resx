@@ -1,0 +1,2766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApprovalStatusFieldDisplayName" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="ChangeShiftList_ContentTypeDescription" xml:space="preserve">
+    <value>Quản lý đổi ca Content Type</value>
+  </data>
+  <data name="ChangeShiftList_ContentTypeTitle" xml:space="preserve">
+    <value>Quản lý đổi ca</value>
+  </data>
+  <data name="ChangeShiftList_Description" xml:space="preserve">
+    <value>Quản lý đổi ca</value>
+  </data>
+  <data name="ChangeShiftList_FromShift" xml:space="preserve">
+    <value>Từ ca</value>
+  </data>
+  <data name="ChangeShiftList_Title" xml:space="preserve">
+    <value>Quản lý đổi ca</value>
+  </data>
+  <data name="ChangeShiftList_ToShift" xml:space="preserve">
+    <value>Đến ca</value>
+  </data>
+  <data name="CommonFromFieldDisplayName" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="InProgressStatus" xml:space="preserve">
+    <value>Chờ duyệt</value>
+  </data>
+  <data name="LeaveList_ContentTypeDesciption" xml:space="preserve">
+    <value>Quản lý nghỉ phép Content Type</value>
+  </data>
+  <data name="LeaveList_ContentTypeTitle" xml:space="preserve">
+    <value>Quản lý nghỉ phép</value>
+  </data>
+  <data name="LeaveList_Leaved" xml:space="preserve">
+    <value>Đã nghỉ</value>
+  </data>
+  <data name="LeaveList_LeavedAt" xml:space="preserve">
+    <value>Giờ ra cổng</value>
+  </data>
+  <data name="LeaveList_LeaveHours" xml:space="preserve">
+    <value>Tổng số giờ nghỉ</value>
+  </data>
+  <data name="LeaveList_ToDateValidationMessage" xml:space="preserve">
+    <value>Ngày sau phải lớn hơn ngày trước</value>
+  </data>
+  <data name="LeaveList_TransferWorkTo" xml:space="preserve">
+    <value>Người nhận bàn giao</value>
+  </data>
+  <data name="ReasonFieldDisplayName" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequesterFieldDisplayName" xml:space="preserve">
+    <value>Người yêu cầu</value>
+  </data>
+  <data name="Submitted_WorkflowStatus" xml:space="preserve">
+    <value>Đã nộp</value>
+  </data>
+  <data name="ToFieldDisplayName" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="LeaveList_ListDescription" xml:space="preserve">
+    <value>Quản lý nghỉ phép</value>
+  </data>
+  <data name="LeaveList_ListTitle" xml:space="preserve">
+    <value>Quản lý nghỉ phép</value>
+  </data>
+  <data name="ChangeShiftList_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="ChangeShiftList_EmployeeID" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="ChangeShiftList_CommonFromInvalidError" xml:space="preserve">
+    <value>Người yêu cầu không có ca nào trong ngày này. Hãy chọn ngày khác</value>
+  </data>
+  <data name="OvertimeDetail_DeleleLabel" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="OvertimeDetail_EditLabel" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="OvertimeDetail_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="OvertimeDetail_EmployeeID" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="OvertimeDetail_OrderNumber" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeHour" xml:space="preserve">
+    <value>Số giờ làm thêm</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeHourFrom" xml:space="preserve">
+    <value>Làm thêm từ giờ</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeHourTo" xml:space="preserve">
+    <value>Làm thêm đến giờ</value>
+  </data>
+  <data name="OvertimeDetail_Task" xml:space="preserve">
+    <value>Nội dung công việc</value>
+  </data>
+  <data name="OvertimeDetail_WorkingHour" xml:space="preserve">
+    <value>Giờ làm việc trong ngày</value>
+  </data>
+  <data name="OvertimeDetail_WorkingHour_Label" xml:space="preserve">
+    <value>Giờ làm việc</value>
+  </data>
+  <data name="Overtime_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="Overtime_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="Overtime_Location" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="Overtime_OtherRequirement" xml:space="preserve">
+    <value>Yêu cầu khác</value>
+  </data>
+  <data name="Overtime_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="Overtime_SumEmployee" xml:space="preserve">
+    <value>Số người</value>
+  </data>
+  <data name="Overtime_SumMeal" xml:space="preserve">
+    <value>Số suất ăn</value>
+  </data>
+  <data name="Overtime_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="CompanyCalendar_ContentTypeTitle" xml:space="preserve">
+    <value>Lịch làm việc công ty - Chi nhánh 1</value>
+  </data>
+  <data name="Weekend" xml:space="preserve">
+    <value>Ngày nghỉ theo quy định công ty</value>
+  </data>
+  <data name="Compensation_Day_Off" xml:space="preserve">
+    <value>Nghỉ phép bù</value>
+  </data>
+  <data name="On_Leave" xml:space="preserve">
+    <value>Nghỉ phép</value>
+  </data>
+  <data name="CompanyDiscussion_ContentTypeTitle" xml:space="preserve">
+    <value>Thảo luận chung</value>
+  </data>
+  <data name="Announcement_ContentTypeTitle" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="Announcement_ListTitle" xml:space="preserve">
+    <value>Thông báo công ty</value>
+  </data>
+  <data name="Announcement_Priority" xml:space="preserve">
+    <value>Độ ưu tiên hiển thị</value>
+  </data>
+  <data name="Announcement_ShortContent" xml:space="preserve">
+    <value>Nội dung ngắn</value>
+  </data>
+  <data name="Document_ListTitle" xml:space="preserve">
+    <value>Tài liệu công ty</value>
+  </data>
+  <data name="Links_ListTitle" xml:space="preserve">
+    <value>Liên kết</value>
+  </data>
+  <data name="News_Body" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="News_InternalNews_ContentTypeTitle" xml:space="preserve">
+    <value>Tin tức nội bộ</value>
+  </data>
+  <data name="News_InternalNews_ListTitle" xml:space="preserve">
+    <value>Tin tức nội bộ</value>
+  </data>
+  <data name="News_MedicalNews_ContentTypeTitle" xml:space="preserve">
+    <value>Tin tức y khoa</value>
+  </data>
+  <data name="News_MedicalNews_ListTitle" xml:space="preserve">
+    <value>Tin tức Y khoa</value>
+  </data>
+  <data name="News_Priority" xml:space="preserve">
+    <value>Độ ưu tiên hiển thị</value>
+  </data>
+  <data name="News_ShortContent" xml:space="preserve">
+    <value>Nội dung tóm tắt</value>
+  </data>
+  <data name="CompanyCalendar2_ContentTypeTitle" xml:space="preserve">
+    <value>Lịch làm việc công ty - Chi nhánh 2</value>
+  </data>
+  <data name="CommonComment" xml:space="preserve">
+    <value>Ý kiến cấp trên</value>
+  </data>
+  <data name="LeaveTaskList_CommonComment" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="ApprovalStatus_Approved" xml:space="preserve">
+    <value>Đã duyệt</value>
+  </data>
+  <data name="ApprovalStatus_Cancelled" xml:space="preserve">
+    <value>Đã hủy</value>
+  </data>
+  <data name="ApprovalStatus_InProgress" xml:space="preserve">
+    <value>Đang chờ duyệt</value>
+  </data>
+  <data name="ApprovalStatus_Rejected" xml:space="preserve">
+    <value>Từ chối</value>
+  </data>
+  <data name="CancelLink" xml:space="preserve">
+    <value>Hủy yêu cầu</value>
+  </data>
+  <data name="CancelLink_Cancel" xml:space="preserve">
+    <value>Hủy yêu cầu</value>
+  </data>
+  <data name="ListDescription_Announcement" xml:space="preserve">
+    <value>Xem thông báo của công ty</value>
+  </data>
+  <data name="LeaveWFTaskList_ListTitle" xml:space="preserve">
+    <value>Danh sách nhiệm vụ quản lý nghỉ phép</value>
+  </data>
+  <data name="ListDescription_CompanyDiscussion" xml:space="preserve">
+    <value>Thảo luận các chủ đề chung của công ty</value>
+  </data>
+  <data name="ListDescription_Documents" xml:space="preserve">
+    <value>Xem tài liệu của công ty</value>
+  </data>
+  <data name="ListDescription_InternalNews" xml:space="preserve">
+    <value>Xem các tin tức nội bộ</value>
+  </data>
+  <data name="ListDescription_LeaveWFTaskList" xml:space="preserve">
+    <value>Danh sách các nhiệm vụ cần duyệt của quản lý nghỉ phép</value>
+  </data>
+  <data name="ListDescription_Links" xml:space="preserve">
+    <value>Liên kết đến các trang khác</value>
+  </data>
+  <data name="ListDescription_MedicalNews" xml:space="preserve">
+    <value>Xem các tin tức về Y khoa</value>
+  </data>
+  <data name="ListDescription_Pictures" xml:space="preserve">
+    <value>Xem hình ảnh của công ty</value>
+  </data>
+  <data name="Picture_ContentTypeTitle" xml:space="preserve">
+    <value>Hình ảnh</value>
+  </data>
+  <data name="LeaveList_Approver1" xml:space="preserve">
+    <value>Tổ trưởng</value>
+  </data>
+  <data name="LeaveList_Approver2" xml:space="preserve">
+    <value>Trưởng phòng</value>
+  </data>
+  <data name="LeaveList_Approver3" xml:space="preserve">
+    <value>Ban giám đốc</value>
+  </data>
+  <data name="LeaveList_From" xml:space="preserve">
+    <value>Thời gian nghỉ từ</value>
+  </data>
+  <data name="LeaveList_Reason" xml:space="preserve">
+    <value>Lý do nghỉ</value>
+  </data>
+  <data name="Announcement_Body" xml:space="preserve">
+    <value>Nội dung tin</value>
+  </data>
+  <data name="Announcement_Expires" xml:space="preserve">
+    <value>Hiệu lực đến</value>
+  </data>
+  <data name="Announcement_Image" xml:space="preserve">
+    <value>Hình</value>
+  </data>
+  <data name="Announcement_ContentTypeDescription" xml:space="preserve">
+    <value>Thông báo nội bộ</value>
+  </data>
+  <data name="Calendar_AllDayEvent" xml:space="preserve">
+    <value>Cả ngày</value>
+  </data>
+  <data name="Calendar_Category" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="Calendar_CategoryAnniversary" xml:space="preserve">
+    <value>Kỷ niệm</value>
+  </data>
+  <data name="Calendar_CategoryBirthday" xml:space="preserve">
+    <value>Sinh nhật</value>
+  </data>
+  <data name="Calendar_CategoryBusiness" xml:space="preserve">
+    <value>Đi công tác</value>
+  </data>
+  <data name="Calendar_CategoryCompanyDayOff" xml:space="preserve">
+    <value>Công ty nghỉ</value>
+  </data>
+  <data name="Calendar_CategoryCompensatioDayOff" xml:space="preserve">
+    <value>Làm bù</value>
+  </data>
+  <data name="Calendar_CategoryGetTogether" xml:space="preserve">
+    <value>Hẹn hò</value>
+  </data>
+  <data name="Calendar_CategoryGifts" xml:space="preserve">
+    <value>Quà tặng</value>
+  </data>
+  <data name="Calendar_CategoryHoliday" xml:space="preserve">
+    <value>Ngày nghỉ</value>
+  </data>
+  <data name="Calendar_CategoryMeeting" xml:space="preserve">
+    <value>Họp</value>
+  </data>
+  <data name="Calendar_CategoryOnLeave" xml:space="preserve">
+    <value>Nghỉ phép</value>
+  </data>
+  <data name="Calendar_CategoryWorkHours" xml:space="preserve">
+    <value>Thời gian làm việc</value>
+  </data>
+  <data name="Calendar_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Calendar_DescriptionHelper" xml:space="preserve">
+    <value>Nhờ trợ giúp bằng cách thêm mã HTML</value>
+  </data>
+  <data name="Calendar_EndTime" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="Calendar_FactoryLocation" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="Calendar_Location" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="Calendar_Recurrence" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="Calendar_StartTime" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <data name="Department_Code" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Department_NameVietnamese" xml:space="preserve">
+    <value>Tên tiếng việt</value>
+  </data>
+  <data name="Department_SortOrder" xml:space="preserve">
+    <value>Thứ tự sắp xếp</value>
+  </data>
+  <data name="Department_Title" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="Department_TitleDescription" xml:space="preserve">
+    <value>Tạo một phòng ban mới</value>
+  </data>
+  <data name="Department_UpperDepartment" xml:space="preserve">
+    <value>Bộ phận trực thuộc</value>
+  </data>
+  <data name="EmployeeInfo_ADAccount" xml:space="preserve">
+    <value>Tài khoản AD</value>
+  </data>
+  <data name="EmployeeInfo_Address" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="EmployeeInfo_Birthday" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="EmployeeInfo_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="EmployeeInfo_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmployeeInfo_EmployeeID" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="EmployeeInfo_EmployeeInfo" xml:space="preserve">
+    <value>Hồ sơ nhân viên</value>
+  </data>
+  <data name="EmployeeInfo_FactoryLocation" xml:space="preserve">
+    <value>Thuộc nhà máy</value>
+  </data>
+  <data name="EmployeeInfo_FirstName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="EmployeeInfo_FullName" xml:space="preserve">
+    <value>Họ và tên</value>
+  </data>
+  <data name="EmployeeInfo_Gender" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="EmployeeInfo_HomeTown" xml:space="preserve">
+    <value>Quê quán</value>
+  </data>
+  <data name="EmployeeInfo_IsCommonAccount" xml:space="preserve">
+    <value>Tài khoản phổ thông</value>
+  </data>
+  <data name="EmployeeInfo_IsActive" xml:space="preserve">
+    <value>Đang làm việc</value>
+  </data>
+  <data name="EmployeeInfo_JoinedDate" xml:space="preserve">
+    <value>Ngày bắt đầu làm việc ở công ty</value>
+  </data>
+  <data name="EmployeeInfo_LastName" xml:space="preserve">
+    <value>Họ</value>
+  </data>
+  <data name="EmployeeInfo_Manager" xml:space="preserve">
+    <value>Trưởng bộ phận</value>
+  </data>
+  <data name="EmployeeInfo_Picture" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="EmployeeInfo_Position" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="News_Image" xml:space="preserve">
+    <value>Hình của trang</value>
+  </data>
+  <data name="LeaveList_Requester" xml:space="preserve">
+    <value>Người làm đơn</value>
+  </data>
+  <data name="LeaveList_To" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="DepartmentTask_ListDescription" xml:space="preserve">
+    <value>Nhiệm vụ của phòng ban</value>
+  </data>
+  <data name="DepartmentTask_ListTitle" xml:space="preserve">
+    <value>Nhiệm vụ</value>
+  </data>
+  <data name="DepartmentTask_ContentTypeDesciption" xml:space="preserve">
+    <value>Nhiệm vụ phòng ban</value>
+  </data>
+  <data name="DepartmentTask_ContentTypeName" xml:space="preserve">
+    <value>Nhiệm vụ phòng ban</value>
+  </data>
+  <data name="EmployeePosition_ContentTypeDescription" xml:space="preserve">
+    <value>Danh sách chức vụ nhân viên</value>
+  </data>
+  <data name="EmployeePosition_ContentTypeTitle" xml:space="preserve">
+    <value>Chức vụ nhân viên</value>
+  </data>
+  <data name="EmployeePosition_ListTitle" xml:space="preserve">
+    <value>Chức vụ nhân viên</value>
+  </data>
+  <data name="EmployeePosition_NameField" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="Department_ListInstanceDescription" xml:space="preserve">
+    <value>Quản lý các phòng ban</value>
+  </data>
+  <data name="Department_ListInstanceTitle" xml:space="preserve">
+    <value>Các phòng ban</value>
+  </data>
+  <data name="EmployeeInfo_ListInstanceDescription" xml:space="preserve">
+    <value>Quản lý hồ sơ nhân viên</value>
+  </data>
+  <data name="EmployeeInfo_ListInstanceTitle" xml:space="preserve">
+    <value>Hồ sơ nhân viên</value>
+  </data>
+  <data name="EmployeeInfo_EmployeePermission" xml:space="preserve">
+    <value>Quyền trong phòng ban</value>
+  </data>
+  <data name="EmployeeInfo_EmployeeType" xml:space="preserve">
+    <value>Loại tài khoản</value>
+  </data>
+  <data name="EmployeeInfo_ViewDispName_AdUsers" xml:space="preserve">
+    <value>Các nhân viên AD</value>
+  </data>
+  <data name="EmployeeInfo_ViewDispName_CommonUsers" xml:space="preserve">
+    <value>Các nhân viên có tài khoản chung</value>
+  </data>
+  <data name="EmployeeInfo_ViewDispName_InActiveUsers" xml:space="preserve">
+    <value>Các nhân viên đã nghỉ</value>
+  </data>
+  <data name="DepartmentAnnouncement_Description" xml:space="preserve">
+    <value>Xem các thông báo của phòng ban</value>
+  </data>
+  <data name="DepartmentAnnouncement_ListTitle" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="DepartmentCalendar_Description" xml:space="preserve">
+    <value>Xem lịch của phòng ban</value>
+  </data>
+  <data name="DepartmentCalendar_ListTitle" xml:space="preserve">
+    <value>Lịch</value>
+  </data>
+  <data name="DepartmentDiscussion_Description" xml:space="preserve">
+    <value>Thảo luận của phòng ban</value>
+  </data>
+  <data name="DepartmentDiscussion_ListTitle" xml:space="preserve">
+    <value>Thảo luận</value>
+  </data>
+  <data name="DepartmentDocument_Description" xml:space="preserve">
+    <value>Tài liệu của phòng ban</value>
+  </data>
+  <data name="DepartmentDocument_ListTitle" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="EmployeeShiftTime_ListDescription" xml:space="preserve">
+    <value>Ca làm việc của nhân viên</value>
+  </data>
+  <data name="EmployeeShiftTime_ListTitle" xml:space="preserve">
+    <value>Ca của nhân viên</value>
+  </data>
+  <data name="Factories_ListDescription" xml:space="preserve">
+    <value>Các nhà máy</value>
+  </data>
+  <data name="Factories_ListTitle" xml:space="preserve">
+    <value>Các nhà máy</value>
+  </data>
+  <data name="MailTemplate_ListDescription" xml:space="preserve">
+    <value>Các biểu mẩu mail</value>
+  </data>
+  <data name="MailTemplate_ListTitle" xml:space="preserve">
+    <value>Biểu mẩu Email</value>
+  </data>
+  <data name="NotOverTimeManagement_ListDescription" xml:space="preserve">
+    <value>Quản lý không tăng ca</value>
+  </data>
+  <data name="NotOverTimeManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý nghỉ tăng ca</value>
+  </data>
+  <data name="OvertimeEmployeeDetails_ListDescription" xml:space="preserve">
+    <value>Chi tiết làm tăng ca của nhân viên</value>
+  </data>
+  <data name="OvertimeEmployeeDetails_ListTitle" xml:space="preserve">
+    <value>Chi tiết làm tăng ca</value>
+  </data>
+  <data name="OvertimeManagement_ListDescription" xml:space="preserve">
+    <value>Quản lý làm tăng ca</value>
+  </data>
+  <data name="OvertimeManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý tăng ca</value>
+  </data>
+  <data name="OvertimeWorkflowTaskList_ListDescription" xml:space="preserve">
+    <value>Danh sách nhiệm vụ quản lý tăng ca</value>
+  </data>
+  <data name="OvertimeWorkflowTaskList_ListTitle" xml:space="preserve">
+    <value>Danh sách nhiệm vụ quản lý tăng ca</value>
+  </data>
+  <data name="ShiftManagement_LisDescription" xml:space="preserve">
+    <value>Quản lý ca làm việc</value>
+  </data>
+  <data name="ShiftManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý ca</value>
+  </data>
+  <data name="ShiftTime_ListDescription" xml:space="preserve">
+    <value>Các ca làm việc</value>
+  </data>
+  <data name="ShiftTime_ListTitle" xml:space="preserve">
+    <value>Các ca làm việc</value>
+  </data>
+  <data name="ShiftWorkflowTaskList_ListDescription" xml:space="preserve">
+    <value>Danh sách nhiệm vụ quản lý ca làm việc</value>
+  </data>
+  <data name="ShiftWorkflowTaskList_ListTitle" xml:space="preserve">
+    <value>Danh sách nhiệm vụ quản lý ca</value>
+  </data>
+  <data name="WorkflowHistoryList_ListDescription" xml:space="preserve">
+    <value>Lịch sử dòng công việc</value>
+  </data>
+  <data name="WorkflowHistoryList_ListTitle" xml:space="preserve">
+    <value>Lịch sử dòng công việc</value>
+  </data>
+  <data name="Department_ShiftRequests" xml:space="preserve">
+    <value>Phải đăng ký ca</value>
+  </data>
+  <data name="ShiftManagementDetail_ListTitle" xml:space="preserve">
+    <value>Chi Tiết Quản Lý Ca</value>
+  </data>
+  <data name="ShiftManagement_ApprovalStatus" xml:space="preserve">
+    <value>Trạng thái duyệt</value>
+  </data>
+  <data name="ShiftManagement_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="ShiftManagement_IsValid" xml:space="preserve">
+    <value>Có hiệu lực</value>
+  </data>
+  <data name="ShiftManagement_Month" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="ShiftManagement_Requester" xml:space="preserve">
+    <value>Người yêu cầu</value>
+  </data>
+  <data name="ShiftManagement_Year" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="OvertimeDetail_EmployeeSignature" xml:space="preserve">
+    <value>Chữ ký người lao động</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeBreakHour" xml:space="preserve">
+    <value>Số giờ nghỉ trưa</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeBreakHourFrom" xml:space="preserve">
+    <value>Nghỉ trưa từ giờ</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeBreakHourTo" xml:space="preserve">
+    <value>Nghỉ trưa đến giờ</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeHourFrom" xml:space="preserve">
+    <value>Làm việc từ giờ</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeHourTo" xml:space="preserve">
+    <value>Làm việc đến giờ</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeWorkingHour" xml:space="preserve">
+    <value>Số giờ làm việc</value>
+  </data>
+  <data name="Department_Administrator" xml:space="preserve">
+    <value>Văn thư</value>
+  </data>
+  <data name="Department_BODApprover" xml:space="preserve">
+    <value>Người duyệt của Ban giám đốc</value>
+  </data>
+  <data name="ShiftTime_Description" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="OvertimeDetail_HM" xml:space="preserve">
+    <value>HM</value>
+  </data>
+  <data name="OvertimeDetail_KD" xml:space="preserve">
+    <value>KD</value>
+  </data>
+  <data name="OvertimeDetail_TransportAtHM" xml:space="preserve">
+    <value>Xe đưa đón HM</value>
+  </data>
+  <data name="OvertimeDetail_TransportAtKD" xml:space="preserve">
+    <value>Xe đưa đón KD</value>
+  </data>
+  <data name="OvertimeDetail_InvalidTwoDates" xml:space="preserve">
+    <value>Ngày không hợp lệ</value>
+  </data>
+  <data name="NotOverTimeManagement_ApprovalStatus" xml:space="preserve">
+    <value>Trạng thái duyệt</value>
+  </data>
+  <data name="NotOverTimeManagement_Approver1" xml:space="preserve">
+    <value>Trưởng phòng</value>
+  </data>
+  <data name="NotOverTimeManagement_Approver2" xml:space="preserve">
+    <value>Ban giám đốc</value>
+  </data>
+  <data name="NotOverTimeManagement_DepartmentName" xml:space="preserve">
+    <value>Tên bộ phận</value>
+  </data>
+  <data name="NotOverTimeManagement_EmployeeId" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="NotOverTimeManagement_HoursPerDay" xml:space="preserve">
+    <value>Số giờ trong ngày</value>
+  </data>
+  <data name="NotOverTimeManagement_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="NotOverTimeManagement_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="NotOverTimeManagement_Date" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="NotOverTimeManagement_From" xml:space="preserve">
+    <value>Từ giờ</value>
+  </data>
+  <data name="NotOverTimeManagement_FromToValidation" xml:space="preserve">
+    <value>Giờ sau phải lớn hơn giờ trước</value>
+  </data>
+  <data name="NotOverTimeManagement_To" xml:space="preserve">
+    <value>Đến giờ</value>
+  </data>
+  <data name="ShiftManagement_Time" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="ShiftManagement_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="ShiftManagement_ViewDetail" xml:space="preserve">
+    <value>Xem Chi Tiết</value>
+  </data>
+  <data name="EmployeePosition_Level" xml:space="preserve">
+    <value>Cấp bậc</value>
+  </data>
+  <data name="Overtime_Date" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="Overtime_InvalidHours" xml:space="preserve">
+    <value>Tăng ca phải lớn hơn giờ bắt đầu và không tính giờ nghỉ trưa</value>
+  </data>
+  <data name="Overtime_DeleteRow" xml:space="preserve">
+    <value>Bạn có muốn xóa dòng dữ liệu này không?</value>
+  </data>
+  <data name="NotOvertimeWorkflowTaskList_ListTitle" xml:space="preserve">
+    <value>Danh sách nhiệm vụ quản lý nghỉ tăng ca</value>
+  </data>
+  <data name="Overtime_RequiredFieldsMessage" xml:space="preserve">
+    <value>Vui lòng nhập dữ liệu hợp lệ vào những trường màu đỏ</value>
+  </data>
+  <data name="NotOverTimeManagement_CancelRequest" xml:space="preserve">
+    <value>Hủy Yêu Cầu</value>
+  </data>
+  <data name="ChangeShiftList_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="ChangeShiftList_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="ChangeShiftList_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="Tasks_Closed" xml:space="preserve">
+    <value>Đã đóng</value>
+  </data>
+  <data name="ChangeShiftManagement_Approver1" xml:space="preserve">
+    <value>Trưởng phòng</value>
+  </data>
+  <data name="ChangeShiftManagement_Approver2" xml:space="preserve">
+    <value>Ban giám đốc</value>
+  </data>
+  <data name="NotOvertimeManagement_TaskName" xml:space="preserve">
+    <value>Tên Nhiệm Vụ</value>
+  </data>
+  <data name="EmployeePosition_Code" xml:space="preserve">
+    <value>Mã chức vụ</value>
+  </data>
+  <data name="EmployeePosition_VNName" xml:space="preserve">
+    <value>Tên chức vụ (Tiếng Việt)</value>
+  </data>
+  <data name="NotOvertimeManagement_TaskStatus" xml:space="preserve">
+    <value>Tình Trạng Nhiệm Vụ</value>
+  </data>
+  <data name="NotOvertimeManagement_TaskOutCome" xml:space="preserve">
+    <value>Kết Quả Nhiệm Vụ</value>
+  </data>
+  <data name="TaskStatus_Completed" xml:space="preserve">
+    <value>Hoàn Thành</value>
+  </data>
+  <data name="TaskStatus_InProgress" xml:space="preserve">
+    <value>Đang Chờ</value>
+  </data>
+  <data name="ChangeShiftManagement_ApprovalStatus" xml:space="preserve">
+    <value>Trạng thái duyệt</value>
+  </data>
+  <data name="ChangeShiftManagement_CancelRequest" xml:space="preserve">
+    <value>Hủy yêu cầu</value>
+  </data>
+  <data name="ChangeShiftManagement_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="ShiftManagement_EditTitle" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="ShiftManagement_ViewTitle" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="CompanyVehicles_Description" xml:space="preserve">
+    <value>Mô Tả</value>
+  </data>
+  <data name="CompanyVehicles_ListTitle" xml:space="preserve">
+    <value>Phương Tiện Công Ty</value>
+  </data>
+  <data name="CompanyVehicles_Place" xml:space="preserve">
+    <value>Nơi Đón</value>
+  </data>
+  <data name="CompanyVehicles_Time" xml:space="preserve">
+    <value>Thời Gian Khởi Hành</value>
+  </data>
+  <data name="VehicleManagement_ApprovalStatus" xml:space="preserve">
+    <value>Trạng thái duyệt </value>
+  </data>
+  <data name="VehicleManagement_BOD" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="VehicleManagement_CommonFrom" xml:space="preserve">
+    <value>Từ Giờ</value>
+  </data>
+  <data name="VehicleManagement_CommonTo" xml:space="preserve">
+    <value>Đến Giờ </value>
+  </data>
+  <data name="VehicleManagement_CompanyPickup" xml:space="preserve">
+    <value>Công Ty Đón</value>
+  </data>
+  <data name="VehicleManagement_HOD" xml:space="preserve">
+    <value>Người Duyệt</value>
+  </data>
+  <data name="VehicleManagement_ListTitle" xml:space="preserve">
+    <value>Quản Lý Phương Tiện</value>
+  </data>
+  <data name="VehicleManagement_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="VehicleManagement_Requester" xml:space="preserve">
+    <value>Người Yêu Cầu</value>
+  </data>
+  <data name="VehicleManagement_VehicleType" xml:space="preserve">
+    <value>Loại </value>
+  </data>
+  <data name="VehicleManagement_VehicleType_Choice_Company" xml:space="preserve">
+    <value>Phương Tiện Công Ty</value>
+  </data>
+  <data name="VehicleManagement_VehicleType_Choice_Private" xml:space="preserve">
+    <value>Phương Tiện Cá Nhân</value>
+  </data>
+  <data name="LeaveList_ApprovalStatus" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="OvertimeManagement_ApprovedBy" xml:space="preserve">
+    <value>Duyệt bởi</value>
+  </data>
+  <data name="ShiftManagement_ApprovedBy" xml:space="preserve">
+    <value>Duyệt bởi</value>
+  </data>
+  <data name="MailTemplate_Body" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="MailTemplate_Category" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="MailTemplate_Key" xml:space="preserve">
+    <value>Từ Khóa</value>
+  </data>
+  <data name="MailTemplate_Note" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="MailTemplate_Subject" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="LeaveList_Avatar" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="LeaveList_LeftButton" xml:space="preserve">
+    <value>Đã ra cổng</value>
+  </data>
+  <data name="LeaveList_Comment" xml:space="preserve">
+    <value>Ý kiến cấp trên</value>
+  </data>
+  <data name="LeaveList_ApprovalStatus1" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="CommonAddApprover1" xml:space="preserve">
+    <value>Người duyệt phụ</value>
+  </data>
+  <data name="ShiftManagement_AdditionalApprovers" xml:space="preserve">
+    <value>Người duyệt thay thế</value>
+  </data>
+  <data name="ShiftManagement_Approver" xml:space="preserve">
+    <value>Người duyệt</value>
+  </data>
+  <data name="Overtime_Place" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="ShiftManagement_Location" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="ModuleCategory_ListDescription" xml:space="preserve">
+    <value>Danh mục các module</value>
+  </data>
+  <data name="ModuleCategory_ListTitle" xml:space="preserve">
+    <value>Danh mục module</value>
+  </data>
+  <data name="ModuleCategory_Name" xml:space="preserve">
+    <value>Tên tiếng Anh</value>
+  </data>
+  <data name="ModuleCategory_NameVietnamese" xml:space="preserve">
+    <value>Tên tiếng Việt</value>
+  </data>
+  <data name="Permission_GroupAccess" xml:space="preserve">
+    <value>Nhóm có quyền truy cập</value>
+  </data>
+  <data name="Permission_IsOnLeftMenu" xml:space="preserve">
+    <value>Hiển thị trên menu trái</value>
+  </data>
+  <data name="Permission_LeftMenuOrder" xml:space="preserve">
+    <value>Thứ tự hiển thị</value>
+  </data>
+  <data name="Permission_ModuleCategory" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="Permission_Name" xml:space="preserve">
+    <value>Tên tiếng Anh</value>
+  </data>
+  <data name="Permission_NameVietnamese" xml:space="preserve">
+    <value>Tên tiếng Việt</value>
+  </data>
+  <data name="Permission_PageName" xml:space="preserve">
+    <value>URL trang</value>
+  </data>
+  <data name="Groups_ListDescription" xml:space="preserve">
+    <value>Các nhóm của site</value>
+  </data>
+  <data name="Groups_ListTitle" xml:space="preserve">
+    <value>Các nhóm</value>
+  </data>
+  <data name="Permission_ListDescription" xml:space="preserve">
+    <value>Quyền của các nhóm</value>
+  </data>
+  <data name="Permission_ListTitle" xml:space="preserve">
+    <value>Quyền của các nhóm</value>
+  </data>
+  <data name="OvertimeDetail_ApprovalStatus" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeDate" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeManagementID" xml:space="preserve">
+    <value>Quản lý tăng ca ID</value>
+  </data>
+  <data name="OvertimeDetail_PositionLevel" xml:space="preserve">
+    <value>Cấp nhân viên</value>
+  </data>
+  <data name="ChangeShiftManagement_Approver" xml:space="preserve">
+    <value>Người duyệt</value>
+  </data>
+  <data name="NotOverTimeManagement_Approver" xml:space="preserve">
+    <value>Người duyệt</value>
+  </data>
+  <data name="EmployeeInfo_DisplayName" xml:space="preserve">
+    <value>Tên hiển thị</value>
+  </data>
+  <data name="Department_IsBODApprovalRequired" xml:space="preserve">
+    <value>Yêu cầu ban giám đốc duyệt </value>
+  </data>
+  <data name="EmployeeInfo_PositionLevel" xml:space="preserve">
+    <value>Cấp bậc</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>(Không có)</value>
+  </data>
+  <data name="TaskList_Name" xml:space="preserve">
+    <value>Danh Sách Nhiệm Vụ</value>
+  </data>
+  <data name="StepList_Title" xml:space="preserve">
+    <value>Danh Sách Các Bước Nhiệm Vụ</value>
+  </data>
+  <data name="OvertimeDetail_ViewDetail" xml:space="preserve">
+    <value>Xem chi tiết</value>
+  </data>
+  <data name="ChangeShiftManagement_EditTitle" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="ChangeShiftManagement_ViewTitle" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="NotOvertimeManagement_ViewTitle" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="OvertimeDetail_CompanyTransport" xml:space="preserve">
+    <value>Xe Đưa Đón</value>
+  </data>
+  <data name="LeaveList_AdditionalApprover" xml:space="preserve">
+    <value>Người duyệt thay thế</value>
+  </data>
+  <data name="LeaveList_Approver" xml:space="preserve">
+    <value>Người duyệt</value>
+  </data>
+  <data name="LeaveList_RequestFor" xml:space="preserve">
+    <value>Làm đơn cho</value>
+  </data>
+  <data name="LeaveList_UnexpectedLeave" xml:space="preserve">
+    <value>Nghỉ đột xuất</value>
+  </data>
+  <data name="LeaveList_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="LeaveList_Location" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="LeaveList_ViewDetail" xml:space="preserve">
+    <value>Xem Chi Tiết</value>
+  </data>
+  <data name="LeaveList_CancelRequest" xml:space="preserve">
+    <value>Hủy yêu cầu</value>
+  </data>
+  <data name="LeaveList_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="LeaveList_IsValidRequest" xml:space="preserve">
+    <value>Đăng ký đúng quy định</value>
+  </data>
+  <data name="LeaveList_TotalDays" xml:space="preserve">
+    <value>Số ngày nghỉ</value>
+  </data>
+  <data name="LeaveList_Approver4" xml:space="preserve">
+    <value>Trưởng nhóm</value>
+  </data>
+  <data name="Calendar_OtherCategories" xml:space="preserve">
+    <value>Sự kiện khác</value>
+  </data>
+  <data name="RequestList_ContentTypeDesciption" xml:space="preserve">
+    <value>Phiếu đề nghị Content Type</value>
+  </data>
+  <data name="RequestList_ContentTypeTitle" xml:space="preserve">
+    <value>Phiếu đề nghị</value>
+  </data>
+  <data name="RequestBuyDetailsList_ContentTypeDescription" xml:space="preserve">
+    <value>Chi tiết yêu cầu mua hàng Content Type</value>
+  </data>
+  <data name="RequestBuyDetailsList_ContentTypeTitle" xml:space="preserve">
+    <value>Chi tiết yêu cầu mua hàng</value>
+  </data>
+  <data name="RequestOtherDetailsList_ContentTypeDescription" xml:space="preserve">
+    <value>Chi tiết yêu cầu khác Content Type</value>
+  </data>
+  <data name="RequestOtherDetailsList_ContentTypeTitle" xml:space="preserve">
+    <value>Chi tiết yêu cầu khác</value>
+  </data>
+  <data name="RequestRepairDetailsList_ContentTypeDescription" xml:space="preserve">
+    <value>Chi tiết yêu cầu sửa chữa Content Type</value>
+  </data>
+  <data name="RequestRepairDetailsList_ContentTypeTitle" xml:space="preserve">
+    <value>Chi tiết yêu cầu sửa chữa</value>
+  </data>
+  <data name="RequestTypeList_ContentTypeDesciption" xml:space="preserve">
+    <value>Loại đề nghị Content Type</value>
+  </data>
+  <data name="RequestTypeList_ContentTypeTitle" xml:space="preserve">
+    <value>Loại đề nghị</value>
+  </data>
+  <data name="RequestList_ListDescription" xml:space="preserve">
+    <value>Phiếu đề nghị</value>
+  </data>
+  <data name="RequestList_ListTitle" xml:space="preserve">
+    <value>Các yêu cầu</value>
+  </data>
+  <data name="RequestTypeList_ListDesciption" xml:space="preserve">
+    <value>Loại đề nghị</value>
+  </data>
+  <data name="RequestTypeList_ListTitle" xml:space="preserve">
+    <value>Loại đề nghị</value>
+  </data>
+  <data name="RequestList_ListDesciption" xml:space="preserve">
+    <value>Phiếu đề nghị</value>
+  </data>
+  <data name="ShiftManagement_ModifiedBy" xml:space="preserve">
+    <value>Cập nhật bởi</value>
+  </data>
+  <data name="Calendar_CategoryOtherEvents" xml:space="preserve">
+    <value>Sự kiện khác</value>
+  </data>
+  <data name="TaskList_Department" xml:space="preserve">
+    <value>Phòng Ban</value>
+  </data>
+  <data name="TaskList_ItemId" xml:space="preserve">
+    <value>Định Danh Mục</value>
+  </data>
+  <data name="TaskList_ItemURL" xml:space="preserve">
+    <value>Đường Dẫn Mục</value>
+  </data>
+  <data name="TaskList_ListURL" xml:space="preserve">
+    <value>Đường Dẫn Danh Sách</value>
+  </data>
+  <data name="TaskList_NextAssignTo" xml:space="preserve">
+    <value>Người Duyệt Kế Tiếp</value>
+  </data>
+  <data name="TaskList_RelatedTasks" xml:space="preserve">
+    <value>Nhiệm Vụ Liên Quan</value>
+  </data>
+  <data name="TaskList_StepModule" xml:space="preserve">
+    <value>Mô-đun</value>
+  </data>
+  <data name="TaskList_StepStatus" xml:space="preserve">
+    <value>Trạng Thái Hiện Tại</value>
+  </data>
+  <data name="VehicleManagement_Department" xml:space="preserve">
+    <value>Phòng Ban</value>
+  </data>
+  <data name="FreightManagement_ListDescription" xml:space="preserve">
+    <value>Quản Lý Vận Chuyển Hàng Hóa</value>
+  </data>
+  <data name="FreightManagement_ListTitle" xml:space="preserve">
+    <value>Quản Lý Vận Chuyển Hàng Hóa</value>
+  </data>
+  <data name="FreightDetails_ListDescription" xml:space="preserve">
+    <value>Chi Tiết Hàng Vào</value>
+  </data>
+  <data name="FreightDetails_ListTitle" xml:space="preserve">
+    <value>Chi Tiết Hàng Vào</value>
+  </data>
+  <data name="FreightManagement_OtherReason" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="FreightManagement_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="FreightManagement_Receiver" xml:space="preserve">
+    <value>Người nhận</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartment" xml:space="preserve">
+    <value>Phòng ban người nhận</value>
+  </data>
+  <data name="FreightManagement_ReceiverLocation" xml:space="preserve">
+    <value>Nhà máy người nhận</value>
+  </data>
+  <data name="FreightManagement_ReceiverPhone" xml:space="preserve">
+    <value>Điện thoại người nhận</value>
+  </data>
+  <data name="FreightManagement_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="FreightManagement_ReturnedGoods" xml:space="preserve">
+    <value>Mang hàng vào</value>
+  </data>
+  <data name="FreightManagement_ShippingIn" xml:space="preserve">
+    <value>Mang hàng vào lúc</value>
+  </data>
+  <data name="FreightManagement_ShippingOut" xml:space="preserve">
+    <value>Mang hàng ra lúc</value>
+  </data>
+  <data name="FreightManagement_TransportTime" xml:space="preserve">
+    <value>Thời gian mang hàng ra</value>
+  </data>
+  <data name="FreightDetails_FreightManagementID" xml:space="preserve">
+    <value>Vận chuyển hàng hóa ID</value>
+  </data>
+  <data name="FreightDetails_GoodsName" xml:space="preserve">
+    <value>Tên hàng</value>
+  </data>
+  <data name="FreightDetails_Quantity" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="FreightDetails_Remarks" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="FreightDetails_Unit" xml:space="preserve">
+    <value>ĐVT</value>
+  </data>
+  <data name="Approval_AdditionalDepartment" xml:space="preserve">
+    <value>Phòng duyệt phụ</value>
+  </data>
+  <data name="Approval_AdditionalNextStep" xml:space="preserve">
+    <value>Bước duyệt phụ tiếp theo</value>
+  </data>
+  <data name="Approval_AdditionalPreviousStep" xml:space="preserve">
+    <value>Bước duyệt phụ trước</value>
+  </data>
+  <data name="Approval_AdditionalStep" xml:space="preserve">
+    <value>Bước duyệt phụ</value>
+  </data>
+  <data name="Approval_ApprovalStatus" xml:space="preserve">
+    <value>Tình trạng duyệt</value>
+  </data>
+  <data name="Approval_AssignFrom" xml:space="preserve">
+    <value>Chuyển từ</value>
+  </data>
+  <data name="Approval_AssignTo" xml:space="preserve">
+    <value>Giao cho</value>
+  </data>
+  <data name="Approval_CommonCreator" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
+  <data name="Approval_CommonDepartment" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="Approval_CommonDueDate" xml:space="preserve">
+    <value>Ngày tới hạn</value>
+  </data>
+  <data name="Approval_CommonLocation" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="Approval_CurrentStep" xml:space="preserve">
+    <value>Bước hiện tại</value>
+  </data>
+  <data name="Approval_IsAdditionalStep" xml:space="preserve">
+    <value>Bước duyệt phụ</value>
+  </data>
+  <data name="Approval_NextStep" xml:space="preserve">
+    <value>Bước tiếp theo</value>
+  </data>
+  <data name="Approval_PendingAt" xml:space="preserve">
+    <value>Người chờ duyệt hiện tại</value>
+  </data>
+  <data name="RequestList_FinishDate" xml:space="preserve">
+    <value>Ngày hoàn thành</value>
+  </data>
+  <data name="RequestList_ReceviedBy" xml:space="preserve">
+    <value>Phòng nhận</value>
+  </data>
+  <data name="RequestList_ReferRequest" xml:space="preserve">
+    <value>Khoản mục liên quan</value>
+  </data>
+  <data name="RequestList_RequestTypeRef" xml:space="preserve">
+    <value>Loại yêu cầu</value>
+  </data>
+  <data name="RequestList_RequiredApprovalByBOD" xml:space="preserve">
+    <value>Yêu cầu Ban giám đốc duyệt</value>
+  </data>
+  <data name="WorkflowHistory_CommonComment" xml:space="preserve">
+    <value>Ý kiến cấp trên</value>
+  </data>
+  <data name="WorkflowHistory_CommonDate" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="WorkflowHistory_ItemID" xml:space="preserve">
+    <value>ID của khoản mục</value>
+  </data>
+  <data name="WorkflowHistory_ListName" xml:space="preserve">
+    <value>Tên list</value>
+  </data>
+  <data name="WorkflowHistory_ListTile" xml:space="preserve">
+    <value>Lịch sử các quy trình</value>
+  </data>
+  <data name="WorkflowHistory_PostedBy" xml:space="preserve">
+    <value>Đăng bởi</value>
+  </data>
+  <data name="WorkflowHistory_Status" xml:space="preserve">
+    <value>Tình trạng duyệt</value>
+  </data>
+  <data name="WorkflowSteps_CurrentStep" xml:space="preserve">
+    <value>Bước hiện tại</value>
+  </data>
+  <data name="WorkflowSteps_ListName" xml:space="preserve">
+    <value>Tên list</value>
+  </data>
+  <data name="WorkflowSteps_ListTile" xml:space="preserve">
+    <value>Các bước trong quy trình</value>
+  </data>
+  <data name="WorkflowSteps_NextStep" xml:space="preserve">
+    <value>Bước kế tiếp</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailCcEmployees" xml:space="preserve">
+    <value>Email Cc đến nhân viên</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailCcRoles" xml:space="preserve">
+    <value>Email Cc  đến chức vụ</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailToEmployees" xml:space="preserve">
+    <value>Email đến nhân viên</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailToRoles" xml:space="preserve">
+    <value>Email đến chức vụ</value>
+  </data>
+  <data name="WorkflowSteps_AllowReject" xml:space="preserve">
+    <value>Được từ chối</value>
+  </data>
+  <data name="WorkflowSteps_ConditionalExpression" xml:space="preserve">
+    <value>Biểu thức điều kiện</value>
+  </data>
+  <data name="WorkflowSteps_OrderStep" xml:space="preserve">
+    <value>Thứ tự bước</value>
+  </data>
+  <data name="FreightManagement_Approver1" xml:space="preserve">
+    <value>Trưởng phòng</value>
+  </data>
+  <data name="FreightManagement_Approver2" xml:space="preserve">
+    <value>Ban giám đốc</value>
+  </data>
+  <data name="FreightManagement_Approver3" xml:space="preserve">
+    <value>Trưởng phòng hành chánh</value>
+  </data>
+  <data name="FreightManagement_Bringer" xml:space="preserve">
+    <value>Người mang hàng</value>
+  </data>
+  <data name="FreightManagement_BringerInName" xml:space="preserve">
+    <value>Tên người mang hàng vào</value>
+  </data>
+  <data name="FreightManagement_BringerName" xml:space="preserve">
+    <value>Người mang hàng</value>
+  </data>
+  <data name="FreightManagement_CompanyName" xml:space="preserve">
+    <value>Tên công ty</value>
+  </data>
+  <data name="RequestList_RequestTypeRefId" xml:space="preserve">
+    <value>ID loại yêu cầu</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Action" xml:space="preserve">
+    <value>Hành động</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Body" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="WorkflowEmailTemplates_ContentTypeTitle" xml:space="preserve">
+    <value>Mẫu email cho quy trình</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Key" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="WorkflowEmailTemplates_ListName" xml:space="preserve">
+    <value>Tên danh sách</value>
+  </data>
+  <data name="WorkflowEmailTemplates_ListTitle" xml:space="preserve">
+    <value>Mẫu email cho quy trình</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Subject" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="RequestBuyDetails_Content" xml:space="preserve">
+    <value>Nội dung yêu cầu</value>
+  </data>
+  <data name="RequestBuyDetails_Form" xml:space="preserve">
+    <value>Biểu mẫu</value>
+  </data>
+  <data name="RequestBuyDetails_ListTitle" xml:space="preserve">
+    <value>Chi tiết yêu cầu mua hàng</value>
+  </data>
+  <data name="RequestBuyDetails_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="RequestBuyDetails_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequestBuyDetails_Request" xml:space="preserve">
+    <value>Yêu cầu</value>
+  </data>
+  <data name="RequestBuyDetails_Unit" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="RequestOtherDetails_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="RequestOtherDetails_ListTitle" xml:space="preserve">
+    <value>Chi tiết các yêu cầu khác</value>
+  </data>
+  <data name="RequestOtherDetails_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="RequestOtherDetails_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequestOtherDetails_Request" xml:space="preserve">
+    <value>Yêu cầu</value>
+  </data>
+  <data name="RequestOtherDetails_Unit" xml:space="preserve">
+    <value>Đơn vị</value>
+  </data>
+  <data name="RequestRepairDetails_Content" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="RequestRepairDetails_From" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="RequestRepairDetails_ListTitle" xml:space="preserve">
+    <value>Chi tiết yêu cầu sửa chữa</value>
+  </data>
+  <data name="RequestRepairDetails_Place" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="RequestRepairDetails_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="RequestRepairDetails_Request" xml:space="preserve">
+    <value>Yêu cầu</value>
+  </data>
+  <data name="RequestRepairDetails_To" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="Requests_ListTitle" xml:space="preserve">
+    <value>Các yêu cầu</value>
+  </data>
+  <data name="Approval_WFStatus" xml:space="preserve">
+    <value>Trạng thái quy trình</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>Khoản mục mới</value>
+  </data>
+  <data name="RequestList_CreatedDate" xml:space="preserve">
+    <value>Ngày tạo</value>
+  </data>
+  <data name="RequestList_EditView" xml:space="preserve">
+    <value>Sửa | Xem</value>
+  </data>
+  <data name="RequestList_Requester" xml:space="preserve">
+    <value>Người tạo</value>
+  </data>
+  <data name="RequestList_Title" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Forms_ListTitle" xml:space="preserve">
+    <value>Các biểu mẫu</value>
+  </data>
+  <data name="RequestTypeList_Departments" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="RequestTypeList_RequestType" xml:space="preserve">
+    <value>Loại yêu cầu</value>
+  </data>
+  <data name="RequestTypeList_RequestTypeName" xml:space="preserve">
+    <value>Tên loại yêu cầu</value>
+  </data>
+  <data name="SupportingDocuments_ListTitle" xml:space="preserve">
+    <value>Tài liệu hỗ trợ</value>
+  </data>
+  <data name="LeaveList_EnterTime" xml:space="preserve">
+    <value>Giờ vào cổng</value>
+  </data>
+  <data name="LeaveList_Entered" xml:space="preserve">
+    <value>Đã vào cổng</value>
+  </data>
+  <data name="LeaveList_CheckInBy" xml:space="preserve">
+    <value>Người cho vào</value>
+  </data>
+  <data name="LeaveList_CheckOutBy" xml:space="preserve">
+    <value>Người cho ra</value>
+  </data>
+  <data name="FreightManagement_SecurityNotes" xml:space="preserve">
+    <value>Ghi chú của bảo vệ</value>
+  </data>
+  <data name="FreightDetails_ContentType_Description" xml:space="preserve">
+    <value>Freight Details</value>
+  </data>
+  <data name="FreightManagement_ContentType_Description" xml:space="preserve">
+    <value>Freight Management</value>
+  </data>
+  <data name="ShiftTime_UnexpLeaveFirstApprovalRole" xml:space="preserve">
+    <value>Người duyệt nghỉ đột xuất</value>
+  </data>
+  <data name="Common_ColForSort" xml:space="preserve">
+    <value>Sắp xếp</value>
+  </data>
+  <data name="FreightManagement_ApprovalStatus" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="FreightManagement_CancelRequest" xml:space="preserve">
+    <value>Hủy yêu cầu</value>
+  </data>
+  <data name="FreightManagement_ViewDetail" xml:space="preserve">
+    <value>Xem Chi Tiết</value>
+  </data>
+  <data name="FreightManagement_ViewTitle" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="FreightManagement_IsHighPriority" xml:space="preserve">
+    <value>Cần duyệt bởi BOD</value>
+  </data>
+  <data name="RequestList_StatusOrder" xml:space="preserve">
+    <value>Trạng thái sắp xếp</value>
+  </data>
+  <data name="FreightManagement_CheckInBy" xml:space="preserve">
+    <value>Người cho vào</value>
+  </data>
+  <data name="FreightManagement_CheckOutBy" xml:space="preserve">
+    <value>Người cho ra</value>
+  </data>
+  <data name="ShiftTime_ShiftRequired" xml:space="preserve">
+    <value>Đăng ký ca</value>
+  </data>
+  <data name="EmployeeRequirementSheets_FromAge" xml:space="preserve">
+    <value>Từ tuổi</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Appearance" xml:space="preserve">
+    <value>Ngoại hình</value>
+  </data>
+  <data name="EmployeeRequirementSheets_AvailableTime" xml:space="preserve">
+    <value>Ngày cần nhân sự</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ComputerSkills" xml:space="preserve">
+    <value>Trình độ vi tính</value>
+  </data>
+  <data name="EmployeeRequirementSheets_DepartmentCode" xml:space="preserve">
+    <value>Mã phòng ban</value>
+  </data>
+  <data name="EmployeeRequirementSheets_DescriptionOfBasicWork" xml:space="preserve">
+    <value>Công việc cơ bản</value>
+  </data>
+  <data name="EmployeeRequirementSheets_EducationLevel" xml:space="preserve">
+    <value>Trình độ học vấn</value>
+  </data>
+  <data name="EmployeeRequirementSheets_EnglishSkills" xml:space="preserve">
+    <value>Trình độ tiếng Anh</value>
+  </data>
+  <data name="EmployeeRequirementSheets_MaritalStatus" xml:space="preserve">
+    <value>Tình trạng hôn nhân</value>
+  </data>
+  <data name="EmployeeRequirementSheets_MoralVocations" xml:space="preserve">
+    <value>Phẩm chất cá nhân</value>
+  </data>
+  <data name="EmployeeRequirementSheets_OtherRequirement" xml:space="preserve">
+    <value>Yêu cầu khác</value>
+  </data>
+  <data name="EmployeeRequirementSheets_OtherSkills" xml:space="preserve">
+    <value>Kỹ năng khác</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Position" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ReasonsForRecruitment" xml:space="preserve">
+    <value>Lý do tuyển dụng</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Sex" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Specialities" xml:space="preserve">
+    <value>Chuyên môn</value>
+  </data>
+  <data name="EmployeeRequirementSheets_WorkingAbilities" xml:space="preserve">
+    <value>Năng lực làm việc</value>
+  </data>
+  <data name="EmployeeRequirementSheets_WorkingExperience" xml:space="preserve">
+    <value>Kinh nghiệm làm việc</value>
+  </data>
+  <data name="EmployeeRequirementSheets_WorkingTime" xml:space="preserve">
+    <value>Thời gian làm việc</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ListTitle" xml:space="preserve">
+    <value>Các yêu cầu tuyển dụng</value>
+  </data>
+  <data name="ForeignLanguageLevels_ListTitle" xml:space="preserve">
+    <value>Trình độ ngôn ngữ</value>
+  </data>
+  <data name="ForeignLanguages_ListTile" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="ForeignLanguages_CommonName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="ForeignLanguages_CommonName1066" xml:space="preserve">
+    <value>Tên tiếng Việt</value>
+  </data>
+  <data name="ForeignLanguages_ForeignLanguage" xml:space="preserve">
+    <value>Ngôn ngữ</value>
+  </data>
+  <data name="ForeignLanguages_Level" xml:space="preserve">
+    <value>Trình độ</value>
+  </data>
+  <data name="ForeignLanguages_OtherLevel" xml:space="preserve">
+    <value>Trình độ khác</value>
+  </data>
+  <data name="ForeignLanguages_Request" xml:space="preserve">
+    <value>Yêu cầu</value>
+  </data>
+  <data name="RecruitmentLanguageSkills_ListTitle" xml:space="preserve">
+    <value>Trình độ ngoại ngữ tuyển dụng</value>
+  </data>
+  <data name="FreightManagement_BringerDepartment" xml:space="preserve">
+    <value>Phòng ban người mang hàng</value>
+  </data>
+  <data name="FreightManagement_BringerLocation" xml:space="preserve">
+    <value>Nhà máy người mang hàng</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ToAge" xml:space="preserve">
+    <value>Đến tuổi</value>
+  </data>
+  <data name="VehicleManagement_ViewDetail" xml:space="preserve">
+    <value>Xem Chi Tiết</value>
+  </data>
+  <data name="RecruitmentTeam_ListDescription" xml:space="preserve">
+    <value>Nhóm tuyển dụng</value>
+  </data>
+  <data name="RecruitmentTeam_ListTitle" xml:space="preserve">
+    <value>Nhóm tuyển dụng</value>
+  </data>
+  <data name="RecruitmentTeam_Employees" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_DateOfEmp" xml:space="preserve">
+    <value>Ngày vào công ty</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_DiplomaRevision" xml:space="preserve">
+    <value>Điều chỉnh bằng cấp</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_EmployeeCode" xml:space="preserve">
+    <value>Mã số nhân viên</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_From" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_Full_Name" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_ListTitle" xml:space="preserve">
+    <value>Yêu cầu bổ sung bằng cấp</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_NewSuggestions" xml:space="preserve">
+    <value>Đề nghị/Đóng góp/Thành quả hoặc ý tưởng mới hiệu quả tại Phòng ban</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_Position" xml:space="preserve">
+    <value>Vị trí phân công</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_SalaryRevision" xml:space="preserve">
+    <value>Điều chỉnh lương</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_ToTheDailyWorks" xml:space="preserve">
+    <value>Hiệu quả công việc hiện tại</value>
+  </data>
+  <data name="RequestDiplomaDetails_CurrentDiploma" xml:space="preserve">
+    <value>Bằng cấp hiện tại</value>
+  </data>
+  <data name="RequestDiplomaDetails_Faculty" xml:space="preserve">
+    <value>Chuyên ngành</value>
+  </data>
+  <data name="RequestDiplomaDetails_GraduationYear" xml:space="preserve">
+    <value>Năm tốt nghiệp</value>
+  </data>
+  <data name="RequestDiplomaDetails_IssuedPlace" xml:space="preserve">
+    <value>Nơi cấp</value>
+  </data>
+  <data name="RequestDiplomaDetails_ListTitle" xml:space="preserve">
+    <value>Chi tiết yêu cầu bổ sung bằng cấp</value>
+  </data>
+  <data name="RequestDiplomaDetails_NewDiploma" xml:space="preserve">
+    <value>Bằng cấp bổ sung</value>
+  </data>
+  <data name="RequestDiplomaDetails_Request" xml:space="preserve">
+    <value>Phiếu đề nghị</value>
+  </data>
+  <data name="RequestDiplomaDetails_TrainingDuration" xml:space="preserve">
+    <value>Thời gian đào tạo</value>
+  </data>
+  <data name="Approval_Status" xml:space="preserve">
+    <value>Tình trạng phê duyệt</value>
+  </data>
+  <data name="BusinessTripManagement_Approver1Title" xml:space="preserve">
+    <value>Trưởng phòng</value>
+  </data>
+  <data name="BusinessTripManagement_Approver2Title" xml:space="preserve">
+    <value>Ban giám đốc</value>
+  </data>
+  <data name="BusinessTripManagement_Approver4Title" xml:space="preserve">
+    <value>Trưởng phòng hành chánh</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripManagementID" xml:space="preserve">
+    <value>Quản lý đi công tác ID</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripTypeExternalTitle" xml:space="preserve">
+    <value>Công tác nước ngoài</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripTypeInternalTitle" xml:space="preserve">
+    <value>Công tác trong nước</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripTypeTitle" xml:space="preserve">
+    <value>Loại đi công tác</value>
+  </data>
+  <data name="BusinessTripManagement_CashDetailsTitle" xml:space="preserve">
+    <value>Tổng số tiền</value>
+  </data>
+  <data name="BusinessTripManagement_CashierTitle" xml:space="preserve">
+    <value>Thủ quỹ</value>
+  </data>
+  <data name="BusinessTripManagement_CashOrChequeRequestTitle" xml:space="preserve">
+    <value>Tiền mặt hoặc Séc/Cash or Cheque</value>
+  </data>
+  <data name="BusinessTripManagement_DriverTitle" xml:space="preserve">
+    <value>Tài xế</value>
+  </data>
+  <data name="BusinessTripManagement_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeCode" xml:space="preserve">
+    <value>MSNV</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeDept" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeFullName" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeID" xml:space="preserve">
+    <value>Định danh nhân viên</value>
+  </data>
+  <data name="BusinessTripManagement_HotelBookingTitle" xml:space="preserve">
+    <value>Lưu trú</value>
+  </data>
+  <data name="BusinessTripManagement_OtherDetailsTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="BusinessTripManagement_OtherRequestsTitle" xml:space="preserve">
+    <value>Yêu cầu khác</value>
+  </data>
+  <data name="BusinessTripManagement_OtherRequestTitle" xml:space="preserve">
+    <value>Khác/Others</value>
+  </data>
+  <data name="BusinessTripManagement_OtherServiceTitle" xml:space="preserve">
+    <value>Các dịch vụ khác</value>
+  </data>
+  <data name="BusinessTripManagement_PaidByTitle" xml:space="preserve">
+    <value>Người trả tiền phòng</value>
+  </data>
+  <data name="BusinessTripManagement_PurposeTitle" xml:space="preserve">
+    <value>Mục đích công tác</value>
+  </data>
+  <data name="BusinessTripManagement_RequesterTitle" xml:space="preserve">
+    <value>Người yêu cầu</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeCompanyTitle" xml:space="preserve">
+    <value>Xe đưa đón công ty/Company bus</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypePrivateTitle" xml:space="preserve">
+    <value>Tự túc/Private vehicle</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeTitle" xml:space="preserve">
+    <value>Phương tiện</value>
+  </data>
+  <data name="BusinessTripManagement_VisaRequestTitle" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="BusinessTripManagement_CityTitle" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="BusinessTripManagement_ContactCompanyTitle" xml:space="preserve">
+    <value>Công ty liên hệ</value>
+  </data>
+  <data name="BusinessTripManagement_ContactPhoneTitle" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="BusinessTripManagement_CountryTitle" xml:space="preserve">
+    <value>Nước</value>
+  </data>
+  <data name="BusinessTripManagement_DepartDateTitle" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="BusinessTripManagement_DepartTimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="BusinessTripManagement_FlightNameTitle" xml:space="preserve">
+    <value>Chuyến bay</value>
+  </data>
+  <data name="BusinessTripManagement_OtherScheduleTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="BusinessTripManagement_Approver3Title" xml:space="preserve">
+    <value>Giám đốc trực tiếp</value>
+  </data>
+  <data name="BusinessTripManagement_HighPriorityTitle" xml:space="preserve">
+    <value>Cần duyệt bởi BOD</value>
+  </data>
+  <data name="BusinessTripEmployeeDetails_ListTitle" xml:space="preserve">
+    <value>Chi tiết nhân viên đi công tác</value>
+  </data>
+  <data name="BusinessTripManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý đi công tác</value>
+  </data>
+  <data name="BusinessTripSchedule_ListTitle" xml:space="preserve">
+    <value>Lịch trình công tác</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeListTitle" xml:space="preserve">
+    <value>Danh sách nhân viên</value>
+  </data>
+  <data name="BusinessTripManagement_ScheduleListTitle" xml:space="preserve">
+    <value>Lịch trình</value>
+  </data>
+  <data name="WorkflowHistory_VietnameseStatus" xml:space="preserve">
+    <value>Trạng thái tiếng Việt</value>
+  </data>
+  <data name="LeaveList_YourComment" xml:space="preserve">
+    <value>Ý kiến của bạn</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeOthersDetailsTitle" xml:space="preserve">
+    <value>(vé taxi, máy bay, xe lửa…)</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeOthersTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="BusinessTripManagement_ApprovalStatus" xml:space="preserve">
+    <value>Trạng thái duyệt</value>
+  </data>
+  <data name="BusinessTripManagement_ViewDetail" xml:space="preserve">
+    <value>Xem Chi Tiết</value>
+  </data>
+  <data name="EmployeeRequirementSheets_IsValidRequest" xml:space="preserve">
+    <value>Yêu cầu đúng quy định</value>
+  </data>
+  <data name="Configuration_ListDescription" xml:space="preserve">
+    <value>Danh sách cấu hình</value>
+  </data>
+  <data name="Configuration_ListTile" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="Configuration_Key" xml:space="preserve">
+    <value>Khóa</value>
+  </data>
+  <data name="Configuration_Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ListTitle" xml:space="preserve">
+    <value>Chức vụ nhân viên mở rộng</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ContentTypeDesc" xml:space="preserve">
+    <value>Chức vụ nhân viên mở rộng</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ContentTypeTitle" xml:space="preserve">
+    <value>Chức vụ nhân viên mở rộng</value>
+  </data>
+  <data name="AdditionalEmployeePosition_Employee" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="AdditionalEmployeePosition_EmployeeID" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="AdditionalEmployeePosition_Level" xml:space="preserve">
+    <value>Cấp bậc nhân viên</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ListDesc" xml:space="preserve">
+    <value>Lưu thông tin mở rộng cho chức vụ nhân viên</value>
+  </data>
+  <data name="AdditionalEmployeePosition_Module" xml:space="preserve">
+    <value>Mô-đun</value>
+  </data>
+  <data name="CommonYourComment" xml:space="preserve">
+    <value>Ý kiến của bạn</value>
+  </data>
+  <data name="BusinesstripManagement_CancelRequest" xml:space="preserve">
+    <value>Hủy yêu cầu</value>
+  </data>
+  <data name="EmployeeRequirementSheets_IsTemplate" xml:space="preserve">
+    <value>Mẫu đề nghị</value>
+  </data>
+  <data name="Department_DepartmentNo" xml:space="preserve">
+    <value>Mã số phòng ban</value>
+  </data>
+  <data name="FreightManagement_RequestNo" xml:space="preserve">
+    <value>Mã số</value>
+  </data>
+  <data name="FreightManagement_CompanyVehicle" xml:space="preserve">
+    <value>Xe công ty</value>
+  </data>
+  <data name="FreightList_IsValidRequest" xml:space="preserve">
+    <value>Đăng ký đúng quy định</value>
+  </data>
+  <data name="FreightManagement_Vehicle" xml:space="preserve">
+    <value>Xe</value>
+  </data>
+  <data name="FreightManagement_VehicleVN" xml:space="preserve">
+    <value>Xe VN</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartmentVN" xml:space="preserve">
+    <value>Phòng ban người nhận VN</value>
+  </data>
+  <data name="FreightManagement_FreightType" xml:space="preserve">
+    <value>Loại vận chuyển</value>
+  </data>
+  <data name="FreightReceiverDepartment_ContentType_Description" xml:space="preserve">
+    <value>Bộ phận người giao nhận hàng</value>
+  </data>
+  <data name="FreightReceiverDepartment_ListTitle" xml:space="preserve">
+    <value>Bộ phận người giao nhận hàng</value>
+  </data>
+  <data name="FreightVehicle_ContentType_Description" xml:space="preserve">
+    <value>Xe giao nhận hàng</value>
+  </data>
+  <data name="FreightVehicle_ListTitle" xml:space="preserve">
+    <value>Xe giao nhận hàng</value>
+  </data>
+  <data name="FreightManagement_RequestNumber" xml:space="preserve">
+    <value>Mã đơn</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartmentLookup" xml:space="preserve">
+    <value>Phòng ban người nhận</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartmentText" xml:space="preserve">
+    <value>Phòng ban người nhận</value>
+  </data>
+  <data name="FreightManagement_VehicleLookup" xml:space="preserve">
+    <value>Xe</value>
+  </data>
+  <data name="FreightManagement_IsFinished" xml:space="preserve">
+    <value>Đơn đã hoàn thành</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeOthersDetailTitle" xml:space="preserve">
+    <value>Hình thức vận chuyển khác</value>
+  </data>
+  <data name="DelegationEmployeePositions_DelegatedEmployeePositions" xml:space="preserve">
+    <value>Chức vụ ủy quyền</value>
+  </data>
+  <data name="DelegationEmployeePositions_EmployeePosition" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="DelegationEmployeePositions_ListTitle" xml:space="preserve">
+    <value>Chức vụ ủy quyền</value>
+  </data>
+  <data name="DelegationModules_ListTitle" xml:space="preserve">
+    <value>Mô đun ủy quyền</value>
+  </data>
+  <data name="DelegationModules_ListURL" xml:space="preserve">
+    <value>Đường dẫn danh sách</value>
+  </data>
+  <data name="DelegationModules_ModuleName" xml:space="preserve">
+    <value>Tên mô đun</value>
+  </data>
+  <data name="DelegationsOfNewTask_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="DelegationsOfNewTask_FromEmployee" xml:space="preserve">
+    <value>Người ủy quyền</value>
+  </data>
+  <data name="DelegationsOfNewTask_ListTitle" xml:space="preserve">
+    <value>Ủy quyền công việc mới</value>
+  </data>
+  <data name="DelegationsOfNewTask_ListURL" xml:space="preserve">
+    <value>Đường dẫn danh sách</value>
+  </data>
+  <data name="DelegationsOfNewTask_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="DelegationsOfNewTask_ToEmployee" xml:space="preserve">
+    <value>Người được ủy quyền</value>
+  </data>
+  <data name="Delegations_Department" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="Delegations_FromDate" xml:space="preserve">
+    <value>Từ ngày</value>
+  </data>
+  <data name="Delegations_FromEmployee" xml:space="preserve">
+    <value>Người ủy quyền</value>
+  </data>
+  <data name="Delegations_ListItemCreatedDate" xml:space="preserve">
+    <value>Ngày tạo khoản mục</value>
+  </data>
+  <data name="Delegations_ListItemDescription" xml:space="preserve">
+    <value>Mô tả khoản mục</value>
+  </data>
+  <data name="Delegations_ListItemID" xml:space="preserve">
+    <value>ID khoản mục</value>
+  </data>
+  <data name="Delegations_ListTitle" xml:space="preserve">
+    <value>Ủy quyền</value>
+  </data>
+  <data name="Delegations_ListURL" xml:space="preserve">
+    <value>Đường dẫn danh sách</value>
+  </data>
+  <data name="Delegations_Requester" xml:space="preserve">
+    <value>Người đề nghị</value>
+  </data>
+  <data name="Delegations_ToDate" xml:space="preserve">
+    <value>Đến ngày</value>
+  </data>
+  <data name="Delegations_ToEmployee" xml:space="preserve">
+    <value>Người được ủy quyền</value>
+  </data>
+  <data name="DelegationsOfNewTask_ModuleName" xml:space="preserve">
+    <value>Tên mô đun</value>
+  </data>
+  <data name="DelegationsOfNewTask_VietnameseModuleName" xml:space="preserve">
+    <value>Tên mô đun tiếng Việt</value>
+  </data>
+  <data name="Delegations_ModuleName" xml:space="preserve">
+    <value>Tên mô đun</value>
+  </data>
+  <data name="Delegations_VietnameseModuleName" xml:space="preserve">
+    <value>Tên mô đun tiếng Việt</value>
+  </data>
+  <data name="Delegations_ListItemApprovalUrl" xml:space="preserve">
+    <value>Url khoản mục duyệt</value>
+  </data>
+  <data name="EmployeeInfo_DelegatedBy" xml:space="preserve">
+    <value>Được ủy quyền bởi</value>
+  </data>
+  <data name="FromDateGeqTodateErrorMessage" xml:space="preserve">
+    <value>Từ ngày phải &gt;= ngày hiện tại</value>
+  </data>
+  <data name="OvertimeManagement_FirstApprovedBy" xml:space="preserve">
+    <value>Duyệt đầu tiên bởi</value>
+  </data>
+  <data name="OvertimeManagement_FirstApprovedDate" xml:space="preserve">
+    <value>Ngày duyệt đầu tiên</value>
+  </data>
+  <data name="Common_LastRemind" xml:space="preserve">
+    <value>Lần cuối nhắc nhở</value>
+  </data>
+  <data name="Common_MaxRemindAttemps" xml:space="preserve">
+    <value>Số lần nhắc nhở tối đa</value>
+  </data>
+  <data name="Common_NextRemind" xml:space="preserve">
+    <value>Lần nhắc nhở kế tiếp</value>
+  </data>
+  <data name="Common_RemindedAttemps" xml:space="preserve">
+    <value>Số lần đã nhắc nhở</value>
+  </data>
+  <data name="Common_ReqDueDate" xml:space="preserve">
+    <value>Ngày tới hạn của yêu cầu</value>
+  </data>
+  <data name="Department_Locations" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="Department_IsVisible" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="Overtime_BODComments" xml:space="preserve">
+    <value>Ý kiến ban giám đốc</value>
+  </data>
+  <data name="Overtime_Comments" xml:space="preserve">
+    <value>Ý kiến</value>
+  </data>
+  <data name="Overtime_DHComments" xml:space="preserve">
+    <value>Ý kiến trưởng phòng</value>
+  </data>
+  <data name="Overtime_SecurityComments" xml:space="preserve">
+    <value>Ý kiến bảo vệ</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeWorkingHourMid" xml:space="preserve">
+    <value>Làm việc giữa ca</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_Employees" xml:space="preserve">
+    <value>Các nhân viên</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_ListTitle" xml:space="preserve">
+    <value>Người xem phiếu đề nghị phòng ban tiếp nhận</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_Location" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="Department_AutoCreateOverTime" xml:space="preserve">
+    <value>Tạo tăng ca tự động</value>
+  </data>
+  <data name="LeaveList_Shift" xml:space="preserve">
+    <value>Ca</value>
+  </data>
+  <data name="Configuration_Description" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="FromDateGeqTodateErrorMessage_1" xml:space="preserve">
+    <value>Từ ngày phải lớn hơn ngày hiện tại %7B0%7D ngày</value>
+  </data>
+  <data name="ChangeShiftList_ShiftsEqualErrorMessage" xml:space="preserve">
+    <value>Ca cần đổi phải khác ca trước</value>
+  </data>
+  <data name="VehicleManagement_ToDateValidationMessage" xml:space="preserve">
+    <value>Ngày sau phải lớn hơn ngày trước</value>
+  </data>
+  <data name="MeetingRooms_ListTitle" xml:space="preserve">
+    <value>Phòng họp</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Department" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_DiscussionMeeting" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_EndTime" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Equipment" xml:space="preserve">
+    <value>Trang thiết bị</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_FullName" xml:space="preserve">
+    <value>Họ tên</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_ListTitle" xml:space="preserve">
+    <value>Yêu cầu sử dụng phòng họp</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_MeetingRoomLocation" xml:space="preserve">
+    <value>Phòng họp</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Others" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Participation" xml:space="preserve">
+    <value>Thành phần tham dự</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Seats" xml:space="preserve">
+    <value>Số ghế</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Start_Time" xml:space="preserve">
+    <value>Bắt đầu từ</value>
+  </data>
+  <data name="GuestInformation_ContentType_Description" xml:space="preserve">
+    <value>Thông tin về khách</value>
+  </data>
+  <data name="GuestReceptionManagement_ContentType_Description" xml:space="preserve">
+    <value>Quản lý đón tiếp khách</value>
+  </data>
+  <data name="GuestPickupCar_ContentType_Description" xml:space="preserve">
+    <value>Xe đi làm việc</value>
+  </data>
+  <data name="GuestInformation_ListTitle" xml:space="preserve">
+    <value>Thông tin về khách</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNameTitle" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionManagementID" xml:space="preserve">
+    <value>Quản lý yêu cầu tiếp khách ID</value>
+  </data>
+  <data name="GuestPickupCar_ListTitle" xml:space="preserve">
+    <value>Xe đi làm việc</value>
+  </data>
+  <data name="GuestReceptionManagement_AirportCarTimeTitle" xml:space="preserve">
+    <value>Xe đưa ra sân bay</value>
+  </data>
+  <data name="GuestReceptionManagement_DepartmentTitle" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="GuestReceptionManagement_FlightNoTitle" xml:space="preserve">
+    <value>Số chuyến bay</value>
+  </data>
+  <data name="GuestReceptionManagement_FoodSpecialRequirementTitle" xml:space="preserve">
+    <value>Yêu cầu đặc biệt của thức ăn</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestCompanyNameTitle" xml:space="preserve">
+    <value>Tên công ty</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfArrivalTitle" xml:space="preserve">
+    <value>Ngày đến</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfIssueTitle" xml:space="preserve">
+    <value>Ngày cấp</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryEntranceStaffTitle" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryEntranceTitle" xml:space="preserve">
+    <value>Lối đi vào xưởng</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryVisitingRoutineTitle" xml:space="preserve">
+    <value>Lộ trình khu vực tham quan nhà máy</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderFemale_Title" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderMale_Title" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderOther_Title" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderTitle" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelAddressTitle" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelBookingTitle" xml:space="preserve">
+    <value>Đặt khách sạn</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelCheckInDateTitle" xml:space="preserve">
+    <value>Ngày vào</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelCheckOutDateTitle" xml:space="preserve">
+    <value>Ngày ra</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelNameTitle" xml:space="preserve">
+    <value>Tên khách sạn</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelOtherRequirementTitle" xml:space="preserve">
+    <value>Yêu cầu đặc biệt</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelRoomTypeDoubleTitle" xml:space="preserve">
+    <value>Phòng đôi</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelRoomTypeSingleTitle" xml:space="preserve">
+    <value>Phòng đơn</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelRoomTypeTitle" xml:space="preserve">
+    <value>Loại phòng</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestJobTitle" xml:space="preserve">
+    <value>Chức vụ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNationalityTitle" xml:space="preserve">
+    <value>Quốc tịch</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNumberOfClothesTitle" xml:space="preserve">
+    <value>Trang phục vào xưởng</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPassportNo" xml:space="preserve">
+    <value>Số passport</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarAttendantTitle" xml:space="preserve">
+    <value>Người cần liên hệ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarDatetimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarDateTitle" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarTimeTitle" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarWorkingPlaceTitle" xml:space="preserve">
+    <value>Địa điểm làm việc</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupTimeTitle" xml:space="preserve">
+    <value>Xe đón tại sân bay</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionDateTitle" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelCasualTitle" xml:space="preserve">
+    <value>Thông thường</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelFormalTitle" xml:space="preserve">
+    <value>Quan trọng</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelHighlyFormalTitle" xml:space="preserve">
+    <value>Trân trọng</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelTitle" xml:space="preserve">
+    <value>Mức độ tiếp đón</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementCakesTitle" xml:space="preserve">
+    <value>Bánh ngọt</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentBlackboardTitle" xml:space="preserve">
+    <value>Bảng viết</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentLazerPenTitle" xml:space="preserve">
+    <value>Bút laser</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentMicroTitle" xml:space="preserve">
+    <value>Micro</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentOtherTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentProjectorTitle" xml:space="preserve">
+    <value>Máy chiếu</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentTitle" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementFaceClothTitle" xml:space="preserve">
+    <value>Khăn lạnh</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementFruitsTitle" xml:space="preserve">
+    <value>Trái cây</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementMeetingRoomTitle" xml:space="preserve">
+    <value>Phòng họp</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementSeatTitle" xml:space="preserve">
+    <value>Số người</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementStuffsTitle" xml:space="preserve">
+    <value>Yêu cầu chuẩn bị</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementTitle" xml:space="preserve">
+    <value>Yêu cầu chuẩn bị</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleContentTitle" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleFromTitle" xml:space="preserve">
+    <value>Thời gian làm việc từ</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestSchedulePlaceTitle" xml:space="preserve">
+    <value>Địa điểm</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleTitle" xml:space="preserve">
+    <value>Lịch làm việc của khách tại công ty</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleToTitle" xml:space="preserve">
+    <value>đến</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestSouvenirTitle" xml:space="preserve">
+    <value>Quà tặng cho khách</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaApplicationTitle" xml:space="preserve">
+    <value>Xin visa</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaValidityTitle" xml:space="preserve">
+    <value>Hiệu lực visa</value>
+  </data>
+  <data name="GuestReceptionManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý yêu cầu đón tiếp khách</value>
+  </data>
+  <data name="GuestReceptionManagement_LocationTitle" xml:space="preserve">
+    <value>Nhà máy</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceAtCompanyTitle" xml:space="preserve">
+    <value>Tại công ty</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceTitle" xml:space="preserve">
+    <value>Phục vụ cơm trưa</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServicOtherPlaceTitle" xml:space="preserve">
+    <value>Địa điểm khác</value>
+  </data>
+  <data name="GuestReceptionManagement_MinibarPaidByTitle" xml:space="preserve">
+    <value>Người trả minibar</value>
+  </data>
+  <data name="GuestReceptionManagement_OtherServicePaidByTitle" xml:space="preserve">
+    <value>Các dịch vụ khác</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarTitle" xml:space="preserve">
+    <value>Xe đi làm việc</value>
+  </data>
+  <data name="GuestReceptionManagement_RequesterTitle" xml:space="preserve">
+    <value>Người yêu cầu</value>
+  </data>
+  <data name="GuestReceptionManagement_RoomPaidByTitle" xml:space="preserve">
+    <value>Người trả tiền phòng</value>
+  </data>
+  <data name="ExportingDossierManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý thông tin hồ sơ đăng ký xuất khẩu</value>
+  </data>
+  <data name="DesignerChangeDetails_ChangedContentsTitle" xml:space="preserve">
+    <value>Nội dung thay đổi</value>
+  </data>
+  <data name="DesignerChangeDetails_ChangedItemsTitle" xml:space="preserve">
+    <value>Đề mục thay đổi</value>
+  </data>
+  <data name="DesignerChangeDetails_ChangedReasonTitle" xml:space="preserve">
+    <value>Lý do thay đổi</value>
+  </data>
+  <data name="DesignerChangeDetails_DesignRequestManagement" xml:space="preserve">
+    <value>Phiếu thông tin đề nghị thiết kế</value>
+  </data>
+  <data name="DesignerChangeDetails_ListTitle" xml:space="preserve">
+    <value>Kiểm soát thay đổi</value>
+  </data>
+  <data name="DesignerChangeDetails_NewCodeTitle" xml:space="preserve">
+    <value>Code mới</value>
+  </data>
+  <data name="DesignRequestManagement_APIStrengthTitle" xml:space="preserve">
+    <value>Thành phần hoạt chất-hàm lượng</value>
+  </data>
+  <data name="DesignRequestManagement_BatchNoTitle" xml:space="preserve">
+    <value>Số lô</value>
+  </data>
+  <data name="DesignRequestManagement_CompleteDateTitle" xml:space="preserve">
+    <value>ngày hoàn tất</value>
+  </data>
+  <data name="DesignRequestManagement_DesignDateTitle" xml:space="preserve">
+    <value>Ngày thiết kế</value>
+  </data>
+  <data name="DesignRequestManagement_DesignerTitle" xml:space="preserve">
+    <value>Người thiết kế</value>
+  </data>
+  <data name="DesignRequestManagement_ExpectantTimeTitle" xml:space="preserve">
+    <value>Dự kiến hoàn tất</value>
+  </data>
+  <data name="DesignRequestManagement_ExpiryDateTitle" xml:space="preserve">
+    <value>Ngày hết hạn dùng</value>
+  </data>
+  <data name="DesignRequestManagement_ExportingMartketTitle" xml:space="preserve">
+    <value>Xuất khẩu-thị trường</value>
+  </data>
+  <data name="DesignRequestManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý phiếu thông tin đề nghị thiết kế</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingDateTitle" xml:space="preserve">
+    <value>Ngày sx</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingSiteBDTitle" xml:space="preserve">
+    <value>Bình Dương</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingSiteHMTitle" xml:space="preserve">
+    <value>Hóc Môn</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingSiteTitle" xml:space="preserve">
+    <value>Địa điểm sản xuất</value>
+  </data>
+  <data name="DesignRequestManagement_OriginalCodeTitle" xml:space="preserve">
+    <value>Code gốc</value>
+  </data>
+  <data name="DesignRequestManagement_OtherSpecialSignTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="DesignRequestManagement_OthersTitle" xml:space="preserve">
+    <value>Thông tin khác</value>
+  </data>
+  <data name="DesignRequestManagement_OtherStorageConditionTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsAmpouleTitle" xml:space="preserve">
+    <value>Ống</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsBlisterTitle" xml:space="preserve">
+    <value>Vỉ</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsBottleTitle" xml:space="preserve">
+    <value>Chai</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsOthersTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsSachetTitle" xml:space="preserve">
+    <value>Gói</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsTitle" xml:space="preserve">
+    <value>Chi tiết bao bì</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsTubeTitle" xml:space="preserve">
+    <value>tuýp</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailValuesTitle" xml:space="preserve">
+    <value>Chi tiết bao bì</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingPresentationsTitle" xml:space="preserve">
+    <value>Qui cách đóng gói</value>
+  </data>
+  <data name="DesignRequestManagement_PharmachopeiaDetailsTitle" xml:space="preserve">
+    <value>Dược điển</value>
+  </data>
+  <data name="DesignRequestManagement_ProductNameTitle" xml:space="preserve">
+    <value>Tên sản phẩm</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeExportingChangeTitle" xml:space="preserve">
+    <value>Thay đổi bổ sung</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeExportingMarketTitle" xml:space="preserve">
+    <value>Xuất khẩu-thị trường</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeInitialTitle" xml:space="preserve">
+    <value>Đăng ký mới</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeLocalTitle" xml:space="preserve">
+    <value>Trong nước</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeRenewalTitle" xml:space="preserve">
+    <value>Đăng ký lại</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeTitle" xml:space="preserve">
+    <value>Dành cho đăng ký</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialPrecautionsTitle" xml:space="preserve">
+    <value>Cảnh báo đặc biệt</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialSignOtherTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialSignRxTitle" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialSignTitle" xml:space="preserve">
+    <value>Phân loại</value>
+  </data>
+  <data name="DesignRequestManagement_SpecificationPharmacopeiaTitle" xml:space="preserve">
+    <value>Dược điển</value>
+  </data>
+  <data name="DesignRequestManagement_SpecificationTCNSXTitle" xml:space="preserve">
+    <value>TCNSX</value>
+  </data>
+  <data name="DesignRequestManagement_SpecificationTitle" xml:space="preserve">
+    <value>Tiêu chuẩn áp dụng</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionLightTitle" xml:space="preserve">
+    <value>Tránh ánh sáng</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionMoistureTitle" xml:space="preserve">
+    <value>Tránh ẩm</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionOthersTitle" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionTitle" xml:space="preserve">
+    <value>Điều kiện bảo quản</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionWellClosedContainerTitle" xml:space="preserve">
+    <value>Trong bao bì kín, nhiệt độ không quá 30°C</value>
+  </data>
+  <data name="DesignRequestManagement_TherapeuticGroupTitle" xml:space="preserve">
+    <value>Nhóm điều trị</value>
+  </data>
+  <data name="DossierReference_DocumentRequired" xml:space="preserve">
+    <value>Document required</value>
+  </data>
+  <data name="DossierReference_DossierPart" xml:space="preserve">
+    <value>Part of the Dossier</value>
+  </data>
+  <data name="DossierReference_DossierPartDrugProduct" xml:space="preserve">
+    <value>Drug Product</value>
+  </data>
+  <data name="DossierReference_DossierPartDrugSubstance" xml:space="preserve">
+    <value>Drug Substance</value>
+  </data>
+  <data name="DossierReference_ExportingDossier" xml:space="preserve">
+    <value>Exporting Dossier</value>
+  </data>
+  <data name="DossierReference_ListTitle" xml:space="preserve">
+    <value>Dossier References</value>
+  </data>
+  <data name="DossierReference_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="DossierReference_ResponsibleDepartment" xml:space="preserve">
+    <value>Responsible Dept</value>
+  </data>
+  <data name="ExportingDossierManagement_APIStrengthTitle" xml:space="preserve">
+    <value>API/strength</value>
+  </data>
+  <data name="ExportingDossierManagement_BatchNoTitle" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="ExportingDossierManagement_ColorTitle" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ExportingDossierManagement_DescriptionTitle" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ExportingDossierManagement_InnovatorDescriptionTitle" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ExportingDossierManagement_InnovatorSampleTitle" xml:space="preserve">
+    <value>Innovator sample</value>
+  </data>
+  <data name="ExportingDossierManagement_ManufacturerTitle" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="ExportingDossierManagement_MfgDateTitle" xml:space="preserve">
+    <value>Mfg date</value>
+  </data>
+  <data name="ExportingDossierManagement_NoteTitle" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ExportingDossierManagement_PackageInsertValuesTitle" xml:space="preserve">
+    <value>Package insert values</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertAHFSTitle" xml:space="preserve">
+    <value>AHFS</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInserteMCTitle" xml:space="preserve">
+    <value>eMC</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertMartindalTitle" xml:space="preserve">
+    <value>Martindal</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertPDRTitle" xml:space="preserve">
+    <value>PDR</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertTitle" xml:space="preserve">
+    <value>Package insert</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeBlisterTitle" xml:space="preserve">
+    <value>blister</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeBottleTitle" xml:space="preserve">
+    <value>bottle</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeBoxTitle" xml:space="preserve">
+    <value>box</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeTabletCapsuleTitle" xml:space="preserve">
+    <value>tablet/capsule</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeTitle" xml:space="preserve">
+    <value>Packaging size</value>
+  </data>
+  <data name="ExportingDossierManagement_ProductNameTitle" xml:space="preserve">
+    <value>Tên sản phẩm</value>
+  </data>
+  <data name="ExportingDossierManagement_RegistrationCountryTitle" xml:space="preserve">
+    <value>Registration country</value>
+  </data>
+  <data name="ExportingDossierManagement_RxTitle" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="ExportingDossierManagement_ShelfLifeTitle" xml:space="preserve">
+    <value>Shelf-life</value>
+  </data>
+  <data name="ExportingDossierManagement_StatusOrder" xml:space="preserve">
+    <value>Thứ tự sắp xếp</value>
+  </data>
+  <data name="ExportingDossierManagement_TreatmentGroupTitle" xml:space="preserve">
+    <value>Treatment group</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Conclusion" xml:space="preserve">
+    <value>Kết luận</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Content" xml:space="preserve">
+    <value>Nội dung/ Báo cáo ISO/ SOP</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Control" xml:space="preserve">
+    <value>Kiểm soát</value>
+  </data>
+  <data name="NonConfirmingReportManagement_CorrectiveAction" xml:space="preserve">
+    <value>Phương án điều chỉnh</value>
+  </data>
+  <data name="NonConfirmingReportManagement_DepartmentRelated" xml:space="preserve">
+    <value>Phòng ban/nhân viên liên quan</value>
+  </data>
+  <data name="NonConfirmingReportManagement_DetailContent" xml:space="preserve">
+    <value>Chi tiết</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Evaluation" xml:space="preserve">
+    <value>Đánh giá</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ExpectedTime" xml:space="preserve">
+    <value>Thời gian dự kiến hoàn thành</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ListTitle" xml:space="preserve">
+    <value>Quản lý báo cáo không phù hợp</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Reason" xml:space="preserve">
+    <value>Lý do</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ReportDate" xml:space="preserve">
+    <value>Ngày lập báo cáo</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ReportedBy" xml:space="preserve">
+    <value>Người lập báo cáo</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ReportNo" xml:space="preserve">
+    <value>Số</value>
+  </data>
+  <data name="NonConfirmingReportManagement_StatusOrder" xml:space="preserve">
+    <value>Thứ tự sắp xếp</value>
+  </data>
+  <data name="NonConfirmingReportManagement_TimeHappened" xml:space="preserve">
+    <value>Diễn ra vào</value>
+  </data>
+  <data name="Equipments_ListDesc" xml:space="preserve">
+    <value>Danh sách thiết bị</value>
+  </data>
+  <data name="Equipments_ListTitle" xml:space="preserve">
+    <value>Thiết bị</value>
+  </data>
+  <data name="EquipmentNameEN" xml:space="preserve">
+    <value>Tên tiếng anh</value>
+  </data>
+  <data name="EquipmentNameVN" xml:space="preserve">
+    <value>Tên tiếng việt</value>
+  </data>
+  <data name="Gender_ListTitle" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="GuestLevel_ListTitle" xml:space="preserve">
+    <value>Loại khách</value>
+  </data>
+  <data name="GuestReceptionManagement_CarToAirportTitle" xml:space="preserve">
+    <value>Xe đưa ra sân bay</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarAtAirportTitle" xml:space="preserve">
+    <value>Xe đưa đón tại sân bay</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceLocationTitle" xml:space="preserve">
+    <value>Địa điểm phục vụ cơm trưa</value>
+  </data>
+  <data name="GuestReceptionManagement_ScheduleWorkingAtCompany" xml:space="preserve">
+    <value>Lịch làm việc của khách tại công ty</value>
+  </data>
+  <data name="HotelRoomType_ListTitle" xml:space="preserve">
+    <value>Loại phòng</value>
+  </data>
+  <data name="LunchServiceLocation_ListTitle" xml:space="preserve">
+    <value>Địa điểm phục vụ cơm trưa</value>
+  </data>
+  <data name="NameInEN" xml:space="preserve">
+    <value>Tên tiếng anh</value>
+  </data>
+  <data name="NameInVN" xml:space="preserve">
+    <value>Tên tiếng việt</value>
+  </data>
+  <data name="Nationality_ListTitle" xml:space="preserve">
+    <value>Quốc tịch</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="FactoryEntrance_ListTitle" xml:space="preserve">
+    <value>Lối đi vào xưởng</value>
+  </data>
+  <data name="MeetingRoomStuff_ListTitle" xml:space="preserve">
+    <value>Vật dụng trong phòng họp</value>
+  </data>
+</root>

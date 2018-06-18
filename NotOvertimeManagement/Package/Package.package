@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e0dd4e3e-df84-4ae9-a4dd-d188282ed4ad" solutionId="e0dd4e3e-df84-4ae9-a4dd-d188282ed4ad" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.NotOvertimeManagement" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e950ca0f-ced1-418c-86b5-61ea088d3bdb" />
+  </features>
+</package>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7f3567b7-8e5c-4ad1-8097-4e8762c73d18}"
+       Name="SecurityNotes"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_SecurityNotes;"
+       Type="Note"
+       NumLines="3"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

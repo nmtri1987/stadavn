@@ -1,0 +1,288 @@
+EmployeeType,FirstName,LastName,AD Account,HomeTown,Address,Position,Manager,Department,EmployeeID,Email,Group,Missing Info,FactoryLocation,JoinedDate,Birthday,Gender,EmployeePermission
+Common User,Thang,Pham Huu,HR-Common,Binh Duong,Binh Duong,SCG,10001,Administration & Human Resource,10041,,Administration & Human Resource Members,,NM2,1/1/2012,2/2/1985,Male,Members
+Common User,Quoc,Nguyen Tran,HR-Common,Ho Chi Minh,Ho Chi Minh,SCG,10001,Administration & Human Resource,10027,,Administration & Human Resource Members,,NM2,1/1/2012,2/3/1985,Male,Members
+Common User,Solid,Employee1,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31001,,Solid Workshop Members,,NM2,1/1/2012,2/4/1985,Male,Members
+Common User,Solid,Employee2,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31002,,Solid Workshop Members,,NM2,1/1/2012,2/5/1985,Male,Members
+Common User,Solid,Employee3,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31003,,Solid Workshop Members,,NM2,1/1/2012,2/6/1985,Male,Members
+Common User,Solid,Employee4,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31004,,Solid Workshop Members,,NM2,1/1/2012,2/7/1985,Male,Members
+Common User,Solid,Employee5,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31005,,Solid Workshop Members,,NM2,1/1/2012,2/8/1985,Male,Members
+Common User,Solid,Employee6,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31006,,Solid Workshop Members,,NM2,1/1/2012,2/9/1985,Male,Members
+Common User,Solid,Employee7,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31007,,Solid Workshop Members,,NM2,1/1/2012,2/10/1985,Male,Members
+Common User,Solid,Employee8,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31008,,Solid Workshop Members,,NM2,1/1/2012,2/11/1985,Male,Members
+Common User,Solid,Employee9,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31009,,Solid Workshop Members,,NM2,1/1/2012,2/12/1985,Male,Members
+Common User,Solid,Employee10,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31010,,Solid Workshop Members,,NM2,1/1/2012,2/13/1985,Male,Members
+Common User,Solid,Employee11,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31011,,Solid Workshop Members,,NM2,1/1/2012,2/14/1985,Male,Members
+Common User,Solid,Employee12,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31012,,Solid Workshop Members,,NM2,1/1/2012,2/15/1985,Male,Members
+Common User,Solid,Employee13,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31013,,Solid Workshop Members,,NM2,1/1/2012,2/16/1985,Male,Members
+Common User,Solid,Employee14,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31014,,Solid Workshop Members,,NM2,1/1/2012,2/17/1985,Male,Members
+Common User,Solid,Employee15,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31015,,Solid Workshop Members,,NM2,1/1/2012,2/18/1985,Male,Members
+Common User,Solid,Employee16,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31016,,Solid Workshop Members,,NM2,1/1/2012,2/19/1985,Male,Members
+Common User,Solid,Employee17,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31017,,Solid Workshop Members,,NM2,1/1/2012,2/20/1985,Male,Members
+Common User,Solid,Employee18,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31018,,Solid Workshop Members,,NM2,1/1/2012,2/21/1985,Male,Members
+Common User,Solid,Employee19,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31019,,Solid Workshop Members,,NM2,1/1/2012,2/22/1985,Male,Members
+Common User,Solid,Employee20,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31020,,Solid Workshop Members,,NM2,1/1/2012,2/23/1985,Male,Members
+Common User,Solid,Employee21,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31021,,Solid Workshop Members,,NM2,1/1/2012,2/24/1985,Male,Members
+Common User,Solid,Employee22,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31022,,Solid Workshop Members,,NM2,1/1/2012,2/25/1985,Male,Members
+Common User,Solid,Employee23,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31023,,Solid Workshop Members,,NM2,1/1/2012,2/26/1985,Male,Members
+Common User,Solid,Employee24,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31024,,Solid Workshop Members,,NM2,1/1/2012,2/27/1985,Male,Members
+Common User,Solid,Employee25,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31025,,Solid Workshop Members,,NM2,1/1/2012,2/28/1985,Male,Members
+Common User,Solid,Employee26,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31026,,Solid Workshop Members,,NM2,1/1/2012,3/1/1985,Male,Members
+Common User,Solid,Employee27,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31027,,Solid Workshop Members,,NM2,1/1/2012,3/2/1985,Male,Members
+Common User,Solid,Employee28,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31028,,Solid Workshop Members,,NM2,1/1/2012,3/3/1985,Male,Members
+Common User,Solid,Employee29,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31029,,Solid Workshop Members,,NM2,1/1/2012,3/4/1985,Male,Members
+Common User,Solid,Employee30,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31030,,Solid Workshop Members,,NM2,1/1/2012,3/5/1985,Male,Members
+Common User,Solid,Employee31,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31031,,Solid Workshop Members,,NM2,1/1/2012,3/6/1985,Male,Members
+Common User,Solid,Employee32,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31032,,Solid Workshop Members,,NM2,1/1/2012,3/7/1985,Male,Members
+Common User,Solid,Employee33,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31033,,Solid Workshop Members,,NM2,1/1/2012,3/8/1985,Male,Members
+Common User,Solid,Employee34,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31034,,Solid Workshop Members,,NM2,1/1/2012,3/9/1985,Male,Members
+Common User,Solid,Employee35,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31035,,Solid Workshop Members,,NM2,1/1/2012,3/10/1985,Male,Members
+Common User,Solid,Employee36,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31036,,Solid Workshop Members,,NM2,1/1/2012,3/11/1985,Male,Members
+Common User,Solid,Employee37,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31037,,Solid Workshop Members,,NM2,1/1/2012,3/12/1985,Male,Members
+Common User,Solid,Employee38,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31038,,Solid Workshop Members,,NM2,1/1/2012,3/13/1985,Male,Members
+Common User,Solid,Employee39,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31039,,Solid Workshop Members,,NM2,1/1/2012,3/14/1985,Male,Members
+Common User,Solid,Employee40,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31040,,Solid Workshop Members,,NM2,1/1/2012,3/15/1985,Male,Members
+Common User,Solid,Employee41,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31041,,Solid Workshop Members,,NM2,1/1/2012,3/16/1985,Male,Members
+Common User,Solid,Employee42,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31042,,Solid Workshop Members,,NM2,1/1/2012,3/17/1985,Male,Members
+Common User,Solid,Employee43,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31043,,Solid Workshop Members,,NM2,1/1/2012,3/18/1985,Male,Members
+Common User,Solid,Employee44,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31044,,Solid Workshop Members,,NM2,1/1/2012,3/19/1985,Male,Members
+Common User,Solid,Employee45,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31045,,Solid Workshop Members,,NM2,1/1/2012,3/20/1985,Male,Members
+Common User,Solid,Employee46,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31046,,Solid Workshop Members,,NM2,1/1/2012,3/21/1985,Male,Members
+Common User,Solid,Employee47,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31047,,Solid Workshop Members,,NM2,1/1/2012,3/22/1985,Male,Members
+Common User,Solid,Employee48,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31048,,Solid Workshop Members,,NM2,1/1/2012,3/23/1985,Male,Members
+Common User,Solid,Employee49,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31049,,Solid Workshop Members,,NM2,1/1/2012,3/24/1985,Male,Members
+Common User,Solid,Employee50,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31050,,Solid Workshop Members,,NM2,1/1/2012,3/25/1985,Male,Members
+Common User,Solid,Employee51,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31051,,Solid Workshop Members,,NM2,1/1/2012,3/26/1985,Male,Members
+Common User,Solid,Employee52,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31052,,Solid Workshop Members,,NM2,1/1/2012,3/27/1985,Male,Members
+Common User,Solid,Employee53,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31053,,Solid Workshop Members,,NM2,1/1/2012,3/28/1985,Male,Members
+Common User,Solid,Employee54,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31054,,Solid Workshop Members,,NM2,1/1/2012,3/29/1985,Male,Members
+Common User,Solid,Employee55,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31055,,Solid Workshop Members,,NM2,1/1/2012,3/30/1985,Male,Members
+Common User,Solid,Employee56,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31056,,Solid Workshop Members,,NM2,1/1/2012,3/31/1985,Male,Members
+Common User,Solid,Employee57,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31057,,Solid Workshop Members,,NM2,1/1/2012,4/1/1985,Male,Members
+Common User,Solid,Employee58,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31058,,Solid Workshop Members,,NM2,1/1/2012,4/2/1985,Male,Members
+Common User,Solid,Employee59,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31059,,Solid Workshop Members,,NM2,1/1/2012,4/3/1985,Male,Members
+Common User,Solid,Employee60,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31060,,Solid Workshop Members,,NM2,1/1/2012,4/4/1985,Male,Members
+Common User,Solid,Employee61,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31061,,Solid Workshop Members,,NM2,1/1/2012,4/5/1985,Male,Members
+Common User,Solid,Employee62,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31062,,Solid Workshop Members,,NM2,1/1/2012,4/6/1985,Male,Members
+Common User,Solid,Employee63,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31063,,Solid Workshop Members,,NM2,1/1/2012,4/7/1985,Male,Members
+Common User,Solid,Employee64,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31064,,Solid Workshop Members,,NM2,1/1/2012,4/8/1985,Male,Members
+Common User,Solid,Employee65,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31065,,Solid Workshop Members,,NM2,1/1/2012,4/9/1985,Male,Members
+Common User,Solid,Employee66,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31066,,Solid Workshop Members,,NM2,1/1/2012,4/10/1985,Male,Members
+Common User,Solid,Employee67,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31067,,Solid Workshop Members,,NM2,1/1/2012,4/11/1985,Male,Members
+Common User,Solid,Employee68,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31068,,Solid Workshop Members,,NM2,1/1/2012,4/12/1985,Male,Members
+Common User,Solid,Employee69,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31069,,Solid Workshop Members,,NM2,1/1/2012,4/13/1985,Male,Members
+Common User,Solid,Employee70,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31070,,Solid Workshop Members,,NM2,1/1/2012,4/14/1985,Male,Members
+Common User,Solid,Employee71,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31071,,Solid Workshop Members,,NM2,1/1/2012,4/15/1985,Male,Members
+Common User,Solid,Employee72,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31072,,Solid Workshop Members,,NM2,1/1/2012,4/16/1985,Male,Members
+Common User,Solid,Employee73,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31073,,Solid Workshop Members,,NM2,1/1/2012,4/17/1985,Male,Members
+Common User,Solid,Employee74,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31074,,Solid Workshop Members,,NM2,1/1/2012,4/18/1985,Male,Members
+Common User,Solid,Employee75,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31075,,Solid Workshop Members,,NM2,1/1/2012,4/19/1985,Male,Members
+Common User,Solid,Employee76,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31076,,Solid Workshop Members,,NM2,1/1/2012,4/20/1985,Male,Members
+Common User,Solid,Employee77,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31077,,Solid Workshop Members,,NM2,1/1/2012,4/21/1985,Male,Members
+Common User,Solid,Employee78,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31078,,Solid Workshop Members,,NM2,1/1/2012,4/22/1985,Male,Members
+Common User,Solid,Employee79,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31079,,Solid Workshop Members,,NM2,1/1/2012,4/23/1985,Male,Members
+Common User,Solid,Employee80,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31080,,Solid Workshop Members,,NM2,1/1/2012,4/24/1985,Male,Members
+Common User,Solid,Employee81,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31081,,Solid Workshop Members,,NM2,1/1/2012,4/25/1985,Male,Members
+Common User,Solid,Employee82,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31082,,Solid Workshop Members,,NM2,1/1/2012,4/26/1985,Male,Members
+Common User,Solid,Employee83,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31083,,Solid Workshop Members,,NM2,1/1/2012,4/27/1985,Male,Members
+Common User,Solid,Employee84,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31084,,Solid Workshop Members,,NM2,1/1/2012,4/28/1985,Male,Members
+Common User,Solid,Employee85,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31085,,Solid Workshop Members,,NM2,1/1/2012,4/29/1985,Male,Members
+Common User,Solid,Employee86,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31086,,Solid Workshop Members,,NM2,1/1/2012,4/30/1985,Male,Members
+Common User,Solid,Employee87,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31087,,Solid Workshop Members,,NM2,1/1/2012,5/1/1985,Male,Members
+Common User,Solid,Employee88,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31088,,Solid Workshop Members,,NM2,1/1/2012,5/2/1985,Male,Members
+Common User,Solid,Employee89,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31089,,Solid Workshop Members,,NM2,1/1/2012,5/3/1985,Male,Members
+Common User,Solid,Employee90,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31090,,Solid Workshop Members,,NM2,1/1/2012,5/4/1985,Male,Members
+Common User,Solid,Employee91,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31091,,Solid Workshop Members,,NM2,1/1/2012,5/5/1985,Male,Members
+Common User,Solid,Employee92,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31092,,Solid Workshop Members,,NM2,1/1/2012,5/6/1985,Male,Members
+Common User,Solid,Employee93,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31093,,Solid Workshop Members,,NM2,1/1/2012,5/7/1985,Male,Members
+Common User,Solid,Employee94,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31094,,Solid Workshop Members,,NM2,1/1/2012,5/8/1985,Male,Members
+Common User,Solid,Employee95,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31095,,Solid Workshop Members,,NM2,1/1/2012,5/9/1985,Male,Members
+Common User,Solid,Employee96,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31096,,Solid Workshop Members,,NM2,1/1/2012,5/10/1985,Male,Members
+Common User,Solid,Employee97,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31097,,Solid Workshop Members,,NM2,1/1/2012,5/11/1985,Male,Members
+Common User,Solid,Employee98,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31098,,Solid Workshop Members,,NM2,1/1/2012,5/12/1985,Male,Members
+Common User,Solid,Employee99,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31099,,Solid Workshop Members,,NM2,1/1/2012,5/13/1985,Male,Members
+Common User,Solid,Employee100,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31100,,Solid Workshop Members,,NM2,1/1/2012,5/14/1985,Male,Members
+Common User,Solid,Employee101,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31101,,Solid Workshop Members,,NM2,1/1/2012,5/15/1985,Male,Members
+Common User,Solid,Employee102,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31102,,Solid Workshop Members,,NM2,1/1/2012,5/16/1985,Male,Members
+Common User,Solid,Employee103,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31103,,Solid Workshop Members,,NM2,1/1/2012,5/17/1985,Male,Members
+Common User,Solid,Employee104,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31104,,Solid Workshop Members,,NM2,1/1/2012,5/18/1985,Male,Members
+Common User,Solid,Employee105,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31105,,Solid Workshop Members,,NM2,1/1/2012,5/19/1985,Male,Members
+Common User,Solid,Employee106,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31106,,Solid Workshop Members,,NM2,1/1/2012,5/20/1985,Male,Members
+Common User,Solid,Employee107,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31107,,Solid Workshop Members,,NM2,1/1/2012,5/21/1985,Male,Members
+Common User,Solid,Employee108,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31108,,Solid Workshop Members,,NM2,1/1/2012,5/22/1985,Male,Members
+Common User,Solid,Employee109,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31109,,Solid Workshop Members,,NM2,1/1/2012,5/23/1985,Male,Members
+Common User,Solid,Employee110,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31110,,Solid Workshop Members,,NM2,1/1/2012,5/24/1985,Male,Members
+Common User,Solid,Employee111,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31111,,Solid Workshop Members,,NM2,1/1/2012,5/25/1985,Male,Members
+Common User,Solid,Employee112,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31112,,Solid Workshop Members,,NM2,1/1/2012,5/26/1985,Male,Members
+Common User,Solid,Employee113,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31113,,Solid Workshop Members,,NM2,1/1/2012,5/27/1985,Male,Members
+Common User,Solid,Employee114,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31114,,Solid Workshop Members,,NM2,1/1/2012,5/28/1985,Male,Members
+Common User,Solid,Employee115,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31115,,Solid Workshop Members,,NM2,1/1/2012,5/29/1985,Male,Members
+Common User,Solid,Employee116,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31116,,Solid Workshop Members,,NM2,1/1/2012,5/30/1985,Male,Members
+Common User,Solid,Employee117,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31117,,Solid Workshop Members,,NM2,1/1/2012,5/31/1985,Male,Members
+Common User,Solid,Employee118,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31118,,Solid Workshop Members,,NM2,1/1/2012,6/1/1985,Male,Members
+Common User,Solid,Employee119,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31119,,Solid Workshop Members,,NM2,1/1/2012,6/2/1985,Male,Members
+Common User,Solid,Employee120,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31120,,Solid Workshop Members,,NM2,1/1/2012,6/3/1985,Male,Members
+Common User,Solid,Employee121,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31121,,Solid Workshop Members,,NM2,1/1/2012,6/4/1985,Male,Members
+Common User,Solid,Employee122,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31122,,Solid Workshop Members,,NM2,1/1/2012,6/5/1985,Male,Members
+Common User,Solid,Employee123,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31123,,Solid Workshop Members,,NM2,1/1/2012,6/6/1985,Male,Members
+Common User,Solid,Employee124,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31124,,Solid Workshop Members,,NM2,1/1/2012,6/7/1985,Male,Members
+Common User,Solid,Employee125,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31125,,Solid Workshop Members,,NM2,1/1/2012,6/8/1985,Male,Members
+Common User,Solid,Employee126,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31126,,Solid Workshop Members,,NM2,1/1/2012,6/9/1985,Male,Members
+Common User,Solid,Employee127,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31127,,Solid Workshop Members,,NM2,1/1/2012,6/10/1985,Male,Members
+Common User,Solid,Employee128,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31128,,Solid Workshop Members,,NM2,1/1/2012,6/11/1985,Male,Members
+Common User,Solid,Employee129,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31129,,Solid Workshop Members,,NM2,1/1/2012,6/12/1985,Male,Members
+Common User,Solid,Employee130,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31130,,Solid Workshop Members,,NM2,1/1/2012,6/13/1985,Male,Members
+Common User,Solid,Employee131,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31131,,Solid Workshop Members,,NM2,1/1/2012,6/14/1985,Male,Members
+Common User,Solid,Employee132,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31132,,Solid Workshop Members,,NM2,1/1/2012,6/15/1985,Male,Members
+Common User,Solid,Employee133,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31133,,Solid Workshop Members,,NM2,1/1/2012,6/16/1985,Male,Members
+Common User,Solid,Employee134,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31134,,Solid Workshop Members,,NM2,1/1/2012,6/17/1985,Male,Members
+Common User,Solid,Employee135,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31135,,Solid Workshop Members,,NM2,1/1/2012,6/18/1985,Male,Members
+Common User,Solid,Employee136,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31136,,Solid Workshop Members,,NM2,1/1/2012,6/19/1985,Male,Members
+Common User,Solid,Employee137,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31137,,Solid Workshop Members,,NM2,1/1/2012,6/20/1985,Male,Members
+Common User,Solid,Employee138,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31138,,Solid Workshop Members,,NM2,1/1/2012,6/21/1985,Male,Members
+Common User,Solid,Employee139,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31139,,Solid Workshop Members,,NM2,1/1/2012,6/22/1985,Male,Members
+Common User,Solid,Employee140,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31140,,Solid Workshop Members,,NM2,1/1/2012,6/23/1985,Male,Members
+Common User,Solid,Employee141,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31141,,Solid Workshop Members,,NM2,1/1/2012,6/24/1985,Male,Members
+Common User,Solid,Employee142,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31142,,Solid Workshop Members,,NM2,1/1/2012,6/25/1985,Male,Members
+Common User,Solid,Employee143,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31143,,Solid Workshop Members,,NM2,1/1/2012,6/26/1985,Male,Members
+Common User,Solid,Employee144,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31144,,Solid Workshop Members,,NM2,1/1/2012,6/27/1985,Male,Members
+Common User,Solid,Employee145,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31145,,Solid Workshop Members,,NM2,1/1/2012,6/28/1985,Male,Members
+Common User,Solid,Employee146,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31146,,Solid Workshop Members,,NM2,1/1/2012,6/29/1985,Male,Members
+Common User,Solid,Employee147,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31147,,Solid Workshop Members,,NM2,1/1/2012,6/30/1985,Male,Members
+Common User,Solid,Employee148,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31148,,Solid Workshop Members,,NM2,1/1/2012,7/1/1985,Male,Members
+Common User,Solid,Employee149,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31149,,Solid Workshop Members,,NM2,1/1/2012,7/2/1985,Male,Members
+Common User,Solid,Employee150,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31150,,Solid Workshop Members,,NM2,1/1/2012,7/3/1985,Male,Members
+Common User,Solid,Employee151,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31151,,Solid Workshop Members,,NM2,1/1/2012,7/4/1985,Male,Members
+Common User,Solid,Employee152,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31152,,Solid Workshop Members,,NM2,1/1/2012,7/5/1985,Male,Members
+Common User,Solid,Employee153,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31153,,Solid Workshop Members,,NM2,1/1/2012,7/6/1985,Male,Members
+Common User,Solid,Employee154,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31154,,Solid Workshop Members,,NM2,1/1/2012,7/7/1985,Male,Members
+Common User,Solid,Employee155,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31155,,Solid Workshop Members,,NM2,1/1/2012,7/8/1985,Male,Members
+Common User,Solid,Employee156,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31156,,Solid Workshop Members,,NM2,1/1/2012,7/9/1985,Male,Members
+Common User,Solid,Employee157,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31157,,Solid Workshop Members,,NM2,1/1/2012,7/10/1985,Male,Members
+Common User,Solid,Employee158,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31158,,Solid Workshop Members,,NM2,1/1/2012,7/11/1985,Male,Members
+Common User,Solid,Employee159,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31159,,Solid Workshop Members,,NM2,1/1/2012,7/12/1985,Male,Members
+Common User,Solid,Employee160,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31160,,Solid Workshop Members,,NM2,1/1/2012,7/13/1985,Male,Members
+Common User,Solid,Employee161,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31161,,Solid Workshop Members,,NM2,1/1/2012,7/14/1985,Male,Members
+Common User,Solid,Employee162,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31162,,Solid Workshop Members,,NM2,1/1/2012,7/15/1985,Male,Members
+Common User,Solid,Employee163,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31163,,Solid Workshop Members,,NM2,1/1/2012,7/16/1985,Male,Members
+Common User,Solid,Employee164,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31164,,Solid Workshop Members,,NM2,1/1/2012,7/17/1985,Male,Members
+Common User,Solid,Employee165,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31165,,Solid Workshop Members,,NM2,1/1/2012,7/18/1985,Male,Members
+Common User,Solid,Employee166,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31166,,Solid Workshop Members,,NM2,1/1/2012,7/19/1985,Male,Members
+Common User,Solid,Employee167,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31167,,Solid Workshop Members,,NM2,1/1/2012,7/20/1985,Male,Members
+Common User,Solid,Employee168,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31168,,Solid Workshop Members,,NM2,1/1/2012,7/21/1985,Male,Members
+Common User,Solid,Employee169,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31169,,Solid Workshop Members,,NM2,1/1/2012,7/22/1985,Male,Members
+Common User,Solid,Employee170,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31170,,Solid Workshop Members,,NM2,1/1/2012,7/23/1985,Male,Members
+Common User,Solid,Employee171,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31171,,Solid Workshop Members,,NM2,1/1/2012,7/24/1985,Male,Members
+Common User,Solid,Employee172,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31172,,Solid Workshop Members,,NM2,1/1/2012,7/25/1985,Male,Members
+Common User,Solid,Employee173,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31173,,Solid Workshop Members,,NM2,1/1/2012,7/26/1985,Male,Members
+Common User,Solid,Employee174,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31174,,Solid Workshop Members,,NM2,1/1/2012,7/27/1985,Male,Members
+Common User,Solid,Employee175,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31175,,Solid Workshop Members,,NM2,1/1/2012,7/28/1985,Male,Members
+Common User,Solid,Employee176,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31176,,Solid Workshop Members,,NM2,1/1/2012,7/29/1985,Male,Members
+Common User,Solid,Employee177,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31177,,Solid Workshop Members,,NM2,1/1/2012,7/30/1985,Male,Members
+Common User,Solid,Employee178,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31178,,Solid Workshop Members,,NM2,1/1/2012,7/31/1985,Male,Members
+Common User,Solid,Employee179,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31179,,Solid Workshop Members,,NM2,1/1/2012,8/1/1985,Male,Members
+Common User,Solid,Employee180,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31180,,Solid Workshop Members,,NM2,1/1/2012,8/2/1985,Male,Members
+Common User,Solid,Employee181,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31181,,Solid Workshop Members,,NM2,1/1/2012,8/3/1985,Male,Members
+Common User,Solid,Employee182,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31182,,Solid Workshop Members,,NM2,1/1/2012,8/4/1985,Male,Members
+Common User,Solid,Employee183,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31183,,Solid Workshop Members,,NM2,1/1/2012,8/5/1985,Male,Members
+Common User,Solid,Employee184,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31184,,Solid Workshop Members,,NM2,1/1/2012,8/6/1985,Male,Members
+Common User,Solid,Employee185,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31185,,Solid Workshop Members,,NM2,1/1/2012,8/7/1985,Male,Members
+Common User,Solid,Employee186,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31186,,Solid Workshop Members,,NM2,1/1/2012,8/8/1985,Male,Members
+Common User,Solid,Employee187,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31187,,Solid Workshop Members,,NM2,1/1/2012,8/9/1985,Male,Members
+Common User,Solid,Employee188,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31188,,Solid Workshop Members,,NM2,1/1/2012,8/10/1985,Male,Members
+Common User,Solid,Employee189,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31189,,Solid Workshop Members,,NM2,1/1/2012,8/11/1985,Male,Members
+Common User,Solid,Employee190,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31190,,Solid Workshop Members,,NM2,1/1/2012,8/12/1985,Male,Members
+Common User,Solid,Employee191,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31191,,Solid Workshop Members,,NM2,1/1/2012,8/13/1985,Male,Members
+Common User,Solid,Employee192,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31192,,Solid Workshop Members,,NM2,1/1/2012,8/14/1985,Male,Members
+Common User,Solid,Employee193,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31193,,Solid Workshop Members,,NM2,1/1/2012,8/15/1985,Male,Members
+Common User,Solid,Employee194,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31194,,Solid Workshop Members,,NM2,1/1/2012,8/16/1985,Male,Members
+Common User,Solid,Employee195,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31195,,Solid Workshop Members,,NM2,1/1/2012,8/17/1985,Male,Members
+Common User,Solid,Employee196,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31196,,Solid Workshop Members,,NM2,1/1/2012,8/18/1985,Male,Members
+Common User,Solid,Employee197,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31197,,Solid Workshop Members,,NM2,1/1/2012,8/19/1985,Male,Members
+Common User,Solid,Employee198,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31198,,Solid Workshop Members,,NM2,1/1/2012,8/20/1985,Male,Members
+Common User,Solid,Employee199,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31199,,Solid Workshop Members,,NM2,1/1/2012,8/21/1985,Male,Members
+Common User,Solid,Employee200,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,31200,,Solid Workshop Members,,NM2,1/1/2012,8/22/1985,Male,Members
+Common User,QA,Employee1,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32001,,Quality Assurance Members,,NM2,1/1/2012,8/23/1985,Male,Members
+Common User,QA,Employee2,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32002,,Quality Assurance Members,,NM2,1/1/2012,8/24/1985,Male,Members
+Common User,QA,Employee3,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32003,,Quality Assurance Members,,NM2,1/1/2012,8/25/1985,Male,Members
+Common User,QA,Employee4,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32004,,Quality Assurance Members,,NM2,1/1/2012,8/26/1985,Male,Members
+Common User,QA,Employee5,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32005,,Quality Assurance Members,,NM2,1/1/2012,8/27/1985,Male,Members
+Common User,QA,Employee6,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32006,,Quality Assurance Members,,NM2,1/1/2012,8/28/1985,Male,Members
+Common User,QA,Employee7,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32007,,Quality Assurance Members,,NM2,1/1/2012,8/29/1985,Male,Members
+Common User,QA,Employee8,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32008,,Quality Assurance Members,,NM2,1/1/2012,8/30/1985,Male,Members
+Common User,QA,Employee9,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32009,,Quality Assurance Members,,NM2,1/1/2012,8/31/1985,Male,Members
+Common User,QA,Employee10,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32010,,Quality Assurance Members,,NM2,1/1/2012,9/1/1985,Male,Members
+Common User,QA,Employee11,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32011,,Quality Assurance Members,,NM2,1/1/2012,9/2/1985,Male,Members
+Common User,QA,Employee12,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32012,,Quality Assurance Members,,NM2,1/1/2012,9/3/1985,Male,Members
+Common User,QA,Employee13,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32013,,Quality Assurance Members,,NM2,1/1/2012,9/4/1985,Male,Members
+Common User,QA,Employee14,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32014,,Quality Assurance Members,,NM2,1/1/2012,9/5/1985,Male,Members
+Common User,QA,Employee15,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32015,,Quality Assurance Members,,NM2,1/1/2012,9/6/1985,Male,Members
+Common User,QA,Employee16,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32016,,Quality Assurance Members,,NM2,1/1/2012,9/7/1985,Male,Members
+Common User,QA,Employee17,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32017,,Quality Assurance Members,,NM2,1/1/2012,9/8/1985,Male,Members
+Common User,QA,Employee18,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32018,,Quality Assurance Members,,NM2,1/1/2012,9/9/1985,Male,Members
+Common User,QA,Employee19,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32019,,Quality Assurance Members,,NM2,1/1/2012,9/10/1985,Male,Members
+Common User,QA,Employee20,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,32020,,Quality Assurance Members,,NM2,1/1/2012,9/11/1985,Male,Members
+Common User,ENG,Employee1,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33001,,Engineering Members,,NM2,1/1/2012,9/12/1985,Male,Members
+Common User,ENG,Employee2,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33002,,Engineering Members,,NM2,1/1/2012,9/13/1985,Male,Members
+Common User,ENG,Employee3,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33003,,Engineering Members,,NM2,1/1/2012,9/14/1985,Male,Members
+Common User,ENG,Employee4,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33004,,Engineering Members,,NM2,1/1/2012,9/15/1985,Male,Members
+Common User,ENG,Employee5,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33005,,Engineering Members,,NM2,1/1/2012,9/16/1985,Male,Members
+Common User,ENG,Employee6,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33006,,Engineering Members,,NM2,1/1/2012,9/17/1985,Male,Members
+Common User,ENG,Employee7,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33007,,Engineering Members,,NM2,1/1/2012,9/18/1985,Male,Members
+Common User,ENG,Employee8,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33008,,Engineering Members,,NM2,1/1/2012,9/19/1985,Male,Members
+Common User,ENG,Employee9,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33009,,Engineering Members,,NM2,1/1/2012,9/20/1985,Male,Members
+Common User,ENG,Employee10,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33010,,Engineering Members,,NM2,1/1/2012,9/21/1985,Male,Members
+Common User,ENG,Employee11,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33011,,Engineering Members,,NM2,1/1/2012,9/22/1985,Male,Members
+Common User,ENG,Employee12,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33012,,Engineering Members,,NM2,1/1/2012,9/23/1985,Male,Members
+Common User,ENG,Employee13,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33013,,Engineering Members,,NM2,1/1/2012,9/24/1985,Male,Members
+Common User,ENG,Employee14,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33014,,Engineering Members,,NM2,1/1/2012,9/25/1985,Male,Members
+Common User,ENG,Employee15,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33015,,Engineering Members,,NM2,1/1/2012,9/26/1985,Male,Members
+Common User,ENG,Employee16,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33016,,Engineering Members,,NM2,1/1/2012,9/27/1985,Male,Members
+Common User,ENG,Employee17,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33017,,Engineering Members,,NM2,1/1/2012,9/28/1985,Male,Members
+Common User,ENG,Employee18,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33018,,Engineering Members,,NM2,1/1/2012,9/29/1985,Male,Members
+Common User,ENG,Employee19,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33019,,Engineering Members,,NM2,1/1/2012,9/30/1985,Male,Members
+Common User,ENG,Employee20,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33020,,Engineering Members,,NM2,1/1/2012,10/1/1985,Male,Members
+Common User,ENG,Employee21,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33021,,Engineering Members,,NM2,1/1/2012,10/2/1985,Male,Members
+Common User,ENG,Employee22,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33022,,Engineering Members,,NM2,1/1/2012,10/3/1985,Male,Members
+Common User,ENG,Employee23,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33023,,Engineering Members,,NM2,1/1/2012,10/4/1985,Male,Members
+Common User,ENG,Employee24,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33024,,Engineering Members,,NM2,1/1/2012,10/5/1985,Male,Members
+Common User,ENG,Employee25,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,33025,,Engineering Members,,NM2,1/1/2012,10/6/1985,Male,Members
+Common User,QC,Employee1,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34001,,Quality Control Members,,NM2,1/1/2012,10/7/1985,Male,Members
+Common User,QC,Employee2,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34002,,Quality Control Members,,NM2,1/1/2012,10/8/1985,Male,Members
+Common User,QC,Employee3,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34003,,Quality Control Members,,NM2,1/1/2012,10/9/1985,Male,Members
+Common User,QC,Employee4,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34004,,Quality Control Members,,NM2,1/1/2012,10/10/1985,Male,Members
+Common User,QC,Employee5,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34005,,Quality Control Members,,NM2,1/1/2012,10/11/1985,Male,Members
+Common User,QC,Employee6,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34006,,Quality Control Members,,NM2,1/1/2012,10/12/1985,Male,Members
+Common User,QC,Employee7,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34007,,Quality Control Members,,NM2,1/1/2012,10/13/1985,Male,Members
+Common User,QC,Employee8,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34008,,Quality Control Members,,NM2,1/1/2012,10/14/1985,Male,Members
+Common User,QC,Employee9,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34009,,Quality Control Members,,NM2,1/1/2012,10/15/1985,Male,Members
+Common User,QC,Employee10,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34010,,Quality Control Members,,NM2,1/1/2012,10/16/1985,Male,Members
+Common User,QC,Employee11,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34011,,Quality Control Members,,NM2,1/1/2012,10/17/1985,Male,Members
+Common User,QC,Employee12,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34012,,Quality Control Members,,NM2,1/1/2012,10/18/1985,Male,Members
+Common User,QC,Employee13,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34013,,Quality Control Members,,NM2,1/1/2012,10/19/1985,Male,Members
+Common User,QC,Employee14,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34014,,Quality Control Members,,NM2,1/1/2012,10/20/1985,Male,Members
+Common User,QC,Employee15,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34015,,Quality Control Members,,NM2,1/1/2012,10/21/1985,Male,Members
+Common User,QC,Employee16,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34016,,Quality Control Members,,NM2,1/1/2012,10/22/1985,Male,Members
+Common User,QC,Employee17,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34017,,Quality Control Members,,NM2,1/1/2012,10/23/1985,Male,Members
+Common User,QC,Employee18,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34018,,Quality Control Members,,NM2,1/1/2012,10/24/1985,Male,Members
+Common User,QC,Employee19,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34019,,Quality Control Members,,NM2,1/1/2012,10/25/1985,Male,Members
+Common User,QC,Employee20,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34020,,Quality Control Members,,NM2,1/1/2012,10/26/1985,Male,Members
+Common User,QC,Employee21,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34021,,Quality Control Members,,NM2,1/1/2012,10/27/1985,Male,Members
+Common User,QC,Employee22,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34022,,Quality Control Members,,NM2,1/1/2012,10/28/1985,Male,Members
+Common User,QC,Employee23,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34023,,Quality Control Members,,NM2,1/1/2012,10/29/1985,Male,Members
+Common User,QC,Employee24,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34024,,Quality Control Members,,NM2,1/1/2012,10/30/1985,Male,Members
+Common User,QC,Employee25,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,34025,,Quality Control Members,,NM2,1/1/2012,10/31/1985,Male,Members
+Common User,HR,Employee1,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35001,,Administration & Human Resource Members,,NM2,1/1/2012,11/1/1985,Male,Members
+Common User,HR,Employee2,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35002,,Administration & Human Resource Members,,NM2,1/1/2012,11/2/1985,Male,Members
+Common User,HR,Employee3,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35003,,Administration & Human Resource Members,,NM2,1/1/2012,11/3/1985,Male,Members
+Common User,HR,Employee4,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35004,,Administration & Human Resource Members,,NM2,1/1/2012,11/4/1985,Male,Members
+Common User,HR,Employee5,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35005,,Administration & Human Resource Members,,NM2,1/1/2012,11/5/1985,Male,Members
+Common User,HR,Employee6,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35006,,Administration & Human Resource Members,,NM2,1/1/2012,11/6/1985,Male,Members
+Common User,HR,Employee7,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35007,,Administration & Human Resource Members,,NM2,1/1/2012,11/7/1985,Male,Members
+Common User,HR,Employee8,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35008,,Administration & Human Resource Members,,NM2,1/1/2012,11/8/1985,Male,Members
+Common User,HR,Employee9,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35009,,Administration & Human Resource Members,,NM2,1/1/2012,11/9/1985,Male,Members
+Common User,HR,Employee10,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35010,,Administration & Human Resource Members,,NM2,1/1/2012,11/10/1985,Male,Members
+Common User,HR,Employee11,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35011,,Administration & Human Resource Members,,NM2,1/1/2012,11/11/1985,Male,Members
+Common User,HR,Employee12,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35012,,Administration & Human Resource Members,,NM2,1/1/2012,11/12/1985,Male,Members
+Common User,HR,Employee13,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35013,,Administration & Human Resource Members,,NM2,1/1/2012,11/13/1985,Male,Members
+Common User,HR,Employee14,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35014,,Administration & Human Resource Members,,NM2,1/1/2012,11/14/1985,Male,Members
+Common User,HR,Employee15,SP-Common,Ho Chi Minh,Ho Chi Minh,EMP,10001,Administration & Human Resource,35015,,Administration & Human Resource Members,,NM2,1/1/2012,11/15/1985,Male,Members

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Document (0x0101) -->
+  <ContentType ID="0x010100FB2FC6EBF9BC4411B24C3B651B097C74"
+               Name="SupportingDocumentContentType"
+               Group="Stada Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{58222370-672f-404a-a74b-22ec1318d528}" Name="ListItemID" DisplayName="List Item ID"  Required="FALSE"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

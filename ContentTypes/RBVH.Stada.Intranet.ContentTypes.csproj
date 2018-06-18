@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A93ACC5E-B469-4097-8FC6-991E04685B1D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.ContentTypes</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.ContentTypes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <AssemblyDeploymentTarget>WebApplication</AssemblyDeploymentTarget>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>14.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <MinimumOfficeToolsVersion>14.6</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BusinessTripModule\BusinessTripEmployeeDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{217251d6-1bfa-4833-8aa4-6a52247be2d4}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffd14276-e467-460f-800d-ee90f548e6d4}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripScheduleContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0485ecd3-eab1-42a5-ae44-0a8415ed01ad}</SharePointProjectItemId>
+    </None>
+    <None Include="ChangeShiftModule\ChangeShiftManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{60b434fa-44fe-4d0c-ad42-c5228aa01415}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\ApprovalContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1638b5be-3ba1-437e-adf4-0afb1193c7bd}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\SupportingDocumentContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2977f9be-042d-4515-bfee-31f4625bc677}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowEmailTemplatesContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{577130c5-4b1a-4ea7-a66d-0bd822bcdfcf}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowHistoryContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{342c8bed-0f27-4017-ba55-0adcfee23dcb}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowStepsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{de6f018b-1e38-47a0-ae9f-3dd79e4de4b7}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationEmployeePositionsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4290b694-ee1b-46ac-a9bd-ae4e02ef30bc}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationModulesContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{84d4a717-a9a3-46c3-832a-5c97e40c2ba5}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{50216557-d7e5-43c4-8af3-923c95e78864}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationsOfNewTaskContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e91bcca6-8dea-463a-8943-227c498c2eac}</SharePointProjectItemId>
+    </None>
+    <None Include="DepartmentSite\DepartmentTaskContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{427b7bb1-6af0-4dce-941f-79340504a5a9}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\FeatureSite\FeatureSite.feature">
+      <FeatureId>{25ef0a28-7a3b-4aed-b828-4db1a56d6327}</FeatureId>
+    </None>
+    <None Include="FreightModule\FreightManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e2072f41-347f-4024-96f7-1536662ad163}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4da01211-b4e8-4c77-98c4-adf145e833cb}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightReceiverDepartmentContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5fccdfc9-9946-4173-9728-b09da8487578}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightVehicleContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{45d7b9d5-baf8-4948-85e9-289e44875ae5}</SharePointProjectItemId>
+    </None>
+    <None Include="Home\CompanyCalendar\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ff860e4f-aec1-47b5-9143-489dc41fa9f9}</SharePointProjectItemId>
+    </None>
+    <None Include="Home\CompanyDiscussion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aec7d8b4-eb2b-4a4a-9569-9ad1c5224913}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="LeaveModule\LeaveManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6cd48855-f142-42f0-8213-eefb39cc0df0}</SharePointProjectItemId>
+    </None>
+    <None Include="MailModule\MailTemplateContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ae2cdacd-e916-44db-a187-ca161f4ab403}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\EquipmentContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ab2df218-b5cf-4b2b-8adc-039ab1ed01f5}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\RequisitionOfMeetingRoomContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bdf86b9a-9de2-4542-b732-b14bf4630dc8}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsModule\AnnouncementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{34146363-ad8e-42a0-8957-5bc49c6d219a}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsModule\NewsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{79e26fea-2200-4c7f-8df0-560ef177fe23}</SharePointProjectItemId>
+    </None>
+    <None Include="NotOvertimeModule\NotOvertimeManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b9d96c64-5fac-49a3-bfbc-def2716e8d9e}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\AdditionalEmployeePositionContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e687be53-913a-41a4-b8d3-f858931a669e}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\DepartmentsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6f4db1d5-8654-4df3-95f9-a99d54b10fbe}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\EmployeeInfoContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2862114f-0f6e-4b18-aade-6bc55a584dce}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\EmployeePositionContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b9776783-08f0-4247-a6f6-496e46308d3c}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\FactoriesContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ab8d5cae-191e-4308-b726-2c1094f94114}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\RelationsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a7902faa-bc52-4e5d-a52c-9c1060028006}</SharePointProjectItemId>
+    </None>
+    <None Include="OvertimeModule\OvertimeEmployeeDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{54197f1b-baf5-40d3-8814-6af76c0999bf}</SharePointProjectItemId>
+    </None>
+    <None Include="OvertimeModule\OvertimeManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b099e9a2-bc10-4d32-9e98-9000c446a96d}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{8e840f39-e4b6-4ab5-80ac-6d9029ec89a4}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="PermissionModule\Groups\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{94227162-0613-4a92-ad2a-b6f180f7e93f}</SharePointProjectItemId>
+    </None>
+    <None Include="PermissionModule\ModuleCategoryContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7337da14-f7b6-4746-a432-fa8fe8dd5ea7}</SharePointProjectItemId>
+    </None>
+    <None Include="PermissionModule\Permission\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d0b16cc1-bacb-4706-bf7b-fa25fa40b671}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\EmployeeRequirementSheetsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7eb489c3-2400-459f-ac9b-80fcd01b625e}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\ForeignLanguagesContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a17b0dec-1399-4ddc-82d4-a23e030eec42}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\RecruitmentLanguageSkillsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9c06608b-a54a-45bb-b63f-804d6e1b14de}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestDiplomaModule\RequestDiplomaDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{89e13cde-dcbd-4ecf-8b46-fbf29e6c7950}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestDiplomaModule\RequestForDiplomaSuppliesContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cf16f880-e0fa-44a1-9062-d0f87a50f3b0}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestBuyDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{db8cdf21-595c-4217-bb81-ed54e154e042}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f8e5aceb-12a8-44f9-a4ce-1f1c1fefa3b5}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestOtherDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8013b780-8317-4fca-823a-885a08fe9d84}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestReceivedDepartmentViewersContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c6d3fb7d-4f40-4962-9634-54e8cef06651}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestRepairDetailsContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f291db8c-1ee2-4362-92c8-25050fc49a86}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestTypeContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{21ce27f8-cade-4d9c-955a-f4d7dd2e8e03}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestInformation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8a528241-2497-455c-8d1b-946d3ee09382}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestPickupCar\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d4992e89-825f-4dea-87f5-6a08caa526c3}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestReceptionManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4a8defdf-79ee-4c81-a0ce-2664e5873fe3}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\EmployeeShiftTimeContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{946bf29b-47a6-426a-95da-73abe88ac889}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftManagementContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13d8655a-cd20-40c5-93cb-77a5a18c3100}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftManagementDetailContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8827cfa3-8aba-4eed-b46d-f5520106411b}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftTimeContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f842098a-3d5f-4489-9c56-543f48263b33}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskModule\CustomTaskListContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{801e6256-099a-4e7f-8a16-ea2502667437}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskModule\StepContentType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5b84a9df-4c8e-40ef-b14f-a2a55bc3b3f5}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationModule\CompanyVehicles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{07bf33f4-db2c-4edc-946d-4e19984b4b2b}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationModule\VehicleManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{09631a76-b912-4269-b5ce-40ec62fd40d6}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BusinessTripModule\BusinessTripEmployeeDetailsContentType\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripManagementContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="BusinessTripModule\BusinessTripScheduleContentType\Elements.xml" />
+    <Content Include="ChangeShiftModule\ChangeShiftManagementContentType\Elements.xml" />
+    <Content Include="Common\ApprovalContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Common\SupportingDocumentContentType\Elements.xml" />
+    <Content Include="Common\WorkflowEmailTemplatesContentType\Elements.xml" />
+    <Content Include="Common\WorkflowHistoryContentType\Elements.xml" />
+    <Content Include="Common\WorkflowStepsContentType\Elements.xml" />
+    <Content Include="DelegationModule\DelegationEmployeePositionsContentType\Elements.xml" />
+    <Content Include="DelegationModule\DelegationModulesContentType\Elements.xml" />
+    <Content Include="DelegationModule\DelegationsContentType\Elements.xml" />
+    <Content Include="DelegationModule\DelegationsOfNewTaskContentType\Elements.xml" />
+    <Content Include="DepartmentSite\DepartmentTaskContentType\Elements.xml" />
+    <Content Include="Features\FeatureSite\FeatureSite.Template.xml">
+      <DependentUpon>FeatureSite.feature</DependentUpon>
+    </Content>
+    <Content Include="FreightModule\FreightManagementContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FreightModule\FreightDetailsContentType\Elements.xml" />
+    <Content Include="FreightModule\FreightReceiverDepartmentContentType\Elements.xml" />
+    <Content Include="FreightModule\FreightVehicleContentType\Elements.xml" />
+    <Content Include="Home\CompanyCalendar\Elements.xml" />
+    <Content Include="Home\CompanyDiscussion\Elements.xml" />
+    <Content Include="LeaveModule\LeaveManagementContentType\Elements.xml" />
+    <Content Include="MailModule\MailTemplateContentType\Elements.xml" />
+    <Content Include="MeetingRoomModule\EquipmentContentType\Elements.xml" />
+    <Content Include="MeetingRoomModule\RequisitionOfMeetingRoomContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="NewsModule\AnnouncementContentType\Elements.xml" />
+    <Content Include="NewsModule\NewsContentType\Elements.xml" />
+    <Content Include="NotOvertimeModule\NotOvertimeManagementContentType\Elements.xml" />
+    <Content Include="OrganizationModule\AdditionalEmployeePositionContentType\Elements.xml" />
+    <Content Include="OrganizationModule\DepartmentsContentType\Elements.xml" />
+    <Content Include="OrganizationModule\EmployeeInfoContentType\Elements.xml" />
+    <Content Include="OrganizationModule\EmployeePositionContentType\Elements.xml" />
+    <Content Include="OrganizationModule\FactoriesContentType\Elements.xml" />
+    <Content Include="OrganizationModule\RelationsContentType\Elements.xml" />
+    <Content Include="OvertimeModule\OvertimeEmployeeDetailsContentType\Elements.xml" />
+    <Content Include="OvertimeModule\OvertimeManagementContentType\Elements.xml" />
+    <Content Include="PermissionModule\Groups\Elements.xml" />
+    <Content Include="PermissionModule\ModuleCategoryContentType\Elements.xml" />
+    <Content Include="PermissionModule\Permission\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RecruitmentModule\EmployeeRequirementSheetsContentType\Elements.xml" />
+    <Content Include="RecruitmentModule\ForeignLanguagesContentType\Elements.xml" />
+    <Content Include="RecruitmentModule\RecruitmentLanguageSkillsContentType\Elements.xml" />
+    <Content Include="RequestDiplomaModule\RequestDiplomaDetailsContentType\Elements.xml" />
+    <Content Include="RequestDiplomaModule\RequestForDiplomaSuppliesContentType\Elements.xml" />
+    <Content Include="RequestModule\RequestBuyDetailsContentType\Elements.xml" />
+    <Content Include="RequestModule\RequestContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\RequestOtherDetailsContentType\Elements.xml" />
+    <Content Include="RequestModule\RequestReceivedDepartmentViewersContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\RequestRepairDetailsContentType\Elements.xml" />
+    <Content Include="RequestModule\RequestTypeContentType\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestInformation\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestPickupCar\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestReceptionManagement\Elements.xml" />
+    <Content Include="ShiftModule\EmployeeShiftTimeContentType\Elements.xml" />
+    <Content Include="ShiftModule\ShiftManagementContentType\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ShiftModule\ShiftManagementDetailContentType\Elements.xml" />
+    <Content Include="ShiftModule\ShiftTimeContentType\Elements.xml" />
+    <Content Include="TaskModule\CustomTaskListContentType\Elements.xml" />
+    <Content Include="TaskModule\StepContentType\Elements.xml" />
+    <Content Include="TransportationModule\CompanyVehicles\Elements.xml" />
+    <Content Include="TransportationModule\VehicleManagement\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

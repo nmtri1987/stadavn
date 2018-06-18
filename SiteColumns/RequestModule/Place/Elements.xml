@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1bb368a4-fb2b-4c7f-ab9a-04c5d5eb72f0}"
+       Name="Place"
+       DisplayName="Place"
+       Type="Note"
+       RichText="TRUE"
+       RichTextMode="Compatible"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

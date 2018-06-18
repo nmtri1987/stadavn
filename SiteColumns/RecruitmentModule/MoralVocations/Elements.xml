@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e3e1fe57-1e16-471a-b91c-f3adc34a195e}"
+       Name="MoralVocations"
+       DisplayName="Moral Vocations"
+       Type="Note" NumLines="6"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

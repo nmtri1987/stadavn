@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010022A25829052040E58D5378F0623C4FA1" Name="StepContentType" Group="Stada Content Types" Description="My Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{9bbd6a27-377d-4b2f-89a2-0f01b8afe82b}" DisplayName="Step Module" Required="TRUE" Name="StepModule" />
+      <FieldRef ID="{0189e6f0-2f82-447a-b826-2eec198639f8}" DisplayName="Next Status" Required="TRUE" Name="CurrentStepStatus" />
+      <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" DisplayName="Department" Required="FALSE" Name="CommonDepartment" />
+      <FieldRef ID="{84d6b1bf-9438-4858-8c9a-7d5acdda7e1f}" DisplayName="Step Number" Required="TRUE" Name="StepNumber" />
+      <FieldRef ID="{669ed8e2-81be-4968-95d9-abf552e37090}" Name="StepPosition" DisplayName="Step Position" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

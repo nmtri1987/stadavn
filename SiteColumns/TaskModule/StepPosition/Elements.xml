@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{669ed8e2-81be-4968-95d9-abf552e37090}"
+       Name="StepPosition"
+       DisplayName="Step Position"
+       Type="Lookup"
+        List="Lists/EmployeePosition" ShowField="Code"
+       Required="FALSE"
+        Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100CD7852D4ACE548928DB3C8BEE7C988A1"
+               Name="BusinessTripScheduleContentType"
+               Group="Stada Content Types"
+               Description="$Resources:RBVHStadaLists,BusinessTripSchedule_ContentType_Description;"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{32aa394f-0bdb-4abf-8df1-f764077fa634}" Name="BusinessTripManagementID" Required="TRUE" />
+      <FieldRef ID="{9921760c-60c5-4e01-842b-2bf75cb4a084}" Name="DepartDate" Required="TRUE" />
+      <FieldRef ID="{419a5af7-d95f-411f-8350-679211b0bd5b}" Name="FlightName" Required="FALSE" />
+      <FieldRef ID="{db697f82-8d82-4656-883f-e2b8ed8a9459}" Name="City" Required="FALSE" />
+      <FieldRef ID="{5390c12c-d937-4503-be65-72f1eba1a305}" Name="Country" Required="FALSE" />
+      <FieldRef ID="{880aa160-ca0b-4bbb-8665-78bdb68c5dab}" Name="ContactCompany" Required="TRUE" />
+      <FieldRef ID="{bb7f5e33-74ac-4216-a8c7-a9c9c7aaf420}" Name="ContactPhone" Required="FALSE" />
+      <FieldRef ID="{8dc25443-fe16-477e-98bc-0f99cc467a31}" Name="OtherSchedule" Required="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

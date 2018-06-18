@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01005D35E596FDB044AFB754A188077699ED"
+               Name="$Resources:RBVHStadaLists,DepartmentTask_ContentTypeName;"
+               Group="RBVH Content Types"
+               Description="$Resources:RBVHStadaLists,DepartmentTask_ContentTypeDesciption;"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" DisplayName="$Resources:core,Task_Name;"  />
+      <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" DisplayName="$Resources:core,Task_Name;"/>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title"  DisplayName="$Resources:core,Task_Name;" Sealed="TRUE" />
+      <FieldRef ID="{fd447db5-3908-4b47-8f8c-a5895ed0aa6a}" Name="ParentID"   Hidden="TRUE" Required="FALSE"  DisplayName="$Resources:core,Parent_ID;"/>
+      <FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Name="StartDate" DisplayName="$Resources:core,Start_Date;" Format="DateOnly"/>
+      <FieldRef ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" Name="DueDate" DisplayName="$Resources:core,Due_Date;"/>
+      <FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Name="AssignedTo"  DisplayName="$Resources:core,Assigned_To;" />
+      <FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" DisplayName="$Resources:core,Percent_Complete;"/>
+      <FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" DisplayName="$Resources:core,Description;" Sortable="FALSE" />
+      <FieldRef ID="{c3a92d97-2b77-4a25-9698-3ab54874bc6f}" Name="Predecessors" Required="FALSE" DisplayName="$Resources:core,Tasks_Predecessors;"/>
+      <FieldRef ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" Name="Priority" DisplayName="$Resources:core,Priority;" />
+      <FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" Name="Status" DisplayName="$Resources:core,TaskStatus;" />
+      <FieldRef ID="{ebf1c037-47eb-4355-998d-47ce9f2cc047}" Name="Checkmark" Required="FALSE" ReadOnly="TRUE" DisplayName="$Resources:core,Check_Mark_Field;"/>
+      <FieldRef ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" Name="RelatedItems"  ShowInDisplayForm="TRUE" ShowInNewForm="FALSE" ShowInEditForm="FALSE" DisplayName="$Resources:core,Related_Links_Field;"/>
+      <FieldRef ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" Hidden="TRUE" DisplayName="$Resources:core,Previously_Assigned_To_Field;" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

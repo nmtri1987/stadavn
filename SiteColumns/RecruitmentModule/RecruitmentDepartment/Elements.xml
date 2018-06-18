@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a1ce62c0-c553-4ab8-acfc-64bfb7aac862}"
+       Name="RecruitmentDepartment"
+       DisplayName="Recruitment Department"
+       Type="Lookup" List="Lists/Departments" ShowField="CommonName"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

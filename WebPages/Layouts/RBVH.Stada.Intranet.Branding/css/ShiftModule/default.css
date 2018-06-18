@@ -1,0 +1,141 @@
+﻿/* Common */
+.pt10{
+    padding-top: 10px;
+}
+
+
+#cbDepartment
+{
+    /*width: 150px;*/
+}
+
+#txtCalendar
+{
+    width: 100px;
+}
+
+#gridShiftRequest .header-left
+{
+    width: 150px;
+}
+
+.approver, .factoryLocation, .latest-approver {
+    font-weight: bold;
+}
+
+
+.inner-addon {
+    position: relative;
+}
+
+    /* style icon */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+
+/* align icon */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/*GRID*/
+#jsGridEmployee .jsgrid-button
+{
+    width: 15px;
+    margin-left: 2px;
+    min-width: 15px;
+}
+
+#jsGridEmployee .jsgrid-control-field 
+{
+    width: 61px !important;
+    
+}
+
+#jsGridEmployee .jsgrid-cell
+{
+    width: 50px;
+    
+}
+
+.jsgrid-header-row>.jsgrid-header-cell
+/*.jsGridEmployeeHeader*/
+{
+    background: #dfeffc url("images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+    color: #2e6e9e;
+    border: 1px solid #c5dbec;
+}
+
+#jsGridEmployee .highlight{
+ 
+    background-color: #ddd;
+}
+
+.jsgrid-table {
+        border-collapse: separate;
+    }
+
+    .jsgrid-grid-body td, .jsgrid-grid-header td, .jsgrid-grid-header th {
+        border-left: 0;
+        border-top: 0;
+    }
+
+/*Button*/
+button.disable{
+    background-color: gray !important;
+}
+
+#toaster .close{
+    min-width: 15px;
+}
+.shift-time-valid{
+    background-color:#c6ffcc !important;
+}
+.highlight-location1{
+   background-color: #efeded !important;
+}
+.highlight-location2{
+    background-color: #ddd !important;
+}
+    
+#lblDepartment{
+    font-weight: bold;
+}
+
+#shift-request-container, #shift-approval-container{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.lbl-fixed-width
+{
+    width: 150px;
+    padding-left: 20px;
+}
+
+#txtShiftDateByDepartment
+{
+    width: 100px;
+}
+
+.jsgrid-cell-half-day, .jsgrid-cell-all-day{
+    text-decoration: underline;
+}
+
+button.ui-dialog-titlebar-close
+{
+    min-width: 25px;
+}
+
+#leave-link
+{
+    cursor: pointer;
+}

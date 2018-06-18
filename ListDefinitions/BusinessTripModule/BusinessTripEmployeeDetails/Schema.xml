@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,BusinessTripEmployeeDetails_ListTitle;" 
+      FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/BusinessTripEmployeeDetails" 
+      BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/"
+      EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID ="0x0100447DAFB743284607A7FECCE606C5B5B7"></ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{32aa394f-0bdb-4abf-8df1-f764077fa634}" Name="BusinessTripManagementID" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_BusinessTripManagementID;" Required="FALSE" Type="Lookup" List="Lists/BusinessTripManagement" ShowField="ID"/>
+      <Field ID="{cf5be2dd-4ab0-4a62-a044-cbc1a0f9ca55}" Name="ApprovalStatus" DisplayName="$Resources:RBVHStadaLists,Approval_Status;" FieldRef="{32aa394f-0bdb-4abf-8df1-f764077fa634}" Type="Lookup" List="Lists/BusinessTripManagement" ShowField="ApprovalStatus" Group="Stada Columns" />
+      <Field ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" Name="Employee" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_Employee;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE"></Field>
+      <Field ID="{ec92ccd3-02a5-4180-9692-f21924ae5741}" Name="EmployeeID" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_EmployeeID;" FieldRef="{8bab4be0-44c6-4416-a409-0be1fac25153}" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeID" Required="TRUE"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="BusinessTripManagementID" />
+          <FieldRef Name="Employee" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

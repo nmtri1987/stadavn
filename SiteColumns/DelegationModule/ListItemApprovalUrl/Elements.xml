@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3f06758e-cb12-41c6-a3fc-5d7b3fd597d4}"
+       Name="ListItemApprovalUrl"
+       DisplayName="List Item Approval Url"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

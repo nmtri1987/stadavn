@@ -1,0 +1,73 @@
+﻿Deploy 1 package:
+- RBVH.Stada.Intranet.Main
+
+CÁC BƯỚC DEPLOY TRÊN VISUAL
+-----------------------------------------------------------------------------------------------------------------------------------
+BƯỚC 1: NẾU NHƯ CHƯA BẬT SESSION & THÊM ChangeLocaleModule VÀO WEB CONFIG THÌ THỰC HIỆN BƯỚC 1, NẾU THỰC HIỆN RỒI THÌ BỎ QUA BƯỚC 1
+    ***** Bật seesion trong Web Config (thêm 2 chỗ), file Web.config được tìm thấy ở chỗ: C:\inetpub\wwwroot\wss\VirtualDirectories\80 
+    (80 là port hiện tại website đang chạy):
+    + Thêm 
+	<remove name="Session" />
+	<add name="Session" type="System.Web.SessionState.SessionStateModule" /> 
+	vào  <modules runAllManagedModulesForAllRequests="true"> </modules>
+        VD: 
+        <modules runAllManagedModulesForAllRequests="true"> 
+            <remove name="Session" />
+			<add name="Session" type="System.Web.SessionState.SessionStateModule" /> 
+        </modules>
+    + Tìm với từ khóa "enableSessionState", sửa từ enableSessionState="false" thành enableSessionState="true"
+
+    ***** Thêm ChangeLocaleModule để có thể thay đổi được ngôn ngữ:
+    <modules runAllManagedModulesForAllRequests="true"> 
+            <add name="ChangeLocaleModule" type="RBVH.Core.SharePoint.ChangeLocaleModule,RBVH.Core.SharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=11a9e46ca01dfd34" />
+    </modules>
+
+-----------------------------------------------------------------------------------------------------------------------------------
+BƯỚC 2: DEPLOY TỪNG PACKAGE TRÊN VISUAL THEO THỨ TỰ
+1. RBVH.Stada.Intranet.Resources
+2. RBVH.Stada.Intranet.SiteColumns 
+3. RBVH.Stada.Intranet.ContentTypes - LƯU Ý: Tới bước này mà deploy bị failed, báo lỗi content was found... 
+                                        thì tắt visual rồi mở lại và deploy contenttype lại (Lỗi này chưa biết cách fix).
+                                        Còn nếu vẫn bị nữa thì deploy lại site column và tiếp tục contenttype :D
+4. RBVH.Stada.Intranet.ListDefinitions
+5. RBVH.Stada.Intranet.WebPages
+6. RBVH.Stada.Intranet.SiteTemplate
+7. RBVH.Stada.Intranet.Branding
+8. RBVH.Stada.Intranet.ListEventReceiver
+9. RBVH.Stada.Intranet.Webservices
+10. The other module e.g: (No need to order)
+-----------------------------------------------------------------------------------------------------------------------------------
+BƯỚC 3: IMPORT DỮ LIỆU ĐỂ DEV
+Lưu ý: Nếu máy local chưa có AD User đầy đủ thì chạy file CreateUserAD.bat để tạo AD Account. Chỉ chạy file này 1 lần. Trước khi chạy phải mở file ra và sửa lại url.
+
+Để import dữ liệu cho test thì ta chạy file InstallSolutions.bat từ dòng "powershell.exe -File ImportDepartment.ps1 -SiteURL %SiteURL% " trở xuống. 
+
+- Một số lưu ý nhỏ thêm: 
+ + Do file employee đang để email của stada nên khi import employee, phải sửa qua email của mình, mở file ImportEmployee.ps1
+ Tìm dòng $newEmployee["Email"] = ($i.Email + "").Trim(), sửa thành $newEmployee["Email"] = "your email"
+
+-----------------------------------------------------------------------------------------------------------------------------------
+BƯỚC 4: UPDATE CUSTOMSERVICES
+
+chạy file UpdateCustomServices.bat để cập nhật lại custom services
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+PHẦN DƯỚI ĐÂY LÀ PHẦN PHỤ, KHÔNG CẦN LÀM THEO
+- Compare and update file wss.xsd in C:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\TEMPLATE\XML
+--add this to web config in case webpages don't run:
+ <PageParserPaths>
+		<PageParserPath VirtualPath="/*" CompilationMode="Always"   AllowServerSideScript="true"  IncludeSubFolders="true" />
+ </PageParserPaths>
+
+Install-SPSolution –Identity RBVH.Stada.Intranet.Branding.wsp –WebApplication "http://windev162:82" -GACDeployment:$true -Force:$true -FullTrustBinDeployment -Confirm:$false
+
+
+Load woff2 Font ==> Add to webconfig
+<system.webServer>
+  <staticContent>
+    <remove fileExtension=".woff2" />
+    <mimeMap fileExtension=".woff2" mimeType="font/woff2" />
+  </staticContent>
+</system.webServer>
+
+

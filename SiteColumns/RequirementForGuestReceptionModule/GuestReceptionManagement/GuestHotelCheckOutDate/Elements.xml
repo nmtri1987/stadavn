@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e227b13e-41e9-4650-a2bb-638fe1318dd3}"
+       Name="GuestHotelCheckOutDate"
+       DisplayName="Check Out Date"
+       Type="DateTime"
+       Format="DateOnly"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010081E5AABD687743BB9E670856ADFAA818" Name="Shift Management" Group="Stada Content Types" Description="Shift Management" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" Required="TRUE" />
+      <FieldRef ID="{6e8df9a6-3c4b-4734-8bc1-0e0d7b7fbcde}" Name="CommonMonth" Required="TRUE" />
+      <FieldRef ID="{9854b1b1-055d-4c1b-8329-3b55117dda38}" Name="CommonYear" Required="TRUE" />
+      <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" Required="TRUE" />
+      <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" Required="TRUE" />
+      <FieldRef ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" Required="FALSE" />
+      <FieldRef ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" Required="TRUE" />
+      <FieldRef ID="{9c190e70-9337-40a9-aeb9-c10bd208f0ec}" Name="CommonAddApprover1" Required="FALSE" />
+      <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" Required="FALSE" />
+      <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" Required="FALSE" />
+      <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" Required="FALSE" />
+      <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" Required="FALSE" />
+      <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" Required="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
+
+

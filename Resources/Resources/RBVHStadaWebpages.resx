@@ -1,0 +1,2367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDeniedMessage" xml:space="preserve">
+    <value>You don't have permission to access this page.</value>
+  </data>
+  <data name="AddButton" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddEmployeeButton" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="AddEmployee_ModalTitle" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="AddNewEmployeeButton" xml:space="preserve">
+    <value>Add New Employee</value>
+  </data>
+  <data name="AdminPage_Department" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="AdminPage_Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="AdminPage_ErrorLabel" xml:space="preserve">
+    <value>You don't have permission to access this page.</value>
+  </data>
+  <data name="AdminPage_PageTitle" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="AdminPage_PageTitleArea" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="AdminPage_ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="ApproveButton" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="BackButton" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelLink_ConfirmCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel this request?</value>
+  </data>
+  <data name="CancelLink_ErrorOccurre" xml:space="preserve">
+    <value>An error occurred while performing this action. Please try again!</value>
+  </data>
+  <data name="CancelLink_RequestCancelledSuccess" xml:space="preserve">
+    <value>The request has been successfully cancelled</value>
+  </data>
+  <data name="CannotCancelApprovedRequest" xml:space="preserve">
+    <value>Cannot cancel the request that has been approved</value>
+  </data>
+  <data name="CannotCancelCancelledRequest" xml:space="preserve">
+    <value>Cannot cancel the request that has been cancelled</value>
+  </data>
+  <data name="ChangeConfirmationDialogTitle" xml:space="preserve">
+    <value>Change confirmation</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_Enter" xml:space="preserve">
+    <value>Enter Confirm Password</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_IsTheSame" xml:space="preserve">
+    <value>Confirm Password must be the same.</value>
+  </data>
+  <data name="ChangePassword_ConfirmPassword_Required" xml:space="preserve">
+    <value>Confirm Password is required.</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_Enter" xml:space="preserve">
+    <value>Enter Current Password</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_IsInvalid" xml:space="preserve">
+    <value>Current Password is invalid</value>
+  </data>
+  <data name="ChangePassword_CurrentPassword_Required" xml:space="preserve">
+    <value>Current Password is required.</value>
+  </data>
+  <data name="ChangePassword_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="ChangePassword_Message_Success" xml:space="preserve">
+    <value>Change Password is successful!</value>
+  </data>
+  <data name="ChangePassword_Message_Unsuccess" xml:space="preserve">
+    <value>Change Password is unsuccessful!</value>
+  </data>
+  <data name="ChangePassword_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="ChangePassword_NewPassword_Enter" xml:space="preserve">
+    <value>Enter New Password</value>
+  </data>
+  <data name="ChangePassword_NewPassword_MinimumValidateError" xml:space="preserve">
+    <value>Minimum 6 characters required</value>
+  </data>
+  <data name="ChangePassword_NewPassword_Required" xml:space="preserve">
+    <value>New Password is required.</value>
+  </data>
+  <data name="ChangePassword_PageTitle" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangePassword_PageTitleArea" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChangeShiftManagement_AddNew" xml:space="preserve">
+    <value>Add New Request</value>
+  </data>
+  <data name="ChangeShiftManagement_PageTitle" xml:space="preserve">
+    <value>Change Shift Management</value>
+  </data>
+  <data name="ChangeShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Change Shift Management</value>
+  </data>
+  <data name="ChangeShiftTaskListManagement_PageTitle" xml:space="preserve">
+    <value>Change Shift Task List Management</value>
+  </data>
+  <data name="ChangeShiftTaskListManagement_PageTitleArea" xml:space="preserve">
+    <value>Change Shift Task List Management</value>
+  </data>
+  <data name="ChangeShift_RequestToApprove" xml:space="preserve">
+    <value>Change shift requests to approve</value>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CommonDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="CommonID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ConfirmQuickApproveMessage" xml:space="preserve">
+    <value>Are you sure you want to update the status of selected items to 'Approved'?</value>
+  </data>
+  <data name="ConfirmQuickRejectMessage" xml:space="preserve">
+    <value>Are you sure you want to update the status of selected items to 'Rejected'?</value>
+  </data>
+  <data name="DeleleConfirmationDialogTitle" xml:space="preserve">
+    <value>Delele Confirmation</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Are you sure you want to delele selected items?</value>
+  </data>
+  <data name="Dropdown_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="EmployeeDepartmentName" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="EmployeeManagement_PageTitle" xml:space="preserve">
+    <value>Employee Management</value>
+  </data>
+  <data name="EmployeeManagement_PageTitleArea" xml:space="preserve">
+    <value>Employee Management</value>
+  </data>
+  <data name="FromDateToDateValidateMessage" xml:space="preserve">
+    <value>Please select in range from day 21 to day 20 of next month</value>
+  </data>
+  <data name="General_Message_Error" xml:space="preserve">
+    <value>Something went wrong! Please try again or contact administrator.</value>
+  </data>
+  <data name="General_Prefix_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="General_Prefix_Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="General_Prefix_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="General_Prefix_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="General_Text_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="GoBackToHomePage" xml:space="preserve">
+    <value>Go back to Home Page</value>
+  </data>
+  <data name="InformationDialogTitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LeaveManagement_ErrorOccurre" xml:space="preserve">
+    <value>An error occurred while loading data from server. Please try again!</value>
+  </data>
+  <data name="LeaveManagement_MyLeaveRequestTitle" xml:space="preserve">
+    <value>My Leave Requests</value>
+  </data>
+  <data name="LeaveManagement_PageTitle" xml:space="preserve">
+    <value>Leave Management</value>
+  </data>
+  <data name="LeaveManagement_PageTitleArea" xml:space="preserve">
+    <value>Leave Management</value>
+  </data>
+  <data name="LeaveManagement_Shifts" xml:space="preserve">
+    <value>Shifts</value>
+  </data>
+  <data name="LeaveManagement_TodayLeaveButton" xml:space="preserve">
+    <value>Today Leave</value>
+  </data>
+  <data name="LeavePage_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="LeavePage_ShiftName" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Login_AuthorizationCode" xml:space="preserve">
+    <value>Authorization Code</value>
+  </data>
+  <data name="Login_AuthorizationCode_Enter" xml:space="preserve">
+    <value>Enter Authorization Code</value>
+  </data>
+  <data name="Login_AuthorizationCode_Required" xml:space="preserve">
+    <value>Authorization Code is a required field.</value>
+  </data>
+  <data name="Login_Button_Verify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="Login_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="Login_EmployeeID_Enter" xml:space="preserve">
+    <value>Enter Employee ID</value>
+  </data>
+  <data name="Login_EmployeeID_Required" xml:space="preserve">
+    <value>Employee ID is a required field.</value>
+  </data>
+  <data name="Login_Message_Fail" xml:space="preserve">
+    <value>Username or password is invalid!</value>
+  </data>
+  <data name="Login_PageTitle" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Login_PageTitleArea" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logout_PageTitle" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Logout_PageTitleArea" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="MyOverTime_InMonth" xml:space="preserve">
+    <value>My overtime in month</value>
+  </data>
+  <data name="MyOverTime_PageTitle" xml:space="preserve">
+    <value>My Overtime</value>
+  </data>
+  <data name="MyShiftTime_InMonth" xml:space="preserve">
+    <value>My shift time in month</value>
+  </data>
+  <data name="Message_MustBeDifferent" xml:space="preserve">
+    <value>must be different</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoDataText" xml:space="preserve">
+    <value>(No data)</value>
+  </data>
+  <data name="NotOvertimeManagement_AddNew" xml:space="preserve">
+    <value>Add New Request</value>
+  </data>
+  <data name="NotOvertimeManagement_MyLeaveRequestTitle" xml:space="preserve">
+    <value>My Leave Of Absence For Overtime Requests</value>
+  </data>
+  <data name="NotOvertimeManagement_PageTitle" xml:space="preserve">
+    <value>Leave Of Absence For Overtime Request</value>
+  </data>
+  <data name="NotOvertimeManagement_PageTitleArea" xml:space="preserve">
+    <value>Leave Of Absence For Overtime Request</value>
+  </data>
+  <data name="NotOvertimeManagement_RequestToApprove" xml:space="preserve">
+    <value>Leave Of Absence Requests To Approve</value>
+  </data>
+  <data name="NotOvertimeTaskListManagement_PageTitle" xml:space="preserve">
+    <value>Leave Of Absence For Overtime Request Task List</value>
+  </data>
+  <data name="NotOvertimeTaskListManagement_PageTitleArea" xml:space="preserve">
+    <value>Leave Of Absence For Overtime Request Task List</value>
+  </data>
+  <data name="NotOvertime_CannotLoadCurrentUser" xml:space="preserve">
+    <value>Can not get current user. Please try again!</value>
+  </data>
+  <data name="NotOvertime_DontHaveAnyShiftRequest" xml:space="preserve">
+    <value>You don't have any overtime request in selected day</value>
+  </data>
+  <data name="NotOvertime_InvalidDate" xml:space="preserve">
+    <value>Date must be greater than or equal current date</value>
+  </data>
+  <data name="OkButton" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OvertimeManagement_AddNew" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="OvertimeManagement_AddNewLeaveButton" xml:space="preserve">
+    <value>Add New Overtime Request</value>
+  </data>
+  <data name="OvertimeManagement_ApprovedBy" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="OvertimeManagement_MyChangeShiftRequestTitle" xml:space="preserve">
+    <value>My Change Shift Request</value>
+  </data>
+  <data name="OvertimeManagement_MyOvertimeTitle" xml:space="preserve">
+    <value>My Overtime</value>
+  </data>
+  <data name="OvertimeManagement_PageTitle" xml:space="preserve">
+    <value>Overtime Management</value>
+  </data>
+  <data name="OvertimeManagement_PageTitleArea" xml:space="preserve">
+    <value>Overtime Management</value>
+  </data>
+  <data name="OvertimeRequest_PageTitle" xml:space="preserve">
+    <value>Overtime Request</value>
+  </data>
+  <data name="OvertimeRequest_PageTitleArea" xml:space="preserve">
+    <value>Overtime Request</value>
+  </data>
+  <data name="Overtime_CannotGetData" xml:space="preserve">
+    <value>Can not get data from server. Please try again!</value>
+  </data>
+  <data name="Overtime_DeleteRow" xml:space="preserve">
+    <value>Are you sure you want to delete this row?</value>
+  </data>
+  <data name="Overtime_ErrorOccurred" xml:space="preserve">
+    <value>An error occurred. Please try again!</value>
+  </data>
+  <data name="Overtime_FieldMustBeNotBlank" xml:space="preserve">
+    <value>You can't leave this blank</value>
+  </data>
+  <data name="Overtime_FieldMustBeNumber" xml:space="preserve">
+    <value>Only numbers can go here</value>
+  </data>
+  <data name="Overtime_Modal_UserExist" xml:space="preserve">
+    <value>This employee already exists. Please select another one!</value>
+  </data>
+  <data name="Overtime_ValidateHour" xml:space="preserve">
+    <value>Hour must be greater than 0 and less than 24</value>
+  </data>
+  <data name="Overtime_ValidateTwoHour" xml:space="preserve">
+    <value>To Hour must greater than From Hour</value>
+  </data>
+  <data name="Overview_PageTitle" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="Overview_PageTitleArea" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="PasswordLengthValidate" xml:space="preserve">
+    <value>Minimum 6 and Maximum 50 characters required</value>
+  </data>
+  <data name="QuickApproveItemUpdateExist" xml:space="preserve">
+    <value>Item(s) could not change status</value>
+  </data>
+  <data name="QuickApproveItemUpdateFail" xml:space="preserve">
+    <value>Item(s) updated fail</value>
+  </data>
+  <data name="QuickApproveItemUpdateSuccess" xml:space="preserve">
+    <value>Item(s) updated success</value>
+  </data>
+  <data name="RejectButton" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>This is a required field.</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_Enter" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_IsTheSame" xml:space="preserve">
+    <value>Confirm Password must be the same.</value>
+  </data>
+  <data name="ResetPassword_ConfirmPassword_Required" xml:space="preserve">
+    <value>Confirm Password is required.</value>
+  </data>
+  <data name="ResetPassword_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="ResetPassword_Employee_Choose" xml:space="preserve">
+    <value>Please choose employee!</value>
+  </data>
+  <data name="ResetPassword_Employee_IsInvalid" xml:space="preserve">
+    <value>Employee is invalid.</value>
+  </data>
+  <data name="ResetPassword_Message_Success" xml:space="preserve">
+    <value>Reset Password is succesful!</value>
+  </data>
+  <data name="ResetPassword_Message_Unsuccess" xml:space="preserve">
+    <value>Reset Password is unsuccesful!</value>
+  </data>
+  <data name="ResetPassword_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="ResetPassword_NewPassword_Enter" xml:space="preserve">
+    <value>Enter New Password</value>
+  </data>
+  <data name="ResetPassword_NewPassword_Required" xml:space="preserve">
+    <value>New Password is required.</value>
+  </data>
+  <data name="ResetPassword_PageTitle" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="ResetPassword_PageTitleArea" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveErrorMessage" xml:space="preserve">
+    <value>An error occurred while saving data. Please try again!</value>
+  </data>
+  <data name="SaveSuccessfullMessage" xml:space="preserve">
+    <value>Data was saved successfully!</value>
+  </data>
+  <data name="SecurityLeaveManagement_PageTitle" xml:space="preserve">
+    <value>Security Leave Management</value>
+  </data>
+  <data name="SecurityLeaveManagement_PageTitleArea" xml:space="preserve">
+    <value>Security Leave Management</value>
+  </data>
+  <data name="SecurityLeave_DontHavePermission" xml:space="preserve">
+    <value>You don't have permission to access this page</value>
+  </data>
+  <data name="SecurityLeave_TodayLeave" xml:space="preserve">
+    <value>Today Leave</value>
+  </data>
+  <data name="SelectAtLeastToApprove" xml:space="preserve">
+    <value>Please select at least 1 item to Approve!</value>
+  </data>
+  <data name="SelectAtLeastToReject" xml:space="preserve">
+    <value>Please select at least 1 item to Reject!</value>
+  </data>
+  <data name="ShiftApprovalForLabel" xml:space="preserve">
+    <value>Shift Approval</value>
+  </data>
+  <data name="ShiftApproval_PageTitle" xml:space="preserve">
+    <value>Shift Approval</value>
+  </data>
+  <data name="ShiftManagement_AddNew" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="ShiftManagement_AddShiftRequestButton" xml:space="preserve">
+    <value>Add Shift Request</value>
+  </data>
+  <data name="ShiftManagement_ApprovedBy" xml:space="preserve">
+    <value>Department Head</value>
+  </data>
+  <data name="ShiftManagement_DataLoadFailError" xml:space="preserve">
+    <value>Failed to load data from server. Please try again!</value>
+  </data>
+  <data name="ShiftManagement_MyShiftRequestTitle" xml:space="preserve">
+    <value>My Shift Requests</value>
+  </data>
+  <data name="ShiftManagement_MyShift" xml:space="preserve">
+    <value>My Shift</value>
+  </data>
+  <data name="ShiftManagement_MyShiftTitle" xml:space="preserve">
+    <value>My Shifts</value>
+  </data>
+  <data name="ShiftManagement_PageTitle" xml:space="preserve">
+    <value>Shift Management</value>
+  </data>
+  <data name="ShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>Shift Management</value>
+  </data>
+  <data name="ShiftManagement_ShiftToBeApproved" xml:space="preserve">
+    <value>Shift Requests To Be Approved</value>
+  </data>
+  <data name="ShiftRequestConfirmMessage" xml:space="preserve">
+    <value>Are you sure you want to change current item? If Yes, the current item data will be lost.</value>
+  </data>
+  <data name="ShiftRequestExistedEmployeeMessage" xml:space="preserve">
+    <value>The current employee is already exists. Please try another employee!</value>
+  </data>
+  <data name="ShiftRequestForLabel" xml:space="preserve">
+    <value>Shift Request For</value>
+  </data>
+  <data name="ShiftRequest_CancelConfirm" xml:space="preserve">
+    <value>Are you sure you want to Cancel? Once you click Yes, all unsaved data will be lost.</value>
+  </data>
+  <data name="ShiftRequest_CancelConfirmationDialogTitle" xml:space="preserve">
+    <value>Cancel Confirmation</value>
+  </data>
+  <data name="ShiftRequest_DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ShiftRequest_DuplicateConfirmationDialogTitle" xml:space="preserve">
+    <value>Duplicate Confirmation</value>
+  </data>
+  <data name="ShiftRequest_DuplicateMessage" xml:space="preserve">
+    <value>Can not create shift for this user because this user was created shift by another manager.</value>
+  </data>
+  <data name="ShiftRequest_EmployeeIdGridColumn" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="ShiftRequest_EmployeeNameGridColumn" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="ShiftRequest_GridNoData" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="ShiftRequest_NoDataToSaveMessage" xml:space="preserve">
+    <value>No data to save</value>
+  </data>
+  <data name="ShiftRequest_NoItemDeleteMessage" xml:space="preserve">
+    <value>No item to delete</value>
+  </data>
+  <data name="ShiftRequest_PageTitle" xml:space="preserve">
+    <value>Shift Request</value>
+  </data>
+  <data name="ShiftRequest_PageTitleArea" xml:space="preserve">
+    <value>Shift Request</value>
+  </data>
+  <data name="ShiftRequest_SaveCurrentDataConfirm" xml:space="preserve">
+    <value>Do you want to save current data?</value>
+  </data>
+  <data name="ShiftRequest_SubmitOK" xml:space="preserve">
+    <value>Item(s) updated success</value>
+  </data>
+  <data name="ToDateGreaterThanFromDate" xml:space="preserve">
+    <value>To Date must be greater than From Date </value>
+  </data>
+  <data name="TransportationManagement_MyTransportationTitle" xml:space="preserve">
+    <value>My Vehicle  Request</value>
+  </data>
+  <data name="TransportationManagement_PageTitle" xml:space="preserve">
+    <value>Transportation Management</value>
+  </data>
+  <data name="TransportationManagement_PageTitleArea" xml:space="preserve">
+    <value>Vehicle Management</value>
+  </data>
+  <data name="VehicleManagement_AddNew" xml:space="preserve">
+    <value>Add New Request</value>
+  </data>
+  <data name="ViewShiftManagement_PageTitle" xml:space="preserve">
+    <value>View Shift Management</value>
+  </data>
+  <data name="ViewShiftManagement_PageTitleArea" xml:space="preserve">
+    <value>View Shift Management</value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="LeaveTask_PageTitle" xml:space="preserve">
+    <value>Leave Approval List</value>
+  </data>
+  <data name="LeaveTask_PageTitleArea" xml:space="preserve">
+    <value>Leave Approval List</value>
+  </data>
+  <data name="Additional_Approver" xml:space="preserve">
+    <value>Additional Approver</value>
+  </data>
+  <data name="AdminPage_ModulePermission" xml:space="preserve">
+    <value>Module Permission</value>
+  </data>
+  <data name="PrintButton" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ShiftRequest_FactoryLocationTitle" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="CalendarDay" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="CalendarMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="CalendarWeek" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="DepartmentNameRequired" xml:space="preserve">
+    <value>Department Name Required Field</value>
+  </data>
+  <data name="ChangeShift_DontHaveShift" xml:space="preserve">
+    <value>You don't have any shift in selected date</value>
+  </data>
+  <data name="ChangeShift_ItemExist" xml:space="preserve">
+    <value>This date has already been requested</value>
+  </data>
+  <data name="NotOvertime_ItemExist" xml:space="preserve">
+    <value>This date has already been requested</value>
+  </data>
+  <data name="ShiftManagement_MyApprovalTitle" xml:space="preserve">
+    <value>Shift Requests Approval</value>
+  </data>
+  <data name="ShiftManagement_ShiftsInDepartmentTitle" xml:space="preserve">
+    <value>Shift Requests By Department</value>
+  </data>
+  <data name="OvertimeApproval_PageTitleArea" xml:space="preserve">
+    <value>Overtime Approval List</value>
+  </data>
+  <data name="OvertimeDepartment_PageTitleArea" xml:space="preserve">
+    <value>Overtime List Of Departments</value>
+  </data>
+  <data name="ChangeShift_ChangeShiftByDepartment" xml:space="preserve">
+    <value>Change Shift Request By Department</value>
+  </data>
+  <data name="ChangeShift_MyChangeShiftRequestTitle" xml:space="preserve">
+    <value>My Change Shift Requests</value>
+  </data>
+  <data name="LeaveOfAbsenceManagement_PageTile" xml:space="preserve">
+    <value>Leave Of Absence Management </value>
+  </data>
+  <data name="NotOvertimeOfDepartment_PageTitle" xml:space="preserve">
+    <value>Leave Of Absence List Of Department</value>
+  </data>
+  <data name="NotOvertimeRequest_PageTitle" xml:space="preserve">
+    <value>Leave Of Absence Request Management</value>
+  </data>
+  <data name="ChangeShift_MyApprovalList" xml:space="preserve">
+    <value>Change Shift Requests Approval</value>
+  </data>
+  <data name="NotOvertimeManagement_MyApprovalList" xml:space="preserve">
+    <value>Leave Of Absence Requests Approval</value>
+  </data>
+  <data name="ShiftRequest_ExportButton" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ApprovalStatusFieldDisplayName" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="ChangeShiftList_ToShift" xml:space="preserve">
+    <value>To Shift</value>
+  </data>
+  <data name="ChangeShiftManagement_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="CantLeaveTheBlank" xml:space="preserve">
+    <value>You can't leave this blank.</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="AdminPage_InputMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="AdminPage_InputSupport" xml:space="preserve">
+    <value>Shift input support:</value>
+  </data>
+  <data name="AdminPage_InputWeek" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="ShiftManagement_MyShiftInMonthTitle" xml:space="preserve">
+    <value>My Shifts</value>
+  </data>
+  <data name="OvertimeManagement_MyApprovalTitle" xml:space="preserve">
+    <value>Overtime Requests Approval</value>
+  </data>
+  <data name="OvertimeManagement_MyOvertimeRequestTitle" xml:space="preserve">
+    <value>My Overtime Requests</value>
+  </data>
+  <data name="OvertimeManagement_OvertimesInDepartmentTitle" xml:space="preserve">
+    <value>Overtime Requests By Department</value>
+  </data>
+  <data name="NotOvertimeManagement_MyRequestsTitle" xml:space="preserve">
+    <value>My Leave Of Absence Requests</value>
+  </data>
+  <data name="NotOvertimeManagement_RequestsInDepartmentTitle" xml:space="preserve">
+    <value>Leave Of Absence Requests By Department</value>
+  </data>
+  <data name="Transportation_MyTransportationRequestTitle" xml:space="preserve">
+    <value>My Vehicle  Requests</value>
+  </data>
+  <data name="Transportation_TranspotationByDepartment" xml:space="preserve">
+    <value>Vehicle  Requests By Department</value>
+  </data>
+  <data name="Transpotation_MyApprovalList" xml:space="preserve">
+    <value>Vehicle   Requests Approval</value>
+  </data>
+  <data name="ChangeShiftList_FromShift" xml:space="preserve">
+    <value>From Shift</value>
+  </data>
+  <data name="LeaveRequest_Modal_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="LeaveRequest_WrongPolicies" xml:space="preserve">
+    <value>The selected date is wrong with company policies</value>
+  </data>
+  <data name="ViewDetail" xml:space="preserve">
+    <value>View item detail</value>
+  </data>
+  <data name="AllDepartments" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="LeaveRequest_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="LeaveRequest_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="LeaveRequest_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="LeaveRequest_RequestFor" xml:space="preserve">
+    <value>Request for</value>
+  </data>
+  <data name="LeaveRequest_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="LeaveRequest_PageTitle" xml:space="preserve">
+    <value>Leave Request</value>
+  </data>
+  <data name="LeaveRequest_PageTitleArea" xml:space="preserve">
+    <value>Leave Request</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_FromDateIsNoneWorkingDay" xml:space="preserve">
+    <value>"From Date" is {0}</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_FromDateRelateToDate" xml:space="preserve">
+    <value>"To Date" must be greater than "From Date"</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_InvalidUserID" xml:space="preserve">
+    <value>Cannot find user with ID = {0}</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_Policy_1" xml:space="preserve">
+    <value>You should submit this form at least {1} day before taking {0} day(s) off</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_Policy_2" xml:space="preserve">
+    <value>You should submit this form at least {1} days before taking {0} day(s) off</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_Policy_3" xml:space="preserve">
+    <value>You should submit this form at least {1} days before taking {0} day(s) off</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_ToDateIsNoneWorkingDay" xml:space="preserve">
+    <value>"To Date" is {0}</value>
+  </data>
+  <data name="LeaveManagement_AddNew" xml:space="preserve">
+    <value>Add New Request</value>
+  </data>
+  <data name="LeaveRequest_Modal_SeeMorePolicy" xml:space="preserve">
+    <value>See policies</value>
+  </data>
+  <data name="TransferWorkToInvalid" xml:space="preserve">
+    <value>Employee requested for and transfer work to must be different</value>
+  </data>
+  <data name="LeaveManagement_LeaveApprovalTitle" xml:space="preserve">
+    <value>Leave Requests Approval</value>
+  </data>
+  <data name="LeaveManagement_LeaveByDepartmentTitle" xml:space="preserve">
+    <value>Leave By Department</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_OverlapDates" xml:space="preserve">
+    <value>Dates have been submitted</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_FromDateInvalid" xml:space="preserve">
+    <value>From date must not be less than current date </value>
+  </data>
+  <data name="LeaveRequest_SeeMorePoliciesButton" xml:space="preserve">
+    <value>See more policies</value>
+  </data>
+  <data name="LeaveManagement_ErrMsg_SequenceLeave" xml:space="preserve">
+    <value>You could only submit 1 request if you take 40 sequence hours leave</value>
+  </data>
+  <data name="AdditionApproversInValid" xml:space="preserve">
+    <value>Appover and additional approver must be different</value>
+  </data>
+  <data name="LeaveManagement_LeaveSecurityTitle" xml:space="preserve">
+    <value>Leave Management For Security Guard</value>
+  </data>
+  <data name="ShiftRequest_LeavePopupContent" xml:space="preserve">
+    <value>Click &lt;a id='leave-link'&gt;here&lt;/a&gt; to view leave detail</value>
+  </data>
+  <data name="ShiftRequest_LeavePopupTitle" xml:space="preserve">
+    <value>Leave Information</value>
+  </data>
+  <data name="ShiftRequest_ImportButton" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ShiftManagement_ImportFromExcel" xml:space="preserve">
+    <value>Import From Excel</value>
+  </data>
+  <data name="ShiftRequest_SelectExcelFile" xml:space="preserve">
+    <value>Please select excel file to input data</value>
+  </data>
+  <data name="RequestForms_RequiredBODApprove" xml:space="preserve">
+    <value>Required approval by BOD</value>
+  </data>
+  <data name="RequestsForm_Comments" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="RequestsForm_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RequestsForm_ReceivedBy" xml:space="preserve">
+    <value>Received by</value>
+  </data>
+  <data name="RequestsForm_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="RequestsForm_FinishDate" xml:space="preserve">
+    <value>Finish date</value>
+  </data>
+  <data name="RequestsForm_Requester" xml:space="preserve">
+    <value>Request from</value>
+  </data>
+  <data name="Request_RadioText_BuyMaterialEquipment" xml:space="preserve">
+    <value>Buy material and equipment</value>
+  </data>
+  <data name="Request_RadioText_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Request_RadioText_Repair" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="ShiftManagement_EditTitle" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ShiftManagement_ViewTitle" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="RequestsForm_ReferTo" xml:space="preserve">
+    <value>Refer to</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="RequestForm_Grid_OrderNumber" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequestForm_OthersGrid_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="RequestForm_PleaseInputData" xml:space="preserve">
+    <value>Please input content</value>
+  </data>
+  <data name="RequestForm_RepairGrid_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RequestForm_RepairGrid_From" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="RequestForm_RepairGrid_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="RequestForm_RepairGrid_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequestForm_RepairGrid_To" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="RequestForm_BuyDetailGrid_Form" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="RequestForm_FromLessThanToDate" xml:space="preserve">
+    <value>From date must be less than to date</value>
+  </data>
+  <data name="RequestForm_InputQuantityError" xml:space="preserve">
+    <value>Quantity data is wrong</value>
+  </data>
+  <data name="RequestsForm_RequestType" xml:space="preserve">
+    <value>Request type</value>
+  </data>
+  <data name="RequestsForm_DueDate" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="FreightManagement_FreightByDepartmentTitle" xml:space="preserve">
+    <value>Freight By Department</value>
+  </data>
+  <data name="FreightManagement_FreightSecurityTitle" xml:space="preserve">
+    <value>Freight Management For Security Guard</value>
+  </data>
+  <data name="FreightManagement_MyFreightRequestTitle" xml:space="preserve">
+    <value>My Freight Requests</value>
+  </data>
+  <data name="FreightManagement_PageTitle" xml:space="preserve">
+    <value>Freight Management</value>
+  </data>
+  <data name="FreightManagement_PageTitleArea" xml:space="preserve">
+    <value>Freight Management</value>
+  </data>
+  <data name="RequestForm_PleaseInputGridDetail" xml:space="preserve">
+    <value>Please input data for detail table</value>
+  </data>
+  <data name="SelectedDateMustGreaterThanCurrentDate" xml:space="preserve">
+    <value>Selected date must not be less than current date</value>
+  </data>
+  <data name="FormButtonsControl_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="FormButtonsControl_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FormButtonsControl_ReAssign" xml:space="preserve">
+    <value>Re-Assign</value>
+  </data>
+  <data name="FormButtonsControl_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="FormButtonsControl_SaveAndSubmit" xml:space="preserve">
+    <value>Save &amp; Submit</value>
+  </data>
+  <data name="FormButtonsControl_SaveDraft" xml:space="preserve">
+    <value>Save Draft</value>
+  </data>
+  <data name="FormButtonsControl_TerminateProcess" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="LeaveRequest_RequestForDateInvalid" xml:space="preserve">
+    <value>Request for must be current date</value>
+  </data>
+  <data name="LeaveRequest_LeaveHoursInvalid" xml:space="preserve">
+    <value>Leave Hours must be greater than zero 0</value>
+  </data>
+  <data name="AddNewRequests" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="MyRequests" xml:space="preserve">
+    <value>My Requests</value>
+  </data>
+  <data name="RequestManagement_PageTitle" xml:space="preserve">
+    <value>Requests Management</value>
+  </data>
+  <data name="RequestManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Requests Management</value>
+  </data>
+  <data name="RequestsToBeApproved" xml:space="preserve">
+    <value>Requests Approval</value>
+  </data>
+  <data name="WorkflowHistoryControl_ApprovalStatus" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="WorkflowHistoryControl_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="WorkflowHistoryControl_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="WorkflowHistoryControl_PostedBy" xml:space="preserve">
+    <value>Posted by</value>
+  </data>
+  <data name="PleaseAddRequestBuyingDetails" xml:space="preserve">
+    <value>Please add request buying details.</value>
+  </data>
+  <data name="PleaseAddRequestOtherDetails" xml:space="preserve">
+    <value>Please add request other details.</value>
+  </data>
+  <data name="PleaseAddRequestRepairDetails" xml:space="preserve">
+    <value>Please add request repair details.</value>
+  </data>
+  <data name="PleaseSelectDueDate" xml:space="preserve">
+    <value>Please select due date.</value>
+  </data>
+  <data name="PleaseSelectFinishDate" xml:space="preserve">
+    <value>Please select finish date.</value>
+  </data>
+  <data name="PleaseSelectReceivedBy" xml:space="preserve">
+    <value>Please select received by</value>
+  </data>
+  <data name="PleaseSelectRequestType" xml:space="preserve">
+    <value>Please select request type</value>
+  </data>
+  <data name="RequestsForm_SupportingDocument" xml:space="preserve">
+    <value>Supporting documents</value>
+  </data>
+  <data name="RequestForm_InvalidFileName" xml:space="preserve">
+    <value>Invalid file name</value>
+  </data>
+  <data name="CommentControl_EnterComment" xml:space="preserve">
+    <value>Please enter comment content.</value>
+  </data>
+  <data name="ReAssignTask_AssignTask" xml:space="preserve">
+    <value>Assign Task</value>
+  </data>
+  <data name="ReAssignTask_AssignTo" xml:space="preserve">
+    <value>Assign to</value>
+  </data>
+  <data name="ReAssignTask_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ReAssignTask_PageTitleArea" xml:space="preserve">
+    <value>Re-Assign Task</value>
+  </data>
+  <data name="ReAssignTask_PleaseSelectEmployee" xml:space="preserve">
+    <value>Please select employee to assign.</value>
+  </data>
+  <data name="FreightRequestForm_GoodsDescription" xml:space="preserve">
+    <value>Goods description</value>
+  </data>
+  <data name="FreightRequestForm_OrderNumber" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="FreightRequestForm_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="FreightRequestForm_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="FreightRequestForm_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="FreightRequest_CompanyName" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="FreightRequest_ConfirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete?</value>
+  </data>
+  <data name="FreightRequest_Date" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="FreightRequest_EmployeeBelongToCompany" xml:space="preserve">
+    <value>Bringer is employee of the company</value>
+  </data>
+  <data name="FreightRequest_EmployeeNotBelongToCompany" xml:space="preserve">
+    <value>Bringer is NOT employee of the company</value>
+  </data>
+  <data name="FreightRequest_PageTitle" xml:space="preserve">
+    <value>Freight Request</value>
+  </data>
+  <data name="FreightRequest_PageTitleArea" xml:space="preserve">
+    <value>Freight Request</value>
+  </data>
+  <data name="FreightRequest_RadioNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="FreightRequest_RadioYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="FreightRequest_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="FreightRequest_ReturnedGoods" xml:space="preserve">
+    <value>Returned goods</value>
+  </data>
+  <data name="FrieghtRequest_Bringer" xml:space="preserve">
+    <value>Bringer</value>
+  </data>
+  <data name="FrieghtRequest_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="FrieghtRequest_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="FreightRequest_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="FreightRequest_PhoneContact" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="FrieghtRequest_ReceivedBy" xml:space="preserve">
+    <value>Received by</value>
+  </data>
+  <data name="FrieghtRequest_ReceivedDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="FrieghtRequest_SendGoods" xml:space="preserve">
+    <value>Send goods/Others</value>
+  </data>
+  <data name="RecruitmentManagement_PageTitle" xml:space="preserve">
+    <value>Recruitment Management</value>
+  </data>
+  <data name="RecruitmentManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Recruitment Management</value>
+  </data>
+  <data name="FreightManagement_TransportTime" xml:space="preserve">
+    <value>Thời gian chuyển hàng</value>
+  </data>
+  <data name="FreightRequest_PleaseInputDataMessage" xml:space="preserve">
+    <value>Please input data!</value>
+  </data>
+  <data name="FreightRequest_QuantityIsWrongMessage" xml:space="preserve">
+    <value>Quantity data is wrong</value>
+  </data>
+  <data name="RequestsForm_RequestTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PleaseInputRequestTitle" xml:space="preserve">
+    <value>Please input request title</value>
+  </data>
+  <data name="RequestsByDepartment" xml:space="preserve">
+    <value>Requests By Department</value>
+  </data>
+  <data name="FreightManagement_AddNew" xml:space="preserve">
+    <value>Add New Request</value>
+  </data>
+  <data name="FreightManagement_MyFreightRequestsTabTitle" xml:space="preserve">
+    <value>My Freight Requests</value>
+  </data>
+  <data name="DataMustBeDifferentAfterEdit" xml:space="preserve">
+    <value>Data must be different after edit</value>
+  </data>
+  <data name="RequestForm_PleaseInputReasonData" xml:space="preserve">
+    <value>Please input reason</value>
+  </data>
+  <data name="FreightManagement_FreightApprovalTitle" xml:space="preserve">
+    <value>Freight Requests Approval</value>
+  </data>
+  <data name="CheckInButton" xml:space="preserve">
+    <value>Check-in</value>
+  </data>
+  <data name="CheckOutButton" xml:space="preserve">
+    <value>Check-out</value>
+  </data>
+  <data name="GridViewItem_ViewDetail" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="CommentControl_PostCommentButton" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="FreightRequest_radioOtherReason" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="FreightRequest_radioSendGoods" xml:space="preserve">
+    <value>Send goods</value>
+  </data>
+  <data name="RecruimentForm_Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="RecruimentForm_Anothers" xml:space="preserve">
+    <value>Other Requirements</value>
+  </data>
+  <data name="RecruimentForm_AnotherSkills" xml:space="preserve">
+    <value>Another skill</value>
+  </data>
+  <data name="RecruimentForm_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="RecruimentForm_AvailableTime" xml:space="preserve">
+    <value>Available time</value>
+  </data>
+  <data name="RecruimentForm_BasicWork" xml:space="preserve">
+    <value>Description of basic work</value>
+  </data>
+  <data name="RecruimentForm_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="RecruimentForm_ComputerSkills" xml:space="preserve">
+    <value>Computer skills</value>
+  </data>
+  <data name="RecruimentForm_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RecruimentForm_EducationLevel" xml:space="preserve">
+    <value>Education level</value>
+  </data>
+  <data name="RecruimentForm_EnglishSkills" xml:space="preserve">
+    <value>English skills</value>
+  </data>
+  <data name="RecruimentForm_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="RecruimentForm_General" xml:space="preserve">
+    <value>General Requirements</value>
+  </data>
+  <data name="RecruimentForm_MartialStatus" xml:space="preserve">
+    <value>Martial status</value>
+  </data>
+  <data name="RecruimentForm_MoralVocations" xml:space="preserve">
+    <value>Moral vocations</value>
+  </data>
+  <data name="RecruimentForm_Necessary" xml:space="preserve">
+    <value>Necessary Requirements</value>
+  </data>
+  <data name="RecruimentForm_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RecruimentForm_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RecruimentForm_ReasonForRecruitment" xml:space="preserve">
+    <value>Reason for recruitment</value>
+  </data>
+  <data name="RecruimentForm_Skill" xml:space="preserve">
+    <value>Skill Requirements</value>
+  </data>
+  <data name="RecruimentForm_Specialities" xml:space="preserve">
+    <value>Specialities</value>
+  </data>
+  <data name="RecruimentForm_SupportingDocuments" xml:space="preserve">
+    <value>Supporting documents</value>
+  </data>
+  <data name="RecruimentForm_WorkingAbilities" xml:space="preserve">
+    <value>Working abilities</value>
+  </data>
+  <data name="RecruimentForm_WorkingExperience" xml:space="preserve">
+    <value>Working experience</value>
+  </data>
+  <data name="RecruimentForm_WorkingTime" xml:space="preserve">
+    <value>Working time</value>
+  </data>
+  <data name="RecruitmentList_CreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="RecruitmentList_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RecruitmentList_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RecruitmentList_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RecruitmentList_RequestFrom" xml:space="preserve">
+    <value>Request from</value>
+  </data>
+  <data name="RecruitmentList_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Age_Empty" xml:space="preserve">
+    <value>Please enter age.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Age_InValid" xml:space="preserve">
+    <value>Please enter a valid age.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_AvailableTime_Empty" xml:space="preserve">
+    <value>Please enter available time.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_AvailableTime_Invalid" xml:space="preserve">
+    <value>Please enter a valid available time.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_EmptyPosition" xml:space="preserve">
+    <value>Please enter position.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_EmptyReasonForRecruitment" xml:space="preserve">
+    <value>Please enter reason for recruitment.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Quantity_Empty" xml:space="preserve">
+    <value>Please enter quantity.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_Quantity_InValid" xml:space="preserve">
+    <value>Please enter a valid quantity.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_UnSelectedDepartment" xml:space="preserve">
+    <value>Please select department.</value>
+  </data>
+  <data name="RecruimentForm_LanguageSkills" xml:space="preserve">
+    <value>Language Skills</value>
+  </data>
+  <data name="RequestStatusCancelled" xml:space="preserve">
+    <value>This request has been cancelled by owner</value>
+  </data>
+  <data name="Recruiment_WrongNumber" xml:space="preserve">
+    <value>Please input number that is greater than 0</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_FromAge_Empty" xml:space="preserve">
+    <value>Please enter from age.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_FromAge_InValid" xml:space="preserve">
+    <value>Please enter a valid from age.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_FromAge_LessThan_ToAge" xml:space="preserve">
+    <value>From age must be less than or equal to age.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_ToAge_Empty" xml:space="preserve">
+    <value>Please enter to age.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_ToAge_InValid" xml:space="preserve">
+    <value>Please enter a valid from to age.</value>
+  </data>
+  <data name="RequestStatusApproved" xml:space="preserve">
+    <value>This request has been approved by another person</value>
+  </data>
+  <data name="RequestStatusRejected" xml:space="preserve">
+    <value>This request has been rejected by another person</value>
+  </data>
+  <data name="FreightManagement_MyFreightTitle" xml:space="preserve">
+    <value>My Freight</value>
+  </data>
+  <data name="RecruimentForm_FromAge" xml:space="preserve">
+    <value>From age</value>
+  </data>
+  <data name="RecruimentForm_ToAge" xml:space="preserve">
+    <value>To age</value>
+  </data>
+  <data name="LanguageSkillGrid_ForeignLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LanguageSkillGrid_InputOtherMessage" xml:space="preserve">
+    <value>Can only input other level when level is 'Khác/Others'</value>
+  </data>
+  <data name="LanguageSkillGrid_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="LanguageSkillGrid_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="LanguageSkillGrid_OtherLevel" xml:space="preserve">
+    <value>Other level</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_AvailabelDateWrong" xml:space="preserve">
+    <value>The selected date must not be less than current date</value>
+  </data>
+  <data name="DiplomaManagement_PageTitle" xml:space="preserve">
+    <value>Request For Diploma Supply Management</value>
+  </data>
+  <data name="DiplomaManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Request For Diploma Supply Management</value>
+  </data>
+  <data name="DiplomaRequestForm_DateOfEmp" xml:space="preserve">
+    <value>Date of emp</value>
+  </data>
+  <data name="DiplomaRequestForm_Department" xml:space="preserve">
+    <value>Requested department</value>
+  </data>
+  <data name="DiplomaRequestForm_EmployeeCode" xml:space="preserve">
+    <value>Employee code</value>
+  </data>
+  <data name="DiplomaRequestForm_FullName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="DiplomaRequestForm_NewSuggestions" xml:space="preserve">
+    <value>New suggestions/ Contributions/Achivements or Innovations to the Department</value>
+  </data>
+  <data name="DiplomaRequestForm_Postion" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="DiplomaRequestForm_ReceivedDiploma" xml:space="preserve">
+    <value>Obtained diploma</value>
+  </data>
+  <data name="DiplomaRequestForm_SupportingDocument" xml:space="preserve">
+    <value>Attachment</value>
+  </data>
+  <data name="DiplomaRequestForm_ToTheDailyWorks" xml:space="preserve">
+    <value>To the daily works</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_CurrentDiploma" xml:space="preserve">
+    <value>Current diploma</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_Faculty" xml:space="preserve">
+    <value>Faculty</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_GraduationYear" xml:space="preserve">
+    <value>Graduation year</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_IssuedPlace" xml:space="preserve">
+    <value>Issued place</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_NewDiploma" xml:space="preserve">
+    <value>New diploma</value>
+  </data>
+  <data name="RequestDiplomaForm_DetailGrid_TrainingDuration" xml:space="preserve">
+    <value>Training duration</value>
+  </data>
+  <data name="DiplomaRequestForm_DiplomaRevision" xml:space="preserve">
+    <value>Diploma revision</value>
+  </data>
+  <data name="DiplomaRequestForm_From" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="DiplomaRequestForm_SalaryRevision" xml:space="preserve">
+    <value>Salary revision</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_PleaseInputData" xml:space="preserve">
+    <value>Please input data</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_FromDate" xml:space="preserve">
+    <value>Selected date must not be less than current date</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_PleaseInputDetailGrid" xml:space="preserve">
+    <value>Please input data for detail grid</value>
+  </data>
+  <data name="SuppotingDoc_InvalidFileName" xml:space="preserve">
+    <value>Invalid file name</value>
+  </data>
+  <data name="DiplomaRequestForm_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="DiplomaRequestForm_Requester" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_EmptyNewSuggestions" xml:space="preserve">
+    <value>Please enter new suggestions/contributions/achievements or innovations to the department info.</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_EmptyPosition" xml:space="preserve">
+    <value>Please enter position info.</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_EmptyToTheDailyWorks" xml:space="preserve">
+    <value>Please enter to the daily works  info.</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_UnSelectedEmployee" xml:space="preserve">
+    <value>Please select employee.</value>
+  </data>
+  <data name="RequestDiplomaList_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RequestDiplomaList_EmployeeName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="RequestDiplomaList_CreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="RequestDiplomaList_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RequestDiplomaList_RequestFrom" xml:space="preserve">
+    <value>Request from</value>
+  </data>
+  <data name="RequestDiplomaList_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_InvalidFromDate" xml:space="preserve">
+    <value>Please enter valid from date.</value>
+  </data>
+  <data name="SupportingDoc_EmptyFile" xml:space="preserve">
+    <value>Do not upload empty file</value>
+  </data>
+  <data name="BusinessTripRequest_PageTitle" xml:space="preserve">
+    <value>Business Trip Request</value>
+  </data>
+  <data name="BusinessTripRequest_PageTitleArea" xml:space="preserve">
+    <value>Business Trip Request</value>
+  </data>
+  <data name="BusinessTripManagement_AddNew" xml:space="preserve">
+    <value>Add New Request</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripApprovalTitle" xml:space="preserve">
+    <value>Business Trip Request Approval</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripByDepartmentTitle" xml:space="preserve">
+    <value>Business Trip By Department</value>
+  </data>
+  <data name="BusinessTripManagement_MyBusinessTripRequestTitle" xml:space="preserve">
+    <value>My Business Trip Requests</value>
+  </data>
+  <data name="BusinessTripManagement_MyBusinessTripTitle" xml:space="preserve">
+    <value>My Business Trip</value>
+  </data>
+  <data name="BusinessTripManagement_PageTitle" xml:space="preserve">
+    <value>Business Trip Management</value>
+  </data>
+  <data name="BusinessTripManagement_PageTitleArea" xml:space="preserve">
+    <value>Business Trip Management</value>
+  </data>
+  <data name="RequestDiplomaForm_ErrorMessage_DataMustBeDiffrent" xml:space="preserve">
+    <value>Re-sumitted data must be different with current data</value>
+  </data>
+  <data name="CannotUpdateRequest" xml:space="preserve">
+    <value>Error during update information</value>
+  </data>
+  <data name="MyRecruitmentRequests" xml:space="preserve">
+    <value>My Recruitment Requests</value>
+  </data>
+  <data name="RecruitmentRequestsApproval" xml:space="preserve">
+    <value>Recruitment Requests Approval</value>
+  </data>
+  <data name="RecruitmentRequestsByDepartment" xml:space="preserve">
+    <value>Recruitment Requests By Department</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_DataMustBeDiffrent" xml:space="preserve">
+    <value>Re-sumitted data must be different with current data</value>
+  </data>
+  <data name="MyRequestsForDiplomaSupply" xml:space="preserve">
+    <value>My Requests For Diploma Supply</value>
+  </data>
+  <data name="RequestsForDiplomaSupplyApproval" xml:space="preserve">
+    <value>Requests For Diploma Supply Approval</value>
+  </data>
+  <data name="RequestsForDiplomaSupplyByDepartment" xml:space="preserve">
+    <value>Requests For Diploma Supply By Department</value>
+  </data>
+  <data name="LanguageSkillGrid_ErrorMessage_PleaseInputData" xml:space="preserve">
+    <value>Please input data</value>
+  </data>
+  <data name="BusinessTripManagement_ApprovalListTitle" xml:space="preserve">
+    <value>Business Trip Requests Approval</value>
+  </data>
+  <data name="BusinessTripManagement_RequestByDepartmentTitle" xml:space="preserve">
+    <value>Business Trip Requests By Department</value>
+  </data>
+  <data name="RecruitmentList_IsValid" xml:space="preserve">
+    <value>Is Valid</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_WrongPolicy" xml:space="preserve">
+    <value>Confirmation: The available date must be greater than current day {0} days. If you click OK this request will be wrong with policy.</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripForDriver" xml:space="preserve">
+    <value>Business Trip Requests List For Driver</value>
+  </data>
+  <data name="BusinessTripManagement_BusniessTripForCashier" xml:space="preserve">
+    <value>Business Trip Requests List For Cashier</value>
+  </data>
+  <data name="BusinessTripManagement_MyBusniessTrip" xml:space="preserve">
+    <value>My Business Trip Requests</value>
+  </data>
+  <data name="RecruimentForm_lbtnDeleteTemplate" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RecruimentForm_SavingTemplate" xml:space="preserve">
+    <value>Saving template</value>
+  </data>
+  <data name="RecruimentForm_Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="RecruimentForm_TemplateName" xml:space="preserve">
+    <value>Template name</value>
+  </data>
+  <data name="RecruitmentForm_DeleteTemplateConfirmationMessage" xml:space="preserve">
+    <value>Are you sure want to delete this template?</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_EmptyTemplateName" xml:space="preserve">
+    <value>Please enter template name.</value>
+  </data>
+  <data name="RecruitmentForm_ErrorMessage_ExistedTemplateName" xml:space="preserve">
+    <value>Template name is existed.</value>
+  </data>
+  <data name="FreightRequest_CompanyVehicle" xml:space="preserve">
+    <value>Company's Vehicle</value>
+  </data>
+  <data name="FreightManagement_VehicleOperatorTitle" xml:space="preserve">
+    <value>Freight For Vehicle Operator</value>
+  </data>
+  <data name="FreightRequest_BringIn" xml:space="preserve">
+    <value>In</value>
+  </data>
+  <data name="FreightRequest_BringOut" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="FormButtonsControl_CompleteWorkflow" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="FreightRequest_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="FreightRequest_Modal_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FreightRequest_WrongPolicies" xml:space="preserve">
+    <value>The request should be submited before %7B0%7D</value>
+  </data>
+  <data name="FreightManagement_UpdateVehicleSuccess" xml:space="preserve">
+    <value>Update vehicle successfully!</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="FreightRequestForm_CheckIn" xml:space="preserve">
+    <value>Shipping in</value>
+  </data>
+  <data name="FreightRequestForm_CheckOut" xml:space="preserve">
+    <value>Shipping out</value>
+  </data>
+  <data name="FreightRequestForm_ShippingInBy" xml:space="preserve">
+    <value>Check-in by</value>
+  </data>
+  <data name="FreightRequestForm_ShippingInTime" xml:space="preserve">
+    <value>Shipping in time</value>
+  </data>
+  <data name="FreightRequestForm_ShippingOutBy" xml:space="preserve">
+    <value>Check-out by</value>
+  </data>
+  <data name="FreightRequestForm_ShippingOutTime" xml:space="preserve">
+    <value>Shipping out time</value>
+  </data>
+  <data name="DelegationManagement_FormTitle" xml:space="preserve">
+    <value>New Delegation</value>
+  </data>
+  <data name="DelegationManagement_PageTitle" xml:space="preserve">
+    <value>Delegation Management</value>
+  </data>
+  <data name="DelegationManagement_TitleInTitleArea" xml:space="preserve">
+    <value>Delegation Management</value>
+  </data>
+  <data name="AddNewDelegation" xml:space="preserve">
+    <value>Add new delegation</value>
+  </data>
+  <data name="AddNewDelegationOfNewTask" xml:space="preserve">
+    <value>Add new delegation of new task</value>
+  </data>
+  <data name="DelegationsApproval" xml:space="preserve">
+    <value>Delegations Approval</value>
+  </data>
+  <data name="MyDelegations" xml:space="preserve">
+    <value>My Delegations</value>
+  </data>
+  <data name="MyDelegationsOfNewTask" xml:space="preserve">
+    <value>My Delegations Of New Task</value>
+  </data>
+  <data name="DelegationForm_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="DelegationForm_DelegateButton" xml:space="preserve">
+    <value>Delegate</value>
+  </data>
+  <data name="DelegationForm_DelegationOfNewTask" xml:space="preserve">
+    <value>Delegation of new task</value>
+  </data>
+  <data name="DelegationForm_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="DelegationForm_FromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="DelegationForm_FromEmployee" xml:space="preserve">
+    <value>From employee</value>
+  </data>
+  <data name="DelegationForm_gridTasks_CreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="DelegationForm_gridTasks_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="DelegationForm_gridTasks_Module" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="DelegationForm_gridTasks_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="DelegationForm_gridTasks_ViewDetails" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="DelegationForm_Module" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="DelegationForm_SearchButton" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="DelegationForm_ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="DelegationForm_ToEmployee" xml:space="preserve">
+    <value>To employee</value>
+  </data>
+  <data name="DiplomaRequestForm_gridTasks_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Delegation_FromDateErrorMessage" xml:space="preserve">
+    <value>Selected date must not less than current date</value>
+  </data>
+  <data name="Delegation_ToDateErrorMessage" xml:space="preserve">
+    <value>Selected date must not less than current date and From date</value>
+  </data>
+  <data name="DelegationsList_CreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="DelegationsList_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="DelegationsList_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DelegationsList_FromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="DelegationsList_Module" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="DelegationsList_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="DelegationsList_ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="GridViewItem_DeleteLink" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_ToDate_InValid" xml:space="preserve">
+    <value>"To Date" must be greater than or equal "From Date"</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_FromDate_Empty" xml:space="preserve">
+    <value>"From date" can't be blank.</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_ToDate_Empty" xml:space="preserve">
+    <value>"To date" can't be blank.</value>
+  </data>
+  <data name="DelegationsList_FromEmployee" xml:space="preserve">
+    <value>From employee</value>
+  </data>
+  <data name="DelegationsList_ToEmployee" xml:space="preserve">
+    <value>To employee</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_DontChooseDelegation" xml:space="preserve">
+    <value>Please choose delegation of new task or specific task.</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_FromDate_Invalid" xml:space="preserve">
+    <value>"From Date" must be greater than or equal today</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_FromEmployee_InValid" xml:space="preserve">
+    <value>Please select from employee</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_ToEmployee_InValid" xml:space="preserve">
+    <value>Please select to employee</value>
+  </data>
+  <data name="Delegation_DelegateTaskCheckBoxErrorMessage" xml:space="preserve">
+    <value>You must check on at least 1 item in the below searching result list or check on Delegation of new task</value>
+  </data>
+  <data name="GridViewItem_ConfirmDeleteItem" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="Delegation_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="DeleteDelegation" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DelegationManagement_ConfirmDelete" xml:space="preserve">
+    <value>Are you sure you want to delete selected items?</value>
+  </data>
+  <data name="DelegationManagement_SelectOneItem" xml:space="preserve">
+    <value>Please select at least 1 item to delete!</value>
+  </data>
+  <data name="DelegationForm_ErrorMessage_Module_InValid" xml:space="preserve">
+    <value>Please select module</value>
+  </data>
+  <data name="DelegationManagement_FilterToDateFromDate" xml:space="preserve">
+    <value>To date must be greater than or equal From date</value>
+  </data>
+  <data name="Delegation_BtnView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Delegation_CreatedDelegationDateFrom" xml:space="preserve">
+    <value>Delegation date from</value>
+  </data>
+  <data name="Delegation_CreatedDelegationDateTo" xml:space="preserve">
+    <value>Delegation date to</value>
+  </data>
+  <data name="DelegationsList_DelegatedDate" xml:space="preserve">
+    <value>Delegated date</value>
+  </data>
+  <data name="CalendarFromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="CalendarToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="RequestsForm_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RecruimentForm_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="DiplomaRequestForm_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CannotCancelRejectedRequest" xml:space="preserve">
+    <value>Cannot cancel the request that has been rejected</value>
+  </data>
+  <data name="RequestStatusInProgress" xml:space="preserve">
+    <value>This request is in approval progress</value>
+  </data>
+  <data name="LeaveManagement_LeaveHistoryTitle" xml:space="preserve">
+    <value>Leave History</value>
+  </data>
+  <data name="ShiftManagement_LatestApprovedBy" xml:space="preserve">
+    <value>Approved by</value>
+  </data>
+  <data name="SearchButton" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="FreightSecurity_BasicSearch" xml:space="preserve">
+    <value>Basic Search</value>
+  </data>
+  <data name="FreightSecurity_SearchByReqNumber" xml:space="preserve">
+    <value>Search by Request Number</value>
+  </data>
+  <data name="ApprovalHistoryButton" xml:space="preserve">
+    <value>Approval History</value>
+  </data>
+  <data name="ApprovalHistory_ApprovalStatusTitle" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="ApprovalHistory_CommentTitle" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ApprovalHistory_DateTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ApprovalHistory_NoDataAvaibleMsg" xml:space="preserve">
+    <value>No data available</value>
+  </data>
+  <data name="ApprovalHistory_PostedByTitle" xml:space="preserve">
+    <value>Posted by</value>
+  </data>
+  <data name="Overview_Chart_ApprovedTodayTitle" xml:space="preserve">
+    <value>Approved requests TODAY</value>
+  </data>
+  <data name="Overview_Chart_InProcessTitle" xml:space="preserve">
+    <value>In-Process requests</value>
+  </data>
+  <data name="Overview_Chart_LeftColumnTitle" xml:space="preserve">
+    <value>Number of requests</value>
+  </data>
+  <data name="Overview_Chart_Title" xml:space="preserve">
+    <value>Task list overview</value>
+  </data>
+  <data name="Overview_Chart_WaitingApprovalTitle" xml:space="preserve">
+    <value>Waiting approval requests</value>
+  </data>
+  <data name="Overview_Chart_WaitingApprovalTodayTitle" xml:space="preserve">
+    <value>Waiting approval requests TODAY</value>
+  </data>
+  <data name="Overview_Grid_Column_ApprovalStatusTitle" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="Overview_Grid_Column_CreatedDateTitle" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="Overview_Grid_Column_DepartmentTitle" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Overview_Grid_Column_DescriptionTitle" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Overview_Grid_Column_DueDateTitle" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="Overview_Grid_Column_ModuleTitle" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Overview_Grid_Column_RequesterTitle" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="Overview_Grid_Title" xml:space="preserve">
+    <value>Task list details</value>
+  </data>
+  <data name="Overview_Grid_EmptyDataTitle" xml:space="preserve">
+    <value>Not found</value>
+  </data>
+  <data name="Overview_Grid_LoadMessageTitle" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="Overview_Grid_PagerFormat" xml:space="preserve">
+    <value>Pages: {first} {prev} {pages} {next} {last}   |        {pageIndex} of {pageCount}</value>
+  </data>
+  <data name="Overview_Chart_Label" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="Notification_Tooltip" xml:space="preserve">
+    <value>You have {0} request(s) for approval TODAY</value>
+  </data>
+  <data name="FormButtonsControl_Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ViewOvertimeRequest_PageTitle" xml:space="preserve">
+    <value>View Overtime Request</value>
+  </data>
+  <data name="ViewOvertimeRequest_PageTitleArea" xml:space="preserve">
+    <value>View Overtime Request</value>
+  </data>
+  <data name="RequestForm_PleaseSelectReceivedDepartment" xml:space="preserve">
+    <value>Please select received department</value>
+  </data>
+  <data name="OvertimeRequest_RegisteredEmployeeMessage" xml:space="preserve">
+    <value>The selected employees have been registered on this day</value>
+  </data>
+  <data name="FreightRequest_Save_CloseButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FreightRequest_Modal_SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab" xml:space="preserve">
+    <value>Requests By Received Department</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab_FromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="RequestsByReceivedDepartmentTab_ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Requests_btnView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Requests_ExportExcel" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Requests_ExportExcel_Message" xml:space="preserve">
+    <value>There are no data to export</value>
+  </data>
+  <data name="TransportTimeErrorMessage_1" xml:space="preserve">
+    <value>Date must be greater than current date %7B0%7D day(s)</value>
+  </data>
+  <data name="RequestExpiredMsgFormat" xml:space="preserve">
+    <value>Request expired on %7B0%7D</value>
+  </data>
+  <data name="ApprovedMessage" xml:space="preserve">
+    <value>This request was approved or rejected or cancelled.</value>
+  </data>
+  <data name="NotOvertimeDateErrorMessage" xml:space="preserve">
+    <value>Date must be greater than current date {0} day(s)</value>
+  </data>
+  <data name="Overtime_DateErrorMsgFormat" xml:space="preserve">
+    <value>Date must be greater than current date %7B0%7D day(s)</value>
+  </data>
+  <data name="BusinessTripManagement_LoadMoreEmployeesButton" xml:space="preserve">
+    <value>Load more employees</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeExistedMsg" xml:space="preserve">
+    <value>This employee has been added</value>
+  </data>
+  <data name="BusinessTripManagement_NoEmployeeInDepartmentMsg" xml:space="preserve">
+    <value>There is no employee of your department in the list. Please check again!</value>
+  </data>
+  <data name="MeetingRoom_PageTitle" xml:space="preserve">
+    <value>Requisition Of Meeting Room</value>
+  </data>
+  <data name="MeetingRoom_TitleInTitleArea" xml:space="preserve">
+    <value>Requisition Of Meeting Room</value>
+  </data>
+  <data name="MeetingRoomByDepartment" xml:space="preserve">
+    <value>Requisition Of Meeting Room By Department</value>
+  </data>
+  <data name="MeetingRoomToBeApproved" xml:space="preserve">
+    <value>Requisition Of Meeting Room Approval</value>
+  </data>
+  <data name="MyMeetingRoomRequests" xml:space="preserve">
+    <value>My Requisition Of Meeting Room</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_CreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_RequestFrom" xml:space="preserve">
+    <value>Request from</value>
+  </data>
+  <data name="RequiredField_WithParam" xml:space="preserve">
+    <value>{0} is a required field.</value>
+  </data>
+  <data name="Invalid_WithParam" xml:space="preserve">
+    <value>{0} is invalid.</value>
+  </data>
+  <data name="LessThan_WithParam" xml:space="preserve">
+    <value>{0} must be less than {1}.</value>
+  </data>
+  <data name="MeetingRoomManagement_DepartmentTitle" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="MeetingRoomManagement_DiscussionMeetingTitle" xml:space="preserve">
+    <value>Discussion meeting</value>
+  </data>
+  <data name="MeetingRoomManagement_EndTimeTitle" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="MeetingRoomManagement_FullNameTitle" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="MeetingRoomManagement_GeneralInfoTitle" xml:space="preserve">
+    <value>General Information</value>
+  </data>
+  <data name="MeetingRoomManagement_LocationTitle" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MeetingRoomManagement_OthersTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="MeetingRoomManagement_ParticipationTitle" xml:space="preserve">
+    <value>Participation</value>
+  </data>
+  <data name="MeetingRoomManagement_RegisteredEquipmentTitle" xml:space="preserve">
+    <value>Registered room/equipment</value>
+  </data>
+  <data name="MeetingRoomManagement_RequestedDateTitle" xml:space="preserve">
+    <value>Requested Date</value>
+  </data>
+  <data name="MeetingRoomManagement_SeatsTitle" xml:space="preserve">
+    <value>Seats</value>
+  </data>
+  <data name="MeetingRoomManagement_StartTimeTitle" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="MeetingRoomManagement_EquipmentTitle" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="StartDateLessThanEndDate" xml:space="preserve">
+    <value>Start date must be less than end date</value>
+  </data>
+  <data name="GuestReceptionManagement_CarToTheAirportDatetimeTitle" xml:space="preserve">
+    <value>Datetime</value>
+  </data>
+  <data name="GuestReceptionManagement_CarToTheAirportTitle" xml:space="preserve">
+    <value>Car to the airport</value>
+  </data>
+  <data name="GuestReceptionManagement_CompanyNameTitle" xml:space="preserve">
+    <value>Name of company</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfArrivalTitle" xml:space="preserve">
+    <value>Date of arrival</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfIssueTitle" xml:space="preserve">
+    <value>Date of issue</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderTitle" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestInformationTitle" xml:space="preserve">
+    <value>Information of guest</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestJobTitle" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNameTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNationalityTitle" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPassportNoTitle" xml:space="preserve">
+    <value>Passport No</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaRequiredFieldsTitle" xml:space="preserve">
+    <value>The information marked with (*) are required for visa application</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaValidityTitle" xml:space="preserve">
+    <value>Visa validity</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingClothSetTitle" xml:space="preserve">
+    <value>sets</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingClothTitle" xml:space="preserve">
+    <value>Labour safety cloths:</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingContentTitle" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEntranceTitle" xml:space="preserve">
+    <value>Factory entrance</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEquipmentTitle" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingMeetingRoomSeatsTitle" xml:space="preserve">
+    <value>person(s)</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingMeetingRoomTitle" xml:space="preserve">
+    <value>Meeting room:</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingPlaceTitle" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingRequirementTitle" xml:space="preserve">
+    <value>Requirements</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingRoutineTitle" xml:space="preserve">
+    <value>Factory visiting routines (if any)</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingScheduleFromTitle" xml:space="preserve">
+    <value>Date from</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingScheduleTitle" xml:space="preserve">
+    <value>Working schedule of Guest</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingScheduleToTitle" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="GuestReceptionManagement_HasHotelBookingTitle" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelAddressTitle" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelBookingTitle" xml:space="preserve">
+    <value>Hotel booking</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelCheckinDateTitle" xml:space="preserve">
+    <value>Check-in date</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelCheckoutDateTitle" xml:space="preserve">
+    <value>Check-out date</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelDoubleRoomTitle" xml:space="preserve">
+    <value>Double room</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelMinibarPaidByTitle" xml:space="preserve">
+    <value>Minibar will be charged to </value>
+  </data>
+  <data name="GuestReceptionManagement_HotelNameTitle" xml:space="preserve">
+    <value>Name of hotel</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelOtherRequirement" xml:space="preserve">
+    <value>Other requirement</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelOtherServicePaidByTitle" xml:space="preserve">
+    <value>Other service will be charged to</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelRoomPaidByTitle" xml:space="preserve">
+    <value>Room charge will be paid by</value>
+  </data>
+  <data name="GuestReceptionManagement_HotelSingleRoomTitle" xml:space="preserve">
+    <value>Single room</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceAtCompanyTitle" xml:space="preserve">
+    <value>In canteen</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceAtOtherPlaceTitle" xml:space="preserve">
+    <value>Other place</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceSpecialRequirement" xml:space="preserve">
+    <value>Special requirement for food</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceTitle" xml:space="preserve">
+    <value>Lunch service</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupAttendantTitle" xml:space="preserve">
+    <value>Name of attendants of meeting</value>
+  </data>
+  <data name="GuestReceptionManagement_DatetimeTitle" xml:space="preserve">
+    <value>Datetime</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarFlightNoTitle" xml:space="preserve">
+    <value>Flight No</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarTitle" xml:space="preserve">
+    <value>Pick up car at the airport</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupDatetimeTitle" xml:space="preserve">
+    <value>Datetime</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupDateTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupTimeTitle" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupTitle" xml:space="preserve">
+    <value>Pick-up to the company</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupWorkingPlaceTitle" xml:space="preserve">
+    <value>Working place</value>
+  </data>
+  <data name="GuestReceptionManagement_CasualTitle" xml:space="preserve">
+    <value>Casual</value>
+  </data>
+  <data name="GuestReceptionManagement_FormalTitle" xml:space="preserve">
+    <value>Formal</value>
+  </data>
+  <data name="GuestReceptionManagement_HighlyFormalTitle" xml:space="preserve">
+    <value>Highly formal</value>
+  </data>
+  <data name="GuestReceptionManagement_ReceptionTitle" xml:space="preserve">
+    <value>Reception</value>
+  </data>
+  <data name="GuestReceptionManagement_VisaApplicationInfomationTitle" xml:space="preserve">
+    <value>If yes, please fill the information marked with (*) in the above schedule or submit the scanned copy of passport.</value>
+  </data>
+  <data name="GuestReceptionManagement_VisaApplicationTitle" xml:space="preserve">
+    <value>Visa application</value>
+  </data>
+  <data name="GuestReceptionManagement_BlackBoardTitle" xml:space="preserve">
+    <value>Black board</value>
+  </data>
+  <data name="GuestReceptionManagement_CakeTitle" xml:space="preserve">
+    <value>Cakes</value>
+  </data>
+  <data name="GuestReceptionManagement_FaceClothTitle" xml:space="preserve">
+    <value>Face-cloth</value>
+  </data>
+  <data name="GuestReceptionManagement_FruitsTitle" xml:space="preserve">
+    <value>Fruits</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEntranceStaffTitle" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestWorkingEntranceVisitors" xml:space="preserve">
+    <value>Visitors</value>
+  </data>
+  <data name="GuestReceptionManagement_LaserPenTitle" xml:space="preserve">
+    <value>Laser pen</value>
+  </data>
+  <data name="GuestReceptionManagement_MeetingRoomTitle" xml:space="preserve">
+    <value>Meeting room</value>
+  </data>
+  <data name="GuestReceptionManagement_MicroTitle" xml:space="preserve">
+    <value>Micro</value>
+  </data>
+  <data name="GuestReceptionManagement_OtherTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="GuestReceptionManagement_PageTitle" xml:space="preserve">
+    <value>Requirement For Guest Reception</value>
+  </data>
+  <data name="GuestReceptionManagement_PageTitleArea" xml:space="preserve">
+    <value>Requirement For Guest Reception</value>
+  </data>
+  <data name="GuestReceptionManagement_PersonsTitle" xml:space="preserve">
+    <value>person(s)</value>
+  </data>
+  <data name="GuestReceptionManagement_ProjectorTitle" xml:space="preserve">
+    <value>Projector</value>
+  </data>
+  <data name="GuestReceptionManagement_RequirementsTitle" xml:space="preserve">
+    <value>Requirements</value>
+  </data>
+  <data name="GuestReceptionManagement_SouvenirTitle" xml:space="preserve">
+    <value>Souvenir</value>
+  </data>
+  <data name="GuestReceptionManagementByDepartment" xml:space="preserve">
+    <value>Requirement For Guest Reception By Department</value>
+  </data>
+  <data name="GuestReceptionManagementRequests" xml:space="preserve">
+    <value>My Requirement For Guest Reception</value>
+  </data>
+  <data name="GuestReceptionManagementToBeApproved" xml:space="preserve">
+    <value>Requirement For Guest Reception Approval</value>
+  </data>
+  <data name="NotGreaterThan_WithParam" xml:space="preserve">
+    <value>{0} not greater than {1}</value>
+  </data>
+  <data name="DataChanged_Msg" xml:space="preserve">
+    <value>The data has been changed externally. Do you want to reload it or lose the changes made in the data?</value>
+  </data>
+  <data name="OvertimeDataChanged_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ShiftDataChanged_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="OvertimeDataChanged_Modal_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="OvertimeDataChanged_Modal_SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ShiftDataChanged_Modal_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ShiftDataChanged_Modal_SaveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="OvertimeDataChanged_Modal_ReloadButton" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="ShiftDataChanged_Modal_ReloadButton" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+</root>

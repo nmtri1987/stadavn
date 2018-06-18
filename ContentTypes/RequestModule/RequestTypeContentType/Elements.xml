@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100DCD6C3B565944E04A32CAE0D6E2B1F40"
+               Name="$Resources:RBVHStadaLists,RequestTypeList_ContentTypeTitle"
+               Group="RBVH Content Types"
+               Description="$Resources:RBVHStadaLists,RequestTypeList_ContentTypeDesciption"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{cab3ac9e-7490-46a5-84e9-898810a3903c}" DisplayName="Request Type Name" Required="TRUE" Name="RequestTypeName" />
+      <FieldRef ID="{51a57080-bfc7-47f9-9bfb-f58ab0279a7b}" DisplayName="Request Type" Required="TRUE" Name="RequestType" />
+      <FieldRef ID="{34d16e30-e3dc-4eb3-b1bb-7ecef69ad206}" DisplayName="Departments" Required="TRUE" Name="Departments" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

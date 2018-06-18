@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{45f21bcd-3ae6-4bff-9c84-83502a0933af}"
+       Name="Cashier"
+       DisplayName="Cashier"
+       Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

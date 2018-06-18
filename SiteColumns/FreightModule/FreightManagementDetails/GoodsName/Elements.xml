@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b3c8cac6-4311-436a-b851-e5bd27836544}"
+       Name="GoodsName"
+       DisplayName="$Resources:RBVHStadaLists,FreightDetails_GoodsName;"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

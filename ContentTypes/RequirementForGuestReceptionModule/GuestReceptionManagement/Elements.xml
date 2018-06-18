@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01004CA0C8C54F8B46E592E3D468F1319B14"
+               Name="GuestReceptionManagement"
+               Group="Stada Content Types"
+               Description="GuestReceptionManagement_ContentType_Description"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+
+      <FieldRef ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" Required="TRUE" />
+      <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" Required="FALSE" />
+      <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" Required="FALSE" />
+      <FieldRef ID="{1079bfd3-c2d1-4a79-a32d-36776b9e28c8}" Name="GuestCompanyName" Required="TRUE" />
+      <FieldRef ID="{c78ee8cd-d556-4f55-a962-3c118bc05112}" Name="GuestVisaApplication" Required="FALSE" />
+      <FieldRef ID="{2d140086-b0f4-4928-8869-62bedf6c29fe}" Name="GuestHotelBooking" Required="FALSE" />
+      <FieldRef ID="{3f961e98-8c17-4097-b2c5-b7b42b7eea7a}" Name="GuestHotelName" Required="FALSE" />
+      <FieldRef ID="{ccbd72e8-0569-48ea-b43f-fb4c8af37619}" Name="GuestHotelAddress" Required="FALSE" />
+      <FieldRef ID="{51d39514-1b70-48b2-a2b1-bb8538750a3a}" Name="GuestHotelRoomType" Required="FALSE" />
+      <FieldRef ID="{58cbadf6-9453-4930-b01c-5ee160eac8d0}" Name="GuestHotelCheckInDate" Required="FALSE" />
+      <FieldRef ID="{e227b13e-41e9-4650-a2bb-638fe1318dd3}" Name="GuestHotelCheckOutDate" Required="FALSE" />
+      <FieldRef ID="{fa238e87-fc96-4ca3-8c8f-9689cf099f92}" Name="GuestOtherRequirement" Required="FALSE" />
+      <FieldRef ID="{392f9c4c-d33b-48ae-950a-7cd72705f896}" Name="RoomPaidBy" Required="FALSE" />
+      <FieldRef ID="{0f119b40-f387-4d62-b6b2-ad1272bb87c5}" Name="MinibarPaidBy" Required="FALSE" />
+      <FieldRef ID="{780209ca-8b76-48fc-aac4-68b54391c0f5}" Name="OtherServicePaidBy" Required="FALSE" />
+      <FieldRef ID="{131baddb-3068-4c0f-936b-e0e57eb1ae9a}" Name="GuestPickupTime" Required="FALSE" />
+      <FieldRef ID="{1228b30c-247f-497c-92e5-4d6255031935}" Name="FlightNo" Required="FALSE" /> 
+      <FieldRef ID="{e202615e-4dfa-44ab-adc0-3a3788a318fe}" Name="LunchServiceAtCompany" Required="FALSE" />
+      <FieldRef ID="{7936b325-42b1-4b10-a53f-67ac6b3a03c3}" Name="LunchOtherPlace" Required="FALSE" />
+      <FieldRef ID="{432feb92-13a1-4868-a940-7317ad694a55}" Name="FoodSpecialRequirement" Required="FALSE" />
+      <FieldRef ID="{70f4019f-1689-4fdc-b33c-2fb57d1081c1}" Name="GuestReceptionLevel" Required="FALSE" />
+      <FieldRef ID="{6638d6e2-ba9b-4aa0-939e-4d79425022ed}" Name="GuestSouvenir" Required="FALSE" />
+      <FieldRef ID="{7c7f21e6-97cd-4a30-9a41-f920e9828b1f}" Name="AirportCarTime" Required="FALSE" />
+      <FieldRef ID="{b151df73-8407-4f46-b8db-a35932448e51}" Name="GuestScheduleFrom" Required="FALSE" />
+      <FieldRef ID="{02c4c0d3-0854-48c2-bbbf-0db598e3d13e}" Name="GuestScheduleTo" Required="FALSE" />
+      <FieldRef ID="{647fac3e-2253-4f39-9e5f-136c201f74cd}" Name="GuestSchedulePlace" Required="FALSE" />
+      <FieldRef ID="{f5abe2ea-ddc3-4735-a33d-1b4b60df1fe9}" Name="GuestScheduleContent" Required="FALSE" />
+      <FieldRef ID="{863edea0-a260-4a3f-91c2-d8f363a137da}" Name="MeetingRoomStuffs" Required="FALSE" />
+      <FieldRef ID="{803d5d82-8435-47c7-a652-c664bbb32fab}" Name="MeetingRoomSeat" Required="FALSE" />
+      <FieldRef ID="{fe3603dd-9fc3-4d5b-aeb7-318ecd2ba59e}" Name="MeetingRoomEquipments" Required="FALSE" />
+      <FieldRef ID="{934b54f6-549c-4ec2-ac0d-e5d5655c02fb}" Name="MeetingRoomOtherEquipment" Required="FALSE" />
+      <FieldRef ID="{56f95a45-68b0-47d2-a3d9-744470a51f02}" Name="FactoryVisitingRoutine" Required="FALSE" />
+      <FieldRef ID="{ecd017e1-f517-449e-b1fd-f8eb5430d131}" Name="FactoryEntrance" Required="FALSE" />
+      <FieldRef ID="{686bdf54-1bbf-415b-baee-baf08d46d4e5}" Name="NumberOfClothes" Required="FALSE" />
+      <FieldRef ID="{92a37c96-fa1c-424e-990e-c1137ac91bfd}" Name="GuestReceptionDate" Required="FALSE" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <Display>_layouts/15/RBVH.Stada.Intranet.WebPages/RequirementForGuestReceptionManagement/GuestReceptionForm.aspx?mode=display</Display>
+          <Edit>_layouts/15/RBVH.Stada.Intranet.WebPages/RequirementForGuestReceptionManagement/GuestReceptionForm.aspx?mode=edit</Edit>
+          <New>_layouts/15/RBVH.Stada.Intranet.WebPages/RequirementForGuestReceptionManagement/GuestReceptionForm.aspx?mode=new</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

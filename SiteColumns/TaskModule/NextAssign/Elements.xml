@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{a52f84da-be4e-4eb2-9759-310721578ed9}"
+       Name="NextAssign"
+        DisplayName="Next Assign"
+       Type="User" UserSelectionMode="PeopleOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

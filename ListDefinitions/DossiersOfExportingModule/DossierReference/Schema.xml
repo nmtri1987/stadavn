@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="DossierReference_ListTitle" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/DossierReference" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{73AB9989-FDD8-477E-81FF-90D17E0F61D0}" Name="ExportingDossier" DisplayName="$Resources:RBVHStadaLists,DossierReference_ExportingDossier" Type="Lookup" List="Lists/ExportingDossierManagement" ShowField="ID" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{3A19817E-9BB8-41B1-8377-1C3B00AE7D8D}" Name="DossierPart" DisplayName="$Resources:RBVHStadaLists,DossierReference_DossierPart;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons" >
+        <Default>$Resources:RBVHStadaLists,DossierReference_DossierPartDrugSubstance;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierReference_DossierPartDrugSubstance;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierReference_DossierPartDrugProduct;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{E79B70C4-9128-4305-AC7B-C6C372770C65}" Name="DocumentRequired" DisplayName="$Resources:RBVHStadaLists,DossierReference_DocumentRequired;" Required="FALSE" Type="Text"/>
+      <Field ID="{DEC67F1B-4C1E-4747-BE00-8FBB60501CFA}" Name="ResponsibleDepartment" DisplayName="$Resources:RBVHStadaLists,DossierReference_ResponsibleDepartment;" Type="LookupMulti" List="Lists/Departments" ShowField="CommonName" Required="TRUE" Mult="TRUE"/>
+      <Field ID="{2419F9EC-BF76-40F5-9B69-582235B766B8}" Name="Remarks" DisplayName="$Resources:RBVHStadaLists,DossierReference_Remarks;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="ExportingDossier"></FieldRef>
+          <FieldRef Name="DossierPart"></FieldRef>
+          <FieldRef Name="DocumentRequired"></FieldRef>
+          <FieldRef Name="ResponsibleDepartment"></FieldRef>
+          <FieldRef Name="Remarks"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

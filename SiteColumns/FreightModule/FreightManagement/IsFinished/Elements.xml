@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f1c3f15c-1120-479e-88cd-8e2a83dc8f69}"
+       Name="IsFinished"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_IsFinished;"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

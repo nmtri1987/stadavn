@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Announcement (0x0104) -->
+  <ContentType ID="0x0104004D180F3878484A608C9A870545E22506" Name="Announcement Content Type" Group="Stada Content Types" Description="Announcement Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" DisplayName="$Resources:cmscore,column_pageimage_displayname;" Required="FALSE" Description="$Resources:cmscore,column_pageimage_description;" Name="PublishingPageImage" Sealed="TRUE" />
+      <FieldRef ID="{f220d70e-1502-4491-9a7d-f1fd12b8fce7}" DisplayName="Short Content" Required="FALSE" Name="NewsShortContent" />
+      <FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" DisplayName="$Resources:core,Body;" Required="FALSE" Name="Body" />
+      <FieldRef ID="{159f1f87-27a1-49bb-b98c-6d0573bce4c5}" DisplayName="$Resources:RBVHStadaLists,Announcement_Priority;" Required="FALSE" Name="AnnouncementPriority" />
+      <FieldRef ID="{6a09e75b-8d17-4698-94a8-371eda1af1ac}" DisplayName="$Resources:core,Expires;" Required="FALSE" Name="Expires" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

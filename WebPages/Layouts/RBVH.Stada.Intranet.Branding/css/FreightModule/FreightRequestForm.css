@@ -1,0 +1,40 @@
+﻿.custom-textbox
+{
+    width: 90%;
+}
+.custom-reason-textbox
+{
+    width: 60%;
+    display:inline;
+    float:right;
+}
+
+#tbFreightMaster
+{
+    table-layout: fixed;
+}
+
+#tbFreightMaster td, #tbFreightMaster th {
+    padding: 4px;
+}
+
+#tbFreightMaster span.ms-csrformvalidation
+{
+    display: none;
+}
+
+#jsGridFreightRequest .jsgrid-update-button, #jsGridFreightRequest .jsgrid-cancel-edit-button
+{
+    min-width: 16px;
+    width: 16px;
+}
+
+td.jsgrid-control-field > .jsgrid-delete-button, td.jsgrid-control-field > .jsgrid-cancel-edit-button, td.jsgrid-control-field > .jsgrid-update-button, td.jsgrid-control-field > .jsgrid-insert-button
+{
+    min-width: 16px;
+}
+
+#txtOldSecurityNotes:disabled {
+    background-color: white;
+    color: #555;
+}

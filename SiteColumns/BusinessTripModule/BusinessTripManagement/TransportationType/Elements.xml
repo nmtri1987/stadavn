@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{348d7b20-b6ad-4ff3-83c5-f26fef2f2924}"
+       Name="TransportationType"
+       DisplayName="Transportation Type"
+       Type="Choice"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

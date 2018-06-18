@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7f18bc06-4ec8-4540-aa05-8155881014a1}"
+       Name="StartTime"
+       DisplayName="Start Time"
+       StaticName="StartTime"
+       Type="DateTime"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="Stada Site Columns">
+  </Field>
+</Elements>

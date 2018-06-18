@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,Nationality_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="22008"
+                Url="Lists/Nationality"
+                Description="$Resources:RBVHStadaLists,Nationality_ListTitle;">
+  </ListInstance>
+</Elements>

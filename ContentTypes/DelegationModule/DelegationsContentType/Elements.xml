@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01001EE8A30B63C548AD932ADAB1E931FBC0"
+               Name="DelegationsContentType"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{3b5b317a-20aa-4812-8453-b2f866714b7a}" Name="FromDate" />
+      <FieldRef ID="{cd75252b-9b88-408e-811e-ba61222dc6bb}" Name="ToDate" />
+      <FieldRef ID="{23f40eba-3702-4acf-ac4f-5185a4dfab34}" Name="ModuleName" />
+      <FieldRef ID="{cc4bc589-5246-4a05-b746-37b2c6204f45}" Name="VietnameseModuleName" />
+      <FieldRef ID="{c3754d50-b582-45e6-b545-2ce6da2844cd}" Name="FromEmployee"/>
+      <FieldRef ID="{69f3ad3c-9af4-4337-b914-3e9c008f6581}" Name="ToEmployee"/>
+      <FieldRef ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" />
+      <FieldRef ID="{e061ee8c-6788-4078-850a-16a339d98142}" Name="Department"/>
+      <FieldRef ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}" Name="ListURL"/>
+      <FieldRef ID="{3f06758e-cb12-41c6-a3fc-5d7b3fd597d4}" Name="ListItemApprovalUrl"/>
+      <FieldRef ID="{58222370-672f-404a-a74b-22ec1318d528}" Name="ListItemID"/>
+      <FieldRef ID="{74882752-0bc7-469f-93c6-dd2defc9c7d8}" Name="ListItemDescription" />
+      <FieldRef ID="{125937bf-0eb5-4b15-ad67-7aa5184b65ac}" Name="ListItemCreatedDate" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <New>_layouts/15/RBVH.Stada.Intranet.WebPages/DelegationManagement/DelegationForm.aspx?mode=new</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

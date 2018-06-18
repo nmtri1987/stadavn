@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+      ID="{e76ab218-07ae-4ed8-85e7-8ff3d637016e}"
+      SourceID="http://schemas.microsoft.com/sharepoint/v3"
+      Name="ReceviedBy"
+      DisplayName="Recevied By"
+      Type="Lookup"
+      List="Lists/Departments"
+      ShowField="CommonName"
+      Required="FALSE"
+      Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c4c8fd87-d647-4cca-96fc-16fcfe987390}"
+       Name="RequestComments"
+       DisplayName="Request Comments"
+       Type="Note"
+       RichText="TRUE"
+       RichTextMode="Compatible"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

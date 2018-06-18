@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{686bdf54-1bbf-415b-baee-baf08d46d4e5}"
+       Name="NumberOfClothes"
+       DisplayName="Number Of Clothes"
+       Type="Number"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8419965a-e4aa-4139-8845-5cb9aced13d3" solutionId="8419965a-e4aa-4139-8845-5cb9aced13d3" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.ListEventReceiver" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="0fb560c3-9b48-43de-8eef-301e4b732faf" />
+  </features>
+</package>

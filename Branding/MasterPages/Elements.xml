@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages" List="116" Url="_catalogs/masterpage">
+    <File Path="MasterPages\stada.master" Url="stada.master" ReplaceContent="TRUE"  Type="GhostableInLibrary"/>
+    <!--<File Path="RBVH.Stada.Intranet.Branding\scripts\Nivo_ImageSlider\jquery.nivo.slider.js" Url="jquery.nivo.slider.js" Type="GhostableInLibrary" ></File>
+    <File Path="RBVH.Stada.Intranet.Branding\scripts\jquery.SPServices-2014.02.min.js" Url="jquery.SPServices-2014.02.min.js" Type="GhostableInLibrary" ></File>
+    <File Path="RBVH.Stada.Intranet.Branding\scripts\Nivo_ImageSlider\jsLinkImageSlider.js" Url="jsLinkImageSlider.js" Type="GhostableInLibrary" ></File>-->
+    <File Path="MasterPages\StadaEnterpriseWiki.aspx" Url="StadaEnterpriseWiki.aspx" ReplaceContent="TRUE"  Type="GhostableInLibrary"/>
+  </Module>
+</Elements>

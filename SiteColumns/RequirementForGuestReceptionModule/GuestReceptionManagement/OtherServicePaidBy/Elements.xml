@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{780209ca-8b76-48fc-aac4-68b54391c0f5}"
+       Name="OtherServicePaidBy"
+       DisplayName="Other Service Paid By"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

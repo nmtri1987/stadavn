@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{872c8ee7-142a-4d40-8e94-9b33e817c4bf}"
+       Name="MailBody"
+       DisplayName="Body"
+       Type="Note"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

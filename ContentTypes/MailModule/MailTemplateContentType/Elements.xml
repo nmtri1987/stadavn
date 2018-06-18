@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01003BBBE4FA79AB4C8A956C43A6EACD535E" Name="Mail Template Content Type" Group="Stada Content Types" Description="Mail Template Content Type" Inherits="False" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{32a3d0b8-a029-4408-af9b-81bc7a4058a7}" DisplayName="Key" Required="TRUE" Name="MailKey" />
+      <FieldRef ID="{b7ad08bf-6719-4ff0-a659-ebdb4b7cc115}" DisplayName="Mail Subject" Required="TRUE" Name="MailSubject" />
+      <FieldRef ID="{872c8ee7-142a-4d40-8e94-9b33e817c4bf}" DisplayName="Body" Required="FALSE" Name="MailBody" />
+      <FieldRef ID="{7ea86d80-a29c-4acf-a0d5-98b5843864f6}" DisplayName="Category" Required="FALSE" Name="MailCategory" />
+      <FieldRef ID="{3dba3df6-db53-4fd7-8df2-3a2249106a35}" DisplayName="Note" Required="FALSE" Name="MailNote" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
+
+

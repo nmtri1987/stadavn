@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3d54f046-0cdb-4dd9-8112-52696f0c2b93}"
+       Name="ApproverComments"
+       DisplayName="Approver Comments"
+       StaticName="ApproverComments"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Site Columns">
+  </Field>
+</Elements>

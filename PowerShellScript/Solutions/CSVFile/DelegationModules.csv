@@ -1,0 +1,15 @@
+﻿Title,ModuleName,VietnameseModuleName,ListURL
+Shift Management/Quản Lý Đi Ca,Shift Management,Quản Lý Đi Ca,/Lists/ShiftManagement
+Change Shift Management/Quản Lý Đổi Ca,Change Shift Management,Quản Lý Đổi Ca,/Lists/ChangeShiftManagement
+Overtime Management/Quản Lý Tăng Ca,Overtime Management,Quản Lý Tăng Ca,/Lists/OvertimeManagement
+Leave Of Absence Management/Quản Lý Xin Không Tăng Ca,Leave Of Absence Management,Quản Lý Xin Không Tăng Ca,/Lists/NotOverTimeManagement
+Leave Management/Quản Lý Nghỉ Phép,Leave Management,Quản Lý Nghỉ Phép,/Lists/LeaveManagement
+Vehicle Registration Management/Quản Lý Đăng Ký Đi Xe,Vehicle Registration Management,Quản Lý Đăng Ký Đi Xe,/Lists/VehicleManagement
+Requests Management/Quản Lý Phiếu Đề Nghị,Requests Management,Quản Lý Phiếu Đề Nghị,/Lists/Requests
+Freight Management/Quản Lý Vận Chuyển Hàng Hóa,Freight Management,Quản Lý Vận Chuyển Hàng Hóa,/Lists/FreightManagement
+Recruitment Management/Quản Lý Yêu Cầu Tuyển Dụng,Recruitment Management,Quản Lý Yêu Cầu Tuyển Dụng,/Lists/EmployeeRequirementSheets
+Request For Diploma Supply Management/Quản Lý Phiếu Đề Nghị Bổ Sung Bằng Cấp,Request For Diploma Supply Management,Quản Lý Phiếu Đề Nghị Bổ Sung Bằng Cấp,/Lists/RequestForDiplomaSupplies
+Business Trip Management/Quản Lý Đi Công Tác,Business Trip Management,Quản Lý Đi Công Tác,/Lists/BusinessTripManagement
+Requisition Of Meeting Room Management/Quản Lý Yêu Cầu Phòng Họp,Requisition Of Meeting Room Management,Quản Lý Yêu Cầu Phòng Họp,/Lists/RequisitionOfMeetingRoom
+Requirement For Guest Reception Management/Quản Lý Yêu Cầu Đón Tiếp Khách,Requirement For Guest Reception Management,Quản Lý Yêu Đón Tiếp Khách,/Lists/GuestReceptionManagement
+

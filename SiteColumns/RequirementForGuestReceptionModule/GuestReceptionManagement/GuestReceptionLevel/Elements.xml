@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{70f4019f-1689-4fdc-b33c-2fb57d1081c1}"
+       Name="GuestReceptionLevel"
+       DisplayName="Guest Reception Level"
+       Type="Choice"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d6abbfba-2325-4964-a13a-28dea550e794}"
+       Name="EmployeeLevel"
+       DisplayName="Employee Level"
+       Type="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100939D5A6539D442A1A8262F0F1E00A4C8"
+               Name="$Resources:RBVHStadaLists,RequestList_ContentTypeTitle"
+               Group="RBVH Content Types"
+               Description="$Resources:RBVHStadaLists,RequestList_ContentTypeDesciption"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{cab3ac9e-7490-46a5-84e9-898810a3903c}" Name="RequestTypeRef" DisplayName="Request Type Ref" Required="TRUE" />
+      <FieldRef ID="{476a9cb1-51f3-4c95-8b5c-54654009f8b0}" Name="ReceviedBy" DisplayName="Recevied By" Required="FALSE" />
+      <FieldRef ID="{28f6a8fa-849d-4450-bd2d-16553c6cef13}" Name="FinishDate" DisplayName="Finish Date" Required="FALSE" />
+      <FieldRef ID="{a0912352-f214-4c97-85df-8f3b756cfca9}" Name="RequiredApprovalByBOD" DisplayName="Required Approval By BOD" Required="TRUE" />
+      <FieldRef ID="{46a3e1c5-b54e-4f08-a362-db599961e31c}" Name="ReferRequest" DisplayName="Refer Request" Required="TRUE" />
+      <FieldRef ID="{92dcf80f-101f-449c-918c-e687a9d96ae6}" Name="RequestTypeRefId" DisplayName="Request Type Ref Id" Required="TRUE" />
+      <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" Required="FALSE" />
+      <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" Required="FALSE" />
+      <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" Required="FALSE" />
+      <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" Required="FALSE" />
+      <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" Required="FALSE" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <Display>_layouts/15/RBVH.Stada.Intranet.WebPages/RequestManagement/RequestForm.aspx?mode=display</Display>
+          <Edit>_layouts/15/RBVH.Stada.Intranet.WebPages/RequestManagement/RequestForm.aspx?mode=edit</Edit>
+          <New>_layouts/15/RBVH.Stada.Intranet.WebPages/RequestManagement/RequestForm.aspx?mode=new</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

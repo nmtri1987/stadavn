@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{52bfcf46-3280-4642-a229-7009b6fde5d2}"
+       Name="NotOvertimeRelatedTaskId"
+       DisplayName="Not Overtime Related Task Id"
+       Type="MultiChoice"  FillInChoice="TRUE" Mult="TRUE"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

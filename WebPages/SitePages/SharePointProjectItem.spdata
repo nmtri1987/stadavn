@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="SitePages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Home.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="News.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="Overview.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="EmployeeManegement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShiftRequest.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShiftManagement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewShiftManagement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ChangeShiftManagement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="OvertimeRequest.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="OvertimeManagement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewOvertimeRequest.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShiftApprovalList.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="OvertimeApprovalList.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="OvertimeApproval.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ShiftApproval.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="LeaveOfAbsenceManagement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="LeaveOfAbsenceManagementTaskList.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ChangeShiftManagementTaskList.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="TransportationManagement.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="TransportationManagementTaskList.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="LeaveRequest.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="FreightRequest.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="BusinessTripRequest.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="ChangeShiftApproval.aspx" Target="SitePages\" Type="ElementFile" />
+    <ProjectItemFile Source="LeaveOfAbsenceApproval.aspx" Target="SitePages\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

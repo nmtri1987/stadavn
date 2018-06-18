@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ExportingDossierManagement"
+                OnQuickLaunch="TRUE"
+                TemplateType="20002"
+                Url="Lists/ExportingDossierManagement"
+                Description="My List Instance">
+  </ListInstance>
+</Elements>

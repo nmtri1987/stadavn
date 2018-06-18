@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}"
+       Name="PendingAt"
+       DisplayName="Pending At"
+       Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName"
+       Required="FALSE" Mult="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

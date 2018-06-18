@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,ModuleCategory_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="10120"
+                Url="Lists/ModuleCategory"
+                Description="$Resources:RBVHStadaLists,ModuleCategory_ListDescription;">
+          <Data>
+            <Rows>
+              <Row>
+                <Field Name="ID">1</Field>
+                <Field Name="CommonName">Timesheet</Field>
+                <Field Name="CommonName1066">Bảng Chấm Công</Field>
+              </Row>
+              <Row>
+                <Field Name="ID">2</Field>
+                <Field Name="CommonName"><![CDATA[R&D]]></Field>
+                <Field Name="CommonName1066">Nghiên Cứu Và Phát Triển</Field>
+              </Row>
+              <Row>
+                <Field Name="ID">3</Field>
+                <Field Name="CommonName">Management</Field>
+                <Field Name="CommonName1066">Quản Lý</Field>
+              </Row>
+            </Rows>
+          </Data>
+  </ListInstance>
+</Elements>

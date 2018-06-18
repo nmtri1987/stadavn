@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{72f29556-1ff6-4a9d-9ce5-25226e4daa47}"
+       Name="RequestFrom"
+       DisplayName="From"
+       Type="DateTime" Format="DateOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

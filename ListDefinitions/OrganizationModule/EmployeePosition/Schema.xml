@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,EmployeePosition_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/EmployeePosition" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100CAA0ECAAE671481C9EB2AA5E616FB449"
+               Name="$Resources:RBVHStadaLists,EmployeePosition_ContentTypeTitle;"
+               Group="RBVH Content Types"
+               Description="$Resources:RBVHStadaLists,EmployeePosition_ContentTypeDescription;"
+               Inherits="TRUE"
+               Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{cb87319d-24fb-42cd-a06f-c770e498168b}" Name="Code" />
+          <FieldRef ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Name="CommonName" />
+          <FieldRef ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Name="CommonName1066" />
+          <FieldRef ID="{d6abbfba-2325-4964-a13a-28dea550e794}" Name="EmployeeLevel" />
+
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{cb87319d-24fb-42cd-a06f-c770e498168b}" Required="TRUE" Name="Code"  Type="Text" DisplayName="$Resources:RBVHStadaLists,EmployeePosition_Code;"/>
+      <Field ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Type="Text" Required="TRUE" Name="CommonName"  DisplayName="$Resources:RBVHStadaLists,EmployeePosition_NameField;"/>
+      <Field ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Name="CommonName1066" Type="Text"  DisplayName="$Resources:RBVHStadaLists,EmployeePosition_VNName;" />
+      <Field ID="{d6abbfba-2325-4964-a13a-28dea550e794}" Name="EmployeeLevel" DisplayName="$Resources:RBVHStadaLists,EmployeePosition_Level;" Type="Number" Min="0" Max="100" Required="TRUE">
+        <Default>0</Default>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Code"></FieldRef>
+          <FieldRef Name="EmployeeLevel"></FieldRef>
+          <FieldRef Name="CommonName"></FieldRef>
+          <FieldRef Name="CommonName1066"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="EmployeeLevel"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

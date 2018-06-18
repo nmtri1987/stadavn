@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100280802E3A5884EBF99F9C165990053C9" Name="$Resources:RBVHStadaLists,ShiftManagementDetail_ListTitle;" Group="Stada Content Types" Description="Shift Management Detail Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{d5be9cd9-9b00-421e-b87d-e1b86f09cdc9}" DisplayName="Shift Management ID" Required="TRUE" Name="ShiftManagementID" />
+      <FieldRef ID="{44533a8d-b69b-46c3-833e-92f423ca2213}" DisplayName="ShiftTime1" Required="False" Name="ShiftTime1" />
+      <FieldRef ID="{903f5e5c-4fc9-44b5-9f5a-94b7828cebf7}" DisplayName="ShiftTime2" Required="False" Name="ShiftTime2" />
+      <FieldRef ID="{d3777b47-f82c-4845-b740-3e619b56857a}" DisplayName="ShiftTime3" Required="False" Name="ShiftTime3" />
+      <FieldRef ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" DisplayName="Employee" Required="TRUE" Name="Employee" />
+      <FieldRef ID="{6a44dd64-0334-4a11-a928-d6640be99199}" DisplayName="ShiftTime4" Required="False" Name="ShiftTime4" />
+      <FieldRef ID="{cb080b98-4491-445c-9ace-a37711b073a7}" DisplayName="ShiftTime5" Required="False" Name="ShiftTime5" />
+      <FieldRef ID="{49705e37-09f4-495d-af85-f355c20ab791}" DisplayName="ShiftTime6" Required="False" Name="ShiftTime6" />
+      <FieldRef ID="{a4410c29-2408-44be-901a-adb2b7477903}" DisplayName="ShiftTime7" Required="False" Name="ShiftTime7" />
+      <FieldRef ID="{03df5c50-6c16-4f94-b00a-a74ca85a24a1}" DisplayName="ShiftTime8" Required="False" Name="ShiftTime8" />
+      <FieldRef ID="{a345e771-74fe-4bd1-9006-f7ea98cbe254}" DisplayName="ShiftTime9" Required="False" Name="ShiftTime9" />
+      <FieldRef ID="{fc24c454-f184-42be-a363-228cda2efff7}" DisplayName="ShiftTime10" Required="False" Name="ShiftTime10" />
+      <FieldRef ID="{09e781b5-ce40-44c0-b21e-a7f31c1d9dca}" DisplayName="ShiftTime11" Required="False" Name="ShiftTime11" />
+      <FieldRef ID="{f032b2a5-e558-4445-bec0-598d5429cfd0}" DisplayName="ShiftTime12" Required="False" Name="ShiftTime12" />
+      <FieldRef ID="{8ce81111-a444-4d4f-a08e-23a98cdbb0b0}" DisplayName="ShiftTime13" Required="False" Name="ShiftTime13" />
+      <FieldRef ID="{841ea3e0-cbc9-4699-8fed-66b28923bee9}" DisplayName="ShiftTime14" Required="False" Name="ShiftTime14" />
+      <FieldRef ID="{a268daba-1d2c-4eec-9d35-fb3be393a16b}" DisplayName="ShiftTime15" Required="False" Name="ShiftTime15" />
+      <FieldRef ID="{9b550b00-2463-4b0c-a097-d7b10e2a6054}" DisplayName="ShiftTime16" Required="False" Name="ShiftTime16" />
+      <FieldRef ID="{2451a302-9127-4182-a886-c90c112b6104}" DisplayName="ShiftTime17" Required="False" Name="ShiftTime17" />
+      <FieldRef ID="{22573162-7e00-4174-b7e6-5939fb3ffb5a}" DisplayName="ShiftTime18" Required="False" Name="ShiftTime18" />
+      <FieldRef ID="{3d850bbf-eb9a-4e4d-b1fa-fff4b2d898b2}" DisplayName="ShiftTime19" Required="False" Name="ShiftTime19" />
+      <FieldRef ID="{4898ef51-ece8-4ed5-8b96-d491db13e8ed}" DisplayName="ShiftTime20" Required="False" Name="ShiftTime20" />
+      <FieldRef ID="{071a5ef4-6e03-4cce-ad17-0c001c5d08d9}" DisplayName="ShiftTime21" Required="False" Name="ShiftTime21" />
+      <FieldRef ID="{c10d8b5d-50c4-4188-8d69-f6abb80553de}" DisplayName="ShiftTime22" Required="False" Name="ShiftTime22" />
+      <FieldRef ID="{6069877c-07ff-44a9-858c-f7cc2971593b}" DisplayName="ShiftTime23" Required="False" Name="ShiftTime23" />
+      <FieldRef ID="{2a55ad48-9301-4070-938c-f5e5feefbf9c}" DisplayName="ShiftTime24" Required="False" Name="ShiftTime24" />
+      <FieldRef ID="{7c00f2e0-7eb8-49e2-b72a-b42914923a95}" DisplayName="ShiftTime25" Required="False" Name="ShiftTime25" />
+      <FieldRef ID="{dee36ab4-f0b1-4b3b-8db6-bddbbb12fd77}" DisplayName="ShiftTime26" Required="False" Name="ShiftTime26" />
+      <FieldRef ID="{b09875b1-b181-47a5-b2c7-ab6aee518938}" DisplayName="ShiftTime27" Required="False" Name="ShiftTime27" />
+      <FieldRef ID="{3f5ea896-c2cc-4dcc-827b-f48b28a9ea1f}" DisplayName="ShiftTime28" Required="False" Name="ShiftTime28" />
+      <FieldRef ID="{070f5725-70b2-497c-83e8-cdb67dff0634}" DisplayName="ShiftTime29" Required="False" Name="ShiftTime29" />
+      <FieldRef ID="{46efe310-1aff-4af7-a418-15efa3ccb776}" DisplayName="ShiftTime30" Required="False" Name="ShiftTime30" />
+      <FieldRef ID="{91c342e5-c1bf-4231-9fa2-2972763e5dbf}" DisplayName="ShiftTime31" Required="False" Name="ShiftTime31" />
+      <FieldRef ID="{daf1ce00-f3b6-4832-8b87-a81106c96b01}" DisplayName="Employees Shift" Required="FALSE" Name="EmployeesShift" />
+      <FieldRef ID="{5d3ec9af-8c75-4f62-8f6c-03d6c1634c99}" DisplayName="Shift Time 1 Approval" Required="FALSE" Name="ShiftTime1Approval" />
+      <FieldRef ID="{49714039-1e31-4b56-8bab-e80f54082884}" DisplayName="Shift Time 2 Approval" Required="FALSE" Name="ShiftTime2Approval" />
+      <FieldRef ID="{8eaca1f4-7442-46fa-b6a0-e70457a8eae0}" DisplayName="Shift Time 3 Approval" Required="FALSE" Name="ShiftTime3Approval" />
+      <FieldRef ID="{b951ab43-1082-4445-9c80-07c3b2465117}" DisplayName="Shift Time 4 Approval" Required="FALSE" Name="ShiftTime4Approval" />
+      <FieldRef ID="{3cd3c2dc-8b46-478c-91f8-6f22cf6b569c}" DisplayName="Shift Time 5 Approval" Required="FALSE" Name="ShiftTime5Approval" />
+      <FieldRef ID="{c0d2df39-81d1-4252-b4f3-4670fa82c552}" DisplayName="Shift Time 6 Approval" Required="FALSE" Name="ShiftTime6Approval" />
+      <FieldRef ID="{fd408f81-1e1a-4ae8-abd6-9d989e050070}" DisplayName="Shift Time 7 Approval" Required="FALSE" Name="ShiftTime7Approval" />
+      <FieldRef ID="{bf6e776d-f289-4649-9d15-8ca53101c953}" DisplayName="Shift Time 8 Approval" Required="FALSE" Name="ShiftTime8Approval" />
+      <FieldRef ID="{e98ad31f-e314-485f-93cf-9b623b2eca42}" DisplayName="Shift Time 9 Approval" Required="FALSE" Name="ShiftTime9Approval" />
+      <FieldRef ID="{a23dc310-c282-4e53-b306-a13299b9144d}" DisplayName="Shift Time 10 Approval" Required="FALSE" Name="ShiftTime10Approval" />
+      <FieldRef ID="{7379b6e2-2e2f-485e-a660-878ba50a7dea}" DisplayName="Shift Time 11 Approval" Required="FALSE" Name="ShiftTime11Approval" />
+      <FieldRef ID="{0ee1dc4a-2a50-4692-b7f6-a9a4c241b2ae}" DisplayName="Shift Time 12 Approval" Required="FALSE" Name="ShiftTime12Approval" />
+      <FieldRef ID="{ab2dc32d-27fa-4986-b661-18b802184451}" DisplayName="Shift Time 13 Approval" Required="FALSE" Name="ShiftTime13Approval" />
+      <FieldRef ID="{985775f7-23eb-45c9-a255-fcf913733b45}" DisplayName="Shift Time 14 Approval" Required="FALSE" Name="ShiftTime14Approval" />
+      <FieldRef ID="{e57b4bcf-1d8e-45a6-8692-568ea42d4e70}" DisplayName="Shift Time 15 Approval" Required="FALSE" Name="ShiftTime15Approval" />
+      <FieldRef ID="{52935d81-80e8-4b49-80c3-f8c595202685}" DisplayName="Shift Time 16 Approval" Required="FALSE" Name="ShiftTime16Approval" />
+      <FieldRef ID="{a3e41837-a3bd-458f-b513-689f571c697b}" DisplayName="Shift Time 17 Approval" Required="FALSE" Name="ShiftTime17Approval" />
+      <FieldRef ID="{ba46cfcb-e095-41a4-ad1b-a98e5297017c}" DisplayName="Shift Time 18 Approval" Required="FALSE" Name="ShiftTime18Approval" />
+      <FieldRef ID="{05929df6-63c2-47df-abb4-308e092e0d5e}" DisplayName="Shift Time 19 Approval" Required="FALSE" Name="ShiftTime19Approval" />
+      <FieldRef ID="{8ff5697b-2090-4fc5-9425-87a20922a480}" DisplayName="Shift Time 20 Approval" Required="FALSE" Name="ShiftTime20Approval" />
+      <FieldRef ID="{e84c9674-672b-4dad-931b-06e7949ee4df}" DisplayName="Shift Time 21 Approval" Required="FALSE" Name="ShiftTime21Approval" />
+      <FieldRef ID="{2458a4cd-a3a9-42dc-840b-db6e0d80866c}" DisplayName="Shift Time 22 Approval" Required="FALSE" Name="ShiftTime22Approval" />
+      <FieldRef ID="{b37fd102-a55b-4b94-8460-d81010ad1c16}" DisplayName="Shift Time 23 Approval" Required="FALSE" Name="ShiftTime23Approval" />
+      <FieldRef ID="{685c38a4-4ba6-457e-aec7-812e3a1f76ce}" DisplayName="Shift Time 24 Approval" Required="FALSE" Name="ShiftTime24Approval" />
+      <FieldRef ID="{cb0832e4-5af4-42a6-91b9-2e1f763834ca}" DisplayName="Shift Time 25 Approval" Required="FALSE" Name="ShiftTime25Approval" />
+      <FieldRef ID="{552c985e-c95e-4ea0-81db-a273487b86af}" DisplayName="Shift Time 26 Approval" Required="FALSE" Name="ShiftTime26Approval" />
+      <FieldRef ID="{721e42f2-1d7c-4084-85e5-e09446aeaba1}" DisplayName="Shift Time 27 Approval" Required="FALSE" Name="ShiftTime27Approval" />
+      <FieldRef ID="{3d6f07df-325c-4cec-bce6-dc46ca6ce10c}" DisplayName="Shift Time 28 Approval" Required="FALSE" Name="ShiftTime28Approval" />
+      <FieldRef ID="{e5f7b5e3-471e-4d19-af77-4a0fcd68d7f1}" DisplayName="Shift Time 29 Approval" Required="FALSE" Name="ShiftTime29Approval" />
+      <FieldRef ID="{b90ee011-677c-4497-b08f-3f834e5d38ad}" DisplayName="Shift Time 30 Approval" Required="FALSE" Name="ShiftTime30Approval" />
+      <FieldRef ID="{e055360a-d0b8-4208-8dcc-ae1a90a73d2b}" DisplayName="Shift Time 31 Approval" Required="FALSE" Name="ShiftTime31Approval" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

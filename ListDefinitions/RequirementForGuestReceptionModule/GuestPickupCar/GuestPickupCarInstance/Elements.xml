@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,GuestPickupCar_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="20005"
+                Url="Lists/GuestPickupCar"
+                Description="$Resources:RBVHStadaLists,GuestPickupCar_ListTitle;">
+  </ListInstance>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{79092138-6698-4c1d-97d6-81c16ed737f0}"
+       Name="UnexpectedLeaveFirstApprovalRole"
+       DisplayName="Unexpected Leave First Approval Role"
+       Type="Lookup" List="Lists/EmployeePosition" ShowField="CommonName"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

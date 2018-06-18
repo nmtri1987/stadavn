@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{6774bda6-fc55-4306-a7a0-2fc7e16c946f}"
+       Name="ReturnedGoods"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_ReturnedGoods;"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

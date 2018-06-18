@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{351cfd03-0f40-4dc7-ba55-0494b5ad604e}"
+       Name="DepartmentPermission"
+       DisplayName="Department Permission"
+       Type="Choice"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

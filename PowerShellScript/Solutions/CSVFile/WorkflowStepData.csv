@@ -1,0 +1,14 @@
+﻿Title,ListName,CurrentStep,NextStep,NotificationEmailToRoles,NotificationEmailToEmployees,NotificationEmailCcRoles,NotificationEmailCcEmployees,AllowReject,ConditionalExpression,OrderStep
+Requests-EMP-DEH-Step-1,Requests,EMP;AMD;TLE;SLD;GRL,DEH,,,,,TRUE,,1
+Requests-DEH-BOD-Step-2,Requests,DEH,BOD,,,,,TRUE,"((CurrentItem['RequestTypeRefId'].ToString() == '1') || (((CurrentItem['RequestTypeRefId'].ToString() == '2') || (CurrentItem['RequestTypeRefId'].ToString() == '3')) && ((CurrentItem['RequiredApprovalByBOD'] != null) && (CurrentItem['RequiredApprovalByBOD'].ToString() == 'True'))))",2
+Requests-DEH-Step-2,Requests,DEH,,,,,,TRUE,"!((CurrentItem['RequestTypeRefId'].ToString() == '1') || (((CurrentItem['RequestTypeRefId'].ToString() == '2') || (CurrentItem['RequestTypeRefId'].ToString() == '3')) && ((CurrentItem['RequiredApprovalByBOD'] != null) && (CurrentItem['RequiredApprovalByBOD'].ToString() == 'True'))))",2
+Requests-BOD-Step-2,Requests,BOD,,,,,,TRUE,,3
+Recruitment - Step 1,Employee requirement sheets,AMD,DEH,,,,,TRUE,,1
+Recruitment - Step 2,Employee requirement sheets,DEH,DRM,,,,,TRUE,(CurrentItem['DepartmentCode'].ToString() == 'ENG' || CurrentItem['DepartmentCode'].ToString() == 'LW' || CurrentItem['DepartmentCode'].ToString() == 'QA' || CurrentItem['DepartmentCode'].ToString() == 'QC' || CurrentItem['DepartmentCode'].ToString() == 'AD' || CurrentItem['DepartmentCode'].ToString() == 'FD' || CurrentItem['DepartmentCode'].ToString() == 'RA' || CurrentItem['DepartmentCode'].ToString() == 'SW' || CurrentItem['DepartmentCode'].ToString() == 'TT') || CurrentItem['DepartmentCode'].ToString() == 'RD' || CurrentItem['DepartmentCode'].ToString() == 'HM',2
+Recruitment - Step 2 - DEH-BOD,Employee requirement sheets,DEH,BOD,,,,,TRUE,(CurrentItem['DepartmentCode'].ToString() == 'ACC' || CurrentItem['DepartmentCode'].ToString() == 'HR' || CurrentItem['DepartmentCode'].ToString() == 'IE' || CurrentItem['DepartmentCode'].ToString() == 'IT' || CurrentItem['DepartmentCode'].ToString() == 'PLA' || CurrentItem['DepartmentCode'].ToString() == 'PROC' || CurrentItem['DepartmentCode'].ToString() == 'WH') || CurrentItem['DepartmentCode'].ToString() == 'AS',2
+Recruitment - Step 3,Employee requirement sheets,DRM,BOD,,,,,TRUE,,3
+Recruitment - Step 4,Employee requirement sheets,BOD,,,,,,TRUE,,4
+Request Diploma - Step 1,Request for diploma supplies,DEH,BOD,,,,,TRUE,,1
+Request Diploma - Step 2,Request for diploma supplies,BOD,,,,,,TRUE,,2
+Requisition of meeting room  - Step 1,Requisition of meeting room,EMP;ATL;TLE;GRL;AMD,DEH,,,,,TRUE,,1
+Requisition of meeting room - Step 2,Requisition of meeting room,DEH,,,,,,TRUE,,2

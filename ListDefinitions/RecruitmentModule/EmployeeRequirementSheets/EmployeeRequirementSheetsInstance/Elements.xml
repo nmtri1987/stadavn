@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,EmployeeRequirementSheets_ListTitle" OnQuickLaunch="TRUE" TemplateType="14051" 
+                Url="Lists/EmployeeRequirementSheets" Description="$Resources:RBVHStadaLists,EmployeeRequirementSheets_ListTitle;"></ListInstance>
+</Elements>

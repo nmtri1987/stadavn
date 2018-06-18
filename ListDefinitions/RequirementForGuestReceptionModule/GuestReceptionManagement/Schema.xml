@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,GuestReceptionManagement_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/GuestReceptionManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100f0fdf5e6ff174d57a53281b12c8756a7" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{FE8E97AD-4060-4EB2-9450-FCB405186D20}" Name="GuestCompanyName" />
+          <FieldRef ID="{BDBF7C5D-CC44-4688-B452-87775AE7D739}" Name="GuestVisaApplication" />
+          <FieldRef ID="{623AF32A-D1C0-478A-80F6-C90E0517A8AD}" Name="GuestHotelBooking" />
+          <FieldRef ID="{FAF5E816-1140-4FB3-A31C-B0767FAA8160}" Name="GuestHotelName" />
+          <FieldRef ID="{0B900A68-D5F3-45F2-B026-5B45D90F5585}" Name="GuestHotelAddress" />
+          <FieldRef ID="{8FEA14D0-9B71-46AB-9B76-91E21F477E47}" Name="GuestHotelRoomType" />
+          <FieldRef ID="{A5AA4D41-FA59-40F1-8A2D-08F04EFF5741}" Name="GuestHotelCheckInDate" />
+          <FieldRef ID="{0A8C7CD3-0480-4509-BEF2-B3861C3CE629}" Name="GuestHotelCheckOutDate" />
+          <FieldRef ID="{433DAD6C-E603-4E71-8CD9-95ABB5E04135}" Name="GuestOtherRequirement" />
+          <FieldRef ID="{1DD3DE12-AB40-45EC-A008-318FFAC16F74}" Name="RoomPaidBy" />
+          <FieldRef ID="{4AB3D7E0-1FE7-46ED-8BE1-60B3826CDF0F}" Name="MinibarPaidBy" />
+          <FieldRef ID="{5AA735D5-D501-4AD6-98B9-F8132ADD38F1}" Name="OtherServicePaidBy" />
+          <FieldRef ID="{10AB9400-E969-4A51-9C9E-152134454D9D}" Name="PickupCarAtAirport" />
+          <FieldRef ID="{46646855-454E-43CA-B8E9-998FD35C2C1C}" Name="GuestPickupTime" />
+          <FieldRef ID="{93EC7CF2-D723-4819-81D6-6C027C764DB4}" Name="FlightNo" />
+          <FieldRef ID="{E910147B-63D8-49DD-BA7F-C88851C39523}" Name="LunchServiceAtCompany" />
+          <FieldRef ID="{65E6D390-9B6B-4F33-A38C-BD2663B3376F}" Name="LunchServiceLocation" />
+          <FieldRef ID="{4D119545-E762-41BB-AEBD-8303F2910028}" Name="LunchOtherPlace" />
+          <FieldRef ID="{710B8DC1-5FAE-4310-A5E9-C317AB2AFAB5}" Name="FoodSpecialRequirement" />
+          <FieldRef ID="{EE03B116-8F11-41DE-ABF9-C00F9AA1620B}" Name="GuestReceptionLevel" />
+          <FieldRef ID="{1E290EFA-EC55-4680-A889-5384CF79456E}" Name="Souvenir" />
+          <FieldRef ID="{0DB41F8E-8C66-482E-A757-28EBD891DC5B}" Name="GuestSouvenir" />
+          <FieldRef ID="{85AEE109-040B-4CC9-9F11-51116D159924}" Name="CarToAirport" />
+          <FieldRef ID="{9D41D690-3E54-4B0A-9D9C-D0CCAEC43E23}" Name="AirportCarTime" />
+          <FieldRef ID="{A15695E7-2E00-4E29-BBF8-DBEDEB0ABA21}" Name="ScheduleWorkingAtCompany" />
+          <FieldRef ID="{16F5F20D-01FF-4B22-A691-7EEE7B7B9E05}" Name="GuestWorkingFrom" />
+          <FieldRef ID="{37E4FDA4-78D3-464F-B6B7-EDA96ED1DE58}" Name="GuestWorkingTo" />
+          <FieldRef ID="{1FB667DF-28A0-4F61-AF10-A19A547F6B2E}" Name="GuestWorkingPlace" />
+          <FieldRef ID="{13D4100C-F31F-41E1-835A-E0F0384A521B}" Name="GuestWorkingContent" />
+          <FieldRef ID="{0241AB84-6562-406D-A70C-527A1B7A2676}" Name="MeetingRoomSeat" />
+          <FieldRef ID="{296193BE-F6D8-406C-9D2F-13F826C1ABAC}" Name="MeetingRoomStuffs" />
+          <FieldRef ID="{882BF0DE-F9E2-47C6-BB31-6FF31A16645C}" Name="MeetingRoomEquipments" />
+          <FieldRef ID="{10650200-4D2B-49F3-B6DE-45B039F24EC9}" Name="MeetingRoomOtherEquipment" />
+          <FieldRef ID="{1D4E118E-10F2-480E-BE95-D030667E65EF}" Name="FactoryVisitingRoutine" />
+          <FieldRef ID="{006B0412-0170-407F-BBA9-0EACDB1FF1E0}" Name="FactoryEntrance" />
+          <FieldRef ID="{75ADDAAC-9F76-4282-846C-109EAAFD1AD6}" Name="NumberOfClothes" />
+          <FieldRef ID="{B2C74895-626B-455C-BFA2-CC56CAD62B4C}" Name="GuestReceptionDate" />
+          <FieldRef ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" />
+          <FieldRef ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" />
+          <FieldRef ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" />
+          <FieldRef ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" />
+          <FieldRef ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" />
+          <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" />
+          <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" />
+          <FieldRef ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" />
+          <FieldRef ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" />
+          <FieldRef ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" />
+          <FieldRef ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" />
+          <FieldRef ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" />
+          <FieldRef ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" />
+          <FieldRef ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" />
+          <FieldRef ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" />
+          <FieldRef ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" />
+          <FieldRef ID="{3a4d310a-a4fb-4cc6-91b2-0ebb00431752}" Name="ColForSort" />
+          <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" />
+          <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" />
+          <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" />
+          <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" />
+          <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" />
+        </FieldRefs>
+        <XmlDocuments>
+          <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+            <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+              <Display>_layouts/15/RBVH.Stada.Intranet.WebPages/RequirementForGuestReceptionManagement/GuestReceptionForm.aspx?mode=display</Display>
+              <Edit>_layouts/15/RBVH.Stada.Intranet.WebPages/RequirementForGuestReceptionManagement/GuestReceptionForm.aspx?mode=edit</Edit>
+              <New>_layouts/15/RBVH.Stada.Intranet.WebPages/RequirementForGuestReceptionManagement/GuestReceptionForm.aspx?mode=new</New>
+            </FormUrls>
+          </XmlDocument>
+        </XmlDocuments>
+      </ContentType>
+    </ContentTypes>
+    
+    <Fields>
+      <Field ID="{FE8E97AD-4060-4EB2-9450-FCB405186D20}" Name="GuestCompanyName" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestCompanyNameTitle" Type="Text" Required="TRUE" />
+      <Field ID="{BDBF7C5D-CC44-4688-B452-87775AE7D739}" Name="GuestVisaApplication" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestVisaApplicationTitle;" Type="Boolean" Required="FALSE" />
+      <Field ID="{623AF32A-D1C0-478A-80F6-C90E0517A8AD}" Name="GuestHotelBooking" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelBookingTitle;" Type="Boolean" Required="FALSE" />
+      <Field ID="{FAF5E816-1140-4FB3-A31C-B0767FAA8160}" Name="GuestHotelName" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelNameTitle" Type="Text" Required="FALSE" />
+      <Field ID="{0B900A68-D5F3-45F2-B026-5B45D90F5585}" Name="GuestHotelAddress" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelAddressTitle" Type="Text" Required="FALSE" />
+      <Field ID="{8FEA14D0-9B71-46AB-9B76-91E21F477E47}" Name="GuestHotelRoomType" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelRoomTypeTitle;" Type="LookupMulti" List="Lists/HotelRoomType" ShowField="CommonName" Required="FALSE" Mult="TRUE" />
+      <Field ID="{A5AA4D41-FA59-40F1-8A2D-08F04EFF5741}" Name="GuestHotelCheckInDate" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelCheckInDateTitle;" Type="DateTime" Required="FALSE" Format="DateTime" />
+      <Field ID="{0A8C7CD3-0480-4509-BEF2-B3861C3CE629}" Name="GuestHotelCheckOutDate" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelCheckOutDateTitle;" Type="DateTime" Required="FALSE" Format="DateTime" />
+      <Field ID="{433DAD6C-E603-4E71-8CD9-95ABB5E04135}" Name="GuestOtherRequirement" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestHotelOtherRequirementTitle" Type="Note" Required="FALSE" />
+      <Field ID="{1DD3DE12-AB40-45EC-A008-318FFAC16F74}" Name="RoomPaidBy" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_RoomPaidByTitle" Type="Text" Required="FALSE" />
+      <Field ID="{4AB3D7E0-1FE7-46ED-8BE1-60B3826CDF0F}" Name="MinibarPaidBy" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_MinibarPaidByTitle" Type="Text" Required="FALSE" />
+      <Field ID="{5AA735D5-D501-4AD6-98B9-F8132ADD38F1}" Name="OtherServicePaidBy" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_OtherServicePaidByTitle" Type="Note" Required="FALSE" />
+      <Field ID="{10AB9400-E969-4A51-9C9E-152134454D9D}" Name="PickupCarAtAirport" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestPickupCarAtAirportTitle;" Type="Boolean" Required="FALSE" />
+      <Field ID="{46646855-454E-43CA-B8E9-998FD35C2C1C}" Name="GuestPickupTime" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestPickupTimeTitle;" Type="DateTime" Required="FALSE" Format="DateTime" />
+      <Field ID="{93EC7CF2-D723-4819-81D6-6C027C764DB4}" Name="FlightNo" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_FlightNoTitle" Type="Text" Required="FALSE" />
+      <Field ID="{E910147B-63D8-49DD-BA7F-C88851C39523}" Name="LunchServiceAtCompany" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_LunchServiceAtCompanyTitle;" Type="Boolean" Required="FALSE" />
+      <Field ID="{65E6D390-9B6B-4F33-A38C-BD2663B3376F}" Name="LunchServiceLocation" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_LunchServiceLocationTitle;" Type="Lookup" List="Lists/LunchServiceLocation" ShowField="CommonName" />
+      <Field ID="{4D119545-E762-41BB-AEBD-8303F2910028}" Name="LunchOtherPlace" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_LunchServicOtherPlaceTitle" Type="Text" Required="FALSE" />
+      <Field ID="{710B8DC1-5FAE-4310-A5E9-C317AB2AFAB5}" Name="FoodSpecialRequirement" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_FoodSpecialRequirementTitle" Type="Note" Required="FALSE" />
+      <Field ID="{EE03B116-8F11-41DE-ABF9-C00F9AA1620B}" Name="GuestReceptionLevel" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestReceptionLevelTitle;" Type="Lookup" List="Lists/GuestLevel" ShowField="CommonName" />
+      <Field ID="{1E290EFA-EC55-4680-A889-5384CF79456E}" Name="Souvenir" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestSouvenirTitle;" Type="Boolean" Required="FALSE" />
+      <Field ID="{0DB41F8E-8C66-482E-A757-28EBD891DC5B}" Name="GuestSouvenir" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestSouvenirTitle;" Type="Lookup" List="Lists/GuestLevel" ShowField="CommonName" />
+      <Field ID="{85AEE109-040B-4CC9-9F11-51116D159924}" Name="CarToAirport" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_CarToAirportTitle;" Type="Boolean" Required="FALSE" />
+      <Field ID="{9D41D690-3E54-4B0A-9D9C-D0CCAEC43E23}" Name="AirportCarTime" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_AirportCarTimeTitle;" Type="DateTime" Required="FALSE" />
+      <Field ID="{A15695E7-2E00-4E29-BBF8-DBEDEB0ABA21}" Name="ScheduleWorkingAtCompany" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_ScheduleWorkingAtCompany;" Type="Boolean" Required="FALSE" />
+      <Field ID="{16F5F20D-01FF-4B22-A691-7EEE7B7B9E05}" Name="GuestWorkingFrom" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestScheduleFromTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" />
+      <Field ID="{37E4FDA4-78D3-464F-B6B7-EDA96ED1DE58}" Name="GuestWorkingTo" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestScheduleToTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" />
+      <Field ID="{1FB667DF-28A0-4F61-AF10-A19A547F6B2E}" Name="GuestWorkingPlace" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestSchedulePlaceTitle" Type="Note" Required="FALSE" />
+      <Field ID="{13D4100C-F31F-41E1-835A-E0F0384A521B}" Name="GuestWorkingContent" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestScheduleContentTitle" Type="Note" Required="FALSE" />
+      <Field ID="{0241AB84-6562-406D-A70C-527A1B7A2676}" Name="MeetingRoomSeat" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestRequirementSeatTitle;" Type="Number" Min="1" Decimals="0" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{296193BE-F6D8-406C-9D2F-13F826C1ABAC}" Name="MeetingRoomStuffs" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestRequirementStuffsTitle;" Type="LookupMulti" List="Lists/MeetingRoomStuff" ShowField="CommonName" Required="FALSE" Mult="TRUE" />
+      <Field ID="{882BF0DE-F9E2-47C6-BB31-6FF31A16645C}" Name="MeetingRoomEquipments" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestRequirementEquipmentTitle;" Type="LookupMulti" List="Lists/Equipments" ShowField="CommonName" Required="FALSE" Mult="TRUE" />
+      <Field ID="{10650200-4D2B-49F3-B6DE-45B039F24EC9}" Name="MeetingRoomOtherEquipment" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestRequirementEquipmentOtherTitle" Type="Text" Required="FALSE" />
+      <Field ID="{1D4E118E-10F2-480E-BE95-D030667E65EF}" Name="FactoryVisitingRoutine" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestFactoryVisitingRoutineTitle" Type="Note" Required="FALSE" />
+      <Field ID="{006B0412-0170-407F-BBA9-0EACDB1FF1E0}" Name="FactoryEntrance" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestFactoryEntranceTitle;" Type="LookupMulti" List="Lists/FactoryEntrance" ShowField="CommonName" Required="FALSE" Mult="TRUE" />
+      <Field ID="{75ADDAAC-9F76-4282-846C-109EAAFD1AD6}" Name="NumberOfClothes" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestNumberOfClothesTitle;" Type="Number" Min="1" Decimals="0" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{B2C74895-626B-455C-BFA2-CC56CAD62B4C}" Name="GuestReceptionDate" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestReceptionDateTitle;" Type="DateTime" Required="FALSE"  />
+
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{3a4d310a-a4fb-4cc6-91b2-0ebb00431752}" Name="ColForSort" StaticName="ColForSort" DisplayName="$Resources:RBVHStadaLists,Common_ColForSort;" Type="Calculated" Required="FALSE" ResultType="Number" ReadOnly="TRUE" Decimals="0">
+        <Formula>=IF(WFStatus="Approved",INT("6"),IF(WFStatus="Completed",INT("7"),IF(WFStatus="Rejected",INT("8"),IF(WFStatus="Cancelled",INT("9"),INT("0")))))</Formula>
+        <FormulaDisplayNames>=IF([Workflow status]="Approved",INT("6"),IF([Workflow status]="Completed",INT("7"),IF([Workflow status]="Rejected",INT("8"),IF([Workflow status]="Cancelled",INT("9"),INT("0")))))</FormulaDisplayNames>
+        <FieldRefs>
+          <FieldRef Name="WFStatus" />
+        </FieldRefs>
+      </Field>
+      
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" DisplayName="$Resources:RBVHStadaLists,Common_LastRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" DisplayName="$Resources:RBVHStadaLists,Common_NextRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" DisplayName="$Resources:RBVHStadaLists,Common_RemindedAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" DisplayName="$Resources:RBVHStadaLists,Common_MaxRemindAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+    
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="GuestCompanyName" />
+          <FieldRef Name="GuestVisaApplication" />
+          <FieldRef Name="GuestHotelBooking" />
+          <FieldRef Name="GuestHotelName" />
+          <FieldRef Name="GuestHotelAddress" />
+          <FieldRef Name="GuestHotelRoomType" />
+          <FieldRef Name="GuestHotelCheckInDate" />
+          <FieldRef Name="GuestHotelCheckOutDate" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="GuestCompanyName" />
+          <FieldRef Name="GuestVisaApplication" />
+          <FieldRef Name="GuestHotelBooking" />
+          <FieldRef Name="GuestHotelName" />
+          <FieldRef Name="GuestHotelAddress" />
+          <FieldRef Name="GuestHotelRoomType" />
+          <FieldRef Name="GuestHotelCheckInDate" />
+          <FieldRef Name="GuestHotelCheckOutDate" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

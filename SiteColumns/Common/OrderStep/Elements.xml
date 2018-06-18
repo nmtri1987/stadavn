@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{19f1a291-ac90-4e54-9839-6913520158f5}"
+       Name="OrderStep"
+       DisplayName="Order Step"
+       Type="Number"
+       Min="0"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

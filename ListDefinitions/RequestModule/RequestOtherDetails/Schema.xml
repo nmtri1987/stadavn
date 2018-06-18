@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,RequestOtherDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RequestOtherDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100a8cc42d953464fcabd4c96bc3fb4734a" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{49410f24-3be1-4b9a-8883-4848a99ae4f5}" Name="Unit" />
+          <FieldRef ID="{c6b430f1-4b90-4fc1-93b5-cd7c3ae8e15b}" Name="Quantity" />
+          <FieldRef ID="{618ad8df-ec43-468a-8389-18d37a8332d9}" Name="RequestContent" />
+          <FieldRef ID="{df1ba5e5-80e9-497d-8fa6-47fa529f9d07}" Name="Reason" />
+          <FieldRef ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" Name="Request" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field Name="Unit" ID="{49410f24-3be1-4b9a-8883-4848a99ae4f5}" DisplayName="$Resources:RBVHStadaLists,RequestOtherDetails_Unit;" Type="Text" Required="FALSE" />
+      <Field ID="{618ad8df-ec43-468a-8389-18d37a8332d9}" DisplayName="$Resources:RBVHStadaLists,RequestOtherDetails_Content;" Required="TRUE" Type="Text" Name="RequestContent" />
+      <Field Name="Quantity" ID="{c6b430f1-4b90-4fc1-93b5-cd7c3ae8e15b}" DisplayName="$Resources:RBVHStadaLists,RequestOtherDetails_Quantity;" Type="Number" Required="FALSE" />
+      <Field Name="Reason" ID="{df1ba5e5-80e9-497d-8fa6-47fa529f9d07}" DisplayName="$Resources:RBVHStadaLists,RequestOtherDetails_Reason;" Type="Note" NumLines="3" Required="FALSE" />
+      <Field ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" DisplayName="$Resources:RBVHStadaLists,RequestOtherDetails_Request;" Required="FALSE" Name="Request"   Type="Lookup" List="Lists/Requests" ShowField="ID" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="Unit" />
+          <FieldRef Name="RequestContent" />
+          <FieldRef Name="Quantity" />
+          <FieldRef Name="Reason" />
+          <FieldRef Name="Request" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

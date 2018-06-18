@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,InformationUpdateManagement_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/InformationUpdateManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+
+      <Field ID="{2BAD1D2F-C35C-4376-9D9F-66E3A46F10D1}" Name="RequestDate" DisplayName="$Resources:RBVHStadaLists,InformationUpdateManagement_RequestDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{4E51D4A1-3F81-492A-9EE5-68188FDC0075}" Name="PrivateInformation" DisplayName="$Resources:RBVHStadaLists,InformationUpdateManagement_PrivateInformationTitle;" Type="MultiChoice" Required="FALSE" Group="Stada Columns"  >
+        <Default>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeBoxTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,InformationUpdateManagement_PrivateInformationPermanentAddressTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,InformationUpdateManagement_PrivateInformationIdentityCardTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,InformationUpdateManagement_PrivateInformationFuneralTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,InformationUpdateManagement_PrivateInformationMarriageTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,InformationUpdateManagement_PrivateInformationViviparousTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{3623502A-5D13-4FFF-850E-76E6B83D0557}" Name="Content" DisplayName="$Resources:RBVHStadaLists,InformationUpdateManagement_ContentTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{54B0DE4F-124E-4E12-9FA2-5F656086345A}" Name="Reason" DisplayName="$Resources:RBVHStadaLists,InformationUpdateManagement_ReasonTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{3E28AA47-2029-45B8-8174-AF656D9FEF36}" Name="UpdateTime" DisplayName="$Resources:RBVHStadaLists,InformationUpdateManagement_UpdateTimeTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      
+      
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{04f9da1b-4283-4ad9-a240-6953ab1d8213}" DisplayName="$Resources:RBVHStadaLists,RequestList_StatusOrder" Type="Calculated" ResultType="Number" Name="StatusOrder" Required="FALSE">
+        <Formula>
+          =IF([Workflow status]="Approved","7",IF([Workflow status]="Rejected","8",IF([Workflow status]="Cancelled","9","0")))
+        </Formula>
+      </Field>
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RequestDate"></FieldRef>
+          <FieldRef Name="PrivateInformation"></FieldRef>
+          <FieldRef Name="Content"></FieldRef>
+          <FieldRef Name="Reason"></FieldRef>
+          <FieldRef Name="UpdateTime"></FieldRef>
+
+          <FieldRef Name="Creator"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+          <FieldRef Name="PendingAt"></FieldRef>
+          <FieldRef Name="CurrentStep"></FieldRef>
+          <FieldRef Name="NextStep"></FieldRef>
+          <FieldRef Name="CommonLocation"></FieldRef>
+          <FieldRef Name="CommonDepartment"></FieldRef>
+          <FieldRef Name="IsAdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalNextStep"></FieldRef>
+          <FieldRef Name="AdditionalDepartment"></FieldRef>
+          <FieldRef Name="AssignFrom"></FieldRef>
+          <FieldRef Name="AssignTo"></FieldRef>
+          <FieldRef Name="CommonDueDate"></FieldRef>
+          <FieldRef Name="WFStatus"></FieldRef>
+          <FieldRef Name="StatusOrder"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

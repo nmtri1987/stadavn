@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01)-->
+  <ContentType ID="0x0100CAA0ECAAE671481C9EB2AA5E616FB449"
+               Name="$Resources:RBVHStadaLists,EmployeePosition_ContentTypeTitle;"
+               Group="RBVH Content Types"
+               Description="$Resources:RBVHStadaLists,EmployeePosition_ContentTypeDescription;"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{cb87319d-24fb-42cd-a06f-c770e498168b}" Required="TRUE" Name="Code" />
+      <FieldRef ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Required="TRUE" Name="CommonName" />
+      <FieldRef ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Required="TRUE" Name="CommonName1066" />
+      <FieldRef ID="{d6abbfba-2325-4964-a13a-28dea550e794}" Required="TRUE" Name="EmployeeLevel" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

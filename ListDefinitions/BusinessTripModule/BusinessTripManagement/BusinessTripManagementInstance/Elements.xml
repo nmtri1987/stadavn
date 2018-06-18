@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,BusinessTripManagement_ListTitle;" OnQuickLaunch="TRUE" TemplateType="10059" Url="Lists/BusinessTripManagement" Description="Business Trip Management"></ListInstance>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d7bba1dc-4ce3-40a9-bdd8-003b0a0aad37}"
+       Name="ShippingReason"
+       DisplayName="Shipping Reason"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f39261df-9d5d-403d-b531-760b30fa2025}"
+       Name="FactoryLocation"
+       DisplayName="Factory Location"
+       Type="Lookup" List="Lists/Factories" ShowField="CommonName"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

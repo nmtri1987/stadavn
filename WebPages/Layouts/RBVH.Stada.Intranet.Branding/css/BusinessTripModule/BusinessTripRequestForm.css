@@ -1,0 +1,79 @@
+﻿.right-container
+{
+    display: inline-block;
+    width: 100%;
+}
+
+span.title{
+    font-weight: bold;
+}
+
+label{
+    font-weight: normal;
+}
+
+span.sub-title{
+    font-style:italic; 
+    padding-left: 15px;
+}
+
+.right-container .row{
+    margin-bottom: 10px;
+}
+
+.footer{
+    float: right; 
+    margin-right: 20px;
+}
+
+.mr15{
+    margin-right: 15px;
+}
+
+#btn-add-employee
+{
+    margin-left: 5px;
+    color: green;
+    cursor: pointer;
+}
+
+#cbo-employee-list
+{
+    width: auto;
+    display: inline;
+}
+#js-grid-employee-list tr.jsgrid-row td:nth-child(1), #js-grid-employee-list tr.jsgrid-alt-row td:nth-child(1)
+{
+    display: none;
+}
+
+td.jsgrid-control-field > .jsgrid-delete-button, td.jsgrid-control-field > .jsgrid-cancel-edit-button, td.jsgrid-control-field > .jsgrid-update-button, td.jsgrid-control-field > .jsgrid-insert-button
+{
+    min-width: 16px;
+}
+
+#cbo-depart-hour, #cbo-depart-minute
+{
+    display: inline;
+}
+
+.require-error{
+    border: solid 1px red !important;
+}
+
+#txt-purpose:disabled, #txt-paid-by:disabled, #txt-other-service:disabled, #txt-cash-cheque:disabled {
+    background-color: white;
+    color: #555;
+}
+/*input[type=text][disabled]
+{
+    background-color: #eee !important;
+}*/
+
+#js-grid-schedule {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+#js-grid-schedule .jsgrid-grid-header, #js-grid-schedule .jsgrid-grid-body {
+    overflow: visible;
+}

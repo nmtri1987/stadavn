@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{04f9da1b-4283-4ad9-a240-6953ab1d8213}"
+       Name="StatusOrder"
+       DisplayName="Status Order"
+        Type="Calculated" ResultType="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

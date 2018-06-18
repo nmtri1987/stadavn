@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}"
+       Name="CommonName1066"
+       DisplayName="Common Name Vietnamese"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

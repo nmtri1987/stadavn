@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,DepartmentDiscussion_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="108"
+                FeatureId="daa42646-bd4b-472c-9dae-5cbddfb09afb"
+                Url="Lists/DepartmentDiscussion"
+                Description="$Resources:RBVHStadaLists,DepartmentDiscussion_Description;">
+  </ListInstance>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c0235d50-0c3e-455e-866d-aa09e34a15ea}"
+       Name="BODApprover"
+       DisplayName="BOD Approver"
+       Type="User"
+       Required="TRUE" UserSelectionMode="PeopleOnly"
+       Group="Stada Columns">
+  </Field>
+</Elements>

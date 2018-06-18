@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{21ac04d2-0566-4df1-9296-bd120947855d}"
+       Name="RequestStatus"
+       DisplayName="Request Status"
+       StaticName="RequestStatus"
+       Type="Choice"
+       Description="DO NOT MODIFY THIS FIELD"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="Stada Site Columns"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>Submitted</CHOICE>          
+          <CHOICE>Pending</CHOICE>
+          <CHOICE>Rejected</CHOICE>
+          <CHOICE>Approved</CHOICE>
+        </CHOICES>
+        <Default>Submitted</Default>
+  </Field>
+</Elements>

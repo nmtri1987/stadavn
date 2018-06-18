@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RequisitionOfMeetingRoom" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0102003AE39D680B104AA3A5017BEF29E055F8" />
+      <ContentTypeRef ID="0x01004595BF9C5D9144D4B63D251E745A462F" />
+    </ContentTypes>
+    <Fields>
+      <Field ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Name="StartDate" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="StartDate" Group="$Resources:core,Base_Columns;" Type="DateTime" Format="DateTime" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_Start_Time;">
+        <Default>[today]</Default>
+      </Field>
+      <Field ID="{2684F9F2-54BE-429f-BA06-76754FC056BF}" Name="EndDate" Type="DateTime" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_EndTime" Format="DateTime" FromBaseType="TRUE" Group="_Hidden" SourceID="http://schemas.microsoft.com/sharepoint/v3/fields" StaticName="EndDate"/>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{de2c4d8f-b7d3-46b6-bc8f-30a97422fbaf}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_DiscussionMeeting" Required="TRUE" Name="DiscussionMeeting" Type="Note" />
+      <Field ID="{a3b5d06c-52df-439d-bb7c-51533a6618ff}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_Participation" Required="TRUE" Name="Participation" Type="Note" />
+      <Field ID="{90180452-1f23-43ae-9387-ae28ee3410d3}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_MeetingRoomLocation" Required="TRUE" Name="MeetingRoomLocation" List="Lists/MeetingRooms" Type="Lookup" ShowField="Title"/>
+      <Field ID="{feaf487e-2313-413d-953e-3d2d361be795}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_Equipment" Required="TRUE" Name="Equipment" List="Lists/Equipments" Type="LookupMulti" ShowField="CommonName" Mult="TRUE"/>
+      <Field ID="{d2b585d2-5147-4092-9896-2b3f2ae352d0}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_Equipment;" Required="TRUE" Name="EquipmentVN"  FieldRef="{feaf487e-2313-413d-953e-3d2d361be795}" Type="LookupMulti" List="Lists/Equipments" ShowField="CommonName1066" Mult="TRUE"/>
+      <Field ID="{3f47770f-f268-4bdf-b2c1-8838fa9e6c09}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_Seats" Required="TRUE" Name="Seats" Type="Number"/>
+      <Field ID="{d65baca6-bd66-4ad7-8231-6bb80e97fdb8}" DisplayName="$Resources:RBVHStadaLists,RequisitionOfMeetingRoom_Others" Required="TRUE" Name="Others"  Type="Text"/>
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{3a4d310a-a4fb-4cc6-91b2-0ebb00431752}" Name="ColForSort" StaticName="ColForSort" DisplayName="$Resources:RBVHStadaLists,Common_ColForSort;" Type="Calculated" Required="FALSE" ResultType="Number" ReadOnly="TRUE" Decimals="0">
+        <Formula>=IF(WFStatus="Approved",INT("6"),IF(WFStatus="Completed",INT("7"),IF(WFStatus="Rejected",INT("8"),IF(WFStatus="Cancelled",INT("9"),INT("0")))))</Formula>
+        <FormulaDisplayNames>=IF([Workflow status]="Approved",INT("6"),IF([Workflow status]="Completed",INT("7"),IF([Workflow status]="Rejected",INT("8"),IF([Workflow status]="Cancelled",INT("9"),INT("0")))))</FormulaDisplayNames>
+        <FieldRefs>
+          <FieldRef Name="WFStatus" />
+        </FieldRefs>
+      </Field>
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="EndDate"></FieldRef>
+          <FieldRef Name="DiscussionMeeting"></FieldRef>
+          <FieldRef Name="MeetingRoomLocation"></FieldRef>
+          <FieldRef Name="Equipment"></FieldRef>
+          <FieldRef Name="Seats"></FieldRef>
+          <FieldRef Name="Others"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="2" WebPartOrder="2" Type="CALENDAR" WebPartZoneID="Main" DisplayName="$Resources:core,userinfo_schema_calendarview;" MobileView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/events.png?rev=23" TabularView="FALSE" Url="calendar.aspx" RecurrenceRowset="TRUE"  MobileUrl="_layouts/15/mobile/viewdaily.aspx">
+        <Toolbar Type="Standard" />
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+        <ViewFields>
+          <FieldRef Name="StartDate"></FieldRef>
+          <FieldRef Name="EndDate"></FieldRef>
+          <FieldRef Name="Title"></FieldRef>
+        </ViewFields>
+        <ViewData>
+          <FieldRef Name="Title" Type="CalendarMonthTitle"></FieldRef>
+          <FieldRef Name="Title" Type="CalendarWeekTitle"></FieldRef>
+          <FieldRef Name="Title" Type="CalendarDayTitle"></FieldRef>
+        </ViewData>
+        <Query>
+          <Where>
+            <DateRangesOverlap>
+              <FieldRef Name="StartDate"></FieldRef>
+              <FieldRef Name="EndDate"></FieldRef>
+              <Value Type="DateTime">
+                <Month></Month>
+              </Value>
+            </DateRangesOverlap>
+          </Where>
+        </Query>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

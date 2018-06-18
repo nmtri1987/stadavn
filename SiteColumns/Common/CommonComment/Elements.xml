@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}"
+       Name="CommonComment"
+       DisplayName="Common Comment"
+       Type="Note"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

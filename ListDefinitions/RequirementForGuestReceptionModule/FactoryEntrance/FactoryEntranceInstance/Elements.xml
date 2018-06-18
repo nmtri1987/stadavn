@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,FactoryEntrance_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="22001"
+                Url="Lists/FactoryEntrance"
+                Description="$Resources:RBVHStadaLists,FactoryEntrance_ListTitle;">
+  </ListInstance>
+</Elements>

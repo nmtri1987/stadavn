@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,CompanyCalendar2_ContentTypeTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="1060"
+                Url="Lists/CompanyCalendarTwo">
+  </ListInstance>
+</Elements>

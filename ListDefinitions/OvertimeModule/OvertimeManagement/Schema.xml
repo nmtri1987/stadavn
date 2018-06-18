@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,OvertimeManagement_ListTitle;" Name="OvertimeManagement" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/OvertimeManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x010073F7A5FFBA1D4152B0C41B22E202AACF" Name="$Resources:RBVHStadaLists,OvertimeManagement_ListTitle;" Group="RBVH Content Types" Description="$Resources:RBVHStadaLists,OvertimeManagement_ListDescription;" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" />
+          <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" />
+          <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" />
+          <FieldRef ID="{3cc26579-b496-4fe0-b42c-cfc2742ff96c}" Name="CommonPlace" />
+          <FieldRef ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}" Name="CommonDate"/>
+          <FieldRef ID="{c656f9e7-b326-4f43-8843-0f3a35fb22db}" Name="SumOfEmployee" />
+          <FieldRef ID="{0125f1b9-a730-4f53-85fd-2c8f52776842}" Name="SumOfMeal" />
+          <FieldRef ID="{c1af2448-5bf8-49a1-b8b4-02b6ec0c6ecd}" Name="OtherRequirements"  />
+          <FieldRef ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" />
+          <FieldRef ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" Required="TRUE" />
+          <FieldRef ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="CommonApprover2" />
+          <FieldRef ID="{d4aac87d-9411-45df-87c7-2520e666f2e5}" Name="FirstApprovedDate" />
+          <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" Required="FALSE" />
+          <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" Required="FALSE" />
+          <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" Required="FALSE" />
+          <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" Required="FALSE" />
+          <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" Required="FALSE" />
+          <FieldRef ID="{ab348a94-ac03-499a-860f-fedfb5ff3f0a}" Name="DHComments"  />
+          <FieldRef ID="{6ea8e714-5fb3-4148-89d5-9e55f9fb4ca5}" Name="BODComments"  />
+          <FieldRef ID="{0742deaa-31d9-4f1f-8942-bed0200bdc77}" Name="SecurityComments"  />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" ListItemMenu="TRUE" DisplayName="$Resources:RBVHStadaLists,Overtime_Requester;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Overtime_Department;" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{0295E928-6CC5-41DC-989F-2CFEC7FB5F46}" FieldRef="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="DepartmentName1066" DisplayName="$Resources:RBVHStadaLists,Department_NameVietnamese;" Type="Lookup" List="Lists/Departments" ShowField="CommonName1066" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Overtime_Location;" Type="Lookup" List="Lists/Factories" ShowField="CommonName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}" Name="CommonDate" Type="DateTime" Format="DateOnly"  Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Overtime_Date;"></Field>
+      <Field ID="{c656f9e7-b326-4f43-8843-0f3a35fb22db}" Name="SumOfEmployee" DisplayName="$Resources:RBVHStadaLists,Overtime_SumEmployee;" Type="Number" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{0125f1b9-a730-4f53-85fd-2c8f52776842}" Name="SumOfMeal" DisplayName="$Resources:RBVHStadaLists,Overtime_SumMeal;" Type="Number" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{3cc26579-b496-4fe0-b42c-cfc2742ff96c}" Name="CommonPlace" Type="Text" DisplayName="$Resources:RBVHStadaLists,Overtime_Place;" Required="TRUE" />
+      <Field ID="{c1af2448-5bf8-49a1-b8b4-02b6ec0c6ecd}" DisplayName="$Resources:RBVHStadaLists,Overtime_OtherRequirement;" Required="TRUE" Name="OtherRequirements" NumLines="3" Type="Note" Group="Stada Columns" />
+      <Field ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" DisplayName="$Resources:RBVHStadaLists,ApprovalStatusFieldDisplayName;" ShowInEditForm="FALSE" ShowInNewForm="FALSE" Type="Text" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" DisplayName="$Resources:RBVHStadaLists,OvertimeManagement_ApprovedBy;" Required="TRUE" Type="User" UserSelectionMode="PeopleOnly"/>
+      <Field ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="CommonApprover2" DisplayName="$Resources:RBVHStadaLists,OvertimeManagement_FirstApprovedBy;" Type="User" UserSelectionMode="PeopleOnly"/>
+      <Field ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="FirstApprovedDate" Type="DateTime" Format="DateOnly"  Required="TRUE" DisplayName="$Resources:RBVHStadaLists,OvertimeManagement_FirstApprovedDate;"></Field>
+      <Field ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}" Name="ColForSort" StaticName="ColForSort" DisplayName="$Resources:RBVHStadaLists,Common_ColForSort;" Type="Number" Required="FALSE" Decimals="0" />
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" DisplayName="$Resources:RBVHStadaLists,Common_LastRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" DisplayName="$Resources:RBVHStadaLists,Common_NextRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" DisplayName="$Resources:RBVHStadaLists,Common_RemindedAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" DisplayName="$Resources:RBVHStadaLists,Common_MaxRemindAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+
+      <Field ID="{ab348a94-ac03-499a-860f-fedfb5ff3f0a}" DisplayName="$Resources:RBVHStadaLists,Overtime_DHComments;" Required="TRUE" Name="DHComments" NumLines="3" Type="Note" Group="Stada Columns" />
+      <Field ID="{6ea8e714-5fb3-4148-89d5-9e55f9fb4ca5}" DisplayName="$Resources:RBVHStadaLists,Overtime_BODComments;" Required="TRUE" Name="BODComments" NumLines="3" Type="Note" Group="Stada Columns" />
+      <Field ID="{0742deaa-31d9-4f1f-8942-bed0200bdc77}" DisplayName="$Resources:RBVHStadaLists,Overtime_SecurityComments;" Required="TRUE" Name="SecurityComments" NumLines="3" Type="Note" Group="Stada Columns" />
+      
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonDate" />
+          <FieldRef Name="SumOfEmployee" />
+          <FieldRef Name="SumOfMeal" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="CommonPlace" />
+          <FieldRef Name="OtherRequirements" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonApprover1" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!-- Overtime Approval List -->
+      <View BaseViewID="2" Type="HTML" WebPartZoneID="Main" TabularView="FALSE" DisplayName="Overtime Approval List"  MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ApprovalList.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>~sitecollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/OvertimeModule/JSLink_ApprovalView.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonDate" />
+          <FieldRef Name="SumOfEmployee" />
+          <FieldRef Name="SumOfMeal" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="OtherRequirements" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonApprover1" />
+          <FieldRef Name="Title" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <!-- Overtime by Department List -->
+      <View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="Overtime by Department List" TabularView="FALSE"  MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="OvertimeByDepartmentList.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>~sitecollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/OvertimeModule/JSLink_OvertimeDepartments.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonDate" />
+          <FieldRef Name="SumOfEmployee" />
+          <FieldRef Name="SumOfMeal" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="OtherRequirements" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonApprover1" />
+          <FieldRef Name="Title" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <!-- Overtime Request List -->
+      <View BaseViewID="4" Type="HTML" WebPartZoneID="Main" DisplayName="Overtime Request List" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="OvertimeRequestList.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonDate" />
+          <FieldRef Name="SumOfEmployee" />
+          <FieldRef Name="SumOfMeal" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="OtherRequirements" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonApprover1" />
+          <FieldRef Name="Title" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

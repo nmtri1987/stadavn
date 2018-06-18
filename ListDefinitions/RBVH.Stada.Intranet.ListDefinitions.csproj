@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.ListDefinitions</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.ListDefinitions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <AssemblyDeploymentTarget>WebApplication</AssemblyDeploymentTarget>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>14.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PostDeploymentCommand>
+    </PostDeploymentCommand>
+    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BusinessTripModule\BusinessTripEmployeeDetails\BusinessTripEmployeeDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6bafc28d-ac68-4bd4-b32d-d5c92da7fa26}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripEmployeeDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b5688bfb-269c-496f-b87a-4d2b3054a45b}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripManagement\BusinessTripManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2062ed0e-e069-4bfa-8301-812246b18220}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{72fa3baa-2df0-4bc1-8741-895b41f1eeca}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripSchedule\BusinessTripScheduleInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3285eaf9-cca5-43ea-8b62-db53ea772995}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessTripModule\BusinessTripSchedule\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{326970ba-0c1e-4179-9eb9-81575642f0be}</SharePointProjectItemId>
+    </None>
+    <None Include="CertificateModule\CertificateManagement\CertificateManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b22a40ce-40b9-46c7-b17a-f6e2c45a1956}</SharePointProjectItemId>
+    </None>
+    <None Include="CertificateModule\CertificateManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb4d3132-7813-4826-8557-54f7596058ff}</SharePointProjectItemId>
+    </None>
+    <None Include="CertificateModule\CurrentCertificate\CurrentCertificateInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d20d1527-702b-4d1d-bacd-3d22a302331f}</SharePointProjectItemId>
+    </None>
+    <None Include="CertificateModule\CurrentCertificate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{31895406-2bdb-4d2f-b2e4-21d046a7562e}</SharePointProjectItemId>
+    </None>
+    <None Include="CertificateModule\NewCertificate\NewCertificateInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6444061c-5f03-442b-ae2f-3775d1bba2ce}</SharePointProjectItemId>
+    </None>
+    <None Include="CertificateModule\NewCertificate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6bc5c9e8-5dab-4b8c-b03d-a9cd478d99f3}</SharePointProjectItemId>
+    </None>
+    <None Include="ChangeShiftModule\ChangeShiftManagement\ChangeShiftManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ca89101f-aed6-4399-853b-9decf05c661b}</SharePointProjectItemId>
+    </None>
+    <None Include="ChangeShiftModule\ChangeShiftManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{30c53b6f-b83a-4179-8456-af348550f7e1}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowEmailTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1ab3510c-95cc-4fb2-b60b-931d6cd26bdc}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowEmailTemplates\WorkflowEmailTemplatesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0d8b2838-ff44-402e-8100-513f541b4364}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowHistory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{68161199-31eb-4b32-ace5-3d773e4837a2}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowHistory\WorkflowHistoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{997ca145-40cc-4632-ad16-c5f559ecf21c}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowSteps\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ab18e695-3775-4667-9386-6f527d8f4a29}</SharePointProjectItemId>
+    </None>
+    <None Include="Common\WorkflowSteps\WorkflowStepsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1779f6dd-994e-4640-bb6c-058165f6d9dc}</SharePointProjectItemId>
+    </None>
+    <None Include="Configurations\Configurations\ConfigurationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b71eb243-cbd2-4f6e-95a1-01daf48cda79}</SharePointProjectItemId>
+    </None>
+    <None Include="Configurations\Configurations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c590aa91-1b34-441a-b504-49bf6dea69a4}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationEmployeePositions\DelegationEmployeePositionsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b9964688-f4d8-40d5-800b-bbe6f01bd97e}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationEmployeePositions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3dccc467-6071-4275-b2b5-b4266c0e19cf}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationModules\DelegationModulesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{14c868a6-e661-49a1-9d0c-73ee091a7c23}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationModules\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7f4e01e4-ad16-441c-bd71-bd5b19353e9c}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationsOfNewTask\DelegationsOfNewTaskInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b84f3bbc-4818-46e7-aaef-f4d8613865b2}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\DelegationsOfNewTask\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f480a31a-8885-4a8e-8093-83c8b8863af0}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\Delegations\DelegationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{645624da-77e6-4fac-9506-24475feed37b}</SharePointProjectItemId>
+    </None>
+    <None Include="DelegationModule\Delegations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dca0fd0f-7189-497a-93e6-006407d5ddfb}</SharePointProjectItemId>
+    </None>
+    <None Include="DepartmentSiteLists\DepartmentTask\DepartmentTaskInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1580d5e9-9143-4a44-8d9a-981dc97acb5e}</SharePointProjectItemId>
+    </None>
+    <None Include="DepartmentSiteLists\DepartmentTask\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9b66a16b-33e8-4d62-833e-dbe419e353d2}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfExportingModule\DossierReference\DossierReferenceInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a787ee2f-0ab0-4386-a146-cba482521804}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfExportingModule\DossierReference\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9be61e50-6859-4e1e-bdc0-720060781384}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfExportingModule\ExportingDossierManagement\ExportingDossierManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{24196ddb-efc1-4530-a6f8-a09276cdab41}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfExportingModule\ExportingDossierManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9a199670-96b5-486e-8c41-7a8b46f16c13}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Documents\Documents.feature">
+      <FeatureId>{a656db57-db9f-40ba-b0b9-ec8d31a092fd}</FeatureId>
+    </None>
+    <None Include="Features\SupportingDocuments\SupportingDocuments.feature">
+      <FeatureId>{d1158145-aa6a-4feb-a39f-900054acd2f2}</FeatureId>
+    </None>
+    <None Include="FreightModule\FreightReceiverDepartment\FreightReceiverDepartmentInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{effcd4a5-f69a-4d4a-82dc-bf0ff7a22109}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightReceiverDepartment\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8f042429-08a8-486e-b6a5-97f217f8ac7f}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightVehicle\FreightVehicleInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{399fdaf6-c87f-4219-a4dc-227c2ab79ee0}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightVehicle\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5354512e-36f1-4c7a-900e-475dd8b3a558}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyAnnouncements\DepartmentAnnouncement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2800c0d1-14f0-4019-a044-7c4e2fbefd0a}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyCalendar\CompanyCalendar2Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{31e5f274-2520-4517-9f36-38965354a67b}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyCalendar\DepartmentCalendar\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bba01572-a35f-499e-90b9-ad182c87a4a0}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyDiscussion\CompanyDiscussionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{74557699-ba20-4789-8271-ae336cf83747}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyDiscussion\DepartmentDiscussion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c1b7c704-82e2-47ec-86f9-9f4e29e754ee}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyDiscussion\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7cc9907d-b932-403a-9e9f-74f735523ae1}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\Documents\DepartmentDocument\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e3ea0c22-4a20-4235-a12c-c2506931306f}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\Documents\FormsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{46ce24c6-a6a2-4842-83ab-4cdf9308820b}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\SupportingDocuments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2446262a-d306-4238-bf1f-230e8a2f6958}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\SupportingDocuments\SupportingDocumentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d8c7668f-b7c4-4031-990d-9e0031333e6c}</SharePointProjectItemId>
+    </None>
+    <None Include="MailModule\MailTemplate\MailTemplateListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63ebeabd-4a3f-4424-bfc3-a940dab88699}</SharePointProjectItemId>
+    </None>
+    <None Include="MailModule\MailTemplate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aa008432-af3d-4380-b896-e647451530d2}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\Equipments\EquipmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ccb88837-f7be-42c8-82eb-8f20bfd85b0c}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\Equipments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{65cc59d1-8115-4574-b74e-fbed8e947891}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\MeetingRooms\MeetingRoomsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c80543ef-095f-4240-9d2c-bf14d2f85888}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\MeetingRooms\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c402c8c9-ae8b-476a-8b1c-062973d0f206}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\RequisitionOfMeetingRoom\RequisitionOfMeetingRoomInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d82df498-c83e-4b35-8881-ee82b518302c}</SharePointProjectItemId>
+    </None>
+    <None Include="MeetingRoomModule\RequisitionOfMeetingRoom\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{925531c8-3df8-4448-bccf-e245a9e263c4}</SharePointProjectItemId>
+    </None>
+    <None Include="NonconformingReportModule\NonConfirmingReportManagement\NonConfirmingReportManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ec88a6c2-1238-4fa7-b6d3-651fe5b99249}</SharePointProjectItemId>
+    </None>
+    <None Include="NonconformingReportModule\NonConfirmingReportManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c3facba-5d40-4998-b4eb-5d0f9abc351f}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\AdditionalEmployeePosition\AdditionalEmployeePositionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6bfbc37e-beb0-4c4d-a005-9c9327ad2737}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\AdditionalEmployeePosition\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7d713c76-eea2-40d7-a0f3-5a3b709e6064}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\Departments\DepartmentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a41f0eda-98bc-4fa9-bb0d-65a7d65bb3cd}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\Departments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{394f18a3-a621-49ba-9b61-451a0ba9f5b6}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\EmployeeInfo\EmployeeInfoInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{721d59ac-846e-4eef-8fff-4874887f8c25}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\EmployeeInfo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{132f5566-5b49-48d8-ba2e-fd9678c6aca2}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\EmployeePosition\EmployeePositionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{315679ed-1053-4b7e-adc0-f12ccae9ed43}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\EmployeePosition\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dfda0edf-6331-4e88-babf-593ce7c26fd9}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\Factories\FactoriesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1dacddb5-e777-4267-8159-248cc3952033}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\Factories\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{62de72af-64a1-4a3e-8110-82634aa6d47f}</SharePointProjectItemId>
+    </None>
+    <None Include="DesignModule\DesignerChangeDetails\DesignerChangeDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9f1edb94-9964-4b97-9f8e-fe4908fee6a5}</SharePointProjectItemId>
+    </None>
+    <None Include="DesignModule\DesignerChangeDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cedc52cf-0d9d-4a1d-bbd8-f6616051fe36}</SharePointProjectItemId>
+    </None>
+    <None Include="DesignModule\DesignRequestManagement\DesignRequestManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cedbb53a-a995-4284-99c7-6c02a89e8c50}</SharePointProjectItemId>
+    </None>
+    <None Include="DesignModule\DesignRequestManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9f9ff853-09cd-4dad-845f-ca18f7a34a49}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfDomesticModule\ActiveElementDetails\ActiveElementDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{55caadcc-ae87-401d-a931-5ac36b175bbe}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfDomesticModule\ActiveElementDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b8ec9dc8-c060-4c26-83c4-950e95cdace6}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfDomesticModule\DossierOfDomesticManagement\DossierOfDomesticManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8fb35272-d31a-46b3-9a0a-e7e6f8f19d37}</SharePointProjectItemId>
+    </None>
+    <None Include="DossiersOfDomesticModule\DossierOfDomesticManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c46eaeab-505b-46ae-b0ee-c8719fd3a762}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\FeatureWeb\FeatureWeb.feature">
+      <FeatureId>{822a54fe-d2b5-44f3-a25f-98556a3dc284}</FeatureId>
+    </None>
+    <None Include="FreightModule\FreightDetails\FreightDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{80efc66b-d12b-45ac-89d0-bd7c21e7ceef}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7e974b9f-50ce-4453-911b-eb39ec9020a1}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightManagement\FreightManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e1ce3974-eb11-45d4-8da2-6a2c15d4d4a3}</SharePointProjectItemId>
+    </None>
+    <None Include="FreightModule\FreightManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ca12286b-cf96-401b-a1f1-627e3434b7fa}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyAnnouncements\CompanyAnnouncementsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a762bb75-b6d0-4771-982d-946a806e374f}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyAnnouncements\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3bc66695-bf7c-4622-9be0-8c6f0514baad}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyCalendar\CompanyCalendarInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{07930933-d6cf-46b5-8026-359d9582fb37}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\CompanyCalendar\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bb7d46eb-2700-4497-bf24-bb5ccd86c931}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\Documents\DocumentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a0eaf467-0dc2-4b66-8854-17b18c80f782}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\Documents\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a8baa6ab-2fe2-4f65-abc8-28120355fa83}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\Links\LinksInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8ec0b223-10d8-4662-83bc-d86058c8a0db}</SharePointProjectItemId>
+    </None>
+    <None Include="HomeLists\Links\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bbcb66ed-b73c-4ecc-bf5b-4a0f4fb9c6a1}</SharePointProjectItemId>
+    </None>
+    <None Include="InformationUpdateModule\InformationUpdateManagement\InformationUpdateManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13fc7182-e704-4849-8337-cbc8e892a35f}</SharePointProjectItemId>
+    </None>
+    <None Include="InformationUpdateModule\InformationUpdateManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3e693913-a3fa-421e-a4bf-20c04281728f}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="LeaveModule\LeaveManagement\LeaveManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d69d910b-bff6-4142-ba64-1f37fbb18b44}</SharePointProjectItemId>
+    </None>
+    <None Include="LeaveModule\LeaveManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5e6afc1b-a073-4b4d-b83b-b90a665089e4}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsLists\InternalNews\InternalNewsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{02956375-bcbd-48cd-b55c-581ca34eda3b}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsLists\InternalNews\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{671e8a8f-406f-41cf-ad49-bc6ce72b747d}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsLists\MedicalNews\MedicalNewsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{04a955ec-7e0a-43e4-8fe2-825a1c5907ac}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsLists\MedicalNews\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d781fa50-375f-41b0-acb3-987d30d4d464}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsLists\Pictures\PicturesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{42ba9337-5b70-4ba4-94ef-cb46b1e10be1}</SharePointProjectItemId>
+    </None>
+    <None Include="NewsLists\Pictures\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{172b3379-cead-471a-9d01-9469e1fbc1a2}</SharePointProjectItemId>
+    </None>
+    <None Include="NotOvertimeModule\NotOverTimeManagement\NotOverTimeManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d6a6f61-872d-4617-b52e-3ab2b691f2b9}</SharePointProjectItemId>
+    </None>
+    <None Include="NotOvertimeModule\NotOverTimeManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cf347d70-d6da-4a13-b6cd-4c1b08fd0913}</SharePointProjectItemId>
+    </None>
+    <None Include="OvertimeModule\OvertimeEmployeeDetails\OvertimeEmployeeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a6246292-8b28-40d4-9463-939c8127d838}</SharePointProjectItemId>
+    </None>
+    <None Include="OvertimeModule\OvertimeEmployeeDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9d09c663-4505-473d-a6c0-2a87305ecc7c}</SharePointProjectItemId>
+    </None>
+    <None Include="OvertimeModule\OvertimeManagement\OvertimeManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8f0d1cf3-9b3e-451a-9e68-a7cde7d7d79b}</SharePointProjectItemId>
+    </None>
+    <None Include="OvertimeModule\OvertimeManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{99ec0901-200b-40f7-9292-6341e8fe8cb3}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{b72341a4-b40c-454f-8c39-35b4b653553d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrganizationModule\Relations\RelationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{85075f41-9bab-429a-abdd-76e2b7e1b7c3}</SharePointProjectItemId>
+    </None>
+    <None Include="OrganizationModule\Relations\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ead56a48-d1c4-44bd-acb4-a65e8ac64fbe}</SharePointProjectItemId>
+    </None>
+    <None Include="Permission\Groups\GroupsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d4b65a54-c5db-4c5d-9f4e-e4994cc95882}</SharePointProjectItemId>
+    </None>
+    <None Include="Permission\Groups\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebfbf804-00c3-484a-88c7-7f5a35b00450}</SharePointProjectItemId>
+    </None>
+    <None Include="Permission\ModuleCategory\ModuleCategoryInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2baa7eb4-1795-4754-9c81-e818ad3bfd2c}</SharePointProjectItemId>
+    </None>
+    <None Include="Permission\ModuleCategory\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{987c9131-8ffb-4cc3-9083-b723678f50bb}</SharePointProjectItemId>
+    </None>
+    <None Include="Permission\PermissionGroup\PermissionGroupInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f56a9d87-3682-4f60-a582-d0f4aa0ac943}</SharePointProjectItemId>
+    </None>
+    <None Include="Permission\PermissionGroup\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1f0ad5a3-22c3-4e13-a44a-14fbff5cfb9a}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\EmployeeRequirementSheets\EmployeeRequirementSheetsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1845fb6e-cee2-45eb-8ebb-01ddfb4f6f71}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\EmployeeRequirementSheets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ad9394b6-a21b-457b-b316-51af89ab9dcb}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\ForeignLanguageLevels\ForeignLanguageLevelsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a41a3c41-905c-4e8c-930d-077658ffb14d}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\ForeignLanguageLevels\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{67760dde-d0a3-454f-8eed-c62ccd3f3f2d}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\ForeignLanguages\ForeignLanguagesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebdd1c2f-b7f9-4e45-adef-3daf41158b3f}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\ForeignLanguages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4a4b5472-4a1c-45a9-bdcd-cf070063c271}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\RecruitmentLanguageSkills\RecruitmentLanguageSkillsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c3dbdafd-6247-4ac2-8648-cf71e2380b96}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\RecruitmentLanguageSkills\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cf42910b-b604-4fb7-8cd2-2f83b74f0c72}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\RecruitmentTeam\RecruitmentTeamInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9b2c1a6-0299-4943-94ac-a2b0eb9b3098}</SharePointProjectItemId>
+    </None>
+    <None Include="RecruitmentModule\RecruitmentTeam\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f1c2a016-7414-4d97-9240-08c4477b7624}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestDiplomaModule\RequestDiplomaDetails\RequestDiplomaDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d3675f3-308a-4e9d-ae0d-8ec1ad47b95f}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestDiplomaModule\RequestDiplomaDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7274ea97-64d4-47ac-a445-56bea4be9522}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestDiplomaModule\RequestForDiplomaSupplies\RequestForDiplomaSuppliesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f9f59fe7-a58f-48b4-af19-b980a5b573f2}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestDiplomaModule\RequestForDiplomaSupplies\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{828cd7d3-6a47-4a88-8db6-f40e819903e4}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestBuyDetails\RequestBuyDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{38339d8d-e030-48db-a93e-6e4b8ebe63a2}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestBuyDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{297ac459-bdc7-440b-94c1-a0ec945be5cf}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestOtherDetails\RequestOtherDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{34718403-574d-4df1-9ca2-124260060c14}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestOtherDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{461fe387-5a2d-47e5-b21f-03ae01e07786}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestReceivedDepartmentViewers\RequestReceivedDepartmentViewersInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a4f082f5-a14c-4669-bd18-65631999dd89}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestReceivedDepartmentViewers\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b543b63d-e1fa-40fc-b730-b9c9e370129e}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestRepairDetails\RequestRepairDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7ccb8ba9-8d48-457a-993b-baacddaebd01}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestRepairDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61dda2f0-843a-4f45-8cf6-58e0b9791392}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\Requests\RequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{55ed4c66-bd60-40b5-90e0-d5b4f6cce4e2}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\Requests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d5851496-e5dd-434c-b49b-3ccc409a30ba}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestTypes\RequestTypesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bf494f81-4858-4ea1-81e1-b538b6fde771}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestModule\RequestTypes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e61494bf-67d5-472a-b0b1-3af6aa425d50}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\FactoryEntrance\FactoryEntranceInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7f1beed5-87f2-4ba4-9148-c9807996a770}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\FactoryEntrance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2cfbec16-c06a-472b-b4f7-63c6e4c67bad}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\Gender\GenderInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9a863be4-3036-4c02-a665-8e084e22f4df}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\Gender\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{49373373-89f7-442b-8b0d-73baa4fda562}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestInformation\GuestInformationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c83c4ea8-bcaf-4fe9-bfa7-0cccaf70bb5f}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestInformation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d2775ef1-5161-4045-a0f8-e16f7e79cf5a}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestLevel\GuestLevelInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{225a0a8c-ada4-4cd6-b524-a5a26bdcc9e2}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestLevel\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7e2e41ec-54de-4750-ad34-2d1c2e854ea4}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestPickupCar\GuestPickupCarInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9a08d672-9bdb-491a-adff-b7c518111a75}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestPickupCar\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{84117b3e-f20b-4bd1-a558-318f4a93049a}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestReceptionManagement\GuestReceptionManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2353192a-01fa-4236-b18d-9b7b4223625f}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\GuestReceptionManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8e95da80-15cd-45bd-9f57-a898fe88ba6b}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\HotelRoomType\HotelRoomTypeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bd0841d5-b393-4153-9306-7c6c657ab458}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\HotelRoomType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3cdca426-6945-47ec-9553-ad6e1775e157}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\LunchServiceLocation\LunchServiceLocationInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f954b3c5-235a-41a1-a05b-ef99d5c57962}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\LunchServiceLocation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{acd4d690-a46c-4645-bbee-b1c1661345bd}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\MeetingRoomStuff\MeetingRoomStuffInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{366ff458-734d-4e34-af27-2dcac08d1951}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\MeetingRoomStuff\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6cfdcad3-2ed1-4f61-b9e4-d2131e7c062e}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\Nationality\NationalityInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a24e94f9-492d-491a-ad8e-3364be0ea8fc}</SharePointProjectItemId>
+    </None>
+    <None Include="RequirementForGuestReceptionModule\Nationality\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{542daf3d-e23a-4ef9-9a7b-adbf16f3c8e7}</SharePointProjectItemId>
+    </None>
+    <None Include="RequistionOfDocumentsModule\DocumentDetails\DocumentDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{922c31ca-5a84-4ba3-9ca6-003e4a6440b7}</SharePointProjectItemId>
+    </None>
+    <None Include="RequistionOfDocumentsModule\DocumentDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3621f391-ae30-4848-a3be-660ae55fe581}</SharePointProjectItemId>
+    </None>
+    <None Include="RequistionOfDocumentsModule\DocumentSupplement\DocumentSupplementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebba1f98-4e96-4913-84d8-80f4a9e7d3ff}</SharePointProjectItemId>
+    </None>
+    <None Include="RequistionOfDocumentsModule\DocumentSupplement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{df13d773-a598-4e86-b37f-ceb13500b052}</SharePointProjectItemId>
+    </None>
+    <None Include="RequistionOfDocumentsModule\RequisitionForms\RequisitionFormsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c414b58d-c0ca-41fb-ae62-afad8a153958}</SharePointProjectItemId>
+    </None>
+    <None Include="RequistionOfDocumentsModule\RequisitionForms\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{edcdb46a-fe2c-4471-9bdf-de933f3f512f}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\EmployeeShiftTime\EmployeeShiftTimeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1ddd0a63-0725-4ccb-b991-70e85fe32066}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\EmployeeShiftTime\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba384380-394f-4e20-bdb2-ca79bf262ea0}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftManagementDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9788c271-a642-4910-92a7-0543c5605daa}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftManagementDetail\ShiftManagementDetailInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ba62cba5-3c00-4665-8b41-a1e9213f393c}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8d29c0ef-829b-48f0-b262-41ec82880589}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftManagement\ShiftManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{603a2841-ce12-4c1b-96e7-f3253ec85e64}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftTime\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6c1aea9b-e4d4-47fd-8931-7776b49c5083}</SharePointProjectItemId>
+    </None>
+    <None Include="ShiftModule\ShiftTime\ShiftTimeInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{34c36b44-974f-4c1f-9e90-eb4324b8698b}</SharePointProjectItemId>
+    </None>
+    <None Include="StationaryModule\StationaryDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4712263c-5ba7-45c5-bb5f-241fafb52460}</SharePointProjectItemId>
+    </None>
+    <None Include="StationaryModule\StationaryDetails\StationaryDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{56250ab6-10a1-4d75-813c-a102d7546358}</SharePointProjectItemId>
+    </None>
+    <None Include="StationaryModule\StationaryManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{da4541f5-e7de-45b6-8fb7-c260f5d909fc}</SharePointProjectItemId>
+    </None>
+    <None Include="StationaryModule\StationaryManagement\StationaryManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b204c0ae-c12e-4c5b-b345-ea085debe066}</SharePointProjectItemId>
+    </None>
+    <None Include="SupplierMeetingModule\SupplierMeetingDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4bf8945-f830-4218-901b-9a826c70ab2f}</SharePointProjectItemId>
+    </None>
+    <None Include="SupplierMeetingModule\SupplierMeetingDetails\SupplierMeetingDetailsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{041ea4ee-569d-4f8d-9107-0afe85fdc064}</SharePointProjectItemId>
+    </None>
+    <None Include="SupplierMeetingModule\SupplierMeetingManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9c903d2e-3733-4991-a0ed-91b6dbca0429}</SharePointProjectItemId>
+    </None>
+    <None Include="SupplierMeetingModule\SupplierMeetingManagement\SupplierMeetingManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{39f6a82c-5073-4476-8b3f-8278d168332e}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskListModule\StepList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{efb2ec07-91fa-444d-a8be-0a52c38383ab}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskListModule\StepList\StepListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9d7f58f-3973-4b6d-84a8-5a8189d9b73b}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskListModule\TaskList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{18e43fc0-b0c9-43b4-afac-72a1685109d2}</SharePointProjectItemId>
+    </None>
+    <None Include="TaskListModule\TaskList\TaskListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{36b6a71d-49fc-4104-b02f-f4aa738733e1}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationModule\CompanyVehicles\CompanyVehiclesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{321129ba-439f-488b-ad67-13a929c731dd}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationModule\CompanyVehicles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{75667b3d-4ce1-404c-92cf-000da892ba0a}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationModule\VehicleManagement\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e3e3d44c-6529-458e-87e2-bb6bbfd16b0d}</SharePointProjectItemId>
+    </None>
+    <None Include="TransportationModule\VehicleManagement\VehicleManagementInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3179b2df-7512-4330-8dac-ad054b074fe5}</SharePointProjectItemId>
+    </None>
+    <None Include="WorkflowsLists\WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4ee46606-e4fe-43ea-8b56-3526099d7665}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BusinessTripModule\BusinessTripEmployeeDetails\BusinessTripEmployeeDetailsInstance\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripEmployeeDetails\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripEmployeeDetails\Schema.xml" />
+    <Content Include="Common\WorkflowEmailTemplates\Elements.xml" />
+    <Content Include="Common\WorkflowEmailTemplates\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Common\WorkflowEmailTemplates\WorkflowEmailTemplatesInstance\Elements.xml" />
+    <Content Include="Common\WorkflowHistory\Elements.xml" />
+    <Content Include="Common\WorkflowHistory\Schema.xml" />
+    <Content Include="Common\WorkflowHistory\WorkflowHistoryInstance\Elements.xml" />
+    <Content Include="Common\WorkflowSteps\Elements.xml" />
+    <Content Include="Common\WorkflowSteps\Schema.xml" />
+    <Content Include="Common\WorkflowSteps\WorkflowStepsInstance\Elements.xml" />
+    <Content Include="Configurations\Configurations\ConfigurationsInstance\Elements.xml" />
+    <Content Include="Configurations\Configurations\Elements.xml" />
+    <Content Include="Configurations\Configurations\Schema.xml" />
+    <Content Include="DelegationModule\DelegationEmployeePositions\DelegationEmployeePositionsInstance\Elements.xml" />
+    <Content Include="DelegationModule\DelegationEmployeePositions\Elements.xml" />
+    <Content Include="DelegationModule\DelegationEmployeePositions\Schema.xml" />
+    <Content Include="DelegationModule\DelegationModules\DelegationModulesInstance\Elements.xml" />
+    <Content Include="DelegationModule\DelegationModules\Elements.xml" />
+    <Content Include="DelegationModule\DelegationModules\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DelegationModule\DelegationsOfNewTask\DelegationsOfNewTaskInstance\Elements.xml" />
+    <Content Include="DelegationModule\DelegationsOfNewTask\Elements.xml" />
+    <Content Include="DelegationModule\DelegationsOfNewTask\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DelegationModule\Delegations\DelegationsInstance\Elements.xml" />
+    <Content Include="DelegationModule\Delegations\Elements.xml" />
+    <Content Include="DelegationModule\Delegations\Schema.xml" />
+    <Content Include="DepartmentSiteLists\DepartmentTask\DepartmentTaskInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DepartmentSiteLists\DepartmentTask\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DepartmentSiteLists\DepartmentTask\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="DossiersOfExportingModule\DossierReference\DossierReferenceInstance\Elements.xml" />
+    <Content Include="DossiersOfExportingModule\DossierReference\Elements.xml" />
+    <Content Include="DossiersOfExportingModule\DossierReference\Schema.xml" />
+    <Content Include="DossiersOfExportingModule\ExportingDossierManagement\Elements.xml" />
+    <Content Include="DossiersOfExportingModule\ExportingDossierManagement\ExportingDossierManagementInstance\Elements.xml" />
+    <Content Include="DossiersOfExportingModule\ExportingDossierManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\SupportingDocuments\SupportingDocuments.Template.xml">
+      <DependentUpon>SupportingDocuments.feature</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BusinessTripModule\BusinessTripManagement\BusinessTripManagementInstance\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripManagement\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="BusinessTripModule\BusinessTripSchedule\BusinessTripScheduleInstance\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripSchedule\Elements.xml" />
+    <Content Include="BusinessTripModule\BusinessTripSchedule\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="CertificateModule\CertificateManagement\CertificateManagementInstance\Elements.xml" />
+    <Content Include="CertificateModule\CertificateManagement\Elements.xml" />
+    <Content Include="CertificateModule\CertificateManagement\Schema.xml" />
+    <Content Include="CertificateModule\CurrentCertificate\CurrentCertificateInstance\Elements.xml" />
+    <Content Include="CertificateModule\CurrentCertificate\Elements.xml" />
+    <Content Include="CertificateModule\CurrentCertificate\Schema.xml" />
+    <Content Include="CertificateModule\NewCertificate\Elements.xml" />
+    <Content Include="CertificateModule\NewCertificate\NewCertificateInstance\Elements.xml" />
+    <Content Include="CertificateModule\NewCertificate\Schema.xml" />
+    <Content Include="ChangeShiftModule\ChangeShiftManagement\ChangeShiftManagementInstance\Elements.xml" />
+    <Content Include="ChangeShiftModule\ChangeShiftManagement\Elements.xml" />
+    <Content Include="ChangeShiftModule\ChangeShiftManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Documents\Documents.Template.xml">
+      <DependentUpon>Documents.feature</DependentUpon>
+    </Content>
+    <Content Include="FreightModule\FreightReceiverDepartment\Elements.xml" />
+    <Content Include="FreightModule\FreightReceiverDepartment\FreightReceiverDepartmentInstance\Elements.xml" />
+    <Content Include="FreightModule\FreightReceiverDepartment\Schema.xml" />
+    <Content Include="FreightModule\FreightVehicle\Elements.xml" />
+    <Content Include="FreightModule\FreightVehicle\FreightVehicleInstance\Elements.xml" />
+    <Content Include="FreightModule\FreightVehicle\Schema.xml" />
+    <Content Include="HomeLists\CompanyAnnouncements\DepartmentAnnouncement\Elements.xml" />
+    <Content Include="HomeLists\CompanyCalendar\CompanyCalendar2Instance\Elements.xml" />
+    <Content Include="HomeLists\CompanyCalendar\DepartmentCalendar\Elements.xml" />
+    <Content Include="HomeLists\CompanyDiscussion\CompanyDiscussionInstance\Elements.xml" />
+    <Content Include="HomeLists\CompanyDiscussion\DepartmentDiscussion\Elements.xml" />
+    <Content Include="HomeLists\CompanyDiscussion\Elements.xml" />
+    <Content Include="HomeLists\CompanyDiscussion\Schema.xml" />
+    <Content Include="HomeLists\Documents\DepartmentDocument\Elements.xml" />
+    <Content Include="HomeLists\Documents\FormsInstance\Elements.xml" />
+    <Content Include="HomeLists\SupportingDocuments\EditDlg.htm" />
+    <Content Include="HomeLists\SupportingDocuments\Elements.xml" />
+    <Content Include="HomeLists\SupportingDocuments\FileDlg.htm" />
+    <Content Include="HomeLists\SupportingDocuments\Repair.aspx" />
+    <Content Include="HomeLists\SupportingDocuments\Schema.xml" />
+    <Content Include="HomeLists\SupportingDocuments\SupportingDocumentsInstance\Elements.xml" />
+    <Content Include="HomeLists\SupportingDocuments\Upload.aspx" />
+    <Content Include="MailModule\MailTemplate\Elements.xml" />
+    <Content Include="MailModule\MailTemplate\MailTemplateListInstance\Elements.xml" />
+    <Content Include="MailModule\MailTemplate\Schema.xml" />
+    <Content Include="MeetingRoomModule\Equipments\Elements.xml" />
+    <Content Include="MeetingRoomModule\Equipments\EquipmentsInstance\Elements.xml" />
+    <Content Include="MeetingRoomModule\Equipments\Schema.xml" />
+    <Content Include="MeetingRoomModule\MeetingRooms\Elements.xml" />
+    <Content Include="MeetingRoomModule\MeetingRooms\MeetingRoomsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MeetingRoomModule\MeetingRooms\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MeetingRoomModule\RequisitionOfMeetingRoom\Elements.xml" />
+    <Content Include="MeetingRoomModule\RequisitionOfMeetingRoom\RequisitionOfMeetingRoomInstance\Elements.xml" />
+    <Content Include="MeetingRoomModule\RequisitionOfMeetingRoom\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="NonconformingReportModule\NonConfirmingReportManagement\Elements.xml" />
+    <Content Include="NonconformingReportModule\NonConfirmingReportManagement\NonConfirmingReportManagementInstance\Elements.xml" />
+    <Content Include="NonconformingReportModule\NonConfirmingReportManagement\Schema.xml" />
+    <Content Include="OrganizationModule\AdditionalEmployeePosition\AdditionalEmployeePositionInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\AdditionalEmployeePosition\Elements.xml" />
+    <Content Include="OrganizationModule\AdditionalEmployeePosition\Schema.xml" />
+    <Content Include="OrganizationModule\Departments\DepartmentsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\Departments\Elements.xml" />
+    <Content Include="OrganizationModule\Departments\Schema.xml" />
+    <Content Include="OrganizationModule\EmployeeInfo\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\EmployeeInfo\EmployeeInfoInstance\Elements.xml" />
+    <Content Include="OrganizationModule\EmployeeInfo\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\EmployeePosition\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\EmployeePosition\EmployeePositionInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\EmployeePosition\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\Factories\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\Factories\FactoriesInstance\Elements.xml" />
+    <Content Include="OrganizationModule\Factories\Schema.xml" />
+    <Content Include="DesignModule\DesignerChangeDetails\DesignerChangeDetailsInstance\Elements.xml" />
+    <Content Include="DesignModule\DesignerChangeDetails\Elements.xml" />
+    <Content Include="DesignModule\DesignerChangeDetails\Schema.xml" />
+    <Content Include="DesignModule\DesignRequestManagement\DesignRequestManagementInstance\Elements.xml" />
+    <Content Include="DesignModule\DesignRequestManagement\Elements.xml" />
+    <Content Include="DesignModule\DesignRequestManagement\Schema.xml" />
+    <Content Include="DossiersOfDomesticModule\ActiveElementDetails\ActiveElementDetailsInstance\Elements.xml" />
+    <Content Include="DossiersOfDomesticModule\ActiveElementDetails\Elements.xml" />
+    <Content Include="DossiersOfDomesticModule\ActiveElementDetails\Schema.xml" />
+    <Content Include="DossiersOfDomesticModule\DossierOfDomesticManagement\DossierOfDomesticManagementInstance\Elements.xml" />
+    <Content Include="DossiersOfDomesticModule\DossierOfDomesticManagement\Elements.xml" />
+    <Content Include="DossiersOfDomesticModule\DossierOfDomesticManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\FeatureWeb\FeatureWeb.Template.xml">
+      <DependentUpon>FeatureWeb.feature</DependentUpon>
+    </Content>
+    <Content Include="FreightModule\FreightDetails\Elements.xml" />
+    <Content Include="FreightModule\FreightDetails\FreightDetailsInstance\Elements.xml" />
+    <Content Include="FreightModule\FreightDetails\Schema.xml" />
+    <Content Include="FreightModule\FreightManagement\Elements.xml" />
+    <Content Include="FreightModule\FreightManagement\FreightManagementInstance\Elements.xml" />
+    <Content Include="FreightModule\FreightManagement\Schema.xml" />
+    <Content Include="HomeLists\CompanyAnnouncements\CompanyAnnouncementsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\CompanyAnnouncements\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\CompanyAnnouncements\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\CompanyCalendar\CompanyCalendarInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\CompanyCalendar\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\CompanyCalendar\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\Documents\DocumentsInstance\Elements.xml" />
+    <Content Include="HomeLists\Documents\EditDlg.htm" />
+    <Content Include="HomeLists\Documents\Elements.xml" />
+    <Content Include="HomeLists\Documents\FileDlg.htm" />
+    <Content Include="HomeLists\Documents\Repair.aspx" />
+    <Content Include="HomeLists\Documents\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="HomeLists\Documents\Upload.aspx" />
+    <Content Include="HomeLists\Links\Elements.xml" />
+    <Content Include="HomeLists\Links\LinksInstance\Elements.xml" />
+    <Content Include="HomeLists\Links\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="InformationUpdateModule\InformationUpdateManagement\Elements.xml" />
+    <Content Include="InformationUpdateModule\InformationUpdateManagement\InformationUpdateManagementInstance\Elements.xml" />
+    <Content Include="InformationUpdateModule\InformationUpdateManagement\Schema.xml" />
+    <Content Include="LeaveModule\LeaveManagement\Elements.xml" />
+    <Content Include="LeaveModule\LeaveManagement\LeaveManagementInstance\Elements.xml" />
+    <Content Include="LeaveModule\LeaveManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OrganizationModule\Relations\Elements.xml" />
+    <Content Include="OrganizationModule\Relations\RelationsInstance\Elements.xml" />
+    <Content Include="OrganizationModule\Relations\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="NewsLists\InternalNews\Elements.xml" />
+    <Content Include="NewsLists\InternalNews\InternalNewsInstance\Elements.xml" />
+    <Content Include="NewsLists\InternalNews\Schema.xml" />
+    <Content Include="NewsLists\MedicalNews\Elements.xml" />
+    <Content Include="NewsLists\MedicalNews\MedicalNewsInstance\Elements.xml" />
+    <Content Include="NewsLists\MedicalNews\Schema.xml" />
+    <Content Include="NewsLists\Pictures\EditDlg.htm" />
+    <Content Include="NewsLists\Pictures\Elements.xml" />
+    <Content Include="NewsLists\Pictures\FileDlg.htm" />
+    <Content Include="NewsLists\Pictures\PicturesInstance\Elements.xml" />
+    <Content Include="NewsLists\Pictures\Repair.aspx" />
+    <Content Include="NewsLists\Pictures\Schema.xml" />
+    <Content Include="NewsLists\Pictures\Upload.aspx" />
+    <Content Include="NotOvertimeModule\NotOverTimeManagement\Elements.xml" />
+    <Content Include="NotOvertimeModule\NotOverTimeManagement\NotOverTimeManagementInstance\Elements.xml" />
+    <Content Include="NotOvertimeModule\NotOverTimeManagement\Schema.xml" />
+    <Content Include="OvertimeModule\OvertimeEmployeeDetails\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OvertimeModule\OvertimeEmployeeDetails\OvertimeEmployeeInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OvertimeModule\OvertimeEmployeeDetails\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OvertimeModule\OvertimeManagement\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OvertimeModule\OvertimeManagement\OvertimeManagementInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="OvertimeModule\OvertimeManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Permission\Groups\Elements.xml" />
+    <Content Include="Permission\Groups\GroupsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Permission\Groups\Schema.xml" />
+    <Content Include="Permission\ModuleCategory\Elements.xml" />
+    <Content Include="Permission\ModuleCategory\ModuleCategoryInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Permission\ModuleCategory\Schema.xml" />
+    <Content Include="Permission\PermissionGroup\Elements.xml" />
+    <Content Include="Permission\PermissionGroup\PermissionGroupInstance\Elements.xml" />
+    <Content Include="Permission\PermissionGroup\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RecruitmentModule\EmployeeRequirementSheets\Elements.xml" />
+    <Content Include="RecruitmentModule\EmployeeRequirementSheets\EmployeeRequirementSheetsInstance\Elements.xml" />
+    <Content Include="RecruitmentModule\EmployeeRequirementSheets\Schema.xml" />
+    <Content Include="RecruitmentModule\ForeignLanguageLevels\Elements.xml" />
+    <Content Include="RecruitmentModule\ForeignLanguageLevels\ForeignLanguageLevelsInstance\Elements.xml" />
+    <Content Include="RecruitmentModule\ForeignLanguageLevels\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RecruitmentModule\ForeignLanguages\Elements.xml" />
+    <Content Include="RecruitmentModule\ForeignLanguages\ForeignLanguagesInstance\Elements.xml" />
+    <Content Include="RecruitmentModule\ForeignLanguages\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RecruitmentModule\RecruitmentLanguageSkills\Elements.xml" />
+    <Content Include="RecruitmentModule\RecruitmentLanguageSkills\RecruitmentLanguageSkillsInstance\Elements.xml" />
+    <Content Include="RecruitmentModule\RecruitmentLanguageSkills\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RecruitmentModule\RecruitmentTeam\Elements.xml" />
+    <Content Include="RecruitmentModule\RecruitmentTeam\RecruitmentTeamInstance\Elements.xml" />
+    <Content Include="RecruitmentModule\RecruitmentTeam\Schema.xml" />
+    <Content Include="RequestDiplomaModule\RequestDiplomaDetails\Elements.xml" />
+    <Content Include="RequestDiplomaModule\RequestDiplomaDetails\RequestDiplomaDetailsInstance\Elements.xml" />
+    <Content Include="RequestDiplomaModule\RequestDiplomaDetails\Schema.xml" />
+    <Content Include="RequestDiplomaModule\RequestForDiplomaSupplies\Elements.xml" />
+    <Content Include="RequestDiplomaModule\RequestForDiplomaSupplies\RequestForDiplomaSuppliesInstance\Elements.xml" />
+    <Content Include="RequestDiplomaModule\RequestForDiplomaSupplies\Schema.xml" />
+    <Content Include="RequestModule\RequestBuyDetails\RequestBuyDetailsInstance\Elements.xml" />
+    <Content Include="RequestModule\RequestBuyDetails\Elements.xml" />
+    <Content Include="RequestModule\RequestBuyDetails\Schema.xml" />
+    <Content Include="RequestModule\RequestOtherDetails\Elements.xml" />
+    <Content Include="RequestModule\RequestOtherDetails\RequestOtherDetailsInstance\Elements.xml" />
+    <Content Include="RequestModule\RequestOtherDetails\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\RequestReceivedDepartmentViewers\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\RequestReceivedDepartmentViewers\RequestReceivedDepartmentViewersInstance\Elements.xml" />
+    <Content Include="RequestModule\RequestReceivedDepartmentViewers\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\RequestRepairDetails\Elements.xml" />
+    <Content Include="RequestModule\RequestRepairDetails\RequestRepairDetailsInstance\Elements.xml" />
+    <Content Include="RequestModule\RequestRepairDetails\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\Requests\Elements.xml" />
+    <Content Include="RequestModule\Requests\RequestsInstance\Elements.xml" />
+    <Content Include="RequestModule\Requests\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestModule\RequestTypes\Elements.xml" />
+    <Content Include="RequestModule\RequestTypes\RequestTypesInstance\Elements.xml" />
+    <Content Include="RequestModule\RequestTypes\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\FactoryEntrance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\FactoryEntrance\FactoryEntranceInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\FactoryEntrance\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\Gender\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\Gender\GenderInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\Gender\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestInformation\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestInformation\GuestInformationInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestInformation\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestLevel\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestLevel\GuestLevelInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestLevel\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestPickupCar\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestPickupCar\GuestPickupCarInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestPickupCar\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestReceptionManagement\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestReceptionManagement\GuestReceptionManagementInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\GuestReceptionManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequirementForGuestReceptionModule\HotelRoomType\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\HotelRoomType\HotelRoomTypeInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\HotelRoomType\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\LunchServiceLocation\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\LunchServiceLocation\LunchServiceLocationInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\LunchServiceLocation\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\MeetingRoomStuff\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\MeetingRoomStuff\MeetingRoomStuffInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\MeetingRoomStuff\Schema.xml" />
+    <Content Include="RequirementForGuestReceptionModule\Nationality\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\Nationality\NationalityInstance\Elements.xml" />
+    <Content Include="RequirementForGuestReceptionModule\Nationality\Schema.xml" />
+    <Content Include="RequistionOfDocumentsModule\DocumentDetails\DocumentDetailsInstance\Elements.xml" />
+    <Content Include="RequistionOfDocumentsModule\DocumentDetails\Elements.xml" />
+    <Content Include="RequistionOfDocumentsModule\DocumentDetails\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequistionOfDocumentsModule\DocumentSupplement\DocumentSupplementInstance\Elements.xml" />
+    <Content Include="RequistionOfDocumentsModule\DocumentSupplement\Elements.xml" />
+    <Content Include="RequistionOfDocumentsModule\DocumentSupplement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequistionOfDocumentsModule\RequisitionForms\Elements.xml" />
+    <Content Include="RequistionOfDocumentsModule\RequisitionForms\RequisitionFormsInstance\Elements.xml" />
+    <Content Include="RequistionOfDocumentsModule\RequisitionForms\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ShiftModule\EmployeeShiftTime\Elements.xml" />
+    <Content Include="ShiftModule\EmployeeShiftTime\EmployeeShiftTimeInstance\Elements.xml" />
+    <Content Include="ShiftModule\EmployeeShiftTime\Schema.xml" />
+    <Content Include="ShiftModule\ShiftManagementDetail\Elements.xml" />
+    <Content Include="ShiftModule\ShiftManagementDetail\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ShiftModule\ShiftManagementDetail\ShiftManagementDetailInstance\Elements.xml" />
+    <Content Include="ShiftModule\ShiftManagement\Elements.xml" />
+    <Content Include="ShiftModule\ShiftManagement\Schema.xml" />
+    <Content Include="ShiftModule\ShiftManagement\ShiftManagementInstance\Elements.xml" />
+    <Content Include="ShiftModule\ShiftTime\Elements.xml" />
+    <Content Include="ShiftModule\ShiftTime\Schema.xml" />
+    <Content Include="ShiftModule\ShiftTime\ShiftTimeInstance\Elements.xml" />
+    <Content Include="StationaryModule\StationaryDetails\Elements.xml" />
+    <Content Include="StationaryModule\StationaryDetails\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="StationaryModule\StationaryDetails\StationaryDetailsInstance\Elements.xml" />
+    <Content Include="StationaryModule\StationaryManagement\Elements.xml" />
+    <Content Include="StationaryModule\StationaryManagement\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="StationaryModule\StationaryManagement\StationaryManagementInstance\Elements.xml" />
+    <Content Include="SupplierMeetingModule\SupplierMeetingDetails\Elements.xml" />
+    <Content Include="SupplierMeetingModule\SupplierMeetingDetails\Schema.xml" />
+    <Content Include="SupplierMeetingModule\SupplierMeetingDetails\SupplierMeetingDetailsInstance\Elements.xml" />
+    <Content Include="SupplierMeetingModule\SupplierMeetingManagement\Elements.xml" />
+    <Content Include="SupplierMeetingModule\SupplierMeetingManagement\Schema.xml" />
+    <Content Include="SupplierMeetingModule\SupplierMeetingManagement\SupplierMeetingManagementInstance\Elements.xml" />
+    <Content Include="TaskListModule\StepList\Elements.xml" />
+    <Content Include="TaskListModule\StepList\Schema.xml" />
+    <Content Include="TaskListModule\StepList\StepListInstance\Elements.xml" />
+    <Content Include="TaskListModule\TaskList\Elements.xml" />
+    <Content Include="TaskListModule\TaskList\Schema.xml" />
+    <Content Include="TaskListModule\TaskList\TaskListInstance\Elements.xml" />
+    <Content Include="TransportationModule\CompanyVehicles\CompanyVehiclesInstance\Elements.xml" />
+    <Content Include="TransportationModule\CompanyVehicles\Elements.xml" />
+    <Content Include="TransportationModule\CompanyVehicles\Schema.xml" />
+    <Content Include="TransportationModule\VehicleManagement\Elements.xml" />
+    <Content Include="TransportationModule\VehicleManagement\Schema.xml" />
+    <Content Include="TransportationModule\VehicleManagement\VehicleManagementInstance\Elements.xml" />
+    <Content Include="WorkflowsLists\WorkflowHistoryList\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

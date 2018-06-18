@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d65baca6-bd66-4ad7-8231-6bb80e97fdb8}"
+       Name="Others"
+       DisplayName="Others"
+       Type="Text"
+       Required="FALSE"
+       Group="StadaColumns">
+  </Field>
+</Elements>

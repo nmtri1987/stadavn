@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{dc7d91d0-9c39-48b7-afde-8326d12f3c09}"
+       Name="TransportTime"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_TransportTime;"
+       Type="DateTime" Format="DateTime"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

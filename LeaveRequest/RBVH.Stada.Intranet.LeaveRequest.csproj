@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EF0289A-EDF2-4403-B9A9-D52DFC8F390A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.LeaveRequest</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.LeaveRequest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ContentTypes\LeaveRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f378d45a-88a3-47f0-a336-55f5875c33d8}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{35b54065-1f8e-4225-9600-d7b0d45d4315}</FeatureId>
+    </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{aa1bec0c-0017-4601-9069-5a427431bffa}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ListInst\LeaveRequests\LeaveRequestsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dede3636-2edb-472b-a09a-44951ae2cfff}</SharePointProjectItemId>
+    </None>
+    <None Include="ListInst\LeaveRequests\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3247096c-5162-4560-bc2d-2c07131b35c0}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{b930716f-7b60-4956-a0c4-04085dae9724}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SiteColumns\Approver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e24a0b3-6a56-42de-8d76-4e93c415a82f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\ApproverComments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aaff6bbd-34b6-4d5a-b847-a2e3434baa2f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\RequestorComments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{931d515b-0c8a-4a25-8b59-12fec67f54c1}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\Requestor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0b1de5a2-94a3-45e2-98d9-26ad4629c61d}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\EndTime\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b6c16337-3d30-4f5a-8d57-eaa0a93e5a33}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\RequestStatus\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e246464d-84bc-483a-8df2-b89390bee826}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteColumns\StartTime\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5a0a0530-6c52-4cba-9062-fc30b8be339c}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflows\WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{efc5b58d-4b58-4f73-b606-9bf74e33b260}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflows\LeaveRequestApproval\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6a29cdf7-aa3b-4777-98f5-65456175ef18}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflows\WorkflowTaskList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f3f9b9de-4168-41b4-b285-977245764cfb}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ContentTypes\LeaveRequest\Elements.xml" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="ListInst\LeaveRequests\Elements.xml" />
+    <Content Include="ListInst\LeaveRequests\LeaveRequestsInstance\Elements.xml" />
+    <Content Include="ListInst\LeaveRequests\Schema.xml" />
+    <Content Include="SiteColumns\Approver\Elements.xml" />
+    <Content Include="SiteColumns\ApproverComments\Elements.xml" />
+    <Content Include="SiteColumns\RequestorComments\Elements.xml" />
+    <Content Include="SiteColumns\Requestor\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SiteColumns\EndTime\Elements.xml" />
+    <Content Include="SiteColumns\RequestStatus\Elements.xml" />
+    <Content Include="SiteColumns\StartTime\Elements.xml" />
+    <Content Include="Workflows\WorkflowHistoryList\Elements.xml" />
+    <Content Include="Workflows\LeaveRequestApproval\Elements.xml" />
+    <Content Include="Workflows\WorkflowTaskList\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Workflows\LeaveRequestApproval\Workflow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

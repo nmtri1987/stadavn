@@ -1,0 +1,20 @@
+﻿CommonName,CommonName1066,Code,DepartmentNo,UpperDepartment,Locations,SortOrder,IsShiftRequestRequired,IsBODApprovalRequired,AdminAd,BODApproverAd,IsVisible,AutoCreateOverTime
+Accounting,Kế Toán,ACC,01,,NM1;NM2,1,True,False,,,True,True
+HR & Administration,Hành Chánh Nhân Sự,HR,02,,NM1;NM2,2,True,False,,,True,True
+Engineering,Kỹ Thuật Bảo Trì,ENG,03,,NM1;NM2,3,True,True,,,True,True
+Import & Export,Xuất Nhập Khẩu,IE,04,,NM2,4,True,False,,,True,True
+IT,Phòng IT,IT,05,,NM2,5,True,False,,,True,True
+Liquid Workshop,Phân Xưởng Nước,LW,06,,NM2,6,True,True,,,True,True
+Planning,Kế Hoạch,PLA,07,,NM1;NM2,7,True,False,,,True,True
+Procurement,Cung Ứng,PROC,08,,NM2,8,True,False,,,True,True
+Quality Assurance,Bảo Đảm Chất Lượng,QA,09,,NM1;NM2,9,True,True,,,True,True
+Quality Control,Kiểm Tra Chất Lượng,QC,10,,NM1;NM2,10,True,True,,,True,True
+Research & Development,Nghiên Cứu Phát Triển,RD,11,,NM2,11,True,False,,,True,True
+Analytical Development,Phát Triển Phân Tích,AD,12,RD,NM2,1,True,False,,,True,True
+Formulation Development,Phát Triển Công Thức,FD,13,RD,NM2,2,True,False,,,True,True
+Regulatory Affairs,Quy Chế,RA,14,RD,NM2,3,True,False,,,True,True
+Solid Workshop,Phân Xưởng Viên,SW,15,,NM2,13,True,True,,,True,True
+Technology Transfer,Chuyển Giao Công Nghệ,TT,16,,NM2,14,True,False,,,True,True
+Warehouse,Kho,WH,17,,NM1;NM2,15,True,False,,,True,True
+HM,HM Vn,HM,18,,NM2,20,True,False,,,False,True
+Assistant,Trợ Lý,AS,19,,NM2,12,True,Fals,,,False,True

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,BusinessTripSchedule_ListTitle;" FolderCreation="FALSE" 
+      Direction="$Resources:Direction;" Url="Lists/BusinessTripSchedule" BaseType="0" 
+      xmlns="http://schemas.microsoft.com/sharepoint/"
+      EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x0100CD7852D4ACE548928DB3C8BEE7C988A1"></ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{32aa394f-0bdb-4abf-8df1-f764077fa634}" Name="BusinessTripManagementID" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_BusinessTripManagementID;" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" Required="FALSE" Type="Lookup" List="Lists/BusinessTripManagement" ShowField="ID"/>
+      <Field ID="{cf5be2dd-4ab0-4a62-a044-cbc1a0f9ca55}" Name="ApprovalStatus" DisplayName="$Resources:RBVHStadaLists,Approval_Status;" FieldRef="{32aa394f-0bdb-4abf-8df1-f764077fa634}" Type="Lookup" List="Lists/BusinessTripManagement" ShowField="ApprovalStatus" Group="Stada Columns" />
+      <Field ID="{9921760c-60c5-4e01-842b-2bf75cb4a084}" Name="DepartDate" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_DepartDateTitle;" Type="DateTime" Required="FALSE" >
+        <Default>[Today]</Default>
+      </Field>
+      <Field ID="{419a5af7-d95f-411f-8350-679211b0bd5b}" Name="FlightName" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_FlightNameTitle;" Type="Text" Required="FALSE"></Field>
+      <Field ID="{db697f82-8d82-4656-883f-e2b8ed8a9459}" Name="City" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_CityTitle;" Type="Text" Required="FALSE"></Field>
+      <Field ID="{5390c12c-d937-4503-be65-72f1eba1a305}" Name="Country" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_CountryTitle;" Type="Text" Required="FALSE"></Field>
+      <Field ID="{880aa160-ca0b-4bbb-8665-78bdb68c5dab}" Name="ContactCompany" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_ContactCompanyTitle;" Type="Note" NumLines="3" Required="TRUE"></Field>
+      <Field ID="{bb7f5e33-74ac-4216-a8c7-a9c9c7aaf420}" Name="ContactPhone" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_ContactPhoneTitle;" Type="Text" Required="FALSE"></Field>
+      <Field ID="{8dc25443-fe16-477e-98bc-0f99cc467a31}" Name="OtherSchedule" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_OtherScheduleTitle;" Type="Note" NumLines="3" Required="FALSE"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="BusinessTripManagementID" />
+          <FieldRef Name="DepartDate" />
+          <FieldRef Name="FlightName" />
+          <FieldRef Name="City" />
+          <FieldRef Name="Country" />
+          <FieldRef Name="ContactCompany" />
+          <FieldRef Name="ContactPhone" />
+          <FieldRef Name="OtherSchedule" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

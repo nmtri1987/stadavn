@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/DossierOfDomesticManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="ProductName" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{59EBB924-6B96-4614-81F3-E431AF797E63}" Name="ProductName" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductNameTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{D95AD8DF-3F22-4219-B839-598584EE9F57}" Name="ActiveElements" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ActiveElementsTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{B3D5DBDC-B452-472D-9215-715FD0D2CF59}" Name="PharmacyForm" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_PharmacyFormTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{257C37B7-73F0-462E-AC6A-E3AC9631D78A}" Name="RegisteredNumber" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_RegisteredNumberTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{58032D0C-A354-439C-B6EA-5AE970456592}" Name="ExpiryDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ExpiryDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{5A3650CB-A4CD-455E-B5DC-750BAB604EF7}" Name="ExtendDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ExtendDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{4F1FD5AC-9688-46E7-8978-C646E2755395}" Name="Category" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_CategoryTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_CategoryRegisterNewTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_CategoryRegisterNewTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_CategoryReRegisterTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_CategoryExtendRegisterTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{0ACA3AAE-6523-4FA7-8BEB-1EB269022281}" Name="ManufacturingLocation" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingLocationTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingLocationBDTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingLocationBDTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingLocationHMTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{93D2BA47-4700-4D3D-881D-48FB4E1B1647}" Name="Settling" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_SettlingTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{3503045E-E269-4837-8247-9B3AC056A9EF}" Name="PackagingPresentations" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_PackagingPresentationsTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{3A5E965F-2AF9-4AE7-9896-B3846C565E69}" Name="LabelExpiryDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_LabelExpiryDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{C98B05E3-0178-4765-A0D4-AD4F717E372A}" Name="LabelSpecification" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_LabelSpecificationTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_LabelSpecificationPrescriptionDrugTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_LabelSpecificationPrescriptionDrugTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_LabelSpecificationNoPrescriptionDrugTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{4F635C00-952C-4E92-9921-E5D1F866CB01}" Name="StorageCondition" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StorageConditionTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_StorageConditionUnder30CTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_StorageConditionUnder30CTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_StorageConditionAvoidLightTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_StorageConditionAvoidMoistureTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{8C42C382-AB39-45D1-9A01-1BD75169F69F}" Name="ManufacturingRANote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingRANoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{BC32BF19-4B1D-4B44-B052-F572E7CEE719}" Name="ManufacturingFDNote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingFDNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{AEBD710E-E123-4AAC-9634-DE6003C92C55}" Name="ManufacturingADNote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingADNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{C282EB9F-E924-45FD-8254-1C562E8002A8}" Name="ManufacturingConclusion" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingConclusionTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{BFE70B2A-CDFE-4710-A0F0-F32B9836DEAD}" Name="ManufacturingTrading"  DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingTradingTitle;" Type="Boolean" />
+      <Field ID="{87AE61D8-F4AB-4471-86A3-2A36FA2C78F1}" Name="PackageSize" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_PackageSizeTitle;" Type="Number" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{BCE99AFA-991C-45EC-A1ED-C4B0D9498298}" Name="PackageNumber" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_PackageNumberTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{ED46FFF5-861D-4FE7-81CD-FFCC0D0AE47B}" Name="ManufacturingOutline" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingOutlineTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{93972E5A-3054-49AC-B9EE-A10E739DFDC0}" Name="ManufacturingReport" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingReportTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{6F3B266D-9B07-40C9-B163-244CFA3AE95D}" Name="MFC" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_MFCTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{7772EEF9-DB5F-4654-A124-45A8B6C89C77}" Name="Edition" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_EditionTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{F1D794D1-CFA3-423F-8DCA-4992C9CEED4D}" Name="EffectiveDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_EffectiveDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{F6870F54-C78B-47F3-AE4B-8CCDAEF2AA8E}" Name="ManufacturingOutlineAB" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingOutlineABTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{2A1AEBBA-76DA-4D2A-BCB9-77B8E079E6C2}" Name="ManufacturingReportAB" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingReportABTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{E9452BF4-1991-4DA3-B09D-AD910D113194}" Name="ManuFacturingExpertise" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManuFacturingExpertiseTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManuFacturingExpertiseOneLotTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManuFacturingExpertiseOneLotTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManuFacturingExpertiseTwoLotTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManuFacturingExpertiseThreeLotTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{D8BA2E30-3AB1-4594-AF20-E2ACEF041A6F}" Name="ManuFacturingExpertiseValues" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManuFacturingExpertiseValuesTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{C0950C16-1BCD-403F-904C-0F50EFCE767E}" Name="ManufacturingOutlinePublishDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingOutlinePublishDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{66ECE22E-BEDD-4281-8B76-C0A2CEE372CF}" Name="ManufacturingReportPublishDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingReportPublishDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{499EFFEA-05C9-4B65-A996-E1297E645CB7}" Name="ManufacturingNote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ManufacturingNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{B41E7476-12D1-4F41-B759-5AD4CB84D668}" Name="ProductStandardRegistered" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardRegisteredTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardRegisteredTCNSXTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardRegisteredTCNSXTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardRegisteredPharmachopeiaTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{8A11F66B-F8C8-468F-9E04-A3D3E0412B82}" Name="ProductStandardRegisteredValues" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardRegisteredValuesTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{7CD1FDB0-AD51-4F89-8534-01940FF671ED}" Name="ProductStandardCurrent" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardCurrentTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardCurrentTCNSXTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardCurrentTCNSXTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardCurrentPharmachopeiaTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{BD15266D-0D51-4016-9E69-3E78891373E4}" Name="ProductStandardCurrentValues" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardCurrentValuesTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{4EE245BB-592B-415D-883F-63183BDEBBD0}" Name="StandardProcessNo" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardProcessNoTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{FDC8E258-DF05-4930-8C6A-9BF4813F9669}" Name="StandardEdition" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardEditionTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{65E54A29-A6C1-409C-A99C-CBCA1181A68E}" Name="StandardEffectiveDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardEffectiveDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{F0F2EFCC-D8BB-4D1E-8BEB-5EC4A9CAA73C}" Name="AnalysisExpertise" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DossierOfDomesticManagement_ProductStandardCurrentTCNSXTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseYesTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseNoTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseQualitativeTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseQuantitativeTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseSolubilityTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseRelatedImpuritiesTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DossierOfDomesticManagement_AnalysisExpertiseContentLevelnessTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{BC479EAE-0786-4F55-94FA-6D7BDAD37676}" Name="StandardNote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{02F18EE4-98FF-4FDF-8947-E67543741571}" Name="StandardRANote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardRANoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{EBC36010-1B71-465F-ADF4-90B2C56E7CF1}" Name="StandardFDNote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardFDNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{F3263D7A-3D11-47CC-87D9-085CA77F53CC}" Name="StandardADNote" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardADNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{B2C0DEB8-D703-4CEA-9DA5-50A8332E5E61}" Name="StandardConclusion" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardConclusionTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{A77A2CFA-E58D-4D14-B3DE-7F627676FF7D}" Name="StandardPackageNo" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardPackageNoTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{C0302979-06C1-45AF-9E40-7DF521696E82}" Name="StandardSource" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardSourceTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{0253DE85-AB5D-4645-8265-45BC085E620F}" Name="StandardCOAOutline" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardCOAOutlineTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{90D7E55E-24F6-4B73-B955-2BB8AB1D8FC9}" Name="StandardCOAProduct" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardCOAProductTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{65F25207-B8EA-4510-B00A-11D93AB3C730}" Name="StandardCOAOutlineNo" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardCOAOutlineNoTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{3AD4FFE0-B5CA-4AAC-95DD-767A3F7875B3}" Name="StandardCOAProductNo" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardCOAProductNoTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{8A570ABF-7757-4A1A-BCEE-05382B7BF0E9}" Name="StandardOtherRequirement" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StandardOtherRequirementTitle;" Type="Text"  Required="FALSE" Group="Stada Columns"/>
+      <Field ID="{CBE5B2BC-3CDF-4BD3-89CD-F41C9B506FF0}" Name="StabilityResearchInformation" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_StabilityResearchInformationTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{711BF32F-27B9-454F-ADFA-875BF572283D}" Name="BEFile" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_BEFileTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{739CE0EE-328E-4A03-B8C5-49B6718C0B81}" Name="Conclusion" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_ConclusionTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{675F0D83-949E-4D0C-BDF4-C273DFC7DF83}" Name="RegistrationDesicion" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_RegistrationDesicionTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{D6379F78-9377-4F27-B839-2028E4ED0F78}" Name="RegistrationDate" DisplayName="$Resources:RBVHStadaLists,DossierOfDomesticManagement_RegistrationDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{04f9da1b-4283-4ad9-a240-6953ab1d8213}" DisplayName="$Resources:RBVHStadaLists,RequestList_StatusOrder" Type="Calculated" ResultType="Number" Name="StatusOrder" Required="FALSE">
+        <Formula>
+          =IF([Workflow status]="Approved","7",IF([Workflow status]="Rejected","8",IF([Workflow status]="Cancelled","9","0")))
+        </Formula>
+      </Field>
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+    </Fields>
+    <Views>
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="ProductName"></FieldRef>
+          <FieldRef Name="ActiveElements"></FieldRef>
+          <FieldRef Name="PharmacyForm"></FieldRef>
+          <FieldRef Name="RegisteredNumber"></FieldRef>
+          <FieldRef Name="ExpiryDate"></FieldRef>
+          <FieldRef Name="ExtendDate"></FieldRef>
+          <FieldRef Name="Category"></FieldRef>
+          <FieldRef Name="ManufacturingLocation"></FieldRef>
+          <FieldRef Name="Settling"></FieldRef>
+          <FieldRef Name="PackagingPresentations"></FieldRef>
+          <FieldRef Name="LabelExpiryDate"></FieldRef>
+          <FieldRef Name="LabelSpecification"></FieldRef>
+          <FieldRef Name="StorageCondition"></FieldRef>
+          <FieldRef Name="ManufacturingRANote"></FieldRef>
+          <FieldRef Name="ManufacturingFDNote"></FieldRef>
+          <FieldRef Name="ManufacturingADNote"></FieldRef>
+          <FieldRef Name="ManufacturingConclusion"></FieldRef>
+          <FieldRef Name="ManufacturingTrading"></FieldRef>
+          <FieldRef Name="PackageSize"></FieldRef>
+          <FieldRef Name="PackageNumber"></FieldRef>
+          <FieldRef Name="ManufacturingOutline"></FieldRef>
+          <FieldRef Name="ManufacturingReport"></FieldRef>
+          <FieldRef Name="MFC"></FieldRef>
+          <FieldRef Name="Edition"></FieldRef>
+          <FieldRef Name="EffectiveDate"></FieldRef>
+          <FieldRef Name="ManufacturingOutlineAB"></FieldRef>
+          <FieldRef Name="ManufacturingReportAB"></FieldRef>
+          <FieldRef Name="ManuFacturingExpertise"></FieldRef>
+          <FieldRef Name="ManuFacturingExpertiseValues"></FieldRef>
+          <FieldRef Name="ManufacturingOutlinePublishDate"></FieldRef>
+          <FieldRef Name="ManufacturingReportPublishDate"></FieldRef>
+          <FieldRef Name="ManufacturingNote"></FieldRef>
+          <FieldRef Name="ProductStandardRegistered"></FieldRef>
+          <FieldRef Name="ProductStandardCurrent"></FieldRef>
+          <FieldRef Name="ProductStandardRegisteredValues"></FieldRef>
+          <FieldRef Name="ProductStandardCurrentValues"></FieldRef>
+          <FieldRef Name="StandardProcessNo"></FieldRef>
+          <FieldRef Name="StandardEdition"></FieldRef>
+          <FieldRef Name="StandardEffectiveDate"></FieldRef>
+          <FieldRef Name="AnalysisExpertise"></FieldRef>
+          <FieldRef Name="StandardNote"></FieldRef>
+          <FieldRef Name="StandardRANote"></FieldRef>
+          <FieldRef Name="StandardFDNote"></FieldRef>
+          <FieldRef Name="StandardADNote"></FieldRef>
+          <FieldRef Name="StandardConclusion"></FieldRef>
+          <FieldRef Name="StandardPackageNo"></FieldRef>
+          <FieldRef Name="StandardSource"></FieldRef>
+          <FieldRef Name="StandardCOAOutline"></FieldRef>
+          <FieldRef Name="StandardCOAProduct"></FieldRef>
+          <FieldRef Name="StandardCOAOutlineNo"></FieldRef>
+          <FieldRef Name="StandardCOAProductNo"></FieldRef>
+          <FieldRef Name="StandardOtherRequirement"></FieldRef>
+          <FieldRef Name="StabilityResearchInformation"></FieldRef>
+          <FieldRef Name="BEFile"></FieldRef>
+          <FieldRef Name="Conclusion"></FieldRef>
+          <FieldRef Name="RegistrationDesicion"></FieldRef>
+          <FieldRef Name="RegistrationDate"></FieldRef>
+
+          <FieldRef Name="Creator"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+          <FieldRef Name="PendingAt"></FieldRef>
+          <FieldRef Name="CurrentStep"></FieldRef>
+          <FieldRef Name="NextStep"></FieldRef>
+          <FieldRef Name="CommonLocation"></FieldRef>
+          <FieldRef Name="CommonDepartment"></FieldRef>
+          <FieldRef Name="IsAdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalNextStep"></FieldRef>
+          <FieldRef Name="AdditionalDepartment"></FieldRef>
+          <FieldRef Name="AssignFrom"></FieldRef>
+          <FieldRef Name="AssignTo"></FieldRef>
+          <FieldRef Name="CommonDueDate"></FieldRef>
+          <FieldRef Name="WFStatus"></FieldRef>
+          <FieldRef Name="StatusOrder"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

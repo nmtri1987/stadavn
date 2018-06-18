@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c1b3d503-d30f-43df-846c-e5ba05bf3652}"
+       Name="HoursPerDay"
+       DisplayName="Hours Per Day"
+       Type="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

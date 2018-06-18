@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cbb507d9-cbcf-4301-8bd3-c51b42c7b3a2}"
+       Name="TotalDays"
+       DisplayName="Total Days"
+       Type="Number"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

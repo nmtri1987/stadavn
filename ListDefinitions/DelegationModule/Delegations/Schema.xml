@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,Delegations_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" 
+      Url="Lists/Delegations" BaseType="0" 
+      xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x01001EE8A30B63C548AD932ADAB1E931FBC0">
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{3b5b317a-20aa-4812-8453-b2f866714b7a}" Name="FromDate" DisplayName="$Resources:RBVHStadaLists,Delegations_FromDate" Type="DateTime" Required="TRUE" Format="DateOnly" Group="Stada Columns"></Field>
+      <Field ID="{cd75252b-9b88-408e-811e-ba61222dc6bb}" Name="ToDate" DisplayName="$Resources:RBVHStadaLists,Delegations_ToDate" Type="DateTime" Required="TRUE" Group="Stada Columns" Format="DateOnly"></Field>
+      <Field ID="{23f40eba-3702-4acf-ac4f-5185a4dfab34}" Name="ModuleName" DisplayName="$Resources:RBVHStadaLists,Delegations_ModuleName" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{cc4bc589-5246-4a05-b746-37b2c6204f45}" Name="VietnameseModuleName" DisplayName="$Resources:RBVHStadaLists,Delegations_VietnameseModuleName" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{c3754d50-b582-45e6-b545-2ce6da2844cd}" Name="FromEmployee" DisplayName="$Resources:RBVHStadaLists,Delegations_FromEmployee" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{69f3ad3c-9af4-4337-b914-3e9c008f6581}" Name="ToEmployee" DisplayName="$Resources:RBVHStadaLists,Delegations_ToEmployee" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" DisplayName="$Resources:RBVHStadaLists,Delegations_Requester" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{e061ee8c-6788-4078-850a-16a339d98142}" Name="Department" DisplayName="$Resources:RBVHStadaLists,Delegations_Department" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}" Name="ListURL" DisplayName="$Resources:RBVHStadaLists,Delegations_ListURL" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{3f06758e-cb12-41c6-a3fc-5d7b3fd597d4}" Name="ListItemApprovalUrl" DisplayName="$Resources:RBVHStadaLists,Delegations_ListItemApprovalUrl" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{58222370-672f-404a-a74b-22ec1318d528}" Name="ListItemID" DisplayName="$Resources:RBVHStadaLists,Delegations_ListItemID" Type="Number" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{74882752-0bc7-469f-93c6-dd2defc9c7d8}" Name="ListItemDescription" DisplayName="$Resources:RBVHStadaLists,Delegations_ListItemDescription" Type="Note" NumLines="6" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{125937bf-0eb5-4b15-ad67-7aa5184b65ac}" Name="ListItemCreatedDate" DisplayName="$Resources:RBVHStadaLists,Delegations_ListItemCreatedDate" Type="DateTime" Required="FALSE" Group="Stada Columns">
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="FromDate"></FieldRef>
+          <FieldRef Name="ToDate"></FieldRef>
+          <FieldRef Name="ModuleName"></FieldRef>
+          <FieldRef Name="VietnameseModuleName"></FieldRef>
+          <FieldRef Name="FromEmployee"></FieldRef>
+          <FieldRef Name="ToEmployee"></FieldRef>
+          <FieldRef Name="Requester"></FieldRef>
+          <FieldRef Name="Department"></FieldRef>
+          <FieldRef Name="ListURL"></FieldRef>
+          <FieldRef Name="ListItemApprovalUrl"></FieldRef>
+          <FieldRef Name="ListItemID"></FieldRef>
+          <FieldRef Name="ListItemDescription"></FieldRef>
+          <FieldRef Name="ListItemCreatedDate"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

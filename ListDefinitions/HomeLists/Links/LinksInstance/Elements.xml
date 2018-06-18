@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,Links_ListTitle;"  OnQuickLaunch="TRUE" TemplateType="103" Url="Lists/Links" Description="$Resources:RBVHStadaLists,ListDescription_Links;">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="URL">~siteCollection/Lists/EmployeeInfo/AllItems.aspx, Employees Management</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

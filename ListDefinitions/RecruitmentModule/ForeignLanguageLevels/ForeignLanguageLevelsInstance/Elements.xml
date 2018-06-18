@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,ForeignLanguageLevels_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="14052"
+                Url="Lists/ForeignLanguageLevels"
+                Description="$Resources:RBVHStadaLists,ForeignLanguageLevels_ListTitle;">
+  </ListInstance>
+</Elements>

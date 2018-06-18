@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{125937bf-0eb5-4b15-ad67-7aa5184b65ac}"
+       Name="ListItemCreatedDate"
+       DisplayName="List Item Created Date"
+       Type="DateTime" Format="DateOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

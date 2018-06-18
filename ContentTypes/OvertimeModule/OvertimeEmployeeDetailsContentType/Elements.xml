@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100102AAB865EC5472A84DC38B2AC703257" Name="Overtime Employee Details" Group="Stada Content Types" Description="Overtime Employee Details Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{878e2996-150c-4e63-b632-ba90dec566a0}" DisplayName="Overtime Management ID" Required="TRUE" Name="OvertimeManagementID" />
+      <FieldRef ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" DisplayName="Employee" Required="TRUE" Name="Employee" />
+      <FieldRef ID="{cc2d235c-8d31-4bfc-a356-640bcb7df5aa}" DisplayName="Working Hours" Required="TRUE" Name="WorkingHours" />
+      <FieldRef ID="{99374c81-f14e-47f6-988f-af45e2e78132}" DisplayName="Overtime From" Required="TRUE" Name="OvertimeFrom" />
+      <FieldRef ID="{e8816b46-3b29-4503-bcde-bf6775b80330}" DisplayName="Overtime To" Required="TRUE" Name="OvertimeTo" />
+      <FieldRef ID="{6de4298b-0c51-4580-b9b9-4f93a9385f8d}" DisplayName="Task" Required="FALSE" Name="Task" />
+      <FieldRef ID="{24c7360a-dd35-4f95-a1a0-c59d55b5113c}" DisplayName="HM" Required="FALSE" Name="HM" />
+      <FieldRef ID="{d7419cee-99f4-4b2e-91b9-957eb6457b22}" DisplayName="KD" Required="FALSE" Name="KD" />
+      <FieldRef ID="{8804e0d8-cd41-4dbd-93eb-45f876f9e94d}" DisplayName="Company Transport" Required="FALSE" Name="CompanyTransport" />
+      <FieldRef ID="{B3525EFE-59B5-4f0f-B1E4-6E26CB6EF6AA}" DisplayName="$Resources:cmscore,column_summarylinks_displayname;" Required="FALSE" Description="$Resources:cmscore,column_summarylinks_description;" Name="SummaryLinks" Sealed="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x01000DB504AA2DDE458D815099D96C9E54F5" Name="Departments" Group="RBVH Content Types"  Inherits="False"   Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{cb87319d-24fb-42cd-a06f-c770e498168b}" Required="TRUE" Name="Code" />
+      <FieldRef ID="{f0733bb5-03a1-4723-9ad5-e587af8c7342}" Required="TRUE" Name="DepartmentNo" />
+      <FieldRef ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Required="TRUE" Name="CommonName" />
+      <FieldRef ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Required="TRUE" Name="CommonName1066" />
+      <FieldRef ID="{03dadd49-fe58-4fe4-b9f4-03834bd5718a}" Required="FALSE" Name="CommonAccounts" />
+      <FieldRef ID="{fc93acaa-59d5-49ef-9ab6-83cd8e4457e5}" Required="FALSE" Name="UpperDepartment" />
+      <FieldRef ID="{12cb5806-d66f-42ee-a98e-f73d80763d68}" Required="FALSE" Name="CommonMultiLocations" />
+      <FieldRef ID="{4eedb0a3-c3e6-4b75-b48e-708430075336}" Required="FALSE" Name="SortOrder" />
+      <FieldRef ID="{f9662550-236d-4021-9336-56c867eab1e3}" Required="TRUE" Name="Administrator" />
+      <FieldRef ID="{c0235d50-0c3e-455e-866d-aa09e34a15ea}" Required="TRUE" Name="BODApprover" />
+      <FieldRef ID="{8aa09b87-7424-4e91-b73e-5515af6dea5f}" Required="TRUE" Name="IsShiftRequestRequired"/>
+      <FieldRef ID="{1961764e-b07b-40fd-afa8-d5e49e39a2fa}" Required="FALSE" Name="IsBODApprovalRequired"/>
+      <FieldRef ID="{306e59d9-3343-4056-9bc2-294e08c75611}" Required="FALSE" Name="IsVisible"/>
+      <FieldRef ID="{4dfb950d-5d49-4c1f-a7bd-678f2094e2d8}" Required="TRUE" Name="AutoCreateOverTime"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

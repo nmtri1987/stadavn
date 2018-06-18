@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,News_InternalNews_ListTitle;" OnQuickLaunch="TRUE" TemplateType="12082"  Url="Lists/InternalNews" Description="$Resources:RBVHStadaLists,ListDescription_InternalNews;">
+  <!--<Data>
+    <Rows>
+      <Row>
+        <Field Name="ID">1</Field>
+        <Field Name="Title">Dấu hiệu sớm ung thư đại trực tràng</Field>
+        <Field Name="NewsShortContent">Nếu có máu trong phân, khó chịu dai dẳng ở ổ bụng, co cứng cơ, chướng bụng, đau hoặc cảm giác ruột trống rỗng hoàn toàn... có thể là dấu hiệu ung thư đại trực tràng.</Field>
+        <Field Name="NewsBody">
+          <![CDATA["Ung thư đại tràng phát hiện sớm có thể điều trị khỏi hoàn toàn", bác sĩ Zee Ying Kiat đến từ Trung tâm Ung thư Parkway, Singapore, cho biết. Nhiều năm kinh nghiệm điều trị bệnh nhân ung thư đến từ nhiều quốc gia khác nhau, bác sĩ Zee ghi nhận hầu hết ung thư đại tràng hoặc trực tràng đều không phát triển nhanh, do vậy rất dễ phát hiện và điều trị sớm hiệu quả.
+              dau-hieu-de-phat-hien-som-ung-thu-dai-truc-trang
+              Polyp hình thành trong lòng ống đại tràng. Ảnh: News.
+              Ung thư đại trực tràng thường bắt đầu lành tính (gọi là polyp). Polyp không phải là u nhưng là một tổn thương có hình dạng giống như một khối u, có cuống hoặc không, do niêm mạc đại tràng và tổ chức dưới niêm mạc tăng sinh tạo thành. Polyp không phải là ung thư nhưng chúng có thể phát triển thành ung thư sau một thời gian dài.
+
+              Hầu hết ung thư đại trực tràng tiến triển từ polyp. Polyp rất phổ biến, cứ 4 người thì có một người bị ít nhất một polyp khi đến tuổi 50. Chỉ một phần nhỏ của polyp phát triển thành ung thư và quá trình này phải mất nhiều năm. Ngoài ra polyp phát triển thành ung thư còn liên quan đến kích thước. Ước tính cứ 6 polyp chiều ngang 1 cm thì có một phát triển thành ung thư trong vòng 10 năm.
+
+              Kiểm tra đại trực tràng thường xuyên là một trong những cách tốt nhất để phòng tránh ung thư. Polyp tiền ung thư thường không biểu hiện triệu chứng, có thể được tìm thấy qua nội soi đại tràng vài năm trước khi ung thư xâm lấn phát triển. Kiểm tra sàng lọc cũng tìm thấy được polyp tiền ung thư và cắt bỏ trước khi nó trở thành ung thư. Đây được xem là cách phòng bệnh cụ thể nhất. 
+
+              Ung thư đại trực tràng ở giai đoạn sớm nhất cũng có thể phát hiện qua kiểm tra. Nhìn chung loại ung thư này có nhiều khả năng chữa khỏi nên việc phát hiện sớm rất quan trọng trước khi nó có cơ hội di căn. Bác sĩ Zee khuyên mọi người tập lối sống lành mạnh có thể giảm nguy cơ phát triển ung thư đại trực tràng. 
+
+              Hơn một nửa số người được chẩn đoán ung thư đại trực tràng đều không có triệu chứng. Đến khi các triệu chứng xuất hiện lại rất khác nhau, phụ thuộc vào kích thước và vị trí khối u. Bác sĩ Zee chỉ ra một số triệu chứng phổ biến của ung thư đại trực tràng là:
+
+              - Thay đổi thói quen ruột: Tiêu chảy hoặc táo bón.
+              - Có máu trong phân. 
+              - Khó chịu dai dẳng ở ổ bụng như co cứng cơ, chướng bụng hoặc đau.
+              - Cảm giác ruột không rỗng hoàn toàn.
+              - Sụt cân không rõ nguyên nhân.
+              ]]>
+        </Field>
+        <Field Name="NewsPriority">3</Field>
+      </Row>
+      
+        <Row>
+        <Field Name="ID">2</Field>
+        <Field Name="Title">10 môn thể thao đốt cháy nhiều calo nhất </Field>
+        <Field Name="NewsShortContent">Trong một giờ, chơi tennis giúp đốt cháy 728 calo còn nhảy dây làm tiêu tan 1.074 calo.</Field>
+        <Field Name="NewsBody">
+          <![CDATA[" Mỗi bài tập lại đốt cháy lượng calo khác nhau. Để giúp cộng đồng hiểu rõ và chọn cách rèn luyện phù hợp, Business Insider đưa ra 10 môn tiêu hao nhiều calo nhất.
+              Đầu tiên là trượt ván, đốt cháy 638 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Bóng rổ: Tiêu hao 728 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Bóng bầu dục giật cờ kiểu Mỹ (Flag football): Đốt cháy 728 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Tennis đơn: Mất 728 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Chạy bộ (vận tốc 8 km/h): Đốt cháy 755 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+              Chạy lên cầu thang: Tiêu thụ 819 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Bơi lội tốc độ cao: Đốt cháy 892 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Taekwondo: Đốt cháy 937 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Nhảy dây: Tiêu hao 1.074 calo một giờ.
+ 
+              10 môn thể thao đốt cháy nhiều calo nhất
+ 
+
+              Chạy bộ (vận tốc 13 km/h): Tiêu thụ 1.074 calo một giờ.
+              ]]>
+        </Field>
+        <Field Name="NewsPriority">3</Field>
+      </Row>
+
+      <Row>
+        <Field Name="ID">3</Field>
+        <Field Name="Title">Bí quyết tập cho cơ bụng 6 múi của chàng trai thể hình chuẩn  </Field>
+        <Field Name="NewsShortContent">Trương Duy nỗ lực tập gym 2 tiếng mỗi ngày, nghỉ ngơi hợp lý để đạt cơ thể cân đối, kiểm soát lượng mỡ cơ thể không quá 12%.</Field>
+        <Field Name="NewsBody">
+          <![CDATA[" Trước khi gắn bó với gym, Duy là một vận động viên Taekwondo và học Đại học Thể dục Thể thao TP HCM. Chàng trai tập gym khi bắt đầu vào đại học, bởi niềm đam mê thể thao từ bé và mong muốn thay đổi vóc dáng. Thời học phổ thông Duy gầy gò với chiều cao 1,7 m nặng 58 kg. Thân hình ít cơ, thiếu săn chắc là động lực để chàng trai sinh năm 1991 nỗ lực tập luyện.
+          Kiên trì tập luyện, bồi bổ, sau 6 tháng Duy cảm nhận cơ thể có những thay đổi đáng kể. Duy tăng 12 kg, từ 58 kg lên 70 kg, thêm 3 cm chiều cao, cơ thể hình thành những múi cơ rõ nét. Những quả ngọt đầu tiên khiến 9x gắn bó với gym, trở thành huấn luyện viên cá nhân và tham gia thi đấu các giải thể hình trẻ.
+          chang-trai-co-bung-6-mui-tung-vay-tien-ban-be-de-an-uong-du-chat
+
+          Vóc dáng săn chắc của chàng trai trẻ khi tập luyện thường xuyên. Ảnh: D.T.
+
+          Nhớ lại thuở ban đầu, những chấn thương dai dẳng khi tập luyện quá sung sức hay sự can ngăn, phản đối của gia đình không ngăn được đam mê của chàng trai trẻ. Ba mẹ không ủng hộ Duy theo bộ môn khắc nghiệt và có tính đào thải nhanh này, thậm chí buổi đầu tập cậu phải vay tiền bạn bè ăn uống cho đủ chất.
+
+          Từ kinh nghiệm bản thân, Duy nhận thấy nam giới thường mắc sai lầm là quá nóng vội, hấp tấp trong quá trình tập luyện. Đặc biệt, nhiều bạn chú trọng tập phần thân trên và bỏ quên phần thân dưới mà không biết rằng phần này chiếm 50% lượng cơ bắp của cơ thể, dẫn tới vóc dáng mất cân đối. Duy tập luyện đều mỗi ngày 2 tiếng và không bỏ sót bất kỳ nhóm cơ nào, tập chậm và chú tâm vào kỹ thuật để tránh chấn thương. 
+          chang-trai-co-bung-6-mui-tung-vay-tien-ban-be-de-an-uong-du-chat-1
+
+          Duy tham gia cuộc thi thể hình trẻ. Ảnh: D.T.
+
+          Có thời điểm tham gia thi đấu, Duy ăn kiêng nghiêm ngặt để giảm lượng mỡ, tăng cơ. Tập luyện hăng say, kiêng hoàn toàn những món khoái khẩu, Duy chỉ ưu tiên nguồn protein được chế biến bằng phương pháp luộc hấp để giúp tối ưu hóa chế độ dinh dưỡng, cho cơ thể xuất hiện những khối cơ rõ nét. Chàng trai cũng ưu tiên chế độ nghỉ ngơi hợp lý, sắp xếp cho các nhóm cơ được tập cách nhau 48 tiếng để có thời gian phục hồi.
+
+          Sau hơn 6 năm gắn bó với gym, Duy giành nhiều huy chương giải trẻ thể hình tỉnh Bình Dương và TP HCM. 9x ngừng thi đấu nhưng vẫn duy trì thể hình chuẩn. Thay vì chế độ tập và ăn uống khắc khổ để duy trì những khối cơ vạm vỡ, Duy hướng đến chuẩn cơ thể fitness, tức cơ thể cân đối, cơ bắp không quá to như thể hình và dẻo dai, khỏe khoắn.
+
+          Hiện Duy cao 1,73 m, nặng 70 kg, phấn đấu không để lượng mỡ cơ thể vượt quá 12%. Trương Quang Lữ Duy, sinh năm 1991 quê ở Bà Rịa - Vũng Tàu.
+              ]]>
+        </Field>
+        <Field Name="NewsPriority">3</Field>
+      </Row>
+
+      <Row>
+        <Field Name="ID">4</Field>
+        <Field Name="Title">Video chỉ ra hầu hết mọi người đứng ngồi sai tư thế </Field>
+        <Field Name="NewsShortContent">Ngồi cong lưng, cúi đầu bấm điện thoại, đứng không cân bằng 2 bên cơ thể... là những thói quen xấu mọi người thường mắc phải dễ dẫn đến các bệnh về cột sống, theo Ted.</Field>
+        <Field Name="NewsBody">
+          <![CDATA[" Ngồi cong lưng, cúi đầu bấm điện thoại, đứng không cân bằng 2 bên cơ thể... là những thói quen xấu mọi người thường mắc phải dễ dẫn đến các bệnh về cột sống, theo Ted. ]]>
+        </Field>
+        <Field Name="NewsPriority">3</Field>
+      </Row>
+
+      <Row>
+        <Field Name="ID">5</Field>
+        <Field Name="Title">Giảm cân nhanh với thực đơn chuối </Field>
+        <Field Name="NewsShortContent">Sáng ăn 2 quả chuối, uống một ly nước ấm, buổi trưa và tối ăn thêm một quả giúp bạn giảm cân nhanh.</Field>
+        <Field Name="NewsBody">
+          <![CDATA["
+        Theo Zenlife Yoga, so với táo, chuối chứa hàm lượng đạm cao gấp 4 lần, carbohydrate gấp 2 lần, photpho gấp 3 lần, vitamin A và sắt gấp 5 lần, các khoáng chất và các sinh tố khác cũng nhiều hơn gấp đôi. Loại quả này đã được chứng minh có nhiều tác dụng tốt như giúp da mịn màng, mắt sáng, tinh thần sảng khoái và kéo dài tuổi thọ.
+        thuc-don-chuoi-giup-giam-can-nhanh
+
+        Ăn chuối giúp giảm cân. Ảnh minh họa: Womenshealth.
+
+        Nghiên cứu cho thấy loại trái này có tác dụng thúc đẩy quá trình trao đổi chất, tạo ra một lớp màng bảo vệ trong ruột giúp tiêu diệt các độc tố và kích thích tiêu hóa. Ngoài ra, chuối chứa một loại chất xơ khác có tác dụng kháng tinh bột bị lên men trong dạ dày giúp đốt cháy từ 20 đến 25% chất béo. Nhờ đó làm giảm năng lượng hấp thụ vào cơ thể, tránh sự tích tụ mỡ thừa. 
+
+        Áp dụng ''thực đơn chuối'' sau đây, kết hợp với chế độ tập luyện phù hợp, giảm lượng thực phẩm trong các bữa chính sẽ giúp bạn có được vóc dáng thon gọn:
+
+        Bữa sáng: Ăn hai quả chuối và một ly nước ấm, không ăn gì thêm.
+
+        Bữa trưa: Ăn một quả chuối trước khi dùng khẩu phần chính. Chú ý giảm 30% khẩu phần chính so với bữa ăn thường lệ.
+
+        Bữa chiều: Nếu đói, có thể ăn thêm một quả chuối, không được ăn thêm bất kỳ món nào khác.
+
+        Bữa tối: Ăn một quả chuối trước khi dùng bữa chính, khẩu phần chính giảm 30%. Nên tránh các món tráng miệng, đồ ăn ngọt để đảm bảo quá trình giảm cân nhanh hơn và cơ thể khỏe mạnh hơn.
+
+        Lưu ý: Thực hiện chế độ ăn này không có nghĩa là bạn thay thế hoàn toàn các bữa ăn trong ngày bằng chuối. Chỉ ăn chuối cho đến khi bạn cảm thấy đủ, không nhồi nhét quá nhiều, sau đó uống thêm một cốc nước ấm. Không thức khuya, phải ngủ đủ từ 7 đến 8 tiếng mỗi ngày để giúp cơ thể duy trì sức khỏe. Chuối lấy trong tủ lạnh ra không nên ăn ngay vì rất dễ dẫn đến lạnh đường ruột, ảnh hưởng đến chức năng của dạ dày. Duy trì tập thể dục với cường độ phù hợp.
+
+        Người có axit trong dạ dày quá nhiều, đau ruột, tiêu hoá không tốt, tiêu chảy nên hạn chế ăn chuối. Loại quả này có tính hàn nên người có cơ địa thiên về hư hàn như vị hàn, hư hàn, viêm thận, sưng chân tay thời kỳ mang thai không nên áp dụng phương pháp giảm cân bằng chuối.
+
+        Trần Ngoan ]]>
+        </Field>
+        <Field Name="NewsPriority">3</Field>
+      </Row>
+    </Rows>
+  </Data>-->
+  </ListInstance>
+</Elements>

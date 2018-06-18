@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,RequestDiplomaDetails_ListTitle"
+                OnQuickLaunch="TRUE"
+                TemplateType="14062"
+                Url="Lists/RequestDiplomaDetails"
+                Description="$Resources:RBVHStadaLists,RequestDiplomaDetails_ListTitle">
+  </ListInstance>
+</Elements>

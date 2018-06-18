@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{159f1f87-27a1-49bb-b98c-6d0573bce4c5}"
+       Name="AnnouncementPriority"
+       DisplayName="Announcement Priority"
+       Type="Choice"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

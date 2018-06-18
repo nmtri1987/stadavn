@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance 
+    Title="$Resources:RBVHStadaLists,DepartmentTask_ListTitle;"
+    OnQuickLaunch="TRUE"
+   
+    TemplateType="171" 
+    Url="Lists/DepartmentTask" 
+    Description="$Resources:RBVHStadaLists,DepartmentTask_ListDescription;">
+  </ListInstance>
+</Elements>

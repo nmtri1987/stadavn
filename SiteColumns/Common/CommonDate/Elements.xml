@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}"
+       Name="CommonDate"
+       DisplayName="Common Date"
+       Type="DateTime" Format="DateOnly"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

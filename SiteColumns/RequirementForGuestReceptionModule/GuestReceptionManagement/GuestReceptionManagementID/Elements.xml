@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7dc1ec01-b984-48e1-84c3-0a43228dd5ca}"
+       Name="GuestReceptionManagementID"
+       DisplayName="Guest Reception Management ID"
+       Type="Lookup" List="Lists/GuestReceptionManagement" ShowField="ID"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

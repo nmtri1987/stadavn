@@ -1,0 +1,20 @@
+﻿CommonName,Code,BODApproverAd
+Accounting,ACC,su
+HR & Administration,HR,su
+Engineering,ENG,qa-huynhtn
+Import - Export,IE,su
+IT,IT,su
+Liquid Workshop,LW,qa-huynhtn
+Planning,PLA,su
+Procurement,PROC,su
+Quality Assurance,QA,qa-huynhtn
+Quality Control,QC,qa-huynhtn
+Research & Development,RD,
+Analytical Development,AD,rd-lieunn
+Formulation Development,FD,rd-lieunn
+Regulatory Affairs,RA,rd-lieunn
+Solid Workshop,SW,qa-huynhtn
+Technology Transfer,TT,qa-huynhtn
+Warehouse,WH,su
+HM,HM,HM-BOD1
+Assistant,AS,su

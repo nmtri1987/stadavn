@@ -1,0 +1,13 @@
+ID,Code,CommonName,CommonNameVietnamese,EmployeeLevel
+1,BOD,Board of Director,Ban Giám Đốc,7
+2,DEH,Department Head,Trưởng Phòng,5
+3,GRL,Group Leader,Phó Phòng,4
+4,AMD,Admin Dept,Văn Thư,3
+5,EMP,Employee,Nhân Viên,2
+6,HLP,Helper,Tạp Vụ,1
+7,SCG,Security Guard,Bảo Vệ,1
+8,GAD,Gardener,Nhân Viên Cây Xanh,1
+9,DRM,Direct Manager,Quản Lý Trực Tiếp,6
+10,TLE,Team Leader,Tổ Trưởng,3.2
+11,ATL,Associate Team Leader,Tổ Phó,3.1
+12,SLD,Shift Leader,Trưởng Ca,3.3

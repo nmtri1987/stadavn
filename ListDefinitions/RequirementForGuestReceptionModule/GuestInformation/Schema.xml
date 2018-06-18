@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,GuestInformation_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/GuestInformation" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{336FEBC9-8413-4BB3-90BF-184E08A8F158}" Name="GuestReceptionManagementID" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestReceptionManagementID;" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" Required="FALSE" Type="Lookup" List="Lists/GuestReceptionManagement" ShowField="ID"/>
+      <Field ID="{C7FBA90C-9639-4902-BA97-4C89A357BFB7}" Name="Name" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestNameTitle;" Type="Text" Required="TRUE"></Field>
+      <Field ID="{514CD637-8208-490A-B6B3-014AF1C09380}" Name="Gender" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestGenderTitle;" Type="Lookup" List="Lists/Gender" ShowField="CommonName" />
+      <Field ID="{DFCF2014-7595-4EED-9CBC-A113C3795C63}" Name="Nationality" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestNationalityTitle;" Type="Lookup" List="Lists/Nationality" ShowField="CommonName" />
+      <Field ID="{859F9216-785C-44D9-94F4-8D5A3662C628}" Name="JobTitle" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestJobTitle;" Type="Text" Required="TRUE" />
+      <Field ID="{2D6A0926-8447-47A9-B53E-21BAB1C5AC4F}" Name="PassportNo" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestPassportNo;" Type="Text" Required="TRUE" />
+      <Field ID="{B223F507-D950-407A-BE96-58628ED99E26}" Name="DateOfIssue" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestDateOfIssueTitle;" Type="DateTime" Required="TRUE" Format="DateOnly" />
+      <Field ID="{1DBADFD0-A531-476A-88E2-6F483CB13F12}" Name="DateOfArrival" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestDateOfArrivalTitle;" Type="DateTime" Required="TRUE" Format="DateOnly" />
+      <Field ID="{53180A39-C407-4312-8E43-669B83F29845}" Name="VisaValidity" DisplayName="$Resources:RBVHStadaLists,GuestReceptionManagement_GuestVisaValidityTitle;" Type="DateTime" Required="TRUE" Format="DateOnly" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="LinkTitle"></FieldRef>-->
+          <FieldRef Name="GuestReceptionManagementID" />
+          <FieldRef Name="Name" />
+          <FieldRef Name="Gender" />
+          <FieldRef Name="Nationality" />
+          <FieldRef Name="JobTitle" />
+          <FieldRef Name="PassportNo" />
+          <FieldRef Name="DateOfIssue" />
+          <FieldRef Name="DateOfArrival" />
+          <FieldRef Name="VisaValidity" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

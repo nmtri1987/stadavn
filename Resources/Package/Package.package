@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="34fbf633-dac2-4a78-8ae6-8d1b01e6c441" solutionId="34fbf633-dac2-4a78-8ae6-8d1b01e6c441" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.Resources" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7bc2dbbc-1ee9-4895-a094-a78f6f1e558f" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="7ba279ac-2744-4ae2-92bc-40206f6f6bc6" />
+  </projectItems>
+</package>

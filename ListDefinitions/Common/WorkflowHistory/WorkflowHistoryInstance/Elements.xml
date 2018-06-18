@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,WorkflowHistory_ListTile;"
+                OnQuickLaunch="TRUE"
+                TemplateType="13002"
+                Url="Lists/WorkflowHistory">
+  </ListInstance>
+</Elements>

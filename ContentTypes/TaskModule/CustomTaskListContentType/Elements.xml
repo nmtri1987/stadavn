@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x0108) -->
+  <ContentType ID="0x0108003365C4474CAE8C42BCE396314E88E51F00B3B665719D9645DE92C926A2E7946D86" Name="CustomTaskListContentType" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{53101f38-dd2e-458c-b245-0c236cc13d1a}" Name="AssignedTo" />
+      <FieldRef ID="{a52f84da-be4e-4eb2-9759-310721578ed9}" Name="NextAssign"  />
+      <FieldRef ID="{c15b34c3-ce7d-490a-b133-3f4de8801b76}" Name="Status" />
+      <FieldRef ID="{55B29417-1042-47F0-9DFF-CE8156667F96}" Name="TaskOutcome" />
+      <FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Name="StartDate" />
+      <FieldRef ID="{cd21b4c2-6841-4f9e-a23a-738a65f99889}" Name="DueDate" />
+      <FieldRef ID="{a8eb573e-9e11-481a-a8c9-1104a54b2fbd}" Name="Priority" />
+      <FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" />
+      <FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" />
+      <FieldRef ID="{fd447db5-3908-4b47-8f8c-a5895ed0aa6a}" Name="ParentID" />
+      <FieldRef ID="{d2a04afc-9a05-48c8-a7fa-fa98f9496141}" Name="RelatedItems" />
+      <FieldRef ID="{1982e408-0f94-4149-8349-16f301d89134}" Name="PreviouslyAssignedTo" />
+      <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" />
+      <FieldRef ID="{03c58358-a799-4cc7-905f-27a37acfc5d3}" Name="ListURL" />
+      <FieldRef ID="{0f16145f-72f4-4b08-a174-13ae8422237e}" Name="ItemId" />
+      <FieldRef ID="{0d03bfb6-d868-4647-8f3b-843b35e5e32a}" Name="ItemURL" />
+      <FieldRef ID="{0189e6f0-2f82-447a-b826-2eec198639f8}" Name="CurrentStepStatus" />
+      <FieldRef ID="{746e2329-408d-4a5e-845a-84f503578aaa}" Name="RelatedTasks" />
+      <FieldRef ID="{9bbd6a27-377d-4b2f-89a2-0f01b8afe82b}" Name="StepModule" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

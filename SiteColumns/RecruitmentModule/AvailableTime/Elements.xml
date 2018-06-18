@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{99731040-6fb3-4370-8d71-b2cbe739d231}"
+       Name="AvailableTime"
+       DisplayName="Available Time"
+       Type="DateTime"  Format="DateOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

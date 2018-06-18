@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9854b1b1-055d-4c1b-8329-3b55117dda38}"
+       Name="CommonYear"
+       DisplayName="Common Year"
+       Type="Number"
+       Required="TRUE"
+       Min="1900"
+       Max="2200"
+       Group="Stada Columns">
+  </Field>
+</Elements>

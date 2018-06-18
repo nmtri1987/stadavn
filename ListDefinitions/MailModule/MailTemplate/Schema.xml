@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,MailTemplate_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/MailTemplate" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+
+      <ContentType ID="0x01003BBBE4FA79AB4C8A956C43A6EACD535E" Name="$Resources:RBVHStadaLists,MailTemplate_ListTitle;" Group="Stada Content Types" Description="$Resources:RBVHStadaLists,MailTemplate_ListDescription;" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{32a3d0b8-a029-4408-af9b-81bc7a4058a7}" Required="TRUE" Name="MailKey" />
+          <FieldRef ID="{b7ad08bf-6719-4ff0-a659-ebdb4b7cc115}"  Required="TRUE" Name="MailSubject" />
+          <FieldRef ID="{872c8ee7-142a-4d40-8e94-9b33e817c4bf}"  Required="TRUE" Name="MailBody" />
+          <FieldRef ID="{7ea86d80-a29c-4acf-a0d5-98b5843864f6}"  Required="FALSE" Name="MailCategory" />
+          <FieldRef ID="{3dba3df6-db53-4fd7-8df2-3a2249106a35}"  Required="FALSE" Name="MailNote" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{32a3d0b8-a029-4408-af9b-81bc7a4058a7}" Name="MailKey" DisplayName="$Resources:RBVHStadaLists,MailTemplate_Key;" Type="Text" Required="TRUE" ></Field>
+      <Field ID="{b7ad08bf-6719-4ff0-a659-ebdb4b7cc115}" Name="MailSubject" DisplayName="$Resources:RBVHStadaLists,MailTemplate_Subject;" Type="Text" Required="TRUE"></Field>
+      <Field ID="{872c8ee7-142a-4d40-8e94-9b33e817c4bf}" Name="MailBody" DisplayName="$Resources:RBVHStadaLists,MailTemplate_Body;" Type="Note" Required="FALSE" RichText="TRUE" RichTextMode="FullHtml"></Field>
+      <Field ID="{7ea86d80-a29c-4acf-a0d5-98b5843864f6}" Name="MailCategory" DisplayName="$Resources:RBVHStadaLists,MailTemplate_Category;" Type="Choice" Mult="false" FillInChoice="true" Required="FALSE" >
+        <CHOICES>
+          <CHOICE>Leave Management</CHOICE>
+          <CHOICE>Shift Management</CHOICE>
+          <CHOICE>Leave Of Absence For Overtime</CHOICE>
+          <CHOICE>Change Shift Management</CHOICE>
+          <CHOICE>Overtime Management</CHOICE>
+          <CHOICE>Transportation Management</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{3dba3df6-db53-4fd7-8df2-3a2249106a35}" Name="MailNote" DisplayName="$Resources:RBVHStadaLists,MailTemplate_Note;" Type="Note" Required="FALSE" ></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+
+
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="MailKey" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+
+
+
+            <FieldRef Name="MailCategory" Ascending="TRUE" />
+          </OrderBy>
+          <GroupBy Collapse="TRUE">
+
+            <FieldRef Name="MailCategory" />
+          </GroupBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

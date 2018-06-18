@@ -1,0 +1,25 @@
+﻿StepModule,CurrentStepStatus,CommonDepartment,StepNumber,StepPosition
+LeaveManagement,Waiting SLD Approval/Chờ trưởng ca duyệt,,1,SLD
+LeaveManagement,Waiting TLE Approval/Chờ tổ trưởng duyệt,,1,TLE
+LeaveManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,,2,DEH
+LeaveManagement,Waiting BOD Approval/Chờ BGD duyệt,,3,BOD
+LeaveManagement,Waiting TLE Approval/Chờ tổ trưởng duyệt,HR,1,TLE
+LeaveManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,HR,2,DEH
+LeaveManagement,Waiting BOD Approval/Chờ BGD duyệt,HR,3,BOD
+LeaveManagement,Waiting SLD Approval/Chờ trưởng ca duyệt,SW,1,SLD
+LeaveManagement,Waiting TLE Approval/Chờ tổ trưởng duyệt,SW,1,TLE
+LeaveManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,SW,2,DEH
+LeaveManagement,Waiting BOD Approval/Chờ BGD duyệt,SW,3,BOD
+FreightManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,,1,DEH
+FreightManagement,Waiting BOD Approval/Chờ BGD duyệt,,2,BOD
+FreightManagement,Waiting Admin Aproval/Chờ phòng HC duyệt,,3,AMD
+VehicleManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,,1,DEH
+VehicleManagement,Waiting BOD Approval/Chờ BGD duyệt,,1,BOD
+VehicleManagement,Waiting Admin Aproval/Chờ phòng HC duyệt,,2,AMD
+VehicleManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,HR,1,DEH
+VehicleManagement,Waiting BOD Approval/Chờ BGD duyệt,HR,1,BOD
+BusinessTripManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,,1,DEH
+BusinessTripManagement,Waiting BOD Approval/Chờ BGD duyệt,,2,BOD
+BusinessTripManagement,Waiting Admin Aproval/Chờ phòng HC duyệt,,3,AMD
+BusinessTripManagement,Waiting DH Approval/Chờ trưởng phòng duyệt,HR,1,DEH
+BusinessTripManagement,Waiting BOD Approval/Chờ BGD duyệt,HR,2,BOD

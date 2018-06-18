@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,BusinessTripManagement_ListTitle;" 
+      FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/BusinessTripManagement" 
+      BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentTypeRef ID="0x01006FB3ED83419D4608A220EDAC59D1E36D"></ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" ListItemMenu="TRUE" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_RequesterTitle;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Overtime_Department;" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{0295E928-6CC5-41DC-989F-2CFEC7FB5F46}" Name="DepartmentName1066" DisplayName="$Resources:RBVHStadaLists,Department_NameVietnamese;" Type="Lookup" List="Lists/Departments" ShowField="CommonName1066" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Overtime_Location;" Type="Lookup" List="Lists/Factories" ShowField="CommonName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{72d3717a-0e5f-4f52-a63b-4d17dd11d012}" Name="Domestic" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_BusinessTripTypeInternalTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{c2281066-63a5-4c41-b86d-f3fc3ddb9d3b}" Name="BusinessTripPurpose" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_PurposeTitle;" Required="TRUE" Type="Note" NumLines="3" />
+      <Field ID="{3957139f-e198-4bb0-8993-da69e4273f77}" Name="HotelBooking" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_HotelBookingTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{811cd42c-fc49-45da-979e-8b3e516005bd}" Name="TripHighPriority" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_HighPriorityTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{76f5b0a5-396d-4c74-af32-71c83ac8772a}" Name="PaidBy" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_PaidByTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{9de9c64e-c6ef-49d6-ac4b-8a000fc47b4d}" Name="OtherService" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_OtherServiceTitle;" Required="FALSE" Type="Note" NumLines="3" />
+      <Field ID="{348d7b20-b6ad-4ff3-83c5-f26fef2f2924}" Name="TransportationType" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_TransportationTypeTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons" >
+        <Default>$Resources:RBVHStadaLists,BusinessTripManagement_TransportationTypePrivateTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,BusinessTripManagement_TransportationTypePrivateTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,BusinessTripManagement_TransportationTypeCompanyTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,BusinessTripManagement_TransportationTypeOthersTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{f83d8e20-fae0-47f8-8a8e-e9751be9d65a}" Name="OtherTransportationDetail" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_TransportationTypeOthersDetailTitle;" Required="FALSE" Type="Note" NumLines="3"/>
+      <Field ID="{c8e8f3dc-a353-4845-9212-950d5a2ebf92}" Name="HasVisa" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_VisaRequestTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{c96be836-4aa4-4abd-8620-77707e000380}" Name="CashRequestDetail" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_CashDetailsTitle;" Required="FALSE" Type="Note" NumLines="3"/>
+      <Field ID="{f587e33e-b6a0-4c15-9606-bcd26ad47cba}" Name="OtherRequestDetail" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_OtherDetailsTitle;" Required="FALSE" Type="Note" NumLines="3"/>
+      <Field ID="{d6a9a2c5-36d8-4f93-b47b-0789aae72192}" Name="Driver" ListItemMenu="TRUE" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_DriverTitle;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{45f21bcd-3ae6-4bff-9c84-83502a0933af}" Name="Cashier" ListItemMenu="TRUE" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_CashierTitle;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}" Name="CommonComment" DisplayName="$Resources:RBVHStadaLists,CommonComment;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" DisplayName="$Resources:RBVHStadaLists,Approval_Status;" Type="Text" Required="FALSE" />
+      <Field ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_Approver1Title;" Type="User" UserSelectionMode="PeopleOnly" Required="FALSE"  />
+      <Field ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="CommonApprover2" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_Approver2Title;" Type="User" UserSelectionMode="PeopleOnly" Required="FALSE"  />
+      <Field ID="{8cb3dbad-21d7-4641-8cce-632bdd67413f}" Name="CommonApprover3" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_Approver3Title;" Type="User" UserSelectionMode="PeopleOnly" Required="FALSE"  />
+      <Field ID="{7a44aced-228d-4d9d-9e70-e879fc759bd2}" Name="CommonApprover4" DisplayName="$Resources:RBVHStadaLists,BusinessTripManagement_Approver4Title;" Type="User" UserSelectionMode="PeopleOnly" Required="FALSE"  />
+      <Field ID="{3a4d310a-a4fb-4cc6-91b2-0ebb00431752}" Name="ColForSort" StaticName="ColForSort" DisplayName="$Resources:RBVHStadaLists,Common_ColForSort;" Type="Calculated" Required="FALSE" ResultType="Number" ReadOnly="TRUE" Decimals="0">
+        <Formula>=IF(ApprovalStatus="Approved",INT("7"),IF(ApprovalStatus="Rejected",INT("8"),IF(ApprovalStatus="Cancelled",INT("9"),INT("0"))))</Formula>
+        <FormulaDisplayNames>=IF([Approval Status]="Approved",INT("7"),IF([Approval Status]="Rejected",INT("8"),IF([Approval Status]="Cancelled",INT("9"),INT("0"))))</FormulaDisplayNames>
+        <FieldRefs>
+          <FieldRef Name="ApprovalStatus" />
+        </FieldRefs>
+      </Field>
+      <Field ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" DisplayName="$Resources:RBVHStadaLists,Common_ReqDueDate;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" DisplayName="$Resources:RBVHStadaLists,Common_LastRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" DisplayName="$Resources:RBVHStadaLists,Common_NextRemind;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" DisplayName="$Resources:RBVHStadaLists,Common_RemindedAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" DisplayName="$Resources:RBVHStadaLists,Common_MaxRemindAttemps;" Type="Number" Min="0" Decimals="0" Required="FALSE" Group="Stada Columns">
+        <Default>0</Default>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!--  Business Trip Request List -->
+      <View BaseViewID="2" Type="HTML" WebPartZoneID="Main" DisplayName="Business Trip Request List" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="BusinessTripRequestList.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!-- Business Trip Approval List -->
+      <View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="Business Trip Approval List" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="BusinessTripApprovalList.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!-- Business Trip By Department -->
+      <View BaseViewID="4" Type="HTML" WebPartZoneID="Main" DisplayName="Business Trip By Department" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="BusinessTripByDepartment.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!-- Business Trip For Driver -->
+      <View BaseViewID="5" Type="HTML" WebPartZoneID="Main" DisplayName="Business Trip For Driver" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="BusinessTripForDriver.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!-- Business Trip For Cashier -->
+      <View BaseViewID="6" Type="HTML" WebPartZoneID="Main" DisplayName="Business Trip For Cashier" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="BusinessTripForCashier.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+      <!--  Business Trip Request List -->
+      <View BaseViewID="7" Type="HTML" WebPartZoneID="Main" DisplayName="My Business Trip Requests" TabularView="FALSE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="MyBusinessTripRequest.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <!--<FieldRef Name="Title" />-->
+          <FieldRef Name="Requester" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="CommonLocation" />
+          <FieldRef Name="Domestic" />
+          <FieldRef Name="BusinessTripPurpose" />
+          <FieldRef Name="HotelBooking" />
+          <FieldRef Name="TripHighPriority" />
+          <FieldRef Name="PaidBy" />
+          <FieldRef Name="OtherService" />
+          <FieldRef Name="HasVisa" />
+          <FieldRef Name="CashRequestDetail" />
+          <FieldRef Name="OtherRequestDetail" />
+          <FieldRef Name="Driver" />
+          <FieldRef Name="Cashier" />
+          <FieldRef Name="TransportationType" />
+          <FieldRef Name="ApprovalStatus" />
+          <FieldRef Name="CommonComment" />
+          <FieldRef Name="CommonApprover1"/>
+          <FieldRef Name="CommonApprover2"/>
+          <FieldRef Name="CommonApprover3"/>
+          <FieldRef Name="CommonApprover4"/>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

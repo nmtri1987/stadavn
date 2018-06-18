@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1247e3e1-6cb0-4d74-9a91-0701b989356b" solutionId="1247e3e1-6cb0-4d74-9a91-0701b989356b" resetWebServer="false" sharePointProductVersion="16.0" name="RBVH.Stada.Intranet.SiteTemplate" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7aea3052-aef5-480c-84b2-6ce9b3dc9374" />
+    <featureReference itemId="eab2dd5e-aff2-419a-ae27-3960020c2e92" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="4725f60f-a8ef-4959-8894-883fd5433884" />
+  </projectItems>
+</package>

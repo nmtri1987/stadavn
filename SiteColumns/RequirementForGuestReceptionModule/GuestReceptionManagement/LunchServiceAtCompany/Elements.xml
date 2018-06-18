@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e202615e-4dfa-44ab-adc0-3a3788a318fe}"
+       Name="LunchServiceAtCompany"
+       DisplayName="Lunch Service in canteen"
+       Type="Choice"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

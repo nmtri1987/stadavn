@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{31c21333-d062-4153-9f2b-4bc23f345d37}"
+       Name="NotificationEmailCcEmployees"
+       DisplayName="Notification Email Cc Employees"
+       Type="LookupMulti" List="Lists/EmployeePosition" ShowField="Code" Mult="TRUE"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

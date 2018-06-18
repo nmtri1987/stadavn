@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01002EC1360DE01A4D6FB9B8D961AF3A2D6A"
+               Name="RequestDiplomaDetailsContentType"
+               Group="Stada Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Title"/>
+      <FieldRef ID="{a2e3638b-7a37-404e-ab20-b38eab04ccd5}" Name="CurrentDiploma"  DisplayName="Current Diploma" />
+      <FieldRef ID="{72072eac-7427-4b80-9c67-e6c9d4512708}" Name="GraduationYear"  DisplayName="Graduation Year" />
+      <FieldRef ID="{f928ebdb-f871-48b3-b706-92f7ab4f727d}" Name="NewDiploma"  DisplayName="NewDiploma" />
+      <FieldRef ID="{2289b9fa-8917-4038-8cfe-684ff8b3b498}" Name="Faculty"  DisplayName="Faculty" />
+      <FieldRef ID="{cf056fdd-8b0a-4c38-8588-da99c318481b}" Name="IssuedPlace"  DisplayName="Issued Place" />
+      <FieldRef ID="{81e8bf58-e6da-467c-bae0-4fb6f300822c}" Name="TrainingDuration"  DisplayName="Training Duration" />
+      <FieldRef ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" Name="Request"  DisplayName="Request" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

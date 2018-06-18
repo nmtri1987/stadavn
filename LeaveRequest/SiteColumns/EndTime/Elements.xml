@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9d560ccd-7555-467f-89ce-f20598244248}"
+       Name="EndTime"
+       DisplayName="End Time"
+       StaticName="EndTime"
+       Type="DateTime"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="Stada Site Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7a44aced-228d-4d9d-9e70-e879fc759bd2}"
+       Name="CommonApprover4"
+        DisplayName="Common Approver 4"
+       Type="User"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

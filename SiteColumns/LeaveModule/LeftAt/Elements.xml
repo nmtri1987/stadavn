@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+        ID="{f72a49b0-4f2e-40c4-ab7b-17f56fa40be7}"
+        Name="LeftAt"
+        DisplayName="Left At"
+        Type="DateTime" Format="DateTime"
+        Required="FALSE"
+        Group="Stada Columns">
+  </Field>
+</Elements>

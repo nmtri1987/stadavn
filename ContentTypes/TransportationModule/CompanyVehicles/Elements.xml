@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010004D616CCA8A5467A87197CB0FB9C0487" Name="CompanyVehicles" Group="Stada Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{576cbeba-0ad4-4d51-9d5a-6d3da64b47dc}" DisplayName="Place" Required="TRUE" Name="Place" />
+      <FieldRef ID="{8910d506-46aa-4b78-85c3-eec7f16859b2}" DisplayName="Time" Required="TRUE" Name="Time" />
+      <FieldRef ID="{dc9da24f-20b6-4201-9309-3a6b2d34d5aa}" DisplayName="Description" Required="FALSE" Name="StadaDescription" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

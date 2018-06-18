@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b930716f-7b60-4956-a0c4-04085dae9724" solutionId="b930716f-7b60-4956-a0c4-04085dae9724" resetWebServer="false" sharePointProductVersion="15.0" name="Stada.Intranet.Phase1.LeaveRequest" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="aa1bec0c-0017-4601-9069-5a427431bffa" />
+    <featureReference itemId="35b54065-1f8e-4225-9600-d7b0d45d4315" />
+  </features>
+</package>

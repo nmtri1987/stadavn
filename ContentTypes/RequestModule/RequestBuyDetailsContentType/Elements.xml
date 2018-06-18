@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010027B1C08CCFCC4CACA663D973A33DD473"
+               Name="$Resources:RBVHStadaLists,RequestBuyDetailsList_ContentTypeTitle"
+               Group="RBVH Content Types"
+               Description="RequestBuyDetailsList_ContentTypeDescription"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{618ad8df-ec43-468a-8389-18d37a8332d9}" DisplayName="Content" Required="TRUE" Name="RequestContent" />
+      <FieldRef ID="{7e80663d-a828-4451-875a-e5a76a0b7abc}" DisplayName="Form" Required="TRUE" Name="Form" />
+      <FieldRef ID="{dfd9f9c0-eb5e-495d-a177-de3401fba0fd}" DisplayName="Unit" Required="TRUE" Name="Unit" />
+      <FieldRef ID="{b7bda11b-0675-4ed5-900c-6ff1e09258d9}" DisplayName="Quantity" Required="TRUE" Name="Quantity" />
+      <FieldRef ID="{2c0fb35f-388b-4c7b-8dfd-ff1cb4d177c0}" DisplayName="Reason" Required="TRUE" Name="Reason" />
+      <FieldRef ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" DisplayName="Request" Required="TRUE" Name="Request" />
+      <FieldRef ID="{183a3f78-4e28-4de5-9127-5d71e33e16a2}" DisplayName="Temp Id" Required="TRUE" Name="TempId" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

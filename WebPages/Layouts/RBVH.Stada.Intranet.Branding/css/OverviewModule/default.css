@@ -1,0 +1,163 @@
+﻿/*.column{
+	width:49%;
+	margin-right:.5%;
+	background:#fff;
+	float:left;
+    margin-top: -5px;
+}
+.column .dragbox{
+	margin:5px 2px  20px;
+	background:#fff;
+	position:relative;
+	border:1px solid #ddd;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}*/
+/*.column .dragbox h2{
+	margin: 0;
+	font-size: 13px;
+	padding: 10px;
+	background: #e7e7e7;
+	color:#000;
+	border-bottom:1px solid #eee;
+	font-family:Verdana;
+	cursor:move;
+    font-weight: bold;
+}*/
+
+.grid-container {
+    width: 100%;
+    margin:5px 2px  20px;
+	background:#fff;
+	position:relative;
+	border:1px solid #ddd;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+h2.conner {
+    margin: 0;
+    font-size: 19px;
+    padding: 10px;
+    background: #e7e7e7;
+    color: #000;
+    border-bottom: 1px solid #eee;
+    font-family: 'Segoe UI','Segoe',Tahoma,Helvetica,Arial,sans-serif;
+    /*cursor: move;*/
+    font-weight: bold;
+    height: 39px;
+
+    color: #fff;    
+    text-shadow: 0 1px rgba(0,0,0,.8);
+    background-color: #a1a6a8;
+    background-image:  linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+}
+
+.grid-content{
+	background:#fff;
+	height: 300px; 
+    margin:5px;
+}
+
+.grid-container h2 .s-expand{
+    background: url('../../images/expand.png');
+	float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.grid-container h2 .s-collapse{
+    background: url('../../images/collapse.png');
+	float: right;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.jsgrid-grid-body {
+    height: 200px;
+}
+
+.jsgrid .jsgrid-button {
+    min-width: 16px;
+    margin-left: 2px;
+}
+
+.s-counter {
+    /*position: absolute;
+    top: 2px;
+    right: 1px;
+    min-width: 8px;
+    height: 25px;
+    width: 25px;
+    line-height: 20px;
+    margin-top: -11px;
+    padding: 0 6px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+    box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.1), 0 1px rgba(0, 0, 0, 0.12);
+    background: #3b8de2;
+    border: 1px solid #215a96;*/
+
+    float: right; 
+    padding: 0 6px;
+    border-radius: 9px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.2);
+    background: #878e96;
+    color: white;
+    height: 16px; 
+    margin-right: 10px;
+}
+
+/* High Chart */
+#datatable > tbody > tr > th {
+    font-weight: normal;
+}
+
+#task-list-title {
+    font-style: italic;
+}
+
+.grid-content .label-primary {
+    background-color: #db1ed2;
+}
+.chart-shader {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    background: #ddd; 
+    opacity: .5;
+}
+.chart-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    width: 15em;
+    height: 5em;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    padding-top: 3em;
+    text-align: center;
+}
+    .chart-loader:before {
+        content: ' ';
+        position: absolute;
+        top: .5em;
+        left: 50%;
+        margin-left: -1em;
+        width: 2em;
+        height: 2em;
+        border: 2px solid #009a67;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: indicator 1s linear infinite;
+        animation: indicator 1s linear infinite;
+    }

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ChangeShiftManagementWorkflowItemUpdate" Url="wfsvc/10d0ca86b75243558fbb12613412df03">
+    <File Url="Workflow.xaml" Type="GhostableInLibrary" Path="ChangeShiftManagementWorkflowItemUpdate\Workflow.xaml" DoGUIDFixUp="TRUE" ReplaceContent="TRUE">
+      <Property Name="ContentType" Value="WorkflowServiceDefinition" />
+      <Property Name="isReusable" Value="true" />
+      <Property Name="RequiresInitiationForm" Value="False" />
+      <Property Name="RequiresAssociationForm" Value="False" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSDisplayName" Value="ChangeShiftManagementWorkflowItemUpdate" />
+      <Property Name="WSDescription" Value="My 'ChangeShiftManagementWorkflowItemUpdate' Workflow" />
+      <!-- If you change the name or Url of your custom initiation or association form, 
+           remember to update the corresponding property value (InitiationUrl or AssociationUrl) to match the new web relative url.
+      -->
+      <Property Name="RestrictToType" Value="List" />
+      <Property Name="RestrictToScope" Value="{$ListId:Lists/ChangeShiftManagement;}" />
+    </File>
+    <File Url="ItemUpdatedAssociation" Path="ChangeShiftManagementWorkflowItemUpdate\ItemUpdatedAssociation" Type="GhostableInLibrary">
+      <Property Name="WSDisplayName" Value="ChangeShiftManagementWorkflowItemUpdate - Item Updated" />
+      <Property Name="ContentType" Value="WorkflowServiceSubscription" />
+      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSEventType" Value="ItemUpdated" />
+      <Property Name="WSEnabled" Value="true" />
+      <Property Name="WSGUID" Value="d73d417f-1834-4bf8-8831-bf4ce54f00fa" />
+      <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/ChangeShiftManagement;}" />
+      <Property Name="Microsoft.SharePoint.ActivationProperties.ListId" Value="{$ListId:Lists/ChangeShiftManagement;}" />
+      <Property Name="HistoryListId" Value="{$ListId:Lists/WorkflowHistoryList;}" />
+      <Property Name="TaskListId" Value="{$ListId:Lists/ChangeShiftWorkflowTaskList;}" />
+    </File>
+  </Module>
+  <ListInstance FeatureId="{2c63df2b-ceab-42c6-aeff-b3968162d4b1}"
+                TemplateType="4501"
+                Title="wfsvc"
+                Description="This list instance is used by SharePoint to keep track of workflows. Do not modify."
+                Url="wfsvc"
+                RootWebOnly="FALSE" />
+</Elements>

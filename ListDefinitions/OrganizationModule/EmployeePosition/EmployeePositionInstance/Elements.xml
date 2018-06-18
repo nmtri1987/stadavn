@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,EmployeePosition_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="10017"
+                Url="Lists/EmployeePosition"
+                Description="$Resources:RBVHStadaLists,EmployeePosition_ContentTypeDescription;">
+    <!--<Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="Code">BOD</Field>
+          <Field Name="CommonName">BOD</Field>
+          <Field Name="CommonName1066">Ban Giám Đốc</Field>
+          <Field Name="EmployeeLevel">7</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="Code">DEH</Field>
+          <Field Name="CommonName">Department Head</Field>
+          <Field Name="CommonName1066">Trưởng Phòng</Field>
+          <Field Name="EmployeeLevel">5</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="Code">GRL</Field>
+          <Field Name="CommonName">Group Leader</Field>
+          <Field Name="CommonName1066">Phó Phòng</Field>
+          <Field Name="EmployeeLevel">4</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">4</Field>
+          <Field Name="Code">AMD</Field>
+          <Field Name="CommonName">Admin Dept</Field>
+          <Field Name="CommonName1066">Văn Thư</Field>
+          <Field Name="EmployeeLevel">3</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">5</Field>
+          <Field Name="Code">EMP</Field>
+          <Field Name="CommonName">Employee</Field>
+          <Field Name="CommonName1066">Nhân Viên</Field>
+          <Field Name="EmployeeLevel">2</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">6</Field>
+          <Field Name="Code">HLP</Field>
+          <Field Name="CommonName">Helper</Field>
+          <Field Name="CommonName1066">Tạp Vụ</Field>
+          <Field Name="EmployeeLevel">1</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">7</Field>
+          <Field Name="Code">SCG</Field>
+          <Field Name="CommonName">Security Guard</Field>
+          <Field Name="CommonName1066">Bảo Vệ</Field>
+          <Field Name="EmployeeLevel">1</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">8</Field>
+          <Field Name="Code">GAD</Field>
+          <Field Name="CommonName">Gardener</Field>
+          <Field Name="CommonName1066">Nhân Viên Cây Xanh</Field>
+          <Field Name="EmployeeLevel">1</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">9</Field>
+          <Field Name="Code">DRM</Field>
+          <Field Name="CommonName">Direct Manager</Field>
+          <Field Name="CommonName1066">Quản Lý Trực Tiếp</Field>
+          <Field Name="EmployeeLevel">6</Field>
+        </Row>
+      </Rows>
+    </Data>-->
+  </ListInstance>
+</Elements>

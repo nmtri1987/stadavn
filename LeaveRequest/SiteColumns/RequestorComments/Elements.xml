@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0b65696c-f355-4f7c-b460-983e613fbf13}"
+       Name="RequestorComments"
+       DisplayName="Requestor Comments"
+       StaticName="RequestorComments"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Site Columns">
+  </Field>
+</Elements>

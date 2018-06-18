@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint"  Title="$Resources:RBVHStadaLists,StepList_Title" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/StepList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x01000bd177b9dc854f548f87114f03219a1d" Name="ListFieldsContentType" Group="Stada Content Types" Inherits="FALSE">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{9bbd6a27-377d-4b2f-89a2-0f01b8afe82b}" Name="StepModule" />
+          <FieldRef ID="{0189e6f0-2f82-447a-b826-2eec198639f8}" Name="CurrentStepStatus" />
+          <FieldRef ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" />
+          <FieldRef ID="{84d6b1bf-9438-4858-8c9a-7d5acdda7e1f}" Name="StepNumber" />
+          <FieldRef ID="{669ed8e2-81be-4968-95d9-abf552e37090}" Name="StepPosition" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{669ed8e2-81be-4968-95d9-abf552e37090}" Name="StepPosition" DisplayName="Step Position"  Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+
+      <Field ID="{9bbd6a27-377d-4b2f-89a2-0f01b8afe82b}" Name="StepModule" DisplayName="Step Module" Type="Choice" Required="TRUE" Group="Stada Columns" >
+        <CHOICES>
+          <CHOICE>LeaveManagement</CHOICE>
+          <CHOICE>VehicleManagement</CHOICE>
+          <CHOICE>ShiftManagement</CHOICE>
+          <CHOICE>OvertimeManagement</CHOICE>
+          <CHOICE>ChangeShiftManagement</CHOICE>
+          <CHOICE>NotOvertimeManagement</CHOICE>
+          <CHOICE>FreightManagement</CHOICE>
+          <CHOICE>BusinessTripManagement</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{0189e6f0-2f82-447a-b826-2eec198639f8}" Name="CurrentStepStatus" DisplayName="Next Status" Type="Choice" Required="TRUE" Group="Stada Columns">
+        <Default>Waiting DH Approval/Chờ trưởng phòng duyệt</Default>
+        <CHOICES>
+          <CHOICE>Waiting GL Approval/Chờ phó phòng duyệt</CHOICE>
+          <CHOICE>Waiting DH Approval/Chờ trưởng phòng duyệt</CHOICE>
+          <CHOICE>Waiting BOD Approval/Chờ BGD duyệt</CHOICE>
+          <CHOICE>Approved/Đã được duyệt</CHOICE>
+          <CHOICE>Rejected/Đã từ chối</CHOICE>
+          <CHOICE>Waiting Admin Aproval/Chờ phòng HC duyệt</CHOICE>
+          <CHOICE>Waiting Admin Director Aproval/Chờ GĐ HC duyệt</CHOICE>
+          <CHOICE>Waiting Direct Manager Aproval/Chờ tổ trưởng duyệt</CHOICE>
+          <CHOICE>Waiting Security Aproval/Chờ bảo vệ duyệt</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="Department" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{84d6b1bf-9438-4858-8c9a-7d5acdda7e1f}" Name="StepNumber" DisplayName="Step Number" Type="Number" Required="TRUE" Group="Stada Columns" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="StepModule" />
+          <FieldRef Name="CurrentStepStatus" />
+          <FieldRef Name="CommonDepartment" />
+          <FieldRef Name="StepNumber" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

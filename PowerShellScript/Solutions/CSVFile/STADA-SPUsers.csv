@@ -1,0 +1,182 @@
+﻿EmployeeType,FirstName,LastName,Display Name,AD Account,HomeTown,Address,Position,Manager,Department,EmployeeID,Email,Group,Missing Info,FactoryLocation,JoinedDate,Birthday,Gender,EmployeePermission
+AD User,Chương,Phạm Viết,Phạm Viết Chương,ACC-chuongpv,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11011,chuongpv@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Dung,Nguyễn Thị Kim,Nguyễn Thị Kim Dung,ACC-dungntk,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11010,dungntk@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Hậu,Ông Thanh,Ông Thanh Hậu,ACC-hauot,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11012,hauot@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Lệ,Trần Thị Kim,Trần Thị Kim Lệ,ACC-lettk,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11005,lettk@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Loan,Lê Nguyễn Đài,Lê Nguyễn Đài Loan,ACC-loanlnd,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11004,loanlnd@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Mai,Trần Hồng,Trần Hồng Mai,ACC-maith,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11007,maith@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Minh,Ngô Quang,Ngô Quang Minh,ACC-Minhnq,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11016,minhnq@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Nhàn,Vương Thoại,Vương Thoại Nhàn,ACC-Nhanvt,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,11013,nhanvt@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Quyên,Trần Thị Tuyết,Trần Thị Tuyết Quyên,acc-quyenttt,Ho Chi Minh,Ho Chi Minh,EMP,11001,Accounting,19165,quyenttt@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tươi,Trần Thị Thắm,Trần Thị Thắm Tươi,ACC-tuoittt,Ho Chi Minh,Ho Chi Minh,DEH,50001,Accounting,11001,tuoittt@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Ninh,Nguyễn Thái Khương,Nguyễn Thái Khương Ninh,AD-adl1,Ho Chi Minh,Ho Chi Minh,EMP,13013,Analytical Development,13067,ninhntk@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Vân,Lê Thị Hồng,Lê Thị Hồng Vân,AD-adl2,Ho Chi Minh,Ho Chi Minh,EMP,13013,Analytical Development,13036,vanlth@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trang,Nguyễn Thị Thanh,Nguyễn Thị Thanh Trang,AD-adl3,Ho Chi Minh,Ho Chi Minh,EMP,13013,Analytical Development,13010,trangnguyentt@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thảo,Kiều Lê Thanh,Kiều Lê Thanh Thảo,AD-ADl5,Ho Chi Minh,Ho Chi Minh,EMP,13013,Analytical Development,13091,thaoklt@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Oanh,Trần Thị Kiều,Trần Thị Kiều Oanh,AD-ADL6,Ho Chi Minh,Ho Chi Minh,EMP,13013,Analytical Development,13061,oanhttk@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Liên,Ngô Thị,Ngô Thị Liên,AD-ADL7,Ho Chi Minh,Ho Chi Minh,EMP,13013,Analytical Development,13026,liennt@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Hậu,Lê Trung,Lê Trung Hậu,AD-hault,Ho Chi Minh,Ho Chi Minh,DEH,50003,Analytical Development,13013,hault@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Test,Huỳnh Thị Sự,Huỳnh Thị Sự Test,Bod-001,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,50001,bod1@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Test,Thái Ngọc Huỳnh,Thái Ngọc Huỳnh Test,BOD-002,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,50002,bod2@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Test,Nguyễn Ngọc Liễu,Nguyễn Ngọc Liễu Test,bod-003,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,50003,bod3@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Dũng,Ông Văn,Ông Văn Dũng,dungong,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,10017,dungong@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Duy,Phan,Phan Duy,duyit,Ho Chi Minh,Ho Chi Minh,EMP,10004,IT,10011,duyit@stada.com.vn,IT Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Anh,Nguyễn Tuấn,Nguyễn Tuấn Anh,ENG-Anhnt,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14029,anhnt@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Bình,Bùi Quốc,Bùi Quốc Bình,ENG-binhbq,Ho Chi Minh,Ho Chi Minh,DEH,50002,Engineering,14036,binhbq@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Hiển,Trần Văn,Trần Văn Hiển,ENG-hientv,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14006,hientv@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Kha,Huỳnh Văn,Huỳnh Văn Kha,ENG-Khahv,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14038,khahv@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Lộc,Nguyễn Đức,Nguyễn Đức Lộc,eng-locnd,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14077,locnd@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Long,Mạc Thọ,Mạc Thọ Long,ENG-longmt,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14011,longmt@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Lữ,Nguyễn Hữu,Nguyễn Hữu Lữ,ENG-lunh,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14005,lunh@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Mạnh,Lê Phước,Lê Phước Mạnh,ENG-manhlp,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14009,manhlp@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Nguyễn,Dương Trần Trọng,Dương Trần Trọng Nguyễn,ENG-nguyendtt,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14018,nguyendtt@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Vinh,Nguyễn Trần Lê,Nguyễn Trần Lê Vinh,ENG-vinhntl,Ho Chi Minh,Ho Chi Minh,EMP,14036,Engineering,14007,vinhtl@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Anh,Phùng Văn Hoàng,Phùng Văn Hoàng Anh,FD-anhpvh,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13049,anhpvh@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,An,Nguyễn Thị Xuân,Nguyễn Thị Xuân An,FD-Anntx,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13060,anntx@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Đoan,Huỳnh Nguyễn Thúy,Huỳnh Nguyễn Thúy Đoan,FD-doanhnt,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13034,doanhnt@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Dũng,Dương Đức,Dương Đức Dũng,FD-dungdd,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13047,dungdd@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Dũng,Nguyễn Thanh,Nguyễn Thanh Dũng,FD-Dungnt,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13081,dungnt@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Duy,Nguyễn Dương Khánh,Nguyễn Dương Khánh Duy,FD-Duyndk,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13115,duyndk@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Phúc,Nguyễn,Nguyễn Phúc,FD-phucn,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,21014,phucn@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Quang,Huỳnh Vinh,Huỳnh Vinh Quang,FD-quanghv,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13048,quanghv@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Sơn,Lê Hồng,Lê Hồng Sơn,FD-Sonlh,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13124,sonlh@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Sơn,Võ Trường,Võ Trường Sơn,FD-sonvt,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13004,sonvt@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Trang,Lê Thị Huyền,Lê Thị Huyền Trang,FD-tranglth,Ho Chi Minh,Ho Chi Minh,DEH,50003,Formulation Development,13040,tranglth@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Vũ,Nguyễn Tấn,Nguyễn Tấn Vũ,FD-Vunt,Ho Chi Minh,Ho Chi Minh,EMP,13040,Formulation Development,13114,vunt@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Hằng,Trương Thanh,Trương Thanh Hằng,HR-hangtt,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,10051,hanhchanh@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Hiệu,Đặng Thị Mỹ,Đặng Thị Mỹ Hiệu,HR-hieudtm,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,19066,hieudtm@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Kiều,Lê Ngọc Thúy,Lê Ngọc Thúy Kiều,HR-kieulnt,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,10003,kieulnt@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Loan,Nguyễn Thị Kim,Nguyễn Thị Kim Loan,HR-loannguyentk,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,10015,loanntk@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thúy,Lê Thị Thanh,Lê Thị Thanh Thúy,HR-thuylett,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,10014,thuylett@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thủy,Phan Thanh,Phan Thanh Thủy,HR-thuypt,Ho Chi Minh,Ho Chi Minh,DEH,50001, Administration & Human Resource,10001,thuypt@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Triều,Nguyễn Phước,Nguyễn Phước Triều,hr-trieunp,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,20002,trieunp@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Yến,Nguyễn Thị Hải,Nguyễn Thị Hải Yến,HR-yennth,Ho Chi Minh,Ho Chi Minh,EMP,10001, Administration & Human Resource,11003,yennth@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Hưng,Lâm Hòa,Lâm Hòa Hưng,LW-hunglh,Ho Chi Minh,Ho Chi Minh,DEH,50002,Liquid Workshop,19028,hunglh@stada.com.vn,Liquid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Nga,Nguyễn Thị Bích,Nguyễn Thị Bích Nga,LW-Ngantb,Ho Chi Minh,Ho Chi Minh,EMP,19028,Liquid Workshop,19118,ngantb@stada.com.vn,Liquid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thắm,Bùi Thị Hồng,Bùi Thị Hồng Thắm,lw-thambth,Ho Chi Minh,Ho Chi Minh,EMP,19028,Liquid Workshop,19166,thambth@stada.com.vn,Liquid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Minh,Lê Bình,Lê Bình Minh,minhit,Ho Chi Minh,Ho Chi Minh,DEH,50001,IT,10004,minhit@stada.com.vn,IT Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Tài,Nguyễn Hữu,Nguyễn Hữu Tài,PIE-Tainh,Ho Chi Minh,Ho Chi Minh,EMP,12011,Import - Export,12001,logistic@stada.com.vn,Import - Export Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Yến,Nguyễn Thị Nguyệt,Nguyễn Thị Nguyệt Yến,PIE-yenntn,Ho Chi Minh,Ho Chi Minh,DEH,50001,Import - Export,12011,yenntn@stada.com.vn,Import - Export Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Lê,Nguyễn Thị Bạch,Nguyễn Thị Bạch Lê,PLA-lentb,Ho Chi Minh,Ho Chi Minh,EMP,12003,Planning,13027,lentb@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Linh,Lê Thị Mỹ,Lê Thị Mỹ Linh,PLA-Linhltm,Ho Chi Minh,Ho Chi Minh,EMP,12003,Planning,19109,linhletm@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trang,Đặng Thùy,Đặng Thùy Trang,pla-trangdt,Ho Chi Minh,Ho Chi Minh,EMP,12003,Planning,21033,trangdt@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tú,Nguyễn Phương,Nguyễn Phương Tú,PLA-Tunp,Ho Chi Minh,Ho Chi Minh,EMP,12003,Planning,12016,tunp@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Vũ,Huỳnh Ngọc,Huỳnh Ngọc Vũ,PLA-vuhn,Ho Chi Minh,Ho Chi Minh,DEH,50001,Planning,12003,vuhn@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Vương,Trần Minh,Trần Minh Vương,PLA-vuongtm,Ho Chi Minh,Ho Chi Minh,EMP,12003,Planning,12008,vuongtm@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Hiếu,Nguyễn Phạm Quốc,Nguyễn Phạm Quốc Hiếu,PROC-Hieunpq,Ho Chi Minh,Ho Chi Minh,DEH,50001,Procurement,12009,hieunpq@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Huyền,Triệu Bích,Triệu Bích Huyền,PROC-Huyentb,Ho Chi Minh,Ho Chi Minh,EMP,12009,Procurement,12018,huyentb@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thanh,Tiêu Nhật,Tiêu Nhật Thanh,PROC-Thanhtn,Ho Chi Minh,Ho Chi Minh,EMP,12009,Procurement,12020,procurement01@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Toàn,Vũ Duy,Vũ Duy Toàn,PROC-Toanvd,Ho Chi Minh,Ho Chi Minh,EMP,12009,Procurement,12006,toanvu@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Truyền,Nguyễn Đức,Nguyễn Đức Truyền,PROC-Truyennd,Ho Chi Minh,Ho Chi Minh,EMP,12009,Procurement,12019,procurement01@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Vân,Phạm Ngọc Thúy,Phạm Ngọc Thúy Vân,PROC-Vanpnt,Ho Chi Minh,Ho Chi Minh,EMP,12009,Procurement,12012,vanpnt@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Việt,Trần Quốc,Trần Quốc Việt,PROC-Viettq,Ho Chi Minh,Ho Chi Minh,EMP,12009,Procurement,12014,viettq@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Ánh,Nguyễn Thị Ngọc,Nguyễn Thị Ngọc Ánh,qa-anhntn,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16051,anhntn@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Anh,Trần Võ Quốc,Trần Võ Quốc Anh,QA-Anhtvq,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16068,anhtvq@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,An,Kha Vĩ,Kha Vĩ An,QA-Ankv,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16054,ankv@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Bảo,Trịnh Vũ Quốc,Trịnh Vũ Quốc Bảo,QA-Baotvq,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19212,baotvq@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Đan,Trần Thị Vy,Trần Thị Vy Đan,qa-danttv,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16058,danttv@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Diễm,Nguyễn Thị Bích,Nguyễn Thị Bích Diễm,QA-Diemntb,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16042,diemntb@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Di,Nguyễn Hải Phương,Nguyễn Hải Phương Di,qa-dinhp,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16052,dinhp@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Đức,Ngô Minh,Ngô Minh Đức,QA-Ducnm,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16066,ducnm@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Hải,Trịnh Văn,Trịnh Văn Hải,QA-Haitv,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16050,haitv@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Hiếu,Phan Trung,Phan Trung Hiếu,QA-hieupt,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16046,hieupt@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Huỳnh,Thái Ngọc,Thái Ngọc Huỳnh,qa-huynhtn,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,16002,huynhtn@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thái,Lê Quốc,Lê Quốc Thái,QA-IPC,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16022,ipcbd@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Khanh,Huỳnh Lệ,Huỳnh Lệ Khanh,QA-Khanhhl,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19150,khanhlh@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Linh,Nguyễn Thùy,Nguyễn Thùy Linh,QA-Linhnt,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19009,linhnt@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Linh,Võ Ngọc Mai,Võ Ngọc Mai Linh,QA-linhvnm,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16025,linhvnm@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Loan,Mai Thị Kim,Mai Thị Kim Loan,QA-Loanmtk,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,15041,loanmtk@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Long,Cao Thanh,Cao Thanh Long,QA-Longct,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16055,longct@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Mai,Nguyễn Thị Hoàng,Nguyễn Thị Hoàng Mai,QA-mainth,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16006,mainth@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Minh,Bùi Trọng Dạ,Bùi Trọng Dạ Minh,qa-minhbtd,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,15010,minhbtd@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Minh,Phạm Quang,Phạm Quang Minh,QA-minhpq,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19020,minhpq@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Nam,Phạm Duy,Phạm Duy Nam,QA-Nampd,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16061,nampd@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Ngọc,Vũ Thị Mỹ,Vũ Thị Mỹ Ngọc,QA-Ngocvtm,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16028,ngocvtm@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Nguyệt,Lưu Lệ,Lưu Lệ Nguyệt,QA-nguyetll,Ho Chi Minh,Ho Chi Minh,DEH,50002,Quality Assurance,19007,nguyetll@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Nhiếp,Nguyễn Lê Phương,Nguyễn Lê Phương Nhiếp,QA-nhiepnlp,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16004,nhiepnlp@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Phúc,Huỳnh Long Bá,Huỳnh Long Bá Phúc,QA-Phuchlb,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16067,phuchlb@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Phương,Huỳnh Lê Nguyên,Huỳnh Lê Nguyên Phương,QA-phuonghln,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16027,phuonghln@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Phượng,Nguyễn Thị,Nguyễn Thị Phượng,QA-phuongnt,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,15004,phuongnt@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tâm,Đặng Thanh,Đặng Thanh Tâm,QA-Tamdt,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16038,tamdt@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tân,Bùi Minh,Bùi Minh Tân,QA-tanbm,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19014,tanbm@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Thái,Đặng Đức,Đặng Đức Thái,QA-thaidd,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19025,thaidd@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Thanh,Đinh Thị Ngọc,Đinh Thị Ngọc Thanh,QA-thanhdtn,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16024,thanhdtn@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thảo,Lê Thị Mai,Lê Thị Mai Thảo,qa-thaoltm,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16015,thaoltm@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tiếp,Trương Thị,Trương Thị Tiếp,QA-tieptt,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,19132,tieptt@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trâm,Đỗ Thị Ánh,Đỗ Thị Ánh Trâm,QA-Tramdta,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16043,tramdta@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trang,Lê Phan Kim,Lê Phan Kim Trang,qa-tranglpk,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16069,tranglpk@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trúc,Nguyễn Bảo Anh,Nguyễn Bảo Anh Trúc,QA-Trucnba,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16049,trucnba@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Yến,Văn Thị Phương Linh,Văn Thị Phương Linh Yến,QA-Yenvtpl,Ho Chi Minh,Ho Chi Minh,EMP,19007,Quality Assurance,16048,yenvtpl@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Anh,Nguyễn Thị Kim,Nguyễn Thị Kim Anh,QC-Anhntk,Ho Chi Minh,Ho Chi Minh,DEH,50002,Quality Control,15002,anhntk@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Bích,Huỳnh Thị Ngọc,Huỳnh Thị Ngọc Bích,QC-bichhtn,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15052,bichhtn@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Chi,Phạm Thị Kim,Phạm Thị Kim Chi,QC-Chiptk,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15025,chiptk@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Dung,Trần Thị Thùy,Trần Thị Thùy Dung,QC-dungttt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15007,dungttt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Huệ,Nguyễn Thị Kim,Nguyễn Thị Kim Huệ,QC-huentk,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15047,huentk@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Hưởng,Nguyễn Công,Nguyễn Công Hưởng,QC-Huongnc,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15125,huongnc@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Khanh,Nguyễn Thị Phương,Nguyễn Thị Phương Khanh,qc-khanhntp,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15026,khanhntp@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Khởi,Bùi Văn,Bùi Văn Khởi,QC-Khoibv,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15109,khoibv@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Linh,Nguyễn Thị Thùy,Nguyễn Thị Thùy Linh,QC-Linhntt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15091,linhntt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Mai,Lê Thị Thanh,Lê Thị Thanh Mai,QC-Mailtt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15068,mailtt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Mai,Trương Thanh,Trương Thanh Mai,QC-maitt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15021,maitt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Mai,Trần Thị Tuyết,Trần Thị Tuyết Mai,qc-maittt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15058,maittt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Nga,Nguyễn Thị Thúy,Nguyễn Thị Thúy Nga,QC-Ngantt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15078,ngantt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Nhớ,Võ Thị Hồng,Võ Thị Hồng Nhớ,QC-nhovth,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,13017,nhovth@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Phương,Nguyễn Thị Thu,Nguyễn Thị Thu Phương,QC-Phuongntt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15070,phuongntt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Sương,Nguyễn Thị Hồng,Nguyễn Thị Hồng Sương,QC-suongnth,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15017,suongnth@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thắm,Nguyễn Thị Hồng,Nguyễn Thị Hồng Thắm,QC-thamnth,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15006,thamnth@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thảo,Phan Thị Thanh,Phan Thị Thanh Thảo,QC-thaoptt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15027,thaoptt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thảo,Trần Thị Thanh,Trần Thị Thanh Thảo,qc-thaottt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15049,thaottt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thủy,Bùi Xuân,Bùi Xuân Thủy,QC-thuybx,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15003,thuybx@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thúy,Đoàn Thị Ngọc,Đoàn Thị Ngọc Thúy,qc-thuydtn,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15046,thuydtn@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thùy,Mai Dương,Mai Dương Thùy,QC-Thuymd,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15051,thuymd@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trang,Phan Thị Mỹ,Phan Thị Mỹ Trang,QC-Trangptm,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15113,trangptm@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trúc,Đinh Thị Thanh,Đinh Thị Thanh Trúc,QC-Trucdtt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15084,trucdtt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tuyền,Vương Thị Thanh,Vương Thị Thanh Tuyền,QC-tuyenvtt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15012,tuyenvtt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Vân,Đoàn Thị Ngọc,Đoàn Thị Ngọc Vân,QC-Vandtn,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15009,vandtn@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Vĩ,Mai Thị,Mai Thị Vĩ,QC-Vimt,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15044,vimt@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Yên,Huỳnh Phú,Huỳnh Phú Yên,QC-Yenhp,Ho Chi Minh,Ho Chi Minh,EMP,15002,Quality Control,15105,yenhp@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Quang,Trần Huy,Trần Huy Quang,quangit,Ho Chi Minh,Ho Chi Minh,EMP,10004,IT,10044,quangit@stada.com.vn,IT Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Châm,Nguyễn Thị Huyền,Nguyễn Thị Huyền Châm,RA-chamnth,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13037,chamnth@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Hiền,Nguyễn Thị Thu,Nguyễn Thị Thu Hiền,RA-hienntt,Ho Chi Minh,Ho Chi Minh,DEH,50003,Regulatory Affairs,13109,hienntt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Hùng,Ngô Thanh,Ngô Thanh Hùng,RA-hungnt,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13006,hungnt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Huyền,Nguyễn Thị Minh,Nguyễn Thị Minh Huyền,RA-huyenntm,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13088,huyenntm@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Liên,Đinh Thị,Đinh Thị Liên,RA-Liendt,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13108,liendt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Nguyên,Trần Thị Minh,Trần Thị Minh Nguyên,ra-Nguyenttm,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13103,nguyenttm@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Như,Dương Thị,Dương Thị Như,ra-nhudt,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13101,nhudt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Quyên,Lương Thị Bảo,Lương Thị Bảo Quyên,RA-Quyenltb,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13033,quyenltb@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Quỳnh,Nguyễn Thúy,Nguyễn Thúy Quỳnh,RA-quynhnt,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13105,quynhnt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thêu,Đỗ Thị Kim,Đỗ Thị Kim Thêu,RA-theudtk,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13106,theudtk@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tiên,Phạm Xuân,Phạm Xuân Tiên,RA-tienpx,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,16008,tienpx@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trâm,Huỳnh Thị Thanh,Huỳnh Thị Thanh Trâm,RA-tramhtt,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13038,tramhtt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trang,Nguyễn Thị,Nguyễn Thị Trang,RA-Trangnt,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13097,trangnt@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trí,Lê Thị Như,Lê Thị Như Trí,RA-Triltn,Ho Chi Minh,Ho Chi Minh,EMP,13109,Regulatory Affairs,13096,triltn@stada.com.vn,Regulatory Affairs Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Liễu,Nguyễn Ngọc,Nguyễn Ngọc Liễu,rd-lieunn,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,13001,lieunguyen@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Sự,Huỳnh Thị,Huỳnh Thị Sự,su,Ho Chi Minh,Ho Chi Minh,BOD,,Board of Director,11009,suhuynh@stada.com.vn,Board of Director Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Châu,Phạm,Phạm Châu,sw-chaup,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19024,chaup@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Cúc,Ngô Thị Hoàng,Ngô Thị Hoàng Cúc,SW-Cucnth,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19288,cucnth@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Loan,Lê Thị Kim,Lê Thị Kim Loan,SW-Loanltk,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19071,loanltk@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Minh,Huỳnh Ngọc,Huỳnh Ngọc Minh,SW-Minhhn,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19037,minhhn@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Minh,Lê Quốc,Lê Quốc Minh,SW-minhlq,Ho Chi Minh,Ho Chi Minh,DEH,50002,Solid Workshop,16007,minhlq@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Oanh,Nguyễn Thị Hoàng,Nguyễn Thị Hoàng Oanh,SW-oanhnth,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19154,oanhnth@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Phương,Phạm Hoàng,Phạm Hoàng Phương,SW-phuongph,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19120,phuongph@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Tâm,Lê Quỳnh,Lê Quỳnh Tâm,sw-tamlq,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19070,tamlq@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Tân,Nguyễn Hoàng,Nguyễn Hoàng Tân,SW-Tannh,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19043,tannh@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Thảo,Nguyễn Lê Thu,Nguyễn Lê Thu Thảo,sw-thaonlt,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19208,thaonlt@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Thơ,Đào Thái,Đào Thái Thơ,SW-Thodt,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19157,thodt@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Trung,Thái Quốc,Thái Quốc Trung,sw-trungtq,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19075,trungtq@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Tú,Lê Minh,Lê Minh Tú,sw-tulm,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19011,tulm@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Tú,Phan Cẩm,Phan Cẩm Tú,SW-tupc,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19068,tupc@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Vi,Nguyễn Ngọc Thoại,Nguyễn Ngọc Thoại Vi,SW-Vinnt,Ho Chi Minh,Ho Chi Minh,EMP,16007,Solid Workshop,19059,vinnt@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Tiến,Lê Quốc,Lê Quốc Tiến,Tienit,Ho Chi Minh,Ho Chi Minh,EMP,10004,IT,10060,Tienit@stada.com.vn,IT Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Hà,Lê Thị,Lê Thị Hà,TT-halt,Ho Chi Minh,Ho Chi Minh,DEH,50002,Technology Transfer,16003,halt@stada.com.vn,Technology Transfer Members,,NM2,1/1/2012,2/2/1985,F,Contributors
+AD User,Trân,Chu Huyền,Chu Huyền Trân,TT-tranch,Ho Chi Minh,Ho Chi Minh,EMP,16003,Technology Transfer,19002,tranch@stada.com.vn,Technology Transfer Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Công,Nguyễn Văn,Nguyễn Văn Công,WH-congnv,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21006,congnv@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Dân,Trần Hoàng,Trần Hoàng Dân,WH-KhoTP,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21032,danth@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Khương,Huỳnh Chí,Huỳnh Chí Khương,WH-Khuonghc,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21044,khuonghc@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Linh,Trần Thị Phượng,Trần Thị Phượng Linh,WH-Linhttp,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,15131,linhttp@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,F,Members
+AD User,Long,Nguyễn Phi,Nguyễn Phi Long,WH-Longnp,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21029,longnp@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Nguyên,Phan Đình,Phan Đình Nguyên,WH-nguyenpd,Ho Chi Minh,Ho Chi Minh,DEH,12003,Warehouse,21005,nguyenpd@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Contributors
+AD User,Phong,Trần Bá Thanh,Trần Bá Thanh Phong,WH-phongtbt,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21008,phongtbt@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Quang,Dương Văn,Dương Văn Quang,WH-Quangdv,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21021,quangdv@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Tân,Nguyễn Văn,Nguyễn Văn Tân,WH-Tannv,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21025,tannv@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members
+AD User,Trí,Trần Lê Quang,Trần Lê Quang Trí,wh-tritlq,Ho Chi Minh,Ho Chi Minh,EMP,21005,Warehouse,21004,tritlq@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Members

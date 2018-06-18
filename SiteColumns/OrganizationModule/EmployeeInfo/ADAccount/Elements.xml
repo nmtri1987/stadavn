@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f400afb9-1b9e-4a4b-9608-e6a6fe52852f}"
+       Name="ADAccount"
+       DisplayName="AD Account"
+       Type="User" UserSelectionMode="PeopleOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

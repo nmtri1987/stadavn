@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100CE8D32C6A293415BA259DB15B93AB01D"
+               Name="RecruitmentLanguageSkillsContentType"
+               Group="Stada Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}"  Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE"/>
+      <FieldRef ID="{eaa60ebb-146e-4e9a-bbbd-e9f3a76f55d0}"  Name="ForeignLanguage" DisplayName="Foreign Language"/>
+      <FieldRef ID="{20e461c7-ed2f-4827-be7b-6c209487d882}"  Name="Level" DisplayName="Level"/>
+      <FieldRef ID="{15e826bc-c876-4605-ac81-c39cbf86806f}"  Name="Request" DisplayName="Request"/>
+    </FieldRefs>
+  </ContentType>
+</Elements>

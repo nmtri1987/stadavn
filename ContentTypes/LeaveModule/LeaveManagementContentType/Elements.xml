@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100D0DF05F8F42A44F88AB4FB9E6DD3B99C" Name="$Resources:RBVHStadaLists,LeaveList_ContentTypeTitle" Group="RBVH Content Types" Description="$Resources:RBVHStadaLists,LeaveList_ContentTypeDesciption" Inherits="FALSE" Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{f44c571a-b614-4c6d-af75-905be40b58ae}" Name="Requester" Required="TRUE" />
+      <FieldRef ID="{7379edda-8226-4803-8771-5b8be6eb27bc}" Name="RequestFor" Required="TRUE" />
+      <FieldRef ID="{cf75cef9-4a71-48c3-a3af-9364399ee5fb}" Name="CommonFrom" Required="TRUE" />
+      <FieldRef ID="{17d909e0-78dc-4a8e-b979-55ee93672c8c}" Name="To" Required="TRUE" />
+      <FieldRef ID="{126a474f-eb5e-43be-9909-c826e5b7feee}" Name="LeaveHours" Required="TRUE" />
+      <FieldRef ID="{cbb507d9-cbcf-4301-8bd3-c51b42c7b3a2}" Name="TotalDays" Required="TRUE" />
+      <FieldRef ID="{2c0fb35f-388b-4c7b-8dfd-ff1cb4d177c0}" Name="Reason" Required="FALSE" />
+      <FieldRef ID="{6da5d39c-9670-4612-9220-03808a292946}" Name="TransferworkTo" Required="TRUE" />
+      <FieldRef ID="{f72a49b0-4f2e-40c4-ab7b-17f56fa40be7}" Name="LeftAt" Format="DateTime" Required="FALSE" />
+      <FieldRef ID="{FD97F010-A920-46D9-97C7-60A666E2042E}" Name="CheckOutBy" Required="FALSE" />
+      <FieldRef ID="{239c0d07-99cc-4ca4-b91b-0dc53f9da8f4}" Name="Left" Required="FALSE" />
+      <FieldRef ID="{ed4a660f-8902-4439-8866-012eb18eb15b}" Name="EnterTime" Required="FALSE" />
+      <FieldRef ID="{4B706809-A81F-427E-836C-D2C434D3155D}" Name="CheckInBy" Required="FALSE" />
+      <FieldRef ID="{034a42a9-13f1-47bd-b7f7-9293cd8e63db}" Name="UnexpectedLeave" Required="FALSE" />
+      <FieldRef ID="{727e82f1-1157-41ab-a418-2a8e641158d0}" Name="IsValidRequest" Required="FALSE" />
+      <FieldRef ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}" Name="CommonComment" Required="FALSE" />
+      <FieldRef ID="{2cd07572-127a-4891-afb0-e19dae00dfcc}" Name="ApprovalStatus" Required="FALSE" />
+      <FieldRef ID="{7ca29d92-75a3-4a49-8a8d-f23a82316c98}" Name="CommonApprover1" Required="FALSE" />
+      <FieldRef ID="{ad2cf45c-78de-4662-96a9-192aa1135af0}" Name="CommonApprover2" Required="FALSE" />
+      <FieldRef ID="{8cb3dbad-21d7-4641-8cce-632bdd67413f}" Name="CommonApprover3" Required="FALSE" />
+      <FieldRef ID="{9c190e70-9337-40a9-aeb9-c10bd208f0ec}" Name="CommonAddApprover1" Required="FALSE" />
+      <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" Required="FALSE" />
+      <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" Required="FALSE" />
+      <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" Required="FALSE" />
+      <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" Required="FALSE" />
+      <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" Required="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

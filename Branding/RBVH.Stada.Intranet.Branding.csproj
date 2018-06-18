@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.Branding</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.Branding</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>No Activation</ActiveDeploymentConfiguration>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <AssemblyDeploymentTarget>GlobalAssemblyCache</AssemblyDeploymentTarget>
+    <IncludeAssemblyInPackage>True</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\TFS_STADA\STADA\Branch\Stada.Intranet.SP2016.20161221\Backup1\</UpgradeBackupLocation>
+    <OldToolsVersion>14.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PostDeploymentCommand>%25windir%25\sysnative\windowspowershell\v1.0\powershell -File "%24%28SolutionDir%29Scripts\Post_Deployment\CreatePoliciesSiteForDev.ps1" -SiteURL %24%28SharePointSiteUrl%29 -DirPath "%24%28SolutionDir%29Scripts\Post_Deployment"</PostDeploymentCommand>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PreDeploymentCommand>%25windir%25\sysnative\windowspowershell\v1.0\powershell -File "%24%28SolutionDir%29PowerShellScript\Solutions\CreateGroup.ps1" -SiteURL %24%28SharePointSiteUrl%29 -DirPath "%24%28SolutionDir%29PowerShellScript\Solutions\CSVFile"</PreDeploymentCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventReceivers\AddSubsiteEventReceiver\AddSubsiteEventReceiver.cs" />
+    <Compile Include="Features\FeatureSite\FeatureSite.EventReceiver.cs">
+      <DependentUpon>FeatureSite.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\FeatureWeb\FeatureWeb.EventReceiver.cs">
+      <DependentUpon>FeatureWeb.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="EventReceivers\AddSubsiteEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1f1a9eca-307b-4650-aee0-c037d9e22fa6}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\FeatureWeb\FeatureWeb.feature">
+      <FeatureId>{8828255e-5abb-4f62-9769-8e44d2a8b8fd}</FeatureId>
+    </None>
+    <None Include="Features\FeatureSite\FeatureSite.feature">
+      <FeatureId>{83d19896-61ab-4dca-9f9a-4412a1479a81}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{86923f3d-0081-4c09-81ec-f31ad550bffe}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPages\stada.master" />
+    <None Include="Package\Package.package">
+      <PackageId>{032daac7-db0c-4427-8377-5efcf646764a}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="web.config">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EventReceivers\AddSubsiteEventReceiver\Elements.xml" />
+    <Content Include="Features\FeatureWeb\FeatureWeb.Template.xml">
+      <DependentUpon>FeatureWeb.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\FeatureSite\FeatureSite.Template.xml">
+      <DependentUpon>FeatureSite.feature</DependentUpon>
+    </Content>
+    <Content Include="MasterPages\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MasterPages\StadaEnterpriseWiki.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\RBVH.Stada.Intranet.Biz.csproj">
+      <Project>{0973A244-0020-4D1A-84F2-B1BFC7F906F9}</Project>
+      <Name>RBVH.Stada.Intranet.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreSharePoint\RBVH.Core.SharePoint.csproj">
+      <Project>{7a0211a8-a1c7-4166-b36b-5f3a8cc546e6}</Project>
+      <Name>RBVH.Core.SharePoint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

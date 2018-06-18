@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b7bda11b-0675-4ed5-900c-6ff1e09258d9}"
+       Name="Quantity"
+       DisplayName="Quantity"
+       Type="Number"
+       Min="0"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

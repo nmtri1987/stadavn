@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8669dcba-8999-4e13-b3ff-aaf6f5cf511a}"
+       Name="ShiftTimeWorkingHour"
+       DisplayName="Shift Time Working Hour"
+       Type="Number"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

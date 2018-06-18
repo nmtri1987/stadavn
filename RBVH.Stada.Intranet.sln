@@ -1,0 +1,350 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.Biz", "Commons\RBVH.Stada.Intranet.Biz.csproj", "{0973A244-0020-4D1A-84F2-B1BFC7F906F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Core.SharePoint", "CoreSharePoint\RBVH.Core.SharePoint.csproj", "{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.ListDefinitions", "ListDefinitions\RBVH.Stada.Intranet.ListDefinitions.csproj", "{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48} = {B84D2843-1617-459E-BCB9-3DB30CB2FE48}
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D} = {A93ACC5E-B469-4097-8FC6-991E04685B1D}
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE} = {62B10463-7A95-446F-AEF8-3FEFD20C27FE}
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED} = {98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A} = {85CE54C1-9BD5-4705-A996-E4ADCA97819A}
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0} = {52AFD9CB-E01E-4FC8-89E7-8655700664F0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.Resources", "Resources\RBVH.Stada.Intranet.Resources.csproj", "{85CE54C1-9BD5-4705-A996-E4ADCA97819A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.WebPages", "WebPages\RBVH.Stada.Intranet.WebPages.csproj", "{52AFD9CB-E01E-4FC8-89E7-8655700664F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A} = {85CE54C1-9BD5-4705-A996-E4ADCA97819A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.ContentTypes", "ContentTypes\RBVH.Stada.Intranet.ContentTypes.csproj", "{A93ACC5E-B469-4097-8FC6-991E04685B1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48} = {B84D2843-1617-459E-BCB9-3DB30CB2FE48}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.SiteColumns", "SiteColumns\RBVH.Stada.Intranet.SiteColumns.csproj", "{B84D2843-1617-459E-BCB9-3DB30CB2FE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.Branding", "Branding\RBVH.Stada.Intranet.Branding.csproj", "{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.ListEventReceiver", "ListEventReceiver\RBVH.Stada.Intranet.ListEventReceiver.csproj", "{62B10463-7A95-446F-AEF8-3FEFD20C27FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post_Deployment", "Post_Deployment", "{BD637DE2-D270-48AC-9F49-DB0BCD7EF056}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Post_Deployment\CreatePoliciesSiteForDev.ps1 = Scripts\Post_Deployment\CreatePoliciesSiteForDev.ps1
+		Scripts\Post_Deployment\Department Site.wsp = Scripts\Post_Deployment\Department Site.wsp
+		Scripts\Post_Deployment\PoliciesSite.wsp = Scripts\Post_Deployment\PoliciesSite.wsp
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.SiteTemplate", "SiteTemplate\RBVH.Stada.Intranet.SiteTemplate.csproj", "{185FE98A-5C3E-47B2-9306-8CC1A9493877}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED} = {98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A} = {85CE54C1-9BD5-4705-A996-E4ADCA97819A}
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523} = {1792A3EE-C61F-4F2C-A0AC-453FF0D18523}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{0032C544-2F27-4A59-9E35-4794DDDA03BC}"
+	ProjectSection(SolutionItems) = preProject
+		DeploymentNote.txt = DeploymentNote.txt
+		Notes.txt = Notes.txt
+		wss.xsd = wss.xsd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowershellScripts", "PowershellScripts", "{C0BBB713-CCD0-4D0B-B8EE-51312E797D04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{80957DEE-6DB5-4A25-B8B8-B888905C7709}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShellScript\Solutions\ActiveFeatureForWebPages.ps1 = PowerShellScript\Solutions\ActiveFeatureForWebPages.ps1
+		PowerShellScript\Solutions\ActiveFeatures.bat = PowerShellScript\Solutions\ActiveFeatures.bat
+		PowerShellScript\Solutions\ActiveFeatures.ps1 = PowerShellScript\Solutions\ActiveFeatures.ps1
+		PowerShellScript\Solutions\AddMiniCalendarSubSite.ps1 = PowerShellScript\Solutions\AddMiniCalendarSubSite.ps1
+		PowerShellScript\Solutions\AddMiniCalendarWebPartMainSite.ps1 = PowerShellScript\Solutions\AddMiniCalendarWebPartMainSite.ps1
+		PowerShellScript\Solutions\AssignContributorPermissionByModule.ps1 = PowerShellScript\Solutions\AssignContributorPermissionByModule.ps1
+		PowerShellScript\Solutions\AssignContributorPermissionForAllLists.ps1 = PowerShellScript\Solutions\AssignContributorPermissionForAllLists.ps1
+		PowerShellScript\Solutions\AssignReadPermissionForAllLists.ps1 = PowerShellScript\Solutions\AssignReadPermissionForAllLists.ps1
+		PowerShellScript\Solutions\AssignReadPermissionRootSiteInMainGroup.ps1 = PowerShellScript\Solutions\AssignReadPermissionRootSiteInMainGroup.ps1
+		PowerShellScript\Solutions\Build_Delegation.bat = PowerShellScript\Solutions\Build_Delegation.bat
+		PowerShellScript\Solutions\Build_TFS1594.bat = PowerShellScript\Solutions\Build_TFS1594.bat
+		PowerShellScript\Solutions\Build_TFS1595.bat = PowerShellScript\Solutions\Build_TFS1595.bat
+		PowerShellScript\Solutions\Build_TFS1596.bat = PowerShellScript\Solutions\Build_TFS1596.bat
+		PowerShellScript\Solutions\Build_TFS1597.bat = PowerShellScript\Solutions\Build_TFS1597.bat
+		PowerShellScript\Solutions\Build_v20170922.bat = PowerShellScript\Solutions\Build_v20170922.bat
+		PowerShellScript\Solutions\Build_v20170925.bat = PowerShellScript\Solutions\Build_v20170925.bat
+		PowerShellScript\Solutions\CalendarOverlayMainSite.ps1 = PowerShellScript\Solutions\CalendarOverlayMainSite.ps1
+		PowerShellScript\Solutions\CalendarOverlaySubsite.ps1 = PowerShellScript\Solutions\CalendarOverlaySubsite.ps1
+		PowerShellScript\Solutions\ChangeNewUpdateLinkForLists.ps1 = PowerShellScript\Solutions\ChangeNewUpdateLinkForLists.ps1
+		PowerShellScript\Solutions\CopyResource.bat = PowerShellScript\Solutions\CopyResource.bat
+		PowerShellScript\Solutions\CopyResource.ps1 = PowerShellScript\Solutions\CopyResource.ps1
+		PowerShellScript\Solutions\CreateFolderInFormList.ps1 = PowerShellScript\Solutions\CreateFolderInFormList.ps1
+		PowerShellScript\Solutions\CreateGroup.ps1 = PowerShellScript\Solutions\CreateGroup.ps1
+		PowerShellScript\Solutions\CreatePoliciesSite.ps1 = PowerShellScript\Solutions\CreatePoliciesSite.ps1
+		PowerShellScript\Solutions\CreateUserAD.bat = PowerShellScript\Solutions\CreateUserAD.bat
+		PowerShellScript\Solutions\CreateUserAD.ps1 = PowerShellScript\Solutions\CreateUserAD.ps1
+		PowerShellScript\Solutions\DeactivateActivateFeatures.ps1 = PowerShellScript\Solutions\DeactivateActivateFeatures.ps1
+		PowerShellScript\Solutions\DeployPackages.ps1 = PowerShellScript\Solutions\DeployPackages.ps1
+		PowerShellScript\Solutions\DeployRequestDiploma.ps1 = PowerShellScript\Solutions\DeployRequestDiploma.ps1
+		PowerShellScript\Solutions\DisableMinualDownloadFeature.ps1 = PowerShellScript\Solutions\DisableMinualDownloadFeature.ps1
+		PowerShellScript\Solutions\DllToGac.ps1 = PowerShellScript\Solutions\DllToGac.ps1
+		PowerShellScript\Solutions\EnableVersionHistoryForList.ps1 = PowerShellScript\Solutions\EnableVersionHistoryForList.ps1
+		PowerShellScript\Solutions\ExportEmployeesToCSV.ps1 = PowerShellScript\Solutions\ExportEmployeesToCSV.ps1
+		PowerShellScript\Solutions\ExportEmployeesToCSVStart.bat = PowerShellScript\Solutions\ExportEmployeesToCSVStart.bat
+		PowerShellScript\Solutions\ImportCompanyVehicles.ps1 = PowerShellScript\Solutions\ImportCompanyVehicles.ps1
+		PowerShellScript\Solutions\ImportConfigurations.bat = PowerShellScript\Solutions\ImportConfigurations.bat
+		PowerShellScript\Solutions\ImportConfigurations.ps1 = PowerShellScript\Solutions\ImportConfigurations.ps1
+		PowerShellScript\Solutions\ImportDataToCalendar.ps1 = PowerShellScript\Solutions\ImportDataToCalendar.ps1
+		PowerShellScript\Solutions\ImportDelegationEmployeePositions.ps1 = PowerShellScript\Solutions\ImportDelegationEmployeePositions.ps1
+		PowerShellScript\Solutions\ImportDelegationModule.ps1 = PowerShellScript\Solutions\ImportDelegationModule.ps1
+		PowerShellScript\Solutions\ImportDepartment.ps1 = PowerShellScript\Solutions\ImportDepartment.ps1
+		PowerShellScript\Solutions\ImportEmployee.ps1 = PowerShellScript\Solutions\ImportEmployee.ps1
+		PowerShellScript\Solutions\ImportEmployeePosition.ps1 = PowerShellScript\Solutions\ImportEmployeePosition.ps1
+		PowerShellScript\Solutions\ImportFactoryLocation.ps1 = PowerShellScript\Solutions\ImportFactoryLocation.ps1
+		PowerShellScript\Solutions\ImportForeignLanguage.ps1 = PowerShellScript\Solutions\ImportForeignLanguage.ps1
+		PowerShellScript\Solutions\ImportForeignLanguageLevel.ps1 = PowerShellScript\Solutions\ImportForeignLanguageLevel.ps1
+		PowerShellScript\Solutions\ImportGroups.ps1 = PowerShellScript\Solutions\ImportGroups.ps1
+		PowerShellScript\Solutions\ImportMailTemplate.ps1 = PowerShellScript\Solutions\ImportMailTemplate.ps1
+		PowerShellScript\Solutions\ImportPermissionPage.bat = PowerShellScript\Solutions\ImportPermissionPage.bat
+		PowerShellScript\Solutions\ImportPermissionPage.ps1 = PowerShellScript\Solutions\ImportPermissionPage.ps1
+		PowerShellScript\Solutions\ImportRecruitmentTeam.ps1 = PowerShellScript\Solutions\ImportRecruitmentTeam.ps1
+		PowerShellScript\Solutions\ImportRequestReceivedDepartmentViewers.ps1 = PowerShellScript\Solutions\ImportRequestReceivedDepartmentViewers.ps1
+		PowerShellScript\Solutions\ImportRequestType.ps1 = PowerShellScript\Solutions\ImportRequestType.ps1
+		PowerShellScript\Solutions\ImportShiftData.ps1 = PowerShellScript\Solutions\ImportShiftData.ps1
+		PowerShellScript\Solutions\ImportShiftTimeData.ps1 = PowerShellScript\Solutions\ImportShiftTimeData.ps1
+		PowerShellScript\Solutions\ImportWorkflowEmailTemplate.bat = PowerShellScript\Solutions\ImportWorkflowEmailTemplate.bat
+		PowerShellScript\Solutions\ImportWorkflowEmailTemplate.ps1 = PowerShellScript\Solutions\ImportWorkflowEmailTemplate.ps1
+		PowerShellScript\Solutions\ImportWorkflowStepList.bat = PowerShellScript\Solutions\ImportWorkflowStepList.bat
+		PowerShellScript\Solutions\ImportWorkflowStepList.ps1 = PowerShellScript\Solutions\ImportWorkflowStepList.ps1
+		PowerShellScript\Solutions\InstallSolutions - RequestDiplomaModule.bat = PowerShellScript\Solutions\InstallSolutions - RequestDiplomaModule.bat
+		PowerShellScript\Solutions\InstallSolutions.bat = PowerShellScript\Solutions\InstallSolutions.bat
+		PowerShellScript\Solutions\InstallSolutions.ps1 = PowerShellScript\Solutions\InstallSolutions.ps1
+		PowerShellScript\Solutions\PrepareDataForTest.ps1 = PowerShellScript\Solutions\PrepareDataForTest.ps1
+		PowerShellScript\Solutions\RBVH.Stada.Intranet.Main.wsp = PowerShellScript\Solutions\RBVH.Stada.Intranet.Main.wsp
+		PowerShellScript\Solutions\RemoveUnusedFeatures.ps1 = PowerShellScript\Solutions\RemoveUnusedFeatures.ps1
+		PowerShellScript\Solutions\SetLanguageForCreatedSite.ps1 = PowerShellScript\Solutions\SetLanguageForCreatedSite.ps1
+		PowerShellScript\Solutions\SetStatusOrderFormula.ps1 = PowerShellScript\Solutions\SetStatusOrderFormula.ps1
+		PowerShellScript\Solutions\UninstallSolutions.bat = PowerShellScript\Solutions\UninstallSolutions.bat
+		PowerShellScript\Solutions\UninstallSolutions.ps1 = PowerShellScript\Solutions\UninstallSolutions.ps1
+		PowerShellScript\Solutions\UpdateConfigurations.bat = PowerShellScript\Solutions\UpdateConfigurations.bat
+		PowerShellScript\Solutions\UpdateConfigurations.ps1 = PowerShellScript\Solutions\UpdateConfigurations.ps1
+		PowerShellScript\Solutions\UpdateDepartmentBOD.ps1 = PowerShellScript\Solutions\UpdateDepartmentBOD.ps1
+		PowerShellScript\Solutions\UpdateSolutions.bat = PowerShellScript\Solutions\UpdateSolutions.bat
+		PowerShellScript\Solutions\UploadEmployeePictureToImagesList.ps1 = PowerShellScript\Solutions\UploadEmployeePictureToImagesList.ps1
+		PowerShellScript\Solutions\UploadFileToDocumentList.ps1 = PowerShellScript\Solutions\UploadFileToDocumentList.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SiteTemplates", "SiteTemplates", "{DB989DB8-1D0D-4757-B44C-13EFEE766B70}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShellScript\Solutions\SiteTemplates\PoliciesSite.wsp = PowerShellScript\Solutions\SiteTemplates\PoliciesSite.wsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSVFile", "CSVFile", "{1BE1067F-4E2A-4A1B-9822-D5C43A5E9343}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShellScript\Solutions\CSVFile\CalendarData.csv = PowerShellScript\Solutions\CSVFile\CalendarData.csv
+		PowerShellScript\Solutions\CSVFile\CompanyVehicles.csv = PowerShellScript\Solutions\CSVFile\CompanyVehicles.csv
+		PowerShellScript\Solutions\CSVFile\Configurations.csv = PowerShellScript\Solutions\CSVFile\Configurations.csv
+		PowerShellScript\Solutions\CSVFile\ContributorPermissionByModule.csv = PowerShellScript\Solutions\CSVFile\ContributorPermissionByModule.csv
+		PowerShellScript\Solutions\CSVFile\CreateGroup.csv = PowerShellScript\Solutions\CSVFile\CreateGroup.csv
+		PowerShellScript\Solutions\CSVFile\DelegationEmployeePosition.csv = PowerShellScript\Solutions\CSVFile\DelegationEmployeePosition.csv
+		PowerShellScript\Solutions\CSVFile\DelegationModules.csv = PowerShellScript\Solutions\CSVFile\DelegationModules.csv
+		PowerShellScript\Solutions\CSVFile\DepartmentBOD.csv = PowerShellScript\Solutions\CSVFile\DepartmentBOD.csv
+		PowerShellScript\Solutions\CSVFile\DepartmentList.csv = PowerShellScript\Solutions\CSVFile\DepartmentList.csv
+		PowerShellScript\Solutions\CSVFile\EmployeePosition.csv = PowerShellScript\Solutions\CSVFile\EmployeePosition.csv
+		PowerShellScript\Solutions\CSVFile\EnableVersionHistoryForList.csv = PowerShellScript\Solutions\CSVFile\EnableVersionHistoryForList.csv
+		PowerShellScript\Solutions\CSVFile\FactoryLocation.csv = PowerShellScript\Solutions\CSVFile\FactoryLocation.csv
+		PowerShellScript\Solutions\CSVFile\ForeignLanguageData.csv = PowerShellScript\Solutions\CSVFile\ForeignLanguageData.csv
+		PowerShellScript\Solutions\CSVFile\ForeignLanguageLevelData.csv = PowerShellScript\Solutions\CSVFile\ForeignLanguageLevelData.csv
+		PowerShellScript\Solutions\CSVFile\GroupHasContributorInAllLists.csv = PowerShellScript\Solutions\CSVFile\GroupHasContributorInAllLists.csv
+		PowerShellScript\Solutions\CSVFile\GroupPermission.csv = PowerShellScript\Solutions\CSVFile\GroupPermission.csv
+		PowerShellScript\Solutions\CSVFile\MailTemplateData.csv = PowerShellScript\Solutions\CSVFile\MailTemplateData.csv
+		PowerShellScript\Solutions\CSVFile\RecruitmentTeam.csv = PowerShellScript\Solutions\CSVFile\RecruitmentTeam.csv
+		PowerShellScript\Solutions\CSVFile\RequestReceivedDepartmentViewersData.csv = PowerShellScript\Solutions\CSVFile\RequestReceivedDepartmentViewersData.csv
+		PowerShellScript\Solutions\CSVFile\RequestTypeData.csv = PowerShellScript\Solutions\CSVFile\RequestTypeData.csv
+		PowerShellScript\Solutions\CSVFile\ShiftTimeData.csv = PowerShellScript\Solutions\CSVFile\ShiftTimeData.csv
+		PowerShellScript\Solutions\CSVFile\STADA-AdminUsers.csv = PowerShellScript\Solutions\CSVFile\STADA-AdminUsers.csv
+		PowerShellScript\Solutions\CSVFile\STADA-AllUsersUpdate.csv = PowerShellScript\Solutions\CSVFile\STADA-AllUsersUpdate.csv
+		PowerShellScript\Solutions\CSVFile\STADA-CommonUsers.csv = PowerShellScript\Solutions\CSVFile\STADA-CommonUsers.csv
+		PowerShellScript\Solutions\CSVFile\STADA-SPUsers.csv = PowerShellScript\Solutions\CSVFile\STADA-SPUsers.csv
+		PowerShellScript\Solutions\CSVFile\STADA-TestUsers.csv = PowerShellScript\Solutions\CSVFile\STADA-TestUsers.csv
+		PowerShellScript\Solutions\CSVFile\WorkflowEmailTemplateData.csv = PowerShellScript\Solutions\CSVFile\WorkflowEmailTemplateData.csv
+		PowerShellScript\Solutions\CSVFile\WorkflowStepData.csv = PowerShellScript\Solutions\CSVFile\WorkflowStepData.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.Webservices", "Webservices\RBVH.Stada.Intranet.Webservices.csproj", "{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerShellLogs", "PowerShellLogs", "{1420C764-D649-482E-BE2E-B54A6DBDEE79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.Main", "Main\RBVH.Stada.Intranet.Main.csproj", "{716A65FE-DC3C-4254-BABA-7D4EB4D66593}"
+	ProjectSection(ProjectDependencies) = postProject
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C} = {217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}
+		{0973A244-0020-4D1A-84F2-B1BFC7F906F9} = {0973A244-0020-4D1A-84F2-B1BFC7F906F9}
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE} = {62B10463-7A95-446F-AEF8-3FEFD20C27FE}
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877} = {185FE98A-5C3E-47B2-9306-8CC1A9493877}
+		{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6} = {7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED} = {98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A} = {85CE54C1-9BD5-4705-A996-E4ADCA97819A}
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0} = {52AFD9CB-E01E-4FC8-89E7-8655700664F0}
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523} = {1792A3EE-C61F-4F2C-A0AC-453FF0D18523}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.ConsoleTest", "ConsoleTest\RBVH.Stada.Intranet.ConsoleTest.csproj", "{1DFCF301-432A-49F6-8100-0BC23B0D67C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBVH.Stada.Intranet.HotFixes", "HotFixes\RBVH.Stada.Intranet.HotFixes.csproj", "{7F2903B8-2069-4AEF-B61A-DB584884B7D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{30CB54D5-2169-4B55-A25A-0A3771115011}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShellScript\Solutions\Packages\RBVH.Stada.Intranet.WebPages.wsp = PowerShellScript\Solutions\Packages\RBVH.Stada.Intranet.WebPages.wsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{92187689-84F1-4A02-B64A-6F1001F71EAF}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShellScript\Solutions\Build\Build_v20170926.bat = PowerShellScript\Solutions\Build\Build_v20170926.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0973A244-0020-4D1A-84F2-B1BFC7F906F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0973A244-0020-4D1A-84F2-B1BFC7F906F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0973A244-0020-4D1A-84F2-B1BFC7F906F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0973A244-0020-4D1A-84F2-B1BFC7F906F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1792A3EE-C61F-4F2C-A0AC-453FF0D18523}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CE54C1-9BD5-4705-A996-E4ADCA97819A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AFD9CB-E01E-4FC8-89E7-8655700664F0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93ACC5E-B469-4097-8FC6-991E04685B1D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84D2843-1617-459E-BCB9-3DB30CB2FE48}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AAC9B1-9CE7-4690-BE4E-FCEE2A7EFDED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B10463-7A95-446F-AEF8-3FEFD20C27FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185FE98A-5C3E-47B2-9306-8CC1A9493877}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{716A65FE-DC3C-4254-BABA-7D4EB4D66593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716A65FE-DC3C-4254-BABA-7D4EB4D66593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716A65FE-DC3C-4254-BABA-7D4EB4D66593}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{716A65FE-DC3C-4254-BABA-7D4EB4D66593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716A65FE-DC3C-4254-BABA-7D4EB4D66593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716A65FE-DC3C-4254-BABA-7D4EB4D66593}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1DFCF301-432A-49F6-8100-0BC23B0D67C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFCF301-432A-49F6-8100-0BC23B0D67C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFCF301-432A-49F6-8100-0BC23B0D67C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFCF301-432A-49F6-8100-0BC23B0D67C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2903B8-2069-4AEF-B61A-DB584884B7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2903B8-2069-4AEF-B61A-DB584884B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2903B8-2069-4AEF-B61A-DB584884B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2903B8-2069-4AEF-B61A-DB584884B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80957DEE-6DB5-4A25-B8B8-B888905C7709} = {C0BBB713-CCD0-4D0B-B8EE-51312E797D04}
+		{DB989DB8-1D0D-4757-B44C-13EFEE766B70} = {80957DEE-6DB5-4A25-B8B8-B888905C7709}
+		{1BE1067F-4E2A-4A1B-9822-D5C43A5E9343} = {80957DEE-6DB5-4A25-B8B8-B888905C7709}
+		{1420C764-D649-482E-BE2E-B54A6DBDEE79} = {80957DEE-6DB5-4A25-B8B8-B888905C7709}
+		{30CB54D5-2169-4B55-A25A-0A3771115011} = {80957DEE-6DB5-4A25-B8B8-B888905C7709}
+		{92187689-84F1-4A02-B64A-6F1001F71EAF} = {80957DEE-6DB5-4A25-B8B8-B888905C7709}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rbvhsharepointprojects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SiteColumns\\RBVH.Stada.Intranet.SiteColumns.csproj
+		SccProjectName1 = SiteColumns
+		SccLocalPath1 = SiteColumns
+		SccProjectUniqueName2 = ContentTypes\\RBVH.Stada.Intranet.ContentTypes.csproj
+		SccProjectName2 = ContentTypes
+		SccLocalPath2 = ContentTypes
+		SccProjectUniqueName3 = Branding\\RBVH.Stada.Intranet.Branding.csproj
+		SccProjectName3 = Branding
+		SccLocalPath3 = Branding
+		SccProjectUniqueName4 = WebPages\\RBVH.Stada.Intranet.WebPages.csproj
+		SccProjectName4 = WebPages
+		SccLocalPath4 = WebPages
+		SccProjectUniqueName5 = ListDefinitions\\RBVH.Stada.Intranet.ListDefinitions.csproj
+		SccProjectName5 = ListDefinitions
+		SccLocalPath5 = ListDefinitions
+		SccProjectUniqueName6 = CoreSharePoint\\RBVH.Core.SharePoint.csproj
+		SccProjectName6 = CoreSharePoint
+		SccLocalPath6 = CoreSharePoint
+		SccProjectUniqueName7 = Resources\\RBVH.Stada.Intranet.Resources.csproj
+		SccProjectName7 = Resources
+		SccLocalPath7 = Resources
+		SccProjectUniqueName8 = Commons\\RBVH.Stada.Intranet.Biz.csproj
+		SccProjectName8 = Commons
+		SccLocalPath8 = Commons
+		SccProjectUniqueName9 = ListEventReceiver\\RBVH.Stada.Intranet.ListEventReceiver.csproj
+		SccProjectName9 = ListEventReceiver
+		SccLocalPath9 = ListEventReceiver
+		SccProjectUniqueName10 = SiteTemplate\\RBVH.Stada.Intranet.SiteTemplate.csproj
+		SccProjectName10 = SiteTemplate
+		SccLocalPath10 = SiteTemplate
+		SccProjectUniqueName11 = Webservices\\RBVH.Stada.Intranet.Webservices.csproj
+		SccProjectName11 = Webservices
+		SccLocalPath11 = Webservices
+		SccProjectUniqueName12 = Main\\RBVH.Stada.Intranet.Main.csproj
+		SccProjectName12 = Main
+		SccLocalPath12 = Main
+		SccProjectUniqueName13 = ConsoleTest\\RBVH.Stada.Intranet.ConsoleTest.csproj
+		SccProjectName13 = ConsoleTest
+		SccLocalPath13 = ConsoleTest
+		SccProjectUniqueName14 = HotFixes\\RBVH.Stada.Intranet.HotFixes.csproj
+		SccProjectName14 = HotFixes
+		SccLocalPath14 = HotFixes
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}"
+       Name="AdditionalPreviousStep"
+       DisplayName="Additional Previsous Step"
+       Type="Lookup" List="Lists/EmployeePosition" ShowField="Code"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

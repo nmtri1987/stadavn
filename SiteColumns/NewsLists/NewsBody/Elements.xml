@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{554cb3b0-277d-43ef-a09a-d223a1567232}"
+       Name="NewsBody"
+       DisplayName="Body"
+       Type="Note" RichText="TRUE" RichTextMode="FullHtml" NumLines="24" RestrictedMode="TRUE" IsolateStyles="TRUE"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

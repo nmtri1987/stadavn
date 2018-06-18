@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c023e8b1-8049-49e3-94ef-899e5c23d396}"
+       Name="ConditionalExpression"
+       DisplayName="Conditional Expression"
+       Type="Note" 
+       NumLines="3"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

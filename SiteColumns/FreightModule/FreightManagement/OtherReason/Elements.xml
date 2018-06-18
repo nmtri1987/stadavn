@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5ada4100-782d-4e79-ae8c-5c5243d8b4a5}"
+       Name="OtherReason"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_OtherReason;"
+       Type="Note"
+       NumLines="3"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1d4f934d-c5d0-4314-8f0c-67968784e12e}"
+       Name="ToTheDailyWorks"
+       DisplayName="To The Daily Works"
+       Type="Note"
+       NumLines="6"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

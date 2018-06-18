@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7ea86d80-a29c-4acf-a0d5-98b5843864f6}"
+       Name="MailCategory"
+       DisplayName="Category"
+       Type="Choice" Mult="false" FillInChoice="true"
+       Required="FALSE"
+       Group="Stada Columns">
+    <CHOICES>
+      <CHOICE>Leave Management</CHOICE>
+      <CHOICE>Shift Management</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

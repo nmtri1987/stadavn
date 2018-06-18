@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100594FEAB5ADDD4B20BDBE8B242FE3AF53"
+               Name="DelegationEmployeePositionsContentType"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title"/>
+      <FieldRef ID="{dc4fd839-52d0-4a68-8e68-6b9626d1181e}" Name="EmployeePosition" />
+      <FieldRef ID="{f7eefa9e-f3b3-4bac-88d7-8e9d08d15a93}" Name="DelegatedEmployeePositions" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

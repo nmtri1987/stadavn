@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Stationary Details" OnQuickLaunch="TRUE" TemplateType="10029" Url="Lists/StationaryDetails" Description="My List Instance"></ListInstance>
+</Elements>

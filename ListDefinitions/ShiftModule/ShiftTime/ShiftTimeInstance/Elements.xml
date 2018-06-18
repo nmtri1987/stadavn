@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,ShiftTime_ListTitle;" OnQuickLaunch="TRUE" TemplateType="10008" Url="Lists/ShiftTime" Description="$Resources:RBVHStadaLists,ShiftTime_ListDescription;">
+    <!--<Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="CommonName">Hành Chánh</Field>
+          <Field Name="Code">HC</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01 07:15:00</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01 16:00:00</Field>
+          <Field Name="ShiftTimeBreakingHourFrom">2017-01-01 12:00:00</Field>
+          <Field Name="ShiftTimeBreakingHourTo">2017-01-01 12:45:00</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">0.75</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="CommonName">Hành Chánh QL Kho</Field>
+          <Field Name="Code">HCK</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T07:15:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T16:10:00Z</Field>
+          <Field Name="ShiftTimeBreakingHourFrom">2017-01-01T11:30:00Z</Field>
+          <Field Name="ShiftTimeBreakingHourTo">2017-01-01T12:15:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">0.75</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="CommonName">Ca 1</Field>
+          <Field Name="Code">C1</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T06:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T14:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">0</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">4</Field>
+          <Field Name="CommonName">Ca 2</Field>
+          <Field Name="Code">C2</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T14:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T22:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">0</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">5</Field>
+          <Field Name="CommonName">Ca 3</Field>
+          <Field Name="Code">C3</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T22:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T06:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">0</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">6</Field>
+          <Field Name="CommonName">Ca 4</Field>
+          <Field Name="Code">C4</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T13:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T21:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">0</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">7</Field>
+          <Field Name="CommonName">Cây Xanh</Field>
+          <Field Name="Code">CX</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T06:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T16:00:00Z</Field>
+          <Field Name="ShiftTimeBreakingHourFrom">2017-01-01T11:30:00Z</Field>
+          <Field Name="ShiftTimeBreakingHourTo">2017-01-01T13:30:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">2</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">8</Field>
+          <Field Name="CommonName">Bảo Vệ</Field>
+          <Field Name="Code">BV</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T06:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T06:30:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">24.5</Field>
+          <Field Name="ShiftTimeBreakingHour">0</Field>
+        </Row>
+        <Row>
+          <Field Name="ID">9</Field>
+          <Field Name="CommonName">Tạp Vụ</Field>
+          <Field Name="Code">TV</Field>
+          <Field Name="ShiftTimeWorkingHourFrom">2017-01-01T06:00:00Z</Field>
+          <Field Name="ShiftTimeWorkingHourTo">2017-01-01T15:00:00Z</Field>
+          <Field Name="ShiftTimeBreakingHourFrom">2017-01-01T11:30:00Z</Field>
+          <Field Name="ShiftTimeBreakingHourTo">2017-01-01T12:30:00Z</Field>
+          <Field Name="ShiftTimeWorkingHour">8</Field>
+          <Field Name="ShiftTimeBreakingHour">1</Field>
+        </Row>
+      </Rows>
+    </Data>-->
+  </ListInstance>
+</Elements>

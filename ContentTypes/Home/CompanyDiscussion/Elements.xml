@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Discussion (0x012002) -->
+  <ContentType ID="0x01200200B104AB4FBB184D32A8FDDCC50AE0FF47"
+               Name="CompanyDiscussion"
+               Group="Custom Content Types"
+               Description="$Resources:RBVHStadaLists,CompanyDiscussion_ContentTypeTitle"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+    </FieldRefs>
+  </ContentType>
+</Elements>

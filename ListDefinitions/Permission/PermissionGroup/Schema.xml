@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,Permission_ListTitle;" FolderCreation="FALSE"  Direction="$Resources:Direction;" Url="Lists/PermissionGroup" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x01001FC5B5F22F4A4250A8A5F029C90DAD4E" Name="Permission" Group="Stada Content Types" Description="$Resources:RBVHStadaLists,Permission_ListDescription;" Inherits="FALSE"   Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{f4e747e5-6c59-4cbc-8393-4dbf24dfaa8e}" Required="TRUE" Name="PageName" />
+          <FieldRef ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Required="TRUE" Name="CommonName" />
+          <FieldRef ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Required="TRUE" Name="CommonName1066" />
+          <FieldRef ID="{5adc5917-6d85-4db1-b99a-231031accdfc}" Required="TRUE" Name="LeftMenuOrder" />
+          <FieldRef ID="{377de260-4767-4aef-bc18-ceace51e2699}" Required="TRUE" Name="IsOnLeftMenu" />
+          <FieldRef ID="{b7b03ecb-aebb-4c01-9a90-a5b6ca24ea52}" Required="TRUE" Name="PermissionModuleCategory" />
+          <FieldRef ID="{7ccbe600-514b-49f6-9e7f-b98554119b84}" Required="FALSE" Name="GroupAccess" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{7ccbe600-514b-49f6-9e7f-b98554119b84}" Name="GroupAccess" DisplayName="$Resources:RBVHStadaLists,Permission_GroupAccess;" Type="LookupMulti" Mult="TRUE" List="Lists/Groups" ShowField="CommonName"   Required="FALSE"   Group="Stada Columns" ></Field>
+      <Field ID="{9e3454dc-5d8a-4b47-b444-218e12845707}" Name="CommonName" DisplayName="$Resources:RBVHStadaLists,Permission_Name;" ListItemMenu="TRUE" Type="Text" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Name="CommonName1066" DisplayName="$Resources:RBVHStadaLists,Permission_NameVietnamese;"  Type="Text" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{377de260-4767-4aef-bc18-ceace51e2699}" Name="IsOnLeftMenu" DisplayName="$Resources:RBVHStadaLists,Permission_IsOnLeftMenu;"  Type="Boolean" Required="TRUE" Group="Stada Columns" >
+        <Default>1</Default>
+      </Field>
+      <Field ID="{5adc5917-6d85-4db1-b99a-231031accdfc}" Type="Number" Required="TRUE" Name="LeftMenuOrder"  DisplayName="$Resources:RBVHStadaLists,Permission_LeftMenuOrder;" Min="0">
+        <Default>0</Default>
+      </Field>
+      <Field ID="{f4e747e5-6c59-4cbc-8393-4dbf24dfaa8e}" Name="PageName"   DisplayName="$Resources:RBVHStadaLists,Permission_PageName;"   Type="Text"   Required="TRUE"   Group="Stada Columns">
+      </Field>
+      <Field ID="{b7b03ecb-aebb-4c01-9a90-a5b6ca24ea52}" Required="TRUE" Name="PermissionModuleCategory" DisplayName="$Resources:RBVHStadaLists,Permission_ModuleCategory;"  Type="Lookup" List="Lists/ModuleCategory" ShowField="CommonName" />
+      <Field ID="{8e6baf0e-b492-4155-b59b-bd6dd575f886}" Name="PermissionModuleCategoryVN" FieldRef="b7b03ecb-aebb-4c01-9a90-a5b6ca24ea52" DisplayName="$Resources:RBVHStadaLists,ModuleCategory_NameVietnamese;" Type="Lookup" List="Lists/ModuleCategory" ShowField="CommonName1066"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef ID="{f4e747e5-6c59-4cbc-8393-4dbf24dfaa8e}" DisplayName="Page Name" Name="PageName" />
+          <FieldRef ID="{7ccbe600-514b-49f6-9e7f-b98554119b84}" DisplayName="Group Access"  Name="GroupAccess" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="PageName" />
+          <FieldRef Name="CommonName" />
+          <FieldRef Name="CommonName1066" />
+          <FieldRef Name="LeftMenuOrder" />
+          <FieldRef Name="IsOnLeftMenu" />
+          <FieldRef Name="PermissionModuleCategory" />
+          <FieldRef Name="GroupAccess" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

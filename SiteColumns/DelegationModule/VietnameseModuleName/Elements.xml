@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cc4bc589-5246-4a05-b746-37b2c6204f45}"
+       Name="VietnameseModuleName"
+       DisplayName="Vietnamese Module Name"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

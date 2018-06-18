@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,Announcement_ListTitle;" Name="CompanyAnnouncements" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/CompanyAnnouncements" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0104004D180F3878484A608C9A870545E22506" Name="$Resources:RBVHStadaLists,Announcement_ContentTypeTitle;" Group="Stada Content Types" Description="Announcement Content Type" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}"  Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" />
+          <FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" Name="PublishingPageImage" DisplayName="$Resources:cmscore,column_pageimage_displayname;" Description="$Resources:cmscore,column_pageimage_description;"  Required="FALSE" Sealed="TRUE" />
+          <FieldRef ID="{f220d70e-1502-4491-9a7d-f1fd12b8fce7}" Name="NewsShortContent"  DisplayName="$Resources:RBVHStadaLists,Announcement_ShortContent;"  Required="TRUE" />
+          <FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" Required="TRUE" DisplayName="$Resources:core,Body;" Sortable="FALSE" NumLines="15" />
+          <FieldRef ID="{6a09e75b-8d17-4698-94a8-371eda1af1ac}" Name="Expires" Required="FALSE" DisplayName="$Resources:core,Expires;" Format="DateOnly" />
+          <FieldRef ID="{159f1f87-27a1-49bb-b98c-6d0573bce4c5}" DisplayName="$Resources:RBVHStadaLists,Announcement_Priority;" Required="TRUE" Name="AnnouncementPriority" />
+        </FieldRefs>
+      </ContentType>
+      <!--<ContentTypeRef ID="0x0104004D180F3878484A608C9A870545E22506" />
+      <ContentTypeRef ID="0x0120" />-->
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" Required="TRUE"  SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Body" Group="_Hidden" Type="Note" RichText="TRUE" RichTextMode="FullHtml" IsolateStyles="TRUE" DisplayName="$Resources:core,Body;" Sortable="FALSE" NumLines="15" />
+      <Field ID="{6a09e75b-8d17-4698-94a8-371eda1af1ac}" Required="FALSE" Name="Expires" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Expires" Group="_Hidden" Type="DateTime" DisplayName="$Resources:core,Expires;" Format="DateOnly" />
+      <Field ID="{3de94b06-4120-41a5-b907-88773e493458}" Name="PublishingPageImage" ShowInDisplayForm="FALSE" StaticName="PublishingPageImage;" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="$Resources:cmscore,group_pagelayoutcolumns;" DisplayName="$Resources:cmscore,column_pageimage_displayname;" Description="$Resources:cmscore,column_pageimage_description;" Type="Image" Required="FALSE" Sealed="TRUE" RichText="TRUE" RichTextMode="FullHtml" />
+      <Field ID="{f220d70e-1502-4491-9a7d-f1fd12b8fce7}" Name="NewsShortContent" DisplayName="$Resources:RBVHStadaLists,Announcement_ShortContent;" Type="Text" Required="TRUE" Group="Stada Columns" MaxLength="500" NumLines="5" />
+      <Field ID="{159f1f87-27a1-49bb-b98c-6d0573bce4c5}" Type="Choice" DisplayName="$Resources:RBVHStadaLists,News_Priority;" Required="TRUE" Name="AnnouncementPriority" >
+        <CHOICES>
+          <CHOICE>1</CHOICE>
+          <CHOICE>2</CHOICE>
+          <CHOICE>3</CHOICE>
+        </CHOICES>
+        <Default>3</Default>
+      </Field>
+      
+    </Fields>
+    <Views>
+      <View BaseViewID="0" FreeForm="TRUE" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink>main.xsl</XslLink>
+        <Query>
+          <Where>
+            <Or>
+              <IsNull>
+                <FieldRef Name="Expires" />
+              </IsNull>
+              <Geq>
+                <FieldRef Name="Expires">
+                </FieldRef>
+                <Value Type="DateTime">
+                  <Today></Today>
+                </Value>
+              </Geq>
+            </Or>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Body" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Author" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Modified" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Attachments" Explicit="TRUE"></FieldRef>
+        </ViewFields>
+        <RowLimit>5</RowLimit>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,NoAnnouncements)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,NoAnnouncementsHowTo)" />
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,idHomePageNewAnnounce)" />
+          <ParameterBinding Name="MoreAnnouncements" Location="Resource(wss,MoreAnnouncements)" />
+          <ParameterBinding Name="ByText" Location="Resource(wss,2000)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,camlid4;" DefaultView="TRUE" MobileView="True" MobileDefaultView="True" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/announce.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/HomeList/JSLink_Announncement_View.js</JSLink>
+        <RowLimit Paged="TRUE">5</RowLimit>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="PublishingPageImage" />
+          <FieldRef Name="NewsShortContent" />
+        </ViewFields>
+        <Query>
+          <Where>
+            <Or>
+              <IsNull>
+                <FieldRef Name="Expires" />
+              </IsNull>
+              <Geq>
+                <FieldRef Name="Expires"></FieldRef>
+                <Value Type="DateTime">
+                  <Today></Today>
+                </Value>
+              </Geq>
+            </Or>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="AnnouncementPriority" Ascending="True" />
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+      </View>
+      <View BaseViewID="3" FreeForm="TRUE" Type="HTML" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink>main.xsl</XslLink>
+        <Query>
+          <Where>
+            <Or>
+              <IsNull>
+                <FieldRef Name="Expires" />
+              </IsNull>
+              <Geq>
+                <FieldRef Name="Expires"></FieldRef>
+                <Value Type="DateTime">
+                  <Today></Today>
+                </Value>
+              </Geq>
+            </Or>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Body" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Author" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Modified" Explicit="TRUE"></FieldRef>
+          <FieldRef Name="Attachments" Explicit="TRUE"></FieldRef>
+        </ViewFields>
+        <RowLimit>3</RowLimit>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Template="CSRListForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/HomeList/JSLink_Announcement_DisplayForm.js"/>
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/HomeList/JSLink_AnnouncementForm.js"/>
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/HomeList/JSLink_AnnouncementForm.js" />
+    </Forms>
+    <DefaultDescription>$Resources:onetid10;</DefaultDescription>
+  </MetaData>
+</List>

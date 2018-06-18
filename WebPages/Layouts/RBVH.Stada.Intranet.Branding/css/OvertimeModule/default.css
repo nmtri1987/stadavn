@@ -1,0 +1,140 @@
+﻿/* Common */
+
+
+.pt10{
+    padding-top: 10px;
+}
+
+.pb10{
+    padding-top: 10px;
+}
+
+
+.overtime-combobox
+{
+    width: 150px;
+}
+
+.overtime-calendar
+{
+    width: 150px;
+}
+
+.overtime-textbox
+{
+    width: 150px;
+}
+
+#tbOvertimeMaster td,#tbOvertimeMaster th
+{
+    padding-bottom: 5px;
+}
+
+
+
+.inner-addon {
+    position: relative;
+}
+
+    /* style icon */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+        left: 120px;
+    }
+
+
+ /*Grid*/
+ .jsgrid-table
+ {
+     table-layout: auto;
+ }
+ .header-center{
+     text-align: center;
+ }
+
+ span.full-name
+ {
+     font-weight: bold;
+ }
+
+ #jsGridOvertimeRequest .jsgrid-control-field 
+{
+     width: 61px !important;
+}
+
+#jsGridOvertimeRequest input[type=button]
+{
+    min-width: inherit;
+}
+
+/*Button*/
+button.disable{
+    background-color: gray !important;
+}
+
+.requester, .approver, .factoryLocation{
+    font-weight: bold;
+}
+
+ #jsGridOvertimeRequest select
+ {
+     display: inline;
+ }
+
+  #jsGridOvertimeRequest .hide
+ {
+     display: none;
+ }
+
+#jsGridOvertimeRequest tr.jsgrid-insert-row td:nth-child(1)
+ {
+     display: none;
+ }
+
+ #jsGridOvertimeRequest tr.jsgrid-edit-row td:nth-child(1)
+ {
+     display: none;
+ }
+
+#jsGridOvertimeRequest tr.jsgrid-row td:nth-child(1)
+ {
+     display: none;
+ }
+
+#jsGridOvertimeRequest tr.jsgrid-alt-row td:nth-child(1)
+ {
+     display: none;
+ }
+
+    
+#txtOtherRequest
+{
+    padding: 5px;
+    background-color: white;
+    color: #555;
+}
+
+.required-error{
+    border: #ff0000 solid 1px !important;
+}
+
+select.time-invalid{
+    border: 1px solid red !important
+}
+
+.lbl-fixed-width
+{
+    width: 150px;
+    padding-left: 20px;
+}
+
+#txtMyOvertimeMonth, #txtOvertimeDateByDepartment
+{
+    width: 100px;
+}
+
+.month-only .inner-addon .glyphicon {
+    left: 70px;
+}

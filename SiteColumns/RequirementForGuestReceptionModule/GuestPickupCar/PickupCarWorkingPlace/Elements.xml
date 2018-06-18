@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8c120241-d536-4ced-b2e8-7a0ba1b641ca}"
+       Name="PickupCarWorkingPlace"
+       DisplayName="Pickup Car Working Place"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

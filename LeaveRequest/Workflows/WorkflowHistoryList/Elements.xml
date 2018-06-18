@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Id="{484CEA49-1DBC-44BD-BEBA-ECD63B99C7AE}" FeatureId="{00bfea71-4ea5-48d4-a4ad-305cf7030140}" TemplateType="140" Title="Workflow History List" Description="This list instance is used for workflow History items." Url="Lists/WorkflowHistoryList" RootWebOnly="FALSE" />
+</Elements>

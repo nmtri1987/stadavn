@@ -1,0 +1,4 @@
+﻿RequestTypeName,RequestType,Departments
+"Mua hàng/Buy new materials or equipments",RequestBuyDetails,"Accounting;HR & Administration;Engineering;Import & Export;IT;Liquid Workshop;Planning;Procurement;Quality Assurance;Quality Control;Research & Development;Analytical Development;Formulation Development;Regulatory Affairs;Solid Workshop;Technology Transfer;Warehouse;HM;Assistant"
+"Sửa chữa/Repair",RequestRepairDetails,"IT;Engineering;HR & Administration"
+"Khác/Others",RequestOtherDetails,"IT;Engineering;HR & Administration"

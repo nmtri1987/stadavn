@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0973A244-0020-4D1A-84F2-B1BFC7F906F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.Biz</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.Biz</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>RBVHCommon.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=0.0.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenXMLSDK-MOT.2.7.1\lib\net45\DocumentFormat.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApprovalManagement\ApprovalBaseManager.cs" />
+    <Compile Include="ApprovalManagement\ApprovalFields.cs" />
+    <Compile Include="ApprovalManagement\EWorkflowAction.cs" />
+    <Compile Include="ApprovalManagement\MeetingRoomApprovalManagement.cs" />
+    <Compile Include="ApprovalManagement\RecruitmentApprovalManagement.cs" />
+    <Compile Include="ApprovalManagement\RequestApprovalManagement.cs" />
+    <Compile Include="ApprovalManagement\RequestForDiplomaSupplyApprovalManager.cs" />
+    <Compile Include="ApprovalManagement\StringMessages.cs" />
+    <Compile Include="Builder\ModuleBuilder.cs" />
+    <Compile Include="BusinessLayer\OvertimeRepository.cs" />
+    <Compile Include="Constants\DepartmentCode.cs" />
+    <Compile Include="Constants\DepartmentListSingleton.cs" />
+    <Compile Include="Constants\EmployeePositionCode.cs" />
+    <Compile Include="Constants\FormMode.cs" />
+    <Compile Include="Constants\GridViewSettings.cs" />
+    <Compile Include="Constants\PageLanguages.cs" />
+    <Compile Include="Constants\TaskCondition.cs" />
+    <Compile Include="Constants\Status.cs" />
+    <Compile Include="Constants\StringConstants.cs" />
+    <Compile Include="Constants\UrlParamName.cs" />
+    <Compile Include="DataAccessLayer\BaseDAL.cs" />
+    <Compile Include="DataAccessLayer\BusinessTripEmployeDetailDAL.cs" />
+    <Compile Include="DataAccessLayer\AdditionalEmployeePositionDAL.cs" />
+    <Compile Include="DataAccessLayer\BusinessTripManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\BusinessTripScheduleDAL.cs" />
+    <Compile Include="DataAccessLayer\CalendarDAL.cs" />
+    <Compile Include="DataAccessLayer\Calendar2DAL.cs" />
+    <Compile Include="DataAccessLayer\ChangeShiftManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\ConfigurationDAL.cs" />
+    <Compile Include="DataAccessLayer\DelegationEmployeePositionsDAL.cs" />
+    <Compile Include="DataAccessLayer\DelegationModulesDAL.cs" />
+    <Compile Include="DataAccessLayer\DelegationsDAL.cs" />
+    <Compile Include="DataAccessLayer\DelegationsOfNewTaskDAL.cs" />
+    <Compile Include="DataAccessLayer\EmployeePositionDAL.cs" />
+    <Compile Include="DataAccessLayer\EmployeeRequirementSheetDAL.cs" />
+    <Compile Include="DataAccessLayer\EquipmentDAL.cs" />
+    <Compile Include="DataAccessLayer\ForeignLanguageDAL.cs" />
+    <Compile Include="DataAccessLayer\ForeignLanguageLevelDAL.cs" />
+    <Compile Include="DataAccessLayer\FreightVehicleDAL.cs" />
+    <Compile Include="DataAccessLayer\FreightReceiverDepartmentDAL.cs" />
+    <Compile Include="DataAccessLayer\GroupDAL.cs" />
+    <Compile Include="DataAccessLayer\IDAL.cs" />
+    <Compile Include="DataAccessLayer\EmailTemplateDAL.cs" />
+    <Compile Include="DataAccessLayer\FreightDetailsDAL.cs" />
+    <Compile Include="DataAccessLayer\FreightManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\LeaveManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\MeetingRoomDAL.cs" />
+    <Compile Include="DataAccessLayer\ModuleCategoryDAL.cs" />
+    <Compile Include="DataAccessLayer\NotOvertimeManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\OverTimeManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\OverTimeManagementDetailDAL.cs" />
+    <Compile Include="DataAccessLayer\PermissionGroupDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestReceivedDepartmentViewerDAL.cs" />
+    <Compile Include="DataAccessLayer\RecruitmentLanguageSkillsDAL.cs" />
+    <Compile Include="DataAccessLayer\RecruitmentTeamDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestBuyDetailsDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestDiplomaDetailDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestForDiplomaSupplyDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestOtherDetailsDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestRepairDetailsDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestsDAL.cs" />
+    <Compile Include="DataAccessLayer\RequestTypesDAL.cs" />
+    <Compile Include="DataAccessLayer\GuestReceptionManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\RequisitionOfMeetingRoomDAL.cs" />
+    <Compile Include="DataAccessLayer\ShiftManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\ShiftTimeDAL.cs" />
+    <Compile Include="DataAccessLayer\StepManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\TaskManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\VehicleManagementDAL.cs" />
+    <Compile Include="DataAccessLayer\WorkflowEmailTemplateDAL.cs" />
+    <Compile Include="DataAccessLayer\WorkflowHistoryDAL.cs" />
+    <Compile Include="DataAccessLayer\WorkflowStepDAL.cs" />
+    <Compile Include="DelegationManagement\DelegationManager.cs" />
+    <Compile Include="DelegationManagement\DelegationPermissionManager.cs" />
+    <Compile Include="DTO\BusinessTripManagementApprover.cs" />
+    <Compile Include="DTO\CommonApproverModel.cs" />
+    <Compile Include="DTO\DefaultShiftTime.cs" />
+    <Compile Include="DTO\EmployeeLeaveInfo.cs" />
+    <Compile Include="DTO\ExcelShiftsOfDepartment.cs" />
+    <Compile Include="DTO\LeaveException.cs" />
+    <Compile Include="Helpers\CommonHelper.cs" />
+    <Compile Include="Helpers\StringExtension.cs" />
+    <Compile Include="Interfaces\IFilterTaskVisitor.cs" />
+    <Compile Include="Models\Equipment.cs" />
+    <Compile Include="Models\FilterTask.cs" />
+    <Compile Include="DTO\LeaveInfo.cs" />
+    <Compile Include="DTO\LeaveResult.cs" />
+    <Compile Include="DTO\NoneWorkingDay.cs" />
+    <Compile Include="DTO\WorkingDay.cs" />
+    <Compile Include="Extension\ArrayStringExtensions.cs" />
+    <Compile Include="Extension\AttributeExtensions.cs" />
+    <Compile Include="Extension\EmployeeInfoListExtensions.cs" />
+    <Compile Include="Extension\ListExtension.cs" />
+    <Compile Include="Extension\LookupItemExtension.cs" />
+    <Compile Include="Extension\ObjectExtensions.cs" />
+    <Compile Include="Extension\SPFieldExtension.cs" />
+    <Compile Include="Extension\SPFieldLookupValueExtensions.cs" />
+    <Compile Include="Extension\UriBuilderExtensions.cs" />
+    <Compile Include="FormTemplates\WordTemplate.cs" />
+    <Compile Include="Helpers\EvalExpression\BasicEvaluationContext.cs" />
+    <Compile Include="Helpers\EvalExpression\CustomAttributeHelper.cs" />
+    <Compile Include="Helpers\EvalExpression\Dump.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationAs.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationCall.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationCoalesce.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationConditional.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationCreateBlock.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationExpression.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationHelper.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationIs.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationNewObject.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationOperator.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationPop.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationPush.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationTypeCast.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationTypeof.cs" />
+    <Compile Include="Helpers\EvalExpression\Operations\OperationVariableAccess.cs" />
+    <Compile Include="Helpers\EvalExpression\Parser.cs" />
+    <Compile Include="Helpers\EvalExpression\ParsingException.cs" />
+    <Compile Include="Helpers\EvalExpression\ParsingReader.cs" />
+    <Compile Include="Helpers\EvalExpression\Utils.Convert.cs" />
+    <Compile Include="Helpers\EvalExpression\Utils.EvalHelper.cs" />
+    <Compile Include="Helpers\EvalExpression\Utils.Types.cs" />
+    <Compile Include="Helpers\ExcelHelper.cs" />
+    <Compile Include="Helpers\ListColumn.cs" />
+    <Compile Include="Helpers\ListUrl.cs" />
+    <Compile Include="Helpers\WordHelper.cs" />
+    <Compile Include="Interfaces\IFilterTaskManager.cs" />
+    <Compile Include="Interfaces\IApprovalBuilder.cs" />
+    <Compile Include="Interfaces\IDelegationManager.cs" />
+    <Compile Include="Interfaces\IIDGenerator.cs" />
+    <Compile Include="Models\AttachmentInfo.cs" />
+    <Compile Include="Models\BusinessTripEmployeeDetail.cs" />
+    <Compile Include="Models\AdditionalEmployeePosition.cs" />
+    <Compile Include="Models\BusinessTripManagement.cs" />
+    <Compile Include="Models\BusinessTripSchedule.cs" />
+    <Compile Include="Models\Calendar.cs" />
+    <Compile Include="Models\ChangeShiftManagement.cs" />
+    <Compile Include="Models\Configuration.cs" />
+    <Compile Include="Models\Delegation.cs" />
+    <Compile Include="Models\DelegationEmailTemplate.cs" />
+    <Compile Include="Models\DelegationEmployeePosition.cs" />
+    <Compile Include="Models\DelegationModule.cs" />
+    <Compile Include="Models\DelegationOfNewTask.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\EmailTemplate.cs" />
+    <Compile Include="Models\EmployeeInfo.cs" />
+    <Compile Include="Models\EmployeeLoginInfo.cs" />
+    <Compile Include="Models\EmployeePosition.cs" />
+    <Compile Include="Models\EmployeeRequirementSheet.cs" />
+    <Compile Include="Models\EntityBase.cs" />
+    <Compile Include="Models\ForeignLanguage.cs" />
+    <Compile Include="Models\ForeignLanguageLevel.cs" />
+    <Compile Include="Models\FreightVehicle.cs" />
+    <Compile Include="Models\FreightReceiverDepartment.cs" />
+    <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\FreightDetails.cs" />
+    <Compile Include="Models\FreightManagement.cs" />
+    <Compile Include="Models\LeaveManagement.cs" />
+    <Compile Include="Models\LookupItem.cs" />
+    <Compile Include="Models\MeetingRoom.cs" />
+    <Compile Include="Models\ModuleCategory.cs" />
+    <Compile Include="Models\NotOvertimeManagement.cs" />
+    <Compile Include="Models\OverTimeManagement.cs" />
+    <Compile Include="Models\OverTimeManagementDetail.cs" />
+    <Compile Include="Models\PermissionGroup.cs" />
+    <Compile Include="Models\RequestReceivedDepartmentViewer.cs" />
+    <Compile Include="Models\RecruitmentLanguageSkill.cs" />
+    <Compile Include="Models\RecruitmentLanguageSkillModel.cs" />
+    <Compile Include="Models\RecruitmentTeam.cs" />
+    <Compile Include="Models\Request.cs" />
+    <Compile Include="Models\RequestBuyDetails.cs" />
+    <Compile Include="Models\RequestDiplomaDetail.cs" />
+    <Compile Include="Models\RequestForDiplomaSupply.cs" />
+    <Compile Include="Models\RequestOtherDetails.cs" />
+    <Compile Include="Models\RequestRepairDetails.cs" />
+    <Compile Include="Models\RequestType.cs" />
+    <Compile Include="Models\GuestReceptionManagement.cs" />
+    <Compile Include="Models\RequisitionOfMeetingRoom.cs" />
+    <Compile Include="Models\ShiftManagement.cs" />
+    <Compile Include="Models\ShiftManagementDetail.cs" />
+    <Compile Include="Models\ShiftTime.cs" />
+    <Compile Include="Models\StepManagement.cs" />
+    <Compile Include="Models\TaskManagement.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\VehicleManagement.cs" />
+    <Compile Include="Models\WorkflowEmailTemplate.cs" />
+    <Compile Include="Models\WorkflowHistory.cs" />
+    <Compile Include="Models\WorkflowStep.cs" />
+    <Compile Include="OverviewManagement\ApprovedTodayVisitor.cs" />
+    <Compile Include="OverviewManagement\FilterTaskManager.cs" />
+    <Compile Include="OverviewManagement\WaitingApprovalTodayVisitor.cs" />
+    <Compile Include="OverviewManagement\InProcessVisitor.cs" />
+    <Compile Include="OverviewManagement\WaitingApprovalVisitor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataAccessLayer\DepartmentDAL.cs" />
+    <Compile Include="DataAccessLayer\EmployeeInfoDAL.cs" />
+    <Compile Include="DataAccessLayer\ShiftManagementDetailDAL.cs" />
+    <Compile Include="Report\AddTableToPdf.cs" />
+    <Compile Include="Report\itsEventsHandler.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\AppearanceValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\ComputerSkillValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\EducationLevelValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\MaritalStatusValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\OtherRequirementValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\OtherSkillValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\SexValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\WorkingExperienceValues.cs" />
+    <Compile Include="Report\RecruitmentModule\Constants\WorkingTimeValues.cs" />
+    <Compile Include="Report\RecruitmentModule\RecruitmentFormInfo.cs" />
+    <Compile Include="Report\RecruitmentModule\RecruitmentLanguageSkillInfo.cs" />
+    <Compile Include="Report\RecruitmentModule\RecruitmentTemplate.cs" />
+    <Compile Include="Report\RequestModule\RequestBuyDetailInfo.cs" />
+    <Compile Include="Report\RequestModule\RequestBuyTemplate.cs" />
+    <Compile Include="Report\RequestModule\RequestFormInfo.cs" />
+    <Compile Include="Report\RequestModule\RequestOtherDetailInfo.cs" />
+    <Compile Include="Report\RequestModule\RequestOtherTemplate.cs" />
+    <Compile Include="Report\RequestModule\RequestRepairDetailInfo.cs" />
+    <Compile Include="Report\RequestModule\RequestRepairTemplate.cs" />
+    <Compile Include="Report\RequestModule\RequestTemplate.cs" />
+    <Compile Include="Report\TableHeader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="RBVHCommon.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreSharePoint\RBVH.Core.SharePoint.csproj">
+      <Project>{7A0211A8-A1C7-4166-B36B-5F3A8CC546E6}</Project>
+      <Name>RBVH.Core.SharePoint</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Report\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

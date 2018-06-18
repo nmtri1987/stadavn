@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{432feb92-13a1-4868-a940-7317ad694a55}"
+       Name="FoodSpecialRequirement"
+       DisplayName="Food Special Requirement"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{28f6a8fa-849d-4450-bd2d-16553c6cef13}"
+       Name="FinishDate"
+       DisplayName="Finish Date"
+       Type="DateTime" Format="DateOnly"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f9662550-236d-4021-9336-56c867eab1e3}"
+       Name="Administrator"
+       DisplayName="Administrator"
+       Type="User"
+       Required="FALSE" UserSelectionMode="PeopleOnly"
+       Group="Stada Columns">
+  </Field>
+</Elements>

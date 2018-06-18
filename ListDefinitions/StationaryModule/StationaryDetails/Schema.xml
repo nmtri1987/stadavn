@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,StationaryDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/StationaryDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Name" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+
+      <Field ID="{8B2EC8D3-C044-4CA5-9F8C-0AC1F63005B5}" Name="StationaryManagement" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_StationaryManagement" Type="Lookup" List="Lists/StationaryManagement" ShowField="ID" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{ADAABC4E-19DA-42DF-A51E-B3795FD5C9D5}" Name="ProvisionDate" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_ProvisionDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{31B3D159-7C70-4264-BE44-1DA3A980040E}" Name="GoodsName" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_GoodsNameTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{D96EFFD4-EE41-4C0D-A470-948B4B1E6313}" Name="ProvisionForm" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_ProvisionFormTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{57DF9E9F-3C09-4CD2-9BFA-E975058B7DD6}" Name="Unit" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_ProvisionUnitTitle;" Type="Text"  Required="FALSE"/>
+      <Field ID="{BAF7DA61-55B5-4CA3-A528-2A4F319875D4}" Name="Stock" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_StockTitle;" Type="Number" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{49AE5CCB-43E8-4CCA-8F94-7BC5C6276F65}" Name="Estimation" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_EstimationTitle;" Type="Number" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{BD4FD9E5-95A5-49A1-B892-3124934325C0}" Name="InReal" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_InRealTitle;" Type="Number" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{62C9F3E5-9B8A-4950-A44B-7B239920ED2C}" Name="Reason" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_ReasonTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{D39BEAA2-A2E2-4699-A3FB-F333F430C395}" Name="Remark" DisplayName="$Resources:RBVHStadaLists,StationaryDetails_RemarkTitle;" Required="FALSE" Type="Text"/>
+    </Fields>
+    <Views>
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          
+          <FieldRef Name="StationaryManagement" />
+          <FieldRef Name="ProvisionDate" />
+          <FieldRef Name="GoodsName" />
+          <FieldRef Name="ProvisionForm" />
+          <FieldRef Name="ProvisionUnit" />
+          <FieldRef Name="Stock" />
+          <FieldRef Name="Estimation" />
+          <FieldRef Name="InReal" />
+          <FieldRef Name="Reason" />
+          <FieldRef Name="Remark" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

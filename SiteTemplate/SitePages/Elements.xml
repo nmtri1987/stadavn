@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="SitePages">
+    <File Path="SitePages\Home.aspx" Url="SitePages/Home.aspx"  Type="Ghostable" ReplaceContent="TRUE">
+      <View BaseViewID="1" WebPartZoneID="Row1" List="Lists/DepartmentAnnouncement"></View>
+      <View BaseViewID="1" WebPartZoneID="Row2" List="Lists/DepartmentTask"></View>
+      <!--Disscustion Board in Home.aspx-->
+      <!--<View BaseViewID="1" WebPartZoneID="Row_right" List="Lists/DepartmentCalendar"  ></View>-->
+      <View BaseViewID="1" WebPartZoneID="Row_right2" List="Lists/DepartmentDocument"></View>
+    </File>
+  </Module>
+</Elements>

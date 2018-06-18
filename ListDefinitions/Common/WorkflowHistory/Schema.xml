@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,WorkflowHistory_ListTile;"  FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/WorkflowHistory" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100A1988A33F06A49559385CE063ABB4130"
+              Name="$Resources:RBVHStadaLists,WorkflowHistory_ListTile;"
+              Group="Custom Content Types"
+              Description="$Resources:RBVHStadaLists,WorkflowHistory_ListTile;"
+              Inherits="FALSE"
+              Version="0">
+        <FieldRefs>
+          <FieldRef ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status"/>
+          <FieldRef ID="{c948c9fc-e443-4f83-ace6-0c7049154b9b}" Name="VietnameseStatus"/>
+          <FieldRef ID="{3df06b8a-a0d2-49dc-b109-5d5a3758c3a7}" Name="PostedBy"/>
+          <FieldRef ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}" Name="CommonDate"/>
+          <FieldRef ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}" Name="CommonComment"/>
+          <FieldRef ID="{4e8922ea-f305-4567-822c-cbba86b72c3e}" Name="ListName"/>
+          <FieldRef ID="{e2932f67-9d09-4bb3-9299-5656ad62dfd8}" Name="CommonItemID"/>
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status"  Type="Text" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_Status;"/>
+      <Field ID="{c948c9fc-e443-4f83-ace6-0c7049154b9b}" Name="VietnameseStatus" Type="Calculated" ResultType="Text" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_VietnameseStatus;">
+        <Formula>=IF(Status="Invalid", "Không hợp lệ", IF(Status="Draft", "Nháp", IF(Status="Submitted", "Trình duyệt", IF(Status="Approved", "Phê duyệt", IF(Status="Assigned", "Giao việc", IF(Status="Rejected", "Từ chối", IF(Status="Cancelled", "Hủy", IF(Status="Completed", "Hoàn thành", IF(Status="Comment", "Nhận xét", "")))))))))</Formula>
+        <FormulaDisplayNames>=IF(Status="Invalid", "Không hợp lệ", IF(Status="Draft", "Nháp", IF(Status="Submitted", "Trình duyệt", IF(Status="Approved", "Phê duyệt", IF(Status="Assigned", "Giao việc", IF(Status="Rejected", "Từ chối", IF(Status="Cancelled", "Hủy", IF(Status="Completed", "Hoàn thành", IF(Status="Comment", "Nhận xét", "")))))))))</FormulaDisplayNames>
+        <FieldRefs>
+          <FieldRef Name="Status" ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" />
+        </FieldRefs>
+      </Field>
+      <Field ID="{3df06b8a-a0d2-49dc-b109-5d5a3758c3a7}" Name="PostedBy" Type="Text" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_PostedBy;"/>
+      <Field ID="{f1f84b0d-967e-41d3-9852-826eb04c4ea5}" Name="CommonDate" Type="DateTime" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_CommonDate;"/>
+      <Field ID="{70776ca9-0489-41ac-89ed-c2433b7299bc}" Name="CommonComment" Type="Note" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_CommonComment;"/>
+      <Field ID="{4e8922ea-f305-4567-822c-cbba86b72c3e}" Name="ListName" Type="Text" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_ListName;"/>
+      <Field ID="{e2932f67-9d09-4bb3-9299-5656ad62dfd8}" Name="CommonItemID" Type="Number" DisplayName="$Resources:RBVHStadaLists,WorkflowHistory_ItemID;"/>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+          <FieldRef Name="VietnameseStatus"></FieldRef>
+          <FieldRef Name="PostedBy"></FieldRef>
+          <FieldRef Name="CommonDate"></FieldRef>
+          <FieldRef Name="CommonComment"></FieldRef>
+          <FieldRef Name="ListName"></FieldRef>
+          <FieldRef Name="CommonItemID"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

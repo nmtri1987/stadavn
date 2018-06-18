@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,News_MedicalNews_ListTitle;" OnQuickLaunch="TRUE" TemplateType="12083" Url="Lists/MedicalNews" Description="$Resources:RBVHStadaLists,ListDescription_MedicalNews;">
+    <!--<Data>
+      <Rows>
+
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="Title">5 cặp thực phẩm cấm kỵ dùng chung vì dễ sinh bệnh </Field>
+          <Field Name="NewsShortContent">Củ cải không nên ăn cùng với quả quýt vì dễ gây sưng tuyến giáp trạng; cà rốt tránh dùng chung với cà chua, củ cải, ớt...</Field>
+          <Field Name="NewsBody">
+            <![CDATA["Củ cải không nên ăn cùng với quả quýt vì dễ gây sưng tuyến giáp trạng; cà rốt tránh dùng chung với cà chua, củ cải, ớt...
+
+                Cẩm nang ăn thực phẩm vào thời điểm tốt nhất / Người bị huyết áp thấp không nên ăn gì?
+
+            5 cặp thực phẩm cấm kỵ dùng chung vì dễ sinh bệnh
+ 
+            Theo Health, một số loại thực phẩm ăn cùng nhau có thể gây nên những phản ứng phá hủy chất dinh dưỡng hoặc ảnh hưởng tiêu cực đến sức khỏe. Chẳng hạn, củ cải trắng không nên ăn cùng lúc với quả quýt vì có thể gây sưng tuyến giáp trạng.  
+ 
+            5 cặp thực phẩm cấm kỵ dùng chung vì dễ sinh bệnh
+ 
+            Dưa leo không nên nấu chung với các loại rau quả chứa nhiều vitamin C như cà chua, ớt... Nghiên cứu cho thấy dưa leo có tác dụng phân giải các chất xúc tác và lên men, đồng thời hủy hoại vitamin C có trong các thực phẩm khác.
+ 
+            5 cặp thực phẩm cấm kỵ dùng chung vì dễ sinh bệnh
+
+            Khoai lang không dùng chung với quả hồng vì dễ gây trương bao tử, ói, đau bụng, thậm chí xuất huyết dạ dày...
+ 
+            5 cặp thực phẩm cấm kỵ dùng chung vì dễ sinh bệnh
+ 
+            Không nên chế biến cà rốt chung với cà chua, củ cải, ớt, rau diếp, đu đủ... Vì cà rốt có tác dụng phân giải các chất xúc tác và lên men, do vậy cà rốt sẽ làm mất hết chất dinh dưỡng của các loại rau củ khác. 
+ 
+            5 cặp thực phẩm cấm kỵ dùng chung vì dễ sinh bệnh
+ 
+
+            Khoai lang không nên ăn cùng chuối vì không tốt cho hệ tiêu hóa, có thể gây đau bụng, nôn ói...
+              ]]>
+          </Field>
+          <Field Name="NewsPriority">3</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="Title">Nhận diện các loại nấm độc để tránh ngộ độc </Field>
+          <Field Name="NewsShortContent">Nhiều người cho rằng nấm có màu sắc sặc sỡ là độc, song thực tế đây là suy nghĩ sai lầm dẫn đến những ca tử vong.</Field>
+          <Field Name="NewsBody">
+            <![CDATA["
+          Mùa xuân thời tiết ấm, ẩm là điều kiện thuận lợi cho nấm phát triển. Đây cũng là thời điểm xảy ra các vụ ngộ độc do ăn phải nấm độc. Không phân biệt được nấm độc với nấm lành, nhiều người đã hái nhầm nấm độc về cho cả nhà sử dụng, dẫn đến ngộ độc tất cả thành viên gia đình, thậm chí tử vong.
+
+          Trung tâm Chống độc, Bệnh viện Bạch Mai (Hà Nội) là nơi tiếp nhận những ca ngộ độc nặng, tỷ lệ tử vong cao đến 50%. Tiến sĩ Nguyễn Tiến Dũng, Trung tâm Chống độc cho biết, hiện nay nhiều người cho rằng nấm độc có màu sắc sặc sỡ là không đúng. Trung tâm tiếp nhận cấp cứu nhiều người ăn loại nấm trắng rất ngọt, mềm nhưng lại là loại nấm cực độc. Kể cả côn trùng ăn nấm độc, người ăn côn trùng này cũng có thể bị ngộ độc.
+          5-sai-lam-khi-nhan-biet-nam-doc
+
+          Nấm ô tán trắng phiến xanh cũng là một loại nấm độc, nhiều người dễ hái ăn nhầm. Nguồn Trung tâm Chống độc.
+
+          >> Nhận diện một số loại nấm độc tại Việt Nam
+
+          Theo tiến sĩ Dũng, nhiều người sai lầm trong cách nhận diện nấm độc. Ví dụ như gà, chó… ăn nấm trước, nếu sau 1- 2 giờ không chết hoặc không bị ngộ độc thì kết luận là nấm không độc. Thật ra cách này chỉ đúng với một số loại nấm có tác dụng nhanh. Nấm gây chết người thường có tác dụng chậm, sau 12-24 giờ mới có triệu chứng đầu tiên, động vật chỉ chết sau 4-5 ngày. Một số người thử nấm bằng thìa, đũa, dây chuyền… bạc, nếu bạc đổi màu xám đen thì nấm độc. Cách này hoàn toàn sai bởi các loại độc tố của nấm không tác dụng đối với bạc nên không gây đổi màu.
+
+          Việc phân biệt nấm độc với nấm lành không phải dễ, kể cả với nhà chuyên môn. Tại Cao Bằng, các chuyên gia đã tìm thấy 13 loại nấm độc. Thạc sĩ Nguyễn Trung Nguyên, phụ trách Trung tâm Chống độc, Bệnh viện Bạch Mai (Hà Nội) khuyến cáo người dân tuyệt đối không nên lên rừng hái nấm hoang dại ăn kể cả nấm màu trắng, nấm có đầy đủ các phần của thể quả… Chú ý không hái nấm non chưa xòe mũ vì chưa bộc lộ hết đặc điểm cấu tạo, khó nhận dạng.
+
+          Nấm tươi ăn được mới hái nên nấu ăn ngay, nếu để ôi hay dập nát có thể hình thành độc tố mới gây ngộ độc. Không ăn nấm đã bị thối rữa ôi thiu.
+
+          Khi có biểu hiện ngộ độc, nếu chưa nôn thì cần móc họng hoặc uống nhiều nước rồi móc họng gây nôn. Phương pháp này chỉ áp dụng cho bệnh nhân còn tỉnh, sau đó khẩn trương đưa người bệnh đến cơ sở y tế gần nhất. Nếu có than hoạt thì uống ngay với liều 2 g/15 kg cân nặng. Đưa cả những người cùng ăn nấm dù chưa có biểu hiện đến cơ sở y tế, mang mẫu nấm còn lại hoặc thức ăn chế biến để xác định sơ bộ loại nấm.
+
+          Nếu từ lúc ăn đến khi có biểu hiện bệnh dưới 6 giờ thì bệnh nhân có thể điều trị tại trạm y tế xã, bệnh viện huyện. Nếu tình trạng ngộ độc đã hơn 6 giờ thì phải đưa nạn nhân đến bệnh viện tỉnh, nơi có điều kiện lọc máu.
+
+          Nấm độc có loại chỉ gây rối loạn tiêu hóa, buồn nôn, đi ngoài nhưng có loại dẫn đến tổn thương gan, gây chảy máu, nguy cơ tử vong rất cao. Triệu chứng của ngộ độc nấm mới đầu có thể rất mơ hồ như đau bụng, đi ngoài sau đó tự cầm, nhiều người không đến bệnh viện; khi các triệu chứng xuất hiện trở lại thì đã hôn mê, tổn thương gan.
+
+          Nam Phương
+              ]]>
+          </Field>
+          <Field Name="NewsPriority">3</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="Title">Tập thể dục ăn uống thế nào cho khỏe mà không béo? </Field>
+          <Field Name="NewsShortContent">Em sợ bị mập, xin hỏi nên tập thể dục bao nhiêu thời gian và vào buổi nào trong ngày là hợp lý?</Field>
+          <Field Name="NewsBody">
+            <![CDATA["
+            Em sinh năm 1997, cao 1,74 m và nặng 58 kg. Em tập thể dục nhiều, xin hỏi có cần ăn nhiều không hay chỉ ăn vừa đủ thôi? Em sợ ăn nhiều sẽ bị mập làm thân hình không cân đối và sợ béo phì nữa. Mong mọi người tư vấn cho em với chiều cao và cân nặng như trên thì một ngày nên tập thể dục bao nhiêu thời gian và vào buổi nào thì hợp lý? (dinhtaicadv).
+              ]]>
+          </Field>
+          <Field Name="NewsPriority">3</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">4</Field>
+          <Field Name="Title">6 động tác nâng chân cho eo thon, bụng phẳng siêu tốc </Field>
+          <Field Name="NewsShortContent">Các động tác nằm nâng chân lên vuông góc với thân người, giữ trong vài giây liên tục giúp đốt cháy mỡ thừa tích phần eo, theo Women's Health.</Field>
+          <Field Name="NewsBody">
+            <![CDATA["
+            Em sinh năm 1997, cao 1,74 m và nặng 58 kg. Em tập thể dục nhiều, xin hỏi có cần ăn nhiều không hay chỉ ăn vừa đủ thôi? Em sợ ăn nhiều sẽ bị mập làm thân hình không cân đối và sợ béo phì nữa. Mong mọi người tư vấn cho em với chiều cao và cân nặng như trên thì một ngày nên tập thể dục bao nhiêu thời gian và vào buổi nào thì hợp lý? (dinhtaicadv).
+              ]]>
+          </Field>
+          <Field Name="NewsPriority">3</Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">5</Field>
+          <Field Name="Title">Mẹ bỉm sữa Hà Nội giảm 10 kg nhờ ăn dứa thay cơm  </Field>
+          <Field Name="NewsShortContent"> Sau một tháng ăn dứa thay cơm và tập luyện thể thao, chị Hường đã giảm 10 kg mà vẫn giữ được làn da hồng hào, mịn màng..</Field>
+          <Field Name="NewsBody">
+            <![CDATA["
+          Sau một tháng ăn dứa thay cơm và tập luyện thể thao, chị Hường đã giảm 10 kg mà vẫn giữ được làn da hồng hào, mịn màng.
+            Nữ bác sĩ Hà Nội phẫu thuật thẩm mỹ sau cú sốc ly hôn / Chiêu giảm béo bụng cho quý ông của một bác sĩ Nhật
+        Chị Đồng Thanh Ánh Hường 25 tuổi, hiện sinh sống và làm việc tại quận Hai Bà Trưng, Hà Nội. Thời học cấp 3 chị đã béo tròn với cân nặng 70 kg trong khi chiều cao chỉ 1,57 m. Sau đó, nhờ tích cực ăn kiêng, trọng lượng cơ thể chị giảm xuống còn 52 kg. Cách đây 2 năm khi mang thai con đầu lòng, chị bắt đầu tăng cân vùn vụt đến 90 kg. 
+
+        Chị Hường ngày càng mất tự tin vào thân hình quá khổ của mình, sau 2 năm vất vả nuôi con, cân nặng vẫn ''ổn định'' ở mức 70 kg. ''Tôi xấu hổ chẳng dám đi đâu. Ra tiệm quần áo chọn size lớn nhất mà vẫn mặc không vừa'', bà mẹ trẻ nhớ lại, cũng bắt đầu từ đó hạ quyết tâm giảm béo.
+
+        Rất nghiện cơm, mỗi bữa chị Hường ăn đến mấy bát vẫn không thấy ngán. Từ khi tìm hiểu biết tinh bột dễ gây tăng cân, chị quyết định kiêng hẳn cơm và các thực phẩm nhiều tinh bột như miến, phở, hủ tiếu, bánh canh... Mỗi ngày chị Hường đều mua 5 quả dứa (thơm) bỏ vào tủ lạnh ăn dần. ''Dứa gọt sạch mắt, xắt miếng nhỏ cứ thế mà nhai. Tôi không bao giờ để bụng đói, mỗi ngày chỉ ăn thêm chút xíu cơm và nhiều rau củ quả ít đường''. Về chế độ tập luyện, vì rất bận rộn với việc bán hàng và trông con nên chị Hưởng thường tranh thủ giờ nghỉ trưa nhờ người trông bé để đi tập gym, chủ yếu là chạy bộ.
+        me-bim-sua-ha-noi-giam-10-kg-nho-an-dua-thay-com
+
+        Chị Hường trước và sau khi giảm cân. Ảnh: Nhân vật cung cấp.
+
+        Sau một tháng, trọng lượng cơ thể chị Hường giảm rõ rệt, từ 70 kg xuống còn 60 kg. Người phụ nữ đến nay đã ngán dứa nên chuyển sang ăn các loại trái cây ít đường khác như thanh long, dưa chuột, dưa gang... Để đạt đến mục tiêu giảm còn 52 kg, thiếu phụ vẫn duy trì chế độ ăn ít tinh bột đồng thời dành 45 đến 60 phút mỗi ngày để chạy bộ, tập aerobic, thể dục thẩm mỹ... 
+
+        Từ ngày giảm cân, chị Hường cảm thấy tự tin hơn, không còn ngại đến các sự kiện đông người. Thấy bà xã mi nhon và thích làm đẹp, chồng chị Hường vui vẻ và thường xuyên chở vợ đi sắm áo váy mới. Chị Hường bộc bạch khó khăn lớn nhất trong quá trình giảm cân là phải ''cai'' được những món yêu thích mà dễ gây tăng cân như cơm hay đồ chiên xào. ''Có những lúc thèm cơm quá, tôi ăn chưa đến nửa chén cho bớt thèm. Riết rồi cũng quen, bây giờ nhìn thấy cơm không còn thèm nữa'', bà mẹ trẻ nói.
+
+        Một số người thấy chị Hường giảm cân ngoạn mục đã đến nhờ tư vấn, người phụ nữ luôn sẵn sàng chia sẻ. Theo chị, điều quan trọng nhất là chế độ tập thể dục đều đặn, hạn chế tinh bột, đường và các món nhiều dầu mỡ, không nên ngủ nhiều quá 8 tiếng mỗi ngày. Riêng những ai muốn ăn dứa để giảm cân nhanh hơn, chị lưu ý không nên ăn loại quả này lúc bụng đói vì dễ bị xót ruột. Đặc biệt người bị bệnh viêm loét dạ dày không nên áp dụng. 
+              ]]>
+          </Field>
+          <Field Name="NewsPriority">3</Field>
+        </Row>
+      </Rows>
+    </Data>-->
+  </ListInstance>
+</Elements>

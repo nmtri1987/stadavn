@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{25ca16e8-df61-4cf5-af63-efba72263285}"
+       Name="EnglishSkills"
+       DisplayName="English Skills"
+       Type="Choice"
+       Required="FALSE"
+       Group="Satda Columns">
+  </Field>
+</Elements>

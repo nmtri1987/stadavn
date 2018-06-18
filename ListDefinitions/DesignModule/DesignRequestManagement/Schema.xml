@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,DesignRequestManagement_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/DesignRequestManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+
+    <Fields>
+      <Field ID="{240B1063-AE9B-40A5-BB72-E3DCEEC297CE}" Name="RegistrationType" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeLocalTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeLocalTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeInitialTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeRenewalTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeExportingMarketTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_RegistrationTypeExportingChangeTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{14A79244-8EED-4F5A-9523-14C23D93F435}" Name="ExportingMartket" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_ExportingMartketTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{525FD136-792C-4E85-AE91-CD411E863C50}" Name="ProductName" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_ProductNameTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{2D4F8C61-0467-4367-AAFB-0ACF22B34800}" Name="APIStrength" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_APIStrengthTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{67F0C01C-26EA-4E80-8276-98592FA8F6BE}" Name="TherapeuticGroup" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_TherapeuticGroupTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{5848B39F-DDFF-4605-89D9-B14BC52BB4CA}" Name="SpecialSign" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_SpecialSignTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DesignRequestManagement_SpecialSignRxTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_SpecialSignRxTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_SpecialSignOtherTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{19CA04B7-0568-4BCA-8846-7607BFF57FDA}" Name="OtherSpecialSign" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_OtherSpecialSignTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{183ADBF6-2474-488E-A662-1E2019FC1E7E}" Name="PackagingPresentations" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_PackagingPresentationsTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{4D5DCAB3-B22F-41DA-ABD1-23DDF2446F93}" Name="PackagingDetails" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsTitle;" Type="MultiChoice" Required="FALSE" Group="Stada Columns"  >
+        <Default>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsBlisterTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsBlisterTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsBottleTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsTubeTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsAmpouleTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsSachetTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailsOthersTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{686B25EB-28A8-4DA1-9F4D-E4D5F7516C07}" Name="PackagingDetailValues" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_PackagingDetailValuesTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{7ED11EB0-52CA-4531-BDA9-1A228D8A5AFA}" Name="StorageCondition" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_StorageConditionTitle;" Type="MultiChoice" Required="FALSE" Group="Stada Columns"  >
+        <Default>$Resources:RBVHStadaLists,DesignRequestManagement_StorageConditionWellClosedContainerTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_StorageConditionWellClosedContainerTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_StorageConditionLightTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_StorageConditionMoistureTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_StorageConditionOthersTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{DD6BA69C-41F7-4FDA-A6DB-86C6424FC058}" Name="OtherStorageCondition" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_OtherStorageConditionTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{33154FB6-AB88-4F9C-A024-F1AA033ACE88}" Name="ManufacturingSite" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_ManufacturingSiteTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DesignRequestManagement_ManufacturingSiteHMTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_ManufacturingSiteHMTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_ManufacturingSiteBDTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{97B54B16-88EC-4A89-A0D6-8ED4A29624F7}" Name="Specification" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_SpecificationTitle;" Type="Choice" Required="TRUE" Group="Stada Columns"  Format="RadioButtons">
+        <Default>$Resources:RBVHStadaLists,DesignRequestManagement_SpecificationTCNSXTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_SpecificationTCNSXTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,DesignRequestManagement_SpecificationPharmacopeiaTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{3D1EAB2C-DF59-41D7-B01D-3D73DDA19774}" Name="PharmachopeiaDetails" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_PharmachopeiaDetailsTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{6592C12D-F1F4-487A-8C81-1FC573FC9AC2}" Name="BatchNo" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_BatchNoTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{C0136E60-8972-4A4E-95FC-0B6A15752B8D}" Name="ManufacturingDate" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_ManufacturingDateTitle;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{2F45BC69-0304-4531-8297-FAF7B1127581}" Name="ExpiryDate" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_ExpiryDateTitle;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{FB4547E0-F59D-48E0-8627-9DFA63A0D36D}" Name="SpecialPrecautions" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_SpecialPrecautionsTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{43C109C1-DF28-4348-BB7D-15722D9B87E4}" Name="Others" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_OthersTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{EBC7AB48-0951-4301-BF18-B9FDF187FE76}" Name="ExpectantTime" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_ExpectantTimeTitle;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{2132BF53-846C-44D6-9DB1-ED3C11674948}" Name="Designer" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_DesignerTitle" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{25827870-DA8B-4853-8369-EE2CADB4AAA4}" Name="DesignDate" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_DesignDateTitle;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{0826E335-5982-4684-80D9-CA6F5DB4E981}" Name="OriginalCode" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_OriginalCodeTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{2DC74871-979E-448E-BE35-E3CEBBC01168}" Name="CompleteDate" DisplayName="$Resources:RBVHStadaLists,DesignRequestManagement_CompleteDateTitle;" Type="DateTime" Required="FALSE" Group="Stada Columns" />
+
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{C04C20F2-CEB9-4675-AFBE-8E91BC81F213}" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_StatusOrder" Type="Calculated" ResultType="Number" Name="StatusOrder" Required="FALSE">
+        <Formula>
+          =IF([Workflow status]="Approved","7",IF([Workflow status]="Rejected","8",IF([Workflow status]="Cancelled","9","0")))
+        </Formula>
+      </Field>
+
+    </Fields>
+    <Views>
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RegistrationType"></FieldRef>
+          <FieldRef Name="ExportingMartket"></FieldRef>
+          <FieldRef Name="ProductName"></FieldRef>
+          <FieldRef Name="APIStrength"></FieldRef>
+          <FieldRef Name="TherapeuticGroup"></FieldRef>
+          <FieldRef Name="SpecialSign"></FieldRef>
+          <FieldRef Name="OtherSpecialSign"></FieldRef>
+          <FieldRef Name="PackagingPresentations"></FieldRef>
+          <FieldRef Name="PackagingDetails"></FieldRef>
+          <FieldRef Name="PackagingDetailValues"></FieldRef>
+          <FieldRef Name="StorageCondition"></FieldRef>
+          <FieldRef Name="OtherStorageCondition"></FieldRef>
+          <FieldRef Name="ManufacturingSite"></FieldRef>
+          <FieldRef Name="Specification"></FieldRef>
+          <FieldRef Name="PharmachopeiaDetails"></FieldRef>
+          <FieldRef Name="BatchNo"></FieldRef>
+          <FieldRef Name="ManufacturingDate"></FieldRef>
+          <FieldRef Name="ExpiryDate"></FieldRef>
+          <FieldRef Name="SpecialPrecautions"></FieldRef>
+          <FieldRef Name="Others"></FieldRef>
+          <FieldRef Name="ExpectantTime"></FieldRef>
+          <FieldRef Name="Designer"></FieldRef>
+          <FieldRef Name="DesignDate"></FieldRef>
+          <FieldRef Name="OriginalCode"></FieldRef>
+          <FieldRef Name="CompleteDate"></FieldRef>
+          
+          <FieldRef Name="Creator"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+          <FieldRef Name="PendingAt"></FieldRef>
+          <FieldRef Name="CurrentStep"></FieldRef>
+          <FieldRef Name="NextStep"></FieldRef>
+          <FieldRef Name="CommonLocation"></FieldRef>
+          <FieldRef Name="CommonDepartment"></FieldRef>
+          <FieldRef Name="IsAdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalNextStep"></FieldRef>
+          <FieldRef Name="AdditionalDepartment"></FieldRef>
+          <FieldRef Name="AssignFrom"></FieldRef>
+          <FieldRef Name="AssignTo"></FieldRef>
+          <FieldRef Name="CommonDueDate"></FieldRef>
+          <FieldRef Name="WFStatus"></FieldRef>
+          <FieldRef Name="StatusOrder"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

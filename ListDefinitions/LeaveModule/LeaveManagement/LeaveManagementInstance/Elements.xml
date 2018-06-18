@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Id="BF77181E-2983-42B5-83CB-8FE18FC11D49" Title="$Resources:RBVHStadaLists,LeaveList_ListTitle" OnQuickLaunch="TRUE" TemplateType="10004" Url="Lists/LeaveManagement" Description="$Resources:RBVHStadaLists,LeaveList_ListDescription"></ListInstance>
+</Elements>

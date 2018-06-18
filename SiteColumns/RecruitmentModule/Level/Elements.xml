@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{20e461c7-ed2f-4827-be7b-6c209487d882}"
+       Name="Level"
+       DisplayName="Level"
+       Type ="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

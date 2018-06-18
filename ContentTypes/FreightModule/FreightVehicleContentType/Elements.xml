@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100172CC527E12F47ADA2921C45AD8EE4E0"
+               Name="Freight Vehicle"
+               Group="Stada Content Types"
+               Description="$Resources:RBVHStadaLists,FreightVehicle_ContentType_Description;"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{ed1e81de-0ae1-4169-9385-950cf016a2f4}" Name="Vehicle" Required="TRUE" />
+      <FieldRef ID="{d0400433-6d22-4a6b-8d7b-cc21708aea34}" Name="VehicleVN" Required="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

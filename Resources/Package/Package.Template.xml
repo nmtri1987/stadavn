@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Resources>
+    <Resource Location="Resources\RBVHStadaLists.resx"/>
+    <Resource Location="Resources\RBVHStadaWebpages.resx"/>
+    <Resource Location="Resources\RBVHStadaMasterPage.resx"/>
+
+    <Resource Location="Resources\RBVHStadaLists.resx"/>
+    <Resource Location="Resources\RBVHStadaWebpages.resx"/>
+    <Resource Location="Resources\RBVHStadaMasterPage.resx"/>
+
+  </Resources>
+  <ApplicationResourceFiles>
+    <App_GlobalResourceFile Location="RBVHStadaLists.resx"/>
+    <App_GlobalResourceFile Location="RBVHStadaWebpages.resx"/>
+    <App_GlobalResourceFile Location="RBVHStadaMasterPage.resx"/>
+    
+    <App_GlobalResourceFile Location="RBVHStadaLists.vi-VN.resx"/>
+    <App_GlobalResourceFile Location="RBVHStadaWebpages.vi-VN.resx"/>
+    <App_GlobalResourceFile Location="RBVHStadaMasterPage.vi-VN.resx"/>
+  </ApplicationResourceFiles>
+</Solution>

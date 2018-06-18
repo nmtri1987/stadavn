@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,ActiveElementDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ActiveElementDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Producer" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+
+      <Field ID="{BD045807-ABBB-4E8E-9573-58E13C1E275B}" Name="DossierOfDomesticManagement" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_DossierOfDomesticManagement" Type="Lookup" List="Lists/DossierOfDomesticManagement" ShowField="ID" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{E846AE2A-9241-49FA-84EB-BF4A16E6A69D}" Name="Manufacturer" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_ManufacturerTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{1B8544B7-D2AE-4428-8DFB-C478C8D8FB06}" Name="Register"  DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_RegisterTitle;" Type="Boolean" />
+      <Field ID="{02695413-B62C-4003-956C-41A63A818F0C}" Name="DMF" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_DMFTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{223D9683-03AA-43DE-B331-F3B8A30FC926}" Name="CurrentProcess" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_CurrentProcessTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{BE40D564-51FD-49C3-8405-33AA6B101D3A}" Name="CurrentCOA" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_CurrentCOATitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{BF97492B-0037-478F-ABF8-52CD85195372}" Name="MFC" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_MFCTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{BFC2F0E6-F967-43CA-8058-94C365FFEF2C}" Name="RANotes" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_RANotesTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{1B695AB1-AF53-4496-B8BA-87EB1B94CFE9}" Name="FDNote" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_FDNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{72EEF52A-E3D8-4FEC-9397-1FF9E5B00A8C}" Name="ADNote" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_ADNoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{092CC410-50D0-4333-9FF4-58A0D2C5AB05}" Name="Conclusion" DisplayName="$Resources:RBVHStadaLists,ActiveElementDetails_ConclusionTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+    </Fields>
+    <Views>
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="DossierOfDomesticManagement" />
+          <FieldRef Name="Manufacturer" />
+          <FieldRef Name="Register" />
+          <FieldRef Name="DMF" />
+          <FieldRef Name="CurrentProcess" />
+          <FieldRef Name="CurrentCOA" />
+          <FieldRef Name="MFC" />
+          <FieldRef Name="RANotes" />
+          <FieldRef Name="FDNote" />
+          <FieldRef Name="ADNote" />
+          <FieldRef Name="Conclusion" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -1,0 +1,12 @@
+echo off
+cd /d %~dp0
+SET WebAppURL="http://localhost"
+SET SiteURL="http://localhost"
+
+::Deploy Solutions
+powershell.exe -File InstallSolutions.ps1 -SiteURL %SiteURL%  
+
+::Active Features
+powershell.exe -File ActiveFeatures.ps1 -WebAppURL %WebAppURL% -SiteURL %SiteURL%
+
+pause

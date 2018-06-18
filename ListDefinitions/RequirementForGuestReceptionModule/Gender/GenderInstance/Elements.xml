@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,Gender_ListTitle"
+                OnQuickLaunch="TRUE"
+                TemplateType="22002"
+                Url="Lists/Gender"
+                Description="$Resources:RBVHStadaLists,Gender_ListTitle;">
+  </ListInstance>
+</Elements>

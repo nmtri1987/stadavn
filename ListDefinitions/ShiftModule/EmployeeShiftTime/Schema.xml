@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,EmployeeShiftTime_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/EmployeeShiftTime" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+
+
+      <ContentType ID="0x010082B4587A9EFA47FCB1ADA5A1D1B8F095" Name="$Resources:RBVHStadaLists,EmployeeShiftTime_ListTitle;" Group="Stada Content Types" Description="$Resources:RBVHStadaLists,EmployeeShiftTime_ListDescription;" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{d5be9cd9-9b00-421e-b87d-e1b86f09cdc9}" DisplayName="Shift Management ID" Required="TRUE" Name="ShiftManagementID" />
+          
+          <FieldRef ID="{788d6c23-546d-4379-9357-f679ca415e1c}" DisplayName="Date" Required="TRUE" Name="StadaDate" Format="DateOnly" />
+          <FieldRef ID="{f11bba9f-21a1-467e-af44-b25d4254dc90}" DisplayName="Shift" Required="TRUE" Name="Shift" />
+          <FieldRef ID="{793A08B5-A985-4137-923D-4BFAE4BD045A}" Name="IsValid" DisplayName="IsValid" Required="FALSE"></FieldRef>
+        </FieldRefs>
+      </ContentType>
+      <ContentTypeRef ID="0x0120" />
+    </ContentTypes>
+    <Fields>
+      <Field ID="{d5be9cd9-9b00-421e-b87d-e1b86f09cdc9}" DisplayName="Shift Management ID" Required="TRUE" Name="ShiftManagementID"   Type="Lookup" List="Lists/ShiftManagement" ShowField="ID"/>
+      
+      <Field ID="{788d6c23-546d-4379-9357-f679ca415e1c}" Name="StadaDate" DisplayName="Date" Type="DateTime" Format="DateOnly" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{f11bba9f-21a1-467e-af44-b25d4254dc90}" Name="Shift" DisplayName="Shift" Type="Lookup" List="Lists/ShiftTime" ShowField="CommonName" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{793A08B5-A985-4137-923D-4BFAE4BD045A}" Name="IsValid" DisplayName="IsValid" Type="Boolean"   Required="FALSE"></Field>
+    </Fields>
+    <Views>
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="ShiftManagementID"></FieldRef>
+          <FieldRef Name="StadaDate" />
+          <FieldRef Name="Shift" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

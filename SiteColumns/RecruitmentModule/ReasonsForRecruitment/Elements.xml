@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{fc7a2fda-4116-4ea7-8304-cb060378168a}"
+       Name="ReasonsForRecruitment"
+       DisplayName="Reasons For Recruitment"
+       Type="Note"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

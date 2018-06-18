@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{256f6b1b-bc40-45a5-b12e-175ce5ee9d4d}"
+       Name="SalaryRevision"
+       DisplayName="Salary Revision"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

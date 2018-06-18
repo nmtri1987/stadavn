@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2c78cfe5-c44c-4ca9-a9df-9230e7b85814}"
+       Name="WorkingAbilities"
+       DisplayName="Working Abilities"
+       Type="Note" NumLines="6"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

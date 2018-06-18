@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{746e2329-408d-4a5e-845a-84f503578aaa}"
+       Name="RelatedTasks"
+       DisplayName="Related Tasks"
+       Required="FALSE"
+       Group="Stada Columns"
+       Type="LookupMulti" Mult="TRUE" List="Lists/TaskList" ShowField="Title"
+       >
+  </Field>
+</Elements>

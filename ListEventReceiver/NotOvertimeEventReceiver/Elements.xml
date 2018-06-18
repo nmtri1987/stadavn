@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="10007">
+    <Receiver>
+      <Name>NotOvertimeEventReceiverItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.NotOvertimeEventReceiver.NotOvertimeEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>NotOvertimeEventReceiverItemAdded</Name>
+      <Type>ItemAdded</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.NotOvertimeEventReceiver.NotOvertimeEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>NotOvertimeEventReceiverItemUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+      <Class>RBVH.Stada.Intranet.ListEventReceiver.NotOvertimeEventReceiver.NotOvertimeEventReceiver</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>

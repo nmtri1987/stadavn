@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="EmployeeInfo" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/EmployeeInfo" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x01007EE6923DCAD949C18F7F8E757A6EC16B" Name="$Resources:RBVHStadaLists,EmployeeInfo_EmployeeInfo;" Group="RBVH Content Types" Description="$Resources:RBVHStadaLists,EmployeeInfo_EmployeeInfo;" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{f400afb9-1b9e-4a4b-9608-e6a6fe52852f}" Name="ADAccount"/>
+          <FieldRef ID="{22ab38e3-8503-4b67-bf9a-562778d150cd}" Name="EmployeeID" />
+          <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName"/>
+          <FieldRef ID="{5d7610f3-0aaa-4338-a6c7-35ac6646f4f5}" Name="LastName" />
+          <FieldRef ID="{2a768b71-f8ac-4689-88ff-6bbb82851b36}" Name="EmployeeInfoFullName" />
+          <FieldRef ID="{0f23bf7f-a26a-4217-bdde-4a273a83a12d}" Name="EmployeeDisplayName" />
+          <FieldRef ID="{C4C7D925-BC1B-4f37-826D-AC49B4FB1BC1}" Name="Birthday" />
+          <FieldRef ID="{4959039d-b2eb-429a-8c11-8517eb9c520c}" Name="HomeTown" />
+          <FieldRef ID="{a4351b41-d853-419b-8785-43ec9ad2b3e7}" Name="HomeAddress" />
+          <FieldRef ID="{30764d0d-60ad-4e08-8698-7a87437db61f}" Name="Password" />
+          <FieldRef ID="{aa0db260-5456-40df-96a1-2294aa98bff2}" Name="EmployeeInfoManager" />
+          <FieldRef ID="{291d8c8c-03f5-4052-9201-450b3b7286d4}" Name="EmployeeInfoDepartment" />
+          <FieldRef ID="{351cfd03-0f40-4dc7-ba55-0494b5ad604e}" Name="DepartmentPermission"/>
+          <FieldRef ID="{d42eb341-54f7-4d2f-9373-c88889211487}" Name="Email" />
+          <FieldRef ID="{23550288-91B5-4e7f-81F9-1A92661C4838}" Name="Gender" />
+          <FieldRef ID="{7edd9e09-2c2e-4a05-adc3-ea822859e3c6}" Name="Position" />
+          <FieldRef ID="{1fb8cef0-672e-465a-82b7-b15397fbfd86}" Name="JoinedDate" />
+          <FieldRef ID="{3de94b06-4120-41a5-b907-88773e493458}" Name="PublishingPageImage"/>
+          <FieldRef ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" />
+          <FieldRef ID="{4fd557c4-92be-48e4-a47e-183b739b757b}" Name="EmployeeType" />
+          <FieldRef ID="{09ED8D57-9C55-4A24-968D-99B1BA5AD0EE}" Name="IsActive"/>
+          <FieldRef ID="{18a99830-576c-4039-b6aa-e350d5ab8692}" Name="DelegatedBy" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{22ab38e3-8503-4b67-bf9a-562778d150cd}" Name="EmployeeID" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_EmployeeID;" Indexed="TRUE" EnforceUniqueValues="TRUE" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FirstName" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_FirstName;" Type="Text" Required="TRUE" />
+      <Field ID="{5d7610f3-0aaa-4338-a6c7-35ac6646f4f5}" Name="LastName" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_LastName;" Type="Text" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{2a768b71-f8ac-4689-88ff-6bbb82851b36}" Name="EmployeeInfoFullName" ListItemMenu="TRUE" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_FullName;" Type="Calculated" ResultType="Text" Required="FALSE" Group="Stada Columns">
+        <Formula>=FirstName&amp;" "&amp;LastName</Formula>
+        <FieldRefs>
+          <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" />
+          <FieldRef ID="{5d7610f3-0aaa-4338-a6c7-35ac6646f4f5}" Name="LastName" />
+        </FieldRefs>
+      </Field>
+      <Field ID="{0f23bf7f-a26a-4217-bdde-4a273a83a12d}" Name="EmployeeDisplayName" ListItemMenu="TRUE" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_DisplayName;" Type="Text" Required="TRUE"/>
+      <Field ID="{C4C7D925-BC1B-4f37-826D-AC49B4FB1BC1}" Name="Birthday" StaticName="Birthday" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Birthday;" Group="$Resources:core,Person_Event_Columns;" Type="DateTime" Format="DateOnly" Sealed="TRUE" AllowDeletion="TRUE" Required="FALSE" />
+      <Field ID="{4959039d-b2eb-429a-8c11-8517eb9c520c}" Name="HomeTown" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_HomeTown;" Type="Text" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{a4351b41-d853-419b-8785-43ec9ad2b3e7}" Name="HomeAddress" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Address;" Type="Text" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{30764d0d-60ad-4e08-8698-7a87437db61f}" Name="Password" DisplayName="Password" Type="Text" Required="FALSE" Group="Stada Columns" Hidden="TRUE">
+        <Default>eceee1505095bad2008f45bd5a609c3e</Default>
+      </Field>
+      <Field ID="{aa0db260-5456-40df-96a1-2294aa98bff2}" Name="EmployeeInfoManager" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Manager;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{291d8c8c-03f5-4052-9201-450b3b7286d4}" Name="EmployeeInfoDepartment" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Department;" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Group="Stada Columns">
+
+      </Field>
+      <Field ID="{351cfd03-0f40-4dc7-ba55-0494b5ad604e}" Name="DepartmentPermission" Type="Choice" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_EmployeePermission;">
+        <Default>Members</Default>
+        <CHOICES>
+          <CHOICE>Administrators</CHOICE>
+          <CHOICE>Contributors</CHOICE>
+          <CHOICE>Members</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{d42eb341-54f7-4d2f-9373-c88889211487}" Name="Email" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Email;" Type="Text" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{23550288-91B5-4e7f-81F9-1A92661C4838}" Name="Gender" StaticName="Gender" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Gender;" Group="$Resources:core,Person_Event_Columns;" Type="Choice" Sealed="TRUE" AllowDeletion="TRUE">
+        <CHOICES>
+          <CHOICE>$Resources:core,Male;</CHOICE>
+          <CHOICE>$Resources:core,Female;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{7edd9e09-2c2e-4a05-adc3-ea822859e3c6}" Name="Position" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Position;" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition"  ShowField="CommonName" Group="Stada Columns"></Field>
+      <Field ID="{4379AC28-900F-474D-B8D3-C5F21C20E218}" Name="EmployeeLevel" FieldRef="{7edd9e09-2c2e-4a05-adc3-ea822859e3c6}" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_PositionLevel;" Type="Lookup" List="Lists/EmployeePosition" ShowField="EmployeeLevel" Required="TRUE"></Field>
+      <Field ID="{1fb8cef0-672e-465a-82b7-b15397fbfd86}" Name="JoinedDate" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_JoinedDate;" Type="DateTime" Format="DateOnly" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{3de94b06-4120-41a5-b907-88773e493458}" Name="PublishingPageImage" StaticName="PublishingPageImage" ShowInDisplayForm="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="$Resources:cmscore,group_pagelayoutcolumns;" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_Picture;" Description="$Resources:cmscore,column_pageimage_description;" Type="Image" Required="FALSE" Sealed="TRUE" RichText="TRUE" RichTextMode="FullHtml">
+        <Default>/_layouts/15/images/person.gif</Default>
+      </Field>
+      <Field ID="{f400afb9-1b9e-4a4b-9608-e6a6fe52852f}" Name="ADAccount" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_ADAccount;" Type="User" UserSelectionMode="PeopleOnly" Required="TRUE" Group="Stada Columns" ShowField="Title"></Field>
+      <Field
+      ID="{59394155-e8a3-4fde-ae54-e3bee444add4}"
+      Name="CommonLocation"
+      DisplayName="Location"
+      Type="Lookup" List="Lists/Factories" ShowField="CommonName"
+      Required="FALSE"
+      Group="Stada Columns"></Field>
+      <Field ID="{4fd557c4-92be-48e4-a47e-183b739b757b}" Name="EmployeeType" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_EmployeeType;" Type="Choice" ShowField="EmployeeType" Required="TRUE" Group="Stada Columns">
+        <Default>AD User</Default>
+        <CHOICES>
+          <CHOICE>AD User</CHOICE>
+          <CHOICE>Common User</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{09ED8D57-9C55-4A24-968D-99B1BA5AD0EE}" Name="IsActive" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_IsActive;" Type="Boolean" Required="FALSE" Group="Stada Columns">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{18a99830-576c-4039-b6aa-e350d5ab8692}" Name="DelegatedBy" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_DelegatedBy;" Type="LookupMulti" List="Lists/EmployeePosition" ShowField="CommonName" Mult="TRUE" Required="FALSE" Group="Stada Columns"></Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="EmployeeID" />
+          <FieldRef Name="EmployeeDisplayName" />
+          <FieldRef Name="EmployeeInfoManager" />
+          <FieldRef Name="EmployeeInfoDepartment" />
+          <FieldRef Name="DepartmentPermission"/>
+          <FieldRef Name="HomeTown" />
+          <FieldRef Name="HomeAddress" />
+          <FieldRef Name="Email" />
+          <FieldRef Name="ADAccount" />
+          <FieldRef Name="Position"/>
+          <FieldRef Name="EmployeeType"/>
+          <FieldRef Name="CommonLocation" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="2" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_ViewDispName_InActiveUsers;"  MobileView="TRUE"
+    SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="InActiveUsers.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="EmployeeID" />
+          <FieldRef Name="EmployeeDisplayName" />
+          <FieldRef Name="EmployeeInfoManager" />
+          <FieldRef Name="EmployeeInfoDepartment" />
+          <FieldRef Name="DepartmentPermission"/>
+          <FieldRef Name="HomeTown" />
+          <FieldRef Name="HomeAddress" />
+          <FieldRef Name="Email" />
+          <FieldRef Name="ADAccount" />
+          <FieldRef Name="Position"/>
+          <FieldRef Name="EmployeeType"/>
+          <FieldRef Name="CommonLocation" />
+        </ViewFields>
+        <Query>
+          <Where>
+            <Eq>
+              <FieldRef Name="IsActive" />
+              <Value Type="Boolean">0</Value>
+            </Eq>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_ViewDispName_CommonUsers;"  MobileView="TRUE"
+            SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="CommonUsers.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="EmployeeID" />
+          <FieldRef Name="EmployeeDisplayName" />
+          <FieldRef Name="EmployeeInfoManager" />
+          <FieldRef Name="EmployeeInfoDepartment" />
+          <FieldRef Name="DepartmentPermission"/>
+          <FieldRef Name="HomeTown" />
+          <FieldRef Name="HomeAddress" />
+          <FieldRef Name="Email" />
+          <FieldRef Name="ADAccount" />
+          <FieldRef Name="Position"/>
+          <FieldRef Name="EmployeeType"/>
+          <FieldRef Name="CommonLocation" />
+        </ViewFields>
+        <Query>
+          <Where>
+            <Eq>
+              <FieldRef Name="EmployeeType" />
+              <Value Type="Choice">Common User</Value>
+            </Eq>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="4" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:RBVHStadaLists,EmployeeInfo_ViewDispName_AdUsers;" MobileView="TRUE"
+        SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="ADUsers.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="EmployeeID" />
+          <FieldRef Name="EmployeeDisplayName" />
+          <FieldRef Name="EmployeeInfoManager" />
+          <FieldRef Name="EmployeeInfoDepartment" />
+          <FieldRef Name="DepartmentPermission"/>
+          <FieldRef Name="HomeTown" />
+          <FieldRef Name="HomeAddress" />
+          <FieldRef Name="Email" />
+          <FieldRef Name="ADAccount" />
+          <FieldRef Name="Position"/>
+          <FieldRef Name="EmployeeType"/>
+          <FieldRef Name="CommonLocation" />
+        </ViewFields>
+        <Query>
+          <Where>
+            <Eq>
+              <FieldRef Name="EmployeeType" />
+              <Value Type="Choice">AD User</Value>
+            </Eq>
+          </Where>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main"/>
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main"/>
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/EmployeeInfo/JSLink_EmployeeInfo_NewForm.js"/>
+    </Forms>
+  </MetaData>
+</List>

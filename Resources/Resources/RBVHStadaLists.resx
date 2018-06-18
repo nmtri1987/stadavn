@@ -1,0 +1,2802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApprovalStatusFieldDisplayName" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="ChangeShiftList_ContentTypeDescription" xml:space="preserve">
+    <value>Change Shift Management Content Type</value>
+  </data>
+  <data name="ChangeShiftList_ContentTypeTitle" xml:space="preserve">
+    <value>Change Shift Management</value>
+  </data>
+  <data name="ChangeShiftList_Description" xml:space="preserve">
+    <value>Change Shift Management</value>
+  </data>
+  <data name="ChangeShiftList_FromShift" xml:space="preserve">
+    <value>From Shift</value>
+  </data>
+  <data name="ChangeShiftList_Title" xml:space="preserve">
+    <value>Change Shift Management</value>
+  </data>
+  <data name="ChangeShiftList_ToShift" xml:space="preserve">
+    <value>To Shift</value>
+  </data>
+  <data name="CommonFromFieldDisplayName" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="InProgressStatus" xml:space="preserve">
+    <value>In-Progress</value>
+  </data>
+  <data name="LeaveList_ContentTypeDesciption" xml:space="preserve">
+    <value>Leave Management Content Type</value>
+  </data>
+  <data name="LeaveList_ContentTypeTitle" xml:space="preserve">
+    <value>Leave Management</value>
+  </data>
+  <data name="LeaveList_Leaved" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="LeaveList_LeavedAt" xml:space="preserve">
+    <value>Left At</value>
+  </data>
+  <data name="LeaveList_LeaveHours" xml:space="preserve">
+    <value>Leave Hours</value>
+  </data>
+  <data name="LeaveList_ToDateValidationMessage" xml:space="preserve">
+    <value>To Date must be greater than From Date</value>
+  </data>
+  <data name="LeaveList_TransferWorkTo" xml:space="preserve">
+    <value>Transfer work To</value>
+  </data>
+  <data name="ReasonFieldDisplayName" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequesterFieldDisplayName" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="Submitted_WorkflowStatus" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
+  <data name="ToFieldDisplayName" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="LeaveList_ListDescription" xml:space="preserve">
+    <value>Leave Management</value>
+  </data>
+  <data name="LeaveList_ListTitle" xml:space="preserve">
+    <value>Leave Management</value>
+  </data>
+  <data name="ChangeShiftList_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="ChangeShiftList_EmployeeID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ChangeShiftList_CommonFromInvalidError" xml:space="preserve">
+    <value>Requester doesn't have any shift in selected day. Please pick another day!</value>
+  </data>
+  <data name="OvertimeDetail_DeleleLabel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="OvertimeDetail_EditLabel" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="OvertimeDetail_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="OvertimeDetail_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="OvertimeDetail_OrderNumber" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeHour" xml:space="preserve">
+    <value>Overtime Hour</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeHourFrom" xml:space="preserve">
+    <value>Overtime Hour From</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeHourTo" xml:space="preserve">
+    <value>Overtime Hour To</value>
+  </data>
+  <data name="OvertimeDetail_Task" xml:space="preserve">
+    <value>Work Content</value>
+  </data>
+  <data name="OvertimeDetail_WorkingHour" xml:space="preserve">
+    <value>Working Hour(s)</value>
+  </data>
+  <data name="OvertimeDetail_WorkingHour_Label" xml:space="preserve">
+    <value>Working Hour(s)</value>
+  </data>
+  <data name="Overtime_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Overtime_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="Overtime_Location" xml:space="preserve">
+    <value>Factory Location</value>
+  </data>
+  <data name="Overtime_OtherRequirement" xml:space="preserve">
+    <value>Other Request</value>
+  </data>
+  <data name="Overtime_Requester" xml:space="preserve">
+    <value>Proposer</value>
+  </data>
+  <data name="Overtime_SumEmployee" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Overtime_SumMeal" xml:space="preserve">
+    <value>Serving</value>
+  </data>
+  <data name="Overtime_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="CompanyCalendar_ContentTypeTitle" xml:space="preserve">
+    <value>Company Calendar - Location 1</value>
+  </data>
+  <data name="Weekend" xml:space="preserve">
+    <value>Weekend</value>
+  </data>
+  <data name="Compensation_Day_Off" xml:space="preserve">
+    <value>Compensation Day-Off</value>
+  </data>
+  <data name="On_Leave" xml:space="preserve">
+    <value>On Leave</value>
+  </data>
+  <data name="CompanyDiscussion_ContentTypeTitle" xml:space="preserve">
+    <value>Company Discussion</value>
+  </data>
+  <data name="Announcement_ContentTypeTitle" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="Announcement_ListTitle" xml:space="preserve">
+    <value>Company Announcements</value>
+  </data>
+  <data name="Announcement_Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Announcement_ShortContent" xml:space="preserve">
+    <value>Short Content</value>
+  </data>
+  <data name="Document_ListTitle" xml:space="preserve">
+    <value>Company Documents</value>
+  </data>
+  <data name="Links_ListTitle" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="News_Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="News_InternalNews_ContentTypeTitle" xml:space="preserve">
+    <value>Internal News</value>
+  </data>
+  <data name="News_InternalNews_ListTitle" xml:space="preserve">
+    <value>Internal News</value>
+  </data>
+  <data name="News_MedicalNews_ContentTypeTitle" xml:space="preserve">
+    <value>Medial News</value>
+  </data>
+  <data name="News_MedicalNews_ListTitle" xml:space="preserve">
+    <value>Medical News</value>
+  </data>
+  <data name="News_Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="News_ShortContent" xml:space="preserve">
+    <value>Short Content</value>
+  </data>
+  <data name="CompanyCalendar2_ContentTypeTitle" xml:space="preserve">
+    <value>Company Calendar - Location 2</value>
+  </data>
+  <data name="CommonComment" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="LeaveTaskList_CommonComment" xml:space="preserve">
+    <value>Commnents</value>
+  </data>
+  <data name="ApprovalStatus_Approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="ApprovalStatus_Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="ApprovalStatus_InProgress" xml:space="preserve">
+    <value>In-Progress</value>
+  </data>
+  <data name="ApprovalStatus_Rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="CancelLink" xml:space="preserve">
+    <value>Cancel Request</value>
+  </data>
+  <data name="CancelLink_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ListDescription_Announcement" xml:space="preserve">
+    <value>See announcement of company</value>
+  </data>
+  <data name="LeaveWFTaskList_ListTitle" xml:space="preserve">
+    <value>Leave Workflow Task List</value>
+  </data>
+  <data name="ListDescription_CompanyDiscussion" xml:space="preserve">
+    <value>Discuss about topics of company</value>
+  </data>
+  <data name="ListDescription_Documents" xml:space="preserve">
+    <value>See all documents of company</value>
+  </data>
+  <data name="ListDescription_InternalNews" xml:space="preserve">
+    <value>See internal news of company</value>
+  </data>
+  <data name="ListDescription_LeaveWFTaskList" xml:space="preserve">
+    <value>List of tasks for approval</value>
+  </data>
+  <data name="ListDescription_Links" xml:space="preserve">
+    <value>Link to other sites</value>
+  </data>
+  <data name="ListDescription_MedicalNews" xml:space="preserve">
+    <value>See medical news of company</value>
+  </data>
+  <data name="ListDescription_Pictures" xml:space="preserve">
+    <value>See pictures of company</value>
+  </data>
+  <data name="Picture_ContentTypeTitle" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="LeaveList_Approver1" xml:space="preserve">
+    <value>Team Leader</value>
+  </data>
+  <data name="LeaveList_Approver2" xml:space="preserve">
+    <value>Department Head</value>
+  </data>
+  <data name="LeaveList_Approver3" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="LeaveList_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="LeaveList_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="Announcement_Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="Announcement_Expires" xml:space="preserve">
+    <value>Expires</value>
+  </data>
+  <data name="Announcement_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Announcement_ContentTypeDescription" xml:space="preserve">
+    <value>Announcement Content Type</value>
+  </data>
+  <data name="Calendar_AllDayEvent" xml:space="preserve">
+    <value>All Day Event</value>
+  </data>
+  <data name="Calendar_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Calendar_CategoryAnniversary" xml:space="preserve">
+    <value>Anniversary</value>
+  </data>
+  <data name="Calendar_CategoryBirthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="Calendar_CategoryBusiness" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="Calendar_CategoryCompanyDayOff" xml:space="preserve">
+    <value>Company Day-Off</value>
+  </data>
+  <data name="Calendar_CategoryCompensatioDayOff" xml:space="preserve">
+    <value>Compensation Day-Off</value>
+  </data>
+  <data name="Calendar_CategoryGetTogether" xml:space="preserve">
+    <value>Get-together</value>
+  </data>
+  <data name="Calendar_CategoryGifts" xml:space="preserve">
+    <value>Gifts</value>
+  </data>
+  <data name="Calendar_CategoryHoliday" xml:space="preserve">
+    <value>Holiday</value>
+  </data>
+  <data name="Calendar_CategoryMeeting" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="Calendar_CategoryOnLeave" xml:space="preserve">
+    <value>On Leave</value>
+  </data>
+  <data name="Calendar_CategoryWorkHours" xml:space="preserve">
+    <value>Work hours</value>
+  </data>
+  <data name="Calendar_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Calendar_DescriptionHelper" xml:space="preserve">
+    <value>Click for help about adding basic HTML formatting.</value>
+  </data>
+  <data name="Calendar_EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="Calendar_FactoryLocation" xml:space="preserve">
+    <value>Factory Location</value>
+  </data>
+  <data name="Calendar_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Calendar_Recurrence" xml:space="preserve">
+    <value>Recurrence</value>
+  </data>
+  <data name="Calendar_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Department_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Department_NameVietnamese" xml:space="preserve">
+    <value>Name Vietnamese</value>
+  </data>
+  <data name="Department_SortOrder" xml:space="preserve">
+    <value>Sort Order</value>
+  </data>
+  <data name="Department_Title" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Department_TitleDescription" xml:space="preserve">
+    <value>Create new a department</value>
+  </data>
+  <data name="Department_UpperDepartment" xml:space="preserve">
+    <value>Upper Department</value>
+  </data>
+  <data name="EmployeeInfo_ADAccount" xml:space="preserve">
+    <value>AD Account</value>
+  </data>
+  <data name="EmployeeInfo_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="EmployeeInfo_Birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="EmployeeInfo_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EmployeeInfo_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EmployeeInfo_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="EmployeeInfo_EmployeeInfo" xml:space="preserve">
+    <value>Employee Info</value>
+  </data>
+  <data name="EmployeeInfo_FactoryLocation" xml:space="preserve">
+    <value>Factory Location</value>
+  </data>
+  <data name="EmployeeInfo_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="EmployeeInfo_FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="EmployeeInfo_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="EmployeeInfo_HomeTown" xml:space="preserve">
+    <value>Home Town</value>
+  </data>
+  <data name="EmployeeInfo_IsCommonAccount" xml:space="preserve">
+    <value>Is Common Account</value>
+  </data>
+  <data name="EmployeeInfo_IsActive" xml:space="preserve">
+    <value>Is Activated</value>
+  </data>
+  <data name="EmployeeInfo_JoinedDate" xml:space="preserve">
+    <value>Joined Date</value>
+  </data>
+  <data name="EmployeeInfo_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="EmployeeInfo_Manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="EmployeeInfo_Picture" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="EmployeeInfo_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="News_Image" xml:space="preserve">
+    <value>Page Image</value>
+  </data>
+  <data name="LeaveList_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="LeaveList_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="DepartmentTask_ListDescription" xml:space="preserve">
+    <value>Tasks of Department</value>
+  </data>
+  <data name="DepartmentTask_ListTitle" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="DepartmentTask_ContentTypeDesciption" xml:space="preserve">
+    <value>Department Task</value>
+  </data>
+  <data name="DepartmentTask_ContentTypeName" xml:space="preserve">
+    <value>Department Task</value>
+  </data>
+  <data name="EmployeePosition_ContentTypeDescription" xml:space="preserve">
+    <value>List of employee position</value>
+  </data>
+  <data name="EmployeePosition_ContentTypeTitle" xml:space="preserve">
+    <value>Employee Position</value>
+  </data>
+  <data name="EmployeePosition_ListTitle" xml:space="preserve">
+    <value>Employee Position</value>
+  </data>
+  <data name="EmployeePosition_NameField" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Department_ListInstanceDescription" xml:space="preserve">
+    <value>Manage Departments</value>
+  </data>
+  <data name="Department_ListInstanceTitle" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="EmployeeInfo_ListInstanceDescription" xml:space="preserve">
+    <value>Manage Employees</value>
+  </data>
+  <data name="EmployeeInfo_ListInstanceTitle" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="EmployeeInfo_EmployeePermission" xml:space="preserve">
+    <value>Employee Permission</value>
+  </data>
+  <data name="EmployeeInfo_EmployeeType" xml:space="preserve">
+    <value>Employee Type</value>
+  </data>
+  <data name="EmployeeInfo_ViewDispName_AdUsers" xml:space="preserve">
+    <value>AD Users</value>
+  </data>
+  <data name="EmployeeInfo_ViewDispName_CommonUsers" xml:space="preserve">
+    <value>Common Users</value>
+  </data>
+  <data name="EmployeeInfo_ViewDispName_InActiveUsers" xml:space="preserve">
+    <value>Inactive Users</value>
+  </data>
+  <data name="DepartmentAnnouncement_Description" xml:space="preserve">
+    <value>See announcements of department</value>
+  </data>
+  <data name="DepartmentAnnouncement_ListTitle" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="DepartmentCalendar_Description" xml:space="preserve">
+    <value>See department calendar</value>
+  </data>
+  <data name="DepartmentCalendar_ListTitle" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="DepartmentDiscussion_Description" xml:space="preserve">
+    <value>Discussion of department</value>
+  </data>
+  <data name="DepartmentDiscussion_ListTitle" xml:space="preserve">
+    <value>Discussions</value>
+  </data>
+  <data name="DepartmentDocument_Description" xml:space="preserve">
+    <value>Document of company</value>
+  </data>
+  <data name="DepartmentDocument_ListTitle" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="EmployeeShiftTime_ListDescription" xml:space="preserve">
+    <value>Employee Shift Time</value>
+  </data>
+  <data name="EmployeeShiftTime_ListTitle" xml:space="preserve">
+    <value>Employee Shift Time</value>
+  </data>
+  <data name="Factories_ListDescription" xml:space="preserve">
+    <value>Factories</value>
+  </data>
+  <data name="Factories_ListTitle" xml:space="preserve">
+    <value>Factories</value>
+  </data>
+  <data name="MailTemplate_ListDescription" xml:space="preserve">
+    <value>Mail Template</value>
+  </data>
+  <data name="MailTemplate_ListTitle" xml:space="preserve">
+    <value>Mail Template</value>
+  </data>
+  <data name="NotOverTimeManagement_ListDescription" xml:space="preserve">
+    <value>Not OverTime Management</value>
+  </data>
+  <data name="NotOverTimeManagement_ListTitle" xml:space="preserve">
+    <value>Leave Of Absence For Overtime Management</value>
+  </data>
+  <data name="OvertimeEmployeeDetails_ListDescription" xml:space="preserve">
+    <value>Overtime Employee Details</value>
+  </data>
+  <data name="OvertimeEmployeeDetails_ListTitle" xml:space="preserve">
+    <value>Overtime Employee Details</value>
+  </data>
+  <data name="OvertimeManagement_ListDescription" xml:space="preserve">
+    <value>Overtime Management</value>
+  </data>
+  <data name="OvertimeManagement_ListTitle" xml:space="preserve">
+    <value>Overtime Management</value>
+  </data>
+  <data name="OvertimeWorkflowTaskList_ListDescription" xml:space="preserve">
+    <value>Overtime Workflow Task List</value>
+  </data>
+  <data name="OvertimeWorkflowTaskList_ListTitle" xml:space="preserve">
+    <value>Overtime Workflow Task List</value>
+  </data>
+  <data name="ShiftManagement_LisDescription" xml:space="preserve">
+    <value>Manage working shift </value>
+  </data>
+  <data name="ShiftManagement_ListTitle" xml:space="preserve">
+    <value>Shift Management</value>
+  </data>
+  <data name="ShiftTime_ListDescription" xml:space="preserve">
+    <value>Shift Time</value>
+  </data>
+  <data name="ShiftTime_ListTitle" xml:space="preserve">
+    <value>Shift Time</value>
+  </data>
+  <data name="ShiftWorkflowTaskList_ListDescription" xml:space="preserve">
+    <value>Shift Workflow Task List</value>
+  </data>
+  <data name="ShiftWorkflowTaskList_ListTitle" xml:space="preserve">
+    <value>Shift Workflow Task List</value>
+  </data>
+  <data name="WorkflowHistoryList_ListDescription" xml:space="preserve">
+    <value>Workflow History List</value>
+  </data>
+  <data name="WorkflowHistoryList_ListTitle" xml:space="preserve">
+    <value>Workflow History List</value>
+  </data>
+  <data name="Department_ShiftRequests" xml:space="preserve">
+    <value>Shift Request is required</value>
+  </data>
+  <data name="ShiftManagement_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="ShiftManagement_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="ShiftManagement_IsValid" xml:space="preserve">
+    <value>Is Valid</value>
+  </data>
+  <data name="ShiftManagement_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="ShiftManagement_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="ShiftManagement_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="ShiftManagementDetail_ListTitle" xml:space="preserve">
+    <value>Shift Management Detail</value>
+  </data>
+  <data name="OvertimeDetail_EmployeeSignature" xml:space="preserve">
+    <value>Employee's signature</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeBreakHour" xml:space="preserve">
+    <value>Breaking Hour Number</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeBreakHourFrom" xml:space="preserve">
+    <value>Breaking Hour From</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeBreakHourTo" xml:space="preserve">
+    <value>Breaking Hour To</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeHourFrom" xml:space="preserve">
+    <value>Working Hour From</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeHourTo" xml:space="preserve">
+    <value>Working Hour To</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeWorkingHour" xml:space="preserve">
+    <value>Working Hour Number</value>
+  </data>
+  <data name="Department_Administrator" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="Department_BODApprover" xml:space="preserve">
+    <value>BOD Approver</value>
+  </data>
+  <data name="ShiftTime_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="OvertimeDetail_HM" xml:space="preserve">
+    <value>HM</value>
+  </data>
+  <data name="OvertimeDetail_KD" xml:space="preserve">
+    <value>KD</value>
+  </data>
+  <data name="OvertimeDetail_TransportAtHM" xml:space="preserve">
+    <value>Company Transport HM</value>
+  </data>
+  <data name="OvertimeDetail_TransportAtKD" xml:space="preserve">
+    <value>Company Transport KD</value>
+  </data>
+  <data name="OvertimeDetail_InvalidTwoDates" xml:space="preserve">
+    <value>Invalid date</value>
+  </data>
+  <data name="NotOverTimeManagement_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="NotOverTimeManagement_Approver1" xml:space="preserve">
+    <value>Head of Department</value>
+  </data>
+  <data name="NotOverTimeManagement_Approver2" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="NotOverTimeManagement_DepartmentName" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="NotOverTimeManagement_EmployeeId" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="NotOverTimeManagement_HoursPerDay" xml:space="preserve">
+    <value>Hours per Day</value>
+  </data>
+  <data name="NotOverTimeManagement_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="NotOverTimeManagement_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="Overtime_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Overtime_InvalidHours" xml:space="preserve">
+    <value>Overtime must be greater than from and not include break time</value>
+  </data>
+  <data name="Overtime_DeleteRow" xml:space="preserve">
+    <value>Are you sure you want to delete this row?</value>
+  </data>
+  <data name="NotOverTimeManagement_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="NotOverTimeManagement_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="NotOverTimeManagement_FromToValidation" xml:space="preserve">
+    <value>To must be greater than From</value>
+  </data>
+  <data name="NotOverTimeManagement_To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="EmployeePosition_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="ShiftManagement_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="ShiftManagement_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ShiftManagement_ViewDetail" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="NotOvertimeWorkflowTaskList_ListTitle" xml:space="preserve">
+    <value>Leave Of Absence For Overtime Worklow Task List</value>
+  </data>
+  <data name="Overtime_RequiredFieldsMessage" xml:space="preserve">
+    <value>Please input valid data into red fields</value>
+  </data>
+  <data name="NotOverTimeManagement_CancelRequest" xml:space="preserve">
+    <value>Cancel Request</value>
+  </data>
+  <data name="ChangeShiftList_FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="ChangeShiftList_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="ChangeShiftList_ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="Tasks_Closed" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="ChangeShiftManagement_Approver1" xml:space="preserve">
+    <value>Head Of Department</value>
+  </data>
+  <data name="ChangeShiftManagement_Approver2" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="NotOvertimeManagement_TaskName" xml:space="preserve">
+    <value>Task Name</value>
+  </data>
+  <data name="EmployeePosition_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="EmployeePosition_VNName" xml:space="preserve">
+    <value>Vietnamese Name</value>
+  </data>
+  <data name="NotOvertimeManagement_TaskStatus" xml:space="preserve">
+    <value>Task Status</value>
+  </data>
+  <data name="NotOvertimeManagement_TaskOutCome" xml:space="preserve">
+    <value>Task Out Come</value>
+  </data>
+  <data name="TaskStatus_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="TaskStatus_InProgress" xml:space="preserve">
+    <value>In-Progress</value>
+  </data>
+  <data name="ChangeShiftManagement_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="ChangeShiftManagement_CancelRequest" xml:space="preserve">
+    <value>Cancel Request</value>
+  </data>
+  <data name="ChangeShiftManagement_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="ShiftManagement_EditTitle" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ShiftManagement_ViewTitle" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="CompanyVehicles_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CompanyVehicles_ListTitle" xml:space="preserve">
+    <value>Company Vehicles</value>
+  </data>
+  <data name="CompanyVehicles_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="CompanyVehicles_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="VehicleManagement_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="VehicleManagement_BOD" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="VehicleManagement_CommonFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="VehicleManagement_CompanyPickup" xml:space="preserve">
+    <value>Company Pick up</value>
+  </data>
+  <data name="VehicleManagement_HOD" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="VehicleManagement_ListTitle" xml:space="preserve">
+    <value>Vehicle Management</value>
+  </data>
+  <data name="VehicleManagement_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="VehicleManagement_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="VehicleManagement_ToFrom" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="VehicleManagement_VehicleType" xml:space="preserve">
+    <value>Vehicle Type</value>
+  </data>
+  <data name="OvertimeManagement_ApprovedBy" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="ShiftManagement_ApprovedBy" xml:space="preserve">
+    <value>Approved By</value>
+  </data>
+  <data name="MailTemplate_Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="MailTemplate_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="MailTemplate_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="MailTemplate_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="MailTemplate_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="LeaveList_Avatar" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="LeaveList_LeftButton" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="VehicleManagement_VehicleType_Choice_Company" xml:space="preserve">
+    <value>Company's Vehicle</value>
+  </data>
+  <data name="VehicleManagement_VehicleType_Choice_Private" xml:space="preserve">
+    <value>Private Vehicle</value>
+  </data>
+  <data name="LeaveList_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="LeaveList_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="CommonAddApprover1" xml:space="preserve">
+    <value>Additional Approver</value>
+  </data>
+  <data name="ShiftManagement_AdditionalApprovers" xml:space="preserve">
+    <value>Additional approvers</value>
+  </data>
+  <data name="ShiftManagement_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="Overtime_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="ShiftManagement_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="ModuleCategory_ListDescription" xml:space="preserve">
+    <value>Module Category</value>
+  </data>
+  <data name="ModuleCategory_ListTitle" xml:space="preserve">
+    <value>Module Category</value>
+  </data>
+  <data name="ModuleCategory_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ModuleCategory_NameVietnamese" xml:space="preserve">
+    <value>Vietnamese Name</value>
+  </data>
+  <data name="Permission_GroupAccess" xml:space="preserve">
+    <value>Group Access</value>
+  </data>
+  <data name="Permission_IsOnLeftMenu" xml:space="preserve">
+    <value>Display on left menu</value>
+  </data>
+  <data name="Permission_LeftMenuOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Permission_ModuleCategory" xml:space="preserve">
+    <value>Module category</value>
+  </data>
+  <data name="Permission_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Permission_NameVietnamese" xml:space="preserve">
+    <value>Vietnamese Name</value>
+  </data>
+  <data name="Permission_PageName" xml:space="preserve">
+    <value>Page URL</value>
+  </data>
+  <data name="Groups_ListDescription" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Groups_ListTitle" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Permission_ListTitle" xml:space="preserve">
+    <value>Permission Group</value>
+  </data>
+  <data name="OvertimeDetail_ApprovalStatus" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeDate" xml:space="preserve">
+    <value>Overtime Date</value>
+  </data>
+  <data name="OvertimeDetail_OvertimeManagementID" xml:space="preserve">
+    <value>Overtime Management ID</value>
+  </data>
+  <data name="OvertimeDetail_EmployeeLevel" xml:space="preserve">
+    <value>Employee level</value>
+  </data>
+  <data name="ChangeShiftManagement_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="NotOverTimeManagement_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="EmployeeInfo_DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="Department_IsBODApprovalRequired" xml:space="preserve">
+    <value>Is BOD Approval Required</value>
+  </data>
+  <data name="VehicleManagement_CommonTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="EmployeeInfo_PositionLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="TaskList_Name" xml:space="preserve">
+    <value>Task List</value>
+  </data>
+  <data name="StepList_Title" xml:space="preserve">
+    <value>Step List</value>
+  </data>
+  <data name="OvertimeDetail_ViewDetail" xml:space="preserve">
+    <value>View detail</value>
+  </data>
+  <data name="ChangeShiftManagement_EditTitle" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ChangeShiftManagement_ViewTitle" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="NotOvertimeManagement_ViewTitle" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="OvertimeDetail_CompanyTransport" xml:space="preserve">
+    <value>Company Transport</value>
+  </data>
+  <data name="LeaveList_AdditionalApprover" xml:space="preserve">
+    <value>Additional Approver</value>
+  </data>
+  <data name="LeaveList_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="LeaveList_RequestFor" xml:space="preserve">
+    <value>Request For</value>
+  </data>
+  <data name="LeaveList_UnexpectedLeave" xml:space="preserve">
+    <value>Unexpected Leave</value>
+  </data>
+  <data name="LeaveList_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="LeaveList_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LeaveList_CancelRequest" xml:space="preserve">
+    <value>Cancel Request</value>
+  </data>
+  <data name="LeaveList_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="LeaveList_ViewDetail" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="LeaveList_IsValidRequest" xml:space="preserve">
+    <value>Is Valid</value>
+  </data>
+  <data name="LeaveList_TotalDays" xml:space="preserve">
+    <value>Total days</value>
+  </data>
+  <data name="LeaveList_Approver4" xml:space="preserve">
+    <value>Team Leader</value>
+  </data>
+  <data name="Calendar_OtherCategories" xml:space="preserve">
+    <value>Other Events</value>
+  </data>
+  <data name="RequestList_ContentTypeDesciption" xml:space="preserve">
+    <value>Request Content Type</value>
+  </data>
+  <data name="RequestList_ContentTypeTitle" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="RequestBuyDetailsList_ContentTypeDescription" xml:space="preserve">
+    <value>Request Buy Details Content Type</value>
+  </data>
+  <data name="RequestBuyDetailsList_ContentTypeTitle" xml:space="preserve">
+    <value>Request Buy Details</value>
+  </data>
+  <data name="RequestOtherDetailsList_ContentTypeDescription" xml:space="preserve">
+    <value>Request Other Details Content Type</value>
+  </data>
+  <data name="RequestOtherDetailsList_ContentTypeTitle" xml:space="preserve">
+    <value>Request Other Details</value>
+  </data>
+  <data name="RequestRepairDetailsList_ContentTypeDescription" xml:space="preserve">
+    <value>Request Repair Details Content Type</value>
+  </data>
+  <data name="RequestRepairDetailsList_ContentTypeTitle" xml:space="preserve">
+    <value>Request Repair Details</value>
+  </data>
+  <data name="RequestTypeList_ContentTypeDesciption" xml:space="preserve">
+    <value>Request Type Content Type</value>
+  </data>
+  <data name="RequestTypeList_ContentTypeTitle" xml:space="preserve">
+    <value>Request Type</value>
+  </data>
+  <data name="RequestList_ListDescription" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="RequestList_ListTitle" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="RequestTypeList_ListDesciption" xml:space="preserve">
+    <value>Request Types</value>
+  </data>
+  <data name="RequestTypeList_ListTitle" xml:space="preserve">
+    <value>Request Types</value>
+  </data>
+  <data name="RequestList_ListDesciption" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="ShiftManagement_ModifiedBy" xml:space="preserve">
+    <value>Modified By</value>
+  </data>
+  <data name="Calendar_CategoryOtherEvents" xml:space="preserve">
+    <value>Other Events</value>
+  </data>
+  <data name="TaskList_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="TaskList_ItemId" xml:space="preserve">
+    <value>Item Id</value>
+  </data>
+  <data name="TaskList_ItemURL" xml:space="preserve">
+    <value>Item URL</value>
+  </data>
+  <data name="TaskList_ListURL" xml:space="preserve">
+    <value>List URL</value>
+  </data>
+  <data name="TaskList_NextAssignTo" xml:space="preserve">
+    <value>Next Assign To</value>
+  </data>
+  <data name="TaskList_RelatedTasks" xml:space="preserve">
+    <value>Related Tasks</value>
+  </data>
+  <data name="TaskList_StepModule" xml:space="preserve">
+    <value>Step Module</value>
+  </data>
+  <data name="TaskList_StepStatus" xml:space="preserve">
+    <value>Step Status</value>
+  </data>
+  <data name="VehicleManagement_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="FreightManagement_ListDescription" xml:space="preserve">
+    <value>Freight Management</value>
+  </data>
+  <data name="FreightManagement_ListTitle" xml:space="preserve">
+    <value>Freight Management</value>
+  </data>
+  <data name="FreightDetails_ListDescription" xml:space="preserve">
+    <value>Freight Details</value>
+  </data>
+  <data name="FreightDetails_ListTitle" xml:space="preserve">
+    <value>Freight Details</value>
+  </data>
+  <data name="FreightManagement_OtherReason" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="FreightManagement_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="FreightManagement_Receiver" xml:space="preserve">
+    <value>Received by</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartment" xml:space="preserve">
+    <value>Receiver department</value>
+  </data>
+  <data name="FreightManagement_ReceiverLocation" xml:space="preserve">
+    <value>Receiver location</value>
+  </data>
+  <data name="FreightManagement_ReceiverPhone" xml:space="preserve">
+    <value>Receiver tel.</value>
+  </data>
+  <data name="FreightManagement_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="FreightManagement_ReturnedGoods" xml:space="preserve">
+    <value>Returned goods</value>
+  </data>
+  <data name="FreightManagement_ShippingIn" xml:space="preserve">
+    <value>Shipping-In time</value>
+  </data>
+  <data name="FreightManagement_ShippingOut" xml:space="preserve">
+    <value>Shipping-Out time</value>
+  </data>
+  <data name="FreightManagement_TransportTime" xml:space="preserve">
+    <value>Transport time</value>
+  </data>
+  <data name="FreightDetails_FreightManagementID" xml:space="preserve">
+    <value>Freight Management ID</value>
+  </data>
+  <data name="FreightDetails_GoodsName" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="FreightDetails_Quantity" xml:space="preserve">
+    <value>Quant.</value>
+  </data>
+  <data name="FreightDetails_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="FreightDetails_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Approval_AdditionalDepartment" xml:space="preserve">
+    <value>Additional department</value>
+  </data>
+  <data name="Approval_AdditionalNextStep" xml:space="preserve">
+    <value>Additional next step</value>
+  </data>
+  <data name="Approval_AdditionalPreviousStep" xml:space="preserve">
+    <value>Additional previous step</value>
+  </data>
+  <data name="Approval_AdditionalStep" xml:space="preserve">
+    <value>Additional step</value>
+  </data>
+  <data name="Approval_ApprovalStatus" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="Approval_AssignFrom" xml:space="preserve">
+    <value>Assign from</value>
+  </data>
+  <data name="Approval_AssignTo" xml:space="preserve">
+    <value>Assign to</value>
+  </data>
+  <data name="Approval_CommonCreator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="Approval_CommonDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Approval_CommonDueDate" xml:space="preserve">
+    <value>Due date</value>
+  </data>
+  <data name="Approval_CommonLocation" xml:space="preserve">
+    <value>Factory location</value>
+  </data>
+  <data name="Approval_CurrentStep" xml:space="preserve">
+    <value>Current step</value>
+  </data>
+  <data name="Approval_IsAdditionalStep" xml:space="preserve">
+    <value>Is additional step</value>
+  </data>
+  <data name="Approval_NextStep" xml:space="preserve">
+    <value>Next step</value>
+  </data>
+  <data name="Approval_PendingAt" xml:space="preserve">
+    <value>Pending at</value>
+  </data>
+  <data name="RequestList_FinishDate" xml:space="preserve">
+    <value>Finish Date</value>
+  </data>
+  <data name="RequestList_ReceviedBy" xml:space="preserve">
+    <value>Received by</value>
+  </data>
+  <data name="RequestList_ReferRequest" xml:space="preserve">
+    <value>Refer request</value>
+  </data>
+  <data name="RequestList_RequestTypeRef" xml:space="preserve">
+    <value>Request type</value>
+  </data>
+  <data name="RequestList_RequiredApprovalByBOD" xml:space="preserve">
+    <value>Required approval by BOD</value>
+  </data>
+  <data name="WorkflowHistory_CommonComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="WorkflowHistory_CommonDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="WorkflowHistory_ItemID" xml:space="preserve">
+    <value>Item ID</value>
+  </data>
+  <data name="WorkflowHistory_ListName" xml:space="preserve">
+    <value>List name</value>
+  </data>
+  <data name="WorkflowHistory_ListTile" xml:space="preserve">
+    <value>Workflow history</value>
+  </data>
+  <data name="WorkflowHistory_PostedBy" xml:space="preserve">
+    <value>Posted by</value>
+  </data>
+  <data name="WorkflowHistory_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="WorkflowSteps_CurrentStep" xml:space="preserve">
+    <value>Current step</value>
+  </data>
+  <data name="WorkflowSteps_ListName" xml:space="preserve">
+    <value>List name</value>
+  </data>
+  <data name="WorkflowSteps_ListTile" xml:space="preserve">
+    <value>Workflow steps</value>
+  </data>
+  <data name="WorkflowSteps_NextStep" xml:space="preserve">
+    <value>Next step</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailCcEmployees" xml:space="preserve">
+    <value>Notification email Cc to employees</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailCcRoles" xml:space="preserve">
+    <value>Notification email Cc roles</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailToEmployees" xml:space="preserve">
+    <value>Notification email to employees</value>
+  </data>
+  <data name="WorkflowSteps_NotificationEmailToRoles" xml:space="preserve">
+    <value>Notification email to roles</value>
+  </data>
+  <data name="WorkflowSteps_AllowReject" xml:space="preserve">
+    <value>Allow reject</value>
+  </data>
+  <data name="WorkflowSteps_ConditionalExpression" xml:space="preserve">
+    <value>Conditional expression</value>
+  </data>
+  <data name="WorkflowSteps_OrderStep" xml:space="preserve">
+    <value>Order step</value>
+  </data>
+  <data name="FreightManagement_Approver1" xml:space="preserve">
+    <value>Department Head</value>
+  </data>
+  <data name="FreightManagement_Approver2" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="FreightManagement_Approver3" xml:space="preserve">
+    <value>Head of Administrator Department</value>
+  </data>
+  <data name="FreightManagement_Bringer" xml:space="preserve">
+    <value>Bringer</value>
+  </data>
+  <data name="FreightManagement_BringerInName" xml:space="preserve">
+    <value>Bringer-In name</value>
+  </data>
+  <data name="FreightManagement_BringerName" xml:space="preserve">
+    <value>Bringer</value>
+  </data>
+  <data name="FreightManagement_CompanyName" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="FreightManagement_Security" xml:space="preserve">
+    <value>Security name</value>
+  </data>
+  <data name="FreightManagement_Transporter" xml:space="preserve">
+    <value>Transporter</value>
+  </data>
+  <data name="RequestList_RequestTypeRefId" xml:space="preserve">
+    <value>Request type ref Id</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="WorkflowEmailTemplates_ContentTypeTitle" xml:space="preserve">
+    <value>Workflow email template content type</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="WorkflowEmailTemplates_ListName" xml:space="preserve">
+    <value>List name</value>
+  </data>
+  <data name="WorkflowEmailTemplates_ListTitle" xml:space="preserve">
+    <value>Workflow email template</value>
+  </data>
+  <data name="WorkflowEmailTemplates_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="RequestBuyDetails_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RequestBuyDetails_Form" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="RequestBuyDetails_ListTitle" xml:space="preserve">
+    <value>Request buy details</value>
+  </data>
+  <data name="RequestBuyDetails_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RequestBuyDetails_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequestBuyDetails_Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="RequestBuyDetails_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="RequestOtherDetails_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RequestOtherDetails_ListTitle" xml:space="preserve">
+    <value>Request other details</value>
+  </data>
+  <data name="RequestOtherDetails_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RequestOtherDetails_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequestOtherDetails_Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="RequestOtherDetails_Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="RequestRepairDetails_Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="RequestRepairDetails_From" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="RequestRepairDetails_ListTitle" xml:space="preserve">
+    <value>Request repair details</value>
+  </data>
+  <data name="RequestRepairDetails_Place" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="RequestRepairDetails_Reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="RequestRepairDetails_Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="RequestRepairDetails_To" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Requests_ListTitle" xml:space="preserve">
+    <value>Requests</value>
+  </data>
+  <data name="Approval_WFStatus" xml:space="preserve">
+    <value>Workflow status</value>
+  </data>
+  <data name="NewItem" xml:space="preserve">
+    <value>New Item</value>
+  </data>
+  <data name="RequestList_CreatedDate" xml:space="preserve">
+    <value>Created date</value>
+  </data>
+  <data name="RequestList_EditView" xml:space="preserve">
+    <value>Edit | View</value>
+  </data>
+  <data name="RequestList_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="RequestList_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Forms_ListTitle" xml:space="preserve">
+    <value>Forms</value>
+  </data>
+  <data name="RequestTypeList_Departments" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="RequestTypeList_RequestType" xml:space="preserve">
+    <value>Request type</value>
+  </data>
+  <data name="RequestTypeList_RequestTypeName" xml:space="preserve">
+    <value>Request type name</value>
+  </data>
+  <data name="SupportingDocuments_ListTitle" xml:space="preserve">
+    <value>Supporting documents</value>
+  </data>
+  <data name="LeaveList_EnterTime" xml:space="preserve">
+    <value>Time In</value>
+  </data>
+  <data name="LeaveList_Entered" xml:space="preserve">
+    <value>Entered</value>
+  </data>
+  <data name="LeaveList_CheckInBy" xml:space="preserve">
+    <value>Check In By</value>
+  </data>
+  <data name="LeaveList_CheckOutBy" xml:space="preserve">
+    <value>Check Out By</value>
+  </data>
+  <data name="FreightManagement_SecurityNotes" xml:space="preserve">
+    <value>Security notes</value>
+  </data>
+  <data name="FreightDetails_ContentType_Description" xml:space="preserve">
+    <value>Freight Details</value>
+  </data>
+  <data name="FreightManagement_ContentType_Description" xml:space="preserve">
+    <value>Freight Management</value>
+  </data>
+  <data name="ShiftTime_UnexpLeaveFirstApprovalRole" xml:space="preserve">
+    <value>Unexpected Leave First Approval Role</value>
+  </data>
+  <data name="Common_ColForSort" xml:space="preserve">
+    <value>Ordering</value>
+  </data>
+  <data name="FreightManagement_ApprovalStatus" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="FreightManagement_CancelRequest" xml:space="preserve">
+    <value>Cancel Request</value>
+  </data>
+  <data name="FreightManagement_ViewDetail" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="FreightManagement_ViewTitle" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="FreightManagement_IsHighPriority" xml:space="preserve">
+    <value>High Priority</value>
+  </data>
+  <data name="FreightManagement_CheckInBy" xml:space="preserve">
+    <value>Check-In by</value>
+  </data>
+  <data name="FreightManagement_CheckOutBy" xml:space="preserve">
+    <value>Check-Out by</value>
+  </data>
+  <data name="RequestList_StatusOrder" xml:space="preserve">
+    <value>Status Order</value>
+  </data>
+  <data name="ShiftTime_ShiftRequired" xml:space="preserve">
+    <value>Shift Required</value>
+  </data>
+  <data name="EmployeeRequirementSheets_FromAge" xml:space="preserve">
+    <value>From age</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="EmployeeRequirementSheets_AvailableTime" xml:space="preserve">
+    <value>Available time</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ComputerSkills" xml:space="preserve">
+    <value>Computer skills</value>
+  </data>
+  <data name="EmployeeRequirementSheets_DepartmentCode" xml:space="preserve">
+    <value>Department code</value>
+  </data>
+  <data name="EmployeeRequirementSheets_DescriptionOfBasicWork" xml:space="preserve">
+    <value>Description of basic work</value>
+  </data>
+  <data name="EmployeeRequirementSheets_EducationLevel" xml:space="preserve">
+    <value>Education level</value>
+  </data>
+  <data name="EmployeeRequirementSheets_EnglishSkills" xml:space="preserve">
+    <value>English skills</value>
+  </data>
+  <data name="EmployeeRequirementSheets_MaritalStatus" xml:space="preserve">
+    <value>Marital status</value>
+  </data>
+  <data name="EmployeeRequirementSheets_MoralVocations" xml:space="preserve">
+    <value>Moral vocations</value>
+  </data>
+  <data name="EmployeeRequirementSheets_OtherRequirement" xml:space="preserve">
+    <value>Other requirement</value>
+  </data>
+  <data name="EmployeeRequirementSheets_OtherSkills" xml:space="preserve">
+    <value>Other skills</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ReasonsForRecruitment" xml:space="preserve">
+    <value>Reason for recruitment</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Specialities" xml:space="preserve">
+    <value>Specialities</value>
+  </data>
+  <data name="EmployeeRequirementSheets_WorkingAbilities" xml:space="preserve">
+    <value>Working abilities</value>
+  </data>
+  <data name="EmployeeRequirementSheets_WorkingExperience" xml:space="preserve">
+    <value>Working experience</value>
+  </data>
+  <data name="EmployeeRequirementSheets_WorkingTime" xml:space="preserve">
+    <value>Working time</value>
+  </data>
+  <data name="EmployeeRequirementSheets_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ListTitle" xml:space="preserve">
+    <value>Employee requirement sheets</value>
+  </data>
+  <data name="ForeignLanguageLevels_ListTitle" xml:space="preserve">
+    <value>Foreign language levels</value>
+  </data>
+  <data name="ForeignLanguages_ListTile" xml:space="preserve">
+    <value>Foreign Languages</value>
+  </data>
+  <data name="ForeignLanguages_CommonName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ForeignLanguages_CommonName1066" xml:space="preserve">
+    <value>Vietnamese name</value>
+  </data>
+  <data name="ForeignLanguages_ForeignLanguage" xml:space="preserve">
+    <value>Foreign language</value>
+  </data>
+  <data name="ForeignLanguages_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="ForeignLanguages_OtherLevel" xml:space="preserve">
+    <value>Other level</value>
+  </data>
+  <data name="ForeignLanguages_Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="RecruitmentLanguageSkills_ListTitle" xml:space="preserve">
+    <value>Recruitment language skills</value>
+  </data>
+  <data name="FreightManagement_BringerDepartment" xml:space="preserve">
+    <value>Bringer department</value>
+  </data>
+  <data name="FreightManagement_BringerLocation" xml:space="preserve">
+    <value>Bringer location</value>
+  </data>
+  <data name="RecruitmentTeam_ListDescription" xml:space="preserve">
+    <value>Recruitment team</value>
+  </data>
+  <data name="RecruitmentTeam_ListTitle" xml:space="preserve">
+    <value>Recruitment team</value>
+  </data>
+  <data name="RecruitmentTeam_Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="EmployeeRequirementSheets_ToAge" xml:space="preserve">
+    <value>To age</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_DateOfEmp" xml:space="preserve">
+    <value>Date of employee</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_DiplomaRevision" xml:space="preserve">
+    <value>Diploma revision</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_EmployeeCode" xml:space="preserve">
+    <value>Employee code</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_From" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_Full_Name" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_ListTitle" xml:space="preserve">
+    <value>Request for diploma supplies</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_NewSuggestions" xml:space="preserve">
+    <value>New suggestions/ Contributions/Achivements or Innovations to the Department</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_SalaryRevision" xml:space="preserve">
+    <value>Salary revision</value>
+  </data>
+  <data name="RequestForDiplomaSupplies_ToTheDailyWorks" xml:space="preserve">
+    <value>To the daily works</value>
+  </data>
+  <data name="RequestDiplomaDetails_CurrentDiploma" xml:space="preserve">
+    <value>Current diploma</value>
+  </data>
+  <data name="RequestDiplomaDetails_Faculty" xml:space="preserve">
+    <value>Faculty</value>
+  </data>
+  <data name="RequestDiplomaDetails_GraduationYear" xml:space="preserve">
+    <value>Graduation year</value>
+  </data>
+  <data name="RequestDiplomaDetails_IssuedPlace" xml:space="preserve">
+    <value>Issued place</value>
+  </data>
+  <data name="RequestDiplomaDetails_ListTitle" xml:space="preserve">
+    <value>Request diploma details</value>
+  </data>
+  <data name="RequestDiplomaDetails_NewDiploma" xml:space="preserve">
+    <value>New diploma</value>
+  </data>
+  <data name="RequestDiplomaDetails_Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="RequestDiplomaDetails_TrainingDuration" xml:space="preserve">
+    <value>Training duration</value>
+  </data>
+  <data name="BusinessTripManagement_ExternalTrip" xml:space="preserve">
+    <value>Overseas business trip</value>
+  </data>
+  <data name="BusinessTripManagement_HotelBooking" xml:space="preserve">
+    <value>Hotel booking</value>
+  </data>
+  <data name="BusinessTripManagement_InternalTrip" xml:space="preserve">
+    <value>Domestic business trip</value>
+  </data>
+  <data name="BusinessTripManagement_OtherService" xml:space="preserve">
+    <value>Other service</value>
+  </data>
+  <data name="BusinessTripManagement_PaiedBy" xml:space="preserve">
+    <value>Paid by</value>
+  </data>
+  <data name="BusinessTripManagement_Purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="BusinessTripManagement_ContentType_Description" xml:space="preserve">
+    <value>Business Trip Management Content Type</value>
+  </data>
+  <data name="BusinessTripEmployee_ContentType_Description" xml:space="preserve">
+    <value>Business Trip Employee Content Type</value>
+  </data>
+  <data name="BusinessTripSchedule_ContentType_Description" xml:space="preserve">
+    <value>Business Trip Schedule Content Type</value>
+  </data>
+  <data name="Approval_Status" xml:space="preserve">
+    <value>Approval Status</value>
+  </data>
+  <data name="BusinessTripManagement_Approver1Title" xml:space="preserve">
+    <value>Department Head</value>
+  </data>
+  <data name="BusinessTripManagement_Approver2Title" xml:space="preserve">
+    <value>Direct BOD</value>
+  </data>
+  <data name="BusinessTripManagement_Approver4Title" xml:space="preserve">
+    <value>Head of Administrator Department</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripManagementID" xml:space="preserve">
+    <value>Business Trip Management ID</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripTypeExternalTitle" xml:space="preserve">
+    <value>Overseas business trip</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripTypeInternalTitle" xml:space="preserve">
+    <value>Domestic business trip</value>
+  </data>
+  <data name="BusinessTripManagement_BusinessTripTypeTitle" xml:space="preserve">
+    <value>Business trip type</value>
+  </data>
+  <data name="BusinessTripManagement_CashDetailsTitle" xml:space="preserve">
+    <value>Amout of money</value>
+  </data>
+  <data name="BusinessTripManagement_CashierTitle" xml:space="preserve">
+    <value>Cashier</value>
+  </data>
+  <data name="BusinessTripManagement_CashOrChequeRequestTitle" xml:space="preserve">
+    <value>Tiền mặt hoặc Séc/Cash or Cheque</value>
+  </data>
+  <data name="BusinessTripManagement_DriverTitle" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="BusinessTripManagement_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeCode" xml:space="preserve">
+    <value>Employee code</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeDept" xml:space="preserve">
+    <value>Employee department</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeFullName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="BusinessTripManagement_HotelBookingTitle" xml:space="preserve">
+    <value>Hotel booking</value>
+  </data>
+  <data name="BusinessTripManagement_OtherDetailsTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="BusinessTripManagement_OtherRequestsTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="BusinessTripManagement_OtherRequestTitle" xml:space="preserve">
+    <value>Khác/Others</value>
+  </data>
+  <data name="BusinessTripManagement_OtherServiceTitle" xml:space="preserve">
+    <value>Other service</value>
+  </data>
+  <data name="BusinessTripManagement_PaidByTitle" xml:space="preserve">
+    <value>Paid by</value>
+  </data>
+  <data name="BusinessTripManagement_PurposeTitle" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="BusinessTripManagement_RequesterTitle" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeCompanyTitle" xml:space="preserve">
+    <value>Xe đưa đón công ty/Company bus</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypePrivateTitle" xml:space="preserve">
+    <value>Tự túc/Private vehicle</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeTitle" xml:space="preserve">
+    <value>Transportation type</value>
+  </data>
+  <data name="BusinessTripManagement_VisaRequestTitle" xml:space="preserve">
+    <value>Visa</value>
+  </data>
+  <data name="BusinessTripManagement_CityTitle" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="BusinessTripManagement_ContactCompanyTitle" xml:space="preserve">
+    <value>Company's name</value>
+  </data>
+  <data name="BusinessTripManagement_ContactPhoneTitle" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="BusinessTripManagement_CountryTitle" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="BusinessTripManagement_DepartDateTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="BusinessTripManagement_DepartTimeTitle" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="BusinessTripManagement_FlightNameTitle" xml:space="preserve">
+    <value>Flight name</value>
+  </data>
+  <data name="BusinessTripManagement_OtherScheduleTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="BusinessTripManagement_Approver3Title" xml:space="preserve">
+    <value>BOD</value>
+  </data>
+  <data name="BusinessTripManagement_HighPriorityTitle" xml:space="preserve">
+    <value>Require approval from BOD</value>
+  </data>
+  <data name="BusinessTripEmployeeDetails_ListTitle" xml:space="preserve">
+    <value>Business Trip Employee Details</value>
+  </data>
+  <data name="BusinessTripManagement_ListTitle" xml:space="preserve">
+    <value>Business Trip Management</value>
+  </data>
+  <data name="BusinessTripSchedule_ListTitle" xml:space="preserve">
+    <value>Business Trip Schedule</value>
+  </data>
+  <data name="BusinessTripManagement_EmployeeListTitle" xml:space="preserve">
+    <value>Employee list</value>
+  </data>
+  <data name="BusinessTripManagement_ScheduleListTitle" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="WorkflowHistory_VietnameseStatus" xml:space="preserve">
+    <value>Vietnamese Status</value>
+  </data>
+  <data name="VehicleManagement_ViewDetail" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="LeaveList_YourComment" xml:space="preserve">
+    <value>Your Comment</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeOthersDetailsTitle" xml:space="preserve">
+    <value>(taxi ticket, airplane ticket, train ticket...)</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeOthersTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="BusinessTripManagement_ApprovalStatus" xml:space="preserve">
+    <value>Approval status</value>
+  </data>
+  <data name="BusinessTripManagement_ViewDetail" xml:space="preserve">
+    <value>View Detail</value>
+  </data>
+  <data name="EmployeeRequirementSheets_IsValidRequest" xml:space="preserve">
+    <value>Is valid request</value>
+  </data>
+  <data name="Configuration_ListDescription" xml:space="preserve">
+    <value>List of configurations</value>
+  </data>
+  <data name="Configuration_ListTile" xml:space="preserve">
+    <value>Configurations</value>
+  </data>
+  <data name="Configuration_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Configuration_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ListTitle" xml:space="preserve">
+    <value>Additional Employee Position</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ContentTypeDesc" xml:space="preserve">
+    <value>Additional Employee Postition</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ContentTypeTitle" xml:space="preserve">
+    <value>Additional Employee Postition</value>
+  </data>
+  <data name="AdditionalEmployeePosition_Employee" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="AdditionalEmployeePosition_EmployeeID" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="AdditionalEmployeePosition_Level" xml:space="preserve">
+    <value>Employee Level</value>
+  </data>
+  <data name="AdditionalEmployeePosition_ListDesc" xml:space="preserve">
+    <value>Contains additional info of employee position</value>
+  </data>
+  <data name="AdditionalEmployeePosition_Module" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="CommonYourComment" xml:space="preserve">
+    <value>Your comments</value>
+  </data>
+  <data name="BusinesstripManagement_CancelRequest" xml:space="preserve">
+    <value>Cancel Request</value>
+  </data>
+  <data name="EmployeeRequirementSheets_IsTemplate" xml:space="preserve">
+    <value>Is Template</value>
+  </data>
+  <data name="Department_DepartmentNo" xml:space="preserve">
+    <value>Department number</value>
+  </data>
+  <data name="FreightManagement_RequestNo" xml:space="preserve">
+    <value>Request number</value>
+  </data>
+  <data name="FreightManagement_CompanyVehicle" xml:space="preserve">
+    <value>Company's Vehicle</value>
+  </data>
+  <data name="FreightList_IsValidRequest" xml:space="preserve">
+    <value>Is Valid</value>
+  </data>
+  <data name="FreightManagement_Vehicle" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="FreightManagement_VehicleVN" xml:space="preserve">
+    <value>Vehicle VN</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartmentVN" xml:space="preserve">
+    <value>Receiver department VN</value>
+  </data>
+  <data name="FreightManagement_FreightType" xml:space="preserve">
+    <value>Type of Freight</value>
+  </data>
+  <data name="FreightReceiverDepartment_ContentType_Description" xml:space="preserve">
+    <value>Freight Receiver Department</value>
+  </data>
+  <data name="FreightReceiverDepartment_ListTitle" xml:space="preserve">
+    <value>Freight Receiver Department</value>
+  </data>
+  <data name="FreightVehicle_ContentType_Description" xml:space="preserve">
+    <value>Freight Vehicle</value>
+  </data>
+  <data name="FreightVehicle_ListTitle" xml:space="preserve">
+    <value>Freight Vehicle</value>
+  </data>
+  <data name="FreightManagement_RequestNumber" xml:space="preserve">
+    <value>Request number</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartmentLookup" xml:space="preserve">
+    <value>Receiver department</value>
+  </data>
+  <data name="FreightManagement_ReceiverDepartmentText" xml:space="preserve">
+    <value>Receiver department</value>
+  </data>
+  <data name="FreightManagement_VehicleLookup" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="FreightManagement_IsFinished" xml:space="preserve">
+    <value>Is Finished</value>
+  </data>
+  <data name="BusinessTripManagement_TransportationTypeOthersDetailTitle" xml:space="preserve">
+    <value>Others details</value>
+  </data>
+  <data name="DelegationEmployeePositions_DelegatedEmployeePositions" xml:space="preserve">
+    <value>Delegated employee positions</value>
+  </data>
+  <data name="DelegationEmployeePositions_EmployeePosition" xml:space="preserve">
+    <value>Employee position</value>
+  </data>
+  <data name="DelegationEmployeePositions_ListTitle" xml:space="preserve">
+    <value>Delegation employee positions</value>
+  </data>
+  <data name="DelegationModules_ListTitle" xml:space="preserve">
+    <value>Delegations module</value>
+  </data>
+  <data name="DelegationModules_ListURL" xml:space="preserve">
+    <value>List Url</value>
+  </data>
+  <data name="DelegationModules_ModuleName" xml:space="preserve">
+    <value>Module name</value>
+  </data>
+  <data name="DelegationsOfNewTask_FromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="DelegationsOfNewTask_FromEmployee" xml:space="preserve">
+    <value>From employee</value>
+  </data>
+  <data name="DelegationsOfNewTask_ListTitle" xml:space="preserve">
+    <value>Delegations of new task</value>
+  </data>
+  <data name="DelegationsOfNewTask_ListURL" xml:space="preserve">
+    <value>List Url</value>
+  </data>
+  <data name="DelegationsOfNewTask_ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="DelegationsOfNewTask_ToEmployee" xml:space="preserve">
+    <value>To employee</value>
+  </data>
+  <data name="Delegations_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Delegations_FromDate" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="Delegations_FromEmployee" xml:space="preserve">
+    <value>From employee</value>
+  </data>
+  <data name="Delegations_ListItemCreatedDate" xml:space="preserve">
+    <value>List item created date</value>
+  </data>
+  <data name="Delegations_ListItemDescription" xml:space="preserve">
+    <value>List item description</value>
+  </data>
+  <data name="Delegations_ListItemID" xml:space="preserve">
+    <value>List item ID</value>
+  </data>
+  <data name="Delegations_ListTitle" xml:space="preserve">
+    <value>Delegations</value>
+  </data>
+  <data name="Delegations_ListURL" xml:space="preserve">
+    <value>List url</value>
+  </data>
+  <data name="Delegations_Requester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="Delegations_ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Delegations_ToEmployee" xml:space="preserve">
+    <value>To employee</value>
+  </data>
+  <data name="DelegationsOfNewTask_ModuleName" xml:space="preserve">
+    <value>Module name</value>
+  </data>
+  <data name="DelegationsOfNewTask_VietnameseModuleName" xml:space="preserve">
+    <value>Vietnamese module name</value>
+  </data>
+  <data name="Delegations_ModuleName" xml:space="preserve">
+    <value>Module name</value>
+  </data>
+  <data name="Delegations_VietnameseModuleName" xml:space="preserve">
+    <value>Vietnamese module name</value>
+  </data>
+  <data name="Delegations_ListItemApprovalUrl" xml:space="preserve">
+    <value>List item approval Url</value>
+  </data>
+  <data name="EmployeeInfo_DelegatedBy" xml:space="preserve">
+    <value>Delegated By</value>
+  </data>
+  <data name="FromDateGeqTodateErrorMessage" xml:space="preserve">
+    <value>From Date must be greater than or equal current date</value>
+  </data>
+  <data name="OvertimeManagement_FirstApprovedBy" xml:space="preserve">
+    <value>First approved by</value>
+  </data>
+  <data name="OvertimeManagement_FirstApprovedDate" xml:space="preserve">
+    <value>First approved date</value>
+  </data>
+  <data name="Common_LastRemind" xml:space="preserve">
+    <value>Last Remind</value>
+  </data>
+  <data name="Common_MaxRemindAttemps" xml:space="preserve">
+    <value>Max Remind Attemps</value>
+  </data>
+  <data name="Common_NextRemind" xml:space="preserve">
+    <value>Next Remind</value>
+  </data>
+  <data name="Common_RemindedAttemps" xml:space="preserve">
+    <value>Reminded Attemps</value>
+  </data>
+  <data name="Common_ReqDueDate" xml:space="preserve">
+    <value>Request Due Date</value>
+  </data>
+  <data name="Department_Locations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="Department_IsVisible" xml:space="preserve">
+    <value>Is Visible</value>
+  </data>
+  <data name="Overtime_BODComments" xml:space="preserve">
+    <value>BOD's Comments</value>
+  </data>
+  <data name="Overtime_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Overtime_DHComments" xml:space="preserve">
+    <value>Department Head's Comments</value>
+  </data>
+  <data name="Overtime_SecurityComments" xml:space="preserve">
+    <value>Security's Comments</value>
+  </data>
+  <data name="ShiftTime_ShiftTimeWorkingHourMid" xml:space="preserve">
+    <value>Working Hour Mid</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_ListTitle" xml:space="preserve">
+    <value>Request received department viewers</value>
+  </data>
+  <data name="RequestReceivedDepartmentViewers_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Department_AutoCreateOverTime" xml:space="preserve">
+    <value>Auto create overtime</value>
+  </data>
+  <data name="LeaveList_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Configuration_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="FromDateGeqTodateErrorMessage_1" xml:space="preserve">
+    <value>From Date must be greater than current date %7B0%7D day(s)</value>
+  </data>
+  <data name="ChangeShiftList_ShiftsEqualErrorMessage" xml:space="preserve">
+    <value>To shift must be different with from shift</value>
+  </data>
+  <data name="VehicleManagement_ToDateValidationMessage" xml:space="preserve">
+    <value>To Date must be greater than From Date</value>
+  </data>
+  <data name="MeetingRooms_ListTitle" xml:space="preserve">
+    <value>Meeting rooms</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_DiscussionMeeting" xml:space="preserve">
+    <value>Discussion meeting</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_EndTime" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_FullName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_ListTitle" xml:space="preserve">
+    <value>Requisition of meeting room</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_MeetingRoomLocation" xml:space="preserve">
+    <value>Meeting room</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Participation" xml:space="preserve">
+    <value>Participation</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Seats" xml:space="preserve">
+    <value>Seats</value>
+  </data>
+  <data name="RequisitionOfMeetingRoom_Start_Time" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="GuestInformation_ContentType_Description" xml:space="preserve">
+    <value>Information of guest</value>
+  </data>
+  <data name="GuestPickupCar_ContentType_Description" xml:space="preserve">
+    <value>Pick-up to the company</value>
+  </data>
+  <data name="GuestReceptionManagement_ContentType_Description" xml:space="preserve">
+    <value>Guest management</value>
+  </data>
+  <data name="GuestInformation_ListTitle" xml:space="preserve">
+    <value>Information of guest</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestCompanyName" xml:space="preserve">
+    <value>Name of company</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfArrivalTitle" xml:space="preserve">
+    <value>Date of arrival</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestDateOfIssueTitle" xml:space="preserve">
+    <value>Date of issue</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderTitle" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestJobTitle" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNameTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNationalityTitle" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPassportNoTitle" xml:space="preserve">
+    <value>Passport No</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionManagementID" xml:space="preserve">
+    <value>Guest Reception Management ID</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaValidityTitle" xml:space="preserve">
+    <value>Visa validity</value>
+  </data>
+  <data name="GuestPickupCar_ListTitle" xml:space="preserve">
+    <value>Pick-up to the company</value>
+  </data>
+  <data name="GuestReceptionManagement_AirportCarTimeTitle" xml:space="preserve">
+    <value>Car to the airport</value>
+  </data>
+  <data name="GuestReceptionManagement_DepartmentTitle" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="GuestReceptionManagement_FlightNoTitle" xml:space="preserve">
+    <value>Flight No</value>
+  </data>
+  <data name="GuestReceptionManagement_FoodSpecialRequirementTitle" xml:space="preserve">
+    <value>Special requirement for food</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestCompanyNameTitle" xml:space="preserve">
+    <value>Name of company</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryEntranceStaffTitle" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryEntranceTitle" xml:space="preserve">
+    <value>Factory entrance</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryEntranceVisitorTitle" xml:space="preserve">
+    <value>Visistors</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestFactoryVisitingRoutineTitle" xml:space="preserve">
+    <value>Factory visiting routines</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderFemale_Title" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderMale_Title" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestGenderOther_Title" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelAddressTitle" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelBookingTitle" xml:space="preserve">
+    <value>Hotel booking</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelCheckInDateTitle" xml:space="preserve">
+    <value>Check-in date</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelCheckOutDateTitle" xml:space="preserve">
+    <value>Check-out date</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelNameTitle" xml:space="preserve">
+    <value>Name of hotel</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelOtherRequirementTitle" xml:space="preserve">
+    <value>Other requirement</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelRoomTypeDoubleTitle" xml:space="preserve">
+    <value>Double room</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelRoomTypeSingleTitle" xml:space="preserve">
+    <value>Single room</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestHotelRoomTypeTitle" xml:space="preserve">
+    <value>Room type</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestNumberOfClothesTitle" xml:space="preserve">
+    <value>Labour safety clothes</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarAttendantTitle" xml:space="preserve">
+    <value>Name of attendants of meeting</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarDatetimeTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarDateTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarTimeTitle" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarWorkingPlaceTitle" xml:space="preserve">
+    <value>Working place</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupTimeTitle" xml:space="preserve">
+    <value>Pick up car at the airport</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionDateTitle" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelCasualTitle" xml:space="preserve">
+    <value>Casual</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelFormalTitle" xml:space="preserve">
+    <value>Formal</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelHighlyFormalTitle" xml:space="preserve">
+    <value>Highly formal</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestReceptionLevelTitle" xml:space="preserve">
+    <value>Reception</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementCakesTitle" xml:space="preserve">
+    <value>Cakes</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentBlackboardTitle" xml:space="preserve">
+    <value>Blackboard</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentLazerPenTitle" xml:space="preserve">
+    <value>Laser pen</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentMicroTitle" xml:space="preserve">
+    <value>Micro</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentOtherTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentProjectorTitle" xml:space="preserve">
+    <value>Projector</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementEquipmentTitle" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementFaceClothTitle" xml:space="preserve">
+    <value>Face-cloth</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementFruitsTitle" xml:space="preserve">
+    <value>Fruits</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementMeetingRoomTitle" xml:space="preserve">
+    <value>Meeting room</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementSeatTitle" xml:space="preserve">
+    <value>Number of seats</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementStuffsTitle" xml:space="preserve">
+    <value>Requirements</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestRequirementTitle" xml:space="preserve">
+    <value>Requirements</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleContentTitle" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleFromTitle" xml:space="preserve">
+    <value>Schedule date from</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestSchedulePlaceTitle" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleTitle" xml:space="preserve">
+    <value>Guest's Schedule</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestScheduleToTitle" xml:space="preserve">
+    <value>schedule to</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestSouvenirTitle" xml:space="preserve">
+    <value>Souvenir</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestVisaApplicationTitle" xml:space="preserve">
+    <value>Visa application</value>
+  </data>
+  <data name="GuestReceptionManagement_ListTitle" xml:space="preserve">
+    <value>Guest reception management</value>
+  </data>
+  <data name="GuestReceptionManagement_LocationTitle" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceAtCompanyTitle" xml:space="preserve">
+    <value>In canteen</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceTitle" xml:space="preserve">
+    <value>Lunch service</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServicOtherPlaceTitle" xml:space="preserve">
+    <value>Other place</value>
+  </data>
+  <data name="GuestReceptionManagement_MinibarPaidByTitle" xml:space="preserve">
+    <value>Minibar will be charged to</value>
+  </data>
+  <data name="GuestReceptionManagement_OtherServicePaidByTitle" xml:space="preserve">
+    <value>Other service will be charged to</value>
+  </data>
+  <data name="GuestReceptionManagement_PickupCarTitle" xml:space="preserve">
+    <value>Pick-up to the company</value>
+  </data>
+  <data name="GuestReceptionManagement_RequesterTitle" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="GuestReceptionManagement_RoomPaidByTitle" xml:space="preserve">
+    <value>Room charge will be paid by</value>
+  </data>
+  <data name="ExportingDossierManagement_ListTitle" xml:space="preserve">
+    <value>Exporting Dossier Management</value>
+  </data>
+  <data name="DesignerChangeDetails_ChangedContentsTitle" xml:space="preserve">
+    <value>Changed contents</value>
+  </data>
+  <data name="DesignerChangeDetails_ChangedItemsTitle" xml:space="preserve">
+    <value>Changed items</value>
+  </data>
+  <data name="DesignerChangeDetails_ChangedReasonTitle" xml:space="preserve">
+    <value>Reason of change</value>
+  </data>
+  <data name="DesignerChangeDetails_DesignRequestManagement" xml:space="preserve">
+    <value>Design request management</value>
+  </data>
+  <data name="DesignerChangeDetails_ListTitle" xml:space="preserve">
+    <value>Designer change details</value>
+  </data>
+  <data name="DesignerChangeDetails_NewCodeTitle" xml:space="preserve">
+    <value>new code</value>
+  </data>
+  <data name="DesignRequestManagement_APIStrengthTitle" xml:space="preserve">
+    <value>API &amp; strength</value>
+  </data>
+  <data name="DesignRequestManagement_BatchNoTitle" xml:space="preserve">
+    <value>Batch no.</value>
+  </data>
+  <data name="DesignRequestManagement_CompleteDateTitle" xml:space="preserve">
+    <value>Date of completion</value>
+  </data>
+  <data name="DesignRequestManagement_DesignDateTitle" xml:space="preserve">
+    <value>Design date</value>
+  </data>
+  <data name="DesignRequestManagement_DesignerTitle" xml:space="preserve">
+    <value>Designer</value>
+  </data>
+  <data name="DesignRequestManagement_ExpectantTimeTitle" xml:space="preserve">
+    <value>Expectant time</value>
+  </data>
+  <data name="DesignRequestManagement_ExpiryDateTitle" xml:space="preserve">
+    <value>Expiry date</value>
+  </data>
+  <data name="DesignRequestManagement_ExportingMartketTitle" xml:space="preserve">
+    <value>Exporting market</value>
+  </data>
+  <data name="DesignRequestManagement_ListTitle" xml:space="preserve">
+    <value>Design request management</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingDateTitle" xml:space="preserve">
+    <value>Manufacturing date</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingSiteBDTitle" xml:space="preserve">
+    <value>Bình Dương</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingSiteHMTitle" xml:space="preserve">
+    <value>Hóc Môn</value>
+  </data>
+  <data name="DesignRequestManagement_ManufacturingSiteTitle" xml:space="preserve">
+    <value>Manufacturing site</value>
+  </data>
+  <data name="DesignRequestManagement_OriginalCodeTitle" xml:space="preserve">
+    <value>Initial code</value>
+  </data>
+  <data name="DesignRequestManagement_OtherSpecialSignTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="DesignRequestManagement_OthersTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="DesignRequestManagement_OtherStorageConditionTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsAmpouleTitle" xml:space="preserve">
+    <value>ampoule</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsBlisterTitle" xml:space="preserve">
+    <value>blister</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsBottleTitle" xml:space="preserve">
+    <value>bottle</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsOthersTitle" xml:space="preserve">
+    <value>others</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsSachetTitle" xml:space="preserve">
+    <value>sachet</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsTitle" xml:space="preserve">
+    <value>Packaging details</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailsTubeTitle" xml:space="preserve">
+    <value>tube</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingDetailValuesTitle" xml:space="preserve">
+    <value>Packaging detail values</value>
+  </data>
+  <data name="DesignRequestManagement_PackagingPresentationsTitle" xml:space="preserve">
+    <value>Packaging presentations</value>
+  </data>
+  <data name="DesignRequestManagement_PharmachopeiaDetailsTitle" xml:space="preserve">
+    <value>Pharmacopeia</value>
+  </data>
+  <data name="DesignRequestManagement_ProductNameTitle" xml:space="preserve">
+    <value>Product's name</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeExportingChangeTitle" xml:space="preserve">
+    <value>change</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeExportingMarketTitle" xml:space="preserve">
+    <value>exporting market</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeInitialTitle" xml:space="preserve">
+    <value>initial</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeLocalTitle" xml:space="preserve">
+    <value>local</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeRenewalTitle" xml:space="preserve">
+    <value>renewal</value>
+  </data>
+  <data name="DesignRequestManagement_RegistrationTypeTitle" xml:space="preserve">
+    <value>Registration type</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialPrecautionsTitle" xml:space="preserve">
+    <value>Special precautions</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialSignOtherTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialSignRxTitle" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="DesignRequestManagement_SpecialSignTitle" xml:space="preserve">
+    <value>Special sign</value>
+  </data>
+  <data name="DesignRequestManagement_SpecificationPharmacopeiaTitle" xml:space="preserve">
+    <value>Pharmacopeia</value>
+  </data>
+  <data name="DesignRequestManagement_SpecificationTCNSXTitle" xml:space="preserve">
+    <value>Manufacturer’s</value>
+  </data>
+  <data name="DesignRequestManagement_SpecificationTitle" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionLightTitle" xml:space="preserve">
+    <value>Protect from light</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionMoistureTitle" xml:space="preserve">
+    <value>and moisture</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionOthersTitle" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionTitle" xml:space="preserve">
+    <value>Storage condition</value>
+  </data>
+  <data name="DesignRequestManagement_StorageConditionWellClosedContainerTitle" xml:space="preserve">
+    <value>Store in a well-closed container. Do not store above 30°C</value>
+  </data>
+  <data name="DesignRequestManagement_TherapeuticGroupTitle" xml:space="preserve">
+    <value>Therapeutic group</value>
+  </data>
+  <data name="DossierReference_DocumentRequired" xml:space="preserve">
+    <value>Document required</value>
+  </data>
+  <data name="DossierReference_DossierPart" xml:space="preserve">
+    <value>Part of the Dossier</value>
+  </data>
+  <data name="DossierReference_DossierPartDrugProduct" xml:space="preserve">
+    <value>Drug Product</value>
+  </data>
+  <data name="DossierReference_DossierPartDrugSubstance" xml:space="preserve">
+    <value>Drug Substance</value>
+  </data>
+  <data name="DossierReference_ExportingDossier" xml:space="preserve">
+    <value>Exporting Dossier</value>
+  </data>
+  <data name="DossierReference_ListTitle" xml:space="preserve">
+    <value>Dossier References </value>
+  </data>
+  <data name="DossierReference_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="DossierReference_ResponsibleDepartment" xml:space="preserve">
+    <value>Responsible Dept</value>
+  </data>
+  <data name="ExportingDossierManagement_APIStrengthTitle" xml:space="preserve">
+    <value>API/strength</value>
+  </data>
+  <data name="ExportingDossierManagement_BatchNoTitle" xml:space="preserve">
+    <value>Batch No</value>
+  </data>
+  <data name="ExportingDossierManagement_ColorTitle" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ExportingDossierManagement_DescriptionTitle" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ExportingDossierManagement_InnovatorDescriptionTitle" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ExportingDossierManagement_InnovatorSampleTitle" xml:space="preserve">
+    <value>Innovator sample</value>
+  </data>
+  <data name="ExportingDossierManagement_ManufacturerTitle" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="ExportingDossierManagement_MfgDateTitle" xml:space="preserve">
+    <value>Mfg date</value>
+  </data>
+  <data name="ExportingDossierManagement_NoteTitle" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ExportingDossierManagement_PackageInsertValuesTitle" xml:space="preserve">
+    <value>Package insert values</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertAHFSTitle" xml:space="preserve">
+    <value>AHFS</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInserteMCTitle" xml:space="preserve">
+    <value>eMC</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertMartindalTitle" xml:space="preserve">
+    <value>Martindal</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertPDRTitle" xml:space="preserve">
+    <value>PDR</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingInsertTitle" xml:space="preserve">
+    <value>Package insert</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeBlisterTitle" xml:space="preserve">
+    <value>blister</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeBottleTitle" xml:space="preserve">
+    <value>bottle</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeBoxTitle" xml:space="preserve">
+    <value>box</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeTabletCapsuleTitle" xml:space="preserve">
+    <value>tablet/capsule</value>
+  </data>
+  <data name="ExportingDossierManagement_PackagingSizeTitle" xml:space="preserve">
+    <value>Packaging size</value>
+  </data>
+  <data name="ExportingDossierManagement_ProductNameTitle" xml:space="preserve">
+    <value>Product's name</value>
+  </data>
+  <data name="ExportingDossierManagement_RegistrationCountryTitle" xml:space="preserve">
+    <value>Registration country</value>
+  </data>
+  <data name="ExportingDossierManagement_RxTitle" xml:space="preserve">
+    <value>Rx</value>
+  </data>
+  <data name="ExportingDossierManagement_ShelfLifeTitle" xml:space="preserve">
+    <value>Shelf-life</value>
+  </data>
+  <data name="ExportingDossierManagement_StatusOrder" xml:space="preserve">
+    <value>Status Order</value>
+  </data>
+  <data name="ExportingDossierManagement_TreatmentGroupTitle" xml:space="preserve">
+    <value>Treatment group</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Conclusion" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Content" xml:space="preserve">
+    <value>Content of nonconfirming/ Article ISO/ SOP</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="NonConfirmingReportManagement_CorrectiveAction" xml:space="preserve">
+    <value>Corrective action</value>
+  </data>
+  <data name="NonConfirmingReportManagement_DepartmentRelated" xml:space="preserve">
+    <value>Department/ related human</value>
+  </data>
+  <data name="NonConfirmingReportManagement_DetailContent" xml:space="preserve">
+    <value>Detail content of nonconfirming</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Evaluation" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ExpectedTime" xml:space="preserve">
+    <value>Expected time to finish</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ListTitle" xml:space="preserve">
+    <value>NonConfirming Report Management</value>
+  </data>
+  <data name="NonConfirmingReportManagement_Reason" xml:space="preserve">
+    <value>Reason of nonconfirming</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ReportDate" xml:space="preserve">
+    <value>Report date</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ReportedBy" xml:space="preserve">
+    <value>Reported by</value>
+  </data>
+  <data name="NonConfirmingReportManagement_ReportNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NonConfirmingReportManagement_StatusOrder" xml:space="preserve">
+    <value>Status Order</value>
+  </data>
+  <data name="NonConfirmingReportManagement_TimeHappened" xml:space="preserve">
+    <value>Nonconforming happen on</value>
+  </data>
+  <data name="Equipments_ListDesc" xml:space="preserve">
+    <value>List of equipments</value>
+  </data>
+  <data name="Equipments_ListTitle" xml:space="preserve">
+    <value>Equipments</value>
+  </data>
+  <data name="EquipmentNameEN" xml:space="preserve">
+    <value>Name EN</value>
+  </data>
+  <data name="EquipmentNameVN" xml:space="preserve">
+    <value>Name VN</value>
+  </data>
+  <data name="Gender_ListTitle" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="GuestLevel_ListTitle" xml:space="preserve">
+    <value>Guest level</value>
+  </data>
+  <data name="GuestReceptionManagement_CarToAirportTitle" xml:space="preserve">
+    <value>Car to the airport</value>
+  </data>
+  <data name="GuestReceptionManagement_GuestPickupCarAtAirportTitle" xml:space="preserve">
+    <value>Pickup car at the airport</value>
+  </data>
+  <data name="GuestReceptionManagement_LunchServiceLocationTitle" xml:space="preserve">
+    <value>Lunch service location</value>
+  </data>
+  <data name="GuestReceptionManagement_ScheduleWorkingAtCompany" xml:space="preserve">
+    <value>Guest schedule working at company</value>
+  </data>
+  <data name="HotelRoomType_ListTitle" xml:space="preserve">
+    <value>Room type</value>
+  </data>
+  <data name="LunchServiceLocation_ListTitle" xml:space="preserve">
+    <value>Lunch service location</value>
+  </data>
+  <data name="NameInEN" xml:space="preserve">
+    <value>Name EN</value>
+  </data>
+  <data name="NameInVN" xml:space="preserve">
+    <value>Name VN</value>
+  </data>
+  <data name="Nationality_ListTitle" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="FactoryEntrance_ListTitle" xml:space="preserve">
+    <value>Factory Entrance</value>
+  </data>
+  <data name="MeetingRoomStuff_ListTitle" xml:space="preserve">
+    <value>Meeting Room Stuffs</value>
+  </data>
+</root>

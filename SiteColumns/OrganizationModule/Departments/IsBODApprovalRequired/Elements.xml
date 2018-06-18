@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{1961764e-b07b-40fd-afa8-d5e49e39a2fa}"
+       Name="IsBODApprovalRequired"
+       DisplayName="Is BOD Approval Required"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{217C8A10-823B-4F61-9AF1-06AE3BEB8C3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RBVH.Stada.Intranet.Webservices</RootNamespace>
+    <AssemblyName>RBVH.Stada.Intranet.Webservices</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.5</MinimumOfficeToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <TokenReplacementFileExtensions>svc</TokenReplacementFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=0.0.1.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.1\lib\net45\DocumentFormat.OpenXml.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Client, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Client.Runtime, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\MessageResultHelper.cs" />
+    <Compile Include="ISAPI\Services\BusinessTripManagement\BusinessTripManagementService.svc.cs">
+      <DependentUpon>BusinessTripManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\BusinessTripManagement\IBusinessTripManagementService.cs" />
+    <Compile Include="ISAPI\Services\Calendar\CalendarService.svc.cs">
+      <DependentUpon>CalendarService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Calendar\ICalendarService.cs" />
+    <Compile Include="ISAPI\Services\Configurations\ConfigurationsService.svc.cs">
+      <DependentUpon>ConfigurationsService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Configurations\IConfigurationsService.cs" />
+    <Compile Include="ISAPI\Services\Common\CommonService.svc.cs">
+      <DependentUpon>CommonService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Common\ICommontService.cs" />
+    <Compile Include="ISAPI\Services\NotOverTimeManagement\NotOverTimeManagementService.svc.cs">
+      <DependentUpon>NotOverTimeManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\NotOverTimeManagement\INotOverTimeManagementService.cs" />
+    <Compile Include="ISAPI\Services\ChangeShiftManagement\ChangeShiftManagementService.svc.cs">
+      <DependentUpon>ChangeShiftManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\ChangeShiftManagement\IChangeShiftManagementService.cs" />
+    <Compile Include="ISAPI\Services\Department\DepartmentService.svc.cs">
+      <DependentUpon>DepartmentService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Department\IDepartmentService.cs" />
+    <Compile Include="ISAPI\Services\Email\EmailService.svc.cs">
+      <DependentUpon>EmailService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Email\IEmailService.cs" />
+    <Compile Include="ISAPI\Services\Employee\EmployeeService.svc.cs">
+      <DependentUpon>EmployeeService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Employee\IEmployeeService.cs" />
+    <Compile Include="ISAPI\Services\LeaveManagement\ILeaveManagementService.cs" />
+    <Compile Include="ISAPI\Services\LeaveManagement\LeaveManagementService.svc.cs">
+      <DependentUpon>LeaveManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\Overtime\IOvertimeService.cs" />
+    <Compile Include="ISAPI\Services\Overtime\OvertimeService.svc.cs">
+      <DependentUpon>OvertimeService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\FreightManagement\IFreightManagementService.cs" />
+    <Compile Include="ISAPI\Services\FreightManagement\FreightManagementService.svc.cs">
+      <DependentUpon>FreightManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\ShiftManagement\IShiftManagementService.cs" />
+    <Compile Include="ISAPI\Services\ShiftManagement\ShiftManagementService.svc.cs">
+      <DependentUpon>ShiftManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\ShiftTime\IShiftTimeService.cs" />
+    <Compile Include="ISAPI\Services\ShiftTime\ShiftTimeService.svc.cs">
+      <DependentUpon>ShiftTimeService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\VehicleManagement\VehicleManagementService.svc.cs">
+      <DependentUpon>VehicleManagementService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ISAPI\Services\VehicleManagement\IVehicleManagementService.cs" />
+    <Compile Include="Model\TaskOverviewModel.cs" />
+    <Compile Include="Model\FilterTaskModel.cs" />
+    <Compile Include="Model\ModuleModel.cs" />
+    <Compile Include="Model\BaseModel.cs" />
+    <Compile Include="Model\BusinessTripEmployeeModel.cs" />
+    <Compile Include="Model\BusinessTripManagementApproverModel.cs" />
+    <Compile Include="Model\NotOverTimeApprovalModel.cs" />
+    <Compile Include="Model\ChangeShiftApprovalModel.cs" />
+    <Compile Include="Model\DelegationModel.cs" />
+    <Compile Include="Model\FreightVehicleModel.cs" />
+    <Compile Include="Model\FreightVehicleOperatorModel.cs" />
+    <Compile Include="Model\FreightReceiverDepartmentModel.cs" />
+    <Compile Include="Model\FreightManagementApproverModel.cs" />
+    <Compile Include="Model\BusinessTripManagementModel.cs" />
+    <Compile Include="Model\FreightSecurityModel.cs" />
+    <Compile Include="Model\LeaveShiftTimeModel.cs" />
+    <Compile Include="Model\LeaveTimeModel.cs" />
+    <Compile Include="Model\CalendarModel.cs" />
+    <Compile Include="Model\CurrentUserModel.cs" />
+    <Compile Include="Model\DepartmentInfo.cs" />
+    <Compile Include="Model\CodeMessageResult.cs" />
+    <Compile Include="Model\DepartmentEmployee.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\EmployeeApproverModel.cs" />
+    <Compile Include="Model\EmployeeDepartmentModel.cs" />
+    <Compile Include="Model\EmployeeInfoModel.cs" />
+    <Compile Include="Model\ApproverModel.cs" />
+    <Compile Include="Model\EmployeeModel.cs" />
+    <Compile Include="Model\GetShiftManagementRequest.cs" />
+    <Compile Include="Model\MessageResult.cs" />
+    <Compile Include="Model\BusinessTripScheduleModel.cs" />
+    <Compile Include="Model\OvertimeDetailModel.cs" />
+    <Compile Include="Model\OvertimeEmployeeInDateModel.cs" />
+    <Compile Include="Model\OverTimeModel.cs" />
+    <Compile Include="Model\ApprovalDayInfo.cs" />
+    <Compile Include="Model\AdminApprovalDetailModel.cs" />
+    <Compile Include="Model\PeoplePickerDataRequest.cs" />
+    <Compile Include="Model\PeoplePickerUser.cs" />
+    <Compile Include="Model\FreightDetailsModel.cs" />
+    <Compile Include="Model\ShiftManagementDetailModel.cs" />
+    <Compile Include="Model\AdminApprovalModel.cs" />
+    <Compile Include="Model\LeaveManagementModel.cs" />
+    <Compile Include="Model\FreightManagementModel.cs" />
+    <Compile Include="Model\ShiftManagementModel.cs" />
+    <Compile Include="Model\ShiftTimeDetailModel.cs" />
+    <Compile Include="Model\TaskManagementModel.cs" />
+    <Compile Include="Model\ShiftTimeModel.cs" />
+    <Compile Include="Model\ShiftTimeListModel.cs" />
+    <Compile Include="Model\LeaveApprovalModel.cs" />
+    <Compile Include="Model\VehicleApprovalModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ISAPI\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{481db74a-5ce7-4018-a31d-95ea0852ab48}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{7f83747a-9a64-44d5-8cd1-8c6937a29f10}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ISAPI\Services\BusinessTripManagement\BusinessTripManagementService.svc" />
+    <Content Include="ISAPI\Services\Calendar\CalendarService.svc" />
+    <Content Include="ISAPI\Services\Configurations\ConfigurationsService.svc" />
+    <Content Include="ISAPI\Services\Common\CommonService.svc" />
+    <Content Include="ISAPI\Services\NotOverTimeManagement\NotOverTimeManagementService.svc" />
+    <Content Include="ISAPI\Services\ChangeShiftManagement\ChangeShiftManagementService.svc" />
+    <Content Include="ISAPI\Services\Department\DepartmentService.svc" />
+    <Content Include="ISAPI\Services\Email\EmailService.svc" />
+    <Content Include="ISAPI\Services\Employee\EmployeeService.svc" />
+    <Content Include="ISAPI\Services\LeaveManagement\LeaveManagementService.svc" />
+    <Content Include="ISAPI\Services\Overtime\OvertimeService.svc" />
+    <Content Include="ISAPI\Services\FreightManagement\FreightManagementService.svc" />
+    <Content Include="ISAPI\Services\ShiftManagement\ShiftManagementService.svc" />
+    <Content Include="ISAPI\Services\ShiftTime\ShiftTimeService.svc" />
+    <Content Include="ISAPI\Services\VehicleManagement\VehicleManagementService.svc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\RBVH.Stada.Intranet.Biz.csproj">
+      <Project>{0973a244-0020-4d1a-84f2-b1bfc7f906f9}</Project>
+      <Name>RBVH.Stada.Intranet.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Commons\RBVH.Stada.Intranet.Biz.csproj">
+      <Project>{0973a244-0020-4d1a-84f2-b1bfc7f906f9}</Project>
+      <Name>RBVH.Stada.Intranet.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreSharePoint\RBVH.Core.SharePoint.csproj">
+      <Project>{7a0211a8-a1c7-4166-b36b-5f3a8cc546e6}</Project>
+      <Name>RBVH.Core.SharePoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebPages\RBVH.Stada.Intranet.WebPages.csproj">
+      <Project>{52AFD9CB-E01E-4FC8-89E7-8655700664F0}</Project>
+      <Name>RBVH.Stada.Intranet.WebPages</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

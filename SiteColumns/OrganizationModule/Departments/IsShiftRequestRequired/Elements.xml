@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8aa09b87-7424-4e91-b73e-5515af6dea5f}"
+       Name="IsShiftRequestRequired"
+       DisplayName="Shift Request Is Required"
+       Type="Boolean"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

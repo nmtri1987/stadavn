@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,RequestTypeList_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="10130"
+                Url="Lists/RequestTypes"
+                Description="$Resources:RBVHStadaLists,RequestTypeList_ListTitle;">
+  </ListInstance>
+</Elements>

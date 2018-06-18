@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{6466e0fe-f5ad-4658-8ffe-1e1e389480ca}"
+       Name="OtherRequests"
+       DisplayName="Other Requests"
+       Type="MultiChoice"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

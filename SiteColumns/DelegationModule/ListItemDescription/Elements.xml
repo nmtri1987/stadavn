@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{74882752-0bc7-469f-93c6-dd2defc9c7d8}"
+       Name="ListItemDescription"
+       DisplayName="List Item Description"
+       Type="Note" 
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

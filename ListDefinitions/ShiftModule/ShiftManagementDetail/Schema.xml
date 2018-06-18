@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,ShiftManagementDetail_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ShiftManagementDetail" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+
+      <ContentTypeRef ID="0x0100280802E3A5884EBF99F9C165990053C9" />
+    </ContentTypes>
+    <Fields>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <Field ID="{d5be9cd9-9b00-421e-b87d-e1b86f09cdc9}" Name="ShiftManagementID" DisplayName="Shift Management ID" Type="Lookup" List="Lists/ShiftManagement" ShowField="ID" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{5E1DC59E-98B5-4B29-BF67-94EF409832C4}" FieldRef="{d5be9cd9-9b00-421e-b87d-e1b86f09cdc9}"   Name="CommonMonth" DisplayName="Month" Type="Lookup" List="Lists/ShiftManagement" ShowField="CommonMonth" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{C98C8EF4-89F2-47DD-9D03-344AA08344B4}" FieldRef="{d5be9cd9-9b00-421e-b87d-e1b86f09cdc9}"   Name="CommonYear" DisplayName="Year" Type="Lookup" List="Lists/ShiftManagement" ShowField="CommonYear" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{44533a8d-b69b-46c3-833e-92f423ca2213}" Name="ShiftTime1" DisplayName="ShiftTime1" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{903f5e5c-4fc9-44b5-9f5a-94b7828cebf7}" Name="ShiftTime2" DisplayName="ShiftTime2" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{d3777b47-f82c-4845-b740-3e619b56857a}" Name="ShiftTime3" DisplayName="ShiftTime3" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" Name="Employee" DisplayName="Employee" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Group="Stada Columns" />
+      <Field ID="{5302B01D-7128-4B1B-A7FC-248AFE3D4B64}" FieldRef="{8bab4be0-44c6-4416-a409-0be1fac25153}" Name="EmployeeID" DisplayName="Employee ID" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeID" Group="Stada Columns" />
+      <Field ID="{6a44dd64-0334-4a11-a928-d6640be99199}" Name="ShiftTime4" DisplayName="ShiftTime4" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{cb080b98-4491-445c-9ace-a37711b073a7}" Name="ShiftTime5" DisplayName="ShiftTime5" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{49705e37-09f4-495d-af85-f355c20ab791}" Name="ShiftTime6" DisplayName="ShiftTime6" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{a4410c29-2408-44be-901a-adb2b7477903}" Name="ShiftTime7" DisplayName="ShiftTime7" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{03df5c50-6c16-4f94-b00a-a74ca85a24a1}" Name="ShiftTime8" DisplayName="ShiftTime8" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{a345e771-74fe-4bd1-9006-f7ea98cbe254}" Name="ShiftTime9" DisplayName="ShiftTime9" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{fc24c454-f184-42be-a363-228cda2efff7}" Name="ShiftTime10" DisplayName="ShiftTime10" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{09e781b5-ce40-44c0-b21e-a7f31c1d9dca}" Name="ShiftTime11" DisplayName="ShiftTime11" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{f032b2a5-e558-4445-bec0-598d5429cfd0}" Name="ShiftTime12" DisplayName="ShiftTime12" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{8ce81111-a444-4d4f-a08e-23a98cdbb0b0}" Name="ShiftTime13" DisplayName="ShiftTime13" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{841ea3e0-cbc9-4699-8fed-66b28923bee9}" Name="ShiftTime14" DisplayName="ShiftTime14" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{a268daba-1d2c-4eec-9d35-fb3be393a16b}" Name="ShiftTime15" DisplayName="ShiftTime15" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{9b550b00-2463-4b0c-a097-d7b10e2a6054}" Name="ShiftTime16" DisplayName="ShiftTime16" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{2451a302-9127-4182-a886-c90c112b6104}" Name="ShiftTime17" DisplayName="ShiftTime17" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{22573162-7e00-4174-b7e6-5939fb3ffb5a}" Name="ShiftTime18" DisplayName="ShiftTime18" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{3d850bbf-eb9a-4e4d-b1fa-fff4b2d898b2}" Name="ShiftTime19" DisplayName="ShiftTime19" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{4898ef51-ece8-4ed5-8b96-d491db13e8ed}" Name="ShiftTime20" DisplayName="ShiftTime20" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{071a5ef4-6e03-4cce-ad17-0c001c5d08d9}" Name="ShiftTime21" DisplayName="ShiftTime21" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{c10d8b5d-50c4-4188-8d69-f6abb80553de}" Name="ShiftTime22" DisplayName="ShiftTime22" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{6069877c-07ff-44a9-858c-f7cc2971593b}" Name="ShiftTime23" DisplayName="ShiftTime23" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{2a55ad48-9301-4070-938c-f5e5feefbf9c}" Name="ShiftTime24" DisplayName="ShiftTime24" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{7c00f2e0-7eb8-49e2-b72a-b42914923a95}" Name="ShiftTime25" DisplayName="ShiftTime25" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{dee36ab4-f0b1-4b3b-8db6-bddbbb12fd77}" Name="ShiftTime26" DisplayName="ShiftTime26" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{b09875b1-b181-47a5-b2c7-ab6aee518938}" Name="ShiftTime27" DisplayName="ShiftTime27" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{3f5ea896-c2cc-4dcc-827b-f48b28a9ea1f}" Name="ShiftTime28" DisplayName="ShiftTime28" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{070f5725-70b2-497c-83e8-cdb67dff0634}" Name="ShiftTime29" DisplayName="ShiftTime29" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{46efe310-1aff-4af7-a418-15efa3ccb776}" Name="ShiftTime30" DisplayName="ShiftTime30" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{91c342e5-c1bf-4231-9fa2-2972763e5dbf}" Name="ShiftTime31" DisplayName="ShiftTime31" Type="Lookup" List="Lists/ShiftTime" ShowField="Code" Required="False" Group="Stada Columns" />
+      <Field ID="{daf1ce00-f3b6-4832-8b87-a81106c96b01}" Name="EmployeesShift" DisplayName="Employees Shift" Type="LookupMulti" Mult="TRUE" List="Lists/EmployeeShiftTime" ShowField="ID" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{5d3ec9af-8c75-4f62-8f6c-03d6c1634c99}" Name="ShiftTime1Approval" DisplayName="Shift Time 1 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{49714039-1e31-4b56-8bab-e80f54082884}" Name="ShiftTime2Approval" DisplayName="Shift Time 2 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{8eaca1f4-7442-46fa-b6a0-e70457a8eae0}" Name="ShiftTime3Approval" DisplayName="Shift Time 3 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{b951ab43-1082-4445-9c80-07c3b2465117}" Name="ShiftTime4Approval" DisplayName="Shift Time 4 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{3cd3c2dc-8b46-478c-91f8-6f22cf6b569c}" Name="ShiftTime5Approval" DisplayName="Shift Time 5 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{c0d2df39-81d1-4252-b4f3-4670fa82c552}" Name="ShiftTime6Approval" DisplayName="Shift Time 6 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{fd408f81-1e1a-4ae8-abd6-9d989e050070}" Name="ShiftTime7Approval" DisplayName="Shift Time 7 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{bf6e776d-f289-4649-9d15-8ca53101c953}" Name="ShiftTime8Approval" DisplayName="Shift Time 8 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{e98ad31f-e314-485f-93cf-9b623b2eca42}" Name="ShiftTime9Approval" DisplayName="Shift Time 9 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{a23dc310-c282-4e53-b306-a13299b9144d}" Name="ShiftTime10Approval" DisplayName="Shift Time 10 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{7379b6e2-2e2f-485e-a660-878ba50a7dea}" Name="ShiftTime11Approval" DisplayName="Shift Time 11 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{0ee1dc4a-2a50-4692-b7f6-a9a4c241b2ae}" Name="ShiftTime12Approval" DisplayName="Shift Time 12 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ab2dc32d-27fa-4986-b661-18b802184451}" Name="ShiftTime13Approval" DisplayName="Shift Time 13 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{985775f7-23eb-45c9-a255-fcf913733b45}" Name="ShiftTime14Approval" DisplayName="Shift Time 14 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{e57b4bcf-1d8e-45a6-8692-568ea42d4e70}" Name="ShiftTime15Approval" DisplayName="Shift Time 15 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{52935d81-80e8-4b49-80c3-f8c595202685}" Name="ShiftTime16Approval" DisplayName="Shift Time 16 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{a3e41837-a3bd-458f-b513-689f571c697b}" Name="ShiftTime17Approval" DisplayName="Shift Time 17 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{ba46cfcb-e095-41a4-ad1b-a98e5297017c}" Name="ShiftTime18Approval" DisplayName="Shift Time 18 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{05929df6-63c2-47df-abb4-308e092e0d5e}" Name="ShiftTime19Approval" DisplayName="Shift Time 19 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{8ff5697b-2090-4fc5-9425-87a20922a480}" Name="ShiftTime20Approval" DisplayName="Shift Time 20 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{e84c9674-672b-4dad-931b-06e7949ee4df}" Name="ShiftTime21Approval" DisplayName="Shift Time 21 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{2458a4cd-a3a9-42dc-840b-db6e0d80866c}" Name="ShiftTime22Approval" DisplayName="Shift Time 22 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{b37fd102-a55b-4b94-8460-d81010ad1c16}" Name="ShiftTime23Approval" DisplayName="Shift Time 23 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{685c38a4-4ba6-457e-aec7-812e3a1f76ce}" Name="ShiftTime24Approval" DisplayName="Shift Time 24 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{cb0832e4-5af4-42a6-91b9-2e1f763834ca}" Name="ShiftTime25Approval" DisplayName="Shift Time 25 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{552c985e-c95e-4ea0-81db-a273487b86af}" Name="ShiftTime26Approval" DisplayName="Shift Time 26 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{721e42f2-1d7c-4084-85e5-e09446aeaba1}" Name="ShiftTime27Approval" DisplayName="Shift Time 27 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{3d6f07df-325c-4cec-bce6-dc46ca6ce10c}" Name="ShiftTime28Approval" DisplayName="Shift Time 28 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{e5f7b5e3-471e-4d19-af77-4a0fcd68d7f1}" Name="ShiftTime29Approval" DisplayName="Shift Time 29 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{b90ee011-677c-4497-b08f-3f834e5d38ad}" Name="ShiftTime30Approval" DisplayName="Shift Time 30 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+      <Field ID="{e055360a-d0b8-4208-8dcc-ae1a90a73d2b}" Name="ShiftTime31Approval" DisplayName="Shift Time 31 Approval" Type="Boolean" Required="FALSE" Group="Stada Columns" />
+    </Fields>
+    <Views>
+
+
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+       <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <FieldRef Name="ShiftManagementID" />
+          <FieldRef Name="ShiftTime1" />
+          <FieldRef Name="ShiftTime2" />
+          <FieldRef Name="ShiftTime3" />
+          <FieldRef Name="Employee" />
+          <FieldRef Name="ShiftTime4" />
+          <FieldRef Name="ShiftTime5" />
+          <FieldRef Name="ShiftTime6" />
+          <FieldRef Name="ShiftTime7" />
+          <FieldRef Name="ShiftTime8" />
+          <FieldRef Name="ShiftTime9" />
+          <FieldRef Name="ShiftTime10" />
+          <FieldRef Name="ShiftTime11" />
+          <FieldRef Name="ShiftTime12" />
+          <FieldRef Name="ShiftTime13" />
+          <FieldRef Name="ShiftTime14" />
+          <FieldRef Name="ShiftTime15" />
+          <FieldRef Name="ShiftTime16" />
+          <FieldRef Name="ShiftTime17" />
+          <FieldRef Name="ShiftTime18" />
+          <FieldRef Name="ShiftTime19" />
+          <FieldRef Name="ShiftTime20" />
+          <FieldRef Name="ShiftTime21" />
+          <FieldRef Name="ShiftTime22" />
+          <FieldRef Name="ShiftTime23" />
+          <FieldRef Name="ShiftTime24" />
+          <FieldRef Name="ShiftTime25" />
+          <FieldRef Name="ShiftTime26" />
+          <FieldRef Name="ShiftTime27" />
+          <FieldRef Name="ShiftTime28" />
+          <FieldRef Name="ShiftTime29" />
+          <FieldRef Name="ShiftTime30" />
+          <FieldRef Name="ShiftTime31" />
+          <FieldRef Name="EmployeesShift" />
+          <FieldRef Name="ShiftTime1Approval" />
+          <FieldRef Name="ShiftTime2Approval" />
+          <FieldRef Name="ShiftTime3Approval" />
+          <FieldRef Name="ShiftTime4Approval" />
+          <FieldRef Name="ShiftTime5Approval" />
+          <FieldRef Name="ShiftTime6Approval" />
+          <FieldRef Name="ShiftTime7Approval" />
+          <FieldRef Name="ShiftTime8Approval" />
+          <FieldRef Name="ShiftTime9Approval" />
+          <FieldRef Name="ShiftTime10Approval" />
+          <FieldRef Name="ShiftTime11Approval" />
+          <FieldRef Name="ShiftTime12Approval" />
+          <FieldRef Name="ShiftTime13Approval" />
+          <FieldRef Name="ShiftTime14Approval" />
+          <FieldRef Name="ShiftTime15Approval" />
+          <FieldRef Name="ShiftTime16Approval" />
+          <FieldRef Name="ShiftTime17Approval" />
+          <FieldRef Name="ShiftTime18Approval" />
+          <FieldRef Name="ShiftTime19Approval" />
+          <FieldRef Name="ShiftTime20Approval" />
+          <FieldRef Name="ShiftTime21Approval" />
+          <FieldRef Name="ShiftTime22Approval" />
+          <FieldRef Name="ShiftTime23Approval" />
+          <FieldRef Name="ShiftTime24Approval" />
+          <FieldRef Name="ShiftTime25Approval" />
+          <FieldRef Name="ShiftTime26Approval" />
+          <FieldRef Name="ShiftTime27Approval" />
+          <FieldRef Name="ShiftTime28Approval" />
+          <FieldRef Name="ShiftTime29Approval" />
+          <FieldRef Name="ShiftTime30Approval" />
+          <FieldRef Name="ShiftTime31Approval" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

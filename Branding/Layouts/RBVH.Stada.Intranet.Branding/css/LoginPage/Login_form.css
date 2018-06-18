@@ -1,0 +1,39 @@
+﻿.loginPage-button-verify
+{
+    border-radius:1px !important;
+    background-color: #4AAE52 !important;
+    color: white !important;
+    padding: 10px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    float: right;
+    font-weight: bold !important;
+    font-size: inherit !important;
+}
+
+.loginpage-input{
+    max-width:none !important;
+    align-content:center;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+       border-radius:1px !important;
+    border: 1px solid #ccc !important;
+    box-sizing: border-box;
+    
+}
+
+.loginpage-container {
+    margin-left:30%;
+    margin-right:30%;
+    padding: 16px;
+}
+
+.loginpage-label
+{
+    width: 20%;
+}
+

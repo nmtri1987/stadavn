@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{32aa394f-0bdb-4abf-8df1-f764077fa634}"
+       Name="BusinessTripManagementID"
+       DisplayName="Business Trip Management ID"
+       Type="Lookup" List="Lists/BusinessTripManagement" ShowField="ID"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

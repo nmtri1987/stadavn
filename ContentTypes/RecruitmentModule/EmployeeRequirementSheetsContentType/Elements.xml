@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100BD37BA55506E4E0BA7635D927FD0DE9D"
+               Name="EmployeeRequirementSheetsContentType"
+               Group="Custom Content Types"
+               Description="My Content Type"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{a1ce62c0-c553-4ab8-acfc-64bfb7aac862}" Name="RecruitmentDepartment" DisplayName="Department"/>
+      <FieldRef ID="{7edd9e09-2c2e-4a05-adc3-ea822859e3c6}" Name="Position" DisplayName="Position"/>
+      <FieldRef ID="{b7bda11b-0675-4ed5-900c-6ff1e09258d9}" Name="Quantity" DisplayName="Quantity"/>
+      <FieldRef ID="{fc7a2fda-4116-4ea7-8304-cb060378168a}" Name="ReasonsForRecruitment" DisplayName="Reasons For Recruitment"/>
+      <FieldRef ID="{bdece9ef-1603-4ca4-9065-9c1d5409aca9}" Name="Sex" DisplayName="Sex"/>
+      <FieldRef ID="{cb2e33f3-563e-4b4c-ba86-95e57fbe4158}" Name="FromAge" DisplayName="From Age"/>
+      <FieldRef ID="{cc40ecb1-630d-4800-8cbc-7fbe415d4e57}" Name="ToAge" DisplayName="To Age"/>
+      <FieldRef ID="{99731040-6fb3-4370-8d71-b2cbe739d231}" Name="AvailableTime" DisplayName="Available Time"/>
+      <FieldRef ID="{ff55137c-f282-41c6-b50e-87a20453061d}" Name="MaritalStatus" DisplayName="Marital Status"/>
+      <FieldRef ID="{2edb4217-bc68-4964-b84a-97781b1f2ad6}" Name="WorkingTime" DisplayName="Working Time"/>
+      <FieldRef ID="{e47ea53b-d0b5-4cf2-8ebd-233490e41107}" Name="EducationLevel" DisplayName="Education Level"/>
+      <FieldRef ID="{5ceb8e29-964f-4ade-a746-6c865f7cf68e}" Name="Appearance" DisplayName="Appearance"/>
+      <FieldRef ID="{c478f685-bf32-48b4-8a19-ba714a0f23be}" Name="WorkingExperience" DisplayName="Working Experience"/>
+      <FieldRef ID="{8df5300b-5c0b-408f-8cc0-4d77501ff7d0}" Name="Specialities" DisplayName="Specialities"/>
+      <FieldRef ID="{f5c9a28a-3158-4fd0-8fdb-3b570736f66f}" Name="DescriptionOfBasicWork" DisplayName="Description Of Basic Work"/>
+      <FieldRef ID="{e3e1fe57-1e16-471a-b91c-f3adc34a195e}" Name="MoralVocations" DisplayName="Moral Vocations"/>
+      <FieldRef ID="{2c78cfe5-c44c-4ca9-a9df-9230e7b85814}" Name="WorkingAbilities" DisplayName="Working Abilities"/>
+      <FieldRef ID="{25ca16e8-df61-4cf5-af63-efba72263285}" Name="EnglishSkills" DisplayName="English Skills"/>
+      <FieldRef ID="{ab0f2b5c-6181-48f3-a977-44e0116f9f9f}" Name="ComputerSkills" DisplayName="Computer Skills"/>
+      <FieldRef ID="{ab5e2361-4e82-465a-ba6d-89450c8d4323}" Name="OtherSkills" DisplayName="Other Skills"/>
+      <FieldRef ID="{b8a1885c-e6cf-419f-be84-0718ccc9879c}" Name="OtherRequirement" DisplayName="Other Requirement"/>
+      <FieldRef ID="{422cbc57-0501-4af5-b56b-22804de69fd5}" Name="DepartmentCode" DisplayName="Department Code"/>
+      <FieldRef ID="{727e82f1-1157-41ab-a418-2a8e641158d0}" Name="IsValidRequest" DisplayName="Is Valid Request"  />
+      <FieldRef ID="{088adaa1-4f85-4091-a6de-8df676cf3d30}" Name="IsTemplate" DisplayName="Is Template"/>
+      <FieldRef ID="{1f15105f-e8b9-490f-87f3-b29e61e19260}" Name="CommonReqDueDate" Required="FALSE" />
+      <FieldRef ID="{ded6187b-6209-4ee5-8a74-954d0a714bc8}" Name="CommonLastRemind" Required="FALSE" />
+      <FieldRef ID="{5de944d4-c077-4abb-b44e-f6ac9e7bc50e}" Name="CommonNextRemind" Required="FALSE" />
+      <FieldRef ID="{165f725b-f059-42b6-8ff9-00df89ba9e45}" Name="CommonRemindedAttempts" Required="FALSE" />
+      <FieldRef ID="{abcbf21b-b326-4f27-baa7-8bd01c396b63}" Name="CommonMaxRemindAttempts" Required="FALSE" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+        <FormUrls xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms/url">
+          <Display>_layouts/15/RBVH.Stada.Intranet.WebPages/RecruitmentManagement/RecruitmentForm.aspx?mode=display</Display>
+          <Edit>_layouts/15/RBVH.Stada.Intranet.WebPages/RecruitmentManagement/RecruitmentForm.aspx?mode=edit</Edit>
+          <New>_layouts/15/RBVH.Stada.Intranet.WebPages/RecruitmentManagement/RecruitmentForm.aspx?mode=new</New>
+        </FormUrls>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

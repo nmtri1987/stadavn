@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,FreightReceiverDepartment_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="10063"
+                Url="Lists/FreightReceiverDepartment"
+                Description="Freight Receiver Department">
+  </ListInstance>
+</Elements>

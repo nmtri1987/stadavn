@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint"  Title="$Resources:RBVHStadaLists,OvertimeEmployeeDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/OvertimeEmployeeDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100102AAB865EC5472A84DC38B2AC703257"  Name="$Resources:RBVHStadaLists,OvertimeEmployeeDetails_ListTitle;" Group="Stada Content Types" Description="$Resources:RBVHStadaLists,OvertimeEmployeeDetails_ListDescription" Inherits="FALSE" Version="0">
+        <FieldRefs>
+          <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+          <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+          <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{878e2996-150c-4e63-b632-ba90dec566a0}" Required="FALSE" Name="OvertimeManagementID" />
+          <FieldRef ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" Required="TRUE" Name="Employee" />
+          <FieldRef ID="{cc2d235c-8d31-4bfc-a356-640bcb7df5aa}" Required="TRUE" Name="WorkingHours" />
+          <FieldRef ID="{99374c81-f14e-47f6-988f-af45e2e78132}" Required="TRUE" Name="OvertimeFrom" />
+          <FieldRef ID="{e8816b46-3b29-4503-bcde-bf6775b80330}" Required="TRUE" Name="OvertimeTo" />
+          <FieldRef ID="{6de4298b-0c51-4580-b9b9-4f93a9385f8d}" Required="FALSE" Name="Task" />
+          <FieldRef ID="{24c7360a-dd35-4f95-a1a0-c59d55b5113c}" Required="FALSE" Name="HM" />
+          <FieldRef ID="{d7419cee-99f4-4b2e-91b9-957eb6457b22}" Required="FALSE" Name="KD" />
+          <FieldRef ID="{8804e0d8-cd41-4dbd-93eb-45f876f9e94d}" Required="FALSE" Name="CompanyTransport" />
+          <FieldRef ID="{B3525EFE-59B5-4f0f-B1E4-6E26CB6EF6AA}" DisplayName="$Resources:cmscore,column_summarylinks_displayname;" Required="FALSE" Description="$Resources:cmscore,column_summarylinks_description;" Name="SummaryLinks" Sealed="TRUE" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field Type="Text" ID="{B3525EFE-59B5-4f0f-B1E4-6E26CB6EF6AA}" DisplayName="$Resources:cmscore,column_summarylinks_displayname;" Required="FALSE" Description="$Resources:cmscore,column_summarylinks_description;" Name="SummaryLinks" Sealed="TRUE" />
+      <Field ID="{878e2996-150c-4e63-b632-ba90dec566a0}" ShowInEditForm="FALSE" ShowInDisplayForm="FALSE" ShowInNewForm="FALSE" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_OvertimeManagementID;"  Required="FALSE" Name="OvertimeManagementID"  Type="Lookup" List="Lists/OvertimeManagement" ShowField="ID"/>
+      <Field ID="{8804e0d8-cd41-4dbd-93eb-45f876f9e94d}" Name="CompanyTransport" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_CompanyTransport;" Type="Choice" Required="FALSE" >
+        <CHOICES>
+          <CHOICE>Tự túc</CHOICE>
+          <CHOICE>HM</CHOICE>
+          <CHOICE>KD</CHOICE>
+        </CHOICES>
+        <Default>Tự túc</Default>
+      </Field>
+      <Field ID="{F77E197F-12D5-46C2-91A5-3DCBB39FB2D2}" FieldRef="{878e2996-150c-4e63-b632-ba90dec566a0}" Name="CommonDate" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_OvertimeDate;" Type="Lookup" List="Lists/OvertimeManagement" ShowField="CommonDate"  Group="Stada Columns" />
+      <Field ID="{8021461F-7E4C-4209-8305-9BDF32457573}" FieldRef="{878e2996-150c-4e63-b632-ba90dec566a0}" Name="ApprovalStatus" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_ApprovalStatus;" Type="Lookup" List="Lists/OvertimeManagement" ShowField="ApprovalStatus" Group="Stada Columns" />
+
+      <Field ID="{8bab4be0-44c6-4416-a409-0be1fac25153}" Name="Employee" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_Employee;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE"></Field>
+      <Field ID="{B296E0BB-D5B0-40E1-9993-F18C50B42528}" Name="EmployeeID" FieldRef="8bab4be0-44c6-4416-a409-0be1fac25153" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_EmployeeID;" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeID" Required="TRUE"></Field>
+      <Field ID="{cc2d235c-8d31-4bfc-a356-640bcb7df5aa}" Name="WorkingHours" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_WorkingHour;" Type="Number" Required="FALSE" >
+        <Validation Message="0 &lt;= Working Hours &gt; 24">=AND(WorkingHours&gt;=0, WorkingHours&lt;24.6)</Validation>
+      </Field>
+      <Field ID="{99374c81-f14e-47f6-988f-af45e2e78132}" Name="OvertimeFrom" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_OvertimeHourFrom;" Type="DateTime" Required="FALSE" >
+        <Default>[Today]</Default>
+      </Field>
+      <Field ID="{e8816b46-3b29-4503-bcde-bf6775b80330}" Name="OvertimeTo" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_OvertimeHourTo;" Type="DateTime" Required="FALSE">
+        <Default>[Today]</Default>
+      </Field>
+      <Field ID="{6de4298b-0c51-4580-b9b9-4f93a9385f8d}" Name="Task" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_Task;" Type="Text" Required="FALSE"></Field>
+      <Field ID="{24c7360a-dd35-4f95-a1a0-c59d55b5113c}" Name="HM" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_HM;" Required="FALSE" Type="Text" />
+      <Field ID="{d7419cee-99f4-4b2e-91b9-957eb6457b22}" Name="KD" DisplayName="$Resources:RBVHStadaLists,OvertimeDetail_KD;" Required="FALSE" Type="Text" />
+      <Field ID="{464a7949-6968-45fa-b9d9-398c89a73f0c}" Name="ColForSort" StaticName="ColForSort" Type="Lookup" DisplayName="$Resources:RBVHStadaLists,Common_ColForSort;" List="Lists/OvertimeManagement" FieldRef="878e2996-150c-4e63-b632-ba90dec566a0" ReadOnly="TRUE" ShowField="ColForSort" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE" >
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1"  Type="HTML"  WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="OvertimeManagementID" />
+          <FieldRef Name="Employee" />
+          <FieldRef Name="WorkingHours" />
+          <FieldRef Name="OvertimeFrom" />
+          <FieldRef Name="OvertimeTo" />
+          <FieldRef Name="Task" />
+          <FieldRef Name="HM" />
+          <FieldRef Name="KD" />
+          <FieldRef Name="SummaryLinks" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/OvertimeModule/JSLink_OvertimeEmployeeDetail.js"  />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/OvertimeModule/JSLink_OvertimeEmployeeDetail.js"  />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main"  JSLink="~siteCollection/_layouts/15/RBVH.Stada.Intranet.Branding/scripts/OvertimeModule/JSLink_OvertimeEmployeeDetail.js"  />
+    </Forms>
+  </MetaData>
+</List>

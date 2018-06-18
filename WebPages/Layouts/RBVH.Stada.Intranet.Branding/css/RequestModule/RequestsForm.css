@@ -1,0 +1,29 @@
+﻿#details1 .hide
+ {
+     display: none;
+ }
+
+ #details2 .hide
+ {
+     display: none;
+ }
+
+ #details3 .hide
+ {
+     display: none;
+ }
+
+ .required-error{
+    border: #ff0000 solid 1px !important;
+}
+.leftColumnWidth {
+    width: 400px;
+}
+
+.custom-form input[type=submit].ms-ButtonHeightWidth {
+    font-size: 14px !important;
+}
+
+.custom-form .label-primary {
+    background-color: #db1ed2;
+}

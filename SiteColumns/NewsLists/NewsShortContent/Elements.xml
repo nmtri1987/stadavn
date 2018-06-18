@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f220d70e-1502-4491-9a7d-f1fd12b8fce7}"
+       Name="NewsShortContent"
+       DisplayName="Short Content"
+       Type="Text"
+       Required="TRUE"
+       MaxLength="500"
+       UnlimitedLengthInDocumentLibrary="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

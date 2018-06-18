@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{377de260-4767-4aef-bc18-ceace51e2699}"
+       Name="IsOnLeftMenu"
+       DisplayName="Display On Left Menu"
+       Type="Boolean"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

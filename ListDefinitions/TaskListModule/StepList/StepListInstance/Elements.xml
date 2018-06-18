@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,StepList_Title" OnQuickLaunch="TRUE" TemplateType="10200" Url="Lists/StepList" Description="My List Instance"></ListInstance>
+</Elements>
+

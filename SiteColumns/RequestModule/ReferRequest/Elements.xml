@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{46a3e1c5-b54e-4f08-a362-db599961e31c}"
+       Name="ReferRequest"
+       DisplayName="Refer Request"
+       Type="Lookup" List="Lists/Requests" ShowField="ID"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

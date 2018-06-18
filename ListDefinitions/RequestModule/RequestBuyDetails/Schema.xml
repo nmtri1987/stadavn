@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,RequestBuyDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/RequestBuyDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x010051d013c3b7284cedb79fd83d05d73ce2" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{618ad8df-ec43-468a-8389-18d37a8332d9}" Name="RequestContent" />
+          <FieldRef ID="{408c0ce1-fa75-4695-85f3-8013281b1c35}" Name="Form" />
+          <FieldRef ID="{1bb2fc7d-b2d5-41f2-a6a7-2035450d1504}" Name="Unit" />
+          <FieldRef ID="{bdd07b4d-cb1e-4dbf-a5a3-0dc1f4537484}" Name="Quantity" />
+          <FieldRef ID="{2390c4e2-f9a0-4688-a76f-0f88e626cc54}" Name="Reason" />
+          <FieldRef ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" Name="Request" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field Name="Form" ID="{408c0ce1-fa75-4695-85f3-8013281b1c35}" DisplayName="$Resources:RBVHStadaLists,RequestBuyDetails_Form;" Type="Text" Required="FALSE" />
+      <Field ID="{618ad8df-ec43-468a-8389-18d37a8332d9}" DisplayName="$Resources:RBVHStadaLists,RequestBuyDetails_Content;" Required="TRUE" Name="RequestContent" Type="Text"/>
+      <Field Name="Unit" ID="{1bb2fc7d-b2d5-41f2-a6a7-2035450d1504}" DisplayName="$Resources:RBVHStadaLists,RequestBuyDetails_Unit;" Type="Text"  Required="FALSE"/>
+      <Field Name="Quantity" ID="{bdd07b4d-cb1e-4dbf-a5a3-0dc1f4537484}" DisplayName="$Resources:RBVHStadaLists,RequestBuyDetails_Quantity;" Type="Number" Required="FALSE" />
+      <Field Name="Reason" ID="{2390c4e2-f9a0-4688-a76f-0f88e626cc54}" DisplayName="$Resources:RBVHStadaLists,RequestBuyDetails_Reason;" Type="Note" Required="FALSE" />
+      <Field ID="{15e826bc-c876-4605-ac81-c39cbf86806f}" DisplayName="$Resources:RBVHStadaLists,RequestBuyDetails_Request;" Required="FALSE" Name="Request" Type="Lookup" List="Lists/Requests" ShowField="ID" />
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RequestContent" />
+          <FieldRef Name="Form" />
+          <FieldRef Name="Unit" />
+          <FieldRef Name="Quantity" />
+          <FieldRef Name="Reason" />
+          <FieldRef Name="Request" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

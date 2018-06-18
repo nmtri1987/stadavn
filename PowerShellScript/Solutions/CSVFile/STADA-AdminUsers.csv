@@ -1,0 +1,18 @@
+﻿EmployeeType,FirstName,LastName,Display Name,AD Account,HomeTown,Address,Position,Manager,Department,EmployeeID,Email,Group,Missing Info,FactoryLocation,JoinedDate,Birthday,Gender,EmployeePermission
+AD User,Chương,Phạm Viết,Phạm Viết Chương,ACC-chuongpv,Ho Chi Minh,Ho Chi Minh,AMD,11001,Accounting,11011,chuongpv@stada.com.vn,Accounting Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,Ninh,Nguyễn Thái Khương,Nguyễn Thái Khương Ninh,AD-adl1,Ho Chi Minh,Ho Chi Minh,AMD,13013,Analytical Development,13067,ninhntk@stada.com.vn,Analytical Development Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Tiến,Lê Quốc,Lê Quốc Tiến,Tienit,Ho Chi Minh,Ho Chi Minh,AMD,10004,IT,10060,Tienit@stada.com.vn,IT Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,Anh,Nguyễn Tuấn,Nguyễn Tuấn Anh,ENG-Anhnt,Ho Chi Minh,Ho Chi Minh,AMD,14036,Engineering,14029,anhnt@stada.com.vn,Engineering Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,Anh,Phùng Văn Hoàng,Phùng Văn Hoàng Anh,FD-anhpvh,Ho Chi Minh,Ho Chi Minh,AMD,13040,Formulation Development,13049,anhpvh@stada.com.vn,Formulation Development Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,Hằng,Trương Thanh,Trương Thanh Hằng,HR-hangtt,Ho Chi Minh,Ho Chi Minh,AMD,10001,Administration & Human Resource,10051,hanhchanh@stada.com.vn,HR & Administration Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Nga,Nguyễn Thị Bích,Nguyễn Thị Bích Nga,LW-Ngantb,Ho Chi Minh,Ho Chi Minh,AMD,19028,Liquid Workshop,19118,ngantb@stada.com.vn,Liquid Workshop Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Tài,Nguyễn Hữu,Nguyễn Hữu Tài,PIE-Tainh,Ho Chi Minh,Ho Chi Minh,AMD,12011,Import & Export,12001,logistic@stada.com.vn,Import & Export Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,Lê,Nguyễn Thị Bạch,Nguyễn Thị Bạch Lê,PLA-lentb,Ho Chi Minh,Ho Chi Minh,AMD,12003,Planning,13027,lentb@stada.com.vn,Planning Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Huyền,Triệu Bích,Triệu Bích Huyền,PROC-Huyentb,Ho Chi Minh,Ho Chi Minh,AMD,12009,Procurement,12018,huyentb@stada.com.vn,Procurement Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Ánh,Nguyễn Thị Ngọc,Nguyễn Thị Ngọc Ánh,qa-anhntn,Ho Chi Minh,Ho Chi Minh,AMD,19007,Quality Assurance,16051,anhntn@stada.com.vn,Quality Assurance Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Bích,Huỳnh Thị Ngọc,Huỳnh Thị Ngọc Bích,QC-bichhtn,Ho Chi Minh,Ho Chi Minh,AMD,15002,Quality Control,15052,bichhtn@stada.com.vn,Quality Control Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Châm,Nguyễn Thị Huyền,Nguyễn Thị Huyền Châm,RA-chamnth,Ho Chi Minh,Ho Chi Minh,AMD,13109,Regulary Affairs,13037,chamnth@stada.com.vn,Regulary Affairs Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Châu,Phạm,Phạm Châu,sw-chaup,Ho Chi Minh,Ho Chi Minh,AMD,16007,Solid Workshop,19024,chaup@stada.com.vn,Solid Workshop Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,Trân,Chu Huyền,Chu Huyền Trân,TT-tranch,Ho Chi Minh,Ho Chi Minh,AMD,16003,Technology Transfer,19002,tranch@stada.com.vn,Technology Transfer Members,,NM2,1/1/2012,2/2/1985,F,Administrators
+AD User,Công,Nguyễn Văn,Nguyễn Văn Công,WH-congnv,Ho Chi Minh,Ho Chi Minh,AMD,21005,Warehouse,21006,congnv@stada.com.vn,Warehouse Members,,NM2,1/1/2012,2/2/1985,M,Administrators
+AD User,HM,User1,User1 HM,HM-User1,Ho Chi Minh,Ho Chi Minh,AMD,50051,HM,50052,HMUser1@stada.com.vn,HM Members,,NM2,1/1/2012,2/2/1985,Male,Administrators

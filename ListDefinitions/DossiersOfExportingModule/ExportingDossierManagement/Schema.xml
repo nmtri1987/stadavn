@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,ExportingDossierManagement_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/ExportingDossierManagement" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+      <Field ID="{5BA3EA9E-EBFC-4C76-B7D6-ED9EF8449678}" Name="ProductName" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_ProductNameTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{308E0FC9-D69A-4210-A2F9-36639EE23502}" Name="APIStrength" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_APIStrengthTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{F3B283D9-1F24-4F3B-8685-265AED8FB9B1}" Name="RegistrationCountry" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_RegistrationCountryTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{95E8AB48-2B6A-4772-8C0B-DDC2D4157ED5}" Name="Description" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_DescriptionTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{7DCCB883-5931-473C-A0CB-B702B4951618}" Name="InnovatorSample" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_InnovatorSampleTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{63E0A82C-7C48-4E7F-A0F3-8BB86435ADF5}" Name="Manufacturer" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_ManufacturerTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{D3B88975-75B0-46CD-B658-B6BCE0B1D74D}" Name="InnovatorDescription" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_InnovatorDescriptionTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{6E01CAC8-59E7-42AA-8BA1-AEE6D376DC5C}" Name="PackagingSize" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeTitle;" Type="MultiChoice" Required="FALSE" Group="Stada Columns"  >
+        <Default>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeBoxTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeBlisterTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeTabletCapsuleTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeBoxTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingSizeBottleTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{EDC88F8D-4EB3-4AEF-A12F-F05236A57253}" Name="PackagingInsert" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingInsertTitle;" Type="MultiChoice" Required="FALSE" Group="Stada Columns"  >
+        <Default>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingInsertPDRTitle;</Default>
+        <CHOICES>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingInsertPDRTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingInsertMartindalTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingInsertAHFSTitle;</CHOICE>
+          <CHOICE>$Resources:RBVHStadaLists,ExportingDossierManagement_PackagingInserteMCTitle;</CHOICE>
+        </CHOICES>
+      </Field>
+      <Field ID="{07909D49-6C42-4A5B-A968-3A13363DA0B6}" Name="PackageInsertValues" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_PackageInsertValuesTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{F36C4CA1-1F33-4C16-83B7-9B312DDE8A18}" Name="TreatmentGroup" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_TreatmentGroupTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{AE1770C7-8CBE-4962-8862-FD8ED79FB06D}" Name="Color" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_ColorTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{01C3FC47-1A59-4CE4-9B45-9910F54C7076}" Name="Rx" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_RxTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{CAEB4F02-3A03-4CF2-9834-8EC7124134E8}" Name="BatchNo" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_BatchNoTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{A743812E-BBA0-481A-B4CD-BC109F72742D}" Name="MfgDate" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_MfgDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{E962B89C-D393-4C4F-A529-EF6DBB72A4B1}" Name="ShelfLife" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_ShelfLifeTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{1177ACD0-0E6C-46BD-AC78-9CEF262FE765}" Name="Note" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_NoteTitle;" Type="Note" NumLines="3" Required="FALSE" ShowInNewForm="FALSE" />
+      <Field ID="{4d2d51dd-01fb-4b6e-bc22-5325fd65d240}" Name="Creator" DisplayName="$Resources:RBVHStadaLists,Approval_CommonCreator" Required="TRUE" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" />
+      <Field ID="{92a3f99d-9fe9-450f-a446-d5d57dfc21b9}" Name="Status" DisplayName="$Resources:RBVHStadaLists,Approval_ApprovalStatus" Type="Text" Required="TRUE" />
+      <Field ID="{413fa415-0eda-4cce-ad7d-2e0bbe5545b2}" Name="PendingAt" DisplayName="$Resources:RBVHStadaLists,Approval_PendingAt" Type="LookupMulti" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" Mult="TRUE" />
+      <Field ID="{ba6873e1-4e12-46b6-a356-e044f54c0b97}" Name="CurrentStep" DisplayName="$Resources:RBVHStadaLists,Approval_CurrentStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{1ee45d30-ae92-40df-9534-83e62f8e98a3}" Name="NextStep" DisplayName="$Resources:RBVHStadaLists,Approval_NextStep" Type="Lookup" Required="TRUE" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{59394155-e8a3-4fde-ae54-e3bee444add4}" Name="CommonLocation" DisplayName="$Resources:RBVHStadaLists,Approval_CommonLocation" Type="Lookup" List="Lists/Factories" ShowField="CommonName" />
+      <Field ID="{d645f7f8-abd5-49c6-a377-6360fcfcc370}" Name="CommonDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{30279e20-0cd9-4a6c-97e4-29e3ef078614}" Name="IsAdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_IsAdditionalStep" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field>
+      <Field ID="{2d319c7c-687a-4cdd-8289-960a9c407be7}" Name="AdditionalPreviousStep" Required="TRUE" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalPreviousStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" />
+      <Field ID="{50c2e7a4-0c64-4599-a141-b4640871614c}" Name="AdditionalStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{8dbd6b8d-776c-446e-a5c2-8602aae9746f}" Name="AdditionalNextStep" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalNextStep" Type="Lookup" List="Lists/EmployeePosition" ShowField="Code" Required="TRUE" />
+      <Field ID="{c3714a66-1a21-435d-9c80-dd3a0ae659ee}" Name="AdditionalDepartment" DisplayName="$Resources:RBVHStadaLists,Approval_AdditionalDepartment" Type="Lookup" List="Lists/Departments" ShowField="CommonName" Required="TRUE" />
+      <Field ID="{9fc43ecc-2ed7-4c48-9e82-67a06aa19ac1}" Name="AssignFrom" DisplayName="$Resources:RBVHStadaLists,Approval_AssignFrom" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{ad4003f9-3c86-47c1-8c26-884eaa1e5c1a}" Name="AssignTo" DisplayName="$Resources:RBVHStadaLists,Approval_AssignTo" Type="Lookup" List="Lists/EmployeeInfo" ShowField="EmployeeDisplayName" Required="TRUE" />
+      <Field ID="{1bbda9aa-4e80-4309-a8a4-db72ec43d7bf}" Name="CommonDueDate" DisplayName="$Resources:RBVHStadaLists,Approval_CommonDueDate" Type="DateTime" Required="TRUE" />
+      <Field ID="{0a6a9806-9e52-48ca-bd94-5da0d44b74f7}" Name="WFStatus" Type="Text" Required="FALSE" DisplayName="$Resources:RBVHStadaLists,Approval_WFStatus;" />
+      <Field ID="{C04C20F2-CEB9-4675-AFBE-8E91BC81F213}" DisplayName="$Resources:RBVHStadaLists,ExportingDossierManagement_StatusOrder" Type="Calculated" ResultType="Number" Name="StatusOrder" Required="FALSE">
+        <Formula>
+          =IF([Workflow status]="Approved","7",IF([Workflow status]="Rejected","8",IF([Workflow status]="Cancelled","9","0")))
+        </Formula>
+      </Field>
+      
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="ProductName"></FieldRef>
+          <FieldRef Name="APIStrength"></FieldRef>
+          <FieldRef Name="RegistrationCountry"></FieldRef>
+          <FieldRef Name="Description"></FieldRef>
+          <FieldRef Name="InnovatorSample"></FieldRef>
+          <FieldRef Name="Manufacturer"></FieldRef>
+          <FieldRef Name="InnovatorDescription"></FieldRef>
+          <FieldRef Name="PackagingSize"></FieldRef>
+          <FieldRef Name="PackageInsert"></FieldRef>
+          <FieldRef Name="PackageInsertValues"></FieldRef>
+          <FieldRef Name="TreatmentGroup"></FieldRef>
+          <FieldRef Name="Color"></FieldRef>
+          <FieldRef Name="Rx"></FieldRef>
+          <FieldRef Name="BatchNo"></FieldRef>
+          <FieldRef Name="MfgDate"></FieldRef>
+          <FieldRef Name="ShelfLife"></FieldRef>
+          <FieldRef Name="Note"></FieldRef>
+
+          <FieldRef Name="Creator"></FieldRef>
+          <FieldRef Name="Status"></FieldRef>
+          <FieldRef Name="PendingAt"></FieldRef>
+          <FieldRef Name="CurrentStep"></FieldRef>
+          <FieldRef Name="NextStep"></FieldRef>
+          <FieldRef Name="CommonLocation"></FieldRef>
+          <FieldRef Name="CommonDepartment"></FieldRef>
+          <FieldRef Name="IsAdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalStep"></FieldRef>
+          <FieldRef Name="AdditionalNextStep"></FieldRef>
+          <FieldRef Name="AdditionalDepartment"></FieldRef>
+          <FieldRef Name="AssignFrom"></FieldRef>
+          <FieldRef Name="AssignTo"></FieldRef>
+          <FieldRef Name="CommonDueDate"></FieldRef>
+          <FieldRef Name="WFStatus"></FieldRef>
+          <FieldRef Name="StatusOrder"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

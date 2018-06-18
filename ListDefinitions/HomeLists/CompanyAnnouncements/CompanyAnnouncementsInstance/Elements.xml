@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,Announcement_ListTitle;" OnQuickLaunch="TRUE" TemplateType="10401" FeatureId="daa42646-bd4b-472c-9dae-5cbddfb09afb" Url="Lists/CompanyAnnouncements" Description="$Resources:RBVHStadaLists,ListDescription_Announcement;">
+    <!--<Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">1</Field>
+          <Field Name="Title">Dấu hiệu sớm ung thư đại trực tràng</Field>
+          <Field Name="PublishingPageImage">http://img.f41.suckhoe.vnecdn.net/2017/02/14/polyp-dai-truc-trang-3507-1487052263.jpg</Field>
+          <Field Name="NewsShortContent">Nếu có máu trong phân, khó chịu dai dẳng ở ổ bụng, co cứng cơ, chướng bụng, đau hoặc cảm giác ruột trống rỗng hoàn toàn... có thể là dấu hiệu ung thư đại trực tràng.</Field>
+          <Field Name="Body">
+            <![CDATA["Ung thư đại tràng phát hiện sớm có thể điều trị khỏi hoàn toàn", bác sĩ Zee Ying Kiat đến từ Trung tâm Ung thư Parkway, Singapore, cho biết. Nhiều năm kinh nghiệm điều trị bệnh nhân ung thư đến từ nhiều quốc gia khác nhau, bác sĩ Zee ghi nhận hầu hết ung thư đại tràng hoặc trực tràng đều không phát triển nhanh, do vậy rất dễ phát hiện và điều trị sớm hiệu quả.
+              dau-hieu-de-phat-hien-som-ung-thu-dai-truc-trang
+              Polyp hình thành trong lòng ống đại tràng. Ảnh: News.
+              Ung thư đại trực tràng thường bắt đầu lành tính (gọi là polyp). Polyp không phải là u nhưng là một tổn thương có hình dạng giống như một khối u, có cuống hoặc không, do niêm mạc đại tràng và tổ chức dưới niêm mạc tăng sinh tạo thành. Polyp không phải là ung thư nhưng chúng có thể phát triển thành ung thư sau một thời gian dài.
+
+              Hầu hết ung thư đại trực tràng tiến triển từ polyp. Polyp rất phổ biến, cứ 4 người thì có một người bị ít nhất một polyp khi đến tuổi 50. Chỉ một phần nhỏ của polyp phát triển thành ung thư và quá trình này phải mất nhiều năm. Ngoài ra polyp phát triển thành ung thư còn liên quan đến kích thước. Ước tính cứ 6 polyp chiều ngang 1 cm thì có một phát triển thành ung thư trong vòng 10 năm.
+
+              Kiểm tra đại trực tràng thường xuyên là một trong những cách tốt nhất để phòng tránh ung thư. Polyp tiền ung thư thường không biểu hiện triệu chứng, có thể được tìm thấy qua nội soi đại tràng vài năm trước khi ung thư xâm lấn phát triển. Kiểm tra sàng lọc cũng tìm thấy được polyp tiền ung thư và cắt bỏ trước khi nó trở thành ung thư. Đây được xem là cách phòng bệnh cụ thể nhất. 
+
+              Ung thư đại trực tràng ở giai đoạn sớm nhất cũng có thể phát hiện qua kiểm tra. Nhìn chung loại ung thư này có nhiều khả năng chữa khỏi nên việc phát hiện sớm rất quan trọng trước khi nó có cơ hội di căn. Bác sĩ Zee khuyên mọi người tập lối sống lành mạnh có thể giảm nguy cơ phát triển ung thư đại trực tràng. 
+
+              Hơn một nửa số người được chẩn đoán ung thư đại trực tràng đều không có triệu chứng. Đến khi các triệu chứng xuất hiện lại rất khác nhau, phụ thuộc vào kích thước và vị trí khối u. Bác sĩ Zee chỉ ra một số triệu chứng phổ biến của ung thư đại trực tràng là:
+
+              - Thay đổi thói quen ruột: Tiêu chảy hoặc táo bón.
+              - Có máu trong phân. 
+              - Khó chịu dai dẳng ở ổ bụng như co cứng cơ, chướng bụng hoặc đau.
+              - Cảm giác ruột không rỗng hoàn toàn.
+              - Sụt cân không rõ nguyên nhân.
+              ]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="ID">2</Field>
+          <Field Name="Title">Dịch bệnh Zika lan rộng khắp Sài Gòn </Field>
+          <Field Name="NewsShortContent">Tính đến ngày 20/12 TP HCM ghi nhận 141 ca nhiễm virus Zika tại 23/24 quận huyện, trong đó có 18 thai phụ</Field>
+          <Field Name="Body">
+            <![CDATA[
+          Theo Trung tâm Y tế dự phòng TP HCM, hiện thành phố chỉ còn quận 8 chưa phát hiện ca bệnh nào. Trong số 23 trên 24 quận huyện có bệnh nhân nhiễm virus Zika, Bình Thạnh dẫn đầu với 28 trường hợp. Các quận khác có nhiều bệnh nhân là quận 2 với 18 ca, quận 12 (13) Thủ Đức (12) Tân Phú (11), quận 9 (10), Gò Vấp, Phú Nhuận (6). Các quận 1, Tân Bình, Phú Nhuận mỗi nơi 5 bệnh nhân.
+          
+          Trong số 141 trường hợp nhiễm virus Zika, có 95 bệnh nhân đã qua 28 ngày theo dõi. Bệnh do virus Zika thường có biểu hiện lâm sàng nhẹ, có thể gây hậu quả trầm trọng nếu thai phụ nhiễm bệnh trong những tháng đầu thai kỳ vì nguy cơ gây dị tật đầu nhỏ cho thai nhi. Cần chủ động phòng tránh muỗi đốt, sinh hoạt tình dục an toàn, sử dụng bao cao su để tránh lây truyền virus Zika qua đường tình dục.
+
+          Người xuất hiện triệu chứng nghi ngờ có thể đến 30 bệnh viện tại TP HCM và các cơ sở y tế trên cả nước để lấy máu xét nghiệm miễn phí. Dấu hiệu nghi ngờ bệnh là có phát ban và ít nhất hai trong 4 triệu chứng gồm sốt dưới 38 độ, viêm kết mạc hoặc xung huyết kết mạc, đau khớp hoặc phù quanh khớp, đau cơ. Thời gian theo dõi sức khỏe người bệnh sau khi phát hiện nhiễm virus là 28 ngày.
+
+          Ngành y tế TP HCM đang tăng cường phun xịt hóa chất diệt muỗi trên diện rộng, vệ sinh môi trường, diệt loăng quăng, tuyên truyền người dân chung tay phòng dịch. Bên cạnh biện pháp phun sương lạnh phổ biến, thành phố vừa thí điểm phun mù nhiệt theo công nghệ Singapore với hạt thuốc nhẹ lơ lửng trong không khí lâu hơn, có thể diệt cả muỗi đang bay.
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">3</Field>
+          <Field Name="Title">127 người Sài Gòn mắc bệnh Zika </Field>
+          <Field Name="NewsShortContent">Ngày 14/12 TP HCM ghi nhận 127 người nhiễm Zika tại 22/24 quận huyện, trong đó có 16 thai phụ.</Field>
+          <Field Name="Body">
+            <![CDATA[
+          Theo Trung tâm Y tế dự phòng TP HCM thời gian qua mỗi ngày thành phố phát hiện trung bình 4-5 ca mắc mới. Trong số 22 trên 24 quận huyện có bệnh nhân nhiễm virus Zika, Bình Thạnh dẫn đầu với 23 trường hợp. Tiếp theo là quận 2 với 17 ca, quận 12, Thủ Đức, Tân Phú (11), quận 9 (10), những quận 1, Tân Bình, Phú Nhuận (5), các quận 3, 10, Gò Vấp, Hóc Môn (3), các quận 4, 5, 7, Củ Chi, Bình Chánh, Nhà Bè, Cần Giờ, Bình Tân (2) và quận 6 ghi nhận một bệnh nhân. 16 thai phụ được theo dõi sức khỏe. 
+          Nhân viên y tế sử dụng kỹ thuật mới phun hơi nóng diệt muỗi phòng chống bệnh do virus Zika tại ký túc xá đại học ở TP HCM. Ảnh: Phương Vy.
+
+          Nhân viên y tế sử dụng kỹ thuật mới phun hơi nóng diệt muỗi phòng chống bệnh do virus Zika tại ký túc xá đại học ở TP HCM. Ảnh: Phương Vy.
+
+          Ngành y tế TP HCM đang tăng cường phun xịt hóa chất diệt muỗi trên diện rộng, vệ sinh môi trường, diệt loăng quăng, tuyên truyền người dân chung tay phòng dịch. Bên cạnh biện pháp phun sương lạnh phổ biến, thành phố vừa thí điểm phun mù nhiệt theo công nghệ Singapore với hạt thuốc nhẹ lơ lửng trong không khí lâu hơn, có thể diệt cả muỗi đang bay.
+
+          Bệnh do virus Zika thường có biểu hiện lâm sàng nhẹ, có thể gây hậu quả trầm trọng nếu thai phụ nhiễm bệnh trong những tháng đầu thai kỳ vì nguy cơ gây dị tật đầu nhỏ cho thai nhi. Cần chủ động phòng tránh muỗi đốt, sinh hoạt tình dục an toàn, sử dụng bao cao su để tránh lây truyền virus Zika qua đường tình dục.
+
+          Người xuất hiện triệu chứng nghi ngờ có thể đến 30 bệnh viện tại TP HCM và các cơ sở y tế trên cả nước để lấy máu xét nghiệm miễn phí. Dấu hiệu nghi ngờ bệnh là có phát ban và ít nhất hai trong 4 triệu chứng gồm sốt dưới 38 độ, viêm kết mạc hoặc xung huyết kết mạc, đau khớp hoặc phù quanh khớp, đau cơ.
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">4</Field>
+          <Field Name="Title">Chữa mụn ở tuổi 22 </Field>
+          <Field Name="NewsShortContent">Em có rất nhiều mụn trên mặt khoảng một năm nay, thường xuyên vệ sinh da mặt sạch sẽ và tránh các yếu tố môi trường ảnh hưởng đến da nhưng tình trạng vẫn không cải thiện. </Field>
+          <Field Name="Body">
+            <![CDATA[
+          Em luôn trong tình trạng mệt mỏi, sắc tố da xấu và hay thay đổi, mặc dù ăn uống và sinh hoạt rất khoa học. Xin mọi người có kinh nghiệm và chuyên gia tư vấn giúp em cách khắc phục tình trạng trên. Em cảm ơn. (docgia).
+           Trả lời:
+
+          Chào bạn,
+
+          Khoảng 90% mụn trứng cá bắt đầu xuất hiện ở tuổi dậy thì. Mụn trứng cá nặng chiếm 0,4% ở nữ và 3 đến 4% ở nam, có thể điều trị khỏi nếu chăm sóc đúng. 
+
+          Để trị mụn trứng cá, bạn cần sử dụng thuốc uống và bôi. Quá trình theo dõi bệnh có thể gặp nhiều khó khăn nếu bạn có kèm rối loạn về nội tiết tố (ví dụ như hội chứng buồng trứng đa nang) hay liên quan yếu tố gia đình (do gene) như có bố hoặc mẹ, anh chị em bị mụn nặng.
+
+          Về cơ bản, cách chăm sóc da bị mụn trứng cá nặng cần chú ý những điểm sau:
+
+          - Bỏ thói quen sờ tay lên mặt cũng như nặn, hút, hoặc lể mụn vì sẽ gây đỏ và tạo sẹo xấu.
+
+          - Hạn chế các yếu tố gây bít tắc lỗ chân lông như dùng mỹ phẩm, đội nón chặt, để tóc che phủ mặt, đổ mồ hôi nhiều.
+
+          - Chọn lựa các sản phẩm tẩy rửa, dưỡng da phù hợp như loại rửa êm dịu da, không chứa cát nhám. Tốt nhất nên dùng loại dưỡng da có ghi chú “non-acnegenic” (không tạo mụn) hoặc “non-conmedogenic” (không tạo cồi).
+
+          - Nên rửa mặt từ 2 đến 3 lần mỗi ngày. Chỉ rửa bằng nước sạch khi da khô, đỏ, ngứa do tác dụng của thuốc đang điều trị bệnh. Có thể dùng rửa mặt thêm một lần vào buổi tối khi da nhờn bằng sản phẩm rửa thích hợp. Không nên dùng bông hoặc khăn chà xát vì sẽ làm trầy xước da, chỉ nên rửa nhẹ nhàng bằng tay, sau đó thấm khô nước bằng gạc sạch. Lưu ý: Nên rửa tay thật sạch trước khi rửa mặt. 
+
+          - Không nên dùng thuốc "truyền miệng" theo lời khuyên của bạn bè, người quen hoặc tự mua thuốc dùng. Cách điều trị mụn rất khác nhau giữa người này và người khác, còn phụ thuộc vào độ tuổi, giới tính, các yếu tố nguy cơ, đặc điểm loại da, loại mụn… Do vậy bạn nên đến cơ sở y tế có chuyên khoa da liễu để được bác sĩ tư vấn cụ thể.
+
+          Thân ái.
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">5</Field>
+          <Field Name="Title">Bị cao huyết áp nên ăn và kiêng gì? </Field>
+          <Field Name="NewsShortContent">Tôi 38 tuổi cao 1,63 m, nặng 68 kg, bị bệnh cao huyết áp. Tôi nên kiêng khem những gì trong sinh hoạt và làm việc cho phù hợp? Xin chân thành cảm ơn (docgia). </Field>
+          <Field Name="Body">
+            <![CDATA[
+          Chào bạn,
+
+          Chỉ số BMI của bạn là 25,5, hơi thừa cân. Bên cạnh việc uống thuốc hạ huyết áp theo toa của bác sĩ, bạn cần phải điều chỉnh chế độ ăn và tập thể dục để giảm cân.
+
+          Mức cân nặng lý tưởng của bạn vào khoảng 65 đến 66 kg. Chế độ ăn thích hợp cho người cao huyết áp là ít muối (ăn nhạt), ít chất béo (nội tạng, da, mỡ động vật), ít ngọt, nhiều rau củ. Các môn thể dục thích hợp gồm bơi, đi bộ, chạy bộ, cầu lông, tennis, yoga...
+
+          Chúc bạn lạc quan và mạnh khỏe.
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">6</Field>
+          <Field Name="Title">Ngủ ngay sau khi ăn trưa dễ bị bệnh cao huyết áp </Field>
+          <Field Name="NewsShortContent">Các chuyên gia cảnh báo hàng triệu người trên thế giới có thói quen ngủ ngày đang bị huyết áp cao, nếu không được điều trị đúng có thể dẫn đến đột quỵ, đau tim và các chứng bệnh khác.</Field>
+          <Field Name="Body">
+            <![CDATA[
+          Nhà nghiên cứu Minnesota Mayo phát biểu trên tờ Time New View của Nga rằng thói quen ngủ ngày không tốt cho sức khỏe. Các chuyên gia đã khảo sát trên một triệu người tham gia và phát hiện 13 đến 19% những người hay ngủ trưa sau khi ăn có nhiều nguy cơ bị cao huyết áp. Hàng triệu người trên thế giới đang bị căn bệnh này, nếu không được điều trị đúng có thể dẫn đến đột quỵ, đau tim và các chứng bệnh khác.
+
+          Cao huyết áp còn gọi là tăng huyết áp hay tăng xông, có nguồn tốc từ chữ Hypertension trong tiếng Pháp. Đây là bệnh mạn tính, trong đó áp lực máu đo được ở động mạch tăng cao. Huyết áp thường được đo bằng 2 chỉ số là huyết áp tâm thu (systolic) và huyết áp tâm trương (diastolic) dựa trên 2 giai đoạn co bóp và giãn nghỉ của cơ tim, tương ứng với áp lực cao nhất và áp lực thấp nhất của dòng máu trong động mạch.
+
+          Có nhiều quy chuẩn khác nhau về khoảng bình thường của huyết áp. Huyết áp lúc nghỉ thông thường nằm trong khoảng 100 đến 140 mmHg huyết áp tâm thu và từ 60 đến 90mm Hg huyết áp tâm trương. Một người bị cao huyết áp khi có số đo thường xuyên cao hơn hoặc bằng 140/90 mmHg.
+
+          Tăng huyết áp được phân loại thành tăng huyết áp nguyên phát và thứ phát. Tăng huyết áp nguyên phát là các trường hợp không xác định được nguyên nhân gây bệnh rõ ràng (vô căn) chiếm từ 90 đến 95% số ca tăng huyết áp. Khoảng từ 5 đến 10% số ca còn lại là tăng huyết áp thứ phát có nguyên nhân từ một số bệnh tác động lên thận, động mạch, tim và hệ nội tiết.
+
+          Các nguyên nhân gây cao huyết áp bao gồm:
+
+          - Yếu tố di truyền: Khoảng 60% bệnh nhân cao huyết áp có tiền sử gia đình. Nghiên cứu ghi nhận từ 30% đến 50% bệnh nhân tăng huyết áp có nền tảng di truyền.
+
+          - Yếu tố tinh thần và môi trường: Căng thẳng tinh thần, kích động, lo âu hoặc chịu đựng tiếng ồn trong thời gian dài, thị giác kém hoặc các yếu tố khác có thể gây ra huyết áp cao.
+
+          - Các yếu tố liên quan tuổi tác: Tỷ lệ mắc bệnh cao huyết áp có xu hướng tăng lên ở độ tuổi trên 40.
+
+          - Các yếu tố lối sống: Chế độ ăn dùng natri quá mức, kali thấp, uống rượu, ăn nhiều axit béo bão hòa có thể gây cao huyết áp. Hút thuốc có thể thúc đẩy quá trình xơ vữa động mạch, là yếu tố nguy cơ tăng huyết áp.
+
+          - Ảnh hưởng của thuốc: Thuốc tránh thai, hormone, thuốc giảm đau chống viêm có thể ảnh hưởng đến huyết áp.
+
+          - Tác động của các bệnh khác như béo phì, tiểu đường, hội chứng ngưng thở khi ngủ, bệnh tuyến giáp, hẹp động mạch thận, tổn thương nhu mô thận, tổn thương tuyến thượng thận, pheochromocytoma, và các khối u thần kinh nội tiết khác cũng có thể tăng nguy cơ huyết áp cao.
+              ]]>
+          </Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="ID">7</Field>
+          <Field Name="Title">Cao huyết áp dẫn đến nhồi máu cơ tim đột quỵ như thế nào </Field>
+          <Field Name="NewsShortContent">Huyết áp cao làm tăng áp lực lên thành mạch, khiến thành mạch giãn tạo túi phình hoặc tích tụ huyết khối dẫn đến nhồi máu cơ tim gây đột quỵ, theo Nucleus.</Field>
+          <Field Name="Body">
+            <![CDATA[
+          Huyết áp cao làm tăng áp lực lên thành mạch, khiến thành mạch giãn tạo túi phình hoặc tích tụ huyết khối dẫn đến nhồi máu cơ tim gây đột quỵ, theo Nucleus.
+          Huyết áp cao làm tăng áp lực lên thành mạch, khiến thành mạch giãn tạo túi phình hoặc tích tụ huyết khối dẫn đến nhồi máu cơ tim gây đột quỵ, theo Nucleus.
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">8</Field>
+          <Field Name="Title">Dân văn phòng dễ mắc bệnh tăng huyết áp </Field>
+          <Field Name="NewsShortContent">Thường xuyên căng thẳng, ngồi nhiều, lười vận động, ăn thức ăn nhiều muối... khiến dân văn phòng được xếp vào nhóm nguy cơ cao mắc bệnh tăng huyết áp.</Field>
+          <Field Name="Body">
+            <![CDATA[
+          Tăng huyết áp còn gọi là cao huyết áp, tức trạng thái máu lưu thông với áp lực tăng liên tục. Một người được xác định là tăng huyết áp khi huyết áp tâm thu từ 140 mmHg trở lên và/hoặc huyết áp tâm trương từ 90 mmHg trở lên.
+        Dân văn phòng được xếp vào nhóm có nguy cơ cao mắc tăng huyết áp vì hội tụ cùng lúc nhiều yếu tố như stress, ngồi nhiều, ăn uống thiếu kiểm soát... Giáo sư Nguyễn Lân Việt, Chủ tịch Hội Tim mạch học Việt Nam cho biết, dân văn phòng thường ăn cơm bụi nên không kiểm soát được lượng muối, lượng dầu mỡ, không ăn đủ rau xanh như ở nhà. Bên cạnh đó, lối sống tĩnh tại, lười vận động, căng thẳng thần kinh… cũng khiến nhiều người bị tăng huyết áp.
+         Tại Việt Nam, hiện có gần 21 triệu người bị tăng huyết áp. Theo thống kê cứ bốn người trưởng thành thì có một người bị bệnh. Đây là bệnh lý nguy hiểm vì có thể dẫn đến suy thận, nhồi máu cơ tim, thậm chí gây xuất huyết não, vỡ mạch máu não. Vì thế, nhiều người tử vong đột ngột trong vòng 1-2 phút mà không biết nguyên nhân.
+
+        Bệnh rất dễ phát hiện bằng cách đo huyết áp. Tuy nhiên, tại Việt Nam, vẫn có đến 82% người dân chưa được kiểm soát huyết áp đầy đủ. Trong đó khoảng 8,1 triệu người không biết mình có bệnh; 0,9 triệu người biết mình có bệnh nhưng không điều trị và 8,1 triệu người điều trị nhưng huyết áp không được kiểm soát đầy đủ.
+
+        Theo giáo sư Việt, tăng huyết áp có thể có triệu chứng báo hiệu trước như: đau đầu, chóng mặt, thấy o o trong tai, ruồi bay trong mắt... Tuy nhiên, thực tế nhiều người chỉ biết có bệnh khi nhập viện cấp cứu vì đột quỵ. Có nhiều người huyết áp vọt lên đến hơn 200 nhưng họ lại không thấy triệu chứng gì.
+
+        "Cũng vì thế mà bệnh còn gọi được gọi là 'kẻ giết người thầm lặng', chỉ một số ít người bệnh thấy triệu chứng. Vì thế cách tốt nhất là người dân nên đi khám, kiểm tra sức khỏe định kỳ. Ở các nước vấn đề khám sức khỏe định kỳ rất tốt nhưng tại nước ta nhiều nơi chưa làm được. Có trường hợp vào viện vì tai biến mạch máu não mới biết mình mắc bệnh", giáo sư Việt nói.
+
+        Tăng huyết áp là bệnh phải điều trị lâu dài, thậm chí điều trị suốt đời. Mục tiêu là đạt được huyết áp tiêu chuẩn 140/90. Việc này phụ thuộc vào cả người bệnh và bác sĩ.
+
+        Về phía người thầy thuốc, nguyên tắc điều trị là phối hợp thuốc để tăng hiệu quả, giảm tác dụng không mong muốn. Bên cạnh đó, người bệnh cần tuần thủ điều trị của bác sĩ. Thuốc huyết áp phải dùng thường xuyên nhưng nhiều khi người bệnh thấy bệnh khỏi thì không uống nữa, có người lấy đơn thuốc của người khác dùng. Có bệnh nhân bị tăng huyết áp nhưng lấy lý do không đau đầu, không chóng mặt nên không cần điều trị.
+
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">9</Field>
+          <Field Name="Title">Ngừa cao huyết áp bằng 4 bài tập hít thở đơn giản </Field>
+          <Field Name="NewsShortContent">Bài tập hít thở, gập người, phép thở xả khí giúp ổn định nhịp tim, ổn định huyết áp.</Field>
+          <Field Name="Body">
+            <![CDATA[
+          Tăng huyết áp còn gọi là cao huyết áp, tức trạng thái máu lưu thông với áp lực tăng liên tục. Một người được xác định là tăng huyết áp khi huyết áp tâm thu từ 140 mmHg trở lên và/hoặc huyết áp tâm trương từ 90 mmHg trở lên.
+        Dân văn phòng được xếp vào nhóm có nguy cơ cao mắc tăng huyết áp vì hội tụ cùng lúc nhiều yếu tố như stress, ngồi nhiều, ăn uống thiếu kiểm soát... Giáo sư Nguyễn Lân Việt, Chủ tịch Hội Tim mạch học Việt Nam cho biết, dân văn phòng thường ăn cơm bụi nên không kiểm soát được lượng muối, lượng dầu mỡ, không ăn đủ rau xanh như ở nhà. Bên cạnh đó, lối sống tĩnh tại, lười vận động, căng thẳng thần kinh… cũng khiến nhiều người bị tăng huyết áp.
+         Tại Việt Nam, hiện có gần 21 triệu người bị tăng huyết áp. Theo thống kê cứ bốn người trưởng thành thì có một người bị bệnh. Đây là bệnh lý nguy hiểm vì có thể dẫn đến suy thận, nhồi máu cơ tim, thậm chí gây xuất huyết não, vỡ mạch máu não. Vì thế, nhiều người tử vong đột ngột trong vòng 1-2 phút mà không biết nguyên nhân.
+
+        Bệnh rất dễ phát hiện bằng cách đo huyết áp. Tuy nhiên, tại Việt Nam, vẫn có đến 82% người dân chưa được kiểm soát huyết áp đầy đủ. Trong đó khoảng 8,1 triệu người không biết mình có bệnh; 0,9 triệu người biết mình có bệnh nhưng không điều trị và 8,1 triệu người điều trị nhưng huyết áp không được kiểm soát đầy đủ.
+
+        Theo giáo sư Việt, tăng huyết áp có thể có triệu chứng báo hiệu trước như: đau đầu, chóng mặt, thấy o o trong tai, ruồi bay trong mắt... Tuy nhiên, thực tế nhiều người chỉ biết có bệnh khi nhập viện cấp cứu vì đột quỵ. Có nhiều người huyết áp vọt lên đến hơn 200 nhưng họ lại không thấy triệu chứng gì.
+
+        "Cũng vì thế mà bệnh còn gọi được gọi là 'kẻ giết người thầm lặng', chỉ một số ít người bệnh thấy triệu chứng. Vì thế cách tốt nhất là người dân nên đi khám, kiểm tra sức khỏe định kỳ. Ở các nước vấn đề khám sức khỏe định kỳ rất tốt nhưng tại nước ta nhiều nơi chưa làm được. Có trường hợp vào viện vì tai biến mạch máu não mới biết mình mắc bệnh", giáo sư Việt nói.
+        Tăng huyết áp là bệnh phải điều trị lâu dài, thậm chí điều trị suốt đời. Mục tiêu là đạt được huyết áp tiêu chuẩn 140/90. Việc này phụ thuộc vào cả người bệnh và bác sĩ.
+        Về phía người thầy thuốc, nguyên tắc điều trị là phối hợp thuốc để tăng hiệu quả, giảm tác dụng không mong muốn. Bên cạnh đó, người bệnh cần tuần thủ điều trị của bác sĩ. Thuốc huyết áp phải dùng thường xuyên nhưng nhiều khi người bệnh thấy bệnh khỏi thì không uống nữa, có người lấy đơn thuốc của người khác dùng. Có bệnh nhân bị tăng huyết áp nhưng lấy lý do không đau đầu, không chóng mặt nên không cần điều trị.
+              ]]>
+          </Field>
+        </Row>
+
+        <Row>
+          <Field Name="ID">10</Field>
+          <Field Name="Title">Làm sao giảm béo mông đùi? </Field>
+          <Field Name="NewsShortContent">Em trong tình trạng thừa cân, đặc biệt phần mỡ thừa phần dưới cơ thể gây mất cân đối.</Field>
+          <Field Name="Body">
+            <![CDATA[
+         Em năm nay 19 tuổi, cao 166 cm, nặng 72 kg, tính theo chỉ số BMI thì đang ở giai đoạn tiền béo phì. Đặc biệt thân hình em không được cân đối khi trọng lượng cơ thể dồn chủ yếu vào đôi chân và mông. Nhờ chuyên gia cho lời khuyên về chế độ dinh dưỡng phù hợp để có thể giảm cân và cải thiện vóc dáng. Xin cảm ơn. (Hoaduongminh6369)
+          Trả lời:
+        Chào em, với trường hợp của em nên tập thể dục thể thao kết hợp ăn uống để cơ thể săn chắc. Trên thực tế, một người có chỉ số BMI là bình thường nhưng không tập luyện thể thao thì lượng mỡ thừa trong cơ thể vẫn nhiều dẫn đến tay chân bủn rủn, thân thể èo uột, bụng lại to và mỡ nhiều.
+        Chế độ dinh dưỡng, em nên ăn 3 bữa chính và 2 bữa phụ: Bữa sáng cách trưa 5-6 giờ, bữa trưa cách chiều 6 giờ và bữa tối cách buổi sáng khoảng 12 giờ. Bữa phụ là giữa buổi sáng và giữa buổi trưa chiều. Các bữa phụ nên ưu tiên thực phẩm như táo, hạt hạnh nhân hay hũ sữa chua.
+
+        Em không cung cấp đủ yếu tố như tỷ lệ mỡ thừa trong cơ thể nên tôi không thể tính chính xác em cần bao nhiêu calo trong một ngày. Những nguyên tắc ăn uống em nên áp dụng là ăn ít tinh bột, thay cơm bằng khoai lang, yến mạch, táo để cung cấp năng lượng hằng ngày. Ăn nhiều rau quả để có chất xơ. Với chỉ số BMI cao hơn bình thường, em nên lưu ý ăn lượng đạm vừa phải để tránh bị dư axit uric dẫn đến gout.
+
+        Em nên đến phòng gym để tập luyện dưới sự hướng dẫn của huấn luyện viên hoặc tập những động tác cường độ cao tại nhà mỗi ngày.
+
+        Chúc em sớm lấy lại vóc dáng thon gọn và sức khỏe.
+              ]]>
+          </Field>
+        </Row>
+      </Rows>
+    </Data>-->
+  </ListInstance>
+</Elements>

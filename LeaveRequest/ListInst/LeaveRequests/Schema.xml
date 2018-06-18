@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="LeaveRequests" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/LeaveRequests" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01006062fafe131249ea84ca696d4f0751a9" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{6a7abe8c-3205-4eb1-bcfb-8f456da722d3}" Name="Requestor" /><FieldRef ID="{859d1273-2c8f-448a-b5a1-f68e63fafdbd}" Name="Approver" /><FieldRef ID="{7f18bc06-4ec8-4540-aa05-8155881014a1}" Name="StartTime" /><FieldRef ID="{9d560ccd-7555-467f-89ce-f20598244248}" Name="EndTime" /><FieldRef ID="{21ac04d2-0566-4df1-9296-bd120947855d}" Name="RequestStatus" /><FieldRef ID="{0b65696c-f355-4f7c-b460-983e613fbf13}" Name="RequestorComments" /><FieldRef ID="{3d54f046-0cdb-4dd9-8112-52696f0c2b93}" Name="ApproverComments" /></FieldRefs></ContentType><ContentType ID="0x010094A98CA7C9F84FCAB58F04F52C3863AD" Name="LeaveRequest" Group="Custom Content Types" Description="Leave Request Content Type" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{6a7abe8c-3205-4eb1-bcfb-8f456da722d3}" DisplayName="Requestor" Required="TRUE" Description="" Name="Requestor" Sealed="FALSE" /><FieldRef ID="{859d1273-2c8f-448a-b5a1-f68e63fafdbd}" DisplayName="Approver" Required="TRUE" Description="" Name="Approver" Sealed="FALSE" /><FieldRef ID="{7f18bc06-4ec8-4540-aa05-8155881014a1}" DisplayName="Start Time" Required="TRUE" Name="StartTime" Sealed="FALSE" /><FieldRef ID="{9d560ccd-7555-467f-89ce-f20598244248}" DisplayName="End Time" Required="TRUE" Name="EndTime" Sealed="FALSE" /><FieldRef ID="{21ac04d2-0566-4df1-9296-bd120947855d}" DisplayName="Request Status" Required="TRUE" Description="DO NOT MODIFY THIS FIELD" Name="RequestStatus" Sealed="FALSE" /><FieldRef ID="{0b65696c-f355-4f7c-b460-983e613fbf13}" DisplayName="Requestor Comments" Required="FALSE" Name="RequestorComments" /><FieldRef ID="{3d54f046-0cdb-4dd9-8112-52696f0c2b93}" DisplayName="Approver Comments" Required="FALSE" Name="ApproverComments" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{6a7abe8c-3205-4eb1-bcfb-8f456da722d3}" Name="Requestor" DisplayName="Requestor" StaticName="Requestor" Type="User" UserSelectionMode="PeopleOnly" ShowField="ImnName" Description="" Required="TRUE" Sealed="FALSE" Group="Stada Site Columns"></Field><Field ID="{859d1273-2c8f-448a-b5a1-f68e63fafdbd}" Name="Approver" DisplayName="Approver" StaticName="Approver" Type="User" UserSelectionMode="PeopleOnly" ShowField="ImnName" Description="" Required="TRUE" Sealed="FALSE" Group="Stada Site Columns"></Field><Field ID="{7f18bc06-4ec8-4540-aa05-8155881014a1}" Name="StartTime" DisplayName="Start Time" StaticName="StartTime" Type="DateTime" Required="TRUE" Sealed="FALSE" Group="Stada Site Columns"></Field><Field ID="{9d560ccd-7555-467f-89ce-f20598244248}" Name="EndTime" DisplayName="End Time" StaticName="EndTime" Type="DateTime" Required="TRUE" Sealed="FALSE" Group="Stada Site Columns"></Field><Field ID="{21ac04d2-0566-4df1-9296-bd120947855d}" Name="RequestStatus" DisplayName="Request Status" StaticName="RequestStatus" Type="Choice" Description="DO NOT MODIFY THIS FIELD" Required="TRUE" Sealed="FALSE" Group="Stada Site Columns" FillInChoice="FALSE"><CHOICES><CHOICE>Submitted</CHOICE><CHOICE>Pending</CHOICE><CHOICE>Rejected</CHOICE><CHOICE>Approved</CHOICE></CHOICES><Default>Submitted</Default></Field><Field ID="{0b65696c-f355-4f7c-b460-983e613fbf13}" Name="RequestorComments" DisplayName="Requestor Comments" StaticName="RequestorComments" Type="Text" Required="FALSE" Group="Stada Site Columns"></Field><Field ID="{3d54f046-0cdb-4dd9-8112-52696f0c2b93}" Name="ApproverComments" DisplayName="Approver Comments" StaticName="ApproverComments" Type="Text" Required="FALSE" Group="Stada Site Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Requestor" /><FieldRef Name="Approver" /><FieldRef Name="StartTime" /><FieldRef Name="EndTime" /><FieldRef Name="RequestStatus" /><FieldRef Name="RequestorComments" /><FieldRef Name="ApproverComments" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

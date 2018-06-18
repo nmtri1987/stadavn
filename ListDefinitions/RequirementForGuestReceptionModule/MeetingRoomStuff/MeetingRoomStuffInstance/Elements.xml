@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="$Resources:RBVHStadaLists,MeetingRoomStuff_ListTitle;"
+                OnQuickLaunch="TRUE"
+                TemplateType="22007"
+                Url="Lists/MeetingRoomStuff"
+                Description="$Resources:RBVHStadaLists,MeetingRoomStuff_ListTitle;">
+  </ListInstance>
+</Elements>

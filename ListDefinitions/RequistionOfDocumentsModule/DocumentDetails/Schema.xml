@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="$Resources:RBVHStadaLists,DocumentDetails_ListTitle;" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/DocumentDetails" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <Fields>
+
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+
+      <Field ID="{21744334-630D-4B6B-93AE-A37D4A93891D}" Name="RequisitionForm" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_RequisitionForm" Type="Lookup" List="Lists/RequisitionForms" ShowField="ID" Required="TRUE" Group="Stada Columns"></Field>
+      <Field ID="{72FED7D4-BDAE-4753-A778-6A819F65575F}" Name="DocumentName" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_DocumentNameTitle;" Required="FALSE" Type="Text"/>
+      <Field ID="{064094E6-57F3-4D1B-96A3-015941487E63}" Name="NotarizedCopy" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_NotarizedCopyTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{EEBF8457-D700-4EE0-9046-B5A5FD7B4268}" Name="NotarizedCopyQuantity" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_NotarizedCopyQuantityTitle;" Type="Number" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{084C3D2E-26F3-43F2-877F-D476A8ABFB74}" Name="Copy" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_CopyTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{944D9377-66A9-4A40-9364-D08F5A6AFACE}" Name="CopyQuantity" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_CopyQuantityTitle;" Type="Number" Required="FALSE" Group="Stada Columns"></Field>
+      <Field ID="{6CABAF3D-2BC7-4B1A-A912-1B70EA1402C0}" Name="ReceivedDate" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_ReceivedDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      <Field ID="{5983B9F9-029D-4A5E-A9C3-2C1AA4D517F2}" Name="Borrow" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_BorrowTitle" Type="Boolean" Required="FALSE" />
+      <Field ID="{EC5B6601-2419-4C6D-B0BE-C9B6FC694493}" Name="ReturnedDate" DisplayName="$Resources:RBVHStadaLists,DocumentDetails_ReturnedDateTitle;" Type="DateTime" Required="FALSE" Format="DateOnly" Group="Stada Columns" />
+      
+    </Fields>
+
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">20</RowLimit>
+        <ViewFields>
+
+          <FieldRef Name="LinkTitle"></FieldRef>
+          <FieldRef Name="RequisitionForm" />
+          <FieldRef Name="DocumentName" />
+          <FieldRef Name="NotarizedCopy" />
+          <FieldRef Name="NotarizedCopyQuantity" />
+          <FieldRef Name="Copy" />
+          <FieldRef Name="CopyQuantity" />
+          <FieldRef Name="ReceivedDate" />
+          <FieldRef Name="Borrow" />
+          <FieldRef Name="ReturnedDate" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

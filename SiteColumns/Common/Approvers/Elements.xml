@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{31e42fdb-96e6-4e5a-96ab-861954f8c0c0}"
+       Name="Approvers"
+       DisplayName="Approvers"
+       Type="User" UserSelectionMode="PeopleOnly"
+       Mult="TRUE"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

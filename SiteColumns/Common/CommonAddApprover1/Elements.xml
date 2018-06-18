@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9c190e70-9337-40a9-aeb9-c10bd208f0ec}"
+       Name="CommonAddApprover1"
+       DisplayName="Common Add Approver 1"
+       Type="User"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

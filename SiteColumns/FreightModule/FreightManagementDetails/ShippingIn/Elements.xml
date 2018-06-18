@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5ed44549-dead-4501-8fc4-a4199449accc}"
+       Name="ShippingIn"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_ShippingIn;"
+       Type="DateTime" Format="DateTime"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

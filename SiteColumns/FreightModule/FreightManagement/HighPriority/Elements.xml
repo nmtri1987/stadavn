@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2e6f4cf1-0074-43de-b871-b619065ce626}"
+       Name="HighPriority"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_IsHighPriority;"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

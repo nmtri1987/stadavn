@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4dfb950d-5d49-4c1f-a7bd-678f2094e2d8}"
+       Name="AutoCreateOverTime"
+       DisplayName="Auto Create OverTime"
+       Type="Boolean"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

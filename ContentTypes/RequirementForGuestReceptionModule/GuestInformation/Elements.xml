@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100D6716E2E6C034BC9B262630EC317A44C"
+               Name="GuestInformation"
+               Group="Stada Content Types"
+               Description="GuestInformation_ContentType_Description"
+               Inherits="FALSE"
+               Version="0">
+    <FieldRefs>
+      <RemoveFieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" />
+      <RemoveFieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" />
+      <RemoveFieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+      <FieldRef ID="{7dc1ec01-b984-48e1-84c3-0a43228dd5ca}" Name="GuestReceptionManagementID" Required="TRUE" />
+      <FieldRef ID="{0f9ff5bf-904b-49fd-8077-45e062635537}" Name="GuestName" Required="TRUE" />
+      <FieldRef ID="{b6ac2ced-3048-4e0e-84d8-41c3c46308fc}" Name="GuestGender" Required="TRUE" />
+      <FieldRef ID="{83daab68-ece2-4c68-a149-865a3f60cbbe}" Name="GuestNationality" Required="TRUE" />
+      <FieldRef ID="{3779dbf8-5a27-412c-8ec0-3a21151366f6}" Name="GuestJobTitle" Required="TRUE" />
+      <FieldRef ID="{a43adfa8-dffd-4054-bb28-493b5449d451}" Name="PassportNo" Required="TRUE" />
+      <FieldRef ID="{3999dbd3-87e7-490c-9c01-53998c7e38b5}" Name="DateOfIssue" Required="TRUE" />
+      <FieldRef ID="{e815577a-6032-4cb4-b299-da636c6fc0e3}" Name="DateOfArrival" Required="TRUE" />
+      <FieldRef ID="{ecdde063-06ab-4fd9-869e-80dce67d65a0}" Name="VisaValidity" Required="TRUE" />
+
+    </FieldRefs>
+  </ContentType>
+</Elements>

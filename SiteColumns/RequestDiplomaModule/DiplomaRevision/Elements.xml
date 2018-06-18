@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1fbb1ca5-f015-4afe-87a8-2e53cb552a66}"
+       Name="DiplomaRevision"
+       DisplayName="Diploma Revision"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

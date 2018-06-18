@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b7b03ecb-aebb-4c01-9a90-a5b6ca24ea52}"
+       Name="PermissionModuleCategory"
+       DisplayName="Module Category"
+       Type="Lookup" List="Lists/ModuleCategory" ShowField="CommonName"
+       Required="TRUE"
+       Group="Stada Columns">
+  </Field>
+</Elements>

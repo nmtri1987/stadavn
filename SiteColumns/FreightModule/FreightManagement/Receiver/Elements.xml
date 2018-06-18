@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d2ceb8e2-49d4-4e3b-a7fa-e1249f63b1ba}"
+       Name="Receiver"
+       DisplayName="$Resources:RBVHStadaLists,FreightManagement_Receiver;"
+       Type="Text"
+       Required="FALSE"
+       Group="Stada Columns">
+  </Field>
+</Elements>
